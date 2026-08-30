@@ -1,0 +1,8 @@
+object,tier,smooth_slice_standard_B4,non_ribbon,exact_weaker_status,verdict,primary_sources
+18nh00000601,A,PROVED,UNKNOWN,"fibered; handle-ribbon",PRIMARY CANDIDATE,"S01;S02;S03"
+GST Figure 2 band sum B_3_1,A,PROVED,UNKNOWN,"explicit GST handle/belt-sphere disk",LIVE,"S04;S05;S16"
+fixed GST band sum B_n_k_b,A,PROVED,UNKNOWN,"depends on fixed band; handle-theoretic disk",LIVE TOO BROAD UNTIL FIXED,"S04;S05;S14"
+annulus twist A_j(J) from fixed ribbon annulus presentation,A,PROVED,UNKNOWN,"smoothly slice; subfamily-specific",SCHEMA ONLY,"S05"
+A_n(6_3)#(-A_m(6_3)),B,UNKNOWN,PROVED for permitted distinct pair,"fibered signed connected sum",WEAK LIVE,"S06;S07"
+Hom-Park Corollary 1.3 P-sum,B,UNKNOWN,PROVED,"algebraically slice; gamma_0-sharp hypotheses",WEAK LIVE,"S08"
+Abe-Tange 8_20 family n>=0,CLOSED,PROVED,DISPROVED because ribbon,ribbon,CLOSED,"S05"
