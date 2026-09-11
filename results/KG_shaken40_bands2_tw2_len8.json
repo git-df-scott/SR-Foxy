@@ -1,0 +1,31 @@
+{
+ "knot": "18nh00000601",
+ "date": "2026-09-11T19:48:16.894281Z",
+ "box": {
+  "n_diagrams": 40,
+  "backtrack_steps": 25,
+  "max_bands": 2,
+  "max_twists": 2,
+  "max_band_len": 8,
+  "paths": "shortest",
+  "seed": 1
+ },
+ "seconds": 117.4,
+ "runs": [
+  {
+   "diagram": 0,
+   "crossings": 18,
+   "seconds": 32.8,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 1,
+   "crossings": 23,
+   "seconds": 84.6,
+   "survivors": 0,
+   "unknot": false
+  }
+ ],
+ "unknot_found": false
+}

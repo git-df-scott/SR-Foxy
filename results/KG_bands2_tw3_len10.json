@@ -1,0 +1,15 @@
+{
+ "knot": "18nh00000601",
+ "date": "2026-09-11T19:45:51.947208Z",
+ "box": {
+  "max_bands": 2,
+  "max_twists": 3,
+  "max_band_len": 10,
+  "paths": "shortest",
+  "filter_for_plausibly_slice": true,
+  "use_ribbon_link_cache": true
+ },
+ "seconds": 41.6,
+ "survivor_links": 0,
+ "unknot_found": false
+}
