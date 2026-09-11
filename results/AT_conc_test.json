@@ -1,0 +1,21 @@
+{
+ "date": "2026-09-11T22:27:58.212717Z",
+ "box": {
+  "n_diagrams": 1,
+  "max_band_len": 9,
+  "max_twists": 2,
+  "births": 1,
+  "saddles": 1
+ },
+ "successor_counts": {
+  "AbeTagami_K_0_(=K_-1)_=_6_3": {
+   "successors": 0,
+   "diagrams_done": 1,
+   "banded": 156,
+   "split_off_unknot": 0
+  }
+ },
+ "hits": [],
+ "meaning": "a hit proves [K_n]=[K_m], hence D_{n,m} slice; with Miyazaki that is a counterexample",
+ "seconds": 0.4
+}
