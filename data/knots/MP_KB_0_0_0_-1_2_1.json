@@ -1,0 +1,505 @@
+{
+ "name": "MP_KB(0,0,0,-1,2,1)",
+ "pd_code": [
+  [
+   0,
+   58,
+   1,
+   57
+  ],
+  [
+   1,
+   14,
+   2,
+   15
+  ],
+  [
+   15,
+   2,
+   16,
+   3
+  ],
+  [
+   56,
+   4,
+   57,
+   3
+  ],
+  [
+   4,
+   48,
+   5,
+   47
+  ],
+  [
+   46,
+   6,
+   47,
+   5
+  ],
+  [
+   6,
+   28,
+   7,
+   27
+  ],
+  [
+   64,
+   8,
+   65,
+   7
+  ],
+  [
+   35,
+   8,
+   36,
+   9
+  ],
+  [
+   24,
+   10,
+   25,
+   9
+  ],
+  [
+   10,
+   62,
+   11,
+   61
+  ],
+  [
+   11,
+   38,
+   12,
+   39
+  ],
+  [
+   41,
+   12,
+   42,
+   13
+  ],
+  [
+   32,
+   14,
+   33,
+   13
+  ],
+  [
+   16,
+   32,
+   17,
+   31
+  ],
+  [
+   54,
+   18,
+   55,
+   17
+  ],
+  [
+   18,
+   54,
+   19,
+   53
+  ],
+  [
+   52,
+   20,
+   53,
+   19
+  ],
+  [
+   20,
+   52,
+   21,
+   51
+  ],
+  [
+   42,
+   22,
+   43,
+   21
+  ],
+  [
+   22,
+   38,
+   23,
+   37
+  ],
+  [
+   23,
+   62,
+   24,
+   63
+  ],
+  [
+   34,
+   26,
+   35,
+   25
+  ],
+  [
+   65,
+   26,
+   0,
+   27
+  ],
+  [
+   45,
+   28,
+   46,
+   29
+  ],
+  [
+   29,
+   48,
+   30,
+   49
+  ],
+  [
+   55,
+   30,
+   56,
+   31
+  ],
+  [
+   33,
+   58,
+   34,
+   59
+  ],
+  [
+   36,
+   64,
+   37,
+   63
+  ],
+  [
+   60,
+   40,
+   61,
+   39
+  ],
+  [
+   40,
+   60,
+   41,
+   59
+  ],
+  [
+   43,
+   50,
+   44,
+   51
+  ],
+  [
+   49,
+   44,
+   50,
+   45
+  ]
+ ],
+ "pd_code_convention": "SnapPy/spherogram 0-indexed PD code (Link.PD_code(KnotTheory=False))",
+ "source": "DT-code formula from the Mathematica notebook DTcodes.nb accompanying Manolescu-Piccirillo, 'From zero surgeries to candidates for exotic definite four-manifolds' (arXiv:2102.04391), http://web.stanford.edu/~cm5/RBG/DTcodes.nb . The notebook's g/gg + KG/KB definitions were auto-transpiled to Python (mma.py/mp_auto.py). Paper parameters (a,b,c,d,e,f) correspond to the notebook call KX(a,-b,-c,-d,-e,-f); this convention was fixed by reproducing the volume and total HFK rank of all 22 knots listed in http://web.stanford.edu/~cm5/RBG/PromisingKnots.txt (exact agreement in all 44 numbers). DT -> PD via spherogram.DTcodec.",
+ "verification": {
+  "is_a_knot_(1_component)": true,
+  "DT_code_is_valid_permutation_of_even_numbers": true,
+  "DT_code": [
+   -58,
+   16,
+   -48,
+   -28,
+   36,
+   -62,
+   42,
+   2,
+   -32,
+   -54,
+   -52,
+   -38,
+   -10,
+   66,
+   46,
+   56,
+   -14,
+   -26,
+   -64,
+   12,
+   -60,
+   -22,
+   50,
+   -6,
+   30,
+   44,
+   -20,
+   -18,
+   -4,
+   34,
+   -40,
+   24,
+   -8
+  ],
+  "pipeline_validation": "same code path reproduces volume+HFK total rank of all 22 knots in PromisingKnots.txt exactly",
+  "pair_0_surgery": {
+   "homology": [
+    "Z",
+    "Z"
+   ],
+   "is_isometric_to": true,
+   "exteriors_isometric (KB vs KG)": false
+  },
+  "r_equals_a_plus_b": 0,
+  "trace_claim": "a+b=r=0, so by Lemma 5.2(b) of arXiv:2102.04391 K_B and K_G have diffeomorphic traces"
+ },
+ "invariants": {
+  "crossings_in_generated_diagram": 33,
+  "crossings_after_global_simplify": 27,
+  "alexander_polynomial": "+1*t^0",
+  "alexander_coeffs_by_degree": {
+   "0": 1
+  },
+  "HFK": {
+   "seifert_genus": 2,
+   "fibered": false,
+   "tau": 0,
+   "nu": 0,
+   "epsilon": 0,
+   "L_space_knot": false,
+   "total_rank": 97,
+   "ranks_(alex,maslov)": {
+    "(-2, -3)": 1,
+    "(-2, -2)": 3,
+    "(-2, -1)": 2,
+    "(-1, -2)": 6,
+    "(-1, -1)": 12,
+    "(-1, 0)": 6,
+    "(0, -1)": 10,
+    "(0, 0)": 19,
+    "(0, 1)": 8,
+    "(1, 0)": 6,
+    "(1, 1)": 12,
+    "(1, 2)": 6,
+    "(2, 1)": 1,
+    "(2, 2)": 3,
+    "(2, 3)": 2
+   }
+  },
+  "exterior": {
+   "solution_type": "all tetrahedra positively oriented",
+   "volume": 20.495415363282508,
+   "hyperbolic": true
+  },
+  "exterior_homology": "Z",
+  "snappy_identify": []
+ },
+ "paper_parameters": {
+  "a": 0,
+  "b": 0,
+  "c": 0,
+  "d": -1,
+  "e": 2,
+  "f": 1
+ },
+ "notebook_call": "KB(0,0,0,1,-2,-1)",
+ "pd_code_snappy_0indexed": [
+  [
+   0,
+   58,
+   1,
+   57
+  ],
+  [
+   1,
+   14,
+   2,
+   15
+  ],
+  [
+   15,
+   2,
+   16,
+   3
+  ],
+  [
+   56,
+   4,
+   57,
+   3
+  ],
+  [
+   4,
+   48,
+   5,
+   47
+  ],
+  [
+   46,
+   6,
+   47,
+   5
+  ],
+  [
+   6,
+   28,
+   7,
+   27
+  ],
+  [
+   64,
+   8,
+   65,
+   7
+  ],
+  [
+   35,
+   8,
+   36,
+   9
+  ],
+  [
+   24,
+   10,
+   25,
+   9
+  ],
+  [
+   10,
+   62,
+   11,
+   61
+  ],
+  [
+   11,
+   38,
+   12,
+   39
+  ],
+  [
+   41,
+   12,
+   42,
+   13
+  ],
+  [
+   32,
+   14,
+   33,
+   13
+  ],
+  [
+   16,
+   32,
+   17,
+   31
+  ],
+  [
+   54,
+   18,
+   55,
+   17
+  ],
+  [
+   18,
+   54,
+   19,
+   53
+  ],
+  [
+   52,
+   20,
+   53,
+   19
+  ],
+  [
+   20,
+   52,
+   21,
+   51
+  ],
+  [
+   42,
+   22,
+   43,
+   21
+  ],
+  [
+   22,
+   38,
+   23,
+   37
+  ],
+  [
+   23,
+   62,
+   24,
+   63
+  ],
+  [
+   34,
+   26,
+   35,
+   25
+  ],
+  [
+   65,
+   26,
+   0,
+   27
+  ],
+  [
+   45,
+   28,
+   46,
+   29
+  ],
+  [
+   29,
+   48,
+   30,
+   49
+  ],
+  [
+   55,
+   30,
+   56,
+   31
+  ],
+  [
+   33,
+   58,
+   34,
+   59
+  ],
+  [
+   36,
+   64,
+   37,
+   63
+  ],
+  [
+   60,
+   40,
+   61,
+   39
+  ],
+  [
+   40,
+   60,
+   41,
+   59
+  ],
+  [
+   43,
+   50,
+   44,
+   51
+  ],
+  [
+   49,
+   44,
+   50,
+   45
+  ]
+ ]
+}
