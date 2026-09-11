@@ -1,6 +1,6 @@
 {
  "knot": "18nh00000601",
- "date": "2026-09-11T19:48:16.894281Z",
+ "date": "2026-09-11T19:48:49.264197Z",
  "box": {
   "n_diagrams": 40,
   "backtrack_steps": 25,
@@ -10,7 +10,7 @@
   "paths": "shortest",
   "seed": 1
  },
- "seconds": 117.4,
+ "seconds": 149.8,
  "runs": [
   {
    "diagram": 0,
@@ -23,6 +23,13 @@
    "diagram": 1,
    "crossings": 23,
    "seconds": 84.6,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 2,
+   "crossings": 18,
+   "seconds": 32.4,
    "survivors": 0,
    "unknot": false
   }
