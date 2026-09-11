@@ -1,6 +1,6 @@
 {
  "knot": "18nh00000601",
- "date": "2026-09-11T19:48:49.264197Z",
+ "date": "2026-09-11T20:01:53.550176Z",
  "box": {
   "n_diagrams": 40,
   "backtrack_steps": 25,
@@ -10,7 +10,7 @@
   "paths": "shortest",
   "seed": 1
  },
- "seconds": 149.8,
+ "seconds": 934.1,
  "runs": [
   {
    "diagram": 0,
@@ -30,6 +30,83 @@
    "diagram": 2,
    "crossings": 18,
    "seconds": 32.4,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 3,
+   "crossings": 21,
+   "seconds": 80.8,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 4,
+   "crossings": 18,
+   "seconds": 57.5,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 5,
+   "crossings": 18,
+   "seconds": 60.2,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 6,
+   "crossings": 25,
+   "seconds": 128.6,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 7,
+   "crossings": 18,
+   "seconds": 51.2,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 8,
+   "crossings": 19,
+   "seconds": 67.8,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 9,
+   "crossings": 20,
+   "seconds": 64.1,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 10,
+   "crossings": 20,
+   "seconds": 87.2,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 11,
+   "crossings": 18,
+   "seconds": 64.6,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 12,
+   "crossings": 20,
+   "seconds": 72.0,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 13,
+   "crossings": 18,
+   "seconds": 50.3,
    "survivors": 0,
    "unknot": false
   }
