@@ -46,7 +46,7 @@ ribbon ⇒ handle-ribbon ⇒ homotopy-ribbon ⇒ slice. No converse known; Mille
 | lane | object | slice in std B⁴ | non-ribbon | route | verdict |
 |---|---|---|---|---|---|
 | 1 | `18nh00000601` = K_G | **proved** (Oliveira-Smith Cor 1.1.1), fibered genus 5, handle-ribbon (Thm 1.2) | open | A | **primary** |
-| 2 | three r = 0 RBG pairs (six knots) | one ribbon disk on either side certifies both | open | A-generator | **live, cheap** |
+| 2 | r = 0 RBG pairs: **two** distinct pairs, four knots (GHMR's three include a duplicate) | one ribbon disk on either side certifies both | open | A-generator | **live**; the 19-crossing pair is inside DG's census, the 27/24 pair is not |
 | 3 | GST Figure 2 band sum | proved (GST §8) | open; Abe–Tange Conj 6.1 predicts ribbon | A | live, secondary |
 | 4 | Miyazaki cables, smallest live member (10_17)_{2,1} | open; strongly rationally slice | **proved** (Miyazaki) | B | live |
 | 5 | Abe–Tagami D_{n,m} = A_n(6_3) # −A_m(6_3) | open; slice iff [K_n] = [K_m] | **proved** | B | live |
@@ -140,11 +140,39 @@ What was verified instead, from the DG Table 11 DT code `ycjkdnhQyUtMsaVweFIRCXO
 
 **Seifert data (computed here):** 28×28 Seifert matrix from the braid closure, signature 0, Δ = f·f\* as in T4.
 
+### 5.3b Floer torsion order of K_G: the JMZ fusion bound is vacuous
+
+Juhasz-Miller-Zemke give F(J) >= Ord_U(J) for ribbon J, so a large torsion order
+would prove any ribbon disk needs many bands. Computed here for the first time on
+K_G from the UV=0 complex (25 generators, 28 arrows): **every generator has M = A**,
+the complex is delta-thin, and all U- and V-arrows have exponent exactly 1. Hence
+the V=0 differential is U*B with B over F_2, so every elementary divisor is U^1 and
+**Ord_U(K_G) = 1**. The JMZ bound gives only F(K_G) >= 1.
+
+This cuts against the campaign's own steelman. The best explanation for DG's
+failure was "genus 5 suggests a 5-band disk, one past their ceiling of 4"; Floer
+homology gives that no support whatever. Calibration: K_B has raw exponents [1,5]
+but fusion number 1 (its certificate is a single band to the unlink), so the raw
+maximum exponent is not the torsion order in general - only the all-exponents-1
+case licenses the conclusion. Detail and script: `results/torsion_and_rbg_findings.md`,
+`scripts/torsion_order.py`.
+
 ### 5.4 The r = 0 RBG pairs (lane 2)
 
 All ten Manolescu–Piccirillo knots K_{B/G} for the five GHMR tuples were built **from the authors' own DT-code notebook** (`DTcodes.nb`, linked from the paper's companion page), auto-transpiled rather than hand-copied. The notebook's parameters are sign-flipped relative to the paper: paper (a,b,c,d,e,f) = notebook `KX(a,−b,−c,−d,−e,−f)`. This was pinned by reproducing the volume **and** total HFK rank of all 22 knots in the companion `PromisingKnots.txt` — **44/44 numbers exact**.
 
 Per pair, verified: isometric 0-surgeries, non-isometric exteriors, 1 component, hyperbolic.
+
+**Correction to the candidate list.** GHMR name three r = 0 pairs, but
+K_{B/G}(0,0,0,1,2,-1) and K_{B/G}(0,0,-2,0,0,1) are the **same pair**: identical
+isometry signatures on both sides, `is_isometric_to` True. Lane 2 holds **four
+distinct knots, not six**. Moreover that pair simplifies to **19 crossings, prime,
+hyperbolic**, so it lies inside Dunfield-Gong's census of all prime knots with at
+most 19 crossings, which they already searched to 4 bands with ~100 CPU-years:
+re-searching it is strictly weaker than what exists, and its survival of that
+search makes it a *better* candidate than recorded. The remaining pair, at 27 and
+24 crossings, lies outside DG's census and has never been through the DG band
+search; the queue was redirected onto it.
 
 | knot | crossings | genus | HFK rank | vol | Δ |
 |---|---|---|---|---|---|
@@ -437,7 +465,7 @@ c8081d4 Add K_B 0-friend data card, K_G derivative extraction report, shaken sea
 
 Ordered by expected information per unit of work. Items 1–4 are running or immediately runnable; 5–7 are the theory program, and only they can actually produce a counterexample proof.
 
-**1. Finish the r = 0 RBG ribbon searches (running).** Six knots, 12 shaken diagrams each. A hit certifies the partner smoothly slice in standard B⁴ with no inherited ribbon disk — a second route-A target with Alexander polynomial 1. Cheap, decisive either way.
+**1. Finish the r = 0 RBG ribbon searches (running).** Four distinct knots, of which only the 27/24-crossing pair is outside DG's census and worth our compute; 15 shaken diagrams each. A hit certifies the partner smoothly slice in standard B⁴ with no inherited ribbon disk — a second route-A target with Alexander polynomial 1. Cheap, decisive either way.
 
 **2. Finish the Abe–Tagami construction (running).** Build 6_3 ∪ c'₁ ∪ c'₂ and get every K_n by Dehn filling. This unblocks the single most valuable search in the whole plan:
 
