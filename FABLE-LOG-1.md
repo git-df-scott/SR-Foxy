@@ -118,8 +118,12 @@ The band search **rediscovered the known ribbon disk of K_B** — the 31-crossin
 |---|---|---|
 | single diagram | 2 bands, twists ≤ 2, length ≤ 6 | 0 survivors |
 | single diagram | 2 bands, twists ≤ 3, length ≤ 10 | 0 survivors |
-| shaken diagrams | 2 bands, twists ≤ 2, length ≤ 8 | **46 diagrams**, 0 survivors, ~56 min |
-| shaken diagrams | 3 bands, twists ≤ 2, length ≤ 7 | 14 diagrams, 0 survivors |
+| shaken diagrams | 2 bands, twists ≤ 2, length ≤ 8 | **74 diagrams**, 0 survivors |
+| shaken diagrams | 3 bands, twists ≤ 2, length ≤ 7 | **30 diagrams**, 0 survivors |
+
+Totals to date: **104 shaken diagrams, ~2.2 CPU-hours, zero survivors at every
+band count tried.** In every box, the one-band stage already kills everything, so
+the two- and three-band stages never get a non-trivial link to extend.
 
 **Filter breakdown on one diagram** (2161 one-band results): 1704 fail linking number, 387 fail signature, 68 fail Fox–Milnor, **2 survive** — and both survivors are K_G itself with a split unknot capped off, i.e. trivial bands.
 
@@ -191,12 +195,23 @@ search; the queue was redirected onto it.
 
 ### 5.5 Route B
 
-- **(10_17)_{2,1}** built as the Seifert-framed (2,1)-cable of 10_17 (41 crossings, doubled braid + σ₁^{1−2w}, w = 0). Verified: 1 component; genus 8 = 2·g(10_17); Δ_cable(t) = Δ_{10_17}(t²) exactly; exterior non-hyperbolic as a satellite must be. τ = ε = ν = signature = 0. HKL obstruction running.
+- **(10_17)_{2,1}** built as the Seifert-framed (2,1)-cable of 10_17 (41 crossings, doubled braid + σ₁^{1−2w}, w = 0). Verified: 1 component; genus 8 = 2·g(10_17); Δ_cable(t) = Δ_{10_17}(t²) exactly; exterior non-hyperbolic as a satellite must be. τ = ε = ν = signature = 0.
+  **The Herald–Kirk–Livingston Casson–Gordon obstruction returns None** over the
+  (10,[0,20]),(20,[0,10]) grid after 30 minutes: no obstruction fired, so the
+  smallest live Miyazaki member survives its first kill test. This is coverage, not
+  a proof of sliceness — the obstruction simply did not fire in that grid.
 - **Abe–Tagami K_n = A_n(6_3):** no machine-readable diagram exists in any e-print. The first extraction attempt stopped honestly rather than guess a PD code. A second attempt is running that builds the 3-component link 6_3 ∪ c'₁ ∪ c'₂ (c'₁ ∪ c'₂ a Hopf link, 6_3 their band sum) and obtains every K_n by Dehn filling, verified by shared 0-surgery and K_{−1} = K_0 = 6_3. **Rigorous side result:** all 59937 hyperbolic knots with ≤ 14 crossings were 0-filled; the only manifold isometric to the 0-surgery of 6_3 is 6_3 itself, so the K_n are not table knots.
 
 ### 5.6 GST
 
-Regina's built-in Figure 2 knot (48 crossings) matches GST's `sliceknot.eps`. Genus 10, τ = 0, Fox–Milnor holds. **Not fibered** (top Alexander grading has rank 2), which the ledger correctly left open. A one-band search is running; Gukov et al. never ran the DG search on it.
+Regina's built-in Figure 2 knot (48 crossings) matches GST's `sliceknot.eps`. Genus 10, τ = 0, Fox–Milnor holds. **Not fibered** (top Alexander grading has rank 2), which the ledger correctly left open. Gukov et al. never ran the DG search on it; we did.
+
+**A structural difference from K_G.** The one-band search (twists ≤ 2, length ≤ 8,
+65 minutes) found **one surviving plausibly-slice link** and no unknot. K_G under
+the same filter has *zero* non-trivial one-band survivors. So on GST the search can
+actually be continued to a second band, and that two-band run is now going, whereas
+on K_G there is nothing to extend. This is the first computational respect in which
+the two flagship candidates behave differently.
 
 ---
 
