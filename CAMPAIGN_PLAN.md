@@ -69,7 +69,7 @@ Gate G2 after Phase 2: has a ribbon-only necessity (or finiteness theorem) been 
 ### WS0. Foundations and verification hygiene
 
 1. **Independent audit of Oliveira-Smith [S01].** The flagship's sliceness rests on one unrefereed single-author preprint. Re-derive Thm 1.1 (standardization of X_DG) and Cor 1.1.1 step by step; reproduce the handle calculus in a Kirby-calculus tool; confirm the trace-embedding lemma is applied with the correct framing and orientation. Deliverable: `audits/S01_audit.md` with every diagram move checked. **Kill condition:** an error in Thm 1.1 demotes K_G to "slice in a homotopy ball" and the whole Route-A board collapses to zero certified objects.
-2. **Obtain primary data.** PD code of `18nh00000601` (DG Table 11 gives the RBG DT code `ycjkdnhQyUtMsaVweFIRCXOBgLJDkP` with r = 1, b = g = 0; the knot itself via SnapPy's census or the Harvard Dataverse archive); the six r = 0 RBG knots from [S26]/[S25]; GST L_{3,1} and the Figure 2 band; A_n(6_3) for |n| ≤ 4; (10_17)_{2,1}. Store as `data/knots/*.json` with PD code, source, and a SnapPy isometry-signature check against the source.
+2. **Obtain primary data.** `18nh00000601` is **done**: `data/knots/18nh00000601.json` (Burton census row 602, knot signature, PD codes, braid word, HFK, volume, cover homology, reproduced twice). Remaining: the six r = 0 RBG knots from [S26]/[S25]; GST L_{3,1} and the Figure 2 band (reconcile Regina's built-in `ExampleLink.gst()`, which computes as genus 10 and non-fibered, with the paper's figure); A_n(6_3) for |n| ≤ 4 from the annulus presentation in [S06, §5]; (10_17)_{2,1}. Store each as `data/knots/*.json` with PD code, source, and an isometry check against the source.
 3. **Environment.** See §5. Pin versions; every result must be reproducible from `env/` by a fresh machine.
 4. **Textual recoveries still open.** Kirby list Problem 1.33 commentary (primary); Gompf–Miyazaki 1995 full text (Prop 3.1 exact statement); Baldwin–Hanselman–Sivek [BHS26] arXiv id; Kim arXiv:1604.04870 on rational sliceness of Miyazaki knots.
 
@@ -81,7 +81,7 @@ The purpose is to resolve K_G one way or the other as cheaply as possible. Order
 - Compute the genus-5 fiber surface F and monodromy φ explicitly (WS0.2 data, SnapPy/Regina + flipper/curver).
 - Extract the R-link derivative L⁺ ⊂ F exhibited in [S01, §3]. Verify it is an R-link (0-surgery on L⁺ is #⁵ S¹×S²) by exact recognition in Regina.
 - Search for handleslide trivializations of L⁺ as a framed 5-component link (KLO or a custom handleslide enumerator with a move budget; also the stable version à la [S14]). **If L⁺ handleslides to the unlink, K_G is ribbon and the lane closes.**
-- Search unlink derivatives on F directly: enumerate metabolizers of the Seifert form of F (rank-10 lattice), realize each homology class by a multicurve on F using the mapping-class-group action, test unlink-ness (Regina). Bound the orbit search by curve-complexity and report coverage honestly.
+- Search unlink derivatives on F directly. The algebra is small: H₁(Σ₂) = Z/25 is cyclic, so the double-branched-cover linking form has exactly one candidate metabolizer (Σ₃: ≤ 8, Σ₅: ≤ 32). The integral rank-5 Lagrangians of the Seifert form on Z¹⁰ are infinitely many, so enumerate them under an explicit height bound, realize each class as an embedded multicurve on F via the mapping-class-group action, and certify unlink-ness with Regina normal surfaces (`isHandlebody(5)` on the complement). Report the bound and the coverage honestly.
 - Run a diagrammatic band search with budget 5–7 bands on shaken diagrams of K_G, seeded by the bands dual to L⁺.
 - Deliverable: `results/KG_band_search.md` with the exact search space covered. **Search failure is recorded as coverage, never as evidence.**
 
@@ -146,7 +146,7 @@ Gate G1 decisions: if K_G is ribbon, promote lane 2/3 targets and continue WS4 w
 
 ## 5. Environment and tooling
 
-See `TOOLING.md` (from `research/04_computational_tooling.md`). Summary of the required stack and the first scripts to write is maintained there; the plan does not duplicate it.
+See `TOOLING.md` (condensed from `research/04_computational_tooling.md`). Three facts from it shape the schedule: the whole DG band pipeline and HKL obstruction live inside SageMath only; rigorous unlink certification (Regina normal surfaces) is the measured bottleneck, not Floer homology; and extracting K_G's genus-5 monodromy explicitly is an inverse search, so WS1.4 and WS4.1 depend on a subproject that has no push-button tool. The target knot's data card is already in `data/knots/18nh00000601.json`, reproduced twice this session.
 
 ## 6. Kill conditions for the whole campaign
 
