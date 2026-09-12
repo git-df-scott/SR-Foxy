@@ -85,3 +85,26 @@ lanes and it is why compute is now pointed here rather than there.
 It does not make success likely. As recorded above, a certificate here is equivalent
 to proving [K_n] = [K_m], which is the open problem itself. But the search is at
 least not vacuous, which is more than can be said for the flagship lane.
+
+## The Teichner search: one completed pair, and a cost verdict
+
+| target | partner | sum | time | certificate |
+|---|---|---|---|---|
+| D_{0,1} | 6_1 (non-fibered, genus 1) | 31 crossings | **4.2 hours** | **none** |
+
+Box: 2 bands, band length <= 5, twists <= 2, one diagram. The container restarted
+during the second pair; the script checkpoints per pair, so this one result survived
+and the rest was lost.
+
+**Cost verdict.** At 4.2 hours per pair, the full intended sweep of 6 non-fibered
+partners across 3 targets is roughly 75 hours of single-core time, and that is for
+one diagram each at band length 5. Widening to the band lengths that would make a
+negative meaningful, or to multiple shaken diagrams, multiplies it again. **This
+search is beyond the compute budget available here**, and the honest statement is
+that it was sampled rather than run.
+
+What the one completed pair establishes is narrow and should not be inflated: within
+that box, on that diagram, with that partner, no ribbon disk exists for
+D_{0,1} # 6_1. Since a certificate would have been equivalent to proving
+[K_0] = [K_1], its absence is exactly what one would expect whether or not the knots
+are concordant, and it discriminates between those cases not at all.
