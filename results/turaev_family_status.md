@@ -91,3 +91,64 @@ essentially uncited paper. It remains most likely that these knots are simply no
 slice, because most algebraically slice knots are not, and Casson-Gordon is the
 classical tool that kills exactly this kind of family. The point is that nobody has
 looked, and the test is now well defined.
+
+---
+
+# UPDATE 2026-09-12: the first candidate is DEAD, and my "immune subfamily" claim was wrong
+
+## The construction works
+
+The surface was realized as a disk with six untwisted bands (all diagonal entries of
+X vanish), with the pairwise clasps read off X and Milnor's ribbon-linking move
+implemented to install r and s. Verified outputs:
+
+| knot | crossings | (mu_135, mu_246) | det | sig | Alexander matches | HKL |
+|---|---|---|---|---|---|---|
+| A(1,1,0,0) | 27 | (0, 0) | 1 | 0 | yes | None |
+| A(1,3,0,0) | 37 | (0, 0) | 1 | 0 | yes | None |
+| A(2,1,0,0) | 39 | (0, 0) | 1 | 0 | yes | None |
+| A(3,1,0,0) | 51 | (0, 0) | 1 | 0 | yes | None |
+| **A(1,1,1,1)** | **143** | **(1, 1)** | 1 | 0 | yes | **(3, 13)** |
+
+Two independent consistency checks passed:
+- the Milnor triple invariants come out as intended, 0 for the (0,0) members and 1
+  for the (1,1) member, so the move does what Theorem I requires;
+- **A(1,1,0,0) is ribbon**, with a one-band Dunfield-Gong certificate found in 1.3
+  seconds. That is exactly right: Theorem I obstructs only when r and s are both
+  nonzero, so the (0,0) member is unobstructed and being ribbon is the expected
+  outcome. It validates the surface construction.
+
+## The kill
+
+`slice_obstruction_HKL` returns **(3, 13)** on A(1,1,1,1). A non-None value is a
+proof that the knot is **not topologically slice**, hence not smoothly slice.
+Verified independently from the stored PD code in a separate run: same answer,
+25.3 seconds.
+
+**So A(1,1,1,1) is not a counterexample.** No contradiction arises: not slice
+implies not ribbon implies not homotopy-ribbon, which is consistent with Theorem I.
+The Casson-Gordon machinery did exactly what it is built to do, which is kill
+algebraically slice knots that are not slice. This is the outcome I predicted as
+most likely.
+
+## Correction to an earlier claim of mine
+
+I wrote that the q = 1 subfamily is immune to Casson-Gordon because the determinant
+is (2q-1)^2 = 1, so H_1 of the double branched cover is trivial. That was too hasty.
+It rules out only the **Sigma_2** flavour of the test. HKL fired here at p = 3, i.e.
+on the **3-fold** branched cover, where the homology is not trivial. A(1,1,1,1) has
+q = 1 and died anyway.
+
+## What is still open
+
+One member of an infinite family is dead. The family is parameterised by
+(p, q, r, s), and nothing yet shows Casson-Gordon kills all of it. The honest next
+step is to build more members with r, s nonzero, across several (p, q), and run HKL
+on each. If the obstruction fires everywhere, the lane closes and that is worth
+recording as a clean negative. If some member survives HKL and the Floer battery, it
+becomes the live candidate again.
+
+Cost note: installing r and s inflates the diagram badly, from 27 to 143 crossings
+at (1,1,1,1). HFK was skipped at that size. Larger (p, q) will be worse, so the grid
+sweep needs either a diagram simplification pass or obstructions that do not need
+Floer homology.
