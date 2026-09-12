@@ -63,3 +63,25 @@ J exists and the search cannot succeed.
 The honest framing: this is the only executable search left whose success would be a
 proof, the targets have now outlived every cheap obstruction, and the probability of
 success is low.
+
+---
+
+## Filter diagnostic: this lane's search space is genuinely non-trivial
+
+The single most informative cheap measurement, run on one diagram at one band. An
+intermediate link in a ribbon movie must itself be a ribbon link, so it must pass
+linking number, signature and Fox-Milnor:
+
+| target | one-band results | lk != 0 | sig != 0 | Fox-Milnor fail | **survive** |
+|---|---:|---:|---:|---:|---:|
+| 18nh00000601 | 2161 | 1704 | 387 | 68 | **2, both trivial bands** |
+| D_{0,1} # 6_1 (31 cr) | 9427 | 7649 | 1658 | 76 | **33** |
+
+For 18nh00000601 the one-band stage kills everything, so no two-band search can even
+start: there is nothing to extend. For the Miyazaki sum there are **33 genuine
+branches** to continue from. That is a real structural difference between the two
+lanes and it is why compute is now pointed here rather than there.
+
+It does not make success likely. As recorded above, a certificate here is equivalent
+to proving [K_n] = [K_m], which is the open problem itself. But the search is at
+least not vacuous, which is more than can be said for the flagship lane.
