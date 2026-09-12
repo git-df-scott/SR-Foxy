@@ -206,3 +206,54 @@ Installing r and s inflates the diagram from 27 crossings to 127 at best after h
 simplification, 143 typical, and 162-226 for larger (p,q). At that size HFK and the
 ribbon search are out of reach, and HKL itself starts timing out at an hour. Any
 further work on this family needs a fundamentally smaller realization.
+
+---
+
+# CORRECTION, on the record (2026-09-12, later): the crossing-number cutoff was WRONG
+
+The queue drained and produced three more kills, all **above** the size at which I
+had asserted computation becomes impossible:
+
+| member | crossings | HKL |
+|---|---|---|
+| (5,1,1,1) | 194 | **(4, 13)** |
+| (1,1,2,2) | 202 | **(3, 13)** |
+| (7,1,1,1) | 226 | **(7, 2)** |
+
+**What I got wrong.** I wrote above, and repeated to the user, that every member at
+127-169 crossings answered and every member at 172 or more timed out, and concluded
+that the timeouts were "a diagram-size artefact". Sorted by size the real outcomes
+are: 127-150 answered, 162 and 166 timed out, **169 answered**, 172 and 178 timed
+out, **194, 202 and 226 all answered**. Size does not predict the outcome. The
+generalization came from eleven data points that happened to be monotone, and the
+remaining five broke it.
+
+**The actual reason.** `slice_obstruction_HKL` returns the moment it finds a
+certifying character, so the wall clock measures how deep in the character search
+that particular character happens to sit, not how large the knot is.
+
+The conclusion is unaffected: a timeout still says nothing about sliceness, and an
+uncomputed row is still not a survivor. But the stated reason was wrong, and the
+earlier passage in this file is left standing above rather than edited away so the
+error stays visible.
+
+## Final tally
+
+**12 DEAD, 4 TIMEOUT, 4 RIBBON controls, 0 live. Not one member returned `None`.**
+
+## The pattern claim, corrected and sharpened
+
+The sharpest available test strengthens the one honest half. **(1,1,2,2)**, whose
+Milnor data is double that of (1,1,1,1), dies by the **identical** character (3,13).
+Across (r,s) in {±1}^2 and (2,2) the certificate never moves.
+
+What does move is (p,q), and this data does **not** explain how: at q = 1 alone,
+p=1 gives (3,13), p=2 gives (5,11), p=5 gives (4,13), p=7 gives (7,2). No pattern in
+that. The earlier bullet claiming the certificate "depends only on (p,q)" was too
+strong in the positive direction and has been weakened.
+
+The one clean statement the data supports is the negative one:
+
+> **r and s never matter.** Casson-Gordon is blind to precisely the data Turaev's
+> obstruction is built from, and kills these knots for an unrelated reason, while the
+> (0,0) member with the very same Seifert form is ribbon.
