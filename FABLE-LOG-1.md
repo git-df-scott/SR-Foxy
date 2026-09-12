@@ -1,6 +1,6 @@
 # FABLE-LOG-1
 
-Complete log of the Slice–Ribbon counterexample campaign through 2026-09-11.
+Complete log of the Slice–Ribbon counterexample campaign through 2026-09-12.
 Self-contained: every result, every line of code, and the exact next steps.
 Single branch: `claude/slice-ribbon-counterexample-dva3g0` (verified: `main` is an ancestor of `HEAD`; no other branch carries work).
 
@@ -507,3 +507,94 @@ Ordered by expected information per unit of work. Items 1–4 are running or imm
 - Preprint theorems are cited as theorems *in that version*. The flagship's sliceness rests on one unrefereed single-author 2026 preprint; every deliverable depending on it says so.
 - Orientation convention: −K = r(K̄) throughout; Miyazaki's pairing hypotheses are re-checked per route-B object.
 - No PD code is reported without a verification block. Two extraction attempts stopped rather than guess a diagram; that is the correct outcome, and it is recorded as such.
+
+
+---
+
+# SESSION 2-3 ADDENDUM (2026-09-11 to 2026-09-12)
+
+## What was accomplished
+
+**Two doors closed permanently, with proofs, not with searches.**
+- All Milnor invariants of every R-link vanish (T5), so no nilpotent or
+  lower-central-series invariant of derivative links -- Park-Powell's triple-linking
+  obstruction included -- can ever separate ribbon from handle-ribbon. Separation
+  needs non-nilpotent data.
+- Turaev's Theorem H obstructs only homotopy-ribbonness, so it cannot touch any
+  handle-ribbon candidate.
+
+**A forty-year-old untested family was tested and closed.** Turaev's Theorem I
+produces genus-3 knots that are algebraically slice and provably not
+homotopy-ribbon. The paper is essentially uncited and nobody had ever built them.
+We built 20 members, validated the construction by two independent internal checks,
+and killed every loaded one with Casson-Gordon. Final: 12 dead, 4 timeout, 4 ribbon
+controls, 0 live.
+
+**The structural diagnosis.** Every route-A generator builds its candidate's slice
+disk from the exterior of a *ribbon* disk of a partner knot, so every candidate is
+handle-ribbon by construction and the entire classical battery is logically inert.
+That is why no amount of obstruction-improving helps, and it identifies the one
+escape: the Teichner sum, whose disk runs a ribbon disk backwards and so is not
+automatically handle-ribbon.
+
+**Three theorems** (T1-T4 above): surface slides preserve derivatives; for a fibered
+knot the metabolizers of the Seifert form are exactly the monodromy-invariant
+Lagrangians (both directions); and the two-lattice lemma pinning every derivative of
+18nh00000601 on its fiber to one of two explicit rank-5 lattices.
+
+**Corrections to the inherited record** (E1-E10 plus): Gukov et al.'s three r = 0
+pairs are only two, and the duplicate pair sits inside Dunfield-Gong's census where
+it was already searched far harder than we can; several attributions were wrong; the
+Dunfield-Gong data is on Dataverse, not GitHub.
+
+**Infrastructure that outlives the lanes.** A surface-to-diagram engine
+(`tools/surface_engine/`) that realizes an arbitrary Seifert matrix as a verified
+knot diagram and implements Milnor's ribbon-linking move. That step blocked this
+campaign twice, since neither Turaev nor Abe-Tagami publish a usable diagram. Also a
+Seifert-framed cabling routine (`scripts/cable.py`), calibrated against genus on
+three knots, and the Abe-Tagami family reconstructed and verified from figures.
+
+## Measurements that redirected effort
+
+**The filter diagnostic.** At one band, 18nh00000601 gives 2161 results of which two
+survive and both are trivial, so no two-band search can even start there -- which
+explains why every such search was doomed before it began. The Miyazaki sum
+D_{0,1} # 6_1 gives 9427 results of which 33 survive. That is a measured structural
+difference, and it is why compute moved.
+
+**The Floer torsion order of 18nh00000601 is 1**, so the Juhasz-Miller-Zemke bound
+gives no reason to expect a deep ribbon disk. This removed the campaign's own best
+explanation for the search failures.
+
+**The Abe-Tagami sums survive what closed the Turaev lane.** Casson-Gordon kills
+every loaded Turaev member, several in seconds; on D_{0,1} and D_{0,2} it returns
+nothing in 0.8 seconds each. With tau, epsilon, nu and signature all vanishing, the
+standard battery is exhausted on them. They are the strongest route-B candidates.
+
+## Two corrections I made to my own claims
+
+1. I said the q = 1 Turaev subfamily was immune to Casson-Gordon because its
+   determinant is 1. That rules out only the Sigma_2 flavour; the obstruction fired
+   on the 3-fold cover.
+2. I asserted a crossing-number cutoff for computability and repeated it as a
+   finding. Three later kills at 194, 202 and 226 crossings falsified it. The real
+   variable is how deep the certifying character sits in the search, not knot size.
+   Both errors are left visible in the files rather than edited away.
+
+## Current board
+
+| lane | status |
+|---|---|
+| Turaev Theorem I | **CLOSED** for our realizations; residual doubt only in Turaev's realization freedom |
+| Abe-Tagami D_{n,m} | **strongest route B**; non-ribbon proved, sliceness open, whole battery exhausted |
+| Miyazaki cable (10_17)_{2,1} | live; HKL returned None |
+| Hom-Park Cor 1.3 | **built this session** for the first time; battery running |
+| 18nh00000601 | live but search-inert: nothing survives band one |
+| GST Figure 2 | live; one 1-band survivor exists, unlike 18nh00000601 |
+| r = 0 RBG | two distinct pairs, one inside the DG census |
+
+## No counterexample
+
+None of the above is one. What the campaign produced is a sharper map: which doors
+are shut and why, which lane is strongest and why, and working tools for the steps
+that previously blocked everything.
