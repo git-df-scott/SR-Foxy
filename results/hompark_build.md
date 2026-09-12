@@ -67,3 +67,40 @@ half twists. Calibrated by reproducing genus = p * genus on 3_1, 4_1 and 10_17, 
 independently rebuilding (10_17)_{2,1} at 41 crossings to match the earlier
 construction, and now by matching the Hedden-Hom tau formula on four cables of torus
 knots.
+
+## Result: it survives Casson-Gordon
+
+| character spec | result | time |
+|---|---|---|
+| [(3,[0,6])] | None | 0.2s |
+| [(5,[0,8])] | None | 0.3s |
+| [(7,[0,10])] | None | 0.8s |
+| [(11,[0,12])] | **None** | 26.8s |
+
+No obstruction fires. (The full [(10,[0,20]),(20,[0,10])] spec exceeded a 10-minute
+budget at 88 crossings, so coverage stops at prime 11; that is a compute limit, not a
+result.)
+
+**So the Hom-Park knot joins the live board as a third route-B candidate:**
+
+| | status |
+|---|---|
+| non-ribbon | **PROVED**, Hom-Park Cor. 1.3 |
+| tau, signature | 0, 0 |
+| Casson-Gordon | no obstruction up to prime 11 |
+| smooth sliceness | **OPEN** |
+
+Its value is independence. The Abe-Tagami sums get their non-ribbon certificate from
+Miyazaki's fibered pairing theorem; this one gets it from Hom-Park's gamma_0-sharp
+pairing theorem, via cables of torus knots rather than annulus twists. The two lanes
+share no machinery, so they cannot die to the same cause.
+
+What makes it slice, if it is: P is slice exactly when
+
+    [K_{2,1}] - [K_{2,3}] + [J_{2,3}] - [J_{2,1}] = 0
+
+in the smooth concordance group, i.e. when that four-term relation among cables of
+T(2,3) and T(2,5) holds. Hom-Park's Corollary 1.2 states the dichotomy directly:
+either distinct iterated cables of tight fibered knots are linearly independent in
+concordance, or the Slice-Ribbon Conjecture is false. This knot is that dichotomy
+made explicit at its smallest parameters.
