@@ -1,0 +1,1638 @@
+{
+  "z3_solver": "5.1.0.0",
+  "checks": [
+    {
+      "name": "unknot_to_stevedore",
+      "expected_pass": true,
+      "source": {
+        "generators": {
+          "0": [
+            0,
+            0
+          ]
+        },
+        "arrows": [],
+        "total_rank": 1
+      },
+      "target": {
+        "generators": {
+          "0": [
+            0,
+            0
+          ],
+          "1": [
+            -1,
+            -1
+          ],
+          "2": [
+            0,
+            0
+          ],
+          "3": [
+            -1,
+            -1
+          ],
+          "4": [
+            0,
+            0
+          ],
+          "5": [
+            1,
+            1
+          ],
+          "6": [
+            0,
+            0
+          ],
+          "7": [
+            1,
+            1
+          ],
+          "8": [
+            0,
+            0
+          ]
+        },
+        "arrows": [
+          [
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            4,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            0,
+            1
+          ],
+          [
+            2,
+            5,
+            1,
+            0
+          ],
+          [
+            3,
+            2,
+            1,
+            0
+          ],
+          [
+            3,
+            6,
+            1,
+            0
+          ],
+          [
+            5,
+            0,
+            0,
+            1
+          ],
+          [
+            5,
+            4,
+            0,
+            1
+          ],
+          [
+            6,
+            1,
+            0,
+            1
+          ],
+          [
+            6,
+            5,
+            1,
+            0
+          ],
+          [
+            7,
+            2,
+            0,
+            1
+          ],
+          [
+            7,
+            6,
+            0,
+            1
+          ],
+          [
+            8,
+            3,
+            0,
+            1
+          ],
+          [
+            8,
+            7,
+            1,
+            0
+          ]
+        ],
+        "total_rank": 9
+      },
+      "injective_chain_map": {
+        "variables": 5,
+        "linear_equations": 4,
+        "linear_rank": 2,
+        "hat_injectivity_constraints": 1,
+        "source_rank": 1,
+        "target_rank": 9,
+        "status": "SAT",
+        "map_terms": [
+          [
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0,
+            0
+          ]
+        ],
+        "seconds": 0.003
+      },
+      "homotopy_retraction": {
+        "status": "SAT",
+        "F_variables": 5,
+        "G_variables": 5,
+        "H_variables": 0,
+        "linear_equations": 8,
+        "homotopy_equations": 1,
+        "F": [
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "G": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0
+          ]
+        ],
+        "H": [],
+        "plain_arithmetic_verification": true,
+        "seconds": 0.001
+      }
+    },
+    {
+      "name": "trefoil_to_trefoil_sum_stevedore",
+      "expected_pass": true,
+      "source": {
+        "generators": {
+          "0": [
+            1,
+            2
+          ],
+          "1": [
+            0,
+            1
+          ],
+          "2": [
+            -1,
+            0
+          ]
+        },
+        "arrows": [
+          [
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            2,
+            1,
+            1,
+            0
+          ]
+        ],
+        "total_rank": 3
+      },
+      "target": {
+        "generators": {
+          "0": [
+            0,
+            1
+          ],
+          "1": [
+            1,
+            2
+          ],
+          "2": [
+            -1,
+            0
+          ],
+          "3": [
+            0,
+            1
+          ],
+          "4": [
+            1,
+            2
+          ],
+          "5": [
+            -1,
+            0
+          ],
+          "6": [
+            1,
+            2
+          ],
+          "7": [
+            2,
+            3
+          ],
+          "8": [
+            0,
+            1
+          ],
+          "9": [
+            -1,
+            0
+          ],
+          "10": [
+            0,
+            1
+          ],
+          "11": [
+            -2,
+            -1
+          ],
+          "12": [
+            0,
+            1
+          ],
+          "13": [
+            1,
+            2
+          ],
+          "14": [
+            -1,
+            0
+          ],
+          "15": [
+            0,
+            1
+          ],
+          "16": [
+            1,
+            2
+          ],
+          "17": [
+            -1,
+            0
+          ],
+          "18": [
+            1,
+            2
+          ],
+          "19": [
+            2,
+            3
+          ],
+          "20": [
+            0,
+            1
+          ],
+          "21": [
+            -1,
+            0
+          ],
+          "22": [
+            0,
+            1
+          ],
+          "23": [
+            -2,
+            -1
+          ],
+          "24": [
+            0,
+            1
+          ],
+          "25": [
+            1,
+            2
+          ],
+          "26": [
+            -1,
+            0
+          ]
+        },
+        "arrows": [
+          [
+            0,
+            6,
+            1,
+            0
+          ],
+          [
+            0,
+            9,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            7,
+            1,
+            0
+          ],
+          [
+            1,
+            10,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            1,
+            0
+          ],
+          [
+            2,
+            8,
+            1,
+            0
+          ],
+          [
+            2,
+            11,
+            0,
+            1
+          ],
+          [
+            3,
+            6,
+            1,
+            0
+          ],
+          [
+            3,
+            9,
+            0,
+            1
+          ],
+          [
+            4,
+            3,
+            0,
+            1
+          ],
+          [
+            4,
+            7,
+            1,
+            0
+          ],
+          [
+            4,
+            10,
+            0,
+            1
+          ],
+          [
+            5,
+            3,
+            1,
+            0
+          ],
+          [
+            5,
+            8,
+            1,
+            0
+          ],
+          [
+            5,
+            11,
+            0,
+            1
+          ],
+          [
+            6,
+            0,
+            0,
+            1
+          ],
+          [
+            6,
+            3,
+            0,
+            1
+          ],
+          [
+            7,
+            1,
+            0,
+            1
+          ],
+          [
+            7,
+            4,
+            0,
+            1
+          ],
+          [
+            7,
+            6,
+            0,
+            1
+          ],
+          [
+            8,
+            2,
+            0,
+            1
+          ],
+          [
+            8,
+            5,
+            0,
+            1
+          ],
+          [
+            8,
+            6,
+            1,
+            0
+          ],
+          [
+            9,
+            0,
+            1,
+            0
+          ],
+          [
+            9,
+            3,
+            1,
+            0
+          ],
+          [
+            10,
+            1,
+            1,
+            0
+          ],
+          [
+            10,
+            4,
+            1,
+            0
+          ],
+          [
+            10,
+            9,
+            0,
+            1
+          ],
+          [
+            11,
+            2,
+            1,
+            0
+          ],
+          [
+            11,
+            5,
+            1,
+            0
+          ],
+          [
+            11,
+            9,
+            1,
+            0
+          ],
+          [
+            12,
+            6,
+            1,
+            0
+          ],
+          [
+            12,
+            9,
+            0,
+            1
+          ],
+          [
+            12,
+            18,
+            1,
+            0
+          ],
+          [
+            12,
+            21,
+            0,
+            1
+          ],
+          [
+            13,
+            7,
+            1,
+            0
+          ],
+          [
+            13,
+            10,
+            0,
+            1
+          ],
+          [
+            13,
+            12,
+            0,
+            1
+          ],
+          [
+            13,
+            19,
+            1,
+            0
+          ],
+          [
+            13,
+            22,
+            0,
+            1
+          ],
+          [
+            14,
+            8,
+            1,
+            0
+          ],
+          [
+            14,
+            11,
+            0,
+            1
+          ],
+          [
+            14,
+            12,
+            1,
+            0
+          ],
+          [
+            14,
+            20,
+            1,
+            0
+          ],
+          [
+            14,
+            23,
+            0,
+            1
+          ],
+          [
+            15,
+            6,
+            1,
+            0
+          ],
+          [
+            15,
+            9,
+            0,
+            1
+          ],
+          [
+            15,
+            18,
+            1,
+            0
+          ],
+          [
+            15,
+            21,
+            0,
+            1
+          ],
+          [
+            16,
+            7,
+            1,
+            0
+          ],
+          [
+            16,
+            10,
+            0,
+            1
+          ],
+          [
+            16,
+            15,
+            0,
+            1
+          ],
+          [
+            16,
+            19,
+            1,
+            0
+          ],
+          [
+            16,
+            22,
+            0,
+            1
+          ],
+          [
+            17,
+            8,
+            1,
+            0
+          ],
+          [
+            17,
+            11,
+            0,
+            1
+          ],
+          [
+            17,
+            15,
+            1,
+            0
+          ],
+          [
+            17,
+            20,
+            1,
+            0
+          ],
+          [
+            17,
+            23,
+            0,
+            1
+          ],
+          [
+            18,
+            12,
+            0,
+            1
+          ],
+          [
+            18,
+            15,
+            0,
+            1
+          ],
+          [
+            19,
+            13,
+            0,
+            1
+          ],
+          [
+            19,
+            16,
+            0,
+            1
+          ],
+          [
+            19,
+            18,
+            0,
+            1
+          ],
+          [
+            20,
+            14,
+            0,
+            1
+          ],
+          [
+            20,
+            17,
+            0,
+            1
+          ],
+          [
+            20,
+            18,
+            1,
+            0
+          ],
+          [
+            21,
+            12,
+            1,
+            0
+          ],
+          [
+            21,
+            15,
+            1,
+            0
+          ],
+          [
+            22,
+            13,
+            1,
+            0
+          ],
+          [
+            22,
+            16,
+            1,
+            0
+          ],
+          [
+            22,
+            21,
+            0,
+            1
+          ],
+          [
+            23,
+            14,
+            1,
+            0
+          ],
+          [
+            23,
+            17,
+            1,
+            0
+          ],
+          [
+            23,
+            21,
+            1,
+            0
+          ],
+          [
+            24,
+            18,
+            1,
+            0
+          ],
+          [
+            24,
+            21,
+            0,
+            1
+          ],
+          [
+            25,
+            19,
+            1,
+            0
+          ],
+          [
+            25,
+            22,
+            0,
+            1
+          ],
+          [
+            25,
+            24,
+            0,
+            1
+          ],
+          [
+            26,
+            20,
+            1,
+            0
+          ],
+          [
+            26,
+            23,
+            0,
+            1
+          ],
+          [
+            26,
+            24,
+            1,
+            0
+          ]
+        ],
+        "total_rank": 27
+      },
+      "injective_chain_map": {
+        "variables": 23,
+        "linear_equations": 34,
+        "linear_rank": 16,
+        "hat_injectivity_constraints": 3,
+        "source_rank": 3,
+        "target_rank": 27,
+        "status": "SAT",
+        "map_terms": [
+          [
+            0,
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            18,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            3,
+            0,
+            0
+          ],
+          [
+            1,
+            12,
+            0,
+            0
+          ],
+          [
+            1,
+            15,
+            0,
+            0
+          ],
+          [
+            2,
+            9,
+            0,
+            0
+          ],
+          [
+            2,
+            21,
+            0,
+            0
+          ]
+        ],
+        "seconds": 0.003
+      },
+      "homotopy_retraction": {
+        "status": "SAT",
+        "F_variables": 23,
+        "G_variables": 23,
+        "H_variables": 0,
+        "linear_equations": 70,
+        "homotopy_equations": 3,
+        "F": [
+          [
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            16,
+            0,
+            0
+          ],
+          [
+            0,
+            18,
+            0,
+            0
+          ],
+          [
+            0,
+            25,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            12,
+            0,
+            0
+          ],
+          [
+            1,
+            24,
+            0,
+            0
+          ],
+          [
+            2,
+            5,
+            0,
+            0
+          ],
+          [
+            2,
+            9,
+            0,
+            0
+          ],
+          [
+            2,
+            17,
+            0,
+            0
+          ],
+          [
+            2,
+            21,
+            0,
+            0
+          ],
+          [
+            2,
+            26,
+            0,
+            0
+          ]
+        ],
+        "G": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            1,
+            0,
+            0
+          ],
+          [
+            13,
+            0,
+            0,
+            0
+          ],
+          [
+            14,
+            2,
+            0,
+            0
+          ],
+          [
+            16,
+            0,
+            0,
+            0
+          ],
+          [
+            17,
+            2,
+            0,
+            0
+          ],
+          [
+            20,
+            1,
+            0,
+            0
+          ],
+          [
+            24,
+            1,
+            0,
+            0
+          ],
+          [
+            25,
+            0,
+            0,
+            0
+          ]
+        ],
+        "H": [],
+        "plain_arithmetic_verification": true,
+        "seconds": 0.006
+      }
+    },
+    {
+      "name": "unknot_to_mirror_stevedore",
+      "expected_pass": true,
+      "source": {
+        "generators": {
+          "0": [
+            0,
+            0
+          ]
+        },
+        "arrows": [],
+        "total_rank": 1
+      },
+      "target": {
+        "generators": {
+          "0": [
+            0,
+            0
+          ],
+          "1": [
+            1,
+            1
+          ],
+          "2": [
+            0,
+            0
+          ],
+          "3": [
+            1,
+            1
+          ],
+          "4": [
+            -1,
+            -1
+          ],
+          "5": [
+            0,
+            0
+          ],
+          "6": [
+            0,
+            0
+          ],
+          "7": [
+            -1,
+            -1
+          ],
+          "8": [
+            0,
+            0
+          ]
+        },
+        "arrows": [
+          [
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            0,
+            1
+          ],
+          [
+            3,
+            2,
+            0,
+            1
+          ],
+          [
+            3,
+            6,
+            0,
+            1
+          ],
+          [
+            4,
+            2,
+            1,
+            0
+          ],
+          [
+            4,
+            6,
+            1,
+            0
+          ],
+          [
+            5,
+            3,
+            1,
+            0
+          ],
+          [
+            5,
+            4,
+            0,
+            1
+          ],
+          [
+            7,
+            0,
+            1,
+            0
+          ],
+          [
+            7,
+            2,
+            1,
+            0
+          ],
+          [
+            8,
+            1,
+            1,
+            0
+          ],
+          [
+            8,
+            7,
+            0,
+            1
+          ]
+        ],
+        "total_rank": 9
+      },
+      "injective_chain_map": {
+        "variables": 5,
+        "linear_equations": 4,
+        "linear_rank": 2,
+        "hat_injectivity_constraints": 1,
+        "source_rank": 1,
+        "target_rank": 9,
+        "status": "SAT",
+        "map_terms": [
+          [
+            0,
+            2,
+            0,
+            0
+          ]
+        ],
+        "seconds": 0.001
+      },
+      "homotopy_retraction": {
+        "status": "SAT",
+        "F_variables": 5,
+        "G_variables": 5,
+        "H_variables": 0,
+        "linear_equations": 8,
+        "homotopy_equations": 1,
+        "F": [
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "G": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            0,
+            0,
+            0
+          ]
+        ],
+        "H": [],
+        "plain_arithmetic_verification": true,
+        "seconds": 0.001
+      }
+    },
+    {
+      "name": "stevedore_to_unknot",
+      "expected_pass": false,
+      "source": {
+        "generators": {
+          "0": [
+            1,
+            1
+          ],
+          "1": [
+            0,
+            0
+          ],
+          "2": [
+            0,
+            0
+          ],
+          "3": [
+            -1,
+            -1
+          ],
+          "4": [
+            1,
+            1
+          ],
+          "5": [
+            0,
+            0
+          ],
+          "6": [
+            0,
+            0
+          ],
+          "7": [
+            0,
+            0
+          ],
+          "8": [
+            -1,
+            -1
+          ]
+        },
+        "arrows": [
+          [
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            1,
+            0
+          ],
+          [
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            2,
+            4,
+            1,
+            0
+          ],
+          [
+            2,
+            8,
+            0,
+            1
+          ],
+          [
+            3,
+            5,
+            1,
+            0
+          ],
+          [
+            4,
+            5,
+            0,
+            1
+          ],
+          [
+            6,
+            3,
+            0,
+            1
+          ],
+          [
+            6,
+            4,
+            1,
+            0
+          ],
+          [
+            7,
+            0,
+            1,
+            0
+          ],
+          [
+            7,
+            8,
+            0,
+            1
+          ],
+          [
+            8,
+            1,
+            1,
+            0
+          ]
+        ],
+        "total_rank": 9
+      },
+      "target": {
+        "generators": {
+          "0": [
+            0,
+            0
+          ]
+        },
+        "arrows": [],
+        "total_rank": 1
+      },
+      "injective_chain_map": {
+        "variables": 5,
+        "linear_equations": 4,
+        "linear_rank": 2,
+        "hat_injectivity_constraints": 37,
+        "source_rank": 9,
+        "target_rank": 1,
+        "status": "UNSAT_UNIVERSAL_KERNEL",
+        "kernel_witness": {
+          "grade": [
+            -1,
+            -1
+          ],
+          "source_vector": [
+            3
+          ],
+          "outputs": []
+        },
+        "row_combinations": [],
+        "problem_variables": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            0,
+            0,
+            0
+          ],
+          [
+            7,
+            0,
+            0,
+            0
+          ]
+        ],
+        "problem_equations": [
+          [
+            0
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            0
+          ]
+        ],
+        "seconds": 0.0
+      },
+      "homotopy_retraction": {
+        "status": "UNSAT",
+        "F_variables": 5,
+        "G_variables": 5,
+        "H_variables": 0,
+        "linear_equations": 8,
+        "homotopy_equations": 29,
+        "smt2": "; benchmark generated from python API\n(set-info :status unknown)\n(declare-fun f0 () Bool)\n(declare-fun f2 () Bool)\n(declare-fun g4 () Bool)\n(declare-fun g1 () Bool)\n(declare-fun g3 () Bool)\n(declare-fun g0 () Bool)\n(declare-fun f1 () Bool)\n(declare-fun g2 () Bool)\n(declare-fun f3 () Bool)\n(declare-fun f4 () Bool)\n(assert\n (not f0))\n(assert\n (not f2))\n(assert\n (not f2))\n(assert\n (not f0))\n(assert\n (not (xor g1 g4)))\n(assert\n (not (xor g1 g3)))\n(assert\n (not (xor g1 g3)))\n(assert\n (not (xor g1 g4)))\n(assert\n (not true))\n(assert\n (not (xor true (and f0 g0))))\n(assert\n (not (xor true (and f1 g1))))\n(assert\n (not true))\n(assert\n (not true))\n(assert\n (not (xor true (and f2 g2))))\n(assert\n (not (xor true (and f3 g3))))\n(assert\n (not (xor true (and f4 g4))))\n(assert\n (not true))\n(assert\n (let (($x47 (and f0 g1)))\n (not $x47)))\n(assert\n (let (($x189 (and f0 g2)))\n (not $x189)))\n(assert\n (let (($x183 (and f0 g3)))\n (not $x183)))\n(assert\n (let (($x187 (and f0 g4)))\n (not $x187)))\n(assert\n (let (($x10 (and f1 g0)))\n (not $x10)))\n(assert\n (let (($x12 (and f1 g2)))\n (not $x12)))\n(assert\n (let (($x43 (and f1 g3)))\n (not $x43)))\n(assert\n (let (($x48 (and f1 g4)))\n (not $x48)))\n(assert\n (let (($x185 (and f2 g0)))\n (not $x185)))\n(assert\n (let (($x45 (and f2 g1)))\n (not $x45)))\n(assert\n (let (($x46 (and f2 g3)))\n (not $x46)))\n(assert\n (let (($x51 (and f2 g4)))\n (not $x51)))\n(assert\n (let (($x356 (and f3 g0)))\n (not $x356)))\n(assert\n (let (($x395 (and f3 g1)))\n (not $x395)))\n(assert\n (let (($x355 (and f3 g2)))\n (not $x355)))\n(assert\n (let (($x358 (and f3 g4)))\n (not $x358)))\n(assert\n (let (($x397 (and f4 g0)))\n (not $x397)))\n(assert\n (let (($x398 (and f4 g1)))\n (not $x398)))\n(assert\n (let (($x399 (and f4 g2)))\n (not $x399)))\n(assert\n (let (($x344 (and f4 g3)))\n(not $x344)))\n(check-sat)\n",
+        "seconds": 0.002
+      }
+    },
+    {
+      "name": "trefoil_to_unknot",
+      "expected_pass": false,
+      "source": {
+        "generators": {
+          "0": [
+            1,
+            2
+          ],
+          "1": [
+            -1,
+            0
+          ],
+          "2": [
+            0,
+            1
+          ]
+        },
+        "arrows": [
+          [
+            0,
+            2,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            1,
+            0
+          ]
+        ],
+        "total_rank": 3
+      },
+      "target": {
+        "generators": {
+          "0": [
+            0,
+            0
+          ]
+        },
+        "arrows": [],
+        "total_rank": 1
+      },
+      "injective_chain_map": {
+        "variables": 0,
+        "linear_equations": 0,
+        "linear_rank": 0,
+        "hat_injectivity_constraints": 3,
+        "source_rank": 3,
+        "target_rank": 1,
+        "status": "UNSAT_UNIVERSAL_KERNEL",
+        "kernel_witness": {
+          "grade": [
+            -1,
+            0
+          ],
+          "source_vector": [
+            1
+          ],
+          "outputs": []
+        },
+        "row_combinations": [],
+        "problem_variables": [],
+        "problem_equations": [],
+        "seconds": 0.0
+      },
+      "homotopy_retraction": {
+        "status": "UNSAT",
+        "F_variables": 0,
+        "G_variables": 2,
+        "H_variables": 0,
+        "linear_equations": 0,
+        "homotopy_equations": 3,
+        "smt2": "; benchmark generated from python API\n(set-info :status unknown)\n(assert\n (not true))\n(assert\n (not true))\n(assert\n (not true))\n(check-sat)\n",
+        "seconds": 0.0
+      }
+    },
+    {
+      "name": "equal_rank_incompatible_differential",
+      "expected_pass": false,
+      "source": {
+        "generators": {
+          "0": [
+            0,
+            0
+          ],
+          "1": [
+            1,
+            1
+          ]
+        },
+        "arrows": [
+          [
+            0,
+            1,
+            1,
+            0
+          ]
+        ],
+        "total_rank": 2
+      },
+      "target": {
+        "generators": {
+          "0": [
+            0,
+            0
+          ],
+          "1": [
+            1,
+            1
+          ]
+        },
+        "arrows": [],
+        "total_rank": 2
+      },
+      "injective_chain_map": {
+        "variables": 2,
+        "linear_equations": 1,
+        "linear_rank": 1,
+        "hat_injectivity_constraints": 2,
+        "source_rank": 2,
+        "target_rank": 2,
+        "status": "UNSAT_UNIVERSAL_KERNEL",
+        "kernel_witness": {
+          "grade": [
+            1,
+            1
+          ],
+          "source_vector": [
+            1
+          ],
+          "outputs": [
+            [
+              1
+            ]
+          ]
+        },
+        "row_combinations": [
+          [
+            0
+          ]
+        ],
+        "problem_variables": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            0
+          ]
+        ],
+        "problem_equations": [
+          [
+            1
+          ]
+        ],
+        "seconds": 0.0
+      },
+      "homotopy_retraction": {
+        "status": "UNSAT",
+        "F_variables": 2,
+        "G_variables": 2,
+        "H_variables": 0,
+        "linear_equations": 2,
+        "homotopy_equations": 2,
+        "smt2": "; benchmark generated from python API\n(set-info :status unknown)\n(declare-fun f1 () Bool)\n(declare-fun g0 () Bool)\n(declare-fun f0 () Bool)\n(declare-fun g1 () Bool)\n(assert\n (not f1))\n(assert\n (not g0))\n(assert\n (not (xor true (and f0 g0))))\n(assert\n (not (xor true (and f1 g1))))\n(check-sat)\n",
+        "seconds": 0.0
+      }
+    }
+  ],
+  "limitations": "These controls test code and conventions, not every HFK Calculator complex or the full geometric certificate."
+}

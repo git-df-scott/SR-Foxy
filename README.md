@@ -1,6 +1,6 @@
 # Slice–Ribbon counterexample research
 
-**No counterexample found.** Start with the [12 September 2026 audit and research plan](RESEARCH_AUDIT_2026-09-12.md), which supersedes conflicting earlier notes.
+**No counterexample found.** Start with the [latest additional-budget results](FOLLOWUP_2026-09-12.md) and [next-session handoff](HANDOFF.md), then the [12 September 2026 audit and research plan](RESEARCH_AUDIT_2026-09-12.md). These supersede conflicting earlier notes.
 
 The current constructive target is a common ribbon successor of the two stored Abe–Tagami knots. An applicable theorem supplies non-ribbonness of their difference; a verified common-successor movie would supply its missing smooth slice disk. The explicit Hom–Park member has now been obstructed from sliceness.
 

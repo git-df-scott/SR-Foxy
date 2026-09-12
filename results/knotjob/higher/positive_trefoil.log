@@ -1,0 +1,12 @@
+BLS odd of file results/knotjob/higher/positive_trefoil.txt finished.
+Graded s of file results/knotjob/higher/positive_trefoil.txt finished.
+Sq^2 odd (eps=0) of file results/knotjob/higher/positive_trefoil.txt finished.
+Sq^2 odd (eps=1) of file results/knotjob/higher/positive_trefoil.txt finished.
+Sq^2 even of file results/knotjob/higher/positive_trefoil.txt finished.
+results/knotjob/higher/positive_trefoil.txt
+positive_trefoil
+Odd BLS 32768 Invariant : (2, 2)
+Even Sq^2 Invariant : (2, 2, 2, 2)
+Odd Sq^2 Invariant (eps=0) : (2, 2, 2, 2)
+Odd Sq^2 Invariant (eps=1) : (2, 2, 2, 2)
+Graded s-invariant : 2. -2

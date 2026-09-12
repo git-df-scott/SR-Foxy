@@ -1,0 +1,76 @@
+{
+  "status": "KNOTJOB_COMPUTATIONAL_CHECK",
+  "input": "results/knotjob/inputs.txt",
+  "flags": [
+    "-s0",
+    "-s2",
+    "-s3",
+    "-sqo",
+    "-sqe",
+    "-scr",
+    "-sbls3",
+    "-nf"
+  ],
+  "jar_sha256": "b63daf5f689660a276ed37bbca3393cb26fe62e097427cdd599647b874304718",
+  "java_version": "openjdk version \"25.0.4.1\" 2026-08-18 LTS\nOpenJDK Runtime Environment Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS)\nOpenJDK 64-Bit Server VM Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS, mixed mode, sharing)\n",
+  "source": "https://www.maths.dur.ac.uk/users/dirk.schuetz/knotjob.html",
+  "timeout_per_knot_seconds": 120,
+  "runs": [
+    {
+      "name": "positive_trefoil",
+      "input": "results/knotjob/scoped/positive_trefoil.txt",
+      "exit_code": 0,
+      "status": "finished",
+      "seconds": 0.405,
+      "log": "results/knotjob/scoped/positive_trefoil.log"
+    },
+    {
+      "name": "negative_trefoil",
+      "input": "results/knotjob/scoped/negative_trefoil.txt",
+      "exit_code": 0,
+      "status": "finished",
+      "seconds": 0.371,
+      "log": "results/knotjob/scoped/negative_trefoil.log"
+    },
+    {
+      "name": "ribbon_6_1",
+      "input": "results/knotjob/scoped/ribbon_6_1.txt",
+      "exit_code": 0,
+      "status": "finished",
+      "seconds": 0.4,
+      "log": "results/knotjob/scoped/ribbon_6_1.log"
+    },
+    {
+      "name": "figure_eight",
+      "input": "results/knotjob/scoped/figure_eight.txt",
+      "exit_code": 0,
+      "status": "finished",
+      "seconds": 0.398,
+      "log": "results/knotjob/scoped/figure_eight.log"
+    },
+    {
+      "name": "AbeTagami_K_0_K_-1__6_3",
+      "input": "results/knotjob/scoped/AbeTagami_K_0_K_-1__6_3.txt",
+      "exit_code": 0,
+      "status": "finished",
+      "seconds": 0.404,
+      "log": "results/knotjob/scoped/AbeTagami_K_0_K_-1__6_3.log"
+    },
+    {
+      "name": "AbeTagami_K_1",
+      "input": "results/knotjob/scoped/AbeTagami_K_1.txt",
+      "exit_code": 0,
+      "status": "finished",
+      "seconds": 0.738,
+      "log": "results/knotjob/scoped/AbeTagami_K_1.log"
+    },
+    {
+      "name": "AbeTagami_D_0_1",
+      "input": "results/knotjob/scoped/AbeTagami_D_0_1.txt",
+      "exit_code": 0,
+      "status": "finished",
+      "seconds": 11.883,
+      "log": "results/knotjob/scoped/AbeTagami_D_0_1.log"
+    }
+  ]
+}

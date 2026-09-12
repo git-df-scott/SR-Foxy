@@ -1,0 +1,16 @@
+S-invariant mod 0 of file results/knotjob/scoped/positive_trefoil.txt finished.
+S-invariant mod 2 of file results/knotjob/scoped/positive_trefoil.txt finished.
+S-invariant mod 3 of file results/knotjob/scoped/positive_trefoil.txt finished.
+Sq^1 odd of file results/knotjob/scoped/positive_trefoil.txt finished.
+BLS odd of file results/knotjob/scoped/positive_trefoil.txt finished.
+Sq^1 even of file results/knotjob/scoped/positive_trefoil.txt finished.
+ULS reduced of file results/knotjob/scoped/positive_trefoil.txt finished.
+results/knotjob/scoped/positive_trefoil.txt_s0_s2_s3_sqe_sqo
+positive_trefoil
+S-Invariant mod 0 : 2
+S-Invariant mod 2 : 2
+S-Invariant mod 3 : 2
+Even Sq^1 Invariant : (2, 2, 2, 2)
+Odd Sq^1 Invariant : (2, 2)
+Complete reduced LS-Invariant : (2, 2)
+Odd BLS 8 Invariant : (2, 2)
