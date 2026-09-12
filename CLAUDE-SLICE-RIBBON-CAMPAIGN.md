@@ -388,6 +388,13 @@ re-derives every invariant from the PD code alone.
 | `AUDIT_2026-09-12.md` | the manual audit that stopped stale tasks |
 | `logs/` | 18 raw run logs, one per detached job, kept so every number above is traceable to a transcript |
 
+**Note on completeness.** A `results/.gitignore` written mid-campaign excluded
+`logs/` and `*_detached.json` to keep in-flight job output out of commits. When those
+jobs finished, their output stayed untracked: five result files and all 18 logs were
+absent from the repository while this index already listed them. Caught on a final
+check, `git add -f`'d (104 KB total, scanned for credentials first), and the ignore
+file removed. Every file named in this index is now actually tracked.
+
 ---
 
 ## 12. Reproducing any of it

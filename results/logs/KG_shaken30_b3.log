@@ -1,0 +1,33 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+{"diagram": 0, "crossings": 18, "seconds": 49.9, "survivors": 0, "unknot": false}
+{"diagram": 1, "crossings": 18, "seconds": 234.5, "survivors": 0, "unknot": false}
+{"diagram": 2, "crossings": 18, "seconds": 42.7, "survivors": 0, "unknot": false}
+{"diagram": 3, "crossings": 18, "seconds": 49.6, "survivors": 0, "unknot": false}
+{"diagram": 4, "crossings": 18, "seconds": 60.2, "survivors": 0, "unknot": false}
+{"diagram": 5, "crossings": 19, "seconds": 59.3, "survivors": 0, "unknot": false}
+{"diagram": 6, "crossings": 18, "seconds": 63.3, "survivors": 0, "unknot": false}
+{"diagram": 7, "crossings": 20, "seconds": 82.2, "survivors": 0, "unknot": false}
+{"diagram": 8, "crossings": 18, "seconds": 182.6, "survivors": 0, "unknot": false}
+{"diagram": 9, "crossings": 18, "seconds": 52.6, "survivors": 0, "unknot": false}
+{"diagram": 10, "crossings": 18, "seconds": 39.7, "survivors": 0, "unknot": false}
+{"diagram": 11, "crossings": 18, "seconds": 44.0, "survivors": 0, "unknot": false}
+{"diagram": 12, "crossings": 20, "seconds": 195.1, "survivors": 0, "unknot": false}
+{"diagram": 13, "crossings": 18, "seconds": 59.0, "survivors": 0, "unknot": false}
+{"diagram": 14, "crossings": 19, "seconds": 66.6, "survivors": 0, "unknot": false}
+{"diagram": 15, "crossings": 21, "seconds": 77.5, "survivors": 0, "unknot": false}
+{"diagram": 16, "crossings": 20, "seconds": 81.1, "survivors": 0, "unknot": false}
+{"diagram": 17, "crossings": 19, "seconds": 76.7, "survivors": 0, "unknot": false}
+{"diagram": 18, "crossings": 18, "seconds": 58.3, "survivors": 0, "unknot": false}
+{"diagram": 19, "crossings": 18, "seconds": 54.5, "survivors": 0, "unknot": false}
+{"diagram": 20, "crossings": 22, "seconds": 282.6, "survivors": 0, "unknot": false}
+{"diagram": 21, "crossings": 18, "seconds": 198.4, "survivors": 0, "unknot": false}
+{"diagram": 22, "crossings": 18, "seconds": 60.8, "survivors": 0, "unknot": false}
+{"diagram": 23, "crossings": 18, "seconds": 61.8, "survivors": 0, "unknot": false}
+{"diagram": 24, "crossings": 21, "seconds": 118.8, "survivors": 0, "unknot": false}
+{"diagram": 25, "crossings": 19, "seconds": 88.5, "survivors": 0, "unknot": false}
+{"diagram": 26, "crossings": 20, "seconds": 102.5, "survivors": 0, "unknot": false}
+{"diagram": 27, "crossings": 19, "seconds": 82.8, "survivors": 0, "unknot": false}
+{"diagram": 28, "crossings": 18, "seconds": 53.4, "survivors": 0, "unknot": false}
+{"diagram": 29, "crossings": 19, "seconds": 83.2, "survivors": 0, "unknot": false}
+DONE unknot_found = False

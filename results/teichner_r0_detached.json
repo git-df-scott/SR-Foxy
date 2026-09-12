@@ -1,0 +1,84 @@
+{
+ "date": "2026-09-11T23:23:09.179849Z",
+ "box": {
+  "max_bands": 2,
+  "max_band_len": 6,
+  "J_list": [
+   "6_1",
+   "8_8",
+   "8_9",
+   "8_20",
+   "9_27",
+   "9_41",
+   "10_3",
+   "10_22"
+  ]
+ },
+ "runs": [
+  {
+   "knot": "CONTROL_trefoil_3_1",
+   "J": "6_1",
+   "sum_crossings": 9,
+   "seconds": 4.1,
+   "certified_slice": false
+  },
+  {
+   "knot": "CONTROL_trefoil_3_1",
+   "J": "8_8",
+   "sum_crossings": 11,
+   "seconds": 7.3,
+   "certified_slice": false
+  },
+  {
+   "knot": "CONTROL_trefoil_3_1",
+   "J": "8_9",
+   "sum_crossings": 11,
+   "seconds": 6.5,
+   "certified_slice": false
+  },
+  {
+   "knot": "CONTROL_trefoil_3_1",
+   "J": "8_20",
+   "sum_crossings": 11,
+   "seconds": 15.6,
+   "certified_slice": false
+  },
+  {
+   "knot": "CONTROL_trefoil_3_1",
+   "J": "9_27",
+   "sum_crossings": 12,
+   "seconds": 7.5,
+   "certified_slice": false
+  },
+  {
+   "knot": "CONTROL_trefoil_3_1",
+   "J": "9_41",
+   "sum_crossings": 12,
+   "seconds": 10.6,
+   "certified_slice": false
+  },
+  {
+   "knot": "CONTROL_trefoil_3_1",
+   "J": "10_3",
+   "sum_crossings": 13,
+   "seconds": 16.9,
+   "certified_slice": false
+  },
+  {
+   "knot": "CONTROL_trefoil_3_1",
+   "J": "10_22",
+   "sum_crossings": 13,
+   "seconds": 13.5,
+   "certified_slice": false
+  },
+  {
+   "knot": "MP_KG(0,0,0,1,2,-1)",
+   "J": "6_1",
+   "sum_crossings": 25,
+   "seconds": 2262.7,
+   "certified_slice": false
+  }
+ ],
+ "meaning": "a verified certificate proves K smoothly slice with a disk NOT known handle-ribbon; then run homotopy-ribbon obstructions on K",
+ "seconds": 2345.0
+}

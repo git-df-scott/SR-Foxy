@@ -1,0 +1,437 @@
+{
+ "knot": "18nh00000601",
+ "date": "2026-09-11T20:58:23.275676Z",
+ "box": {
+  "n_diagrams": 60,
+  "backtrack_steps": 25,
+  "max_bands": 2,
+  "max_twists": 2,
+  "max_band_len": 8,
+  "paths": "shortest",
+  "seed": 11
+ },
+ "seconds": 4162.4,
+ "runs": [
+  {
+   "diagram": 0,
+   "crossings": 18,
+   "seconds": 53.1,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 1,
+   "crossings": 18,
+   "seconds": 51.2,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 2,
+   "crossings": 19,
+   "seconds": 55.6,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 3,
+   "crossings": 18,
+   "seconds": 52.4,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 4,
+   "crossings": 18,
+   "seconds": 52.1,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 5,
+   "crossings": 19,
+   "seconds": 65.9,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 6,
+   "crossings": 19,
+   "seconds": 60.2,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 7,
+   "crossings": 22,
+   "seconds": 110.5,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 8,
+   "crossings": 18,
+   "seconds": 61.1,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 9,
+   "crossings": 18,
+   "seconds": 63.3,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 10,
+   "crossings": 18,
+   "seconds": 60.5,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 11,
+   "crossings": 18,
+   "seconds": 55.7,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 12,
+   "crossings": 18,
+   "seconds": 50.0,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 13,
+   "crossings": 18,
+   "seconds": 43.7,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 14,
+   "crossings": 19,
+   "seconds": 213.9,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 15,
+   "crossings": 19,
+   "seconds": 67.5,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 16,
+   "crossings": 18,
+   "seconds": 55.7,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 17,
+   "crossings": 19,
+   "seconds": 67.5,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 18,
+   "crossings": 19,
+   "seconds": 78.7,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 19,
+   "crossings": 18,
+   "seconds": 64.0,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 20,
+   "crossings": 18,
+   "seconds": 65.9,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 21,
+   "crossings": 18,
+   "seconds": 70.7,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 22,
+   "crossings": 19,
+   "seconds": 68.8,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 23,
+   "crossings": 18,
+   "seconds": 56.7,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 24,
+   "crossings": 18,
+   "seconds": 62.1,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 25,
+   "crossings": 18,
+   "seconds": 66.3,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 26,
+   "crossings": 18,
+   "seconds": 62.1,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 27,
+   "crossings": 21,
+   "seconds": 161.7,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 28,
+   "crossings": 22,
+   "seconds": 94.6,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 29,
+   "crossings": 22,
+   "seconds": 88.1,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 30,
+   "crossings": 20,
+   "seconds": 191.7,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 31,
+   "crossings": 20,
+   "seconds": 95.8,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 32,
+   "crossings": 18,
+   "seconds": 64.5,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 33,
+   "crossings": 18,
+   "seconds": 60.8,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 34,
+   "crossings": 18,
+   "seconds": 66.9,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 35,
+   "crossings": 18,
+   "seconds": 64.2,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 36,
+   "crossings": 18,
+   "seconds": 53.9,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 37,
+   "crossings": 18,
+   "seconds": 154.5,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 38,
+   "crossings": 20,
+   "seconds": 53.9,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 39,
+   "crossings": 21,
+   "seconds": 57.4,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 40,
+   "crossings": 18,
+   "seconds": 33.9,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 41,
+   "crossings": 23,
+   "seconds": 65.8,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 42,
+   "crossings": 18,
+   "seconds": 36.8,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 43,
+   "crossings": 19,
+   "seconds": 56.9,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 44,
+   "crossings": 23,
+   "seconds": 76.9,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 45,
+   "crossings": 18,
+   "seconds": 32.6,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 46,
+   "crossings": 18,
+   "seconds": 52.1,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 47,
+   "crossings": 18,
+   "seconds": 47.9,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 48,
+   "crossings": 20,
+   "seconds": 65.7,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 49,
+   "crossings": 22,
+   "seconds": 75.6,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 50,
+   "crossings": 18,
+   "seconds": 40.4,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 51,
+   "crossings": 18,
+   "seconds": 159.1,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 52,
+   "crossings": 22,
+   "seconds": 94.7,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 53,
+   "crossings": 18,
+   "seconds": 36.5,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 54,
+   "crossings": 18,
+   "seconds": 32.5,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 55,
+   "crossings": 20,
+   "seconds": 48.3,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 56,
+   "crossings": 18,
+   "seconds": 37.6,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 57,
+   "crossings": 18,
+   "seconds": 38.2,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 58,
+   "crossings": 23,
+   "seconds": 55.9,
+   "survivors": 0,
+   "unknot": false
+  },
+  {
+   "diagram": 59,
+   "crossings": 18,
+   "seconds": 31.3,
+   "survivors": 0,
+   "unknot": false
+  }
+ ],
+ "unknot_found": false
+}

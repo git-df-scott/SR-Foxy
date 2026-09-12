@@ -1,0 +1,23 @@
+{
+ "date": "2026-09-12T07:14:22.448554Z",
+ "box": {
+  "max_bands": 2,
+  "max_band_len": 5,
+  "J_list": [
+   "6_1",
+   "8_8",
+   "10_3"
+  ]
+ },
+ "runs": [
+  {
+   "knot": "D_{0,1} = K_0 # (-K_1)",
+   "J": "6_1",
+   "sum_crossings": 31,
+   "seconds": 15151.0,
+   "certified_slice": false
+  }
+ ],
+ "meaning": "a verified certificate proves K smoothly slice with a disk NOT known handle-ribbon; then run homotopy-ribbon obstructions on K",
+ "seconds": 15151.1
+}
