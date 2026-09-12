@@ -1,0 +1,72 @@
+{
+  "status": "SCOPED_INVARIANT_CALCULATIONS",
+  "input": "results/knotjob/inputs.txt",
+  "input_sha256": "3c6fb97cd2a85a89522ad65225d0885a64d0187c1767b2c774b60a12b6addce8",
+  "jar_sha256": "b63daf5f689660a276ed37bbca3393cb26fe62e097427cdd599647b874304718",
+  "java_version": "openjdk version \"25.0.4.1\" 2026-08-18 LTS\nOpenJDK Runtime Environment Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS)\nOpenJDK 64-Bit Server VM Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS, mixed mode, sharing)\n",
+  "names": [
+    "AbeTagami_K_1",
+    "AbeTagami_D_0_1"
+  ],
+  "flags": [
+    "-sq2e",
+    "-sq2o0",
+    "-sq2o1"
+  ],
+  "timeout_seconds": 300,
+  "heap_limit": "2g",
+  "runs": [
+    {
+      "name": "AbeTagami_K_1",
+      "flag": "-sq2e",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/resumed_knotjob_sq2/AbeTagami_K_1_sq2e.log",
+      "seconds": 142.885,
+      "printed_values": [
+        "Even Sq^2 Invariant : (0, 0, 0, 0)"
+      ]
+    },
+    {
+      "name": "AbeTagami_K_1",
+      "flag": "-sq2o0",
+      "status": "inconclusive_timeout",
+      "log": "results/resumed_knotjob_sq2/AbeTagami_K_1_sq2o0.log",
+      "seconds": 300.124,
+      "printed_values": []
+    },
+    {
+      "name": "AbeTagami_K_1",
+      "flag": "-sq2o1",
+      "status": "inconclusive_timeout",
+      "log": "results/resumed_knotjob_sq2/AbeTagami_K_1_sq2o1.log",
+      "seconds": 300.12,
+      "printed_values": []
+    },
+    {
+      "name": "AbeTagami_D_0_1",
+      "flag": "-sq2e",
+      "status": "inconclusive_timeout",
+      "log": "results/resumed_knotjob_sq2/AbeTagami_D_0_1_sq2e.log",
+      "seconds": 300.099,
+      "printed_values": []
+    },
+    {
+      "name": "AbeTagami_D_0_1",
+      "flag": "-sq2o0",
+      "status": "inconclusive_timeout",
+      "log": "results/resumed_knotjob_sq2/AbeTagami_D_0_1_sq2o0.log",
+      "seconds": 300.147,
+      "printed_values": []
+    },
+    {
+      "name": "AbeTagami_D_0_1",
+      "flag": "-sq2o1",
+      "status": "inconclusive_timeout",
+      "log": "results/resumed_knotjob_sq2/AbeTagami_D_0_1_sq2o1.log",
+      "seconds": 300.097,
+      "printed_values": []
+    }
+  ],
+  "queue_complete": true
+}

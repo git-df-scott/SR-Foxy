@@ -1,0 +1,16 @@
+/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+intermediate 213 verified hyperbolic False
+intermediate 384 verified hyperbolic False
+/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/snappy/verify/krawczyk_shapes_engine.py:431: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.046533326897996e-18.
+  approx_inverse_double = approx_deriv.inverse()
+intermediate 98 verified hyperbolic False
+intermediate 303 verified hyperbolic False
+intermediate 318 verified hyperbolic False
+intermediate 90 verified hyperbolic False
+intermediate 165 verified hyperbolic False
+intermediate 64 verified hyperbolic False
+intermediate 68 verified hyperbolic False
+intermediate 189 verified hyperbolic False
+intermediate 332 verified hyperbolic False
+intermediate 434 verified hyperbolic False

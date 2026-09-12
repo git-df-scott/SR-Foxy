@@ -1,0 +1,17 @@
+/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+    Looking at (8, 3) ...
+        dim H_1(cover; F_q) = 4 with rep. structure [(2, 2)]
+        rep V_0 of dim 2, multiplicity 2, generator matrix [(0, 2), (1, 0)]
+             (1, 0, 0, 0)  False  False  False  False
+             (1, 0, 0, 1)  False  False  False  False
+             (1, 0, 0, 2)  False  False
+             (1, 0, 1, 0)  False  False
+             (1, 0, 1, 1)  False  False
+             (1, 0, 1, 2)  False  False
+             (1, 0, 2, 0)  False  False
+             (1, 0, 2, 1)  True
+            weakly obstructed
+            Have delta(V_0) = 2 and sum of delta(V_i)'s is now 2
+
+{"knot": "D_{0,1} = K_0 # (-K_1)", "p": 8, "q": 3, "method": "advanced", "ribbon_mode": false, "result": null, "seconds": 4.123, "snappy": "3.3.2", "meaning": "A returned pair is a computational nonsliceness obstruction; null means only no obstruction in this calculation."}

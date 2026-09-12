@@ -1,0 +1,23 @@
+/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+Traceback (most recent call last):
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/SR-Foxy/scripts/check_intermediate_jones.py", line 44, in <module>
+    p=argparse.ArgumentParser();p.add_argument('archive');p.add_argument('output');a=p.parse_args();run(a.archive,a.output)
+                                                                                                    ~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/SR-Foxy/scripts/check_intermediate_jones.py", line 32, in run
+    control=check(split);assert not control['nonsplit_by_Jones']
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/SR-Foxy/scripts/check_intermediate_jones.py", line 18, in check
+    v=L.jones_polynomial();p=P.jones_polynomial();q=Q.jones_polynomial();t=v.parent().gen()
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/spherogram/links/invariants.py", line 691, in jones_polynomial
+    J = jones.jones_polynomial(self, normalized=True)
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/spherogram/links/jones.py", line 204, in jones_polynomial
+    bracket = kauffman_bracket(link)
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/spherogram/links/jones.py", line 186, in kauffman_bracket
+    exhaustion = exhaust.MorseExhaustion(link)
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/spherogram/links/exhaust.py", line 336, in __init__
+    overlap, i, C = frontier.biggest_all_consecutive_overlap()
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/spherogram/links/exhaust.py", line 289, in biggest_all_consecutive_overlap
+    max_overlap = max(possible)[0]
+                  ~~~^^^^^^^^^^
+ValueError: max() iterable argument is empty

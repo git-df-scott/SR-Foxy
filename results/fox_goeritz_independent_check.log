@@ -1,0 +1,10 @@
+/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+Traceback (most recent call last):
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/SR-Foxy/scripts/verify_fox_goeritz.py", line 84, in <module>
+    p=argparse.ArgumentParser();p.add_argument('output');p.add_argument('inputs',nargs='+');a=p.parse_args();run(a.inputs,a.output)
+                                                                                                             ~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/SR-Foxy/scripts/verify_fox_goeritz.py", line 58, in run
+    assert B1==-B0
+           ^^^^^^^
+AssertionError

@@ -1,0 +1,3 @@
+/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+{"source_index": 10187, "crossings": 26, "bands_tested": 7130, "detected_split_unknot_deaths": 11, "unique_predecessor_diagrams": 1, "K1_HFK_matches": 0, "numerical_hits": [], "inconclusive_HFK": [], "inconclusive_identifications": [], "stop": "enumeration_finished", "seconds": 4.574}

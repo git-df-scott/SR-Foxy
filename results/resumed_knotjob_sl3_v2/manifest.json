@@ -1,0 +1,214 @@
+{
+  "status": "SCOPED_INVARIANT_CALCULATIONS",
+  "input": "results/knotjob/inputs.txt",
+  "input_sha256": "3c6fb97cd2a85a89522ad65225d0885a64d0187c1767b2c774b60a12b6addce8",
+  "jar_sha256": "b63daf5f689660a276ed37bbca3393cb26fe62e097427cdd599647b874304718",
+  "java_version": "openjdk version \"25.0.4.1\" 2026-08-18 LTS\nOpenJDK Runtime Environment Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS)\nOpenJDK 64-Bit Server VM Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS, mixed mode, sharing)\n",
+  "names": [
+    "positive_trefoil",
+    "negative_trefoil",
+    "ribbon_6_1",
+    "AbeTagami_K_0_K_-1__6_3",
+    "AbeTagami_K_1",
+    "AbeTagami_D_0_1"
+  ],
+  "flags": [
+    "-sl0",
+    "-sl2",
+    "-sl3"
+  ],
+  "timeout_seconds": 120,
+  "heap_limit": "2g",
+  "runs": [
+    {
+      "name": "positive_trefoil",
+      "flag": "-sl0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/resumed_knotjob_sl3_v2/positive_trefoil_sl0.log",
+      "seconds": 0.371,
+      "printed_values": [
+        "sl_3 S-Invariant mod 0 : 2"
+      ]
+    },
+    {
+      "name": "positive_trefoil",
+      "flag": "-sl2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/resumed_knotjob_sl3_v2/positive_trefoil_sl2.log",
+      "seconds": 0.398,
+      "printed_values": [
+        "sl_3 S-Invariant mod 2 : 2"
+      ]
+    },
+    {
+      "name": "positive_trefoil",
+      "flag": "-sl3",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/resumed_knotjob_sl3_v2/positive_trefoil_sl3.log",
+      "seconds": 0.394,
+      "printed_values": [
+        "sl_3 S-Invariant mod 3 : 2"
+      ]
+    },
+    {
+      "name": "negative_trefoil",
+      "flag": "-sl0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/resumed_knotjob_sl3_v2/negative_trefoil_sl0.log",
+      "seconds": 0.389,
+      "printed_values": [
+        "sl_3 S-Invariant mod 0 : -2"
+      ]
+    },
+    {
+      "name": "negative_trefoil",
+      "flag": "-sl2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/resumed_knotjob_sl3_v2/negative_trefoil_sl2.log",
+      "seconds": 0.391,
+      "printed_values": [
+        "sl_3 S-Invariant mod 2 : -2"
+      ]
+    },
+    {
+      "name": "negative_trefoil",
+      "flag": "-sl3",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/resumed_knotjob_sl3_v2/negative_trefoil_sl3.log",
+      "seconds": 0.394,
+      "printed_values": [
+        "sl_3 S-Invariant mod 3 : -2"
+      ]
+    },
+    {
+      "name": "ribbon_6_1",
+      "flag": "-sl0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/resumed_knotjob_sl3_v2/ribbon_6_1_sl0.log",
+      "seconds": 0.393,
+      "printed_values": [
+        "sl_3 S-Invariant mod 0 : 0"
+      ]
+    },
+    {
+      "name": "ribbon_6_1",
+      "flag": "-sl2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/resumed_knotjob_sl3_v2/ribbon_6_1_sl2.log",
+      "seconds": 0.399,
+      "printed_values": [
+        "sl_3 S-Invariant mod 2 : 0"
+      ]
+    },
+    {
+      "name": "ribbon_6_1",
+      "flag": "-sl3",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/resumed_knotjob_sl3_v2/ribbon_6_1_sl3.log",
+      "seconds": 0.407,
+      "printed_values": [
+        "sl_3 S-Invariant mod 3 : 0"
+      ]
+    },
+    {
+      "name": "AbeTagami_K_0_K_-1__6_3",
+      "flag": "-sl0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/resumed_knotjob_sl3_v2/AbeTagami_K_0_K_-1__6_3_sl0.log",
+      "seconds": 0.441,
+      "printed_values": [
+        "sl_3 S-Invariant mod 0 : 0"
+      ]
+    },
+    {
+      "name": "AbeTagami_K_0_K_-1__6_3",
+      "flag": "-sl2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/resumed_knotjob_sl3_v2/AbeTagami_K_0_K_-1__6_3_sl2.log",
+      "seconds": 0.412,
+      "printed_values": [
+        "sl_3 S-Invariant mod 2 : 0"
+      ]
+    },
+    {
+      "name": "AbeTagami_K_0_K_-1__6_3",
+      "flag": "-sl3",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/resumed_knotjob_sl3_v2/AbeTagami_K_0_K_-1__6_3_sl3.log",
+      "seconds": 0.413,
+      "printed_values": [
+        "sl_3 S-Invariant mod 3 : 0"
+      ]
+    },
+    {
+      "name": "AbeTagami_K_1",
+      "flag": "-sl0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/resumed_knotjob_sl3_v2/AbeTagami_K_1_sl0.log",
+      "seconds": 2.872,
+      "printed_values": [
+        "sl_3 S-Invariant mod 0 : 0"
+      ]
+    },
+    {
+      "name": "AbeTagami_K_1",
+      "flag": "-sl2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/resumed_knotjob_sl3_v2/AbeTagami_K_1_sl2.log",
+      "seconds": 1.845,
+      "printed_values": [
+        "sl_3 S-Invariant mod 2 : 0"
+      ]
+    },
+    {
+      "name": "AbeTagami_K_1",
+      "flag": "-sl3",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/resumed_knotjob_sl3_v2/AbeTagami_K_1_sl3.log",
+      "seconds": 1.898,
+      "printed_values": [
+        "sl_3 S-Invariant mod 3 : 0"
+      ]
+    },
+    {
+      "name": "AbeTagami_D_0_1",
+      "flag": "-sl0",
+      "status": "inconclusive_timeout",
+      "log": "results/resumed_knotjob_sl3_v2/AbeTagami_D_0_1_sl0.log",
+      "seconds": 120.106,
+      "printed_values": []
+    },
+    {
+      "name": "AbeTagami_D_0_1",
+      "flag": "-sl2",
+      "status": "inconclusive_timeout",
+      "log": "results/resumed_knotjob_sl3_v2/AbeTagami_D_0_1_sl2.log",
+      "seconds": 120.097,
+      "printed_values": []
+    },
+    {
+      "name": "AbeTagami_D_0_1",
+      "flag": "-sl3",
+      "status": "inconclusive_timeout",
+      "log": "results/resumed_knotjob_sl3_v2/AbeTagami_D_0_1_sl3.log",
+      "seconds": 120.122,
+      "printed_values": []
+    }
+  ],
+  "queue_complete": true
+}

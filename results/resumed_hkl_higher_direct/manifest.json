@@ -1,0 +1,70 @@
+{
+  "input": "data/knots/AbeTagami_D_0_1.json",
+  "jobs": [
+    {
+      "p": 4,
+      "q": 3,
+      "method": "direct",
+      "timeout": 90.0,
+      "command": [
+        "/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/bin/python",
+        "scripts/hkl_targeted.py",
+        "data/knots/AbeTagami_D_0_1.json",
+        "results/resumed_hkl_higher_direct/4_3_direct.json",
+        "--p",
+        "4",
+        "--q",
+        "3",
+        "--method",
+        "direct"
+      ],
+      "status": "finished",
+      "returncode": 0,
+      "seconds": 23.26,
+      "result": {
+        "knot": "D_{0,1} = K_0 # (-K_1)",
+        "p": 4,
+        "q": 3,
+        "method": "direct",
+        "ribbon_mode": false,
+        "result": null,
+        "seconds": 20.559,
+        "snappy": "3.3.2",
+        "meaning": "A returned pair is a computational nonsliceness obstruction; null means only no obstruction in this calculation."
+      }
+    },
+    {
+      "p": 8,
+      "q": 3,
+      "method": "direct",
+      "timeout": 90.0,
+      "command": [
+        "/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/bin/python",
+        "scripts/hkl_targeted.py",
+        "data/knots/AbeTagami_D_0_1.json",
+        "results/resumed_hkl_higher_direct/8_3_direct.json",
+        "--p",
+        "8",
+        "--q",
+        "3",
+        "--method",
+        "direct"
+      ],
+      "status": "finished",
+      "returncode": 0,
+      "seconds": 33.87,
+      "result": {
+        "knot": "D_{0,1} = K_0 # (-K_1)",
+        "p": 8,
+        "q": 3,
+        "method": "direct",
+        "ribbon_mode": false,
+        "result": null,
+        "seconds": 31.608,
+        "snappy": "3.3.2",
+        "meaning": "A returned pair is a computational nonsliceness obstruction; null means only no obstruction in this calculation."
+      }
+    }
+  ],
+  "complete": true
+}

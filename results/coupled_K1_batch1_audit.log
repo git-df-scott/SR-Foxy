@@ -1,0 +1,10 @@
+/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+Traceback (most recent call last):
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/SR-Foxy/scripts/audit_coupled_births.py", line 102, in <module>
+    run(a.archive,a.output,a.sample,a.timeout,a.seed)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/SR-Foxy/scripts/audit_coupled_births.py", line 51, in run
+    assert J.PD_code()==[tuple(x) for x in r['endpoint_pd']]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

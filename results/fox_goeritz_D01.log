@@ -1,0 +1,26 @@
+/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+Traceback (most recent call last):
+  File "sage/structure/category_object.pyx", line 861, in sage.structure.category_object.CategoryObject.getattr_from_category
+    return self._cached_methods[name]
+KeyError: 'relators'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/SR-Foxy/scripts/hkl_fox_goeritz.py", line 181, in <module>
+    run(a.input,a.output,a.q,a.compute)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/SR-Foxy/scripts/hkl_fox_goeritz.py", line 160, in run
+    rec, basis, B=bridge(L,q); rec['input']=name; rec['results']=[]; rec['complete']=False
+                  ~~~~~~^^^^^
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/SR-Foxy/scripts/hkl_fox_goeritz.py", line 36, in bridge
+    rels = [list(map(int, r.Tietze())) for r in L.knot_group().relators()]
+                                                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "sage/structure/category_object.pyx", line 855, in sage.structure.category_object.CategoryObject.__getattr__
+    return self.getattr_from_category(name)
+  File "sage/structure/category_object.pyx", line 870, in sage.structure.category_object.CategoryObject.getattr_from_category
+    attr = getattr_from_other_class(self, cls, name)
+  File "sage/cpython/getattr.pyx", line 358, in sage.cpython.getattr.getattr_from_other_class
+    raise AttributeError(dummy_error_message)
+AttributeError: 'FinitelyPresentedGroup_with_category' object has no attribute 'relators'. Did you mean: 'relations'?

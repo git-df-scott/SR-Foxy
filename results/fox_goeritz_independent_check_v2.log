@@ -1,0 +1,3 @@
+/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+[('results/fox_goeritz_D01_all.json', 2), ('results/fox_goeritz_square_control.json', 2), ('results/fox_goeritz_6_3_control.json', 0)]

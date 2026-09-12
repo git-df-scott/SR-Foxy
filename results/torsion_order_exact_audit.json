@@ -1,0 +1,331 @@
+{
+  "status": "EXACT_MONOMIAL_SMITH_AUDIT",
+  "controls": [
+    {
+      "matrix": [
+        [
+          "U",
+          "U^2"
+        ],
+        [
+          "U^2",
+          "0"
+        ]
+      ],
+      "smith": [
+        "U",
+        "U^3"
+      ],
+      "old_largest_entry_exponent": 2,
+      "actual_torsion_order": 3
+    },
+    {
+      "matrix": [
+        [
+          "U",
+          "U^2"
+        ],
+        [
+          "0",
+          "U"
+        ]
+      ],
+      "smith": [
+        "U",
+        "U"
+      ],
+      "old_largest_entry_exponent": 2,
+      "actual_torsion_order": 1
+    }
+  ],
+  "knots": [
+    {
+      "name": "6_3",
+      "n_gens": 13,
+      "n_arrows": 31,
+      "U_arrows": 16,
+      "V_arrows": 15,
+      "U_exponents": [
+        1
+      ],
+      "V_exponents": [
+        1
+      ],
+      "max_U_exponent": 1,
+      "smith_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "torsion_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "torsion_order": 1,
+      "localized_homology_rank": 1
+    },
+    {
+      "name": "6_1",
+      "n_gens": 9,
+      "n_arrows": 12,
+      "U_arrows": 6,
+      "V_arrows": 6,
+      "U_exponents": [
+        1
+      ],
+      "V_exponents": [
+        1
+      ],
+      "max_U_exponent": 1,
+      "smith_exponents": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "torsion_exponents": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "torsion_order": 1,
+      "localized_homology_rank": 1
+    },
+    {
+      "name": "8_19",
+      "n_gens": 5,
+      "n_arrows": 4,
+      "U_arrows": 2,
+      "V_arrows": 2,
+      "U_exponents": [
+        1,
+        2
+      ],
+      "V_exponents": [
+        1,
+        2
+      ],
+      "max_U_exponent": 2,
+      "smith_exponents": [
+        1,
+        2
+      ],
+      "torsion_exponents": [
+        1,
+        2
+      ],
+      "torsion_order": 2,
+      "localized_homology_rank": 1
+    },
+    {
+      "name": "K1",
+      "n_gens": 13,
+      "n_arrows": 18,
+      "U_arrows": 9,
+      "V_arrows": 9,
+      "U_exponents": [
+        1
+      ],
+      "V_exponents": [
+        1
+      ],
+      "max_U_exponent": 1,
+      "smith_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "torsion_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "torsion_order": 1,
+      "localized_homology_rank": 1
+    },
+    {
+      "name": "J149",
+      "n_gens": 149,
+      "n_arrows": 515,
+      "U_arrows": 245,
+      "V_arrows": 270,
+      "U_exponents": [
+        1,
+        2
+      ],
+      "V_exponents": [
+        1,
+        2
+      ],
+      "max_U_exponent": 2,
+      "smith_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "torsion_exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "torsion_order": 1,
+      "localized_homology_rank": 1
+    }
+  ]
+}

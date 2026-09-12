@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/SR-Foxy/scripts/knotjob_individual.py", line 47, in <module>
+    p.add_argument('--timeout',type=int,default=180);a=p.parse_args();run(a.java,a.jar,a.input,a.output,a.names,a.flag,a.timeout)
+                                                                      ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/SR-Foxy/scripts/knotjob_individual.py", line 15, in run
+    if unknown:raise ValueError('Missing names: '+str(unknown))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Missing names: {'AbeTagami_K0_6_3'}

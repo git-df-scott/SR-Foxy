@@ -1,5 +1,13 @@
 # Two new results (2026-09-11, session 2 continued)
 
+**Update, 12 September 2026:** the script now implements a genuine homogeneous
+Smith reduction and independently checks it by binary ranks modulo U^N.
+The warning below was correct, but the old script still mislabeled the largest
+entry exponent as the JMZ bound. Correct values: K_G=1, K_B=1 (raw maximum 5),
+and **GST Figure 2=2** (raw maximum 6). See
+`results/torsion_order_extended_check.json`. This resolves the GST torsion
+calculation left open below; it does not settle ribbonness.
+
 ## A. The Floer torsion order gives no lower bound on the fusion number of K_G
 
 **Setup.** Juhasz-Miller-Zemke (arXiv:1904.02735) prove that for a ribbon knot J,

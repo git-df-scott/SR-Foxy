@@ -1,0 +1,6 @@
+/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+intermediate 69 verified hyperbolic False nonzero Alexander minor False
+intermediate 6 verified hyperbolic False nonzero Alexander minor False
+intermediate 39 verified hyperbolic False nonzero Alexander minor False
+intermediate 61 verified hyperbolic False nonzero Alexander minor False

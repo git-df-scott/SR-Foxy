@@ -1,0 +1,87 @@
+{
+  "status": "OPPOSITE_CHECKERBOARD_AND_EXPLICIT_NORMS_VERIFIED",
+  "records": [
+    {
+      "input": "results/fox_goeritz_D01_all.json",
+      "sha256": "ab238acaa004ab3b3c54d80eec4d1e5376452b7f3d55c662c02c640ea294e85c",
+      "opposite_shading_pairing": [
+        [
+          9,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "all_lines_same_isotropy": true,
+      "norm_certificates": [
+        {
+          "line": [
+            1,
+            3
+          ],
+          "half_polynomial": "-1 + (-z^11 - z^10 - z^3 - z^2 + 2)*t + (z^11 + z^10 + z^3 + z^2 - 2)*t^2 + t^3",
+          "norm_unit": "-t^3",
+          "verified": true
+        },
+        {
+          "line": [
+            1,
+            8
+          ],
+          "half_polynomial": "-1 + (-z^11 - z^10 - z^3 - z^2 + 2)*t + (z^11 + z^10 + z^3 + z^2 - 2)*t^2 + t^3",
+          "norm_unit": "-t^3",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "input": "results/fox_goeritz_square_control.json",
+      "sha256": "5c0a0b5dfbd402dafd32b652a0634fdd61f26a9bba38b17fa5d7fb871bffc6f4",
+      "opposite_shading_pairing": [
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "all_lines_same_isotropy": true,
+      "norm_certificates": [
+        {
+          "line": [
+            1,
+            0
+          ],
+          "half_polynomial": "-1 + (-z^11 - z^10 - z^3 - z^2 + 2)*t + (z^11 + z^10 + z^3 + z^2 - 2)*t^2 + t^3",
+          "norm_unit": "t^3",
+          "verified": true
+        },
+        {
+          "line": [
+            1,
+            11
+          ],
+          "half_polynomial": "-1 + (-z^11 - z^10 - z^3 - z^2 + 2)*t + (z^11 + z^10 + z^3 + z^2 - 2)*t^2 + t^3",
+          "norm_unit": "t^3",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "input": "results/fox_goeritz_6_3_control.json",
+      "sha256": "7d1908385ad990247546e8246fdd4e13f9db7e9853c8e8acbf0c88a36e427f14",
+      "opposite_shading_pairing": [
+        [
+          7
+        ]
+      ],
+      "all_lines_same_isotropy": true,
+      "norm_certificates": []
+    }
+  ],
+  "limitations": "The TAP determinant still uses SnapPy exact arithmetic; topology-to-presentation correspondence relies on the cited theorems."
+}
