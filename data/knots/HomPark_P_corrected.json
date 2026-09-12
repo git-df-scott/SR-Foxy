@@ -535,5 +535,22 @@
    148,
    0
   ]
- ]
+ ],
+ "audit_2026_09_12": {
+  "status": "OBSTRUCTED_FROM_TOPOLOGICAL_SLICENESS",
+  "advanced_HKL": [
+   2,
+   3
+  ],
+  "direct_HKL": [
+   2,
+   3
+  ],
+  "ribbon_mode": false,
+  "evidence": [
+   "results/HP_exact_norm_audit.json",
+   "results/HP_independent_rational_norm_check.json"
+  ],
+  "scope": "This explicit member only; original construction data preserved."
+ }
 }

@@ -1,0 +1,12 @@
+{
+  "result": [
+    2,
+    3
+  ],
+  "p": 2,
+  "q": 3,
+  "method": "advanced",
+  "ribbon_mode": false,
+  "seconds": 3.0612505830358714,
+  "construction_file": "HP_independent_rebuild.json"
+}

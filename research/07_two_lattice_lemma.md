@@ -1,5 +1,7 @@
 # The two-lattice lemma for derivatives on the fiber of K_G (2026-09-11)
 
+> **2026-09-12 computation:** The stored matrix is singular 28×28, not the fiber matrix. The [exact audit](../results/seifert_model_exact_audit.json) now supplies an integral S-reduction to 10×10 and both saturated isotropic lattices. This is an algebraic model; no embedded fiber identification has been supplied. The finite homology alternatives do not classify geometric derivatives or stabilized surfaces.
+
 Status: proof written here, not yet refereed. Builds on `06_theory_derivatives_on_fiber.md`, Theorem 3.1 (monodromy-invariant Lagrangians are Seifert-form metabolizers) and its notation: K fibered of genus g with fiber F, Seifert form v(x,y) = lk(x, y⁺) with unimodular matrix V, monodromy φ = φ_* on H₁(F) satisfying Vᵀφ = V, so v(x,y) = v(φy, x) for all x, y (identity (∗∗) there).
 
 ## Lemma A (converse of Theorem 3.1). For a fibered knot, every metabolizer of the Seifert form is monodromy-invariant.

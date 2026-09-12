@@ -1,5 +1,7 @@
 # Claude — Slice–Ribbon counterexample campaign: what happened
 
+> **2026-09-12 audit:** This is a historical record. The [current audit](RESEARCH_AUDIT_2026-09-12.md) supersedes conflicting claims: the explicit Hom–Park member is obstructed from sliceness; old basic HKL runs skipped repeated factors; several structural claims and proof steps below were withdrawn or repaired.
+
 Master record. Everything the campaign did, found, got wrong, and left open.
 Repository state: one branch, merged to `main`. 2026-09-11 to 2026-09-12.
 
@@ -10,12 +12,7 @@ Repository state: one branch, merged to `main`. 2026-09-11 to 2026-09-12.
 **No counterexample was found.** No knot in this repository is one, and none is
 close to one.
 
-What the campaign produced instead: two obstruction families closed permanently with
-proofs, a forty-year-old untested candidate family tested and closed, a structural
-explanation for why every existing candidate is immune to every existing tool, three
-live route-B candidates with the cheap invariants exhausted on all of them, ten
-corrections to the inherited record, and reusable machinery for the step that had
-blocked the problem twice.
+The latest audit excluded the explicit Hom–Park member and replaced the old basic HKL search with applicable advanced/direct tests. A new common-successor search now uses a graded knot Floer filter. The earlier claims of universal tool exhaustion and a complete structural diagnosis were not established. See the current audit for exact counts and limitations.
 
 **The Conjecture** (Fox 1962, Kirby Problem 1.33): every smoothly slice knot in S³ is
 ribbon. A counterexample is an explicit knot with (a) a proof it bounds a smooth disk
@@ -29,19 +26,7 @@ No converse is known. Miller–Zupan state none of the inclusions is known to be
 
 ## 1. The structural diagnosis (the campaign's main idea)
 
-Every route-A generator — 0-surgery/RBG trace embeddings, GST band sums, annulus
-twists, belt spheres of no-3-handle B⁴ diagrams — builds its candidate's slice disk
-out of the exterior of a **ribbon** disk of a partner knot. So every candidate comes
-out **handle-ribbon by construction**, hence homotopy-ribbon. And every classical
-obstruction (Casson–Gordon extension, metabelian and twisted-Alexander restrictions,
-the irregular-dihedral Ξ invariant, Park–Powell, Turaev's Theorem H) is an obstruction
-to *homotopy*-ribbonness. They are logically inert against exactly the knots we care
-about.
-
-That is not bad luck. It is the architecture of the constructions, and it means
-**improving the obstructions cannot help**. The escape is the Teichner sum, whose
-disk runs a ribbon disk *backwards* inside a concordance and so carries local maxima
-and needs 3-handles: its output is not automatically handle-ribbon.
+**The earlier universal diagnosis is withdrawn.** Some named candidates have source-backed handle-ribbon constructions, so an obstruction solely to homotopy-ribbonness cannot exclude them. Each construction and ambient 4-ball must be audited separately. This gives no theorem that improving obstructions cannot help. A Teichner certificate proves sliceness without deciding whether a different handle-ribbon disk exists.
 
 **A tempting shortcut, and why it fails** (recorded because it looks right): one might
 argue K → K#R is a ribbon concordance and K#R is ribbon, so compose and conclude K is
@@ -59,8 +44,7 @@ Written out in `research/06_theory_derivatives_on_fiber.md` and
 another along an arc *in the Seifert surface* yields another derivative with the same
 0-surgery; the framing works because a derivative has lk(Lᵢ,Lⱼ) = lk(Lᵢ,Lⱼ⁺) = 0 for
 i ≠ j. The slide orbit is exactly the set of complete meridian systems of the
-associated handlebody. So surface slides preserve unlinkedness while arbitrary S³
-slides do not — **that difference is Generalized Property R**.
+associated handlebody. **The additional claim that these surface slides preserve unlinkedness in S³ is withdrawn:** the abstract handlebody argument does not supply compatible embedded spanning disks.
 
 **T2 + T3 — For a fibered knot, {metabolizers of the Seifert form} = {monodromy-
 invariant Lagrangians}.** Forward uses Vᵀφ = V, symmetry of v on a Lagrangian, and
@@ -74,16 +58,13 @@ lattices. An exact linear-algebra filter for any enumeration of cut systems.
 
 **T5 — All Milnor invariants of every R-link vanish.** The meridian map F_n → π₁(S³∖L)
 induces isomorphisms on all nilpotent quotients, so every longitude lies in every term
-of the lower central series. **Every R-link is a homology boundary link.**
+of the lower central series. The proof below needed repair; the current audit proves the nilpotent statement without asserting that surgery meridians form a free basis.
 *Corollary:* no nilpotent or lower-central-series invariant of derivative links,
 **Park–Powell's triple-linking obstruction included**, can separate ribbon from
 handle-ribbon. Separation requires non-nilpotent data: freeness of the link group,
 volume, Heegaard genus, or finite-group representation counts.
 
-**T6 — The gap, exactly.** K is ribbon ⟺ some derivative has free link group ⟺ some
-derivative has handlebody exterior. K is handle-ribbon ⟺ some derivative is an R-link.
-There is **no intermediate derivative-level condition**; the whole gap is Generalized
-Property R.
+**T6 — Corrected criterion.** Ribbonness is equivalent to the existence of an unlink derivative on some Seifert surface. The assertion that an unlink exterior is a handlebody is false for more than one component. The claim that no intermediate derivative-level condition can exist is unsupported. The handle-ribbon/R-link characterization must retain its ambient-category qualification.
 
 ---
 
@@ -95,9 +76,9 @@ Property R.
 | 2 | r = 0 RBG pairs | one ribbon disk certifies both | open | live; **two** distinct pairs, not three |
 | 3 | GST Figure 2 band sum | proved (GST §8) | open | live; has a 1-band survivor |
 | 4 | Miyazaki cable (10_17)_{2,1} | open | **proved** | live; Casson–Gordon found nothing |
-| 5 | Abe–Tagami D_{n,m} | open | **proved** | **strongest**; whole battery exhausted |
+| 5 | Abe–Tagami D_{n,m} | open | **proved** | primary constructive target; advanced tests inconclusive |
 | 6 | Gompf–Miyazaki Prop 3.1 | open | proved | weak, unchecked |
-| 7 | **Hom–Park Cor 1.3** | open | **proved** | **live, built here** |
+| 7 | **Explicit Hom–Park member** | **obstructed by advanced/direct HKL (2,3)** | **proved** | **closed for this member** |
 | — | **Turaev Theorem I** | — | proved not homotopy-ribbon | **CLOSED, tested here** |
 | — | Turaev Theorem H as a weapon | — | — | **CLOSED, proof** |
 | — | all nilpotent obstructions | — | — | **CLOSED, proof (T5)** |
@@ -162,7 +143,7 @@ the campaign's own best explanation for the failures.
 | D_{0,1} = K_0 # (−K_1) | **None** (0.8s) | survives |
 | D_{0,2} = K_0 # (−K_2) | **None** (0.8s) | survives |
 | (10_17)_{2,1} | **None** | survives |
-| Hom–Park P (corrected) | **None** at specs 3, 5, 7, 11 | survives |
+| Hom–Park P (corrected), historical basic tests | **None** at specs 3, 5, 7, 11 | **superseded: advanced/direct (2,3) obstruct sliceness** |
 
 **Abe–Tagami separation test.** Levine–Tristram signatures — genuine concordance
 invariants — are **identical and identically zero** across K_0, K_1, K_2 at nine roots
@@ -179,7 +160,7 @@ hours, no certificate**. At that rate the intended sweep is ~75 hours single-cor
 search was **sampled, not run**. The trefoil control produced no false certificate
 across eight partners.
 
-**Hom–Park knot, built here.** 88 crossings, signature 0, τ = 0. Every cabled piece
+**Hom–Park knot, historical build; now obstructed from sliceness.** 88 crossings, signature 0, τ = 0. Every cabled piece
 matches the Hedden–Hom formula exactly (τ = 2, 3, 5, 4 as predicted). Survives
 Casson–Gordon to prime 11. **Third live route-B candidate**, and its non-ribbon
 certificate comes from Hom–Park's γ₀-sharp pairing theorem rather than Miyazaki's, so

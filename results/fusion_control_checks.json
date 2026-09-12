@@ -1,0 +1,231 @@
+{
+  "seed": 20260912,
+  "source": "3_1 (tau=-1 in SnapPy)",
+  "checks": [
+    {
+      "index": 6778,
+      "crossings": 10,
+      "tau": -1,
+      "fibered": true,
+      "passed": true
+    },
+    {
+      "index": 3986,
+      "crossings": 10,
+      "tau": -1,
+      "fibered": true,
+      "passed": true
+    },
+    {
+      "index": 2423,
+      "crossings": 13,
+      "tau": -1,
+      "fibered": false,
+      "passed": true
+    },
+    {
+      "index": 798,
+      "crossings": 13,
+      "tau": -1,
+      "fibered": false,
+      "passed": true
+    },
+    {
+      "index": 672,
+      "crossings": 10,
+      "tau": -1,
+      "fibered": true,
+      "passed": true
+    },
+    {
+      "index": 6570,
+      "crossings": 13,
+      "tau": -1,
+      "fibered": true,
+      "passed": true
+    },
+    {
+      "index": 3163,
+      "crossings": 13,
+      "tau": -1,
+      "fibered": true,
+      "passed": true
+    },
+    {
+      "index": 3933,
+      "crossings": 11,
+      "tau": -1,
+      "fibered": true,
+      "passed": true
+    },
+    {
+      "index": 4248,
+      "crossings": 13,
+      "tau": -1,
+      "fibered": true,
+      "passed": true
+    },
+    {
+      "index": 3959,
+      "crossings": 11,
+      "tau": -1,
+      "fibered": true,
+      "passed": true
+    },
+    {
+      "index": 4289,
+      "crossings": 12,
+      "tau": -1,
+      "fibered": false,
+      "passed": true
+    },
+    {
+      "index": 7077,
+      "crossings": 12,
+      "tau": -1,
+      "fibered": true,
+      "passed": true
+    },
+    {
+      "index": 2635,
+      "crossings": 12,
+      "tau": -1,
+      "fibered": true,
+      "passed": true
+    },
+    {
+      "index": 465,
+      "crossings": 13,
+      "tau": -1,
+      "fibered": false,
+      "passed": true
+    },
+    {
+      "index": 783,
+      "crossings": 13,
+      "tau": -1,
+      "fibered": false,
+      "passed": true
+    },
+    {
+      "index": 3930,
+      "crossings": 11,
+      "tau": -1,
+      "fibered": true,
+      "passed": true
+    },
+    {
+      "index": 464,
+      "crossings": 13,
+      "tau": -1,
+      "fibered": false,
+      "passed": true
+    },
+    {
+      "index": 3913,
+      "crossings": 10,
+      "tau": -1,
+      "fibered": true,
+      "passed": true
+    },
+    {
+      "index": 2652,
+      "crossings": 12,
+      "tau": -1,
+      "fibered": true,
+      "passed": true
+    },
+    {
+      "index": 2750,
+      "crossings": 11,
+      "tau": -1,
+      "fibered": false,
+      "passed": true
+    },
+    {
+      "index": 3925,
+      "crossings": 11,
+      "tau": -1,
+      "fibered": true,
+      "passed": true
+    },
+    {
+      "index": 2752,
+      "crossings": 11,
+      "tau": -1,
+      "fibered": true,
+      "passed": true
+    },
+    {
+      "index": 6773,
+      "crossings": 10,
+      "tau": -1,
+      "fibered": false,
+      "passed": true
+    },
+    {
+      "index": 3984,
+      "crossings": 13,
+      "tau": -1,
+      "fibered": true,
+      "passed": true
+    },
+    {
+      "index": 4282,
+      "crossings": 12,
+      "tau": -1,
+      "fibered": true,
+      "passed": true
+    },
+    {
+      "index": 448,
+      "crossings": 13,
+      "tau": -1,
+      "fibered": false,
+      "passed": true
+    },
+    {
+      "index": 3364,
+      "crossings": 11,
+      "tau": -1,
+      "fibered": true,
+      "passed": true
+    },
+    {
+      "index": 6987,
+      "crossings": 10,
+      "tau": -1,
+      "fibered": true,
+      "passed": true
+    },
+    {
+      "index": 3924,
+      "crossings": 11,
+      "tau": -1,
+      "fibered": true,
+      "passed": true
+    },
+    {
+      "index": 4256,
+      "crossings": 9,
+      "tau": -1,
+      "fibered": true,
+      "passed": true
+    },
+    {
+      "index": 2658,
+      "crossings": 9,
+      "tau": -1,
+      "fibered": true,
+      "passed": true
+    },
+    {
+      "index": 6990,
+      "crossings": 10,
+      "tau": -1,
+      "fibered": true,
+      "passed": true
+    }
+  ],
+  "note": "Sampled invariant controls; not a completeness or independent movie-verification proof."
+}

@@ -1,0 +1,766 @@
+{
+  "status": "NUMERICAL_SCREEN_NOT_A_CERTIFICATE",
+  "left_filter": "results/fusion_HFK_filter_detours.json",
+  "of_link": true,
+  "ignore_orientation": false,
+  "sides": [
+    {
+      "path": "results/fusion_AT0_detours.jsonl",
+      "attempted": 16,
+      "successful": 16,
+      "failed": [],
+      "seconds": 0.629
+    },
+    {
+      "path": "results/fusion_AT1_threaded.jsonl",
+      "attempted": 3397,
+      "successful": 3212,
+      "failed": [
+        {
+          "index": 13846,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 13862,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 13878,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 13946,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 13962,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14250,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14266,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14282,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14290,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14314,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14316,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14330,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14332,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14346,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14348,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14486,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14494,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14518,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14519,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14526,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14527,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14534,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14535,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14587,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14591,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14601,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14605,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14609,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14617,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14625,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14645,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14653,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14661,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14688,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14692,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14696,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14820,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14824,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14828,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14836,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14840,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14852,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14853,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14860,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14861,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14868,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14869,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14982,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 14998,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 15032,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 15034,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 15064,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 15066,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 15080,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 15088,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 15319,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 15351,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 15419,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 15435,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 19698,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 19714,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 19897,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 19905,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 19913,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 19947,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 19949,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 19963,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 19965,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 19979,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 19981,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 19995,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20003,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20147,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20155,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20179,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20180,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20187,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20188,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20195,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20196,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20248,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20252,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20262,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20266,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20270,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20278,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20286,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20306,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20314,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20322,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20349,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20353,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20357,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20481,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20485,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20489,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20497,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20501,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20513,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20514,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20521,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20522,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20529,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20530,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20642,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20658,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20692,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20694,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20724,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20726,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20740,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20748,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20953,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 20985,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44244,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44260,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44276,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44455,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44463,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44503,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44505,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44519,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44521,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44537,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44553,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44695,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44699,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44709,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44717,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44727,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44728,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44735,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44736,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44789,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44793,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44797,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44805,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44809,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44817,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44825,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44833,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44851,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44859,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44888,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 44892,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 45016,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 45020,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 45030,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 45034,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 45038,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 45048,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 45049,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 45056,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 45057,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 45190,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 45198,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 45218,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 45234,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 45254,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 45256,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 45270,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 45272,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 45506,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 45538,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 49332,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 49348,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 49388,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 49404,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 49420,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 49718,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 49726,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 49746,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 49762,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 49782,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 49784,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 49798,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 49800,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 49943,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 49947,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 49957,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 49965,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 49975,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 49976,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 49983,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        },
+        {
+          "index": 49984,
+          "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+        }
+      ],
+      "seconds": 11.661
+    }
+  ],
+  "numerical_matches": [],
+  "diagram_matches": [],
+  "limitations": "Failed/nonhyperbolic cases remain unresolved. Hits require verified peripheral identification and an oriented movie audit. No hit does not imply nonconcordance."
+}

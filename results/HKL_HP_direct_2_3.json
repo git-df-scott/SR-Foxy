@@ -1,0 +1,14 @@
+{
+  "knot": "HomPark_P_corrected",
+  "p": 2,
+  "q": 3,
+  "method": "direct",
+  "ribbon_mode": false,
+  "result": [
+    2,
+    3
+  ],
+  "seconds": 8.465,
+  "snappy": "3.3.2",
+  "meaning": "A returned pair is a computational nonsliceness obstruction; null means only no obstruction in this calculation."
+}

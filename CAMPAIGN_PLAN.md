@@ -1,14 +1,12 @@
 # Campaign plan: a counterexample to the Slice–Ribbon Conjecture
 
+> **2026-09-12 audit:** This is a historical record. The [current audit](RESEARCH_AUDIT_2026-09-12.md) supersedes conflicting claims: the explicit Hom–Park member is obstructed from sliceness; old basic HKL runs skipped repeated factors; several structural claims and proof steps below were withdrawn or repaired.
+
 Date: 2026-09-11. Supersedes `SESSION0_BATTLEFIELD.md` where they conflict. Every factual claim below traces to `SOURCES.md` (`[Sxx]`) or to the five audit reports in `research/`. Assumption stated up front: "gsd knots" in the tasking is read as **GST knots** (Gompf–Scharlemann–Thompson).
 
 ## 0. Binding result, stated first
 
-**No counterexample exists in the literature as of 2026-09-11**, and **no known invariant can prove one.** Sixty-four years of candidates have died in exactly four ways (shown ribbon, shown non-slice, exotic ambient standardized, or never a candidate). Every obstruction ever labelled "ribbon obstruction" is now known to obstruct at the homotopy-ribbon or handle-ribbon level, and the only certified-slice candidates are already proved handle-ribbon. Therefore:
-
-> **A counterexample proof requires at least one new theorem.** No amount of computation with existing invariants can finish the job. The campaign is designed to (1) produce that theorem or discover it is unnecessary, (2) run the few cheap experiments that can decisively kill or promote candidates, and (3) keep a candidate pipeline alive so a new tool has targets.
-
-Calibration from the adversarial memo (`research/05_adversarial_memo.md`): roughly even odds that a counterexample exists, around 5% that one is provable by 2028 with current tools. The likelier near-term headline is "18nh00000601 is ribbon". The plan is built so that outcome is found fast and cheaply rather than after a wasted year.
+**No counterexample has been established by this campaign.** The previous global claims that no known invariant could prove one, and that a new theorem was logically necessary, were unsupported. Numerical probabilities assigned to success were speculative and are withdrawn. The current strategy is to prove sliceness of a knot whose non-ribbonness already follows from an applicable theorem, while keeping a separate geometric audit of K_G.
 
 ## 1. What the conjecture says and what a counterexample is
 
@@ -33,11 +31,7 @@ Two production routes:
 - **Route A**: start from a certified-slice knot with unknown ribbon status, prove (b).
 - **Route B**: start from a certified non-ribbon knot, prove (a), usually by proving a smooth concordance equality.
 
-**The structural obstacle.** Every known generator of Route-A candidates (0-surgery/RBG trace embeddings, GST band sums, annulus twists, belt spheres of no-3-handle B⁴ diagrams) manufactures knots whose slice disk exterior is built from the exterior of a *ribbon* disk of a partner, and is therefore **handle-ribbon by construction**. The single exception is the Teichner-lemma sum K # J (DG §2.6), whose output disk is not automatically handle-ribbon. Consequently, for every candidate in the ledger, proving (b) means separating **ribbon from handle-ribbon**, and the only exactly calibrated separator known is
-
-> unlink derivative (ribbon) versus R-link derivative (handle-ribbon), [S02, Prop 1.1 vs Thm 1.3],
-
-which for the derivative link is literally the Generalized Property R question and quantifies over *all* Seifert surfaces. No finiteness theorem exists for that quantifier.
+**The structural obstacle.** For a candidate already known to be handle-ribbon, an obstruction solely to homotopy-ribbonness cannot prove non-ribbonness. This must be checked object by object. Unlink derivatives and R-link derivatives provide useful characterizations, with different ambient qualifications and an unbounded surface quantifier; they do not by themselves identify the entire problem with a solved finite test.
 
 Full trap list: `research/05_adversarial_memo.md` §6. The five that killed the most candidates: homotopy ball vs standard B⁴; homotopy-ribbon vs ribbon; conjecture used as theorem; search failure as evidence; same 0-surgery treated as concordance.
 
@@ -51,7 +45,7 @@ Full trap list: `research/05_adversarial_memo.md` §6. The five that killed the 
 | 4 | Miyazaki cables, live member (10_17)_{2,1}; K_{p,q} # −T_{p,q}, K ∈ {6_3, 8_12, 8_17, 10_17} outside (2, odd) | open; strongly rationally slice | **proved** (Miyazaki via [S23]) | B | **new, deepest history** |
 | 5 | Abe–Tagami D_{n,m} = A_n(6_3) # −A_m(6_3) | open; slice iff [K_n] = [K_m] | **proved** [S06,S07] | B | live/weak |
 | 6 | Gompf–Miyazaki Prop 3.1 pair | open | proved [S29] | B | weak, unchecked killer |
-| 7 | Hom–Park P(K,J,p,q₁,q₂) | open; algebraically slice | proved [S08] | B | weak |
+| 7 | Explicit P(T₂,₃,T₂,₅,2,1,3) | obstructed: advanced/direct HKL (2,3) | proved [S08] | B | closed for this member; family not closed |
 | dead | Turaev π³ door; 4_1 cables; DG's 553; Abe–Tange 8_20 family; MP's 5 topologically slice knots | | | | closed |
 
 ## 3. Campaign architecture
@@ -89,7 +83,7 @@ The purpose is to resolve K_G one way or the other as cheaply as possible. Order
 
 **1.3 The minimal-genus reduction (theory task, small).** Prove or refute: *for a fibered knot of genus g, any ribbon disk whose associated Seifert surface (in the sense of the proof of [S02, Prop 1.1]) has genus g is carried by the fiber surface, up to isotopy.* Ingredients: uniqueness of the minimal-genus Seifert surface of a fibered knot; the exact genus bookkeeping in the Cochran–Davis/Miller–Zupan construction (genus of the surface produced by a disk with n bands versus ribbon number). If true, "K_G has a 5-band ribbon disk" becomes a statement about multicurves on one explicit surface, and WS1.1's derivative enumeration is complete for that band count. **This lemma is the campaign's first theorem-grade deliverable and is plausibly provable in weeks.**
 
-**1.4 Casson–Long/Agol–Ren compression enumeration.** Enumerate the finitely many minimal compressions of φ up to symmetry ([S09, Thm 1.9]). This lists all strong homotopy-ribbon predecessors ([S09, Cor 1.11]); it does **not** decide ribbonness (Errata E2). Its value: each compression corresponds to a handlebody extension and a candidate disk; every one of them is a target for WS1.1's unlink test. Record which compression realizes the [S01] disk.
+**1.4 Casson–Long/Agol–Ren compression enumeration (geometric inputs still missing).** Enumerate the finitely many minimal compressions of φ up to symmetry ([S09, Thm 1.9]). This lists all strong homotopy-ribbon predecessors ([S09, Cor 1.11]); it does **not** decide ribbonness (Errata E2). Its value: each compression corresponds to a handlebody extension and a candidate disk; every one of them is a target for WS1.1's unlink test. Record which compression realizes the [S01] disk.
 
 **Gate G1 for K_G:** either a ribbon disk (lane closed, publish the disk), or a fully documented negative with the WS1.3 lemma proved and the genus-5 derivative orbit exhausted under an explicit complexity bound.
 

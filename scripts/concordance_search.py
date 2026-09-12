@@ -1,24 +1,15 @@
 #!/usr/bin/env python3
-"""Common-successor search: the one search in this campaign whose SUCCESS IS A PROOF.
+"""Historical COMMON-PREDECESSOR search, not a common-successor search.
 
-CORRECTED 2026-09-11.  The Dunfield-Gong generator `banded_links` only produces
-SPLITTING bands (a ribbon-disk search drives a knot toward an unlink, so every band
-raises the component count).  A fusing band, which the naive formulation needed, is
-never generated.  The fix is to run the concordance backwards.
+A splitting band followed by deleting a split unknot gives A <= K. A shared
+A would imply concordance after its movies and endpoint identity were verified.
+Numerical signature matches are nominations only, never proofs.
 
-Logic.  Apply one splitting band to K and keep the results of the form A u U with U
-a split unknot.  Reversing that movie, A -> A u U (birth) -> K (saddle) is an
-annulus in S^3 x I (chi = 0 + 1 - 1 = 0), hence a genuine concordance, so
-
-        [A] = [K]   in the smooth concordance group.
-
-If one knot A arises this way from BOTH K_n and K_m then [K_n] = [A] = [K_m], so
-D_{n,m} = K_n # (-K_m) is smoothly slice.  Miyazaki (Trans. AMS 341 (1994) Thm 5.5,
-via Abe-Tagami Cor. 4.3) proves D_{n,m} is NOT ribbon whenever n != m and
-n + m != -1.  A hit is therefore a counterexample to the Slice-Ribbon Conjecture.
-
-Failure proves nothing: it is a coverage statement over the parameter box.
-Writes incrementally, so a killed run keeps its partial results.
+For the current Abe-Tagami inputs this direction is futile: their fibered,
+irreducible-monodromy condition forces every ribbon predecessor to be the
+input itself, and the inputs are distinct. See RESEARCH_AUDIT_2026-09-12.md.
+Use fusion_successors.py for the constructive common-UPPER-bound search.
+This historical script remains available for other inputs.
 
 Usage: concordance_search.py <out.json> <n_diagrams> <max_band_len> <max_twists> <knot.json>...
 """
@@ -27,7 +18,7 @@ import snappy
 from spherogram.links.bands.core import banded_links, normalize_crossing_labels
 
 def successors(pd, n_diagrams, max_band_len, max_twists, checkpoint):
-    """Knots A with a 1-birth 1-saddle concordance A ~ K, keyed by isometry signature."""
+    """Legacy function name: generates PREDECESSORS A <= K, not successors."""
     found, stats = {}, {'banded': 0, 'split_off_unknot': 0}
     base = snappy.Link([tuple(c) for c in pd])
     for i in range(n_diagrams):
@@ -48,7 +39,7 @@ def successors(pd, n_diagrams, max_band_len, max_twists, checkpoint):
             if not L.crossings:
                 found.setdefault('UNKNOT', {'diagram': i, 'band': spec}); continue
             try:
-                sig = L.exterior().isometry_signature(of_link=True)
+                sig = L.exterior().isometry_signature(of_link=True, ignore_orientation=False)
             except Exception:
                 continue
             if sig:
@@ -64,7 +55,8 @@ if __name__ == '__main__':
              'box': {'n_diagrams': n_diagrams, 'max_band_len': max_band_len,
                      'max_twists': max_twists, 'births': 1, 'saddles': 1},
              'successor_counts': meta, 'hits': [],
-             'meaning': 'a hit proves [K_n]=[K_m], hence D_{n,m} slice; with Miyazaki that is a counterexample'}
+             'search_direction': 'common_predecessors', 'certified_slice': False,
+             'meaning': 'Numerical hits only. Complete movie replay and verified oriented endpoint identification are required before any concordance or sliceness claim.'}
     def flush():
         state['seconds'] = round(time.time() - t0, 1)
         json.dump(state, open(out, 'w'), indent=1, default=str)
@@ -84,8 +76,8 @@ if __name__ == '__main__':
                 common = set(sets[names[a]]) & set(sets[names[b]])
                 if common:
                     state['hits'].append({'pair': [names[a], names[b]],
-                                          'n_common': len(common),
+                                          'certified': False, 'n_common': len(common),
                                           'common': sorted(common)[:20]})
-                    print('*** COMMON SUCCESSOR ***', names[a], names[b], len(common), flush=True)
+                    print('*** NUMERICAL COMMON PREDECESSOR CANDIDATE ***', names[a], names[b], len(common), flush=True)
         flush()
     print('HITS:', len(state['hits']))

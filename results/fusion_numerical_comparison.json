@@ -1,0 +1,22 @@
+{
+  "status": "NUMERICAL_CANDIDATE_SCREEN_NOT_PROOF",
+  "summary": {
+    "0": {
+      "diagram_total": 3413,
+      "attempted": 3413,
+      "hyperbolic_signatures": 2993,
+      "nongeometric_or_error": 420,
+      "seconds": 7.75
+    },
+    "1": {
+      "diagram_total": 3397,
+      "attempted": 3397,
+      "hyperbolic_signatures": 3212,
+      "nongeometric_or_error": 185,
+      "seconds": 9.43
+    }
+  },
+  "matches": [],
+  "seconds": 18.540945624932647,
+  "limitation": "Only successful numerical hyperbolic identifications tested; no conclusion for failed, nonhyperbolic, or unsearched diagrams. Matches would require orientation and exact verification."
+}

@@ -1,0 +1,11 @@
+{
+  "free_words": [
+    "x",
+    "y*x*y*x^-1*y^-1"
+  ],
+  "normal_generation_reason": "Setting x=1 in the second relator gives y=1, so their normal closure is F2.",
+  "S3_w_equals_x": true,
+  "S3_original_order": 6,
+  "S3_generated_images_order": 2,
+  "meaning": "Counterexample to normally generate implies generate, not to Slice-Ribbon."
+}

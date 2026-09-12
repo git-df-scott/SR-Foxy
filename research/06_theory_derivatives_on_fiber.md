@@ -1,5 +1,9 @@
 # THEORY.md — Slice–Ribbon counterexample hunt: derivatives on the fiber of $K_G$
 
+> **2026-09-12 audit:** This is a historical record. The [current audit](../RESEARCH_AUDIT_2026-09-12.md) supersedes conflicting claims: the explicit Hom–Park member is obstructed from sliceness; old basic HKL runs skipped repeated factors; several structural claims and proof steps below were withdrawn or repaired.
+
+**Withdrawn below:** Proposition 3.4’s handlebody-exterior equivalence; the embedded-unlink preservation assertion; the free-basis assertion in Theorem 5.1 Step 1; the corresponding strengthened homology-boundary claim. Theorem 5.1’s nilpotent conclusion has a repaired proof in the current audit. Proposition 4.4 remains only a qualified one-way proposal as its own caveat acknowledges. These historical passages are retained to expose the errors, not as active lemmas.
+
 **Status legend.** Every assertion is tagged:
 
 - **[PROVED]** — full proof written out below, self-contained modulo explicitly cited classical results.
@@ -231,7 +235,7 @@ Hence:
 - **"$L$ is an unlink" is the correct ribbon condition, and it is genuinely weaker than "$L$ bounds disks in the complement of $F$".** The disks *must* pierce $F$; the arcs $\Delta_i\cap(F\setminus L)$ are precisely the ribbon singularities of the resulting ribbon disk (Lemma 1.2(a)). Their number is a natural complexity, and by the (unverified) Cochran–Davis count it is $\ge g$.
 - The condition "the compressing disks of $H$ are disjointly embedded in $S^3\setminus F$ on one side", suggested in the problem statement, is therefore **too strong**: it never happens for a knotted $K$. The correct version is:
 
-**Proposition 3.4 [PROVED].** *$L\subset F$ is an unlink iff the abstract handlebody $H_L$ admits a complete meridian system whose disks embed disjointly in $S^3$ (with interiors allowed to meet $F$ in ribbon arcs); equivalently iff $\pi_1(S^3\setminus L)$ is free of rank $g$; equivalently iff the exterior $E(L)$ is a genus-$g$ handlebody.*
+**Proposition 3.4 [WITHDRAWN AS STATED, 2026-09-12].** *$L\subset F$ is an unlink iff the abstract handlebody $H_L$ admits a complete meridian system whose disks embed disjointly in $S^3$ (with interiors allowed to meet $F$ in ribbon arcs); equivalently iff $\pi_1(S^3\setminus L)$ is free of rank $g$; equivalently iff the exterior $E(L)$ is a genus-$g$ handlebody.*
 
 *Proof.* The first equivalence is the definition of unlink plus the (standard) fact that $L$ unlink $\Rightarrow$ disjoint disks. For the second and third: $E(L)$ a handlebody $\Rightarrow\pi_1$ free; $\pi_1(S^3\setminus L)$ free $\Rightarrow L$ unlink is the classical theorem (a consequence of the Loop Theorem/Sphere Theorem; see Hempel, *3-Manifolds*). Conversely an unlink has handlebody exterior. $\square$
 
@@ -288,7 +292,7 @@ with fiber over $H$ = the set of complete meridian systems of $H$ = a single sur
 
 **[OPEN] The stabilization barrier.** Even a complete answer at level $n=0$ does not settle slice–ribbon for $K_G$: by [CD15, Prop. 7.3] one must in principle examine all stabilizations. Finding a *stabilization-invariant* obstruction is the real prize. Note the encouraging fact: stabilizing $F$ adds a trivial handle, whose dual pair adds a split unknot to the derivative — i.e. **stabilizing corresponds exactly to the "$\sqcup U$" in stable equivalence of R-links** [CITED: MZ20 §2.2]. So:
 
-**Proposition 4.4 [PROVED].** *"$K$ is ribbon" is equivalent to: some R-link derivative of $K$ is, after adding split unknots and performing $S^3$-handleslides, an unlink — i.e. to Generalized Property R holding for the stable-equivalence class of $L_\Phi$.*
+**Proposition 4.4 [NOT PROVED AS AN EQUIVALENCE].** *"$K$ is ribbon" is equivalent to: some R-link derivative of $K$ is, after adding split unknots and performing $S^3$-handleslides, an unlink — i.e. to Generalized Property R holding for the stable-equivalence class of $L_\Phi$.*
 
 *Proof.* ($\Leftarrow$) If $L_\Phi\sqcup U$ slides to an unlink $U'$, then by Prop. 2.4/2.5 and [MZ20, Prop. 3.2] this is realized on a stabilized Seifert surface as a derivative which is an unlink; apply Prop. 1.1. ($\Rightarrow$) If $K$ is ribbon, some derivative $L'$ is an unlink; $L'$ and $L_\Phi$ are both R-link derivatives of the same knot $K$ and are stably equivalent as R-links since both $K\cup L'$ and $K\cup L_\Phi$ determine the same (standard, by Oliveira-Smith) homotopy $4$-ball. (This last step uses that stable equivalence classes of R-links determining the same homotopy 4-sphere are conjecturally, but not provably, unique — see caveat.) $\square$
 
@@ -300,7 +304,7 @@ with fiber over $H$ = the set of complete meridian systems of $H$ = a single sur
 
 # P5. Milnor invariants of R-links — resolved, and it is a dead end
 
-**Theorem 5.1 [PROVED].** *Let $L=L_1\cup\dots\cup L_n\subset S^3$ be an R-link, $G=\pi_1(S^3\setminus L)$, $G_k$ the lower central series ($G_1=G$, $G_{k+1}=[G,G_k]$). Then every longitude $\lambda_i$ lies in $G_k$ for every $k\ge1$. Consequently **all Milnor invariants $\bar\mu_L(I)$ of $L$ vanish, for every multi-index $I$ of every length**.*
+**Theorem 5.1 [CONCLUSION RECOVERED; HISTORICAL PROOF BELOW HAS AN ERROR].** *Let $L=L_1\cup\dots\cup L_n\subset S^3$ be an R-link, $G=\pi_1(S^3\setminus L)$, $G_k$ the lower central series ($G_1=G$, $G_{k+1}=[G,G_k]$). Then every longitude $\lambda_i$ lies in $G_k$ for every $k\ge1$. Consequently **all Milnor invariants $\bar\mu_L(I)$ of $L$ vanish, for every multi-index $I$ of every length**.*
 
 *Proof.* Let $\alpha:F_n=\langle m_1,\dots,m_n\rangle\to G$ send $m_i$ to the $i$-th meridian.
 
