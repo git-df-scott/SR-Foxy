@@ -33,8 +33,21 @@ def _safe_filter(link):
         return True
 _bs.could_be_strongly_slice = _safe_filter
 
-# small ribbon knots, standard names; each is ribbon (fusion number 1 unless noted)
-RIBBON_J = ['6_1', '8_8', '8_9', '8_20', '9_27', '9_41', '10_3', '10_22']
+# Small ribbon knots.  The default list is deliberately restricted to the NON-FIBERED
+# ones (verified here: 6_1 g1, 8_8 g2, 9_41 g2, 10_3 g1, 10_22 g3, 10_87 g3 are all
+# non-fibered; 8_9, 8_20, 9_27, 10_99 are fibered and excluded).
+#
+# Why.  For a target of Miyazaki type -- D_{n,m} = K_n # (-K_m) with K_n, K_m prime
+# fibered, non-isotopic, sharing an irreducible Alexander polynomial -- a FIBERED
+# prime ribbon partner J makes D # J a connected sum of prime fibered knots, and
+# Miyazaki's Thm 5.5 (via Abe-Tagami Cor 4.3) then forces the summands to pair by
+# mirror/reversal.  K_n could only pair with -K_n, but K_n is not isotopic to K_m, so
+# D # J is not homotopy-ribbon, hence not ribbon.  Fibered partners are therefore
+# provably futile and are excluded from the search rather than wasted on.
+RIBBON_J = ['6_1', '8_8', '9_41', '10_3', '10_22', '10_87']
+import os
+if os.environ.get('TEICHNER_J'):
+    RIBBON_J = os.environ['TEICHNER_J'].split(',')
 
 def connected_sum(pd_a, pd_b):
     """PD code of the connected sum, by relabelling B's arcs above A's."""

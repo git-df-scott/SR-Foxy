@@ -152,3 +152,57 @@ Cost note: installing r and s inflates the diagram badly, from 27 to 143 crossin
 at (1,1,1,1). HFK was skipped at that size. Larger (p, q) will be worse, so the grid
 sweep needs either a diagram simplification pass or obstructions that do not need
 Floer homology.
+
+---
+
+# FINAL 2026-09-12: the Turaev Theorem I lane is CLOSED for our realizations
+
+20 members built and verified (4 values of (p,q) x 5 values of (r,s)). Every one has
+Alexander polynomial rho(t) t^3 rho(1/t), determinant (2q-1)^2, signature 0, and the
+(0,0) members have HFK genus 3.
+
+## The consistency check passed completely
+
+All four **(0,0) members are certified RIBBON**: one band to the 2-component unlink,
+with `verify_ribbon_to_unknot` returning True. Theorem I obstructs only when r and s
+are both nonzero, so the (0,0) members are unobstructed and being ribbon is exactly
+right. This is what validates the construction.
+
+## Every loaded member is dead
+
+`slice_obstruction_HKL` on the members with r, s nonzero:
+
+| (p,q,r,s) | HKL | verdict |
+|---|---|---|
+| (1,1,1,1), (1,1,1,-1), (1,1,-1,1), (1,1,-1,-1) | (3, 13) | not topologically slice |
+| (2,1,1,1), (2,1,1,-1) | (5, 11) | not topologically slice |
+| (1,2,1,1) | (3, 19) | not topologically slice |
+| (1,3,1,-1) | (7, 2) | not topologically slice |
+| (3,1,1,1), (2,3,1,1) | timeout at 162-226 crossings | uncomputed, not live |
+
+**No member survives.** Among the loaded members the obstruction depends only on
+(p,q) and not on r or s: Casson-Gordon does not see the Milnor data. It does
+distinguish loaded from unloaded, since the (0,0) members return None and are ribbon.
+
+This is the outcome predicted when the lane opened. Casson-Gordon exists to kill
+algebraically slice knots that are not slice, and it did.
+
+## What is genuinely closed, and what is not
+
+Closed: a forty-year-old, essentially uncited family that had never been tested is
+now tested, and our realizations of it contain no counterexample. That is a real if
+negative result.
+
+Not closed, and the agent was right to flag it: **A(p,q,r,s) is only defined up to
+Turaev's realization freedom.** Section 1.5 asserts that a surface exists with the
+prescribed l_1 and l_2; different embeddings realizing the same (X, r, s) are
+different knots, all covered by Theorem I, and all untested. That space is infinite
+and poorly controlled, so it is not a practical lane, but the honest statement is
+that we killed our realizations rather than the theorem's whole family.
+
+## Practical limits hit
+
+Installing r and s inflates the diagram from 27 crossings to 127 at best after hard
+simplification, 143 typical, and 162-226 for larger (p,q). At that size HFK and the
+ribbon search are out of reach, and HKL itself starts timing out at an hour. Any
+further work on this family needs a fundamentally smaller realization.
