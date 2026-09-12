@@ -9,19 +9,22 @@ Cutoff: 2026-08-30. `PRIMARY` means that the cited paper itself was inspected. I
 - Theorem 1.1 identifies the Dunfield–Gong homotopy sphere with the standard smooth (S^4).
 - Corollary 1.1.1 proves that `18nh00000601` is smoothly slice in the standard (B^4), using the Trace Embedding Lemma (Lemma 2.2).
 - Theorem 1.2 proves that the same knot bounds a fibered handle-ribbon disk in the standard (B^4).
-- The introduction says no ribbon disk is known. Evidence: `PRIMARY PREPRINT`.
+- Corollary 1.1.2 states that (K_G) is a potential counterexample to the Slice-Ribbon Conjecture. Questions 3.3 and 3.4 ask whether the exhibited disk, and whether the knot, is ribbon.
+- The introduction says a ribbon disk "has evaded detection"; the paper never claims non-ribbonness. Single version v1 (24 Mar 2026); no citing paper except [S14] as of 2026-09-11. Evidence: `PRIMARY PREPRINT` (re-verified 2026-09-11, see `ERRATA_2026-09-11.md`).
 
 **[S02] Maggie Miller and Alexander Zupan, “Equivalent characterizations of handle-ribbon knots,” Communications in Analysis and Geometry 31 (2023), arXiv:2005.11243.** [PDF](https://arxiv.org/pdf/2005.11243)
 
 - Proposition 1.1: a knot is ribbon iff some genus-(g) Seifert surface has a (g)-component unlink derivative.
 - Theorem 1.3: handle-ribbon in a homotopy (4)-ball iff it has an R-link derivative.
-- Theorem 1.4 (Casson–Gordon formulation): a fibered knot is homotopy-ribbon iff its zero-surgery fibration extends over a handlebody.
-- The paper records `ribbon => handle-ribbon => homotopy-ribbon => slice`; converses are not asserted. Evidence: `PEER-REVIEWED PRIMARY`.
+- Theorem 1.4 is printed as "([CG83])": it is Casson–Gordon's theorem that a fibered knot is homotopy-ribbon in a homotopy 4-ball iff its zero-surgery fibration extends over handlebodies. Miller–Zupan's own generalization is Theorem 1.5 (singular fibrations).
+- Proposition 1.1 is stated as well known, with proof credited to Cochran–Davis [CD15].
+- The paper records `ribbon => handle-ribbon => homotopy-ribbon => slice` and says none of the containments is known to be strict. Evidence: `PEER-REVIEWED PRIMARY` (re-verified 2026-09-11).
 
 **[S03] Nathan M. Dunfield and Sherry Gong, “Ribbon concordances and slice obstructions: experiments and examples,” arXiv:2512.21825 (2025).** [PDF](https://arxiv.org/pdf/2512.21825)
 
 - Theorem 1.1 is their census statement for prime knots through 19 crossings.
-- Section 2.7 reports that enhanced searches found ribbon disks for all 554 suspicious knots except `18nh00000601`; this failure is not a theorem of non-ribbonness.
+- Section 2.7 reports that enhanced searches found ribbon disks for all of the 513 + 41 suspicious knots except `18nh00000601`; this failure is not a theorem of non-ribbonness. Band budget was at most four bands (§2.8). The authors expect "hundreds" of further obscure ribbon disks among the 11,383 unresolved knots.
+- Code and data are archived on Harvard Dataverse (their reference [DG]); key parts ship in SnapPy 3.3. There is no GitHub repository.
 - Theorem 1.12 was conditional before [S01]. Tables 3 and 5 record the knot as genus-five and fibered.
 - Sections 3.2–3.3 distinguish rigorous certificates from obstruction/search evidence. Evidence: `PRIMARY PREPRINT`.
 
@@ -59,10 +62,10 @@ Cutoff: 2026-08-30. `PRIMARY` means that the cited paper itself was inspected. I
 
 **[S09] Ian Agol and Qiuyu Ren, “Ribbon concordance of fibered knots and compressions of surface homeomorphisms,” arXiv:2603.10884 (2026).** [HTML](https://arxiv.org/html/2603.10884v1)
 
-- Theorem 1.4: simplicial volume is monotone under ribbon concordance between fibered knots.
-- Theorem 1.7: strong homotopy-ribbon concordance is characterized by monodromy compression.
+- Theorem 1.4: simplicial volume is monotone under ribbon concordance between fibered knots. Theorem 1.6: a fibered knot has finitely many ribbon predecessors (proved independently by Baldwin–Hanselman–Sivek [BHS26]).
+- Theorem 1.7 is printed as "([CG83])": Casson–Gordon's characterization of strong homotopy-ribbon concordance by monodromy compression. It is not an Agol–Ren result.
 - Theorem 1.9 and Corollary 1.11 give an algorithmic/finiteness result for minimal compressions and strong homotopy-ribbon predecessors of a fixed fibered knot.
-- This detects strong homotopy-ribbon structure, not the difference between ribbon and handle-ribbon. Evidence: `PRIMARY PREPRINT`.
+- The paper says nothing about ribbon disks as distinct from strongly homotopy-ribbon ones, and does not state the question "is every ribbon disk of a fibered knot fibered". Its own remark: modulo slice-ribbon and SPC4, Cor. 1.11 could decide smooth sliceness of the fibered knots in [S03, Table 5]. Evidence: `PRIMARY PREPRINT` (re-verified 2026-09-11).
 
 **[S10] Jennifer Hom and JungHwan Park, “Ribbon concordance and cabling,” arXiv:2608.06625 (6 Aug 2026).** [HTML](https://arxiv.org/html/2608.06625)
 
@@ -89,7 +92,7 @@ Cutoff: 2026-08-30. `PRIMARY` means that the cited paper itself was inspected. I
 - Theorem 1.1 proves several finite ranges of stable handleslide equivalences for GST-related links.
 - Stable equivalence is not ordinary handleslide triviality and does not by itself produce a ribbon disk for a specified GST band sum. Evidence: `PRIMARY PREPRINT`.
 
-**[S15] Maggie Miller and Alexander Zupan, “Knots bounding non-isotopic ribbon disks,” arXiv:2310.17564; Journal of Topology (2025).** [Abstract](https://arxiv.org/abs/2310.17564)
+**[S15] Jeffrey Meier and Alexander Zupan, “Knots bounding non-isotopic ribbon disks,” arXiv:2310.17564; Journal of Topology (2025).** (Author corrected 2026-09-11; earlier versions of this register said Miller–Zupan.) [Abstract](https://arxiv.org/abs/2310.17564)
 
 - Produces infinitely many fibered homotopy-ribbon disks for generalized square knots and, in a specified (q=2) subfamily, infinitely many ribbon disks.
 - Records the open problem whether every ribbon disk bounded by a fibered knot is fibered. Evidence: `PEER-REVIEWED PRIMARY/PREPRINT`.
@@ -114,8 +117,11 @@ Cutoff: 2026-08-30. `PRIMARY` means that the cited paper itself was inspected. I
 
 **[S20] Vladimir Turaev, “Multiplace generalizations of the Seifert form of a classical knot,” Mathematics of the USSR-Sbornik 44(3) (1983), 335–361.** [DOI](https://doi.org/10.1070/SM1983v044n03ABEH000971)
 
-- The abstract says the π³ form can obstruct ribbonness even when the ordinary Seifert form cannot.
-- The full statement and hypotheses of Theorem H were not recovered from a citable open primary copy during this audit. No primary published GST computation was found. Therefore every candidate-level Turaev entry is `UNKNOWN` or `NOT YET COMPUTED`, never “vanishes.” Evidence: `PRIMARY METADATA/ABSTRACT`; theorem-level transcription `UNVERIFIED`.
+- Full English translation recovered 2026-09-11 from mathnet.ru (paper id `sm2474`, Math. USSR-Sb. 44(3) (1983) 335–361; Russian original Mat. Sb. 116(158) (1981) 370–397).
+- Theorem H(ii): "If K is a ribbon knot, then F₂(l₁(K), l₂(K)) is metabolic." Theorem I realizes genus-3 algebraically slice knots for which this fails, so the obstruction is nonvacuous for genus ≥ 3.
+- The proof of H(ii) (§7.4) uses only that a ribbon knot bounds a disk with π₁(S³∖K) → π₁(B⁴∖D) surjective. It is therefore an obstruction to homotopy-ribbonness, and cannot obstruct ribbonness of any knot already known handle-ribbon.
+- Theorem J: "Theorem H yields no new obstructions to sliceness."
+- No later paper uses the multiplace form as a ribbon obstruction. The 2010 pointer is a comment by dmoskovich on [D01], not the post itself. Evidence: `PEER-REVIEWED PRIMARY` (full text). Status for `DG`/`GST`: `HYPOTHESES FAIL`.
 
 **[S21] Hans U. Boden et al., “On knots that divide ribbon knotted surfaces,” arXiv:2209.15577v5.** [HTML](https://arxiv.org/html/2209.15577v5)
 
@@ -126,6 +132,42 @@ Cutoff: 2026-08-30. `PRIMARY` means that the cited paper itself was inspected. I
 **[S22] Eisermann, “The Jones polynomial of ribbon links,” Geometry & Topology 13 (2009).** [Journal PDF](https://msp.org/gt/2009/13-2/gt-v13-n2-p01-s.pdf)
 
 - Theorems 1–2 give Jones-nullity/divisibility and determinant congruences for ribbon links. For a one-component knot these do not provide the hoped-for general slice/ribbon separation. Evidence: `PEER-REVIEWED PRIMARY`.
+
+## Sources added 2026-09-11
+
+**[S23] Irving Dai, Sungkyung Kang, Abhishek Mallick, JungHwan Park, Matthew Stoffregen, “The (2,1)-cable of the figure-eight knot is not smoothly slice,” Invent. Math. 238 (2024) 371–390, arXiv:2207.14187.** Introduction quotes Miyazaki [Miy94, Ex. 2, Thm 8.6]: for K fibered, negative amphicheiral, with irreducible Alexander polynomial, K_{2n,1} (n ≠ 0) and K_{p,q} # −T_{p,q} (p ≠ 0) are not (homotopy) ribbon, while being strongly rationally slice. Thm 1.1 kills (4_1)_{2,1}; Thm 1.2 kills K_{2,k} # −T_{2,k} for K ∈ {6_3, 8_12, 8_17}, k odd. States 10_17 is the smallest such K not subsumed. Evidence: `PEER-REVIEWED PRIMARY` (intro read).
+
+**[S24] Sungkyung Kang, JungHwan Park, Masaki Taniguchi, “Smooth concordance of cables of the figure-eight knot,” arXiv:2505.03720.** Every nontrivial cable of 4_1 has infinite order in the smooth concordance group. Evidence: `PRIMARY PREPRINT ABSTRACT`.
+
+**[S25] Sergei Gukov, James Halverson, Ciprian Manolescu, Fabian Ruehle, “Searching for ribbons with machine learning,” arXiv:2304.09304 (= [S16]), §6.** Of Manolescu–Piccirillo's 3375 RBG pairs, five remain of unknown slice and ribbon status; the three with r = 0, K_{B/G}(0,0,0,1,2,−1), K_{B/G}(0,0,0,−1,2,1), K_{B/G}(0,0,−2,0,0,1), "might produce counterexamples to the Slice-Ribbon Conjecture": a ribbon disk for one knot of a pair certifies the other slice in standard B⁴ with no inherited ribbon disk. Evidence: `PRIMARY PREPRINT` (quoted).
+
+**[S26] Ciprian Manolescu and Lisa Piccirillo, “From zero surgeries to candidates for exotic definite four-manifolds,” arXiv:2102.04391, J. LMS (2023).** RBG-link construction of 0-surgery homeomorphisms; Thm 1.2 every 0-friend pair arises this way. Evidence: `PRIMARY PREPRINT ABSTRACT`.
+
+**[S27] Kouki Nakamura, “Trace embeddings from zero surgery homeomorphisms,” arXiv:2203.14270, J. Topology (2023).** Kills the Manolescu–Piccirillo topologically slice knots (not slice). Evidence: `ABSTRACT`.
+
+**[S28] Allison N. Miller and Lisa Piccirillo, “Knot traces and concordance,” arXiv:1702.03974, J. Topology 11 (2018).** d-invariant obstructions to concordance of knots with diffeomorphic 0-traces; disproves a conjecture of Abe. Evidence: `ABSTRACT`. Candidate killer for the Abe–Tagami and Gompf–Miyazaki lanes; not yet applied here.
+
+**[S29] Robert E. Gompf and Katura Miyazaki, “Some well-disguised ribbon knots,” Topology Appl. 64 (1995) 117–131.** Prop. 3.1 (as restated in Tagami arXiv:2010.13283): a pair of knots with homeomorphic 0-surgeries whose connected sum is not ribbon. Evidence: `SECONDARY RESTATEMENT`; full text not retrieved (403).
+
+**[S30] JungHwan Park, “A construction of slice knots via annulus modifications,” arXiv:1512.00401, Topology Appl.** Smoothly slice and separately exotically slice knots via n-twist annulus modifications; smoothly slice knots with non-slice derivatives. Evidence: `ABSTRACT`. Generator only; use only the smoothly-slice half.
+
+**[S31] Jeffrey Meier and Alexander Zupan, “Generalized square knots and homotopy 4-spheres,” arXiv:1904.08527.** Standardizes homotopy 4-spheres built on Q_{p,q}; produces nR-links, potential Generalized Property R counterexamples for all even n. Evidence: `ABSTRACT`.
+
+**[S32] Marc Lackenby, “The stable Andrews–Curtis conjecture and thickenable presentations of the trivial group,” arXiv:2606.06122 (June 2026).** Thickenable balanced presentations satisfy the unstable Andrews–Curtis conjecture. Evidence: `ABSTRACT`. Action: check thickenability of the GST presentations ⟨x,y | yxy=xyx, x^{n+1}=y^n⟩.
+
+**[S33] Stefan Friedl, Filip Misev, Alexander Zupan, “Bounding the ribbon numbers of knots and links,” arXiv:2408.11618.** Set of Alexander polynomials with ribbon number ≤ r is finite and computable. Evidence: `ABSTRACT`. Ribbon-only data, but bounds a quantity defined only for ribbon knots.
+
+**[S34] “Ribbon knots, cabling, and handle decompositions,” arXiv:2003.02832, Thm 1.1.** F_sh(K_{p,1}) = 1 while F(K_{p,1}) = p for ribbon K with F(K) = 1: fusion number and strong-homotopy fusion number differ arbitrarily. Evidence: `PRIMARY` (ar5iv). Shows ribbon-level data is strictly finer than handle-ribbon-level data.
+
+**[S35] Julia Elisenda Grigsby, “On braided, banded surfaces and ribbon obstructions,” arXiv:1801.07158.** A documented attempt at ribbon-only obstructions from Rudolph's braided-banded surfaces; author reports the Khovanov–Lee implementation gives no effective obstruction. Evidence: `ABSTRACT`.
+
+**[S36] Baldwin–Sivek, “Ribbon concordance and fibered predecessors,” arXiv:2510.02214 and part II arXiv:2602.21109; Baldwin–Hanselman–Sivek [BHS26] (cited in [S09]).** Finitely many fibered ribbon predecessors; Remark 1.6 of [S36] states the results hold for handle-ribbon concordance. Evidence: `PRIMARY HTML` for Remark 1.6; BHS26 arXiv id unresolved.
+
+**[S37] Kyle Larson and Jeffrey Meier, “Fibered ribbon disks,” arXiv:1410.4854, JKTR 24 (2015).** Characterizes fibered homotopy-ribbon disks (fibers are handlebodies). Evidence: `ABSTRACT`.
+
+**[S38] Tetsuya Abe, In Dae Jong, Yuka Omae, Masanori Takeuchi, “Annulus twist and diffeomorphic 4-manifolds,” Math. Proc. Camb. Phil. Soc. 155 (2013), arXiv:1209.0361.** Evidence: `ABSTRACT`.
+
+**[S39] Keiji Tagami, arXiv:2010.13283.** Dictionary between dualizable patterns, annulus/band presentations, and RGB diagrams. Evidence: `PRIMARY` (intro read).
 
 ## Discovery-only sources
 

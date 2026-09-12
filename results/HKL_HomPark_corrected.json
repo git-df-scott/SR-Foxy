@@ -1,0 +1,22 @@
+{
+ "knot": "HomPark_P_corrected",
+ "specs": {
+  "[(3, [0, 6])]": {
+   "result": "None",
+   "seconds": 0.2
+  },
+  "[(5, [0, 8])]": {
+   "result": "None",
+   "seconds": 0.3
+  },
+  "[(7, [0, 10])]": {
+   "result": "None",
+   "seconds": 0.8
+  },
+  "[(11, [0, 12])]": {
+   "result": "None",
+   "seconds": 26.8
+  }
+ },
+ "meaning": "None = no Casson-Gordon obstruction found in that character spec"
+}

@@ -2,6 +2,8 @@
 
 Cutoff: 2026-08-30. This report optimizes for correctness, not excitement.
 
+> **Superseded in part on 2026-09-11.** See `ERRATA_2026-09-11.md` and `CAMPAIGN_PLAN.md`. Door 4 (Turaev π³ form) is **closed**: Theorem H obstructs only homotopy-ribbonness. Door 1's completeness lemma is real but is **not** supplied by Agol–Ren [S09]; it is the open question stated by Meier–Zupan [S15]. Two lanes missing from this map were added: Miyazaki cables (route B, live member (10_17)_{2,1}) and the r = 0 RBG pairs (route-A generator).
+
 ## Binding result
 
 **NO CE.** No explicit knot was verified to be both smoothly slice in the standard (B^4) and rigorously non-ribbon.

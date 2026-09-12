@@ -1,0 +1,559 @@
+{
+ "name": "L = 6_3 u c'_1 u c'_2",
+ "pd_code": [
+  [
+   3,
+   12,
+   4,
+   13
+  ],
+  [
+   15,
+   2,
+   16,
+   3
+  ],
+  [
+   33,
+   16,
+   0,
+   17
+  ],
+  [
+   0,
+   28,
+   1,
+   27
+  ],
+  [
+   28,
+   2,
+   29,
+   1
+  ],
+  [
+   4,
+   32,
+   5,
+   31
+  ],
+  [
+   5,
+   47,
+   6,
+   46
+  ],
+  [
+   6,
+   36,
+   7,
+   35
+  ],
+  [
+   7,
+   24,
+   8,
+   25
+  ],
+  [
+   49,
+   9,
+   50,
+   8
+  ],
+  [
+   38,
+   10,
+   39,
+   9
+  ],
+  [
+   21,
+   10,
+   22,
+   11
+  ],
+  [
+   32,
+   12,
+   33,
+   11
+  ],
+  [
+   44,
+   13,
+   45,
+   14
+  ],
+  [
+   14,
+   43,
+   15,
+   44
+  ],
+  [
+   41,
+   18,
+   34,
+   19
+  ],
+  [
+   52,
+   17,
+   53,
+   18
+  ],
+  [
+   19,
+   40,
+   20,
+   41
+  ],
+  [
+   20,
+   51,
+   21,
+   52
+  ],
+  [
+   37,
+   22,
+   38,
+   23
+  ],
+  [
+   48,
+   23,
+   49,
+   24
+  ],
+  [
+   34,
+   26,
+   35,
+   25
+  ],
+  [
+   53,
+   27,
+   42,
+   26
+  ],
+  [
+   29,
+   43,
+   30,
+   42
+  ],
+  [
+   45,
+   31,
+   46,
+   30
+  ],
+  [
+   47,
+   37,
+   48,
+   36
+  ],
+  [
+   39,
+   51,
+   40,
+   50
+  ]
+ ],
+ "component_order": [
+  "K (=6_3)",
+  "c'_1 (push-off of c_1, inner)",
+  "c'_2 (push-off of c_2, outer)"
+ ],
+ "annulus_framing": "+1 full twist; A-framing of c'_i = +1 relative to Seifert framing",
+ "slopes": {
+  "n-fold annulus twist": {
+   "c'_1": "(n+1, n)",
+   "c'_2": "(n-1, n)"
+  }
+ },
+ "verification": {
+  "crossings": 27,
+  "components": [
+   "K = 6_3",
+   "c'_1",
+   "c'_2"
+  ],
+  "(a) linking_matrix": [
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0
+   ]
+  ],
+  "(a) c'_1 u c'_2 simplifies to a 2-crossing diagram": true,
+  "(a) c'_1 u c'_2 exterior pi_1 (gens, rels)": [
+   2,
+   [
+    "abAB"
+   ]
+  ],
+  "(a) c'_1 u c'_2 exterior isoSig == L2a1 exterior isoSig": true,
+  "(a) lk(K,c'_i) = 0": true,
+  "(a) lk(c'_1,c'_2)": 1,
+  "(b) knot component PD after simplify": [
+   [
+    3,
+    10,
+    4,
+    11
+   ],
+   [
+    9,
+    7,
+    10,
+    6
+   ],
+   [
+    1,
+    9,
+    2,
+    8
+   ],
+   [
+    11,
+    4,
+    0,
+    5
+   ],
+   [
+    5,
+    2,
+    6,
+    3
+   ],
+   [
+    7,
+    1,
+    8,
+    0
+   ]
+  ],
+  "(b) knot component exterior isometric to snappy 6_3": true,
+  "(b) knot component Alexander": "t^4 - 3*t^3 + 5*t^2 - 3*t + 1",
+  "(b) knot component HFK fibered": true,
+  "(b) knot component HFK Seifert genus": 2,
+  "exterior volume": 14.997739629028537
+ },
+ "slope_checks": {
+  "0": {
+   "slopes": [
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "volume": 5.6930210912813015,
+   "(c) meridian filling of knot cusp is S^3 (Regina isSphere)": true,
+   "(d) 0-surgery isometric to 6_3(0)": true,
+   "(d) 0-surgery volume": 4.059766425638612,
+   "isometric to 6_3 exterior": true
+  },
+  "1": {
+   "slopes": [
+    [
+     2,
+     1
+    ],
+    [
+     0,
+     1
+    ]
+   ],
+   "volume": 9.120006500798125,
+   "(c) meridian filling of knot cusp is S^3 (Regina isSphere)": true,
+   "(d) 0-surgery isometric to 6_3(0)": true,
+   "(d) 0-surgery volume": 4.0597664256386174,
+   "isometric to 6_3 exterior": false
+  },
+  "-1": {
+   "slopes": [
+    [
+     0,
+     -1
+    ],
+    [
+     -2,
+     -1
+    ]
+   ],
+   "volume": 5.6930210912813,
+   "(c) meridian filling of knot cusp is S^3 (Regina isSphere)": true,
+   "(d) 0-surgery isometric to 6_3(0)": true,
+   "(d) 0-surgery volume": 4.059766425638616,
+   "isometric to 6_3 exterior": true
+  },
+  "2": {
+   "slopes": [
+    [
+     3,
+     2
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   "volume": 11.241489251614965,
+   "(c) meridian filling of knot cusp is S^3 (Regina isSphere)": true,
+   "(d) 0-surgery isometric to 6_3(0)": true,
+   "(d) 0-surgery volume": 4.059766425638614,
+   "isometric to 6_3 exterior": false
+  },
+  "-2": {
+   "slopes": [
+    [
+     -1,
+     -2
+    ],
+    [
+     -3,
+     -2
+    ]
+   ],
+   "volume": 9.120006500798127,
+   "(c) meridian filling of knot cusp is S^3 (Regina isSphere)": true,
+   "(d) 0-surgery isometric to 6_3(0)": true,
+   "(d) 0-surgery volume": 4.059766425638613,
+   "isometric to 6_3 exterior": false
+  },
+  "3": {
+   "slopes": [
+    [
+     4,
+     3
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "volume": 12.5204720623389,
+   "(c) meridian filling of knot cusp is S^3 (Regina isSphere)": true,
+   "(d) 0-surgery isometric to 6_3(0)": true,
+   "(d) 0-surgery volume": 4.059766425638616,
+   "isometric to 6_3 exterior": false
+  },
+  "-3": {
+   "slopes": [
+    [
+     -2,
+     -3
+    ],
+    [
+     -4,
+     -3
+    ]
+   ],
+   "volume": 11.241489251614967,
+   "(c) meridian filling of knot cusp is S^3 (Regina isSphere)": true,
+   "(d) 0-surgery isometric to 6_3(0)": true,
+   "(d) 0-surgery volume": 4.059766425638612,
+   "isometric to 6_3 exterior": false
+  },
+  "-4": {
+   "slopes": [
+    [
+     -3,
+     -4
+    ],
+    [
+     -5,
+     -4
+    ]
+   ],
+   "volume": 12.520472062338893,
+   "(c) meridian filling of knot cusp is S^3 (Regina isSphere)": true,
+   "(d) 0-surgery isometric to 6_3(0)": true,
+   "(d) 0-surgery volume": 4.059766425638611,
+   "isometric to 6_3 exterior": false
+  }
+ },
+ "pd_code_snappy_0indexed": [
+  [
+   3,
+   12,
+   4,
+   13
+  ],
+  [
+   15,
+   2,
+   16,
+   3
+  ],
+  [
+   33,
+   16,
+   0,
+   17
+  ],
+  [
+   0,
+   28,
+   1,
+   27
+  ],
+  [
+   28,
+   2,
+   29,
+   1
+  ],
+  [
+   4,
+   32,
+   5,
+   31
+  ],
+  [
+   5,
+   47,
+   6,
+   46
+  ],
+  [
+   6,
+   36,
+   7,
+   35
+  ],
+  [
+   7,
+   24,
+   8,
+   25
+  ],
+  [
+   49,
+   9,
+   50,
+   8
+  ],
+  [
+   38,
+   10,
+   39,
+   9
+  ],
+  [
+   21,
+   10,
+   22,
+   11
+  ],
+  [
+   32,
+   12,
+   33,
+   11
+  ],
+  [
+   44,
+   13,
+   45,
+   14
+  ],
+  [
+   14,
+   43,
+   15,
+   44
+  ],
+  [
+   41,
+   18,
+   34,
+   19
+  ],
+  [
+   52,
+   17,
+   53,
+   18
+  ],
+  [
+   19,
+   40,
+   20,
+   41
+  ],
+  [
+   20,
+   51,
+   21,
+   52
+  ],
+  [
+   37,
+   22,
+   38,
+   23
+  ],
+  [
+   48,
+   23,
+   49,
+   24
+  ],
+  [
+   34,
+   26,
+   35,
+   25
+  ],
+  [
+   53,
+   27,
+   42,
+   26
+  ],
+  [
+   29,
+   43,
+   30,
+   42
+  ],
+  [
+   45,
+   31,
+   46,
+   30
+  ],
+  [
+   47,
+   37,
+   48,
+   36
+  ],
+  [
+   39,
+   51,
+   40,
+   50
+  ]
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "knot": "D_{0,1} = K_0 # (-K_1)",
+ "spec": [
+  [
+   10,
+   [
+    0,
+    20
+   ]
+  ],
+  [
+   20,
+   [
+    0,
+    10
+   ]
+  ]
+ ],
+ "method": "basic",
+ "result": "None",
+ "seconds": 0.8,
+ "meaning": "None = no obstruction found in this spec; (p,q) = NOT topologically slice"
+}

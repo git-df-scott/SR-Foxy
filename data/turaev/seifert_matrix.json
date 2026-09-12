@@ -1,0 +1,14 @@
+{
+  "source": "V. G. Turaev, Multiplace generalizations of the Seifert form of a classical knot, Math. USSR-Sbornik 44:3 (1983) 335-361 (mathnet.ru paper id sm2474), p. 341-342",
+  "status": "VERIFIED (read from rendered page image of the English translation, p. 341)",
+  "convention": "V[i][j] = l_1(A)(x_i, x_j), x_1..x_6 the loops of Figure 3 with n=3; V is the Seifert matrix of A(p,q,r,s); r and s do NOT enter V (they are l_2 data)",
+  "X_rows": [[0,1,0,1,0,0],[0,0,"p",0,0,0],[0,"p",0,"q",0,1],[1,0,"q-1",0,"p",0],[0,0,0,"p",0,0],[0,0,1,0,-1,0]],
+  "Y_rows": [[0,1,0,0,0,0],[1,0,0,0,0,0],[0,0,0,"1/p",0,0],[0,0,"p",0,0,0],[0,0,0,0,0,"1/p^2"],[0,0,0,0,"p^2",0]],
+  "l2_data": {"l2(x1,x3,x5)": "r", "l2(x2,x4,x6)": "s"},
+  "verified_identities": {
+    "alt = X^T - X": "symplectic standard form pairing (1,2),(3,4),(5,6), det = 1 (so X is realizable as a Seifert matrix; VERIFIED by sympy)",
+    "Y^T X Y = X^T": "VERIFIED symbolically by sympy (paper's claim)",
+    "det(X - t X^T)": "t^3 * rho(t) * rho(1/t) with rho(t) = p t^3 - (p+q) t^2 - (p-q+1) t + p  -- VERIFIED symbolically; matches paper's stated Alexander polynomial",
+    "X restricted to span(x1,x3,x5) = 0 and to span(x2,x4,x6) = 0": "VERIFIED symbolically; both are unimodular half-rank direct summands, so the Seifert form is hyperbolic over Z"
+  }
+}

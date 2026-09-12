@@ -15,6 +15,19 @@ Cutoff: 2026-08-30. Repository history was preserved; this session only adds the
 | `candidate_ledger.csv` | machine-readable summary of the candidate tiers | derived from `CANDIDATE_LEDGER.md` | diff each row against the Markdown ledger | abbreviated fields omit proof detail |
 | `obstruction_matrix.csv` | machine-readable matrix using only allowed cell labels | derived from `OBSTRUCTION_MATRIX.md` | validate labels and compare row/column coordinates | explanatory reasons remain in Markdown |
 
+## Added 2026-09-11
+
+| artifact | what it claims | evidence level | how to verify | unresolved assumptions |
+|---|---|---|---|---|
+| `CAMPAIGN_PLAN.md` | binding plan: no CE exists, no known invariant can prove one, a new theorem is required; six workstreams, gates, kill conditions | synthesis of the five `research/` audits plus corrected sources | follow `[Sxx]` pointers; check each workstream's kill condition against `ERRATA_2026-09-11.md` | schedule assumes one small team; Oliveira-Smith [S01] unrefereed |
+| `ERRATA_2026-09-11.md` | corrections to Session 0, including closure of the Turaev door and two missed candidate lanes | theorem-level re-fetch of every load-bearing source | open `research/01_source_verification.md` and the mathnet.ru Turaev text | none beyond those listed in the file |
+| `TOOLING.md` | software stack, install spec, first scripts | repo/docs inspection by the tooling audit | run the install spec on a clean machine | API names must be re-checked against pinned versions |
+| `research/01_source_verification.md` | per-source verification table and post-cutoff sweep | primary texts fetched | re-fetch listed URLs | — |
+| `research/02_ribbon_only_obstructions.md` | catalog of ribbon necessities and the level at which each dies | primary texts for key items | check each "dies at" label against the cited theorem | Turaev row superseded by `ERRATA` E1 |
+| `research/03_candidate_families.md` | all candidate families with ambient tags, ranked table, generators | mixed primary/abstract | check ambient tag row by row | some rows abstract-only, marked |
+| `research/04_computational_tooling.md` | tool survey | repo/docs inspection | see `TOOLING.md` | — |
+| `research/05_adversarial_memo.md` | history of dead candidates, trap list, probability estimates | primary quotes where marked | check quoted text against sources | probabilities are judgement |
+
 ## Global unresolved assumptions
 
 1. “Current status” is frozen at the cutoff and can change after 2026-08-30.

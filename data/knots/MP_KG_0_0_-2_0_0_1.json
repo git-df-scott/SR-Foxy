@@ -1,0 +1,344 @@
+{
+ "name": "MP_KG(0,0,-2,0,0,1)",
+ "pd_code": [
+  [
+   33,
+   1,
+   34,
+   0
+  ],
+  [
+   1,
+   33,
+   2,
+   32
+  ],
+  [
+   2,
+   27,
+   3,
+   28
+  ],
+  [
+   3,
+   13,
+   4,
+   12
+  ],
+  [
+   13,
+   5,
+   14,
+   4
+  ],
+  [
+   26,
+   5,
+   27,
+   6
+  ],
+  [
+   6,
+   23,
+   7,
+   24
+  ],
+  [
+   7,
+   41,
+   8,
+   40
+  ],
+  [
+   39,
+   9,
+   40,
+   8
+  ],
+  [
+   9,
+   39,
+   10,
+   38
+  ],
+  [
+   37,
+   11,
+   38,
+   10
+  ],
+  [
+   18,
+   11,
+   19,
+   12
+  ],
+  [
+   14,
+   17,
+   15,
+   18
+  ],
+  [
+   15,
+   25,
+   16,
+   24
+  ],
+  [
+   25,
+   17,
+   26,
+   16
+  ],
+  [
+   19,
+   29,
+   20,
+   28
+  ],
+  [
+   20,
+   31,
+   21,
+   32
+  ],
+  [
+   34,
+   21,
+   35,
+   22
+  ],
+  [
+   41,
+   23,
+   0,
+   22
+  ],
+  [
+   36,
+   29,
+   37,
+   30
+  ],
+  [
+   30,
+   35,
+   31,
+   36
+  ]
+ ],
+ "pd_code_convention": "SnapPy/spherogram 0-indexed PD code (Link.PD_code(KnotTheory=False))",
+ "source": "DT-code formula from the Mathematica notebook DTcodes.nb accompanying Manolescu-Piccirillo, 'From zero surgeries to candidates for exotic definite four-manifolds' (arXiv:2102.04391), http://web.stanford.edu/~cm5/RBG/DTcodes.nb . The notebook's g/gg + KG/KB definitions were auto-transpiled to Python (mma.py/mp_auto.py). Paper parameters (a,b,c,d,e,f) correspond to the notebook call KX(a,-b,-c,-d,-e,-f); this convention was fixed by reproducing the volume and total HFK rank of all 22 knots listed in http://web.stanford.edu/~cm5/RBG/PromisingKnots.txt (exact agreement in all 44 numbers). DT -> PD via spherogram.DTcodec.",
+ "verification": {
+  "is_a_knot_(1_component)": true,
+  "DT_code_is_valid_permutation_of_even_numbers": true,
+  "DT_code": [
+   34,
+   -28,
+   14,
+   -24,
+   40,
+   38,
+   4,
+   -18,
+   26,
+   -12,
+   -32,
+   42,
+   16,
+   -6,
+   20,
+   -36,
+   2,
+   -22,
+   -30,
+   10,
+   8
+  ],
+  "pipeline_validation": "same code path reproduces volume+HFK total rank of all 22 knots in PromisingKnots.txt exactly",
+  "pair_0_surgery": {
+   "homology": [
+    "Z",
+    "Z"
+   ],
+   "is_isometric_to": true,
+   "exteriors_isometric (KB vs KG)": false
+  },
+  "r_equals_a_plus_b": 0,
+  "trace_claim": "a+b=r=0, so by Lemma 5.2(b) of arXiv:2102.04391 K_B and K_G have diffeomorphic traces"
+ },
+ "invariants": {
+  "crossings_in_generated_diagram": 21,
+  "crossings_after_global_simplify": 19,
+  "alexander_polynomial": "+1*t^0",
+  "alexander_coeffs_by_degree": {
+   "0": 1
+  },
+  "HFK": {
+   "seifert_genus": 2,
+   "fibered": false,
+   "tau": 0,
+   "nu": 0,
+   "epsilon": 0,
+   "L_space_knot": false,
+   "total_rank": 33,
+   "ranks_(alex,maslov)": {
+    "(-2, -2)": 1,
+    "(-2, -1)": 1,
+    "(-1, -1)": 4,
+    "(-1, 0)": 4,
+    "(0, 0)": 7,
+    "(0, 1)": 6,
+    "(1, 1)": 4,
+    "(1, 2)": 4,
+    "(2, 2)": 1,
+    "(2, 3)": 1
+   }
+  },
+  "exterior": {
+   "solution_type": "all tetrahedra positively oriented",
+   "volume": 13.99071690936071,
+   "hyperbolic": true
+  },
+  "exterior_homology": "Z",
+  "snappy_identify": []
+ },
+ "paper_parameters": {
+  "a": 0,
+  "b": 0,
+  "c": -2,
+  "d": 0,
+  "e": 0,
+  "f": 1
+ },
+ "notebook_call": "KG(0,0,2,0,0,-1)",
+ "pd_code_snappy_0indexed": [
+  [
+   33,
+   1,
+   34,
+   0
+  ],
+  [
+   1,
+   33,
+   2,
+   32
+  ],
+  [
+   2,
+   27,
+   3,
+   28
+  ],
+  [
+   3,
+   13,
+   4,
+   12
+  ],
+  [
+   13,
+   5,
+   14,
+   4
+  ],
+  [
+   26,
+   5,
+   27,
+   6
+  ],
+  [
+   6,
+   23,
+   7,
+   24
+  ],
+  [
+   7,
+   41,
+   8,
+   40
+  ],
+  [
+   39,
+   9,
+   40,
+   8
+  ],
+  [
+   9,
+   39,
+   10,
+   38
+  ],
+  [
+   37,
+   11,
+   38,
+   10
+  ],
+  [
+   18,
+   11,
+   19,
+   12
+  ],
+  [
+   14,
+   17,
+   15,
+   18
+  ],
+  [
+   15,
+   25,
+   16,
+   24
+  ],
+  [
+   25,
+   17,
+   26,
+   16
+  ],
+  [
+   19,
+   29,
+   20,
+   28
+  ],
+  [
+   20,
+   31,
+   21,
+   32
+  ],
+  [
+   34,
+   21,
+   35,
+   22
+  ],
+  [
+   41,
+   23,
+   0,
+   22
+  ],
+  [
+   36,
+   29,
+   37,
+   30
+  ],
+  [
+   30,
+   35,
+   31,
+   36
+  ]
+ ]
+}
