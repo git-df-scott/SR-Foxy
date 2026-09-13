@@ -1,0 +1,34 @@
+{
+  "status": "NO_COUNTEREXAMPLE_LOCAL_CONSTRUCTION_OBSTRUCTIONS",
+  "date": "2026-09-13",
+  "finite_group_checker_passed": true,
+  "four_triangulation_seeds": [
+    0,
+    20260913,
+    20260914,
+    20260915
+  ],
+  "tampered_trace_matrix_and_word_rejected": true,
+  "trace_group_and_fox_algebra_passed": true,
+  "marked_scaffold_planarity_and_pd_roundtrip_passed": true,
+  "proof_limit": "Group/link identification uses SnapPy; equivariant determinant and destabilization obstruction are written deductions, not a computed intersection matrix.",
+  "sha256": {
+    "README.md": "e98efb2e2f84b033799c6ae319b6fe7fb1c0cc843699916714b3ed9d0ee1138c",
+    "HANDOFF.md": "c4e93dfe0b1494e39ef4b17b87b400b44b7277ee982d69193ea5c22477ef1067",
+    "research/14_marked_annulus_audit.md": "666978c4fc55bc2195a479d02af2b96d74dd4908839cdca8f9285665fa86f834",
+    "data/knots/AbeTagami_marked_product_scaffold.json": "d01c4a33c3533de068d0ba6c6c1f1e8e980c16ce57d0e274f263e7fc75dcc4d3",
+    "scripts/annulus_group_certificate.py": "815dd6ffc6cfcd3f369b41afb2a5543a6ffcac92ae9941d1197e1ceea1d4ecad",
+    "scripts/check_annulus_group_certificate.py": "482b35d1522e56655286ff7cfeb4d23115ab28176947828b105cc19aba31b365",
+    "scripts/trace_complement_audit.py": "fe5af69ff9f26f01a3b2855c960bb6648207ce3eeb74914d63baa29b21ee12e1",
+    "scripts/build_marked_product_scaffold.py": "4245dff9d49d87d6a0f53f7ffeab24c6dfa7bd200166cab7aa167be257af0dbd",
+    "results/annulus_group_certificate.json": "7adface2810ebcb84e69401349a25cd8b5af60991c692a354fa09fd14fe2df1a",
+    "results/annulus_group_check.json": "79639fdc2de3213accf1c9b1f3ecc835fdc47405fe9708c77852fb11aefcfeb8",
+    "results/annulus_group_compact.json": "77663de4a542dec028711b5c7fbd8e1b50b9359a5294e7d42d0eed60ff17cc50",
+    "results/annulus_group_compact_check.json": "44b09052733b3de71f819b072e8abbff5549e9d68a469c3b2925e2d72dbaf3a6",
+    "results/annulus_group_seed_0.tri": "728eb647cb75762c00ddff046fcd33eead58f7fd39e4cbc264b849beac1b1875",
+    "results/annulus_group_seed_20260913.tri": "28e20e9b22198af42cec7ceae7f710c345750ada25e655de2256d3e107a67d6d",
+    "results/annulus_group_seed_20260914.tri": "970af69b0fb8fc38e404b8da2e9f32372e2be68552499d2dcc6814906fb0b9e3",
+    "results/annulus_group_seed_20260915.tri": "119208a2db239f4a9227a4dea57bc3c91321ec167cecc56865498caae7ee7322",
+    "results/trace_complement_audit.json": "c2c9bd70a9e0ef937dee53aba7d68565e633fcba478a6b9694846b8e51a7030a"
+  }
+}

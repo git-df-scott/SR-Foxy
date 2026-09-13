@@ -1,4 +1,41 @@
-# Current handoff — resumed work completed 12 September 2026
+# Current handoff — 13 September 2026
+
+**No counterexample found.** The authoritative new note is
+`research/14_marked_annulus_audit.md`. It supersedes the priorities in the
+historical handoff below. All work remains on the sole branch `main`.
+
+New exact result: the fixed surgery circles have images of trace 1 and 4 in
+SL(2,F5), with orders 6 and 3. They cannot cobound even a mapped annulus in
+the standard product-disk exterior. Four triangulation seeds, geometric and
+simplified relators, peripheral conjugators, and a standalone checker are
+saved in `results/annulus_group*` and the corresponding scripts.
+
+The fixed two-handle trace exterior has full group Z: its compact presentation
+reduces after killing a generator commutator. Its equivariant intersection
+determinant is Delta(t)^2 up to a Laurent unit, by the written duality proof.
+It cannot lose a disjoint S2xS2 summand while preserving the annulus and become
+a standard-product concordance. This does not obstruct the endpoints from
+being concordant by a different annulus. See the n=-1 endpoint control.
+
+**Next constructive task:** specify mixed band sums of the four circles in
+`data/knots/AbeTagami_marked_product_scaffold.json`. Seek actual based words
+uv and vu, then identify the surgery link/framing and boundary knot before
+attempting an embedded standard annulus. This is a proposed construction;
+the saved five-component link is only an input scaffold. Nonribbonness must
+remain independently certified for any resulting knot.
+
+J149 is downgraded: the Agol–Ren claim after Question 1.15 concerns the genus
+of the inputs, so a genus-four target does not escape it. Treat the preprint
+claim as a priority warning until its argument is reconstructed, not as a
+new certified discard. Do not resume broad J149 searches by default.
+
+Today's allowance: seven additional shared weekly percentage points, baseline
+26% at 09:49 Edmonton, ceiling about 33% with a buffer. This is a manual cap
+for the authorized session, not seven points automatically every five hours.
+The 9 p.m. reminder is paused. Check fresh usage and the latest user messages
+before subsequent work. No automatic research restart is authorized.
+
+## Historical handoff — 12 September (priority recommendations superseded)
 
 **No counterexample found.** Read `RESUMED_2026-09-12.md` and research notes
 10–13 before planning more work. The target is D01=K0#(-K1). Its audited

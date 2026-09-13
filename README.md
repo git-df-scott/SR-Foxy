@@ -1,8 +1,8 @@
 # Slice–Ribbon counterexample research
 
-**No counterexample found.** Start with the [latest resumed-session results](RESUMED_2026-09-12.md) and [next-session handoff](HANDOFF.md), then the [12 September 2026 audit and research plan](RESEARCH_AUDIT_2026-09-12.md). These supersede conflicting earlier notes.
+**No counterexample found.** Start with the [13 September marked-annulus audit](research/14_marked_annulus_audit.md) and [next-session handoff](HANDOFF.md). The [12 September resumed results](RESUMED_2026-09-12.md) preserve earlier computations, but their J149 priority recommendation is superseded.
 
-The current constructive target is a common ribbon successor of the two stored Abe–Tagami knots. An applicable theorem supplies non-ribbonness of their difference; a verified common-successor movie would supply its missing smooth slice disk. The explicit Hom–Park member has now been obstructed from sliceness.
+An applicable theorem supplies nonribbonness of the stored Abe–Tagami difference; its smooth sliceness remains unknown. New exact group certificates exclude the simplest product-disk annulus modification, and a group/duality argument excludes destabilizing the fixed surgery trace while preserving its annulus. The next proposed construction changes the marked surgery circles across both summands, with explicit conjugacy and boundary-identification gates. A 54-crossing input scaffold is prepared; no new slice disk is claimed. The explicit Hom–Park member is already obstructed from sliceness.
 
 See [reproduction instructions](REPRODUCE_2026-09-12.md), [exact Floer-filter diagram](figures/common-successor-filter.png), and [an actual search move](figures/fusion-example.png). All development stays on `main`.
 
