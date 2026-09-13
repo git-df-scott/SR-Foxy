@@ -19,14 +19,17 @@ from itertools import combinations
 # ---------------------------------------------------------------- graph6 I/O
 
 def g6_decode(s):
-    """graph6 string -> (n, set of frozenset edges).  Short form, n <= 62."""
+    """graph6 string -> (n, set of edges).  Short and long (n <= 258047) forms."""
     s = s.strip()
     d = [ord(c) - 63 for c in s]
-    n = d[0]
-    if n == 63:
-        raise ValueError('graph6 long form (n > 62) not supported')
+    if d[0] == 63:                      # long form: '~' then 3 bytes of n
+        n = (d[1] << 12) | (d[2] << 6) | d[3]
+        rest = d[4:]
+    else:
+        n = d[0]
+        rest = d[1:]
     bits = []
-    for x in d[1:]:
+    for x in rest:
         bits.extend((x >> k) & 1 for k in range(5, -1, -1))
     edges, i = set(), 0
     for col in range(1, n):
@@ -38,13 +41,15 @@ def g6_decode(s):
 
 
 def g6_encode(n, edges):
-    """(n, iterable of (u,v) with u<v) -> graph6 string.  Short form, n <= 62."""
-    if n > 62:
-        raise ValueError('graph6 long form (n > 62) not supported')
+    """(n, iterable of (u,v)) -> graph6 string.  Short and long (n <= 258047) forms."""
     e = {(min(u, v), max(u, v)) for u, v in edges}
     bits = [1 if (row, col) in e else 0 for col in range(1, n) for row in range(col)]
     bits += [0] * (-len(bits) % 6)
-    out = [chr(n + 63)]
+    if n <= 62:
+        out = [chr(n + 63)]
+    else:
+        out = [chr(126), chr(((n >> 12) & 63) + 63), chr(((n >> 6) & 63) + 63),
+               chr((n & 63) + 63)]
     for i in range(0, len(bits), 6):
         x = 0
         for b in bits[i:i + 6]:
