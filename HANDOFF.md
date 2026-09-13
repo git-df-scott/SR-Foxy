@@ -1,3 +1,53 @@
+# Current handoff — 13 September 2026, afternoon
+
+**No counterexample found.** Start with
+`research/16_nonfibered_khovanov_gate.md` and
+`results/nonfibered_session_validation.json`.
+
+New computational obstruction: graded unreduced Khovanov homology over F2
+excludes 46 of the 48 nonfibered targets in the 60-entry K0 wider pool.
+The other 12 entries are fibered, not nonfibered. Only indices **25533 and
+25541** survive. Both also pass Q and F3; the full sl3 target calculations
+remain inconclusive after 60-second timeouts. All completed Kh Euler
+characteristics agree with independently computed Regina Jones polynomials.
+
+The known K0 -> J movies pass their Kh positive controls. K0's F2 Kh ranks
+are bounded by K1's in every bigrading, so K1-built genuine ribbon upper
+knots automatically pass this particular Kh test for both sources. The
+existing K1 threaded archive has 1,111 nonfibered HFK-envelope survivors.
+Five 25-crossing candidates were selected in `results/K1_nonfibered_shortlist.json`.
+
+Focused one-fission searches tested 119,242 bands on the two K0 survivors
+and 128,369 on those five K1 targets. Known-source diagram controls return;
+no opposite-source HFK match was found. A two-fission pilot on 25533 also
+returns only K0. These are incomplete geometric searches, not concordance
+obstructions. Broad searches were stopped after the Kh filter; their partial
+checkpoints and failed pilot are preserved.
+
+The Alexander-rank helper now accounts for wholly overpassing components,
+which `_pieces()` omitted. The real missing-generator regression and a
+rejected, nonplanar hand-built test fixture are recorded. The latter was
+replaced by a planar control. Do not treat failed checks as discarded data.
+
+**Next:** use the combined HFK/Kh gate before searching a target; do not
+resume the 46 excluded targets or fibered J149 by default. Develop a
+component-guided two-stage search: distinguish wrong component knots from
+correct components that remain linked, and preserve those near-matches.
+Explore alternative diagrams and longer edge paths before increasing the
+same shortest-first caps. Prove every geometric implication before claiming
+an annulus in S3 x I or a disk in standard B4.
+
+Session accounting is in the local `work/slice_ribbon_budget.json`, outside
+this repository. The separate **17:50 MDT** wakeup remains scheduled with a
+fresh shared-usage baseline and a maximum of ten additional percentage
+points. Unused first-session allowance does not roll over. The old budgets
+and priorities below are historical. Work in this session stays on `main`;
+no branch was created or deleted.
+
+---
+
+## Historical morning checkpoint — superseded priorities and budget
+
 # Current handoff — 13 September 2026
 
 **No counterexample found.** Read `research/15_infection_target_compatibility.md`

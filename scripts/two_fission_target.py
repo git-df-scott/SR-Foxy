@@ -30,7 +30,18 @@ def rank_mod(rows,p=101):
 
 def alex_rank(L,p=101,t=2):
     pieces=L._pieces();arc={tuple(cs):m for m,part in enumerate(pieces) for cs in part}
-    n=len(pieces);rows=[]
+    n=len(pieces)
+    # _pieces starts at undercrossings. An entirely overpassing component
+    # has no such start and needs its own Wirtinger generator. This occurs
+    # in split links with overlapping projections; omitting it caused a
+    # KeyError in the focused reverse-search pilot.
+    for comp in L.link_components:
+        if all(cs.strand_index in (1,3) for cs in comp):
+            for cs in comp:
+                arc[cs.crossing,1]=n;arc[cs.crossing,3]=n
+            n+=1
+    n+=L.unlinked_unknot_components
+    rows=[]
     for c in L.crossings:
         i,j,k=arc[(c,0)]+1,arc[(c,2)]+1,arc[(c,1)]+1
         # Match Spherogram's unoriented _pieces endpoints and Wirtinger signs.

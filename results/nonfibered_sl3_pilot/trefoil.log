@@ -1,0 +1,6 @@
+sl_3 Kh mod 0 of file results/nonfibered_khovanov_filter/trefoil.txt finished.
+results/nonfibered_khovanov_filter/trefoil.txt
+trefoil
+Unreduced integral sl_3 Homology : q^-6 + q^-4 + q^-2 + t^2 q^-8 + t^2 q^-6 + t^3 q^-14 + t^3 q^-12
+Torsion of order 3 : t^3 q^-10
+Reduced integral sl_3 Homology : q^-4 + t^2 q^-8 + t^3 q^-12

@@ -13,8 +13,8 @@
   "marked_scaffold_planarity_and_pd_roundtrip_passed": true,
   "proof_limit": "Group/link identification uses SnapPy; equivariant determinant and destabilization obstruction are written deductions, not a computed intersection matrix.",
   "sha256": {
-    "README.md": "e98efb2e2f84b033799c6ae319b6fe7fb1c0cc843699916714b3ed9d0ee1138c",
-    "HANDOFF.md": "e4969d36cd62f4c18d80088f9a9f2c9bd73cd280f921fdbf0819ff21d5752d4f",
+    "README.md": "123806686d0b45bfef8430289b9bfd17efafc5882cbe9114139da3f7649bd4a7",
+    "HANDOFF.md": "d8afcb3fc896ead73a7874454f97ddfe2f2249422e96baa6639cef06bac9786b",
     "research/14_marked_annulus_audit.md": "666978c4fc55bc2195a479d02af2b96d74dd4908839cdca8f9285665fa86f834",
     "data/knots/AbeTagami_marked_product_scaffold.json": "d01c4a33c3533de068d0ba6c6c1f1e8e980c16ce57d0e274f263e7fc75dcc4d3",
     "scripts/annulus_group_certificate.py": "815dd6ffc6cfcd3f369b41afb2a5543a6ffcac92ae9941d1197e1ceea1d4ecad",
@@ -30,5 +30,6 @@
     "results/annulus_group_seed_20260914.tri": "970af69b0fb8fc38e404b8da2e9f32372e2be68552499d2dcc6814906fb0b9e3",
     "results/annulus_group_seed_20260915.tri": "119208a2db239f4a9227a4dea57bc3c91321ec167cecc56865498caae7ee7322",
     "results/trace_complement_audit.json": "c2c9bd70a9e0ef937dee53aba7d68565e633fcba478a6b9694846b8e51a7030a"
-  }
+  },
+  "documentation_hash_refresh": "2026-09-13 afternoon: README and HANDOFF updated for the new Khovanov gate. Underlying marked-annulus calculations unchanged; this refresh is not a rerun of those calculations."
 }

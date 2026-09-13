@@ -1,8 +1,10 @@
 # Slice–Ribbon counterexample research
 
-**No counterexample found.** Start with the [13 September marked-annulus audit](research/14_marked_annulus_audit.md) and [next-session handoff](HANDOFF.md). The [12 September resumed results](RESUMED_2026-09-12.md) preserve earlier computations, but their J149 priority recommendation is superseded.
+**No counterexample found.** Start with the [13 September nonfibered-target audit](research/16_nonfibered_khovanov_gate.md) and [current handoff](HANDOFF.md).
 
-An applicable theorem supplies nonribbonness of the stored Abe–Tagami difference; its smooth sliceness remains unknown. New exact group certificates exclude the simplest product-disk annulus modification, and a group/duality argument excludes destabilizing the fixed surgery trace while preserving its annulus. The next proposed construction changes the marked surgery circles across both summands, with explicit conjugacy and boundary-identification gates. A 54-crossing input scaffold is prepared; no new slice disk is claimed. The explicit Hom–Park member is already obstructed from sliceness.
+A newly applied graded Khovanov obstruction excludes 46 of 48 nonfibered K0-based upper targets that passed the Floer filters. Only two survive; focused one- and two-saddle searches have not connected the Abe–Tagami endpoints. Known-source controls and independent Jones checks pass. The [graded comparison](figures/khovanov-common-upper-gate.png) shows why total homology rank was insufficient.
+
+The stored Abe–Tagami difference has a nonribbonness argument; its smooth sliceness remains unknown. The [marked-annulus audit](research/14_marked_annulus_audit.md) and [infection compatibility audit](research/15_infection_target_compatibility.md) record obstructions to specific earlier constructions. They are not global sliceness obstructions. The explicit Hom–Park member is already obstructed from sliceness.
 
 See [reproduction instructions](REPRODUCE_2026-09-12.md), [exact Floer-filter diagram](figures/common-successor-filter.png), and [an actual search move](figures/fusion-example.png). All development stays on `main`.
 
