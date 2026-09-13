@@ -1,4 +1,57 @@
-# Current handoff — 13 September 2026, afternoon
+# Current handoff — 13 September 2026, extra afternoon session
+
+**No counterexample found.** Read `research/17_fission_ancestry_and_linking.md`
+and `results/component_session_validation.json` first. Work remains on `main`.
+
+The key new deduction is component ancestry in a reverse movie with only
+fissions, isotopies and split unknot deaths: one intermediate component must
+be ribbon-concordant above K1 and every other component must be ribbon.
+The proof and exact restrictions are written in research/17. It is NOT a
+condition for movies with later fusion saddles or births. Do not demand that
+the distinguished component already equal K1 before its last fission.
+
+Applied to the 61 saved intermediates of J25533, determinant/HFK tests retain
+15, and full graded F2 Kh retains only two first bands:
+`6267660c_0_0` and `2b2a271f_1_0`. All eight relevant component Kh computations
+finish (three reused by exact diagram signature), with checked Euler polynomials.
+The 59 exclusions apply to every pure-fission completion of those particular
+intermediates. A second-saddle search on the two survivors tested 39,176
+zero-linking fissions without a K1/U/U component Jones match.
+
+`results/component_guided_K1_to_K0.json` contains 239 retained component
+Jones/HFK matches on five K1-built upper knots, all nonsplit by whole-link
+Jones. `results/normalized_component_neighborhoods.json` removes the twist
+parameter and varies up to two crossing choices: 6,623 normalized bands,
+1,092 retained matches, all zero-linking and provably nonsplit. Of these,
+156 have explicitly matching K0 and unknot component diagrams. Counts are
+diagrams, not isotopy classes. K0-built survivors produced no K1 component match.
+
+A full twist preserves the component knot types of a fission while changing
+coherently oriented linking by one. The library may reverse orientations on
+rebuilding: the original signed-slope pilot failed. The preserved regression
+is in `results/fission_twist_orientation_regression.json`. The correction
+tries both signs and directly verifies linking zero. Never silently ignore
+the failed pilot, equate polynomial equality with splitness, or treat a
+polynomial coefficient score as a geometric distance.
+
+**Next construction:** change band attachments and paths, with explicit split
+K0/U as a boundary condition, while tracking the known K1 birth-and-band
+presentation. Explore simultaneous moves of the two presentations, not only
+more twists on the same core. This proposed construction is not implemented
+and is not guaranteed. Continue to screen new common upper knots by HFK/Kh.
+
+The next session is **17:30 MDT today**, replacing 17:50, with a fresh shared
+usage baseline, at most ten additional percentage points, a buffer, and a
+22:30 stop. No unused allowance rolls over. Read the local budget ledger and
+latest user instructions before starting. Claude's audit prompt is saved in
+the local outputs directory, but was NOT sent: Computer Use found the Mac
+locked. Existing Claude setup and remote branches were left unchanged.
+
+---
+
+## Historical earlier afternoon checkpoint — superseded priorities and schedule
+
+# Handoff — 13 September 2026, afternoon
 
 **No counterexample found.** Start with
 `research/16_nonfibered_khovanov_gate.md` and

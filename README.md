@@ -1,6 +1,8 @@
 # Slice–Ribbon counterexample research
 
-**No counterexample found.** Start with the [13 September nonfibered-target audit](research/16_nonfibered_khovanov_gate.md) and [current handoff](HANDOFF.md).
+**No counterexample found.** Start with the [component ancestry and linking audit](research/17_fission_ancestry_and_linking.md) and [current handoff](HANDOFF.md).
+
+New component tests reduce 61 saved first-stage links to two possible pure-fission continuations toward K1. A twist-normalized search reaches 1,092 diagrams with matching component Jones polynomials and zero linking, including 156 with recognized component diagrams, but all fail an exact split-link test. The geometric separation remains missing. These are exclusions of specific constructions, not a proof that the knots are nonconcordant.
 
 A newly applied graded Khovanov obstruction excludes 46 of 48 nonfibered K0-based upper targets that passed the Floer filters. Only two survive; focused one- and two-saddle searches have not connected the Abe–Tagami endpoints. Known-source controls and independent Jones checks pass. The [graded comparison](figures/khovanov-common-upper-gate.png) shows why total homology rank was insufficient.
 
