@@ -44,7 +44,7 @@ def alex_rank(L,p=101,t=2):
     return rank_mod(rows,p),n
 
 
-def run(targets,output,seconds,first_limit,second_limit,length):
+def run(targets,output,seconds,first_limit,second_limit,length,shard=0,shards=1):
     out=Path(output)
     if out.exists():raise FileExistsError(out)
     target=json.loads(Path(targets).read_text())['candidates'][0]
@@ -55,6 +55,7 @@ def run(targets,output,seconds,first_limit,second_limit,length):
         sources[side]={'hfk':L.knot_floer_homology()['ranks'],'signature':L.exterior().isometry_signature(of_link=True,ignore_orientation=False)}
     rec={'status':'BOUNDED_TWO_FISSION_SEARCH_NOT_A_CERTIFICATE','target':targets,
         'seconds_limit':seconds,'first_limit':first_limit,'second_limit_per_intermediate':second_limit,'length':length,'twists':2,
+        'shard':shard,'shards':shards,'shard_skipped':0,
         'field':101,'evaluation':2,'first_attempts':0,'rank_rejected':0,'linking_rejected':0,
         'intermediates':[],'second_attempts':0,'endpoint_checks':[],'hits':[],'complete':False}
     start=time.monotonic();seen=set();endpoints=set();stop='first_enumeration_finished'
@@ -63,6 +64,9 @@ def run(targets,output,seconds,first_limit,second_limit,length):
         rec['first_attempts']+=1
         if rec['first_attempts']>first_limit:stop='first_cap';break
         if time.monotonic()-start>seconds:stop='time_cap';break
+        # Disjoint round-robin sharding over the deterministic first-band
+        # enumeration. shards=1 reproduces the original single-process run.
+        if (rec['first_attempts']-1)%shards!=shard:rec['shard_skipped']+=1;continue
         if len(I.link_components)!=2:continue
         if I.linking_number()!=0:rec['linking_rejected']+=1;continue
         I.simplify('basic')
@@ -111,5 +115,7 @@ def run(targets,output,seconds,first_limit,second_limit,length):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('targets');p.add_argument('output');p.add_argument('--seconds',type=float,default=180)
-    p.add_argument('--first',type=int,default=8000);p.add_argument('--second',type=int,default=2000);p.add_argument('--length',type=int,default=8);a=p.parse_args()
-    run(a.targets,a.output,a.seconds,a.first,a.second,a.length)
+    p.add_argument('--first',type=int,default=8000);p.add_argument('--second',type=int,default=2000);p.add_argument('--length',type=int,default=8)
+    p.add_argument('--shard',type=int,default=0);p.add_argument('--shards',type=int,default=1);a=p.parse_args()
+    if not 0<=a.shard<a.shards:raise SystemExit('shard must satisfy 0 <= shard < shards')
+    run(a.targets,a.output,a.seconds,a.first,a.second,a.length,a.shard,a.shards)
