@@ -2,7 +2,11 @@
 
 **No counterexample found.** The authoritative new note is
 `research/14_marked_annulus_audit.md`. It supersedes the priorities in the
-historical handoff below. All work remains on the sole branch `main`.
+historical handoff below. This session's changes remain on `main`; no branch
+was created. The final remote check found `claude/pensive-hopper-3rh6p4`
+with eight unmerged commits through f15e803, including a terminated J149
+search and separate graph-reconstruction work. That concurrent work was
+preserved, not merged or deleted. Do not assume the remote has only one branch.
 
 New exact result: the fixed surgery circles have images of trace 1 and 4 in
 SL(2,F5), with orders 6 and 3. They cannot cobound even a mapped annulus in
