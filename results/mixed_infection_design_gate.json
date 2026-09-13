@@ -1,0 +1,176 @@
+{
+  "status": "NO_NEW_KNOT_OR_DISK; CONDITIONAL_INFECTION_DESIGN_GATE",
+  "source_sha256": {
+    "data/knots/AbeTagami_marked_product_scaffold.json": "d01c4a33c3533de068d0ba6c6c1f1e8e980c16ce57d0e274f263e7fc75dcc4d3",
+    "results/annulus_group_compact.json": "77663de4a542dec028711b5c7fbd8e1b50b9359a5294e7d42d0eed60ff17cc50"
+  },
+  "oriented_mixed_band_sum_windings": [
+    0,
+    0
+  ],
+  "proposed_words_only": {
+    "original": {
+      "left": [
+        -2,
+        1,
+        2,
+        -1,
+        -2,
+        -2,
+        -1,
+        -2,
+        1,
+        2,
+        2,
+        2,
+        1,
+        -2,
+        -1,
+        -2,
+        1,
+        2,
+        2,
+        2,
+        1,
+        -2,
+        -1,
+        -1
+      ],
+      "right": [
+        -2,
+        -2,
+        -1,
+        -2,
+        1,
+        2,
+        2,
+        2,
+        1,
+        -2,
+        -1,
+        -2,
+        1,
+        2,
+        2,
+        2,
+        1,
+        -2,
+        -1,
+        -1,
+        -2,
+        1,
+        2,
+        -1
+      ],
+      "windings": [
+        0,
+        0
+      ],
+      "conjugacy_by_u_verified_in_free_group": true
+    },
+    "meridian_added": {
+      "left": [
+        -2,
+        1,
+        2,
+        -1,
+        -2,
+        -2,
+        -1,
+        -2,
+        1,
+        2,
+        2,
+        2,
+        1,
+        -2,
+        -1,
+        -2,
+        1,
+        2,
+        2,
+        2,
+        1,
+        -2,
+        -1,
+        -1,
+        2,
+        2,
+        1
+      ],
+      "right": [
+        -2,
+        -2,
+        -1,
+        -2,
+        1,
+        2,
+        2,
+        2,
+        1,
+        -2,
+        -1,
+        -2,
+        1,
+        2,
+        2,
+        2,
+        1,
+        -2,
+        -1,
+        -1,
+        2,
+        2,
+        1,
+        -2,
+        1,
+        2,
+        -1
+      ],
+      "windings": [
+        1,
+        1
+      ],
+      "conjugacy_by_u_verified_in_free_group": true
+    }
+  },
+  "polynomial_coefficients_ascending": {
+    "target_and_R": [
+      1,
+      -6,
+      19,
+      -36,
+      45,
+      -36,
+      19,
+      -6,
+      1
+    ],
+    "winding_one_trefoil_pair": [
+      1,
+      -8,
+      34,
+      -94,
+      187,
+      -278,
+      317,
+      -278,
+      187,
+      -94,
+      34,
+      -8,
+      1
+    ]
+  },
+  "alexander_spans": {
+    "target_and_R": 8,
+    "winding_one_trefoil_pair": 12
+  },
+  "topological_hypotheses_not_verified": [
+    "Embedded axes realizing proposed words and forming an unlink",
+    "Smooth annulus disjoint from a slice disk",
+    "Infection torus incompressible in final knot exterior",
+    "Fibered solid-torus pattern and nonribbon output"
+  ],
+  "interpretation": "Zero winding excludes fibered output if an infection torus survives incompressibly. Adding meridians passes winding/conjugacy algebra but changes the fixed target polynomial for a trefoil companion pair."
+}

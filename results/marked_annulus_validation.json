@@ -14,7 +14,7 @@
   "proof_limit": "Group/link identification uses SnapPy; equivariant determinant and destabilization obstruction are written deductions, not a computed intersection matrix.",
   "sha256": {
     "README.md": "e98efb2e2f84b033799c6ae319b6fe7fb1c0cc843699916714b3ed9d0ee1138c",
-    "HANDOFF.md": "41b75798184203276d358c741cc4ae5e7eaedf3a21ee4e83778181d9c6820d1e",
+    "HANDOFF.md": "e4969d36cd62f4c18d80088f9a9f2c9bd73cd280f921fdbf0819ff21d5752d4f",
     "research/14_marked_annulus_audit.md": "666978c4fc55bc2195a479d02af2b96d74dd4908839cdca8f9285665fa86f834",
     "data/knots/AbeTagami_marked_product_scaffold.json": "d01c4a33c3533de068d0ba6c6c1f1e8e980c16ce57d0e274f263e7fc75dcc4d3",
     "scripts/annulus_group_certificate.py": "815dd6ffc6cfcd3f369b41afb2a5543a6ffcac92ae9941d1197e1ceea1d4ecad",

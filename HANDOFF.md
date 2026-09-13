@@ -1,7 +1,10 @@
 # Current handoff — 13 September 2026
 
-**No counterexample found.** The authoritative new note is
-`research/14_marked_annulus_audit.md`. It supersedes the priorities in the
+**No counterexample found.** Read `research/15_infection_target_compatibility.md`
+first: zero-winding infection cannot preserve the fibered target if an infection
+torus remains incompressible; adding meridians changes its Alexander polynomial
+for nontrivial fibered companions. Keep infection and annulus twisting distinct.
+The preceding exact audit is `research/14_marked_annulus_audit.md`. These supersede the priorities in the
 historical handoff below. This session's changes remain on `main`; no branch
 was created. The final remote check found `claude/pensive-hopper-3rh6p4`
 with eight unmerged commits through f15e803, including a terminated J149
@@ -36,8 +39,11 @@ new certified discard. Do not resume broad J149 searches by default.
 Today's allowance: seven additional shared weekly percentage points, baseline
 26% at 09:49 Edmonton, ceiling about 33% with a buffer. This is a manual cap
 for the authorized session, not seven points automatically every five hours.
-The 9 p.m. reminder is paused. Check fresh usage and the latest user messages
-before subsequent work. No automatic research restart is authorized.
+The old reminder was updated to a one-time 13:33 MDT wakeup today, authorized
+to resume only within the unused morning allowance after checking fresh usage
+and the latest user messages. The extra light pass has baseline 28%, ceiling
+30% with a buffer, within the morning allowance. No new allowance is granted
+by the reminder or by the end of a five-hour window.
 
 ## Historical handoff — 12 September (priority recommendations superseded)
 
