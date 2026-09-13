@@ -1,0 +1,3 @@
+n=14 blowups=  228566 distinct=  48590 collisions=0 (38s)
+n=15 blowups=  350742 distinct=  73680 collisions=0 (68s)
+n=16 blowups=  520333 distinct= 108588 collisions=0 (120s)
