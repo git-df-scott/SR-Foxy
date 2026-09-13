@@ -1,0 +1,68 @@
+{
+ "knot": "MP_KG(0,0,0,-1,2,1)",
+ "pd_sha256_16": "aaf89c5f8a2557be",
+ "date": "2026-09-13T21:48:46.057339+00:00",
+ "within_sage": true,
+ "box": {
+  "n_diagrams": 6,
+  "max_bands": 1,
+  "max_twists": 2,
+  "max_band_len": 6,
+  "paths": "shortest",
+  "seconds_per_diagram": 0.0,
+  "filter_for_plausibly_slice": true
+ },
+ "diagrams": [
+  {
+   "index": 0,
+   "seed": null,
+   "crossings": 28,
+   "results": 12,
+   "unknot": false,
+   "seconds": 304.1
+  },
+  {
+   "index": 1,
+   "seed": 1001,
+   "crossings": 24,
+   "results": 11,
+   "unknot": false,
+   "seconds": 201.0
+  },
+  {
+   "index": 2,
+   "seed": 1002,
+   "crossings": 24,
+   "results": 15,
+   "unknot": false,
+   "seconds": 212.6
+  },
+  {
+   "index": 3,
+   "seed": 1003,
+   "crossings": 26,
+   "results": 10,
+   "unknot": false,
+   "seconds": 276.8
+  },
+  {
+   "index": 4,
+   "seed": 1004,
+   "crossings": 24,
+   "results": 11,
+   "unknot": false,
+   "seconds": 186.2
+  },
+  {
+   "index": 5,
+   "seed": 1005,
+   "crossings": 24,
+   "results": 13,
+   "unknot": false,
+   "seconds": 201.8
+  }
+ ],
+ "unknot_found": false,
+ "certificates": [],
+ "total_seconds": 1384.3
+}

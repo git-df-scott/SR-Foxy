@@ -1,0 +1,108 @@
+# First ribbon search on the unmined r = 0 RBG pair K(0,0,0,-1,2,1)
+
+13 September 2026, evening session. **No counterexample found.** What this note
+records is the first ribbon search ever run on the one super-special r = 0
+Manolescu-Piccirillo pair that lies outside the Dunfield-Gong census, plus the
+structural fact that separates it from K_DG = 18nh00000601.
+
+## Why this pair
+
+`CANDIDATE_LEDGER.md`, Tier-A generators, lists the r = 0 super-special RBG
+pairs and records that `ERRATA_2026-09-11.md` corrected GHMR's three pairs to
+two. The correction is reconfirmed here directly from the stored knots: exactly
+three of the ten extracted Manolescu-Piccirillo knots per side have Alexander
+polynomial 1, and their simplified crossing numbers are
+
+| tuple (a,b,c,d,e,f) | K_B crossings | K_G crossings | in DG census? |
+|---|---:|---:|---|
+| (0,0,-2,0,0,1)  | 19 | 19 | yes, searched to 4 bands |
+| (0,0,0,1,2,-1)  | 19 | 19 | yes, same pair as the above |
+| **(0,0,0,-1,2,1)** | **27** | **26** | **no** |
+
+All four knots of the two pairs have Alexander polynomial 1, Seifert genus 2,
+and tau = nu = epsilon = 0. By Freedman they are topologically slice. Being
+r = 0 they have diffeomorphic 0-traces, so a ribbon disk for either member of
+a pair certifies its partner smoothly slice in standard B^4 **with no
+inherited ribbon disk**: a fresh Tier-A candidate, not a counterexample.
+
+The ledger recorded the (0,0,0,-1,2,1) pair as never searched. That is the
+gap this note closes at one band.
+
+## Toolchain calibration
+
+Sage-backed SnapPy (`passagemath-standard` 10.8.11, SnapPy 3.3.2,
+`snappy.sage_helper._within_sage` True) reproduces the repository's stored
+calibration exactly: the Dunfield-Gong band search rediscovers the ribbon disk
+of K_B, the 31-crossing 0-friend of K_DG, on the first diagram in **0.87 s**,
+and `verify_ribbon_to_unknot` returns True. The historical record in
+`PROGRESS.md` gives 0.9 s. Negatives reported below therefore come from a
+filter that is known to fire on a positive of this size.
+
+## The search and its outcome
+
+Box, identical on both sides: 6 diagrams (the canonical `simplify('global')`
+diagram plus five `backtrack(steps=25)` shaken diagrams under recorded seeds),
+`max_bands = 1`, `max_twists = 2`, `max_band_len = 6`, shortest paths,
+`filter_for_plausibly_slice = True`, `use_ribbon_link_cache = True`.
+
+| knot | diagrams | crossings seen | plausibly-slice 1-band survivors | unknot | seconds |
+|---|---:|---|---:|---|---:|
+| K_G(0,0,0,-1,2,1) | 6 | 24-28 | 12, 11, 15, 10, 11, 13 = **72** | none | 1384.3 |
+| K_B(0,0,0,-1,2,1) | 6 | 27-27 | 13, 17, 12, 6, 13, 11 = **72** | none | 1417.7 |
+
+Raw records, with PD hashes, seeds and per-diagram timings, are in
+`results/RBG_r0_KG_0_0_0_-1_2_1_bands1.json` and
+`results/RBG_r0_KB_0_0_0_-1_2_1_bands1.json`.
+
+**This is a coverage statement, not an obstruction.** It says only that no
+single band of length at most 6 with at most 2 twists, on these six diagrams,
+takes either knot to the unknot. It says nothing about whether either knot is
+ribbon, or slice.
+
+## The structural contrast worth keeping
+
+The interesting number is 72, not 0.
+
+`PROGRESS.md` records that for K_DG = 18nh00000601 the same class of search,
+in a comparable box, left **2 survivors, both K_DG with a split unknot, i.e.
+trivial bands**. The reading there was explicit: "no plausibly-slice one-band
+move exists in this box, so no two-band search can start."
+
+Here both members of the pair retain 72 nontrivial plausibly-slice one-band
+intermediates across six diagrams, 6 to 17 per diagram. The Dunfield-Gong
+filter (an intermediate link in a ribbon movie must itself be a ribbon link,
+so it must pass linking number, signature and Fox-Milnor) does not collapse
+this pair the way it collapses K_DG. So unlike the K_DG lane, a two-band
+search on this pair has real input and is worth its cost. Two-band searches
+are running on both sides at the time of writing.
+
+This contrast is a statement about the search tree, not about ribbonness. A
+large first-stage frontier is equally consistent with the knots being ribbon
+and with their not being slice at all. Do not read 72 as evidence for either.
+
+## Scope and cautions
+
+* Survivor counts are diagrams retained by the filter, not isotopy classes,
+  and not distinct links.
+* `simplify('global')` is randomized: the canonical K_G diagram came back at
+  26 crossings in one run and 28 in another. Crossing numbers in the table are
+  per-run, and the seeds are recorded so each row replays.
+* Neither knot of this pair is known to be slice. A negative band search is
+  the expected outcome for a non-slice knot and carries no information
+  distinguishing the two cases.
+* `scripts/rbg_r0_search.py` initially called `Link.backtrack(num_steps=...)`,
+  which this spherogram build does not accept, so the first launch produced
+  only its unshaken diagram before raising. The signature here is
+  `backtrack(steps=10, prob_type_1=0.3, prob_type_2=0.3)`. The failure is
+  recorded rather than quietly dropped; the canonical-diagram result it did
+  produce (26 crossings, 16 survivors, no unknot, 269.4 s) is consistent with
+  the completed run above and is superseded by it.
+
+## Next
+
+1. Finish the two-band searches on both sides and record their boxes.
+2. If both are negative, widen band length before widening twists: the
+   surviving first bands, not the twist parameter, are where the frontier is.
+3. The census-scale item in the ledger, filtering Dunfield-Gong's 0-friend
+   pairs for r = 0 realizations, remains unexecuted and needs their dataset,
+   which is not in this repository.

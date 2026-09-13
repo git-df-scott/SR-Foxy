@@ -1,0 +1,68 @@
+{
+ "knot": "MP_KB(0,0,0,-1,2,1)",
+ "pd_sha256_16": "be747c98e1884903",
+ "date": "2026-09-13T21:48:46.040979+00:00",
+ "within_sage": true,
+ "box": {
+  "n_diagrams": 6,
+  "max_bands": 1,
+  "max_twists": 2,
+  "max_band_len": 6,
+  "paths": "shortest",
+  "seconds_per_diagram": 0.0,
+  "filter_for_plausibly_slice": true
+ },
+ "diagrams": [
+  {
+   "index": 0,
+   "seed": null,
+   "crossings": 27,
+   "results": 13,
+   "unknot": false,
+   "seconds": 224.2
+  },
+  {
+   "index": 1,
+   "seed": 1001,
+   "crossings": 27,
+   "results": 17,
+   "unknot": false,
+   "seconds": 222.3
+  },
+  {
+   "index": 2,
+   "seed": 1002,
+   "crossings": 27,
+   "results": 12,
+   "unknot": false,
+   "seconds": 252.1
+  },
+  {
+   "index": 3,
+   "seed": 1003,
+   "crossings": 27,
+   "results": 6,
+   "unknot": false,
+   "seconds": 218.9
+  },
+  {
+   "index": 4,
+   "seed": 1004,
+   "crossings": 27,
+   "results": 13,
+   "unknot": false,
+   "seconds": 264.1
+  },
+  {
+   "index": 5,
+   "seed": 1005,
+   "crossings": 27,
+   "results": 11,
+   "unknot": false,
+   "seconds": 234.8
+  }
+ ],
+ "unknot_found": false,
+ "certificates": [],
+ "total_seconds": 1417.7
+}
