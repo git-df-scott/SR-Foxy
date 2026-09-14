@@ -1,0 +1,1067 @@
+{
+ "status": "ALEXANDER_MODULE_RANK_SCREEN_OF_STORED_FIRST_STAGE_LINKS",
+ "date": "2026-09-14T01:03:37.985662+00:00",
+ "source": "results/two_fission_nonfibered_25533.json",
+ "source_sha256_16": "fd22350b5b219aab",
+ "invariant": "snappy Manifold.alexander_polynomial() on the link exterior. This is the ORDER of the Alexander module of the exterior, not the classical multivariable link polynomial Delta_L: on the Whitehead link it returns a^2b^3-ab^2-ab+1, whose b=1 specialisation is (a-1)^2, so it does not obey the Torres condition that Delta_L must. It vanishes exactly when the module has positive rank, which is precisely the condition research/19 needs.",
+ "calibration": {
+  "split_3_1_U_4_1": "0",
+  "hopf_L2a1": "1",
+  "whitehead_L5a1": "a^2*b^3 - a*b^2 - a*b + 1"
+ },
+ "research_17_retained_first_bands": [
+  "6267660c_0_0",
+  "2b2a271f_1_0"
+ ],
+ "rows": [
+  {
+   "first_band": "1918_0_-1",
+   "components": 1,
+   "crossings": 6,
+   "linking_matrix": [
+    [
+     0
+    ]
+   ],
+   "alexander_order": "a^4 - 3*a^3 + 5*a^2 - 3*a + 1",
+   "positive_rank": false
+  },
+  {
+   "first_band": "1f18_0_-2",
+   "components": 2,
+   "crossings": 29,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "1b1c_0_-2",
+   "components": 2,
+   "crossings": 29,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "4a21_0_-1",
+   "components": 2,
+   "crossings": 28,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "-2*b^5 + 2*a*b^3 + 7*b^4 - 7*a*b^2 - 7*b^3 + 7*a*b + 2*b^2 - 2*a",
+   "positive_rank": false
+  },
+  {
+   "first_band": "4c2e05_1_0",
+   "components": 2,
+   "crossings": 24,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "2*a*b^5 - 7*a*b^4 + 7*a*b^3 - 2*a*b^2 - 2*b^3 + 7*b^2 - 7*b + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "05080b_0_0",
+   "components": 2,
+   "crossings": 25,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "271f0c_0_-2",
+   "components": 2,
+   "crossings": 28,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "2*a*b^3 - 7*a*b^2 - 2*b^3 + 7*a*b + 7*b^2 - 2*a - 7*b + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "150e0d_0_0",
+   "components": 2,
+   "crossings": 27,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "1d0411_1_1",
+   "components": 2,
+   "crossings": 26,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "a^3*b^2 + a^2*b^3 - 2*a^3*b - 5*a^2*b^2 - 2*a*b^3 + a^3 + 6*a^2*b + 6*a*b^2 + b^3 - 2*a^2 - 5*a*b - 2*b^2 + a + b",
+   "positive_rank": false
+  },
+  {
+   "first_band": "001716_1_0",
+   "components": 2,
+   "crossings": 25,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "335317_1_2",
+   "components": 2,
+   "crossings": 26,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "a^9 - a^8*b - 3*a^8 + a^7*b + 4*a^7 + 3*a^6*b + a^5*b^2 + a^4*b^3 - 3*a^6 - 4*a^5*b - 4*a^4*b^2 - 3*a^3*b^3 + a^5 + a^4*b + 3*a^3*b^2 + 4*a^2*b^3 + a^2*b^2 - 3*a*b^3 - a*b^2 + b^3",
+   "positive_rank": false
+  },
+  {
+   "first_band": "29051a_1_1",
+   "components": 2,
+   "crossings": 28,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "2*a*b^4 - 7*a*b^3 + 7*a*b^2 - 2*b^3 - 2*a*b + 7*b^2 - 7*b + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "20261a_0_-2",
+   "components": 2,
+   "crossings": 29,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "44661e_0_-2",
+   "components": 2,
+   "crossings": 29,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "24271f_1_2",
+   "components": 2,
+   "crossings": 28,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "2*a^4 - 2*a^3*b - 7*a^3 + 7*a^2*b + 7*a^2 - 7*a*b - 2*a + 2*b",
+   "positive_rank": false
+  },
+  {
+   "first_band": "49691f_1_2",
+   "components": 2,
+   "crossings": 27,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "2*a*b^3 - 2*b^4 - 7*a*b^2 + 7*b^3 + 7*a*b - 7*b^2 - 2*a + 2*b",
+   "positive_rank": false
+  },
+  {
+   "first_band": "222120_1_2",
+   "components": 2,
+   "crossings": 27,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "-2*b^5 + 2*a*b^3 + 7*b^4 - 7*a*b^2 - 7*b^3 + 7*a*b + 2*b^2 - 2*a",
+   "positive_rank": false
+  },
+  {
+   "first_band": "284a21_1_2",
+   "components": 2,
+   "crossings": 27,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "2*a*b^3 - 2*b^4 - 7*a*b^2 + 7*b^3 + 7*a*b - 7*b^2 - 2*a + 2*b",
+   "positive_rank": false
+  },
+  {
+   "first_band": "2b6a22_0_-2",
+   "components": 2,
+   "crossings": 31,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "2*a*b^3 - 7*a*b^2 - 2*b^3 + 7*a*b + 7*b^2 - 2*a - 7*b + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "212023_0_2",
+   "components": 2,
+   "crossings": 27,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "2*a^3*b - 2*a^3 - 7*a^2*b + 7*a^2 + 7*a*b - 7*a - 2*b + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "192026_1_-2",
+   "components": 2,
+   "crossings": 29,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "482a27_1_2",
+   "components": 2,
+   "crossings": 31,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "282b2a_1_2",
+   "components": 2,
+   "crossings": 29,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "2*a^3*b - 2*a^3 - 7*a^2*b + 7*a^2 + 7*a*b - 7*a - 2*b + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "4c2b2a_1_-2",
+   "components": 2,
+   "crossings": 28,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "2*a*b^3 - 7*a*b^2 - 2*b^3 + 7*a*b + 7*b^2 - 2*a - 7*b + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "23482a_0_2",
+   "components": 2,
+   "crossings": 31,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "29282b_0_2",
+   "components": 2,
+   "crossings": 29,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "2*a*b^3 - 7*a*b^2 - 2*b^3 + 7*a*b + 7*b^2 - 2*a - 7*b + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "36393c_1_0",
+   "components": 2,
+   "crossings": 27,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "4a4948_1_-2",
+   "components": 2,
+   "crossings": 31,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "2*a^4*b - 7*a^3*b - 2*a^3 + 7*a^2*b + 7*a^2 - 2*a*b - 7*a + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "4b4a49_0_-2",
+   "components": 2,
+   "crossings": 31,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "2*a^3*b - 2*a^3 - 7*a^2*b + 7*a^2 + 7*a*b - 7*a - 2*b + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "246b4b_0_2",
+   "components": 2,
+   "crossings": 28,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "-2*b^5 + 2*a*b^3 + 7*b^4 - 7*a*b^2 - 7*b^3 + 7*a*b + 2*b^2 - 2*a",
+   "positive_rank": false
+  },
+  {
+   "first_band": "355554_1_1",
+   "components": 2,
+   "crossings": 26,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "a^9*b^3 - 3*a^8*b^3 - a^8*b^2 + 4*a^7*b^3 + a^7*b^2 - 3*a^6*b^3 + 3*a^6*b^2 + a^5*b^3 - 4*a^5*b^2 + a^5*b + a^4*b^2 - 4*a^4*b + a^4 + 3*a^3*b - 3*a^3 + a^2*b + 4*a^2 - a*b - 3*a + 1",
+   "positive_rank": false
+  },
+  {
+   "first_band": "1d4466_1_-2",
+   "components": 2,
+   "crossings": 29,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "282b6a_1_2",
+   "components": 2,
+   "crossings": 31,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "2*a^6*b - 7*a^5*b + 7*a^4*b - 2*a^3*b - 2*a^3 + 7*a^2 - 7*a + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "2e246b_1_2",
+   "components": 2,
+   "crossings": 28,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "2*a^3*b - 2*a^3 - 7*a^2*b + 7*a^2 + 7*a*b - 7*a - 2*b + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "69686b_0_2",
+   "components": 2,
+   "crossings": 31,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "190c0100_3_1",
+   "components": 2,
+   "crossings": 28,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "a^7*b^5 - a^6*b^6 - 2*a^7*b^4 + a^6*b^5 + 2*a^5*b^6 - a^4*b^7 + 3*a^7*b^3 - 2*a^6*b^4 - 3*a^5*b^5 + a^4*b^6 + a^3*b^7 - 3*a^7*b^2 - a^6*b^3 + 10*a^5*b^4 - 5*a^4*b^5 - 4*a^3*b^6 + a^2*b^7 + 6*a^6*b^2 - 5*a^5*b^3 - 4*a^4*b^4 + 11*a^3*b^5 + 3*a^2*b^6 - 2*a*b^7 + a^7 - a^6*b - 8*a^5*b^2 + a^4*b^3 + a^3*b^4 - 8*a^2*b^5 - a*b^6 + b^7 - 2*a^6 + 3*a^5*b + 11*a^4*b^2 - 4*a^3*b^3 - 5*a^2*b^4 + 6*a*b^5 + a^5 - 4*a^4*b - 5*a^3*b^2 + 10*a^2*b^3 - a*b^4 - 3*b^5 + a^4 + a^3*b - 3*a^2*b^2 - 2*a*b^3 + 3*b^4 - a^3 + 2*a^2*b + a*b^2 - 2*b^3 - a*b + b^2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "482a2905_2_0",
+   "components": 2,
+   "crossings": 24,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "2*a^4*b - 7*a^3*b - 2*a^3 + 7*a^2*b + 7*a^2 - 2*a*b - 7*a + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "01513106_0_0",
+   "components": 2,
+   "crossings": 25,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "1563430a_3_0",
+   "components": 2,
+   "crossings": 29,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "2726080b_0_-2",
+   "components": 2,
+   "crossings": 27,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "2*a^3*b - 2*a^3 - 7*a^2*b + 7*a^2 + 7*a*b - 7*a - 2*b + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "051c1f0c_0_0",
+   "components": 2,
+   "crossings": 25,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "6267660c_0_0",
+   "components": 1,
+   "crossings": 25,
+   "linking_matrix": [
+    [
+     0
+    ]
+   ],
+   "alexander_order": "a^4 - 3*a^3 + 5*a^2 - 3*a + 1",
+   "positive_rank": false
+  },
+  {
+   "first_band": "0841610d_0_0",
+   "components": 2,
+   "crossings": 25,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "5c62610d_0_0",
+   "components": 2,
+   "crossings": 25,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "4e00030e_0_-1",
+   "components": 2,
+   "crossings": 28,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "2*a^3*b - 2*a^3 - 7*a^2*b + 7*a^2 + 7*a*b - 7*a - 2*b + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "5053030e_2_2",
+   "components": 2,
+   "crossings": 29,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "a^3*b^2 - 2*a^2*b^3 + a*b^4 - 2*a^3*b + 6*a^2*b^2 - 5*a*b^3 + b^4 + a^3 - 5*a^2*b + 6*a*b^2 - 2*b^3 + a^2 - 2*a*b + b^2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "0b3f5f0e_3_0",
+   "components": 2,
+   "crossings": 26,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "4c4f3112_3_0",
+   "components": 2,
+   "crossings": 24,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "2*a^4 - 7*a^3*b + 7*a^2*b^2 - 2*a*b^3 - 2*a^3 + 7*a^2*b - 7*a*b^2 + 2*b^3",
+   "positive_rank": false
+  },
+  {
+   "first_band": "00573713_3_0",
+   "components": 2,
+   "crossings": 25,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "355b5a15_3_1",
+   "components": 2,
+   "crossings": 26,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "a^9 - a^8*b - 3*a^8 + a^7*b + 4*a^7 + 3*a^6*b + a^5*b^2 + a^4*b^3 - 3*a^6 - 4*a^5*b - 4*a^4*b^2 - 3*a^3*b^3 + a^5 + a^4*b + 3*a^3*b^2 + 4*a^2*b^3 + a^2*b^2 - 3*a*b^3 - a*b^2 + b^3",
+   "positive_rank": false
+  },
+  {
+   "first_band": "11355516_0_0",
+   "components": 2,
+   "crossings": 25,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "50565516_2_0",
+   "components": 2,
+   "crossings": 25,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "10335317_3_0",
+   "components": 2,
+   "crossings": 25,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "2b2a271f_0_-2",
+   "components": 2,
+   "crossings": 31,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "2*a*b^4 - 7*a*b^3 + 7*a*b^2 - 2*b^3 - 2*a*b + 7*b^2 - 7*b + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "2b2a271f_1_0",
+   "components": 1,
+   "crossings": 27,
+   "linking_matrix": [
+    [
+     0
+    ]
+   ],
+   "alexander_order": "a^4 - 3*a^3 + 5*a^2 - 3*a + 1",
+   "positive_rank": false
+  },
+  {
+   "first_band": "53030221_1_-1",
+   "components": 2,
+   "crossings": 28,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "2*a*b^5 - 7*a*b^4 + 7*a*b^3 - 2*a*b^2 - 2*b^3 + 7*b^2 - 7*b + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "25284a21_0_0",
+   "components": 2,
+   "crossings": 25,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "25284a21_2_-2",
+   "components": 2,
+   "crossings": 32,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "2*a^3*b^6 - 7*a^3*b^5 + 7*a^3*b^4 - 6*a^2*b^5 - 2*a^3*b^3 + 21*a^2*b^4 - 21*a^2*b^3 + 6*a*b^4 + 6*a^2*b^2 - 21*a*b^3 + 21*a*b^2 - 2*b^3 - 6*a*b + 7*b^2 - 7*b + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "25284a21_3_0",
+   "components": 1,
+   "crossings": 6,
+   "linking_matrix": [
+    [
+     0
+    ]
+   ],
+   "alexander_order": "a^4 - 3*a^3 + 5*a^2 - 3*a + 1",
+   "positive_rank": false
+  },
+  {
+   "first_band": "2c4e4d21_2_2",
+   "components": 2,
+   "crossings": 27,
+   "linking_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "alexander_order": "2*a^3*b - 2*a^3 - 7*a^2*b + 7*a^2 + 7*a*b - 7*a - 2*b + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "246b6a22_0_0",
+   "components": 1,
+   "crossings": 6,
+   "linking_matrix": [
+    [
+     0
+    ]
+   ],
+   "alexander_order": "a^4 - 3*a^3 + 5*a^2 - 3*a + 1",
+   "positive_rank": false
+  }
+ ],
+ "summary": {
+  "examined": 61,
+  "positive_rank": 24,
+  "rank_zero": 37,
+  "positive_rank_bands": [
+   "1f18_0_-2",
+   "1b1c_0_-2",
+   "05080b_0_0",
+   "150e0d_0_0",
+   "001716_1_0",
+   "20261a_0_-2",
+   "44661e_0_-2",
+   "192026_1_-2",
+   "482a27_1_2",
+   "23482a_0_2",
+   "36393c_1_0",
+   "1d4466_1_-2",
+   "69686b_0_2",
+   "01513106_0_0",
+   "1563430a_3_0",
+   "051c1f0c_0_0",
+   "0841610d_0_0",
+   "5c62610d_0_0",
+   "0b3f5f0e_3_0",
+   "00573713_3_0",
+   "11355516_0_0",
+   "50565516_2_0",
+   "10335317_3_0",
+   "25284a21_0_0"
+  ],
+  "intersection_with_research_17_survivors": [],
+  "research_17_survivor_orders": {
+   "6267660c_0_0": "a^4 - 3*a^3 + 5*a^2 - 3*a + 1",
+   "2b2a271f_1_0": "a^4 - 3*a^3 + 5*a^2 - 3*a + 1"
+  }
+ },
+ "meaning": "Two necessary conditions for the same restricted movie class have EMPTY intersection on these 61 stored first-stage links. Either target 25533 has no surviving first band in that class, or one of the two arguments is wrong. This is not a counterexample and not a concordance. It covers only the 61 links retained by that bounded search, not all first bands."
+}

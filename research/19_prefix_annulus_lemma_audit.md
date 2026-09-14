@@ -107,6 +107,22 @@ The target value is right once the invariance is granted: for the two-component
 unlink the Alexander module is free of rank `μ - 1 = 1`, and a split pair has
 the same rank, so rank one is the correct necessary value and rank zero excludes.
 
+## 5a. Terminology correction
+
+An earlier draft of this note, and the first commit of
+`scripts/alexander_rank_screen.py`, described the computed quantity as "the
+multivariable Alexander polynomial `Δ_L(t_1,t_2)`". That is not what
+`snappy`'s `Manifold.alexander_polynomial()` returns on a link exterior. It
+returns the **order of the Alexander module of the exterior**. The two differ:
+on the Whitehead link `snappy` gives `a^2 b^3 - a b^2 - a b + 1`, whose `b = 1`
+specialisation is `(a-1)^2`, while the classical `Δ_L` of a linking-number-zero
+link must satisfy the Torres condition `Δ_L(t,1) = 0`.
+
+The conclusions are unaffected, because the order vanishes exactly when the
+module has positive rank, and positive rank is the condition the lemma needs.
+The naming is corrected because the distinction matters to anyone re-deriving
+these numbers.
+
 ## 6. The consequence that is more useful than the exclusion
 
 For a two-component link the module rank is at most one, and positive rank is
@@ -138,6 +154,50 @@ lemma says is required.
 * It assumes the slice at level `t` has exactly **two** components.
 * It excludes specified prefixes. It is not an obstruction to `K_0` and `K_1`
   being concordant, and no statement in this note bears on that question.
+
+## 8. Applying the screen where it has teeth: target 25533
+
+The 1,092 normalized component matches all have rank zero, confirmed
+independently in `results/alexander_rank_screen_1092.json`. That is the
+expected outcome: those links were selected to be nonsplit, and nonsplit links
+generically have rank zero. The screen has no teeth there.
+
+It has teeth on the 61 stored first-stage links of target J25533 in
+`results/two_fission_nonfibered_25533.json`, which were selected by a different
+criterion (linking and Alexander rank), not by component identity.
+
+| screen | first-stage links retained, of 61 |
+|---|---:|
+| positive Alexander module rank (this note's condition) | **24** |
+| component determinant / tau / graded HFK / graded F2 Kh (research/17) | **2** |
+| **both** | **0** |
+
+Record: `results/alexander_rank_screen_25533.json`. All 24 are two-component
+with vanishing linking matrix. The two links research/17 retained,
+`6267660c_0_0` and `2b2a271f_1_0`, both have Alexander order
+`a^4 - 3a^3 + 5a^2 - 3a + 1`, which is `Δ(6_3)`, hence rank zero, hence fail.
+
+Both conditions are necessary for the **same** restricted movie class: only
+oriented fissions, isotopies and deaths of split unknots. The lemma applies
+here with the pair of pants adjacent to the upper knot rather than the lower
+one, which is the same statement after turning the concordance upside down.
+
+So the intersection being empty says one of two things, and the honest
+statement is that we do not yet know which:
+
+1. **target 25533 has no surviving first band in that movie class**, which
+   strengthens research/17's "only two survive" to "none survive"; or
+2. **one of the two arguments is wrong.** The candidate weak point is section 5
+   above, the uncited concordance invariance of the generic rank. If that fails,
+   the 24/0 column is meaningless and the research/17 survivors stand.
+
+This is not a counterexample, not a concordance, and not a sliceness or
+non-ribbonness claim. It also covers only the 61 links retained by that bounded
+search, not every first band of 25533.
+
+**This is the strongest reason yet to get the citation in section 5 settled.**
+Before it arrived the lemma only confirmed exclusions that were already in
+hand; now it contradicts the two survivors of an independent filter.
 
 ## Verdict
 

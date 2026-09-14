@@ -5,10 +5,17 @@ research/19: a two-component link L occurring as the top of a CONNECTED movie
 prefix of a concordance must be link-concordant to a split knot/unknot pair,
 hence (granting the concordance invariance of the generic Alexander rank, which
 research/19 flags as needing a primary source) must have generic Alexander
-module rank one, equivalently vanishing multivariable Alexander polynomial.
+module rank one, equivalently vanishing ORDER of the Alexander module.
 
-This computes Delta_L(t_1,t_2) directly from each stored link diagram, via the
-link exterior, independently of any triangulation-group calculation.
+This computes that order directly from each stored link diagram, via the link
+exterior, independently of any triangulation-group calculation.
+
+Note: snappy's Manifold.alexander_polynomial() on a link exterior returns the
+ORDER of the Alexander module, not the classical multivariable link polynomial
+Delta_L. On the Whitehead link it gives a^2b^3-ab^2-ab+1, whose b=1
+specialisation is (a-1)^2, so it does not obey the Torres condition Delta_L
+must satisfy. The order vanishes exactly when the module has positive rank,
+which is the condition wanted here.
 
 Calibration, checked at startup: split unions have Delta = 0, and the Hopf and
 Whitehead links have Delta != 0. Without both directions firing the screen is
