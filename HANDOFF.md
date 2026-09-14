@@ -1,3 +1,27 @@
+# Current handoff — late 13 September MDT / 14 September UTC
+
+**STOPPED: no overnight Codex session. No counterexample found.** Read
+`research/20_next_construction_plan.md`. Scott requested planning and an audit,
+leaving Opus undisturbed; no Claude message or job change was made.
+
+New endpoint component screening: **96 D01 paths -> 95 unresolved**;
+**71 Opus K_G paths -> 70 unresolved**. The excluded paths are zero-based
+D01 index 49 (Fox–Milnor) and K_G index 2 (computed tau -1). Full Alexander
+polynomials were checked independently. **D01 index 73 has inconsistent HFK
+output and remains UNKNOWN.** See `results/september14_frontier_components.json`
+and `results/september14_frontier_validation.json`.
+
+The claimed missing rank-invariance citation already exists. Opus's Whitehead
+Torres mismatch was a meridian-basis mismatch, verified exactly. His new
+start record does not preserve unfinished searches or the partner certificate
+before the long call. Do not interrupt his ongoing jobs to fix that.
+
+Tomorrow's priority: audit any completed Opus certificate, then resolve the
+oriented whole-link mirror(6_1) stabilization and search its disk completions.
+Neither this plan nor time passing authorizes an automatic restart.
+
+---
+
 # Current handoff — 13 September 2026, evening
 
 **No counterexample found.** Read `research/19_link_concordance_completion_gate.md`, `results/evening_session_validation.json`, and `results/teichner_frontier_validation.json`. Work remains on main. Research note number 18 is reserved by Claude PR #3; no branch was created, removed or merged here.

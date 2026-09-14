@@ -1,0 +1,27 @@
+{
+  "status": "CHECKPOINTED",
+  "counterexample_found": false,
+  "opus_commit": "345f73ef5aebd1e9c833f177217f2c1b72f08120",
+  "sha256": {
+    "HANDOFF.md": "43a1121e1f27e60079b0b58e2cf2e1b02d95268392c8fe5d9ab0d4777e38c111",
+    "research/20_next_construction_plan.md": "18fa13ff81c415b48efd3eb05f741748eb2026ac21c49de3e036e24514205fa2",
+    "scripts/audit_september14_frontiers.py": "8b8a32d3da12c07f3b4decf9d3f00d0d7f9ab629fbbeae82b0fb7c3020f058c8",
+    "scripts/check_september14_frontier_obstructions.py": "dfe7f277965a6e07e1924f364d05ef84d07ef007c402d64e9d5ef89e7477e684",
+    "results/september14_frontier_components.json": "082394c96d3718ea40b141c7974cba31f4d28c8976411455a66a6f03f0d298b9",
+    "results/september14_frontier_validation.json": "933d413f11350ddb5f71c9cba3ef3bb57fc405c750bf8d2f223f982edbc5d522",
+    "results/september14_HFK_inconsistency.json": "1918c914cb0b6084213d50772772e41054454b00c6218a437b818ebc024b8861",
+    "results/opus_snapshots/KG_frontier_345f73e.json": "c8191e4c645a5725d1e7e8bc48c9cb6bb70527081ddcf1dbe20c630577c0286a"
+  },
+  "checks": [
+    "two component exclusions: full Seifert polynomial identities",
+    "K_G excluded component mirror HFK consistency",
+    "Whitehead peripheral basis transformation",
+    "one HFK failure preserved as unknown",
+    "pinned Opus raw artifact hash matches input"
+  ],
+  "limits": [
+    "No independent replay of all Opus transitions",
+    "No independent tau implementation",
+    "No overnight local search"
+  ]
+}

@@ -48,7 +48,10 @@
     "scripts/check_component_session.py": "d1430e1a208b2d71f7ab3cb81eb536841a4a1af9401590cf50c8f9bf2deea85d",
     "research/17_fission_ancestry_and_linking.md": "e1946f7a75733edc7781d45014dbf16dc9c328113b490e9cb261997c08c593af",
     "README.md": "a16ffa42911370ecb77afb5da5dee74945415c55f5df0d0b442b338c37a41a68",
-    "HANDOFF.md": "ada593b351ad21a2877bd66b77b193339e0b2976638860cbe1072289fa10cc86"
+    "HANDOFF.md": "43a1121e1f27e60079b0b58e2cf2e1b02d95268392c8fe5d9ab0d4777e38c111"
   },
-  "documentation_hash_refresh": "2026-09-13 evening: README/HANDOFF refreshed for research/19 and Teichner frontier. Only documentation hashes refreshed; the earlier computations were not rerun."
+  "documentation_hash_refresh": "2026-09-14 UTC: HANDOFF documentation hash refreshed only; prior computational checks were not rerun.",
+  "prior_documentation_hash_refreshes": [
+    "2026-09-13 evening: README/HANDOFF refreshed for research/19 and Teichner frontier. Only documentation hashes refreshed; the earlier computations were not rerun."
+  ]
 }

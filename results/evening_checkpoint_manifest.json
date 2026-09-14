@@ -139,11 +139,12 @@
     "scripts/teichner_factor_gate.py": "42529c1f09cc5524d03cfe4183eaae243fac55f25f608030b43c6a45d8fca2da",
     "scripts/teichner_mixed_frontier.py": "ad3a53951a5396aae925b8539642a1eeca0723b0166364edc222b39443317556",
     "README.md": "a16ffa42911370ecb77afb5da5dee74945415c55f5df0d0b442b338c37a41a68",
-    "HANDOFF.md": "ada593b351ad21a2877bd66b77b193339e0b2976638860cbe1072289fa10cc86"
+    "HANDOFF.md": "43a1121e1f27e60079b0b58e2cf2e1b02d95268392c8fe5d9ab0d4777e38c111"
   },
   "limits": [
     "No exhaustive band or isotopy search.",
     "No independent formal implementation proof for HFK/Khovanov or ribbon-link cache.",
     "Claude message delivery not confirmed."
-  ]
+  ],
+  "documentation_hash_refresh": "2026-09-14 UTC: HANDOFF documentation hash refreshed only; prior computational checks were not rerun."
 }
