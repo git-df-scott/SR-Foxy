@@ -155,49 +155,61 @@ lemma says is required.
 * It excludes specified prefixes. It is not an obstruction to `K_0` and `K_1`
   being concordant, and no statement in this note bears on that question.
 
-## 8. Applying the screen where it has teeth: target 25533
+## 8. A retracted claim, and what the screen actually says
 
-The 1,092 normalized component matches all have rank zero, confirmed
-independently in `results/alexander_rank_screen_1092.json`. That is the
-expected outcome: those links were selected to be nonsplit, and nonsplit links
-generically have rank zero. The screen has no teeth there.
+**Retraction.** An earlier version of this section reported that the two
+first-stage links research/17 retained on target J25533, `6267660c_0_0` and
+`2b2a271f_1_0`, both FAIL the rank condition, that the two necessary conditions
+therefore had empty intersection, and that either 25533 was dead or one of the
+arguments was wrong. **That was wrong, and the cause was a defect in my own
+screen, not anything in either argument.**
 
-It has teeth on the 61 stored first-stage links of target J25533 in
-`results/two_fission_nonfibered_25533.json`, which were selected by a different
-criterion (linking and Alexander rank), not by component identity.
+The screen called `Link.simplify('global')` before building the exterior.
+That method **deletes split unknot components**. A trefoil with a split unknot,
+which has order 0 and passes, becomes the bare trefoil, which has order
+`a^2 - a + 1` and fails. The defect inverted the verdict on precisely the links
+the screen is meant to accept, since a split knot-plus-unknot pair is the
+intended pass.
 
-| screen | first-stage links retained, of 61 |
+The original calibration could not catch this. `3_1 ⊔ 4_1` has no unknotted
+component, so simplification had nothing to delete and the control passed while
+the screen was broken. The calibration set now includes a knot with a **split
+unknot** component, which is the case that fails loudly.
+
+**Corrected result**, with no simplification, in
+`results/alexander_rank_screen_25533.json`:
+
+| | of 61 stored first-stage links |
 |---|---:|
-| positive Alexander module rank (this note's condition) | **24** |
-| component determinant / tau / graded HFK / graded F2 Kh (research/17) | **2** |
-| **both** | **0** |
+| positive Alexander module rank | **29** |
+| known-good control `1918_0_-1` passes | **yes** |
+| research/17 survivors `6267660c_0_0`, `2b2a271f_1_0` pass | **both** |
+| intersection of the two necessary conditions | **both survivors** |
 
-Record: `results/alexander_rank_screen_25533.json`. All 24 are two-component
-with vanishing linking matrix. The two links research/17 retained,
-`6267660c_0_0` and `2b2a271f_1_0`, both have Alexander order
-`a^4 - 3a^3 + 5a^2 - 3a + 1`, which is `Δ(6_3)`, hence rank zero, hence fail.
+The control is the decisive check and it is what exposed the defect. The band
+`1918_0_-1` is the first band of the stored two-fission movie that recovers
+K0 from J25533; its endpoint is verified here to be a six-crossing knot whose
+exterior is isometric to the `6_3` exterior, with HFK rank 13, fibered, genus 2,
+tau 0. That movie exists, so its first-stage link **must** satisfy every
+necessary condition. It does: two components, order 0, positive rank. A screen
+that failed the control was refuted by the control.
 
-Both conditions are necessary for the **same** restricted movie class: only
-oriented fissions, isotopies and deaths of split unknots. The lemma applies
-here with the pair of pants adjacent to the upper knot rather than the lower
-one, which is the same statement after turning the concordance upside down.
+**So there is no tension.** Both research/17 survivors satisfy the rank
+condition, nothing on 25533 is eliminated that research/17 had kept, and the
+lemma of this note removes 32 of the 61 first-stage links, which research/17's
+component tests had already removed. On this target the screen is consistent
+with, and weaker than, the component filter.
 
-So the intersection being empty says one of two things, and the honest
-statement is that we do not yet know which:
+The lesson is the calibration, not the target: a screen whose intended pass is
+"split knot plus unknot" must be calibrated on a link with a split unknot
+component, and must include a positive control drawn from a movie known to
+exist. Both are now enforced in `scripts/alexander_rank_screen.py`, which
+refuses to report if either fails.
 
-1. **target 25533 has no surviving first band in that movie class**, which
-   strengthens research/17's "only two survive" to "none survive"; or
-2. **one of the two arguments is wrong.** The candidate weak point is section 5
-   above, the uncited concordance invariance of the generic rank. If that fails,
-   the 24/0 column is meaningless and the research/17 survivors stand.
-
-This is not a counterexample, not a concordance, and not a sliceness or
-non-ribbonness claim. It also covers only the 61 links retained by that bounded
-search, not every first band of 25533.
-
-**This is the strongest reason yet to get the citation in section 5 settled.**
-Before it arrived the lemma only confirmed exclusions that were already in
-hand; now it contradicts the two survivors of an independent filter.
+The 1,092 normalized matches are unaffected. Re-run with the corrected screen:
+**1,092 examined, 0 with positive rank, 0 errors.** Those links were certified
+nonsplit, so they carry no split unknot component for `simplify` to delete, and
+the independent confirmation of Astra's rank-zero result stands as reported.
 
 ## Verdict
 
