@@ -83,10 +83,26 @@
    "certified_slice": false,
    "outcome": "timed_out_or_crashed_UNKNOWN",
    "cap_seconds": 30
+  },
+  {
+   "partner": "9_41",
+   "diagram": 0,
+   "completed": false,
+   "certified_slice": false,
+   "outcome": "timed_out_or_crashed_UNKNOWN",
+   "cap_seconds": 30
+  },
+  {
+   "partner": "mirror(9_41)",
+   "diagram": 0,
+   "completed": false,
+   "certified_slice": false,
+   "outcome": "timed_out_or_crashed_UNKNOWN",
+   "cap_seconds": 30
   }
  ],
  "certified_slice": false,
  "stop": null,
  "scope": "Bounded search. A timed-out case is UNKNOWN, never a negative. No hit is a non-existence proof, and a hit needs the oriented whole-link checks of research/20 before it is called a counterexample.",
- "elapsed_seconds": 240.2
+ "elapsed_seconds": 300.3
 }
