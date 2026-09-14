@@ -1,0 +1,82 @@
+{
+ "controls": {
+  "-L(2,1)": {
+   "agrees": true,
+   "computed": [
+    "1/4",
+    "-1/4"
+   ],
+   "expected": [
+    "1/4",
+    "-1/4"
+   ]
+  },
+  "-L(3,1)": {
+   "agrees": true,
+   "computed": [
+    "1/2",
+    "-1/6",
+    "-1/6"
+   ],
+   "expected": [
+    "1/2",
+    "-1/6",
+    "-1/6"
+   ]
+  },
+  "-L(5,1)": {
+   "agrees": true,
+   "computed": [
+    "1",
+    "1/5",
+    "-1/5",
+    "-1/5",
+    "1/5"
+   ],
+   "expected": [
+    "1",
+    "1/5",
+    "-1/5",
+    "-1/5",
+    "1/5"
+   ]
+  }
+ },
+ "obstruction": "If D01 = K_0 # (-K_1) is smoothly slice then Sigma_2(D01) = L(13,5) # -Sigma_2(K_1) bounds a rational homology ball, so the d-invariants vanish on a coset of a metabolizer M of the linking form on H_1 = Z/13 + Z/13.  The linking form is nondegenerate on each factor, so M is a graph of an isomorphism Z/13 -> Z/13 and projects onto both factors.  Additivity of d under connected sum then forces the 13 d-invariants of Sigma_2(K_1) to equal, as a multiset, those of L(13,5).",
+ "targets": {
+  "Sigma_2(K_0) = Sigma_2(6_3) = L(13,5)": {
+   "d_of_minus_L": [
+    "6/13",
+    "8/13",
+    "0",
+    "8/13",
+    "6/13",
+    "-6/13",
+    "-2/13",
+    "-8/13",
+    "2/13",
+    "2/13",
+    "-8/13",
+    "-2/13",
+    "-6/13"
+   ],
+   "multiset_sorted": [
+    "-2/13",
+    "-2/13",
+    "-6/13",
+    "-6/13",
+    "-8/13",
+    "-8/13",
+    "0",
+    "2/13",
+    "2/13",
+    "6/13",
+    "6/13",
+    "8/13",
+    "8/13"
+   ],
+   "note": "The multiset is symmetric under negation, as it must be: 6_3 is negative amphichiral and L(13,5) = -L(13,5) because 5 * 8 = 1 mod 13.  So the obstruction below does not depend on an orientation convention for Sigma_2(K_0).",
+   "orientation_independent": true
+  }
+ }
+}
