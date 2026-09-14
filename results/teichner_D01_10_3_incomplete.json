@@ -1,0 +1,48 @@
+{
+ "status": "TEICHNER_SEARCH_INCOMPLETE_BUDGET_EXCEEDED",
+ "date": "2026-09-14T15:32:41.272202+00:00",
+ "knot": "D_{0,1} = K_0 # (-K_1)",
+ "J": "10_3",
+ "sum_crossings": 35,
+ "box": {
+  "max_bands": 2,
+  "max_band_len": 5
+ },
+ "budget_seconds": 43200,
+ "outcome": "killed by timeout at 12 h with the search still running",
+ "runs_completed": 0,
+ "heartbeat": {
+  "knot": "D_{0,1} = K_0 # (-K_1)",
+  "J": "10_3",
+  "sum_crossings": 35,
+  "started": "2026-09-14T03:27:24.138380+00:00",
+  "partner_ribbon_verified": true
+ },
+ "partner_ribbon_verified": true,
+ "meaning": "No conclusion of any kind about D_{0,1} # 10_3. The search did not finish, so this is not even coverage of the box. It is a record that the attempt was made and how far the budget went.",
+ "why_this_record_exists": "Two earlier partners were killed at 5 h and left NOTHING, because a row is appended only when a partner search returns. The heartbeat added to teichner_certify.py writes the knot, partner, sum crossing number and start time before the long call. This file is that heartbeat surviving its kill, which is the behaviour the patch was for.",
+ "measured_cost_of_the_same_box": [
+  {
+   "J": "6_1",
+   "sum_crossings": 31,
+   "seconds": 15151.0,
+   "hours": 4.21,
+   "finished": true
+  },
+  {
+   "J": "8_8",
+   "sum_crossings": 33,
+   "seconds": 28638.7,
+   "hours": 7.96,
+   "finished": true
+  },
+  {
+   "J": "10_3",
+   "sum_crossings": 35,
+   "seconds": ">43200",
+   "hours": ">12",
+   "finished": false
+  }
+ ],
+ "budget_guidance": "Cost is grossly superlinear in the crossing number of the sum: 4.2 h at 31, 7.96 h at 33, more than 12 h at 35. Roughly a doubling per two crossings. Budget at least 24 h for a 35-crossing sum in this box, and do not extrapolate linearly."
+}
