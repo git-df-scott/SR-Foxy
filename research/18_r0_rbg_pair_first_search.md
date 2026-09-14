@@ -93,6 +93,7 @@ and with their not being slice at all. Do not read 72 as evidence for either.
 | K_G(0,0,0,-1,2,1) | 3 (seed 1003), `max_band_len = 5` | 26 | **42** | none | 3765.0 |
 | K_G(0,0,0,-1,2,1) | 4 (seed 1004), `max_band_len = 5` | 24 | **44** | none | 2723.2 |
 | K_G(0,0,0,-1,2,1) | 5 (seed 1005), `max_band_len = 5` | 24 | **43** | none | 3329.0 |
+| K_B(0,0,0,-1,2,1) | 0-5, `max_band_len = 5` | 27 | 83, 71, 49, 29, 66, 35 = **333** | none | 38345.0 |
 
 Records: `results/RBG_r0_KB_0_0_0_-1_2_1_bands2.json` and
 `results/RBG_r0_KG_0_0_0_-1_2_1_bands2_len5.json`. Same box as the one-band
@@ -114,7 +115,20 @@ two rows band for band, 71 and 32 survivors against 71 and 32, at 4169.5 s and
 2167.2 s. The `simplify('global')` randomness moves the crossing number around
 (the canonical diagram came back at 26 rather than 24) without moving the
 survivor count, which is a useful stability check on the search rather than on
-the knots. That run then **completed**: six diagrams, 71 + 32 + 72 + 42 + 44 + 43 =
+the knots. **Both sides are now complete in the length-5 two-band box, with no ribbon
+disk on either.** K_B: six diagrams, 83 + 71 + 49 + 29 + 66 + 35 = **333
+survivors**, 38345.0 s, record
+`results/RBG_r0_KB_0_0_0_-1_2_1_bands2_len5.json`, every frontier stored.
+K_G: **304 survivors**, detailed next.
+
+Per-diagram cost inside one box and one crossing number spans more than an
+order of magnitude. On K_B, all six diagrams have 27 crossings, and they took
+1685.9 s to 21582.1 s: a factor of 12.8 between the fastest and the slowest,
+with the slowest being neither the largest nor the richest in survivors. Time
+per diagram is not predictable from the diagram, so these runs need generous
+budgets and per-diagram writes rather than a single end-of-run dump.
+
+That run then **completed**: six diagrams, 71 + 32 + 72 + 42 + 44 + 43 =
 **304 plausibly-slice two-band survivors, no unknot**, 20190.0 s total, every
 one carrying a stored frontier certificate. This is a finished coverage
 statement for K_G in the length-5 two-band box, not a truncated one.
