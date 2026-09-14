@@ -80,6 +80,29 @@ This contrast is a statement about the search tree, not about ribbonness. A
 large first-stage frontier is equally consistent with the knots being ribbon
 and with their not being slice at all. Do not read 72 as evidence for either.
 
+## Two bands
+
+| knot | diagram | crossings | 2-band survivors | unknot | seconds |
+|---|---:|---:|---:|---|---:|
+| K_B(0,0,0,-1,2,1) | 0 (canonical) | 27 | **60** | none | 4174.7 |
+| K_B(0,0,0,-1,2,1) | 1 (seed 1001) | 27 | **85** | none | 6142.3 |
+| K_G(0,0,0,-1,2,1) | 0 (canonical) | 26-28 | not reached in 3 h at `max_band_len = 6` | - | - |
+
+Record: `results/RBG_r0_KB_0_0_0_-1_2_1_bands2.json`. Same box as the one-band
+table except `max_bands = 2`.
+
+Two things to carry forward. First, the frontier grows rather than collapses:
+13 one-band survivors on the canonical K_B diagram become 60 at two bands, and
+85 on the shaken diagram. The Dunfield-Gong filter is not closing this lane
+the way it closed K_DG. Second, `max_band_len = 6` is out of budget for the
+larger K_G diagrams, which reached no completed diagram in three hours; K_G
+two-band coverage is being retaken at `max_band_len = 5`.
+
+The K_B two-band record was recovered from stdout, because the driver then
+dumped its structured record only after the whole loop and `timeout` killed it
+first. That is fixed: `rbg_r0_search.py` now writes after every diagram, and
+also stores the frontier itself rather than only its size.
+
 ## Scope and cautions
 
 * Survivor counts are diagrams retained by the filter, not isotopy classes,

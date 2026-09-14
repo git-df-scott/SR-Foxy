@@ -89,11 +89,18 @@ for i in range(n_diagrams):
         entry['error'] = '%s: %s' % (type(e).__name__, e)
     entry['seconds'] = round(time.time() - t0, 1)
     record['diagrams'].append(entry)
+    # Write after every diagram. An earlier version dumped only after the loop,
+    # so a `timeout` kill lost the whole structured record even though the
+    # per-diagram lines had already been printed. That happened once.
+    record['total_seconds'] = round(time.time() - t_all, 1)
+    record['complete'] = False
+    json.dump(record, open(out, 'w'), indent=1, default=str)
     print(json.dumps({k: v for k, v in entry.items() if k != 'frontier'}), flush=True)
     if record['unknot_found']:
         print('RIBBON DISK FOUND', flush=True)
         break
 
 record['total_seconds'] = round(time.time() - t_all, 1)
+record['complete'] = True
 json.dump(record, open(out, 'w'), indent=1, default=str)
 print(json.dumps({k: v for k, v in record.items() if k != 'diagrams'}, indent=1))

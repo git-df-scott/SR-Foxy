@@ -1,0 +1,34 @@
+{
+ "knot": "MP_KB(0,0,0,-1,2,1)",
+ "date": "2026-09-14T00:50:18.089210+00:00",
+ "recovered_from": "stdout log; the run was killed by `timeout` before its final json dump",
+ "note": "The driver at the time wrote its structured record only after the loop, so the timeout destroyed it. The per-diagram stdout lines survived and are transcribed verbatim below. scripts/rbg_r0_search.py now writes after every diagram. Frontier certificates were not captured by that build; later runs record them.",
+ "box": {
+  "max_bands": 2,
+  "max_twists": 2,
+  "max_band_len": 6,
+  "paths": "shortest",
+  "filter_for_plausibly_slice": true,
+  "use_ribbon_link_cache": true
+ },
+ "diagrams": [
+  {
+   "index": 0,
+   "seed": null,
+   "crossings": 27,
+   "results": 60,
+   "unknot": false,
+   "seconds": 4174.7
+  },
+  {
+   "index": 1,
+   "seed": 1001,
+   "crossings": 27,
+   "results": 85,
+   "unknot": false,
+   "seconds": 6142.3
+  }
+ ],
+ "unknot_found": false,
+ "meaning": "Coverage over the stated box only. Not an obstruction, and not evidence that this knot is or is not ribbon or slice."
+}
