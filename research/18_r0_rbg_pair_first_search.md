@@ -87,13 +87,20 @@ and with their not being slice at all. Do not read 72 as evidence for either.
 | K_B(0,0,0,-1,2,1) | 0 (canonical) | 27 | **60** | none | 4174.7 |
 | K_B(0,0,0,-1,2,1) | 1 (seed 1001) | 27 | **85** | none | 6142.3 |
 | K_G(0,0,0,-1,2,1) | 0 (canonical) | 26-28 | not reached in 3 h at `max_band_len = 6` | - | - |
+| K_G(0,0,0,-1,2,1) | 0 (canonical), `max_band_len = 5` | 24 | **71** | none | 11328.2 |
 
-Record: `results/RBG_r0_KB_0_0_0_-1_2_1_bands2.json`. Same box as the one-band
-table except `max_bands = 2`.
+Records: `results/RBG_r0_KB_0_0_0_-1_2_1_bands2.json` and
+`results/RBG_r0_KG_0_0_0_-1_2_1_bands2_len5.json`. Same box as the one-band
+table except `max_bands = 2`, and `max_band_len = 5` on the K_G row that
+completed. The K_G record carries all 71 frontier certificates as replayable
+`[starting PD, band descriptor, endpoint]` triples; the K_B two-band numbers
+predate that change and are counts only.
 
-Two things to carry forward. First, the frontier grows rather than collapses:
-13 one-band survivors on the canonical K_B diagram become 60 at two bands, and
-85 on the shaken diagram. The Dunfield-Gong filter is not closing this lane
+Two things to carry forward. First, the frontier grows rather than collapses,
+on **both** sides of the pair: 13 one-band survivors on the canonical K_B
+diagram become 60 at two bands and 85 on the shaken diagram, and on K_G the
+10-15 one-band survivors become 71 at two bands even in the smaller
+`max_band_len = 5` box. The Dunfield-Gong filter is not closing this lane
 the way it closed K_DG. Second, `max_band_len = 6` is out of budget for the
 larger K_G diagrams, which reached no completed diagram in three hours; K_G
 two-band coverage is being retaken at `max_band_len = 5`.
