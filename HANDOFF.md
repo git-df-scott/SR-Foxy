@@ -1,3 +1,78 @@
+# Current handoff — 13 September 2026, evening
+
+**No counterexample found.** Read `research/19_link_concordance_completion_gate.md`, `results/evening_session_validation.json`, and `results/teichner_frontier_validation.json`. Work remains on main. Research note number 18 is reserved by Claude PR #3; no branch was created, removed or merged here.
+
+**Construction priority:** Teichner certificates for D01 # J with J ribbon.
+No sum certificate has been found. New partners 9_41 and 9_46 have separately
+replayed ribbon certificates. Mixed-attachment and third-band searches save
+full paths. Native Sage/Singular Fox-Milnor minors segfaulted; preserve the
+logs and use the local conservative replacement, not an environment change.
+
+**Current frontier (supersedes intermediate 350-path count):** A Miyazaki
+component gate rejects 74 of 587 initial saved links, or 237 with inherited
+prefix exclusions. Later component slice checks reject 803 of 805 remaining
+and deeper paths by nonsquare component determinants. All 392 distinct
+determinants agree independently with Regina Jones. Two first-stage paths
+remain, both under 9_46: `78685a_1_-2`, `00676e_0_-2`. Continuing them across
+the selected full shortest-band box tests 24,359 moves and saves **96 unknown
+paths**, no ribbon certificate. Start with
+`results/teichner_D01_J946_component_filtered_continuation.json` and its
+validation; this is the constructive frontier, not the earlier unfiltered list.
+
+**Missing partner orientation:** The second surviving knot component is
+matched to the unoriented factors of D01 # mirror(6_1) after seeded
+simplification. The signatures allow reversing factor orientations; a full
+oriented connected-sum identification is not certified. The first has recognized
+K0 and mirror(6_1), with its 19-crossing factor still unknown. The old 4.2-hour
+run used 6_1, not its mirror. Both 6_1 and D01 are chiral by Jones, so do not
+drop mirrored partners merely by assuming the target is amphichiral.
+The 96 latest paths still require tau/Fox-Milnor and ribbon-specific screening;
+passing their current determinant filter proves no sliceness.
+
+**Validation:** 587 initial raw moves, 455 third-band moves, and 96 final
+continuation moves are separately checked. 84 factor records support the
+Miyazaki gate; all factor calculations finish, and Seifert evaluations agree
+with HFK Alexander data. A component that cannot be ribbon blocks every
+pure-fission ribbon-disk continuation of that prefix. This is not an
+obstruction to an arbitrary smooth slice disk for D01.
+
+**Link concordance gate:** All 1,092 normalized matches from research/17
+have generic multivariable Alexander H1 rank zero; all are independently
+checked using triangulation-derived groups and exact integer minors.
+A split knot/unknot pair has rank one and link concordance preserves it.
+The connected planar prefix completion lemma is proved in research/19;
+it rules out arbitrary annular completions of a fixed prefix, not all
+possible endpoint concordances. The proposed independent Claude review
+was not confirmed delivered through the app. The 61 older first links
+have 32 additional colored-rank exclusions; the two Kh survivors remain.
+Never treat a deficient finite specialization as generic rank.
+
+**Other completed checks:** New embedded band cores may return to a face
+but cannot cross an original edge twice; face chords must not interleave.
+35,930 samples yield 35,521 rank exclusions and 409 unknown retained
+links, all replayed. No opposite-source Jones match and no known-source
+return in this restricted sample. Preserve that missing positive control.
+Rational odd Kh (Migdail–Wehrli 2607.04018v1 Thm 8, preprint) passes
+J25533/J25541 and C2/C4. KnotJob returns reduced odd Kh; reconstruct
+unreduced by quantum shifts +1 and -1. Do not use arbitrary odd primes
+with that theorem. Eight Euler checks and the K1 mirror check pass.
+
+**Coordination:** Scott pasted Claude's report. PR #3 at 579abda was
+inspected read-only; its RBG survivor counts are not independently rerun.
+Preserve `claude/counterexample-search-ungpe2` and its jobs. The existing
+Claude configuration was unchanged. Computer Use inserted a coordination
+prompt but did not confirm submission; do not claim a reply was received.
+
+**Budget:** this is the authorized 17:30 MDT session, fresh shared-meter
+baseline 38%, target 47%, hard ceiling 48%, stop by 22:30. The local
+`work/slice_ribbon_budget.json` outside the repository records final
+accounting. Pause the one-session heartbeat when checkpointed. Unused
+allowance does not roll over, and the end of a window authorizes no new work.
+
+---
+
+## Historical checkpoints — priorities and schedules below are superseded
+
 # Current handoff — 13 September 2026, extra afternoon session
 
 **No counterexample found.** Read `research/17_fission_ancestry_and_linking.md`

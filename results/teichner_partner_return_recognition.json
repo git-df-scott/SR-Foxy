@@ -1,0 +1,71 @@
+{
+  "rows": [
+    {
+      "index": 10,
+      "factors": [
+        [
+          6,
+          "gabcadebcfdefvvpd"
+        ],
+        [
+          7,
+          "habcdefgcbgdafeBkbhMa"
+        ],
+        [
+          19,
+          "tabcdefgchijklefmnlopkqihrsbgdopjqrsamnNjtMXwbl950CId"
+        ]
+      ],
+      "matches_D01_sum_6_1_by_factor_diagrams": false,
+      "matches_D01_sum_mirror_6_1_by_factor_diagrams": false
+    },
+    {
+      "index": 11,
+      "factors": [
+        [
+          6,
+          "gabcadebcfdefvvpd"
+        ],
+        [
+          7,
+          "habcadebcfgedgftwb5Wa"
+        ],
+        [
+          19,
+          "tabcdefgchijkialmnopgdhblmnqropsjkefsrqNrPSMnbl9dEmNd"
+        ]
+      ],
+      "matches_D01_sum_6_1_by_factor_diagrams": false,
+      "matches_D01_sum_mirror_6_1_by_factor_diagrams": false
+    }
+  ],
+  "D01_sum_6_1_factors": [
+    [
+      6,
+      "gabcadebcfdefvvpd"
+    ],
+    [
+      6,
+      "gabcdefdcbafevvpp"
+    ],
+    [
+      19,
+      "tabcdefgchijkdglmnokjpqihbrmsfeopqarlsnNPrMMLbZ8CZ1Oc"
+    ]
+  ],
+  "D01_sum_mirror_6_1_factors": [
+    [
+      6,
+      "gabcadebcfdefvvpd"
+    ],
+    [
+      6,
+      "gabcdefbafedcvvdd"
+    ],
+    [
+      19,
+      "tabcdefgchijkdglmnokjpqihbrmsfeopqarlsnNPrMMLbZ8CZ1Oc"
+    ]
+  ],
+  "meaning": "Exact diagram-signature matching of visible connected-sum factors after basic simplification; orientations may reverse, mirrors are not identified."
+}

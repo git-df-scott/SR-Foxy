@@ -13,8 +13,8 @@
   "marked_scaffold_planarity_and_pd_roundtrip_passed": true,
   "proof_limit": "Group/link identification uses SnapPy; equivariant determinant and destabilization obstruction are written deductions, not a computed intersection matrix.",
   "sha256": {
-    "README.md": "d5f1e295b2cc36aeacd8f47e97efbb94fd316e6b01f56a6a02e9384d3d83b918",
-    "HANDOFF.md": "48a7fbc0b2af9e9a3c754211343c4b67fbacfe6ba27684f6b5b91a98799efcaa",
+    "README.md": "a16ffa42911370ecb77afb5da5dee74945415c55f5df0d0b442b338c37a41a68",
+    "HANDOFF.md": "ada593b351ad21a2877bd66b77b193339e0b2976638860cbe1072289fa10cc86",
     "research/14_marked_annulus_audit.md": "666978c4fc55bc2195a479d02af2b96d74dd4908839cdca8f9285665fa86f834",
     "data/knots/AbeTagami_marked_product_scaffold.json": "d01c4a33c3533de068d0ba6c6c1f1e8e980c16ce57d0e274f263e7fc75dcc4d3",
     "scripts/annulus_group_certificate.py": "815dd6ffc6cfcd3f369b41afb2a5543a6ffcac92ae9941d1197e1ceea1d4ecad",
@@ -31,8 +31,9 @@
     "results/annulus_group_seed_20260915.tri": "119208a2db239f4a9227a4dea57bc3c91321ec167cecc56865498caae7ee7322",
     "results/trace_complement_audit.json": "c2c9bd70a9e0ef937dee53aba7d68565e633fcba478a6b9694846b8e51a7030a"
   },
-  "documentation_hash_refresh": "2026-09-13 extra afternoon: README/HANDOFF updated for component ancestry and linking results. Only these documentation hashes refreshed; earlier computations were not rerun.",
+  "documentation_hash_refresh": "2026-09-13 evening: README/HANDOFF refreshed for research/19 and Teichner frontier. Only documentation hashes refreshed; the earlier computations were not rerun.",
   "prior_documentation_hash_refreshes": [
-    "2026-09-13 afternoon: README and HANDOFF updated for the new Khovanov gate. Underlying marked-annulus calculations unchanged; this refresh is not a rerun of those calculations."
+    "2026-09-13 afternoon: README and HANDOFF updated for the new Khovanov gate. Underlying marked-annulus calculations unchanged; this refresh is not a rerun of those calculations.",
+    "2026-09-13 extra afternoon: README/HANDOFF updated for component ancestry and linking results. Only these documentation hashes refreshed; earlier computations were not rerun."
   ]
 }

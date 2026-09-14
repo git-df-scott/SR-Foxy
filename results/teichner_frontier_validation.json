@@ -1,0 +1,24 @@
+{
+  "status": "PASSED",
+  "counts": {
+    "partner_certificates": 2,
+    "raw_band_replays": 587,
+    "factor_obstruction_witnesses": 74,
+    "Jones_pairing_controls": 2
+  },
+  "summary": {
+    "941": {
+      "saved": 217,
+      "direct_or_inherited_obstructed": 108,
+      "live": 109,
+      "live_first_stage": 6
+    },
+    "946": {
+      "saved": 370,
+      "direct_or_inherited_obstructed": 129,
+      "live": 241,
+      "live_first_stage": 15
+    }
+  },
+  "limitations": "Same-library band/decomposition and partner-certificate replay. No independent formal checker for ribbon cache or HFK. The nonribbon gate is a theorem applied to computed hypotheses."
+}

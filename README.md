@@ -1,10 +1,12 @@
 # Slice–Ribbon counterexample research
 
-**No counterexample found.** Start with the [component ancestry and linking audit](research/17_fission_ancestry_and_linking.md) and [current handoff](HANDOFF.md).
+**No counterexample found.** Start with the [evening construction and obstruction audit](research/19_link_concordance_completion_gate.md) and [current handoff](HANDOFF.md).
 
-New component tests reduce 61 saved first-stage links to two possible pure-fission continuations toward K1. A twist-normalized search reaches 1,092 diagrams with matching component Jones polynomials and zero linking, including 156 with recognized component diagrams, but all fail an exact split-link test. The geometric separation remains missing. These are exclusions of specific constructions, not a proof that the knots are nonconcordant.
+The direct construction target is a verified ribbon certificate for **D01 # J**, with a separately verified ribbon partner J. That proves D01 slice; its existing nonribbonness argument would then give a counterexample. New partners 9_41 and 9_46 were tested with full saved move sequences. Component obstructions reduce the intermediate searches to two paths; one matches the unoriented factors of **D01 # mirror(6_1)**, exposing a missing partner orientation in the old search. Their bounded continuation saves **96 unknown paths**, with no ribbon certificate. See the audit for exact coverage and failures.
 
-A newly applied graded Khovanov obstruction excludes 46 of 48 nonfibered K0-based upper targets that passed the Floer filters. Only two survive; focused one- and two-saddle searches have not connected the Abe–Tagami endpoints. Known-source controls and independent Jones checks pass. The [graded comparison](figures/khovanov-common-upper-gate.png) shows why total homology rank was insufficient.
+All 1,092 earlier component matches have independently checked Alexander-module rank zero, obstructing link concordance to a split knot/unknot pair. The new completion lemma explains why this prevents annular completion of a fixed connected planar prefix. A separate audit excludes 32 of 61 older first-stage links by this test. It does not obstruct every possible concordance of K0 and K1.
+
+The graded even Khovanov test still excludes 46 of 48 nonfibered K0 upper targets. J25533 and J25541 survive even and newly applied rational odd Kh tests. Eight odd Kh inputs pass independent Jones/Euler checks; a mirror control passes. Bounded face-return band searches found no opposite-source match.
 
 The stored Abe–Tagami difference has a nonribbonness argument; its smooth sliceness remains unknown. The [marked-annulus audit](research/14_marked_annulus_audit.md) and [infection compatibility audit](research/15_infection_target_compatibility.md) record obstructions to specific earlier constructions. They are not global sliceness obstructions. The explicit Hom–Park member is already obstructed from sliceness.
 

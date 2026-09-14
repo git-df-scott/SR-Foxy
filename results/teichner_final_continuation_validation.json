@@ -1,0 +1,7 @@
+{
+  "status": "PASSED",
+  "raw_band_replays": 96,
+  "component_Jones_square_determinant_checks": 236,
+  "partner_and_D01_Jones_chirality_checks": true,
+  "scope": "96 retained paths remain unknown. Mirror partners are not removed by an amphichirality argument for D01."
+}
