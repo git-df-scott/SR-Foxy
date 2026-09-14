@@ -1,0 +1,248 @@
+{
+ "construction": "orbifold (2,0) filling, then 2-fold cyclic cover",
+ "controls": [
+  {
+   "alexander_polynomial": "t^2 - t + 1",
+   "crossings": 3,
+   "determinant": 3,
+   "diagram_independent": true,
+   "name": "control 3_1",
+   "sigma_2": {
+    "H1": "Z/3",
+    "low_index_subgroup_homology": {
+     "2": [],
+     "3": [
+      "0"
+     ],
+     "4": [],
+     "5": []
+    },
+    "tetrahedra": 4
+   },
+   "sigma_2_from_simplified_diagram": {
+    "H1": "Z/3",
+    "low_index_subgroup_homology": {
+     "2": [],
+     "3": [
+      "0"
+     ],
+     "4": [],
+     "5": []
+    },
+    "tetrahedra": 4
+   }
+  },
+  {
+   "alexander_polynomial": "t^2 - 3*t + 1",
+   "crossings": 4,
+   "determinant": 5,
+   "diagram_independent": true,
+   "name": "control 4_1",
+   "sigma_2": {
+    "H1": "Z/5",
+    "low_index_subgroup_homology": {
+     "2": [],
+     "3": [],
+     "4": [],
+     "5": [
+      "0"
+     ]
+    },
+    "tetrahedra": 4
+   },
+   "sigma_2_from_simplified_diagram": {
+    "H1": "Z/5",
+    "low_index_subgroup_homology": {
+     "2": [],
+     "3": [],
+     "4": [],
+     "5": [
+      "0"
+     ]
+    },
+    "tetrahedra": 4
+   }
+  },
+  {
+   "alexander_polynomial": "t^4 - 3*t^3 + 5*t^2 - 3*t + 1",
+   "crossings": 6,
+   "determinant": 13,
+   "diagram_independent": true,
+   "name": "control 6_3",
+   "sigma_2": {
+    "H1": "Z/13",
+    "low_index_subgroup_homology": {
+     "2": [],
+     "3": [],
+     "4": [],
+     "5": []
+    },
+    "tetrahedra": 12
+   },
+   "sigma_2_from_simplified_diagram": {
+    "H1": "Z/13",
+    "low_index_subgroup_homology": {
+     "2": [],
+     "3": [],
+     "4": [],
+     "5": []
+    },
+    "tetrahedra": 12
+   }
+  },
+  {
+   "alexander_polynomial": "t^4 - 2*t^3 + 3*t^2 - 2*t + 1",
+   "crossings": 6,
+   "determinant": 9,
+   "diagram_independent": true,
+   "name": "control 3_1 # 3_1 (non-cyclic pi_1 positive control)",
+   "sigma_2": {
+    "H1": "Z/3 + Z/3",
+    "low_index_subgroup_homology": {
+     "2": [],
+     "3": [
+      "Z + Z",
+      "Z + Z",
+      "Z/3 + Z/3 + Z/3",
+      "Z/3 + Z/3 + Z/3"
+     ],
+     "4": [
+      "Z/3 + Z/3 + Z",
+      "Z/3 + Z/3 + Z"
+     ],
+     "5": [
+      "Z/3 + Z/3 + Z/3 + Z/3"
+     ]
+    },
+    "tetrahedra": 8
+   },
+   "sigma_2_from_simplified_diagram": {
+    "H1": "Z/3 + Z/3",
+    "low_index_subgroup_homology": {
+     "2": [],
+     "3": [
+      "Z + Z",
+      "Z + Z",
+      "Z/3 + Z/3 + Z/3",
+      "Z/3 + Z/3 + Z/3"
+     ],
+     "4": [
+      "Z/3 + Z/3 + Z",
+      "Z/3 + Z/3 + Z"
+     ],
+     "5": [
+      "Z/3 + Z/3 + Z/3 + Z/3"
+     ]
+    },
+    "tetrahedra": 8
+   }
+  }
+ ],
+ "max_subgroup_index": 5,
+ "scope": "Distinct branched double covers. This is NOT a concordance obstruction: nothing here bears on whether [K_0] = [K_1].",
+ "separations": {
+  "Sigma_2(K_0) != Sigma_2(K_1)": true,
+  "Sigma_2(K_0) != Sigma_2(K_2)": true,
+  "Sigma_2(K_1) != Sigma_2(K_2)": true
+ },
+ "snappy_version": "3.3.2",
+ "targets": [
+  {
+   "alexander_polynomial": "t^4 - 3*t^3 + 5*t^2 - 3*t + 1",
+   "crossings": 6,
+   "determinant": 13,
+   "diagram_independent": true,
+   "name": "K_0",
+   "sigma_2": {
+    "H1": "Z/13",
+    "low_index_subgroup_homology": {
+     "2": [],
+     "3": [],
+     "4": [],
+     "5": []
+    },
+    "tetrahedra": 12
+   },
+   "sigma_2_from_simplified_diagram": {
+    "H1": "Z/13",
+    "low_index_subgroup_homology": {
+     "2": [],
+     "3": [],
+     "4": [],
+     "5": []
+    },
+    "tetrahedra": 12
+   }
+  },
+  {
+   "alexander_polynomial": "t^4 - 3*t^3 + 5*t^2 - 3*t + 1",
+   "crossings": 19,
+   "determinant": 13,
+   "diagram_independent": true,
+   "name": "K_1",
+   "sigma_2": {
+    "H1": "Z/13",
+    "low_index_subgroup_homology": {
+     "2": [],
+     "3": [],
+     "4": [],
+     "5": [
+      "Z/3 + Z/117",
+      "Z/3 + Z/117",
+      "Z/3 + Z/117"
+     ]
+    },
+    "tetrahedra": 22
+   },
+   "sigma_2_from_simplified_diagram": {
+    "H1": "Z/13",
+    "low_index_subgroup_homology": {
+     "2": [],
+     "3": [],
+     "4": [],
+     "5": [
+      "Z/3 + Z/117",
+      "Z/3 + Z/117",
+      "Z/3 + Z/117"
+     ]
+    },
+    "tetrahedra": 22
+   }
+  },
+  {
+   "alexander_polynomial": "t^4 - 3*t^3 + 5*t^2 - 3*t + 1",
+   "crossings": 41,
+   "determinant": 13,
+   "diagram_independent": true,
+   "name": "K_2",
+   "sigma_2": {
+    "H1": "Z/13",
+    "low_index_subgroup_homology": {
+     "2": [],
+     "3": [],
+     "4": [],
+     "5": [
+      "Z/2 + Z/6 + Z/234 + Z",
+      "Z/6 + Z/78",
+      "Z/6 + Z/78"
+     ]
+    },
+    "tetrahedra": 30
+   },
+   "sigma_2_from_simplified_diagram": {
+    "H1": "Z/13",
+    "low_index_subgroup_homology": {
+     "2": [],
+     "3": [],
+     "4": [],
+     "5": [
+      "Z/2 + Z/6 + Z/234 + Z",
+      "Z/6 + Z/78",
+      "Z/6 + Z/78"
+     ]
+    },
+    "tetrahedra": 30
+   }
+  }
+ ]
+}

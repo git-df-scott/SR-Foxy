@@ -1,3 +1,61 @@
+# Current handoff — 14 September 2026, Claude Code session
+
+**No counterexample found.** Read `research/21_branched_double_covers.md`,
+`results/branched_double_cover_gate.json` and `results/lens_d_invariants.json`.
+Work is on branch `claude/inspiring-cray-3mvttt`; `main` was not touched and no
+running job was interrupted.
+
+This session supplied the branched-cover data every previous handoff recorded as
+missing. It is new data, not progress toward a disk.
+
+**Rigorous new facts.** Sigma_2(K_0) = L(13,5) (6_3 is the two-bridge knot
+S(13,5); computed pi_1 = <a | a^13>). Sigma_2(K_1) has three subgroups of
+index 5, so its pi_1 is not cyclic and Sigma_2(K_0) is not homeomorphic to
+Sigma_2(K_1). Sigma_2(K_1) is not homeomorphic to Sigma_2(K_2) either. The
+separating invariant is low-index subgroup enumeration: exact and combinatorial,
+with no numerical geometry — which matters, because SnapPy finds no positively
+oriented solution for either target and verified volume fails on both. Controls
+(3_1, 4_1, 6_3, and the granny knot as a non-cyclic positive control) all return
+their known answers, and every profile was replayed from an independently
+simplified diagram. **This is the first invariant in this repository that
+separates members of the Abe-Tagami family. It is NOT a concordance obstruction
+and does not change any ledger status.**
+
+**Construction warning.** Build Sigma_2 by (2,0) orbifold filling followed by the
+cyclic double cover, letting the cover carry the induced filling. Taking the
+cover first and guessing a slope fails silently: H_1 of the cover is Z/13 + Z
+with the longitude lift torsion, so eighteen different short slopes all return
+Z/13 and homology cannot pick the right one.
+
+**The gate this opens.** Because Sigma_2(K_0) is a lens space, half the
+d-invariant obstruction is now computed: d(L(13,5)) = {0, +-2/13, +-2/13,
++-6/13, +-6/13, +-8/13, +-8/13}, symmetric under negation because 6_3 is
+negative amphichiral and 5*8 = 1 mod 13, so no orientation convention is
+load-bearing. The claim written out in research/21 section 3 — offered for a
+second reader, not asserted — is that D01 smoothly slice forces the thirteen
+d-invariants of Sigma_2(K_1) to equal that multiset exactly. A mismatch proves
+[K_0] != [K_1] and closes the primary lane. This is a finite, falsifiable test
+on one 21-tetrahedron manifold, which is a sharper target than another band box.
+
+**The cheap route to the other half is closed.** Forty randomized diagrams of
+K_1 (rank-9 Goeritz forms) and K_2 (rank-18) are all indefinite, so there is no
+definite filling and no lattice shortcut; 6_3 returns a negative definite rank-3
+form of determinant 13 on the first try. Computing d(Sigma_2(K_1)) needs real
+Heegaard Floer for a closed hyperbolic QHS^3. No tool in the recorded
+environment does this. Finding or building one is the next concrete task.
+
+**Environment.** The documented stack reproduces from a bare container with
+`pip install snappy regina passagemath-standard sympy z3-solver`: SnapPy 3.3.2,
+Regina 7.4.1, passagemath 10.8.11 (sage-backed), knot_floer_homology present.
+Regina's manifold recognition from a SnapPy triangulation string dropped the
+Dehn fillings and returned coincident isosigs for non-homeomorphic manifolds;
+do not use that path.
+
+No budget was recorded for this session and none was consumed on the shared
+Codex meter. Nothing here authorizes a restart.
+
+---
+
 # Current handoff — late 13 September MDT / 14 September UTC
 
 **STOPPED: no overnight Codex session. No counterexample found.** Read

@@ -1,0 +1,90 @@
+{
+ "controls_pass": true,
+ "live_tests": [
+  "Theorem 2 (det V mod 32) on any slice link, L_{3,1} included",
+  "Theorem 1 on a slice link with n >= 3"
+ ],
+ "rows": [
+  {
+   "components": 2,
+   "det_V": "1",
+   "expected_mod_32": 1,
+   "link": "unlink O^2",
+   "null_V": 1,
+   "ribbon": true,
+   "thm1_satisfied": true,
+   "thm2_satisfied": true
+  },
+  {
+   "components": 3,
+   "det_V": "1",
+   "expected_mod_32": 1,
+   "link": "unlink O^3",
+   "null_V": 2,
+   "ribbon": true,
+   "thm1_satisfied": true,
+   "thm2_satisfied": true
+  },
+  {
+   "components": 4,
+   "det_V": "1",
+   "expected_mod_32": 1,
+   "link": "unlink O^4",
+   "null_V": 3,
+   "ribbon": true,
+   "thm1_satisfied": true,
+   "thm2_satisfied": true
+  },
+  {
+   "components": 2,
+   "det_V": "undefined (Theorem 1 already fails)",
+   "link": "L2a1",
+   "null_V": 0,
+   "ribbon": false,
+   "thm1_satisfied": false
+  },
+  {
+   "components": 2,
+   "det_V": "undefined (Theorem 1 already fails)",
+   "link": "L5a1",
+   "null_V": 0,
+   "ribbon": false,
+   "thm1_satisfied": false
+  },
+  {
+   "components": 2,
+   "det_V": "undefined (Theorem 1 already fails)",
+   "link": "L6a1",
+   "null_V": 0,
+   "ribbon": false,
+   "thm1_satisfied": false
+  },
+  {
+   "components": 3,
+   "det_V": "undefined (Theorem 1 already fails)",
+   "link": "L6a5",
+   "null_V": 0,
+   "ribbon": false,
+   "thm1_satisfied": false
+  },
+  {
+   "components": 2,
+   "det_V": "undefined (Theorem 1 already fails)",
+   "link": "L7a1",
+   "null_V": 0,
+   "ribbon": false,
+   "thm1_satisfied": false
+  },
+  {
+   "components": 3,
+   "det_V": "undefined (Theorem 1 already fails)",
+   "link": "L8a21",
+   "null_V": 0,
+   "ribbon": false,
+   "thm1_satisfied": false
+  }
+ ],
+ "scope": "Controls only. No slice link is tested here: GST L_{3,1} is not in the repository and must be built from GST Figure 1 before either live test can be run.",
+ "source": "Eisermann, The Jones polynomial of ribbon links, Geom. Topol. 13 (2009) 623-660, arXiv:0802.2287",
+ "vacuity": "Theorem 1 cannot fire on a 2-component slice link: slice with n>=2 gives Delta(L)=0, hence det(L)=0, hence null V >= 1, and Lemma 1 caps it at n-1 = 1. So CAMPAIGN_PLAN WS5, which computes null V of the 2-component link L_{3,1}, is vacuous as written."
+}
