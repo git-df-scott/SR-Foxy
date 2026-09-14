@@ -78,6 +78,16 @@ if __name__ == '__main__':
                     'pd_code': J.PD_code()}
             partner = partner_certificates[jname]
             S = K.connected_sum(J); S.simplify('global')
+            # Heartbeat: record that this pair was STARTED, with its box, before
+            # the long call. A `timeout` kill during the search otherwise leaves
+            # no trace at all, because a row is only appended once the search for
+            # that partner returns. Overwritten by the real row on completion.
+            rec['in_progress'] = {'knot': d['name'], 'J': jname,
+                                  'sum_crossings': len(S.crossings),
+                                  'started': datetime.datetime.now(
+                                      datetime.timezone.utc).isoformat(),
+                                  'partner_ribbon_verified': partner['verified']}
+            json.dump(rec, open(out, 'w'), indent=1, default=str)
             t = time.time()
             res = ribbon_concordant_links(S, max_bands=max_bands, max_twists=2,
                                           max_band_len=max_band_len, certify=True)
@@ -86,6 +96,16 @@ if __name__ == '__main__':
                    'partner_ribbon_verified': partner['verified'],
                    'partner_certificate': partner['certificate'],
                    'partner_pd_code': partner['pd_code'], 'sum_pd_code': S.PD_code()}
+            # Save the actual frontier, not only its size. Each value is the
+            # replayable triple [starting PD code, band descriptor, endpoint
+            # name] that spherogram returns, so a later session can rebuild any
+            # surviving intermediate without re-running the search.
+            row['frontier_size'] = len(res)
+            # A list, not a dict keyed by str(link): spherogram's Link repr
+            # ('<Link: 3 comp; 11 cross>') is not unique, so keying on it
+            # silently drops distinct frontier links.
+            row['frontier'] = [{'label': str(k), 'certificate': v}
+                               for k, v in res.items()]
             if 'unknot' in res:
                 row['certificate_verified'] = certificate_status(S, res)
                 row['certified_slice'] = row['certificate_verified'] and partner['verified']
@@ -93,7 +113,9 @@ if __name__ == '__main__':
                 if row['certified_slice']:
                     print('*** TEICHNER CERTIFICATE ***', d['name'], '#', jname, flush=True)
             rec['runs'].append(row)
+            rec.pop('in_progress', None)
             rec['seconds'] = round(time.time() - t0, 1)
             json.dump(rec, open(out, 'w'), indent=1, default=str)
-            print(json.dumps({k: v for k, v in row.items() if k != 'certificate'}), flush=True)
+            print(json.dumps({k: v for k, v in row.items()
+                              if k not in ('certificate', 'frontier')}), flush=True)
     print('CERTIFIED:', sum(1 for r in rec['runs'] if r['certified_slice']))

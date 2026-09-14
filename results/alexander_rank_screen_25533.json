@@ -1,0 +1,469 @@
+{
+ "status": "ALEXANDER_MODULE_RANK_SCREEN_OF_STORED_FIRST_STAGE_LINKS_CORRECTED",
+ "date": "2026-09-14T01:08:03.817203+00:00",
+ "source": "results/two_fission_nonfibered_25533.json",
+ "source_sha256_16": "fd22350b5b219aab",
+ "supersedes": "the first version of this file, which was WRONG",
+ "defect_in_previous_version": "it called Link.simplify(\"global\") before building the exterior. That DELETES split unknot components, turning a split knot-plus-unknot pair (order 0, passes) into the bare knot (order nonzero, fails). It inverted the verdict on exactly the links the screen should accept.",
+ "calibration": {
+  "split_3_1_U_unknot": "0",
+  "split_3_1_U_unknot_components": 2,
+  "hopf_L2a1": "1"
+ },
+ "known_good_control": "1918_0_-1, the first band of the stored two-fission movie that recovers K0 = 6_3 from J25533",
+ "research_17_retained_first_bands": [
+  "6267660c_0_0",
+  "2b2a271f_1_0"
+ ],
+ "rows": [
+  {
+   "first_band": "1918_0_-1",
+   "components": 2,
+   "crossings": 8,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "1f18_0_-2",
+   "components": 2,
+   "crossings": 29,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "1b1c_0_-2",
+   "components": 2,
+   "crossings": 29,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "4a21_0_-1",
+   "components": 2,
+   "crossings": 28,
+   "alexander_order": "2*a^4 - 7*a^3*b + 7*a^2*b^2 - 2*a*b^3 - 2*a^3 + 7*a^2*b - 7*a*b^2 + 2*b^3",
+   "positive_rank": false
+  },
+  {
+   "first_band": "4c2e05_1_0",
+   "components": 2,
+   "crossings": 29,
+   "alexander_order": "2*a*b^3 - 2*b^4 - 7*a*b^2 + 7*b^3 + 7*a*b - 7*b^2 - 2*a + 2*b",
+   "positive_rank": false
+  },
+  {
+   "first_band": "05080b_0_0",
+   "components": 2,
+   "crossings": 29,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "271f0c_0_-2",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "2*a^4 - 2*a^3*b - 7*a^3 + 7*a^2*b + 7*a^2 - 7*a*b - 2*a + 2*b",
+   "positive_rank": false
+  },
+  {
+   "first_band": "150e0d_0_0",
+   "components": 2,
+   "crossings": 29,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "1d0411_1_1",
+   "components": 2,
+   "crossings": 30,
+   "alexander_order": "a^3*b^3 - 2*a^3*b^2 - 2*a^2*b^3 + a^3*b + 6*a^2*b^2 + a*b^3 - 5*a^2*b - 5*a*b^2 + a^2 + 6*a*b + b^2 - 2*a - 2*b + 1",
+   "positive_rank": false
+  },
+  {
+   "first_band": "001716_1_0",
+   "components": 2,
+   "crossings": 29,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "335317_1_2",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "a^9 - 3*a^8*b + 4*a^7*b^2 - 3*a^6*b^3 + a^5*b^4 - a^8 + a^7*b + 3*a^6*b^2 - 4*a^5*b^3 + a^4*b^4 + a^5*b^2 - 4*a^4*b^3 + 3*a^3*b^4 + a^2*b^5 - a*b^6 + a^4*b^2 - 3*a^3*b^3 + 4*a^2*b^4 - 3*a*b^5 + b^6",
+   "positive_rank": false
+  },
+  {
+   "first_band": "29051a_1_1",
+   "components": 2,
+   "crossings": 30,
+   "alexander_order": "2*a^4 - 2*a^3*b - 7*a^3 + 7*a^2*b + 7*a^2 - 7*a*b - 2*a + 2*b",
+   "positive_rank": false
+  },
+  {
+   "first_band": "20261a_0_-2",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "44661e_0_-2",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "24271f_1_2",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "2*a^3*b^4 - 2*a^3*b^3 - 7*a^2*b^3 + 7*a^2*b^2 + 7*a*b^2 - 7*a*b - 2*b + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "49691f_1_2",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "2*a^5 - 7*a^4 - 2*a^3*b + 7*a^3 + 7*a^2*b - 2*a^2 - 7*a*b + 2*b",
+   "positive_rank": false
+  },
+  {
+   "first_band": "222120_1_2",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "2*a^4 - 2*a^3*b - 7*a^3 + 7*a^2*b + 7*a^2 - 7*a*b - 2*a + 2*b",
+   "positive_rank": false
+  },
+  {
+   "first_band": "284a21_1_2",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "2*a^4 - 2*a^3*b - 7*a^3 + 7*a^2*b + 7*a^2 - 7*a*b - 2*a + 2*b",
+   "positive_rank": false
+  },
+  {
+   "first_band": "2b6a22_0_-2",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "2*a*b^4 - 7*a*b^3 + 7*a*b^2 - 2*b^3 - 2*a*b + 7*b^2 - 7*b + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "212023_0_2",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "2*a*b^3 - 2*b^4 - 7*a*b^2 + 7*b^3 + 7*a*b - 7*b^2 - 2*a + 2*b",
+   "positive_rank": false
+  },
+  {
+   "first_band": "192026_1_-2",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "482a27_1_2",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "282b2a_1_2",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "2*a^5*b - 7*a^4*b + 7*a^3*b - 2*a^3 - 2*a^2*b + 7*a^2 - 7*a + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "4c2b2a_1_-2",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "2*a^4 - 2*a^3*b - 7*a^3 + 7*a^2*b + 7*a^2 - 7*a*b - 2*a + 2*b",
+   "positive_rank": false
+  },
+  {
+   "first_band": "23482a_0_2",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "29282b_0_2",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "2*a^5*b - 7*a^4*b + 7*a^3*b - 2*a^3 - 2*a^2*b + 7*a^2 - 7*a + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "36393c_1_0",
+   "components": 2,
+   "crossings": 29,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "4a4948_1_-2",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "2*a*b^3 - 7*a*b^2 - 2*b^3 + 7*a*b + 7*b^2 - 2*a - 7*b + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "4b4a49_0_-2",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "2*a^4 - 2*a^3*b - 7*a^3 + 7*a^2*b + 7*a^2 - 7*a*b - 2*a + 2*b",
+   "positive_rank": false
+  },
+  {
+   "first_band": "246b4b_0_2",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "2*a^4 - 2*a^3*b - 7*a^3 + 7*a^2*b + 7*a^2 - 7*a*b - 2*a + 2*b",
+   "positive_rank": false
+  },
+  {
+   "first_band": "355554_1_1",
+   "components": 2,
+   "crossings": 30,
+   "alexander_order": "a^8 - 3*a^7*b + 4*a^6*b^2 - 3*a^5*b^3 + a^4*b^4 + a^6*b - 4*a^5*b^2 + 3*a^4*b^3 + a^3*b^4 - a^2*b^5 - a^6 + a^5*b + 3*a^4*b^2 - 4*a^3*b^3 + a^2*b^4 + a^4*b - 3*a^3*b^2 + 4*a^2*b^3 - 3*a*b^4 + b^5",
+   "positive_rank": false
+  },
+  {
+   "first_band": "1d4466_1_-2",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "282b6a_1_2",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "2*a*b^3 - 2*b^4 - 7*a*b^2 + 7*b^3 + 7*a*b - 7*b^2 - 2*a + 2*b",
+   "positive_rank": false
+  },
+  {
+   "first_band": "2e246b_1_2",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "2*a^4*b - 7*a^3*b - 2*a^3 + 7*a^2*b + 7*a^2 - 2*a*b - 7*a + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "69686b_0_2",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "190c0100_3_1",
+   "components": 2,
+   "crossings": 32,
+   "alexander_order": "-a^5*b^9 + 2*a^4*b^10 - 3*a^3*b^11 + 3*a^2*b^12 - b^14 + a^6*b^7 - a^5*b^8 + 2*a^4*b^9 + a^3*b^10 - 6*a^2*b^11 + a*b^12 + 2*b^13 - 2*a^6*b^6 + 3*a^5*b^7 - 10*a^4*b^8 + 5*a^3*b^9 + 8*a^2*b^10 - 3*a*b^11 - b^12 + a^7*b^4 - a^6*b^5 + 5*a^5*b^6 + 4*a^4*b^7 - a^3*b^8 - 11*a^2*b^9 + 4*a*b^10 - b^11 - a^7*b^3 + 4*a^6*b^4 - 11*a^5*b^5 - a^4*b^6 + 4*a^3*b^7 + 5*a^2*b^8 - a*b^9 + b^10 - a^7*b^2 - 3*a^6*b^3 + 8*a^5*b^4 + 5*a^4*b^5 - 10*a^3*b^6 + 3*a^2*b^7 - 2*a*b^8 + 2*a^7*b + a^6*b^2 - 6*a^5*b^3 + a^4*b^4 + 2*a^3*b^5 - a^2*b^6 + a*b^7 - a^7 + 3*a^5*b^2 - 3*a^4*b^3 + 2*a^3*b^4 - a^2*b^5",
+   "positive_rank": false
+  },
+  {
+   "first_band": "482a2905_2_0",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "2*a^4 - 2*a^3*b - 7*a^3 + 7*a^2*b + 7*a^2 - 7*a*b - 2*a + 2*b",
+   "positive_rank": false
+  },
+  {
+   "first_band": "01513106_0_0",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "1563430a_3_0",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "2726080b_0_-2",
+   "components": 2,
+   "crossings": 33,
+   "alexander_order": "2*a^3*b - 2*a^3 - 7*a^2*b + 7*a^2 + 7*a*b - 7*a - 2*b + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "051c1f0c_0_0",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "6267660c_0_0",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "0841610d_0_0",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "5c62610d_0_0",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "4e00030e_0_-1",
+   "components": 2,
+   "crossings": 32,
+   "alexander_order": "2*a^4*b - 7*a^3*b - 2*a^3 + 7*a^2*b + 7*a^2 - 2*a*b - 7*a + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "5053030e_2_2",
+   "components": 2,
+   "crossings": 33,
+   "alexander_order": "a^4*b - 2*a^3*b^2 + a^2*b^3 + a^4 - 5*a^3*b + 6*a^2*b^2 - 2*a*b^3 - 2*a^3 + 6*a^2*b - 5*a*b^2 + b^3 + a^2 - 2*a*b + b^2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "0b3f5f0e_3_0",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "4c4f3112_3_0",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "2*a^3*b - 2*a^3 - 7*a^2*b + 7*a^2 + 7*a*b - 7*a - 2*b + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "00573713_3_0",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "355b5a15_3_1",
+   "components": 2,
+   "crossings": 32,
+   "alexander_order": "a^8*b^5 - 3*a^7*b^4 - a^6*b^5 + a^6*b^4 + 4*a^6*b^3 + a^5*b^4 - 4*a^5*b^3 + a^4*b^4 - 3*a^5*b^2 + 3*a^4*b^3 + 3*a^4*b^2 - 3*a^3*b^3 + a^4*b - 4*a^3*b^2 + a^3*b + 4*a^2*b^2 + a^2*b - a^2 - 3*a*b + 1",
+   "positive_rank": false
+  },
+  {
+   "first_band": "11355516_0_0",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "50565516_2_0",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "10335317_3_0",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "2b2a271f_0_-2",
+   "components": 2,
+   "crossings": 33,
+   "alexander_order": "2*a^4*b^3 - 2*a^3*b^3 - 7*a^3*b^2 + 7*a^2*b^2 + 7*a^2*b - 7*a*b - 2*a + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "2b2a271f_1_0",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "53030221_1_-1",
+   "components": 2,
+   "crossings": 32,
+   "alexander_order": "2*a*b^3 - 7*a*b^2 - 2*b^3 + 7*a*b + 7*b^2 - 2*a - 7*b + 2",
+   "positive_rank": false
+  },
+  {
+   "first_band": "25284a21_0_0",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "25284a21_2_-2",
+   "components": 2,
+   "crossings": 33,
+   "alexander_order": "2*a^3*b^3 - 6*a^2*b^4 + 6*a*b^5 - 2*b^6 - 7*a^3*b^2 + 21*a^2*b^3 - 21*a*b^4 + 7*b^5 + 7*a^3*b - 21*a^2*b^2 + 21*a*b^3 - 7*b^4 - 2*a^3 + 6*a^2*b - 6*a*b^2 + 2*b^3",
+   "positive_rank": false
+  },
+  {
+   "first_band": "25284a21_3_0",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  {
+   "first_band": "2c4e4d21_2_2",
+   "components": 2,
+   "crossings": 33,
+   "alexander_order": "2*a*b^3 - 2*b^4 - 7*a*b^2 + 7*b^3 + 7*a*b - 7*b^2 - 2*a + 2*b",
+   "positive_rank": false
+  },
+  {
+   "first_band": "246b6a22_0_0",
+   "components": 2,
+   "crossings": 31,
+   "alexander_order": "0",
+   "positive_rank": true
+  }
+ ],
+ "summary": {
+  "examined": 61,
+  "positive_rank": 29,
+  "rank_zero": 32,
+  "control_1918_0_-1_passes": true,
+  "control_row": {
+   "first_band": "1918_0_-1",
+   "components": 2,
+   "crossings": 8,
+   "alexander_order": "0",
+   "positive_rank": true
+  },
+  "research_17_survivors_pass": {
+   "6267660c_0_0": true,
+   "2b2a271f_1_0": true
+  },
+  "intersection_with_research_17_survivors": [
+   "2b2a271f_1_0",
+   "6267660c_0_0"
+  ]
+ },
+ "meaning": "29 of the 61 stored first-stage links have positive Alexander module rank. The known-good control passes, as it must. BOTH research/17 survivors pass. There is NO tension between the two necessary conditions, and no first band of 25533 is eliminated by this screen that research/17 had kept. The earlier claim of an empty intersection was an artifact of the simplify defect above and is retracted."
+}
