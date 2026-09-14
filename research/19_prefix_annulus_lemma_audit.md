@@ -206,6 +206,33 @@ component, and must include a positive control drawn from a movie known to
 exist. Both are now enforced in `scripts/alexander_rank_screen.py`, which
 refuses to report if either fails.
 
+### The screen is redundant on this target
+
+Comparing the corrected screen against research/17's own filter on the same 61
+links gives an exact coincidence, not merely a consistent one:
+
+| set of first bands | size |
+|---|---:|
+| positive Alexander module rank | 29 |
+| research/17 determinant / tau / HFK retained toward **K0** | 29 |
+| **these two sets are equal**, band for band | - |
+| research/17 determinant / tau / HFK retained toward **K1** | 15 |
+| all 15 have positive rank | - |
+
+So on J25533 the rank condition of this note **decides exactly what the existing
+component filter already decides**, in the K0 direction, and is strictly implied
+by it in the K1 direction. It excludes nothing new and it rescues nothing.
+
+I have no proof that the coincidence is forced rather than accidental on these
+61 links, and I am not claiming one. The determinant conditions and the rank
+condition are both sensitive to a component splitting off as an unknot, which is
+the obvious candidate mechanism, but that is a guess and it is recorded as one.
+
+The practical consequence is what matters: **do not spend further compute
+applying this screen to 25533.** Its value, if any, is on link sets that were
+selected without a component-identity criterion, and on this target that turns
+out not to buy anything.
+
 The 1,092 normalized matches are unaffected. Re-run with the corrected screen:
 **1,092 examined, 0 with positive rank, 0 errors.** Those links were certified
 nonsplit, so they carry no split unknot component for `simplify` to delete, and
