@@ -1,0 +1,20 @@
+{
+  "max_common_cards": {
+    "4": 3,
+    "5": 4,
+    "6": 5,
+    "7": 5,
+    "8": 6,
+    "9": 6
+  },
+  "deficit": {
+    "4": 1,
+    "5": 1,
+    "6": 1,
+    "7": 2,
+    "8": 2,
+    "9": 3
+  },
+  "method": "exhaustive over all non-isomorphic graphs, nauty canonical forms",
+  "counterexample_would_be": "deficit 0"
+}
