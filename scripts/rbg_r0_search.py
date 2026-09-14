@@ -69,6 +69,11 @@ for i in range(n_diagrams):
             print_progress=False)
         entry['results'] = len(res)
         entry['unknot'] = 'unknot' in res
+        # Persist the frontier itself. Values are spherogram's replayable
+        # [starting PD code, band descriptor, endpoint name] triples.
+        # A list, not a dict keyed by str(link): the Link repr is not unique.
+        entry['frontier'] = [{'label': str(k), 'certificate': v}
+                             for k, v in res.items()]
         if 'unknot' in res:
             record['unknot_found'] = True
             cert = res['unknot']
@@ -84,7 +89,7 @@ for i in range(n_diagrams):
         entry['error'] = '%s: %s' % (type(e).__name__, e)
     entry['seconds'] = round(time.time() - t0, 1)
     record['diagrams'].append(entry)
-    print(json.dumps(entry), flush=True)
+    print(json.dumps({k: v for k, v in entry.items() if k != 'frontier'}), flush=True)
     if record['unknot_found']:
         print('RIBBON DISK FOUND', flush=True)
         break

@@ -86,6 +86,16 @@ if __name__ == '__main__':
                    'partner_ribbon_verified': partner['verified'],
                    'partner_certificate': partner['certificate'],
                    'partner_pd_code': partner['pd_code'], 'sum_pd_code': S.PD_code()}
+            # Save the actual frontier, not only its size. Each value is the
+            # replayable triple [starting PD code, band descriptor, endpoint
+            # name] that spherogram returns, so a later session can rebuild any
+            # surviving intermediate without re-running the search.
+            row['frontier_size'] = len(res)
+            # A list, not a dict keyed by str(link): spherogram's Link repr
+            # ('<Link: 3 comp; 11 cross>') is not unique, so keying on it
+            # silently drops distinct frontier links.
+            row['frontier'] = [{'label': str(k), 'certificate': v}
+                               for k, v in res.items()]
             if 'unknot' in res:
                 row['certificate_verified'] = certificate_status(S, res)
                 row['certified_slice'] = row['certificate_verified'] and partner['verified']
@@ -95,5 +105,6 @@ if __name__ == '__main__':
             rec['runs'].append(row)
             rec['seconds'] = round(time.time() - t0, 1)
             json.dump(rec, open(out, 'w'), indent=1, default=str)
-            print(json.dumps({k: v for k, v in row.items() if k != 'certificate'}), flush=True)
+            print(json.dumps({k: v for k, v in row.items()
+                              if k not in ('certificate', 'frontier')}), flush=True)
     print('CERTIFIED:', sum(1 for r in rec['runs'] if r['certified_slice']))
