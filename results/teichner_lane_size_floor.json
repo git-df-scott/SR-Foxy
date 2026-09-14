@@ -1,0 +1,38 @@
+{
+ "status": "DIAGRAM_SIZE_FLOOR_FOR_THE_TEICHNER_LANE",
+ "date": "2026-09-14T22:19:54.447771+00:00",
+ "purpose": "The Teichner cost law is grossly superlinear in the crossing number of D_{0,1} # J, so the cheapest way to widen the lane would be a smaller diagram for D_{0,1}. This records that there is not one.",
+ "searches": [
+  {
+   "knot": "D_{0,1} = K_0 # (-K_1)",
+   "method": "simplify('global') plus backtrack(steps=30), 120 seeds",
+   "best_crossings": 25,
+   "stable": true
+  },
+  {
+   "knot": "K_1 = A(6_3)",
+   "method": "simplify('global') plus 1-3 rounds of backtrack(steps=20-60), 400 seeds",
+   "best_crossings": 19,
+   "stable": true
+  }
+ ],
+ "conclusion": "D_{0,1} does not go below 25 and K_1 does not go below 19. D_{0,1} = 6_3 # (-K_1) is 6 + 19 = 25, so the whole of its size comes from K_1, and K_1 does not shrink. This is a negative search result over the stated seeds, not a proof of crossing number.",
+ "consequence_for_the_lane": {
+  "floor": "6_1 is the smallest ribbon knot, so 31 crossings is the hard floor for any Teichner sum on D_{0,1}, and that partner is already done and negative.",
+  "measured_cost": {
+   "31": "4.21 h",
+   "33": "7.96 h",
+   "35": ">12 h, both 35-crossing partners killed at budget"
+  },
+  "partner_status": {
+   "6_1 (31)": "complete, no certificate",
+   "8_8 (33)": "complete, no certificate, 10023-link frontier preserved",
+   "8_9, 8_20 (33)": "EXCLUDED as fibered: adding a fibered ribbon J leaves K_0 and -K_1 unpaired among the fibered prime summands, so Miyazaki still gives non-ribbon and no certificate can exist",
+   "9_27 (34)": "EXCLUDED as fibered, same reason",
+   "9_41, 9_46 (34)": "with Astra, expect about 10 h each",
+   "10_3, 10_22, 10_87 (35)": "running at 24 h budgets"
+  },
+  "after_that": "the non-fibered ribbon knots of at most 10 crossings are then exhausted. The next partners are 11-crossing, giving 36-crossing sums, which the cost law puts at roughly 24-48 h each for one partner. The lane does not so much fail as run out of tractable partners."
+ },
+ "caveat": "None of this bears on whether D_{0,1} is slice. It bounds what this machine can search, nothing more."
+}

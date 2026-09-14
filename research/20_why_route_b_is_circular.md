@@ -165,6 +165,31 @@ enough to be a connected sum of fibered knots may simply not arise there. The
 claim is only that the filter has never been applied, that it costs little, and
 that unlike every other route-B lane a hit needs **no** concordance coincidence.
 
+## 4b. Where the Teichner lane ends
+
+Worth knowing, because it is close. The cost law is grossly superlinear in the
+crossing number of `D_{0,1} # J`: 4.21 h at 31, 7.96 h at 33, more than 12 h at
+35 with both 35-crossing partners killed at budget. So the cheap way to widen
+the lane is a smaller `D_{0,1}`. There is not one:
+`simplify('global')` plus backtracking holds at **25 crossings over 120 seeds**
+for `D_{0,1}`, and at **19 over 400 seeds** for `K_1`. Since
+`D_{0,1} = 6_3 # (-K_1)` is `6 + 19`, all of its size is `K_1`, and `K_1` does
+not shrink. Recorded in `results/teichner_lane_size_floor.json`; a negative
+search over those seeds, not a proof of crossing number.
+
+`6_1` is the smallest ribbon knot, so **31 crossings is the hard floor** for any
+Teichner sum on `D_{0,1}` — and that partner is done and negative. With the
+fibered partners excluded on the argument in section 3, what remains is
+`9_41`/`9_46` at 34, and `10_3`/`10_22`/`10_87` at 35. After those the
+non-fibered ribbon knots of at most 10 crossings are exhausted, and the next
+partners are 11-crossing, giving 36-crossing sums at roughly 24 to 48 h each.
+
+**The lane does not fail so much as run out of tractable partners**, and it is
+within a handful of runs of doing so. That matters for planning: if the
+remaining five come back negative, widening the box (more bands, longer bands)
+on `6_1` — the cheapest sum — is a better use of compute than climbing to
+11-crossing partners.
+
 ## 5. What this note does not claim
 
 It proves nothing about the slice-ribbon conjecture. Section 2 is an argument
