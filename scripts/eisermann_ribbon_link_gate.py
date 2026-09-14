@@ -107,13 +107,29 @@ def main(out_path):
     for name, n in (('L2a1', 2), ('L5a1', 2), ('L6a1', 2),
                     ('L6a5', 3), ('L7a1', 2), ('L8a21', 3)):
         rows.append(report(name, snappy.Link(name), n, False))
+    # The only two tabulated 2-component links (of 75 scanned) with
+    # null V = 1, so the only ones on which Theorem 2 is testable at all.
+    # Both components of each are unknots, so the product of determinants
+    # is 1.  Both VIOLATE Theorem 2, which is what gives it teeth.
+    # Neither is slice: linking number 4 and signature -6 / -4.
+    for name in ('L9n18', 'L9n19'):
+        r = report(name, snappy.Link(name), 2, False, [1, 1])
+        L = snappy.Link(name)
+        r['linking_matrix'] = str(L.linking_matrix())
+        r['signature'] = int(L.signature())
+        r['slice_ruled_out_by'] = 'linking number != 0 and signature != 0'
+        rows.append(r)
     result = {
         'source': ('Eisermann, The Jones polynomial of ribbon links, Geom. '
                    'Topol. 13 (2009) 623-660, arXiv:0802.2287'),
         'rows': rows,
+        # A ribbon link must satisfy BOTH theorems. A non-ribbon link must
+        # fail at least one -- not necessarily Theorem 1: L9n18 and L9n19
+        # satisfy Theorem 1 and are caught only by Theorem 2.
         'controls_pass': all(r['thm1_satisfied'] and r.get('thm2_satisfied')
                              for r in rows if r['ribbon'])
-                         and all(not r['thm1_satisfied']
+                         and all((not r['thm1_satisfied'])
+                                 or (r.get('thm2_satisfied') is False)
                                  for r in rows if not r['ribbon']),
         'vacuity': ('Theorem 1 cannot fire on a 2-component slice link: slice '
                     'with n>=2 gives Delta(L)=0, hence det(L)=0, hence '
@@ -122,6 +138,21 @@ def main(out_path):
                     '2-component link L_{3,1}, is vacuous as written.'),
         'live_tests': ['Theorem 2 (det V mod 32) on any slice link, L_{3,1} '
                        'included', 'Theorem 1 on a slice link with n >= 3'],
+        'theorem_2_has_teeth': ('Of 75 tabulated 2-component links only L9n18 '
+                                'and L9n19 have null V = 1, and both VIOLATE '
+                                'Theorem 2 (det V = 9 and 25 against a '
+                                'component-determinant product of 1). Neither '
+                                'is slice: linking number 4, signature -6 and '
+                                '-4. So Theorem 2 is a sharp constraint, not a '
+                                'formality.'),
+        'L_3_1_prediction': ('GST L_{n,1} is the square knot Q interleaved '
+                             'with V_n = T_{n,n+1} # mirror(T_{n,n+1}) (GST '
+                             'Figure 1, Section 7; slice in Section 8). Both '
+                             'components are of the form K # -K, hence ribbon, '
+                             'with det(Q) = 9 and det(V_3) = 9. So if L_{3,1} '
+                             'is ribbon then det V(L_{3,1}) = 81 = 17 mod 32. '
+                             'Theorem 1 is automatic here, so this single '
+                             'congruence is the whole test.'),
         'scope': ('Controls only. No slice link is tested here: GST L_{3,1} is '
                   'not in the repository and must be built from GST Figure 1 '
                   'before either live test can be run.'),
