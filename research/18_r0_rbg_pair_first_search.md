@@ -92,6 +92,7 @@ and with their not being slice at all. Do not read 72 as evidence for either.
 | K_G(0,0,0,-1,2,1) | 2 (seed 1002), `max_band_len = 5` | 24 | **72** | none | 4033.8 |
 | K_G(0,0,0,-1,2,1) | 3 (seed 1003), `max_band_len = 5` | 26 | **42** | none | 3765.0 |
 | K_G(0,0,0,-1,2,1) | 4 (seed 1004), `max_band_len = 5` | 24 | **44** | none | 2723.2 |
+| K_G(0,0,0,-1,2,1) | 5 (seed 1005), `max_band_len = 5` | 24 | **43** | none | 3329.0 |
 
 Records: `results/RBG_r0_KB_0_0_0_-1_2_1_bands2.json` and
 `results/RBG_r0_KG_0_0_0_-1_2_1_bands2_len5.json`. Same box as the one-band
@@ -113,9 +114,10 @@ two rows band for band, 71 and 32 survivors against 71 and 32, at 4169.5 s and
 2167.2 s. The `simplify('global')` randomness moves the crossing number around
 (the canonical diagram came back at 26 rather than 24) without moving the
 survivor count, which is a useful stability check on the search rather than on
-the knots. Diagrams 2 to 4 are new ground: 72, 42 and 44 survivors, no unknot. Running
-total for K_G at two bands is **261 survivors over five diagrams**, none of them
-a ribbon disk, every one carrying a stored frontier certificate.
+the knots. That run then **completed**: six diagrams, 71 + 32 + 72 + 42 + 44 + 43 =
+**304 plausibly-slice two-band survivors, no unknot**, 20190.0 s total, every
+one carrying a stored frontier certificate. This is a finished coverage
+statement for K_G in the length-5 two-band box, not a truncated one.
 
 Two things to carry forward. First, the frontier grows rather than collapses,
 on **both** sides of the pair: 13 one-band survivors on the canonical K_B
