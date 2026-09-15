@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Independent screen of the connected-prefix lemma's necessary condition.
 
-research/19: a two-component link L occurring as the top of a CONNECTED movie
+research/23: a two-component link L occurring as the top of a CONNECTED movie
 prefix of a concordance must be link-concordant to a split knot/unknot pair,
 hence (granting the concordance invariance of the generic Alexander rank, which
-research/19 flags as needing a primary source) must have generic Alexander
+research/23 flags as needing a primary source) must have generic Alexander
 module rank one, equivalently vanishing ORDER of the Alexander module.
 
 This computes that order directly from each stored link diagram, via the link
@@ -80,7 +80,7 @@ d = json.load(open(src))
 rec = {'date': datetime.datetime.now(datetime.timezone.utc).isoformat(),
        'source': src, 'source_sha256_16': hashlib.sha256(open(src,'rb').read()).hexdigest()[:16],
        'calibration': cal,
-       'meaning': ('Delta = 0 passes the necessary condition of research/19. It is not a '
+       'meaning': ('Delta = 0 passes the necessary condition of research/23. It is not a '
                    'concordance, not a splitness proof and not a counterexample.'),
        'zero': [], 'nonzero': 0, 'errors': []}
 t0 = time.time(); n = 0

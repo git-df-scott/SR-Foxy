@@ -1,0 +1,105 @@
+{
+ "references": {
+  "square_knot Q = 3_1 # -3_1": {
+   "crossings": 6,
+   "genus": 2,
+   "fibered": true,
+   "det": 9,
+   "total_rank": 9,
+   "tau": 0
+  },
+  "V_3 = 8_19 # -8_19": {
+   "crossings": 16,
+   "genus": 6,
+   "fibered": true,
+   "det": 9,
+   "total_rank": 25,
+   "tau": 0
+  }
+ },
+ "candidates": [
+  {
+   "source": "gst_L31_band_fission.json",
+   "component_crossings": [
+    6,
+    19
+   ],
+   "linking_number": 0,
+   "component_profiles": [
+    {
+     "crossings": 6,
+     "genus": 1,
+     "fibered": false,
+     "det": 9,
+     "total_rank": 9,
+     "tau": 0
+    },
+    {
+     "crossings": 19,
+     "genus": 5,
+     "fibered": true,
+     "det": 9,
+     "total_rank": 41,
+     "tau": 0
+    }
+   ],
+   "matches_L31": false
+  },
+  {
+   "source": "gst_L31_band_fission.json",
+   "component_crossings": [
+    6,
+    6
+   ],
+   "linking_number": 0,
+   "component_profiles": [
+    {
+     "crossings": 6,
+     "genus": 1,
+     "fibered": false,
+     "det": 9,
+     "total_rank": 9,
+     "tau": 0
+    },
+    {
+     "crossings": 6,
+     "genus": 2,
+     "fibered": true,
+     "det": 9,
+     "total_rank": 9,
+     "tau": 0
+    }
+   ],
+   "matches_L31": false
+  },
+  {
+   "source": "gst_L31_fission_tw3.json",
+   "component_crossings": [
+    11,
+    9
+   ],
+   "linking_number": 0,
+   "component_profiles": [
+    {
+     "crossings": 11,
+     "genus": 4,
+     "fibered": true,
+     "det": 9,
+     "total_rank": 15,
+     "tau": -2
+    },
+    {
+     "crossings": 9,
+     "genus": 1,
+     "fibered": false,
+     "det": 9,
+     "total_rank": 9,
+     "tau": 0
+    }
+   ],
+   "matches_L31": false
+  }
+ ],
+ "any_match": false,
+ "scope": "Genus + fiberedness + determinant is strong but not a proof of knot type. A positive still needs the R-link property: 0-surgery on both components giving #2(S^1 x S^2)."
+}

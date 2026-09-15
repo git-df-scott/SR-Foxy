@@ -61,7 +61,7 @@ slice, hence `K_0` not concordant to `K_2`, killing that pair outright.
 
 ## 4. The untried crossing that needs files outside this clone
 
-`research/20` §4. An `r = 0` RBG pair has diffeomorphic 0-traces, so a ribbon
+`research/24` §4. An `r = 0` RBG pair has diffeomorphic 0-traces, so a ribbon
 disk on one side certifies the other slice **with no inherited ribbon disk**.
 The ledger uses this only to generate fresh Tier-A candidates. But if the
 partner **already carries a non-ribbon certificate**, a ribbon disk on one side
@@ -79,15 +79,31 @@ those that are connected sums of prime fibered knots with a common irreducible
 Alexander polynomial that do not pair, band-search the partner. Note it inverts
 the usual taste, since MP and DG both steer toward hyperbolic knots.
 
-## 5. Astra's lemma still needs one citation
+## 5. Astra's lemma needs one citation *registered*, not found
 
-`research/19` §5. The step "generic Alexander rank is a link-concordance
+`research/23` §5. The step "generic Alexander rank is a link-concordance
 invariant" is asserted, not cited, and is not multivariable Fox-Milnor. Every
 rank-based exclusion is conditional until a primary source is in the ledger.
 
-Lower priority than it looked: §8 of the same note shows the screen is
-**exactly redundant** with research/17's existing filter on J25533 (set
-equality, band for band), so nothing currently rests on it.
+**Correction, added on the 14-15 September fold.** The source is not missing.
+`research/19` carries it — Tim Cochran and Shelly Harvey, *Homology and derived
+series of groups*, Geometry & Topology 9 (2005), 2159-2191, Corollary 3.3 and
+the following paragraph, pp. 2169-2170 — and `research/20` §1(2) records it
+re-checked on 14 September 2026 UTC. `research/23` was branched at `0c535ca`,
+before either landed, so its author could not see them; §5 is left standing
+rather than edited, per this repository's convention on retractions.
+
+What is actually open is narrower: **Cochran-Harvey has no `[Sxx]` row in
+`SOURCES.md`.** The verification register is where this repository decides what
+counts as cited, and a load-bearing theorem appearing only inside two research
+notes is not registered. Adding that row, with theorem number and hypotheses,
+is a ten-minute job. Note the citation covers the *algebraic* half only: the
+geometric completion lemma still requires an actual connected annulus and a
+fixed connected prefix.
+
+Lower priority than it looked for a second reason too: §8 of `research/23`
+shows the screen is **exactly redundant** with research/17's existing filter on
+J25533 (set equality, band for band), so nothing currently rests on it.
 
 ## 6. Search dimensions opened but barely explored
 
@@ -109,7 +125,7 @@ or below saturation. That is a straightforward extension nobody has run.
 
 ## 7. The structural obstacle, unresolved
 
-`research/20`. Every route-B non-ribbon certificate (Miyazaki fibered pairing,
+`research/24`. Every route-B non-ribbon certificate (Miyazaki fibered pairing,
 Miyazaki Example 2, Hom-Park) reduces to the same missing object: **a pair of
 distinct, concordant, fibered knots**. Satellite constructions cannot
 manufacture one, because satelliting a ribbon concordance yields a ribbon
@@ -157,4 +173,4 @@ movie before it is anything at all.
 
 And one correction that cost a published claim: `Link.simplify('global')`
 **deletes split unknot components**, which inverts any test whose intended pass
-is a split knot-plus-unknot pair. See `research/19` §8.
+is a split knot-plus-unknot pair. See `research/23` §8.

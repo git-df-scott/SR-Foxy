@@ -1,5 +1,11 @@
 # Audit of the connected genus-zero prefix lemma
 
+> **Renumbered on fold, 14 September 2026.** This note was published as
+> `research/19` on branch `claude/counterexample-search-ungpe2` while `main`
+> independently published a different note under that number. Its content is
+> unchanged.
+
+
 14 September 2026. Requested by Astra, authorized by Scott. **No counterexample
 found.** This note audits a proposed lemma, states where it is correct, where it
 is stronger than claimed, and identifies the one load-bearing step that is

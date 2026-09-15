@@ -1,3 +1,583 @@
+# Handoff for Astra — 15 September 2026, everything folded into one place
+
+**No counterexample found.** Nothing below changes that, and nothing below is a
+new obstruction to slice-ribbon.
+
+What is new is bookkeeping: this branch carries every line of work that exists
+in this repository. It folds #2 (`claude/pensive-hopper-3rh6p4`) and #4
+(`claude/inspiring-cray-3mvttt`), and merges `main`, which merged #3
+(`claude/counterexample-search-ungpe2`) itself at 13:55Z on 15 September and
+then added a further session on top. Read this section before the historical
+handoffs below it; they are each true about their own session and none of them
+is true about the whole board.
+
+**Updated 15 September.** `main` moved after this fold was first written, and
+#4 gained four more commits. Three things below changed as a result and are
+marked **[15 Sep]**: the note numbering is now genuinely ambiguous *on `main`*
+and fixed here; the Teichner planning advice in §4 was **wrong** and is
+corrected; and `UNFINISHED.md` is now the live list of open threads — read it
+alongside this, not instead of it.
+
+## 0. Read these first
+
+| you want | read |
+|---|---|
+| why route B is the only non-circular construction, and where it runs out | `research/24_why_route_b_is_circular.md` |
+| why route B is *strictly harder* than the conjecture | `research/22_where_a_counterexample_can_come_from.md` §2 |
+| the first invariant that separates the Abe-Tagami family | `research/21_branched_double_covers.md` |
+| the audit of your own prefix-annulus lemma, and a retraction | `research/23_prefix_annulus_lemma_audit.md` §3, §8 (read §5 with §3 of this handoff) |
+| the constructive frontier on D01 | `research/20_next_construction_plan.md` (yours, unchanged) |
+| **what is still open and running** | `UNFINISHED.md` **[15 Sep]** |
+| why most "wider" band searches here were no-ops | `results/band_generator_saturation.json` **[15 Sep]** |
+
+## 1. Renumbering, because two sessions used the same numbers
+
+PR #3 was opened against `0c535ca` and published `research/19_prefix_annulus_lemma_audit.md`
+and `research/20_why_route_b_is_circular.md` while `main` independently
+published `research/19_link_concordance_completion_gate.md` and
+`research/20_next_construction_plan.md`. Git did not conflict — different
+filenames — but the numbering did. On fold, PR #3's two notes were renumbered:
+
+* `research/19_prefix_annulus_lemma_audit.md` → **`research/23_...`**
+* `research/20_why_route_b_is_circular.md` → **`research/24_...`**
+
+Your 19 and 20 are untouched and keep their numbers. References in
+`scripts/alexander_rank_screen.py` and `SESSION_2026-09-14.md` were updated to
+match. References to `research/20` in `scripts/teichner_mirror_partners.py` and
+in the `teichner_mirror_*.json` scope strings point at *your* note 20 (the
+mirror-partner lead) and are correct as written — do not "fix" them.
+
+`research/09` is duplicated as well (`09_full_ring_floer_audit.md`,
+`09_turaev_grid.md`). That predates all of this and was left alone.
+
+The next free number is **25**.
+
+**[15 Sep] This got worse before it got better.** When `main` merged #3 on 15
+September it took that branch's files as they stood, so **`main` itself now
+carries two notes numbered 19 and two numbered 20**. That ambiguity is live in
+its text: `UNFINISHED.md` §5 and §7 say "research/19" and "research/20" meaning
+the prefix-annulus and route-B notes, while the historical `HANDOFF` sections
+say the same strings meaning the completion-gate and construction-plan notes.
+
+This branch resolves it. Git's rename detection carried the 23/24 renames
+through the merge, so no duplicates came back, and the references in `main`'s
+new files are repointed: `UNFINISHED.md` §5, §7 and its standing cautions, and
+`SESSION_2026-09-15.md`'s header and strategic picture. References that mean
+`main`'s own notes are deliberately left alone.
+
+## 2. The one result that could have invalidated other work, and does not
+
+`Link.simplify('global')` **deletes split unknot components.** A trefoil with a
+split unknot has Alexander-module order 0 and two components; after
+`simplify('global')` it is the bare trefoil, order `a^2 - a + 1`, one component.
+Any test whose intended pass is "split knot plus unknot" is inverted by this.
+
+This produced a published false claim — that both of research/17's survivors on
+J25533 fail a necessary condition — which is **retracted** in
+`research/23` §8 rather than edited away. Corrected: 29 of 61 first-stage links
+have positive rank, the known-good control `1918_0_-1` passes, and **both
+research/17 survivors pass**. Nothing on 25533 is eliminated. On that target the
+rank screen is exactly redundant with your component filter, 29 and 29.
+
+I audited `main` for the same defect. Five scripts call `simplify('global')`:
+`audit_failed_identifications.py`, `concordance_search.py`,
+`teichner_bounded_probe.py`, `teichner_certify.py`, `teichner_mixed_frontier.py`.
+**None of them is affected.** The three Teichner scripts simplify a connected
+sum, which is a knot, so there is nothing to delete.
+`concordance_search.py` reads `unlinked_unknot_components` immediately after,
+with a comment saying exactly why. `teichner_mixed_frontier.py` measures its
+ranks at line 58 and simplifies at line 60, in that order. That is the right
+order and it should stay that way.
+
+Your rank-zero result on the 1,092 normalized matches also reproduces
+independently, by link-exterior Alexander order rather than triangulation
+groups: 1,092 examined, 0 positive rank, 0 errors, identical before and after
+the fix, because those links are certified nonsplit and carry no unknot
+component to delete.
+
+The lesson is the calibration, not the target: a screen whose intended pass is
+"split knot plus unknot" must be calibrated on a link that has one, and must
+carry a positive control drawn from a movie known to exist. Both are now
+enforced in `scripts/alexander_rank_screen.py`, which refuses to report if
+either fails.
+
+## 3. The open item on your lemma: mostly closed, and PR #3 did not know it
+
+`research/23` audits the connected planar prefix lemma. The geometry is
+correct. Genus zero is redundant given connectedness. One configuration — a
+complementary annulus joining the two components of `L`, with a disk bounding
+`K'` — is excluded only by connectedness of the concordance and not by the
+Euler count, so the statement needs that said out loud. Those three findings
+stand.
+
+Its §5 does not. **`research/23` §5 says the load-bearing step, "generic
+Alexander rank is a link-concordance invariant", is asserted rather than cited.
+That was true when PR #3 was written and it is no longer true.** Your
+`research/19` carries the primary source — Tim Cochran and Shelly Harvey,
+*Homology and derived series of groups*, Geometry & Topology 9 (2005),
+2159–2191, Corollary 3.3 and the following paragraph, pp. 2169–2170 — and
+`research/20` §1(2) records it re-checked on 14 September 2026 UTC. PR #3 was
+branched at `0c535ca`, before either landed, so its author could not see them.
+I have left §5 standing in the note rather than editing it, on this
+repository's own convention about retractions, but **read it with this
+paragraph next to it.**
+
+**[15 Sep]** `UNFINISHED.md` §5, written after PR #3 merged, repeated the same
+"asserted, not cited" claim. It now carries this correction inline, and its
+heading is changed from "still needs one citation" to "needs one citation
+*registered*, not found".
+
+What is genuinely still open is smaller: **Cochran-Harvey has no `[Sxx]` entry
+in `SOURCES.md`.** The verification register is where this repository decides
+what counts as cited, and a load-bearing theorem that only appears inside two
+research notes is not registered. Adding that row, with theorem number and
+hypotheses, is a ten-minute job and it is the cheapest open item here.
+
+Note also that the citation covers the *algebraic* half only. The geometric
+completion lemma still requires an actual connected annulus and a fixed
+connected prefix, as `research/20` says.
+
+Terminology, so it is not rediscovered a third time: SnapPy's
+`Manifold.alexander_polynomial()` on a link exterior returns the **order of the
+Alexander module**, not the classical multivariable `Δ_L`. Vanishing still means
+positive module rank, which is the condition actually wanted. PR #3 read the
+Whitehead link's `a^2 b^3 - a b^2 - a b + 1` as violating Torres; your
+`research/20` §1(3) answers that this is a meridian-basis mismatch — the
+meridians abelianize as `ab` and `ab^2`, and in those variables it factors
+correctly. **Your reading is the right one.** The practical conclusion is the
+same either way, so the terminology correction in `research/23` §5a is
+harmless, but it is not a correction.
+
+## 4. Where each lane stands after the fold
+
+### Teichner lane — the only constructive lane, and it is running out of partners
+
+`D_{0,1}` is certified non-ribbon, so a verified ribbon certificate for
+`D_{0,1} # J` with `J` ribbon is a counterexample outright, with nothing left to
+prove. That is why the compute goes here.
+
+Measured cost, same box throughout (`max_bands = 2`, `max_band_len = 5`):
+
+| partner | sum crossings | wall time | finished | result |
+|---|---:|---:|---|---|
+| `6_1` | 31 | 4.21 h | yes | no certificate |
+| `8_8` | 33 | 7.96 h | yes | no certificate, 10,023-link frontier preserved |
+| `10_3` | 35 | > 12 h | **no** | killed at budget, supports no conclusion |
+
+**Cost roughly doubles per two crossings. Do not extrapolate linearly.** Budget
+a 35-crossing sum at 24 h, not 5. The two earlier 5 h kills left *no record at
+all*; `teichner_certify.py` now writes an `in_progress` heartbeat before the
+long call, which is the only reason the `10_3` overrun exists as a file.
+
+`6_1` is the smallest ribbon knot, so **31 crossings is the hard floor** for any
+Teichner sum on `D_{0,1}`, and that partner is done and negative. `D_{0,1}`
+itself will not shrink: `simplify('global')` plus backtracking holds at 25
+crossings over 120 seeds, and `K_1` at 19 over 400 seeds, and since
+`D_{0,1} = 6_3 # (-K_1)` is `6 + 19`, all of its size is `K_1`
+(`results/teichner_lane_size_floor.json`; a negative search, not a proof of
+crossing number).
+
+The fibered partners `8_9`, `8_20`, `9_27` must **not** be run: adding a fibered
+ribbon `J` leaves `K_0` and `-K_1` unpaired among the fibered prime summands, so
+Miyazaki still returns non-ribbon for the sum and no certificate can exist.
+
+What remains is `9_41`/`9_46` at 34 (yours, and no result came back) and
+`10_3`/`10_22`/`10_87` at 35, of which `10_22` and `10_87` were killed by
+container reclamation and never rerun. After those, the non-fibered ribbon
+knots up to 10 crossings are exhausted and the next partners are 11-crossing,
+i.e. 36-crossing sums at 24-48 h each.
+
+**[15 Sep] I gave you bad advice here and am withdrawing it.** The first
+version of this section said that if the remaining partners come back negative,
+*widening the box* on `6_1` beats climbing to 11-crossing partners. The
+instinct was right; the parameter was wrong, and `results/band_generator_saturation.json`
+shows why:
+
+> **`max_band_len` saturates.** On `D_{0,1} # 6_1` at `paths='shortest'`,
+> `max_twists=2`, the band count is 6,175 at length 4, 9,301 at 5, 10,145 at 6
+> — and *exactly* 10,145 at length 8 and at length 14. Past 6, raising the
+> length adds no bands at all.
+
+So "widen the box" in the sense this campaign has always meant it — longer
+bands — is a **no-op**, and the historical runs recorded at "length ≤ 8" and
+"length ≤ 10" explored nothing beyond length 6. One run of that session at
+length 14 was an exact duplicate of its length-8 sibling and was killed once
+measured.
+
+Three dials are genuinely untouched, and these are what "widening" should mean
+from now on:
+
+* **`paths='simple'`** — about **75x** the band set at saturation on the
+  control. Note it is *not* a superset of `shortest` at small lengths, so
+  neither subsumes the other and both are needed.
+* **`max_twists`** — no saturation, roughly linear (tw=4 about 1.8x tw=2,
+  tw=6 about 2.5x), and pinned at 2 in **every run this campaign has done**.
+* **diagram choice** — one diagram per Teichner run, always. Four shaken seeds
+  of the same 31-crossing `D_{0,1} # 6_1` give 10,071 / 10,271 / 10,356 /
+  11,664 bands: same knot, same box, different band sets.
+
+`teichner_certify.py` now exposes all three. One run of each was launched and
+**none finished** — see `UNFINISHED.md` §1. The same three dials have never
+been applied to the r = 0 RBG sweeps either, whose 304 and 333 two-band
+survivors were all `shortest`, twists 2, at or below saturation.
+
+**Operational rule from the same session:** observed container lifetime is
+about 26 h, so a 24 h budget does not fit inside one container once startup and
+other work are counted. Budget long searches at **20 h or less, and prefer a
+box that finishes to a box that is merely larger.** Four searches with 24 h
+budgets died mid-flight with zero partner runs completed; only the heartbeat in
+`teichner_certify.py` kept a record of them at all
+(`results/container_reclamation_2026-09-15.json`). Also: the rebuilt container's
+first K_B calibration reads 2.96 s, which is cold-start only — repeated runs
+settle at 0.52-0.71 s. Do not re-budget from a cold first measurement.
+
+One calibration worth not re-deriving, in `TOOLING.md`: `max_bands` is **not**
+the fusion number and is **not** bounded below by the genus. One band reaches
+the unknot for every small ribbon knot through genus 3, because the search
+recognises ribbon links through its cache. So the tempting argument that a
+2-band search on a genus-6 connected sum is futile by construction is **false**,
+and the existing 2-band runs are genuine coverage. That hypothesis was raised
+and discarded before anything was written on its strength.
+
+Mirror partners (PR #4): both chiralities of all seven partners were swept at
+`max_band_len` 4, 6 and 8 with per-case caps of 60/120/900 s. `certified_slice`
+is false everywhere. A timed-out case is **UNKNOWN, never a negative**, and
+`teichner_mirror_partners_interrupted_cap420.json` is a preserved interrupted
+attempt, not coverage. Your caution stands: both `6_1` and `D_{0,1}` are chiral
+by Jones, so do not drop mirrored partners by assuming amphichirality.
+
+### r = 0 RBG lane — new ground, first searches complete, no hit
+
+The one super-special `r = 0` pair outside the Dunfield-Gong census,
+`K(0,0,0,-1,2,1)`, recorded in the ledger as never searched. Now searched
+(`research/18`):
+
+| search | box | survivors | unknot |
+|---|---|---:|---|
+| `K_G`, 1 band, 6 diagrams | | 72 | none |
+| `K_B`, 1 band, 6 diagrams | | 72 | none |
+| `K_G`, 2 bands, 6 diagrams | len 5, complete, 20,190 s | **304** | none |
+| `K_B`, 2 bands, 6 diagrams | len 5, complete, 38,345 s | **333** | none |
+
+Coverage of those boxes and nothing more. Neither knot is known to be slice, so
+a negative is the expected outcome and carries no information either way.
+
+The structural fact worth carrying: **the frontier grows**, 13 to 60 from one
+band to two. For `K_DG = 18nh00000601` the comparable search left only trivial
+bands, which is why no two-band search could start there. This lane has real
+input, and that is the whole reason to spend on it.
+
+**[15 Sep] The strongest known killer does not fire.** Rasmussen's `s` is what
+Nakamura used to kill Manolescu-Piccirillo's five topologically slice knots
+(arXiv:2203.14270) and, via Dunfield-Gong Thm 5.10, 25 further RBG knots, and
+`research/03` records it as obstructing both `K_B` and `K_G`. It had **never**
+been computed for any RBG knot here — KnotJob was only ever pointed at
+Abe-Tagami. Now it has been, for both r = 0 pairs:
+`s_Q = s_{F2} = s_{F3} = 0` on `MP_KB/KG(0,0,0,-1,2,1)`, and `s_Q = 0` on
+`MP_KB/KG(0,0,0,1,2,-1)` (`results/RBG_r0_s_invariant.json`). Two-sided
+controls: the positive trefoil fires at 2, ribbon `6_1` returns 0. A control
+that only confirmed `s = 0` would be worthless here, since `s = 0` is the
+outcome being hunted.
+
+Read this correctly: **`s = 0` is survival, not evidence.** It means the
+cheapest available obstruction fails to kill these knots, which is what a live
+candidate looks like — and what a slice knot looks like, and what plenty of
+non-slice knots look like too.
+
+`research/24` §4 proposes the crossing nobody has tried: an `r = 0` pair has
+diffeomorphic 0-traces, so `K_B` ribbon **and** `K_G` certified non-ribbon is a
+counterexample **with no concordance coincidence needed anywhere** — the only
+route on this board that escapes the missing-object problem of §1 of that note.
+Two blockers, both recorded rather than worked around: all ten stored MP
+exteriors are hyperbolic, hence prime and not satellites, so none can carry a
+Miyazaki certificate; and the MP DT-code transpiler (`../mma.py`, `../mp_auto.py`)
+lived beside the original macOS clone and is in no container here. The filter is
+cheap and has never been applied. It is not a theorem that the lane is
+non-empty.
+
+### Branched double covers — genuinely new data, not an obstruction
+
+`Σ₂(K_0) = L(13,5)` (`6_3` is the two-bridge knot `S(13,5)`; `π₁ = <a | a^13>`).
+`Σ₂(K_1)` has three subgroups of index 5, so its `π₁` is not cyclic and the two
+are not homeomorphic; `Σ₂(K_1) ≇ Σ₂(K_2)` as well. The separating invariant is
+low-index subgroup enumeration — exact and combinatorial, which matters because
+SnapPy finds no positively oriented solution for either target and verified
+volume fails on both. Controls `3_1`, `4_1`, `6_3` and the granny knot all
+return their known answers.
+
+**This is the first invariant in this repository that separates members of the
+Abe-Tagami family. It is NOT a concordance obstruction and it changes no ledger
+status.** Distinct branched double covers say nothing about `[K_0] = [K_1]`.
+
+Construction warning: build `Σ₂` by `(2,0)` orbifold filling *then* the cyclic
+double cover, letting the cover carry the induced filling. Taking the cover
+first and guessing a slope fails silently — `H_1` of the cover is `Z/13 + Z`
+with the longitude lift torsion, so eighteen different short slopes all return
+`Z/13` and homology cannot pick the right one. Also: Regina's manifold
+recognition from a SnapPy triangulation string drops the Dehn fillings and
+returns coincident isosigs for non-homeomorphic manifolds. Do not use that path.
+
+The gate this opens, offered for a second reader and **not asserted**
+(`research/21` §3): `D01` smoothly slice forces the thirteen d-invariants of
+`Σ₂(K_1)` to equal `d(L(13,5)) = {0, ±2/13, ±2/13, ±6/13, ±6/13, ±8/13, ±8/13}`
+exactly. A mismatch proves `[K_0] ≠ [K_1]` and closes the primary lane. That is
+a finite falsifiable test on one 21-tetrahedron manifold, which is a sharper
+target than another band box. The cheap route to the other half is closed: forty
+randomised diagrams of `K_1` (rank-9 Goeritz) and `K_2` (rank-18) are all
+indefinite, so no definite filling and no lattice shortcut. It needs real
+Heegaard Floer for a closed hyperbolic QHS³ and **no tool in the recorded
+environment does this.** Finding or building one is a concrete task.
+
+### WS5 is vacuous as written — close it by argument, not by running it
+
+`CAMPAIGN_PLAN.md` WS5 proposes computing `null V(L_{3,1})` for GST's slice
+link, "one afternoon of computation; expected to vanish". It is worse than
+expected to vanish: it **cannot fire**. A slice link with `n ≥ 2` has `Δ(L) = 0`
+(Eisermann, Remark 3.6), hence `det(L) = 0`, hence `null V(L) ≥ 1`; Lemma 1 caps
+`null V(L) ≤ n-1`. At `n = 2` the bounds meet, so `null V = 1 = n-1` holds
+automatically for *every* 2-component slice link. `L_{3,1}` has two components.
+
+Still live: Eisermann **Theorem 2** on `L_{3,1}`
+(`det V(L) ≡ det(K_1)det(K_2) mod 32`, not implied by `Δ(L) = 0`), and
+**Theorem 1 on a slice link with `n ≥ 3`**, where slice gives only `null V ≥ 1`
+while ribbon demands `n-1 ≥ 2` and the bounds no longer meet. Both need
+`L_{3,1}`, which **is not in this repository**: Regina's `ExampleLink.gst()`
+gives the 48-crossing band-sum *knot* `B_{3,1}`, and a band sum cannot be
+reversed without its band. Building `L_{n,k}` from GST Figure 1 is the gating
+task for the whole link lane.
+
+**[15 Sep] The test is now pre-registered, and Theorem 2 has teeth.** Of 75
+tabulated 2-component links scanned, only `L9n18` and `L9n19` have `null V = 1`
+at all; every other fails Theorem 1 outright. On both of those, Theorem 2
+**fails** — `det V = 9` and `25` against a component-determinant product of 1.
+Neither is slice (linking number 4, signatures −6 and −4), so that is
+calibration rather than a candidate, but it shows a link can pass Theorem 1 and
+be caught only by Theorem 2, which is exactly the shape of the `L_{3,1}` test.
+
+From GST Figure 1 and §7: `L_{n,1}` is the square knot `Q` interleaved with
+`V_n = T_{n,n+1} # mirror(T_{n,n+1})`, components algebraically unlinked and
+0-framed, and §8 proves the link slice. Both components are `K # −K`, hence
+ribbon, with `det(Q) = det(V_3) = 9`. So the whole test is one congruence:
+
+> **if `L_{3,1}` is ribbon then `det V(L_{3,1}) ≡ 81 ≡ 17 (mod 32)`.**
+
+A different residue makes `L_{3,1}` slice and not ribbon.
+
+**The blocker is honest and it is a figure.** GST describe each summand as "an
+n-stranded spiral, with a full ±1 twist added relative to the plane of the
+paper", interleaved. That is a picture, not a combinatorial description, and
+guessing it risks a *false* counterexample — the worst available outcome.
+Diao-Pan-Yan (arXiv:2604.17737) implement an algorithm for these links but
+defer the details and publish no PD codes, braid words or data. Recovering
+`L_{3,1}` as a band fission of the GST knot was tried instead: all three
+nominations are **rejected** against the genus/fiberedness/determinant profile
+of `Q` and `V_3`, and widening to length 8 and twists 3 adds none
+(`results/L31_candidate_verification.json`, `results/gst_L31_*`). So the gating
+task is still reading GST Figure 1 itself.
+
+Honest limit: a link-level counterexample would not settle Fox's Problem 25,
+which is about knots. It would be the first slice-not-ribbon object of any kind.
+
+The three-line argument in `research/22` §3.1 should be checked by a second
+reader before WS5 is struck from `CAMPAIGN_PLAN.md`. I have not struck it.
+
+### J149 — terminated, and the reason generalises
+
+Four disjoint shards, 28,520 first bands, 5,300 linking rejections, 1,355 rank
+rejections, 433 intermediates, 858,930 second bands, 4 endpoints — **every one
+of them K0**, the saved positive control, recovered once per shard. That is the
+search recognising a movie already in the repository. Every `shard*.json` has
+`complete: false`; they are partial coverage records, not completed runs.
+
+It was stopped on purpose, and the reason is worth generalising: `research/11`
+establishes that K0 and K1 share an involutive knot-Floer local equivalence
+class, and the filters steering this search — HFK rank injection, the Zemke
+chain-retraction condition, the quotient chain maps — **all factor through that
+class**. So the guidance is blind to the distinction it is trying to resolve: it
+can neither reject a wrong candidate for the right reason nor confirm a right
+one. Enlarging the box does not repair that. Separately, K0 and K1 are not
+related by bands at all — they are the `(n+1,n)` and `(n-1,n)` fillings of the
+single 3-cusped exterior in `data/knots/AbeTagami_L_63_c1_c2.json`, and this
+search discards that structure to shake bands on the filled diagrams.
+
+Not a proof that no common successor exists. Not evidence that one does.
+
+### `graph-reconstruction/` — a separate project living in this repo
+
+PR #2 also carried a self-contained side project on the Kelly-Ulam
+reconstruction conjecture: a nauty-backed exact deck engine (canonical forms,
+not hashes, so a reported collision is real), exhaustive deficit measurements
+through `n = 9`, and a reading of Ivanov [arXiv:2608.11930] separating
+common-card *fraction* from *absolute deficit* — the fraction tends to `1 - 1/r`
+while the deficit diverges. **No counterexample found; Kelly-Ulam stands.**
+Cai-Furer-Immerman pairs share 0 cards out of `n` over eight bases, so that axis
+is closed. `python-igraph 1.0.0`'s `canonical_permutation()` is broken and must
+not be used for this.
+
+It is unrelated to slice-ribbon and it is folded in because it existed, not
+because it belongs. **If you would rather it lived in its own repository, say
+so and it lifts out cleanly** — it is one self-contained directory with no
+imports into the knot code.
+
+Two dangling references in it, found on fold and **not** papered over.
+`graph-reconstruction/RESULTS.md` and `graph-reconstruction/deck.py` both point
+at `tests/test_deck.py`, which was never committed — the only file in `tests/`
+is `test_research_audit.py`. So the claim that python-igraph 1.0.0's
+`canonical_permutation()` is broken has no test in this repository backing it;
+it is an assertion in a comment. And the reproduce block's `python3
+margin.py_driver` is not a runnable command. I did not invent a test file to
+close the gap. Either write the test or strike the pointers.
+
+## 5. What I did not do
+
+* **No new mathematics.** This session read, folded, renumbered and audited. The
+  only original work is the `simplify('global')` audit of `main` in §2, the
+  numbering resolution in §1, and the correction to `UNFINISHED.md` §5.
+* **[15 Sep] I did not run any of the three untouched dials**, or restart any of
+  the four Teichner searches that container reclamation killed. They are listed
+  in `UNFINISHED.md` §1 and they stay listed.
+* **No search was started, stopped or resumed**, and no running job was touched.
+* **No ledger status changed.** `CANDIDATE_LEDGER.md`, `OBSTRUCTION_MATRIX.md`
+  and their CSVs are untouched, including for the branched-cover separation,
+  which is not a concordance fact.
+* **WS5 is still in `CAMPAIGN_PLAN.md`**, unstruck, pending the second reader.
+* **Nothing was verified by re-running it.** Every number in §4 is read from
+  the committed result files and the notes, not recomputed. Neither `snappy`
+  nor `pytest` is installed in this container and I did not build the
+  environment, so `tests/test_research_audit.py` was **not** run. What I did
+  check: all three merges are conflict-free, every script added by the fold
+  byte-compiles, the one auto-merged file (`scripts/two_fission_target.py`,
+  where `main`'s overpassing-component fix and PR #2's sharding touch different
+  hunks) reads correctly after the merge, and every path referenced from
+  `README.md`, `MANIFEST.md` and this handoff resolves — except the two
+  dangling `graph-reconstruction` pointers called out above.
+* No budget was consumed on the shared Codex meter and **nothing here authorises
+  a restart.**
+
+## 6. Ranked next actions
+
+Reordered **[15 Sep]** now that saturation is known: the cheap repeat of an
+already-run box is gone, and two items moved up because the dials are new.
+
+1. **Turn one of the three untouched dials on a box that already finished.**
+   `paths='simple'` on `D_{0,1} # 6_1` is the single highest-value run
+   available — about 75x the band set, on the cheapest sum, in a lane where a
+   hit is a proof. Budget ≤ 20 h. Then `max_twists`, then diagram seeds. Apply
+   the same three to the r = 0 sweeps, which have never seen any of them.
+2. **Finish the four killed Teichner searches** (`UNFINISHED.md` §1) and the
+   partners that never ran: `9_41`, `9_46`, `10_22`, `10_87`. Not at 24 h —
+   see the container rule in §4.
+3. **Register Cochran-Harvey in `SOURCES.md`** with a `[Sxx]` number, theorem
+   number and hypotheses (§3). Ten minutes, and it is what makes the
+   rank-based exclusions cited rather than merely correct.
+4. **Compute `s(D_{0,2})` on a bigger machine.** It failed twice on memory at
+   47 crossings (`-Xmx3g` and `-Xmx5g` with four band searches resident on a
+   15 GB container) and `s(D_{1,2})` at 60 was never attempted. `s(K_2) = 0` did
+   land. A nonzero `s(D_{0,2})` proves `D_{0,2}` not slice, hence `K_0` not
+   concordant to `K_2`, killing that pair outright. That is a real kill
+   condition, not another coverage run.
+5. **Read GST Figure 1 and build `L_{3,1}`.** Gates the only computable
+   ribbon-only obstruction family in the catalog, and the test is now a single
+   pre-registered congruence (§4). Do not guess the spiral.
+6. **Find or build a Heegaard Floer tool for a closed hyperbolic QHS³** and run
+   the `d(Σ₂(K_1))` test. Finite, falsifiable, and it closes the primary lane
+   either way.
+7. **Get a second reader on `research/22` §3.1** before striking WS5.
+8. **Apply the `research/24` §4 filter** — prime-summand decomposition and
+   fiberedness on `r = 0` realizations, selecting the side that is already
+   certified non-ribbon. Needs `../mma.py` and `../mp_auto.py`, which no
+   container here has.
+9. Re-audit any older script that simplifies a link before measuring an
+   invariant. I covered `scripts/`; I did not audit the notebooks or anything
+   outside this repository.
+
+One lead nobody has picked up, from `UNFINISHED.md` §8 and worth repeating: the
+**Abe-Tagami monodromy is explicit** — `t_{c'_1}^{-n} t_{c'_2}^{n} t_d^{-1} t_b
+t_c^{-1} t_a` on a genus-2 once-punctured fiber, in
+`data/knots/AbeTagami_K_n_NOTES.json` — and has never been used
+computationally in this repository. Whether it gives any purchase on
+concordance is unknown, which is exactly why it is interesting.
+
+## 7. Standing cautions, unchanged
+
+Every search here is coverage, never an obstruction. A timed-out case is
+UNKNOWN, never a negative, and **an unfinished search supports no conclusion at
+all**. A "wider" box is not wider if the generator has saturated. `s = 0` is
+survival, not evidence. Component Jones equality does not identify a knot. A
+polynomial coefficient distance is a sorting heuristic and nothing else. Passing
+a determinant filter proves no sliceness. Positive endpoints need oriented
+peripheral identification, orientation checks and a replayable movie before they
+are anything at all. Never treat a deficient finite specialization as generic
+rank. For K_G and GST, sliceness and global non-ribbonness are separate
+obligations. The explicit Hom-Park member is already obstructed from sliceness
+and should not be reopened.
+
+---
+
+## Historical session checkpoints — all superseded by the fold above
+
+Each section below is true about its own session and about no other. Branch
+names, schedules, budgets and "work remains on `main`" statements in them are
+historical; every branch named below is now merged into `main` and deleted.
+
+# Session checkpoint — 14 September 2026, PR #4 (branched double covers)
+
+**No counterexample found.** Read `research/21_branched_double_covers.md`,
+`results/branched_double_cover_gate.json` and `results/lens_d_invariants.json`.
+Work is on branch `claude/inspiring-cray-3mvttt`; `main` was not touched and no
+running job was interrupted.
+
+This session supplied the branched-cover data every previous handoff recorded as
+missing. It is new data, not progress toward a disk.
+
+**Rigorous new facts.** Sigma_2(K_0) = L(13,5) (6_3 is the two-bridge knot
+S(13,5); computed pi_1 = <a | a^13>). Sigma_2(K_1) has three subgroups of
+index 5, so its pi_1 is not cyclic and Sigma_2(K_0) is not homeomorphic to
+Sigma_2(K_1). Sigma_2(K_1) is not homeomorphic to Sigma_2(K_2) either. The
+separating invariant is low-index subgroup enumeration: exact and combinatorial,
+with no numerical geometry — which matters, because SnapPy finds no positively
+oriented solution for either target and verified volume fails on both. Controls
+(3_1, 4_1, 6_3, and the granny knot as a non-cyclic positive control) all return
+their known answers, and every profile was replayed from an independently
+simplified diagram. **This is the first invariant in this repository that
+separates members of the Abe-Tagami family. It is NOT a concordance obstruction
+and does not change any ledger status.**
+
+**Construction warning.** Build Sigma_2 by (2,0) orbifold filling followed by the
+cyclic double cover, letting the cover carry the induced filling. Taking the
+cover first and guessing a slope fails silently: H_1 of the cover is Z/13 + Z
+with the longitude lift torsion, so eighteen different short slopes all return
+Z/13 and homology cannot pick the right one.
+
+**The gate this opens.** Because Sigma_2(K_0) is a lens space, half the
+d-invariant obstruction is now computed: d(L(13,5)) = {0, +-2/13, +-2/13,
++-6/13, +-6/13, +-8/13, +-8/13}, symmetric under negation because 6_3 is
+negative amphichiral and 5*8 = 1 mod 13, so no orientation convention is
+load-bearing. The claim written out in research/21 section 3 — offered for a
+second reader, not asserted — is that D01 smoothly slice forces the thirteen
+d-invariants of Sigma_2(K_1) to equal that multiset exactly. A mismatch proves
+[K_0] != [K_1] and closes the primary lane. This is a finite, falsifiable test
+on one 21-tetrahedron manifold, which is a sharper target than another band box.
+
+**The cheap route to the other half is closed.** Forty randomized diagrams of
+K_1 (rank-9 Goeritz forms) and K_2 (rank-18) are all indefinite, so there is no
+definite filling and no lattice shortcut; 6_3 returns a negative definite rank-3
+form of determinant 13 on the first try. Computing d(Sigma_2(K_1)) needs real
+Heegaard Floer for a closed hyperbolic QHS^3. No tool in the recorded
+environment does this. Finding or building one is the next concrete task.
+
+**Environment.** The documented stack reproduces from a bare container with
+`pip install snappy regina passagemath-standard sympy z3-solver`: SnapPy 3.3.2,
+Regina 7.4.1, passagemath 10.8.11 (sage-backed), knot_floer_homology present.
+Regina's manifold recognition from a SnapPy triangulation string dropped the
+Dehn fillings and returned coincident isosigs for non-homeomorphic manifolds;
+do not use that path.
+
+No budget was recorded for this session and none was consumed on the shared
+Codex meter. Nothing here authorizes a restart.
+
+---
+
 # Current handoff — late 13 September MDT / 14 September UTC
 
 **STOPPED: no overnight Codex session. No counterexample found.** Read

@@ -1,5 +1,11 @@
 # Why every route-B construction has failed, and the one crossing nobody has tried
 
+> **Renumbered on fold, 14 September 2026.** This note was published as
+> `research/20` on branch `claude/counterexample-search-ungpe2` while `main`
+> independently published a different note under that number. Its content is
+> unchanged.
+
+
 14 September 2026. **No counterexample found.** This note is strategy, not
 computation. It asks what the board actually looks like after a year of lanes,
 and it reaches one structural conclusion and one concrete unmined lane.
