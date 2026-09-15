@@ -1,0 +1,80 @@
+{
+ "status": "BAND_GENERATOR_SATURATION_MEASUREMENT",
+ "date": "2026-09-15T02:02:58.981810+00:00",
+ "finding": "spherogram's band generator has two path modes, and max_band_len SATURATES under the default one. Past the saturation point, raising max_band_len adds no bands at all, so every 'wider' search run that way explores exactly the same set.",
+ "measurements": {
+  "D_{0,1} # 6_1 (31 crossings), paths=shortest, max_twists=2": {
+   "ml=4": 6175,
+   "ml=5": 9301,
+   "ml=6": 10145,
+   "ml=8": 10145,
+   "ml=14": 10145,
+   "saturates_at": 6
+  },
+  "trefoil # 6_1 (9 crossings), max_twists=2": {
+   "shortest": {
+    "ml=3": 311,
+    "ml=4": 475,
+    "ml=5": 475,
+    "ml=6": 475,
+    "ml=8": 475,
+    "ml=10": 475,
+    "ml=14": 475
+   },
+   "simple": {
+    "ml=3": 329,
+    "ml=4": 1217,
+    "ml=5": 3173,
+    "ml=6": 11029,
+    "ml=8": 35765,
+    "ml=10": 35765,
+    "ml=14": 35765
+   },
+   "shortest_saturates_at": 4,
+   "simple_saturates_at": 8,
+   "ratio_at_saturation": "75.3x"
+  },
+  "trefoil # 6_1, band counts vs max_twists at max_band_len=5": {
+   "shortest": {
+    "tw=1": 257,
+    "tw=2": 475,
+    "tw=3": 623,
+    "tw=4": 841,
+    "tw=6": 1207
+   },
+   "simple": {
+    "tw=1": 1847,
+    "tw=2": 3173,
+    "tw=3": 4357,
+    "tw=4": 5683,
+    "tw=6": 8193
+   },
+   "saturates": false,
+   "shape": "roughly linear growth; tw=4 is about 1.8x tw=2, tw=6 about 2.5x, in both path modes"
+  },
+  "D_{0,1} # 6_1, diagram dependence at shortest/ml=6/tw=2": {
+   "seed=None (canonical)": 10071,
+   "seed=1": 10271,
+   "seed=2": 10356,
+   "seed=3": 11664,
+   "crossings": "31 for all four",
+   "note": "same knot, same box, different band sets"
+  }
+ },
+ "consequences": [
+  "On D_{0,1} # 6_1 the completed shortest/ml=5 run covered 9301 bands; ml=8 covers 10145, only 9% more; ml=14 covers exactly the same 10145 as ml=8. A run of this session at ml=14 was an exact duplicate of its ml=8 sibling and was killed once measured.",
+  "Historical band searches in PROGRESS.md at 'length <= 8' and 'length <= 10' were run under paths='shortest'. Past saturation those explored no more than length 6 would have. Their negative results stand as coverage of the saturated set; what does not stand is any reading of them as progressively wider searches.",
+  "The unexplored dimension is paths='simple', not max_band_len. At saturation it is 75x the shortest set on the small control, and it has never been used on any Teichner sum in this repository.",
+  "max_twists does NOT saturate, unlike max_band_len. It has been pinned at 2 in every run this campaign has ever done, including the repo's own band_search.py and the original teichner_certify.py. So it is a second genuine dimension, and a cheap one: tw=4 is about 1.8x the work of tw=2.",
+  "Every Teichner run in this repository has searched exactly ONE diagram of the sum. Shaking the diagram changes the band set (10071, 10271, 10356, 11664 bands for four diagrams of D_{0,1} # 6_1 at 31 crossings in an identical box), so a ribbon disk visible on one diagram can be invisible on another. The r=0 RBG sweeps already showed how much this matters: 29 to 85 survivors across diagrams of one knot in one box. teichner_certify.py now takes TEICHNER_SEED; unset keeps the canonical diagram, so the default is unchanged."
+ ],
+ "caution": "simple is NOT a superset of shortest at small max_band_len. On trefoil # 6_1 at ml=3, simple gives 329 bands against shortest's 311, yet its frontier is 0 against shortest's 2. The two generators measure band length differently, so a simple run does not subsume a shortest run and both are needed. At ml=5 simple dominates: 3173 bands and frontier 14, against 475 and frontier 2.",
+ "cost_projection": "shortest/ml=5 on D_{0,1} # 6_1 took 4.21 h for 9301 bands, about 1.6 s per band. simple/ml=4 should be roughly 2.6x the ml=4 shortest set, near 16000 bands, so about 7 h: feasible. simple/ml=5 projects near 28 h and simple/ml=6 near 97 h, both beyond a container lifetime.",
+ "action_taken": "Launched the first paths='simple' Teichner search in this repository: D_{0,1} # 6_1, 2 bands, max_band_len 4, max_twists 2, 18 h budget. teichner_certify.py now exposes TEICHNER_TWISTS and TEICHNER_PATHS, which were hardcoded to 2 and 'shortest' before. Also launched the first twists-widened Teichner search: D_{0,1} # 6_1, 2 bands, max_band_len 6 (the measured saturation point), max_twists 4, 18 h budget. That box strictly contains both the completed shortest/ml=5/tw=2 run and the ml=8 run killed as near-duplicate.",
+ "three_untouched_dimensions": {
+  "paths": "huge: 75x at saturation on the control; never used on any Teichner sum here",
+  "max_twists": "roughly linear, no saturation; pinned at 2 in every run this campaign has done",
+  "diagram": "shaking changes the band set by up to 16% on the real target; one diagram per run until now",
+  "the_dimension_actually_widened_historically": "max_band_len, which saturates and was therefore a no-op past length 6"
+ }
+}
