@@ -1,0 +1,58 @@
+{
+ "status": "COMPUTE_LOST_TO_CONTAINER_RECLAMATION",
+ "date": "2026-09-15T01:17:05.301295+00:00",
+ "what_happened": "Four Teichner searches were running with 24 h (86400 s) budgets when the container was reclaimed and replaced. Every one died mid-search having completed zero partner runs. The scratchpad and the git history survived; the in-flight compute did not.",
+ "lost_runs": [
+  {
+   "file": "teich_D01_10_3_v3",
+   "J": "10_3",
+   "runs_completed": 0,
+   "heartbeat": {
+    "knot": "D_{0,1} = K_0 # (-K_1)",
+    "J": "10_3",
+    "sum_crossings": 35,
+    "started": "2026-09-14T15:54:33.229559+00:00",
+    "partner_ribbon_verified": true
+   }
+  },
+  {
+   "file": "teich_D01_10_22_v3",
+   "J": "10_22",
+   "runs_completed": 0,
+   "heartbeat": {
+    "knot": "D_{0,1} = K_0 # (-K_1)",
+    "J": "10_22",
+    "sum_crossings": 35,
+    "started": "2026-09-14T16:36:31.983378+00:00",
+    "partner_ribbon_verified": true
+   }
+  },
+  {
+   "file": "teich_D01_10_87",
+   "J": "10_87",
+   "runs_completed": 0,
+   "heartbeat": {
+    "knot": "D_{0,1} = K_0 # (-K_1)",
+    "J": "10_87",
+    "sum_crossings": 35,
+    "started": "2026-09-14T15:54:33.391867+00:00",
+    "partner_ribbon_verified": true
+   }
+  },
+  {
+   "file": "teich_D01_6_1_len8",
+   "J": "6_1",
+   "runs_completed": 0,
+   "heartbeat": {
+    "knot": "D_{0,1} = K_0 # (-K_1)",
+    "J": "6_1",
+    "sum_crossings": 31,
+    "started": "2026-09-14T22:20:48.123055+00:00",
+    "partner_ribbon_verified": true
+   }
+  }
+ ],
+ "operational_rule": "The observed container lifetime was about 26 h. A 24 h budget therefore does not fit inside one container once startup and the first hours of other work are counted. Budget long searches at 20 h (72000 s) or less, and prefer a box that finishes to a box that is merely larger.",
+ "what_saved_the_records": "The heartbeat in teichner_certify.py. Each dead run still names its knot, partner, sum crossing number and start time, so the attempt is documented rather than silently absent. Earlier kills on the pre-heartbeat build left nothing at all.",
+ "toolchain_note": "The rebuilt container keeps the Sage-backed toolchain; the K_B calibration reproduces (unknot found, certificate verified). Its first timing reads 2.96 s, which is cold-start only: repeated runs settle at 0.52-0.71 s, against 0.87 s on the previous container. Do not re-budget from a cold first measurement."
+}

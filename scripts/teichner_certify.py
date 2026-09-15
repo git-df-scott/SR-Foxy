@@ -42,6 +42,25 @@ import os
 if os.environ.get('TEICHNER_J'):
     RIBBON_J = os.environ['TEICHNER_J'].split(',')
 
+# Two dials that every Teichner run in this repository has left at their
+# defaults. They are independent of max_bands and max_band_len.
+#
+#   TEICHNER_TWISTS  max_twists on each band (default 2, as hardcoded before).
+#   TEICHNER_PATHS   'shortest' (min_len_bands, the default everywhere so far)
+#                    or 'simple' (simple_bands), a strictly larger band set:
+#                    spherogram's own doctest gives 393 simple bands on L5a1
+#                    against the smaller shortest-path set.
+#
+# Widening either is a different search, not a longer one, so a negative
+# result under 'shortest' says nothing about 'simple'.
+import random
+SEED = os.environ.get('TEICHNER_SEED')
+SEED = int(SEED) if SEED not in (None, '') else None
+MAX_TWISTS = int(os.environ.get('TEICHNER_TWISTS', 2))
+PATHS = os.environ.get('TEICHNER_PATHS', 'shortest')
+if PATHS not in ('shortest', 'simple'):
+    raise SystemExit("TEICHNER_PATHS must be 'shortest' or 'simple'")
+
 def connected_sum(pd_a, pd_b):
     """PD code of the connected sum, by relabelling B's arcs above A's."""
     A = snappy.Link([tuple(c) for c in pd_a])
@@ -57,7 +76,9 @@ def certificate_status(link, result):
 if __name__ == '__main__':
     out, max_bands, max_band_len = sys.argv[1], int(sys.argv[2]), int(sys.argv[3])
     rec = {'date': datetime.datetime.utcnow().isoformat() + 'Z',
-           'box': {'max_bands': max_bands, 'max_band_len': max_band_len, 'J_list': RIBBON_J},
+           'box': {'max_bands': max_bands, 'max_band_len': max_band_len,
+                   'max_twists': MAX_TWISTS, 'paths': PATHS, 'seed': SEED,
+                   'J_list': RIBBON_J},
            'runs': [],
            'meaning': 'a verified certificate proves K smoothly slice with a disk NOT known handle-ribbon; '
                       'then run homotopy-ribbon obstructions on K'}
@@ -70,22 +91,56 @@ if __name__ == '__main__':
             J = snappy.Link(jname)
             if jname not in partner_certificates:
                 partner_result = ribbon_concordant_links(
-                    J, max_bands=max_bands, max_twists=2,
-                    max_band_len=max_band_len, certify=True)
+                    J, max_bands=max_bands, max_twists=MAX_TWISTS,
+                    max_band_len=max_band_len, paths=PATHS, certify=True)
                 partner_certificates[jname] = {
                     'verified': certificate_status(J, partner_result),
                     'certificate': partner_result.get('unknot'),
                     'pd_code': J.PD_code()}
             partner = partner_certificates[jname]
-            S = K.connected_sum(J); S.simplify('global')
+            S = K.connected_sum(J)
+            S.simplify('global')
+            # A third dial nobody has turned here: every Teichner run in this
+            # repository has searched exactly ONE diagram of the sum. The r=0
+            # RBG sweeps show the diagram matters a lot -- 29 to 85 survivors
+            # across diagrams of one knot in an identical box -- so a ribbon
+            # disk visible on one diagram may be invisible on another.
+            # TEICHNER_SEED shakes the diagram before searching; unset keeps
+            # the canonical diagram, so the default behaviour is unchanged.
+            if SEED is not None:
+                random.seed(SEED)
+                S.backtrack(steps=25)
+                S.simplify('global')
+            # Heartbeat: record that this pair was STARTED, with its box, before
+            # the long call. A `timeout` kill during the search otherwise leaves
+            # no trace at all, because a row is only appended once the search for
+            # that partner returns. Overwritten by the real row on completion.
+            rec['in_progress'] = {'knot': d['name'], 'J': jname,
+                                  'sum_crossings': len(S.crossings),
+                                  'started': datetime.datetime.now(
+                                      datetime.timezone.utc).isoformat(),
+                                  'partner_ribbon_verified': partner['verified']}
+            json.dump(rec, open(out, 'w'), indent=1, default=str)
             t = time.time()
-            res = ribbon_concordant_links(S, max_bands=max_bands, max_twists=2,
-                                          max_band_len=max_band_len, certify=True)
+            res = ribbon_concordant_links(S, max_bands=max_bands,
+                                          max_twists=MAX_TWISTS,
+                                          max_band_len=max_band_len,
+                                          paths=PATHS, certify=True)
             row = {'knot': d['name'], 'J': jname, 'sum_crossings': len(S.crossings),
                    'seconds': round(time.time() - t, 1), 'certified_slice': False,
                    'partner_ribbon_verified': partner['verified'],
                    'partner_certificate': partner['certificate'],
                    'partner_pd_code': partner['pd_code'], 'sum_pd_code': S.PD_code()}
+            # Save the actual frontier, not only its size. Each value is the
+            # replayable triple [starting PD code, band descriptor, endpoint
+            # name] that spherogram returns, so a later session can rebuild any
+            # surviving intermediate without re-running the search.
+            row['frontier_size'] = len(res)
+            # A list, not a dict keyed by str(link): spherogram's Link repr
+            # ('<Link: 3 comp; 11 cross>') is not unique, so keying on it
+            # silently drops distinct frontier links.
+            row['frontier'] = [{'label': str(k), 'certificate': v}
+                               for k, v in res.items()]
             if 'unknot' in res:
                 row['certificate_verified'] = certificate_status(S, res)
                 row['certified_slice'] = row['certificate_verified'] and partner['verified']
@@ -93,7 +148,9 @@ if __name__ == '__main__':
                 if row['certified_slice']:
                     print('*** TEICHNER CERTIFICATE ***', d['name'], '#', jname, flush=True)
             rec['runs'].append(row)
+            rec.pop('in_progress', None)
             rec['seconds'] = round(time.time() - t0, 1)
             json.dump(rec, open(out, 'w'), indent=1, default=str)
-            print(json.dumps({k: v for k, v in row.items() if k != 'certificate'}), flush=True)
+            print(json.dumps({k: v for k, v in row.items()
+                              if k not in ('certificate', 'frontier')}), flush=True)
     print('CERTIFIED:', sum(1 for r in rec['runs'] if r['certified_slice']))

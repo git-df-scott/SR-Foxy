@@ -1,0 +1,75 @@
+{
+ "status": "TEICHNER_SEARCHES_INCOMPLETE_BUDGET_EXCEEDED",
+ "date": "2026-09-14T16:38:09.321363+00:00",
+ "knot": "D_{0,1} = K_0 # (-K_1)",
+ "box": {
+  "max_bands": 2,
+  "max_band_len": 5
+ },
+ "budget_seconds": 43200,
+ "outcome": "killed by timeout at 12 h with the search still running",
+ "runs_completed": 0,
+ "partner_ribbon_verified": true,
+ "meaning": "No conclusion of any kind about D_{0,1} # 10_3. The search did not finish, so this is not even coverage of the box. It is a record that the attempt was made and how far the budget went.",
+ "why_this_record_exists": "Two earlier partners were killed at 5 h and left NOTHING, because a row is appended only when a partner search returns. The heartbeat added to teichner_certify.py writes the knot, partner, sum crossing number and start time before the long call. This file is that heartbeat surviving its kill, which is the behaviour the patch was for.",
+ "measured_cost_of_the_same_box": [
+  {
+   "J": "6_1",
+   "sum_crossings": 31,
+   "seconds": 15151.0,
+   "hours": 4.21,
+   "finished": true
+  },
+  {
+   "J": "8_8",
+   "sum_crossings": 33,
+   "seconds": 28638.7,
+   "hours": 7.96,
+   "finished": true
+  },
+  {
+   "J": "10_3",
+   "sum_crossings": 35,
+   "seconds": ">43200",
+   "hours": ">12",
+   "finished": false
+  },
+  {
+   "J": "10_22",
+   "sum_crossings": 35,
+   "seconds": ">43200",
+   "hours": ">12",
+   "finished": false
+  }
+ ],
+ "budget_guidance": "Cost is grossly superlinear in the crossing number of the sum: 4.21 h at 31, 7.96 h at 33, and more than 12 h at 35 for BOTH 35-crossing partners tried. Roughly a doubling per two crossings. 10_3, 10_22 and 10_87 are now running at 24 h budgets. Do not extrapolate linearly.",
+ "overruns": [
+  {
+   "J": "10_3",
+   "sum_crossings": 35,
+   "budget_seconds": 43200,
+   "outcome": "killed at 12 h, search still running",
+   "started": "2026-09-14T03:27:24.138380+00:00"
+  },
+  {
+   "J": "10_22",
+   "sum_crossings": 35,
+   "budget_seconds": 43200,
+   "outcome": "killed at 12 h, search still running",
+   "started": "2026-09-14T04:31:10.501432+00:00"
+  }
+ ],
+ "fibered_partners_excluded": "8_9, 8_20 and 9_27 are fibered and give 33 to 34 crossing sums, so they look cheap. They are futile and should not be run. Adding a fibered ribbon J leaves K_0 and -K_1 still unpaired among the fibered prime summands, so Miyazaki continues to give non-ribbon for the sum and no ribbon certificate can exist. The restriction in teichner_certify.py is therefore well founded; its comment that fiberedness alone does not apply Miyazaki is about checking hypotheses, not a live gap.",
+ "partner_sums_measured": {
+  "6_1": 31,
+  "8_8": 33,
+  "8_9": 33,
+  "8_20": 33,
+  "9_27": 34,
+  "9_41": 34,
+  "9_46": 34,
+  "10_3": 35,
+  "10_22": 35,
+  "10_87": 35
+ }
+}

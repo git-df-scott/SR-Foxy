@@ -1,0 +1,77 @@
+{
+ "status": "TEICHNER_SEARCH_COMPLETE_NO_CERTIFICATE",
+ "date": "2026-09-14T11:31:40.606497+00:00",
+ "knot": "D_{0,1} = K_0 # (-K_1)",
+ "J": "8_8",
+ "sum_crossings": 33,
+ "box": {
+  "max_bands": 2,
+  "max_band_len": 5,
+  "J_list": [
+   "8_8"
+  ]
+ },
+ "seconds": 28638.7,
+ "certified_slice": false,
+ "partner_ribbon_verified": true,
+ "partner_certificate": [
+  [
+   [
+    4,
+    15,
+    5,
+    0
+   ],
+   [
+    0,
+    5,
+    1,
+    6
+   ],
+   [
+    10,
+    2,
+    11,
+    1
+   ],
+   [
+    2,
+    12,
+    3,
+    11
+   ],
+   [
+    6,
+    3,
+    7,
+    4
+   ],
+   [
+    14,
+    8,
+    15,
+    7
+   ],
+   [
+    8,
+    14,
+    9,
+    13
+   ],
+   [
+    12,
+    10,
+    13,
+    9
+   ]
+  ],
+  "0805_0_1",
+  "unknot"
+ ],
+ "unknot_reached": false,
+ "frontier_size": 10023,
+ "frontier_archive": "results/teichner_D01_8_8_frontier.json.gz",
+ "frontier_archive_sha256_16": "6d3b40c5430a23cd",
+ "meaning": "Teichner: D_{0,1} is slice iff some ribbon J makes D_{0,1} # J ribbon. D_{0,1} is certified non-ribbon (Miyazaki via Abe-Tagami), so a VERIFIED certificate here would be a slice-ribbon counterexample. None was found. This is coverage of the stated box only and is not an obstruction: it does not show D_{0,1} # 8_8 is non-ribbon, nor that D_{0,1} is non-slice.",
+ "note": "Second partner ever run on D_{0,1}; the first was 6_1 (4.2 h, no certificate, results/teichner_AT_b2len5_detached.json). The partner half of the lemma is discharged: 8_8 has its own verified ribbon certificate. Only the certificate for the sum is outstanding."
+}

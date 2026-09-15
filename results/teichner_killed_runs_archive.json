@@ -1,0 +1,288 @@
+{
+ "status": "ARCHIVE_OF_KILLED_AND_INCOMPLETE_RUNS",
+ "date": "2026-09-15T03:43:14.523172+00:00",
+ "why": "The repository's standing rule is that failed checks are not discarded data. These are every Teichner run of this session that did not finish, with the reason each one ended. None of them is coverage of its box: an unfinished search supports no conclusion about its target.",
+ "runs": [
+  {
+   "name": "t_10_3_len5",
+   "box": {
+    "max_bands": 2,
+    "max_band_len": 5,
+    "J_list": [
+     "10_3"
+    ]
+   },
+   "completed_partner_runs": 0,
+   "heartbeat": {
+    "knot": "D_{0,1} = K_0 # (-K_1)",
+    "J": "10_3",
+    "sum_crossings": 35,
+    "started": "2026-09-15T01:15:08.996518+00:00",
+    "partner_ribbon_verified": true
+   },
+   "certified_slice_any": false,
+   "ended": "still running at archive time"
+  },
+  {
+   "name": "t_6_1_SIMPLE_len4",
+   "box": {
+    "max_bands": 2,
+    "max_band_len": 4,
+    "max_twists": 2,
+    "paths": "simple",
+    "J_list": [
+     "6_1"
+    ]
+   },
+   "completed_partner_runs": 0,
+   "heartbeat": {
+    "knot": "D_{0,1} = K_0 # (-K_1)",
+    "J": "6_1",
+    "sum_crossings": 31,
+    "started": "2026-09-15T02:01:09.184736+00:00",
+    "partner_ribbon_verified": true
+   },
+   "certified_slice_any": false,
+   "ended": "still running at archive time"
+  },
+  {
+   "name": "t_6_1_len14",
+   "box": {
+    "max_bands": 2,
+    "max_band_len": 14,
+    "J_list": [
+     "6_1"
+    ]
+   },
+   "completed_partner_runs": 0,
+   "heartbeat": {
+    "knot": "D_{0,1} = K_0 # (-K_1)",
+    "J": "6_1",
+    "sum_crossings": 31,
+    "started": "2026-09-15T01:15:08.913772+00:00",
+    "partner_ribbon_verified": true
+   },
+   "certified_slice_any": false,
+   "ended": "killed deliberately once measured: max_band_len 14 is an EXACT duplicate of 8 under paths=shortest, which saturates at 6"
+  },
+  {
+   "name": "t_6_1_len8",
+   "box": {
+    "max_bands": 2,
+    "max_band_len": 8,
+    "J_list": [
+     "6_1"
+    ]
+   },
+   "completed_partner_runs": 0,
+   "heartbeat": {
+    "knot": "D_{0,1} = K_0 # (-K_1)",
+    "J": "6_1",
+    "sum_crossings": 31,
+    "started": "2026-09-15T01:15:08.933170+00:00",
+    "partner_ribbon_verified": true
+   },
+   "certified_slice_any": false,
+   "ended": "killed deliberately: only 9% wider than the completed ml=5 run, superseded by the ml6/tw4 box which strictly contains it"
+  },
+  {
+   "name": "t_6_1_ml6_seed3",
+   "box": {
+    "max_bands": 2,
+    "max_band_len": 6,
+    "max_twists": 2,
+    "paths": "shortest",
+    "seed": 3,
+    "J_list": [
+     "6_1"
+    ]
+   },
+   "completed_partner_runs": 0,
+   "heartbeat": {
+    "knot": "D_{0,1} = K_0 # (-K_1)",
+    "J": "6_1",
+    "sum_crossings": 31,
+    "started": "2026-09-15T02:47:54.179190+00:00",
+    "partner_ribbon_verified": true
+   },
+   "certified_slice_any": false,
+   "ended": "still running at archive time"
+  },
+  {
+   "name": "t_6_1_ml6_tw4",
+   "box": {
+    "max_bands": 2,
+    "max_band_len": 6,
+    "max_twists": 4,
+    "paths": "shortest",
+    "J_list": [
+     "6_1"
+    ]
+   },
+   "completed_partner_runs": 0,
+   "heartbeat": {
+    "knot": "D_{0,1} = K_0 # (-K_1)",
+    "J": "6_1",
+    "sum_crossings": 31,
+    "started": "2026-09-15T02:04:15.053467+00:00",
+    "partner_ribbon_verified": true
+   },
+   "certified_slice_any": false,
+   "ended": "still running at archive time"
+  },
+  {
+   "name": "t_8_8_len7",
+   "box": {
+    "max_bands": 2,
+    "max_band_len": 7,
+    "J_list": [
+     "8_8"
+    ]
+   },
+   "completed_partner_runs": 0,
+   "heartbeat": {
+    "knot": "D_{0,1} = K_0 # (-K_1)",
+    "J": "8_8",
+    "sum_crossings": 33,
+    "started": "2026-09-15T01:15:08.945474+00:00",
+    "partner_ribbon_verified": true
+   },
+   "certified_slice_any": false,
+   "ended": "killed deliberately: near-saturated under shortest, replaced by the first shaken-diagram run"
+  },
+  {
+   "name": "teich_D01_10_22_v2",
+   "box": {
+    "max_bands": 2,
+    "max_band_len": 5,
+    "J_list": [
+     "10_22"
+    ]
+   },
+   "completed_partner_runs": 0,
+   "heartbeat": {
+    "knot": "D_{0,1} = K_0 # (-K_1)",
+    "J": "10_22",
+    "sum_crossings": 35,
+    "started": "2026-09-14T04:31:10.501432+00:00",
+    "partner_ribbon_verified": true
+   },
+   "certified_slice_any": false,
+   "ended": "killed at a 5 h budget, pre-heartbeat build"
+  },
+  {
+   "name": "teich_D01_10_22_v3",
+   "box": {
+    "max_bands": 2,
+    "max_band_len": 5,
+    "J_list": [
+     "10_22"
+    ]
+   },
+   "completed_partner_runs": 0,
+   "heartbeat": {
+    "knot": "D_{0,1} = K_0 # (-K_1)",
+    "J": "10_22",
+    "sum_crossings": 35,
+    "started": "2026-09-14T16:36:31.983378+00:00",
+    "partner_ribbon_verified": true
+   },
+   "certified_slice_any": false,
+   "ended": "killed by container reclamation at a 24 h budget"
+  },
+  {
+   "name": "teich_D01_10_3_v2",
+   "box": {
+    "max_bands": 2,
+    "max_band_len": 5,
+    "J_list": [
+     "10_3"
+    ]
+   },
+   "completed_partner_runs": 0,
+   "heartbeat": {
+    "knot": "D_{0,1} = K_0 # (-K_1)",
+    "J": "10_3",
+    "sum_crossings": 35,
+    "started": "2026-09-14T03:27:24.138380+00:00",
+    "partner_ribbon_verified": true
+   },
+   "certified_slice_any": false,
+   "ended": "killed at a 5 h budget, pre-heartbeat build, no record survived beyond the log"
+  },
+  {
+   "name": "teich_D01_10_3_v3",
+   "box": {
+    "max_bands": 2,
+    "max_band_len": 5,
+    "J_list": [
+     "10_3"
+    ]
+   },
+   "completed_partner_runs": 0,
+   "heartbeat": {
+    "knot": "D_{0,1} = K_0 # (-K_1)",
+    "J": "10_3",
+    "sum_crossings": 35,
+    "started": "2026-09-14T15:54:33.229559+00:00",
+    "partner_ribbon_verified": true
+   },
+   "certified_slice_any": false,
+   "ended": "killed by container reclamation at a 24 h budget"
+  },
+  {
+   "name": "teich_D01_10_87",
+   "box": {
+    "max_bands": 2,
+    "max_band_len": 5,
+    "J_list": [
+     "10_87"
+    ]
+   },
+   "completed_partner_runs": 0,
+   "heartbeat": {
+    "knot": "D_{0,1} = K_0 # (-K_1)",
+    "J": "10_87",
+    "sum_crossings": 35,
+    "started": "2026-09-14T15:54:33.391867+00:00",
+    "partner_ribbon_verified": true
+   },
+   "certified_slice_any": false,
+   "ended": "killed by container reclamation at a 24 h budget"
+  },
+  {
+   "name": "teich_D01_6_1_len8",
+   "box": {
+    "max_bands": 2,
+    "max_band_len": 8,
+    "J_list": [
+     "6_1"
+    ]
+   },
+   "completed_partner_runs": 0,
+   "heartbeat": {
+    "knot": "D_{0,1} = K_0 # (-K_1)",
+    "J": "6_1",
+    "sum_crossings": 31,
+    "started": "2026-09-14T22:20:48.123055+00:00",
+    "partner_ribbon_verified": true
+   },
+   "certified_slice_any": false,
+   "ended": "killed by container reclamation at a 24 h budget"
+  },
+  {
+   "name": "teich_D01_8_8_v2",
+   "box": {
+    "max_bands": 2,
+    "max_band_len": 5,
+    "J_list": [
+     "8_8"
+    ]
+   },
+   "completed_partner_runs": 1,
+   "heartbeat": null,
+   "certified_slice_any": false,
+   "ended": "completed - see results/teichner_D01_8_8_summary.json; listed here for completeness"
+  }
+ ]
+}

@@ -87,3 +87,36 @@ print(K.knot_floer_homology())
 M=K.exterior(); M.simplify(); print(M.volume(), M.num_tetrahedra(), L.alexander())
 EOF
 ```
+
+## Band-count semantics of `ribbon_concordant_links` (calibrated 13 Sep 2026, evening)
+
+`max_bands` in the Dunfield-Gong search is **not** the fusion number of the
+ribbon disk, and it is not bounded below by the Seifert genus. Measured
+directly, with `max_twists = 2`, `max_band_len = 5`, on small ribbon knots:
+
+| knot | Seifert genus | bands needed to reach `unknot` |
+|---|---:|---:|
+| 6_1 | 1 | 1 |
+| 9_46 | 1 | 1 |
+| 10_3 | 1 | 1 |
+| 8_8 | 2 | 1 |
+| 8_20 | 2 | 1 |
+| 9_41 | 2 | 1 |
+| 8_9 | 3 | 1 |
+| 10_22 | 3 | 1 |
+| 10_87 | 3 | 1 |
+
+One band suffices for every one of these, genus 3 included, because the search
+recognizes the resulting ribbon link through the ribbon-link cache rather than
+continuing to band it down.
+
+This matters because the natural inference is the opposite one. It is tempting
+to argue that a ribbon knot of fusion number `f` needs `f` bands, that
+`g <= f`, and therefore that a 2-band search on a genus-6 connected sum such as
+`D_{0,1} # 8_8` is futile by construction. **That argument is wrong**, and the
+table above is the refutation. The hypothesis was raised and discarded in this
+session before anything was written up on the strength of it; it is recorded
+here so the same wrong turn is not taken again.
+
+Consequence: the existing 2-band Teichner runs on `D_{0,1}` are genuine
+coverage of their box, not vacuous.
