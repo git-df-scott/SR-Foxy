@@ -1,0 +1,46 @@
+{
+ "status": "BAND_GENERATOR_SATURATION_MEASUREMENT",
+ "date": "2026-09-15T02:02:58.981810+00:00",
+ "finding": "spherogram's band generator has two path modes, and max_band_len SATURATES under the default one. Past the saturation point, raising max_band_len adds no bands at all, so every 'wider' search run that way explores exactly the same set.",
+ "measurements": {
+  "D_{0,1} # 6_1 (31 crossings), paths=shortest, max_twists=2": {
+   "ml=4": 6175,
+   "ml=5": 9301,
+   "ml=6": 10145,
+   "ml=8": 10145,
+   "ml=14": 10145,
+   "saturates_at": 6
+  },
+  "trefoil # 6_1 (9 crossings), max_twists=2": {
+   "shortest": {
+    "ml=3": 311,
+    "ml=4": 475,
+    "ml=5": 475,
+    "ml=6": 475,
+    "ml=8": 475,
+    "ml=10": 475,
+    "ml=14": 475
+   },
+   "simple": {
+    "ml=3": 329,
+    "ml=4": 1217,
+    "ml=5": 3173,
+    "ml=6": 11029,
+    "ml=8": 35765,
+    "ml=10": 35765,
+    "ml=14": 35765
+   },
+   "shortest_saturates_at": 4,
+   "simple_saturates_at": 8,
+   "ratio_at_saturation": "75.3x"
+  }
+ },
+ "consequences": [
+  "On D_{0,1} # 6_1 the completed shortest/ml=5 run covered 9301 bands; ml=8 covers 10145, only 9% more; ml=14 covers exactly the same 10145 as ml=8. A run of this session at ml=14 was an exact duplicate of its ml=8 sibling and was killed once measured.",
+  "Historical band searches in PROGRESS.md at 'length <= 8' and 'length <= 10' were run under paths='shortest'. Past saturation those explored no more than length 6 would have. Their negative results stand as coverage of the saturated set; what does not stand is any reading of them as progressively wider searches.",
+  "The unexplored dimension is paths='simple', not max_band_len. At saturation it is 75x the shortest set on the small control, and it has never been used on any Teichner sum in this repository."
+ ],
+ "caution": "simple is NOT a superset of shortest at small max_band_len. On trefoil # 6_1 at ml=3, simple gives 329 bands against shortest's 311, yet its frontier is 0 against shortest's 2. The two generators measure band length differently, so a simple run does not subsume a shortest run and both are needed. At ml=5 simple dominates: 3173 bands and frontier 14, against 475 and frontier 2.",
+ "cost_projection": "shortest/ml=5 on D_{0,1} # 6_1 took 4.21 h for 9301 bands, about 1.6 s per band. simple/ml=4 should be roughly 2.6x the ml=4 shortest set, near 16000 bands, so about 7 h: feasible. simple/ml=5 projects near 28 h and simple/ml=6 near 97 h, both beyond a container lifetime.",
+ "action_taken": "Launched the first paths='simple' Teichner search in this repository: D_{0,1} # 6_1, 2 bands, max_band_len 4, max_twists 2, 18 h budget. teichner_certify.py now exposes TEICHNER_TWISTS and TEICHNER_PATHS, which were hardcoded to 2 and 'shortest' before."
+}

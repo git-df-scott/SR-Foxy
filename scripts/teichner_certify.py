@@ -42,6 +42,22 @@ import os
 if os.environ.get('TEICHNER_J'):
     RIBBON_J = os.environ['TEICHNER_J'].split(',')
 
+# Two dials that every Teichner run in this repository has left at their
+# defaults. They are independent of max_bands and max_band_len.
+#
+#   TEICHNER_TWISTS  max_twists on each band (default 2, as hardcoded before).
+#   TEICHNER_PATHS   'shortest' (min_len_bands, the default everywhere so far)
+#                    or 'simple' (simple_bands), a strictly larger band set:
+#                    spherogram's own doctest gives 393 simple bands on L5a1
+#                    against the smaller shortest-path set.
+#
+# Widening either is a different search, not a longer one, so a negative
+# result under 'shortest' says nothing about 'simple'.
+MAX_TWISTS = int(os.environ.get('TEICHNER_TWISTS', 2))
+PATHS = os.environ.get('TEICHNER_PATHS', 'shortest')
+if PATHS not in ('shortest', 'simple'):
+    raise SystemExit("TEICHNER_PATHS must be 'shortest' or 'simple'")
+
 def connected_sum(pd_a, pd_b):
     """PD code of the connected sum, by relabelling B's arcs above A's."""
     A = snappy.Link([tuple(c) for c in pd_a])
@@ -57,7 +73,8 @@ def certificate_status(link, result):
 if __name__ == '__main__':
     out, max_bands, max_band_len = sys.argv[1], int(sys.argv[2]), int(sys.argv[3])
     rec = {'date': datetime.datetime.utcnow().isoformat() + 'Z',
-           'box': {'max_bands': max_bands, 'max_band_len': max_band_len, 'J_list': RIBBON_J},
+           'box': {'max_bands': max_bands, 'max_band_len': max_band_len,
+                   'max_twists': MAX_TWISTS, 'paths': PATHS, 'J_list': RIBBON_J},
            'runs': [],
            'meaning': 'a verified certificate proves K smoothly slice with a disk NOT known handle-ribbon; '
                       'then run homotopy-ribbon obstructions on K'}
@@ -70,8 +87,8 @@ if __name__ == '__main__':
             J = snappy.Link(jname)
             if jname not in partner_certificates:
                 partner_result = ribbon_concordant_links(
-                    J, max_bands=max_bands, max_twists=2,
-                    max_band_len=max_band_len, certify=True)
+                    J, max_bands=max_bands, max_twists=MAX_TWISTS,
+                    max_band_len=max_band_len, paths=PATHS, certify=True)
                 partner_certificates[jname] = {
                     'verified': certificate_status(J, partner_result),
                     'certificate': partner_result.get('unknot'),
@@ -89,8 +106,10 @@ if __name__ == '__main__':
                                   'partner_ribbon_verified': partner['verified']}
             json.dump(rec, open(out, 'w'), indent=1, default=str)
             t = time.time()
-            res = ribbon_concordant_links(S, max_bands=max_bands, max_twists=2,
-                                          max_band_len=max_band_len, certify=True)
+            res = ribbon_concordant_links(S, max_bands=max_bands,
+                                          max_twists=MAX_TWISTS,
+                                          max_band_len=max_band_len,
+                                          paths=PATHS, certify=True)
             row = {'knot': d['name'], 'J': jname, 'sum_crossings': len(S.crossings),
                    'seconds': round(time.time() - t, 1), 'certified_slice': False,
                    'partner_ribbon_verified': partner['verified'],
