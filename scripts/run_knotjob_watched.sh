@@ -24,6 +24,19 @@ pid=$!
 printf '{"state":"running","pid":%d,"started":"%s","heap":"%s","flag":"%s","log":"%s"}\n' \
   "$pid" "$start_iso" "$heap" "$flag" "$log" >"$status"
 
+# If THIS script is killed (a timeout, a reclaimed container, an operator ^C)
+# the status file would otherwise stay "running" forever - the same silent-death
+# blind spot the wrapper exists to remove. Record the interruption and take the
+# child down with us so no orphan JVM keeps holding memory.
+on_signal() {
+  printf '{"state":"wrapper_interrupted","pid":%d,"started":"%s","ended":"%s","seconds":%d,"log_bytes":%d,"heap":"%s","flag":"%s","log":"%s","caution":"the wrapper was killed; NO VALUE was computed and none may be inferred"}\n' \
+    "$pid" "$start_iso" "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+    "$(( $(date -u +%s) - start_epoch ))" "$(wc -c <"$log")" "$heap" "$flag" "$log" >"$status"
+  kill "$pid" 2>/dev/null
+  exit 1
+}
+trap on_signal TERM INT HUP
+
 wait "$pid"; code=$?
 seconds=$(( $(date -u +%s) - start_epoch ))
 bytes=$(wc -c <"$log")
@@ -33,6 +46,10 @@ bytes=$(wc -c <"$log")
 # which is what a kernel OOM kill looks like from here.
 if [ "$code" -eq 0 ] && [ "$bytes" -gt 0 ]; then
   state=finished
+elif grep -q "OutOfMemoryError" "$log" 2>/dev/null; then
+  # The JVM exhausted its own heap and said so. Distinguishable from an
+  # external kill, which leaves the log empty.
+  state=java_heap_exhausted
 elif [ "$code" -ge 128 ]; then
   state=killed_by_signal
 else
