@@ -85,4 +85,4 @@ version of this test passed `certificates=True`, which is not the keyword (it is
 `certify`), inside a `try/except` that swallowed the `TypeError`. Every knot came
 back "no certificate found", including `6_1`. A search harness that reports a
 failure it did not run is the same hazard as the `simplify('global')` bug in
-`research/19` §8. The controls above exist so that cannot pass silently again.
+`research/23` §8 (renumbered from 19 by the branch merge). The controls above exist so that cannot pass silently again.
