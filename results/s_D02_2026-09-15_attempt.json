@@ -1,0 +1,47 @@
+{
+  "status": "RESOURCE_FAILURE_NOT_A_RESULT",
+  "date": "2026-09-15T18:55:00+00:00",
+  "target": "AbeTagami_D_0_2",
+  "crossings": 47,
+  "invariant_attempted": "Rasmussen s over Q (KnotJob -s0)",
+  "value": null,
+  "why_null": "The process produced no output of any kind before it disappeared. There is NO value here, and in particular this is NOT s = 0. UNFINISHED.md's standing caution applies: an aborted numerical answer must never become a zero.",
+
+  "attempt": {
+    "heap": "-Xmx12g",
+    "container_ram_gb": 15,
+    "other_jobs_resident": "none",
+    "elapsed_alive_confirmed": "3h04m32s (last reading with a real ps etime)",
+    "died_between": "approximately 17:51Z and 18:51Z, i.e. between 3h05m and 4h05m of runtime",
+    "stdout_stderr_bytes": 0,
+    "exit_code": "not captured - see instrumentation_gap below",
+    "java_OutOfMemoryError_in_log": false,
+    "kernel_oom_message": "not available; this container exposes no dmesg, and the cgroup v1 counters readable from a shell (failcnt 0, oom_kill 0, peak 488 MB) describe the shell's own cgroup, not the java process's. They neither confirm nor exclude an OOM kill."
+  },
+
+  "prior_attempts_same_target": [
+    {"heap": "-Xmx3g", "outcome": "no output at all", "note": "four band searches resident"},
+    {"heap": "-Xmx5g", "outcome": "no output at all", "note": "four band searches resident"}
+  ],
+  "reading": "Three attempts, three times no output. The failure mode is identical at 3g, 5g and 12g, and the 12g attempt had the container to itself. That is consistent with the 47-crossing Khovanov complex not fitting in 15 GB, but it is not established: no attempt has captured an exit code or an OOM message, so 'ran out of memory' remains the leading hypothesis rather than a finding. UNFINISHED.md section 3 already directs this to a bigger machine.",
+
+  "controls_this_session": {
+    "positive_trefoil_s_Q": 2,
+    "note": "Fired correctly on the same jar and JDK, so the pipeline discriminates and does not silently emit zero."
+  },
+
+  "toolchain": {
+    "jar_sha256": "b63daf5f689660a276ed37bbca3393cb26fe62e097427cdd599647b874304718",
+    "jar_matches_all_stored_manifests": true,
+    "java": "Temurin 23.0.2+7",
+    "note": "The container ships JDK 21, which cannot load the jar (class-file major 67). scripts/env_assert_knotjob.py now fails loudly on that."
+  },
+
+  "instrumentation_gap": {
+    "what_broke": "The watch used `pgrep -f KnotJob.jar`, which matched the watcher's own shell command line because that string appears in the command. The process-exited branch could therefore never fire, and the death was not noticed until an hourly check-in read `ps -C java` and found nothing.",
+    "consequence": "One status report in this session said the run was alive after it had already died.",
+    "fix": "scripts/run_knotjob_watched.sh records the pid, exit code and wall time to a sidecar file, so a silent death is recorded as a death rather than inferred from an absence."
+  },
+
+  "bears_on_conjecture": "Nothing. This file records a failed computation. No counterexample to the Slice-Ribbon Conjecture was found."
+}
