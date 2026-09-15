@@ -74,5 +74,27 @@
    "required": 2,
    "verdict": "PASS, and this is the control that shows the pipeline can return a nonzero value"
   }
+ },
+ "abe_tagami_extension": {
+  "purpose": "scripts/run_knotjob.py explicitly excluded the 41- and 47-crossing K_2 and D_0_2 inputs from its bounded pass, preserving them \"for the larger follow-up session\". This is that follow-up, partially.",
+  "AbeTagami_K_2": {
+   "crossings": 41,
+   "s_Q": 0,
+   "status": "computed"
+  },
+  "AbeTagami_D_0_2": {
+   "crossings": 47,
+   "s_Q": null,
+   "status": "NOT COMPUTED",
+   "reason": "KnotJob died silently producing no output, twice, at -Xmx3g and -Xmx5g with four band searches also resident on a 15 GB container. Khovanov homology at 47 crossings needs more memory than was free. This is a resource failure, not a result: nothing is known about s(D_0_2) from here."
+  },
+  "AbeTagami_D_1_2": {
+   "crossings": 60,
+   "s_Q": null,
+   "status": "NOT ATTEMPTED",
+   "reason": "60 crossings; D_0_2 at 47 already exceeded available memory."
+  },
+  "control": "positive trefoil returned s = 2 in the same batch as K_2",
+  "what_it_would_have_settled": "s(D_0_2) != 0 would prove D_0_2 not slice, hence K_0 not concordant to K_2, killing that pair. s = 0 would leave it live. Neither is established."
  }
 }
