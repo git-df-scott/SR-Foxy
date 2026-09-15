@@ -147,6 +147,36 @@ dumped its structured record only after the whole loop and `timeout` killed it
 first. That is fixed: `rbg_r0_search.py` now writes after every diagram, and
 also stores the frontier itself rather than only its size.
 
+## The pair survives Nakamura's obstruction
+
+`s_F(K) != 0` is the obstruction Nakamura used to kill Manolescu-Piccirillo's
+five topologically slice knots ([S27], arXiv:2203.14270, J. Topology 2023) and,
+through Dunfield-Gong Theorem 5.10, 25 further RBG knots. `research/03` records
+it as obstructing both `K_B` and `K_G`. It had **never been computed for any RBG
+knot in this repository**: KnotJob had only ever been run on Abe-Tagami knots.
+
+Computed here for the first time:
+
+| knot | crossings | s over Q | s over F_2 | s over F_3 |
+|---|---:|---:|---:|---:|
+| K_B(0,0,0,-1,2,1) | 27 | **0** | **0** | **0** |
+| K_G(0,0,0,-1,2,1) | 24 | **0** | **0** | **0** |
+
+Controls, both required, run through the same pipeline: the positive trefoil
+returns `s = 2` and the ribbon knot `6_1` returns `s = 0`. A one-sided control
+would have been worthless, since `s = 0` is the outcome being hunted; the
+trefoil is what shows the pipeline can return a nonzero answer. Both control
+PD codes were taken verbatim from `results/knotjob/inputs.txt`, so an error in
+converting snappy's 0-indexed codes to KnotJob's 1-indexed `X[a,b,c,d]` form
+would have shown up as a wrong control value.
+
+Record: `results/RBG_r0_s_invariant.json`, with logs beside it.
+
+**The strongest known killer of RBG candidates does not fire on this pair.** So
+the band searches above were run against a live target rather than a knot
+already obstructed from sliceness. That is the removal of an obstruction, not
+evidence of sliceness, and it says nothing whatever about ribbonness.
+
 ## Scope and cautions
 
 * Survivor counts are diagrams retained by the filter, not isotopy classes,
