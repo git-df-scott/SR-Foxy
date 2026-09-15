@@ -88,7 +88,42 @@ holds automatically for *every* 2-component slice link. `L_{3,1}` has two
 components. WS5 as written is therefore vacuous, and that half of the lane
 should be closed by this argument rather than by running it.
 
-### 3.2 What is still live
+### 3.2 Theorem 2 has teeth
+
+Worth checking before recommending a construction. Of **75 tabulated
+2-component links scanned, only two have `null V = 1` at all** — `L9n18` and
+`L9n19`. Every other one has `null V = 0` and fails Theorem 1 outright. So
+Theorem 2 is rarely even testable; and on both links where it is, it **fails**:
+`det V = 9` and `25` against a component-determinant product of `1` (both
+components of each are unknots). Neither link is slice — linking number 4,
+signature −6 and −4 — so these are calibration, not candidates. But they show
+Theorem 2 is a sharp constraint rather than a formality, and that a link can
+satisfy Theorem 1 and be caught only by Theorem 2, which is exactly the shape
+of the `L_{3,1}` test.
+
+### 3.3 The `L_{3,1}` test, pre-registered
+
+GST Figure 1 and Section 7: `L_{n,1}` is the **square knot `Q` interleaved with
+`V_n = T_{n,n+1} # mirror(T_{n,n+1})`**; the components are algebraically
+unlinked and 0-framed (Prop. 2.2); Section 8 proves the link slice. Both
+components are of the form `K # −K`, hence ribbon, with
+`det(Q) = det(V_3) = 9`. Theorem 1 holds automatically by §3.1, so the entire
+test is the single congruence
+
+> **if `L_{3,1}` is ribbon then `det V(L_{3,1}) ≡ 81 ≡ 17 (mod 32)`.**
+
+A different residue makes `L_{3,1}` slice and not ribbon.
+
+**Blocker.** The construction cannot be reconstructed from prose. GST describe
+each summand as "an n-stranded spiral, with a full ±1 twist added relative to
+the plane of the paper", interleaved — that is a figure, not a combinatorial
+description, and guessing it would risk a *false* counterexample, which is the
+worst available outcome. Diao–Pan–Yan (arXiv:2604.17737) implement an algorithm
+to build these links explicitly but defer its details to a later paper and
+publish no PD codes, braid words or data repository. So the gating task is
+reading GST Figure 1 itself.
+
+### 3.4 What is still live
 
 1. **Theorem 2 on `L_{3,1}`.** `det V(L) ≡ det(K_1)det(K_2) (mod 32)` is not
    implied by `Δ(L) = 0`, and is defined precisely because Theorem 1 holds

@@ -1,14 +1,14 @@
 {
- "date": "2026-09-14T22:03:54.366816Z",
+ "date": "2026-09-14T22:32:59.478110Z",
  "target": "D_{0,1} = K_0 # (-K_1)",
  "box": {
   "max_bands": 2,
   "max_band_len": 6,
   "max_twists": 2,
-  "diagrams_per_partner": 40,
+  "diagrams_per_partner": 200,
   "backtrack_steps": 25,
-  "case_cap_seconds": 120,
-  "deadline_seconds": 27000.0
+  "case_cap_seconds": 30,
+  "deadline_seconds": 25000.0
  },
  "partners": [
   "6_1",
@@ -26,7 +26,7 @@
    "completed": false,
    "certified_slice": false,
    "outcome": "timed_out_or_crashed_UNKNOWN",
-   "cap_seconds": 120
+   "cap_seconds": 30
   },
   {
    "partner": "mirror(6_1)",
@@ -34,7 +34,7 @@
    "completed": false,
    "certified_slice": false,
    "outcome": "timed_out_or_crashed_UNKNOWN",
-   "cap_seconds": 120
+   "cap_seconds": 30
   },
   {
    "partner": "9_46",
@@ -42,7 +42,7 @@
    "completed": false,
    "certified_slice": false,
    "outcome": "timed_out_or_crashed_UNKNOWN",
-   "cap_seconds": 120
+   "cap_seconds": 30
   },
   {
    "partner": "mirror(9_46)",
@@ -50,7 +50,7 @@
    "completed": false,
    "certified_slice": false,
    "outcome": "timed_out_or_crashed_UNKNOWN",
-   "cap_seconds": 120
+   "cap_seconds": 30
   },
   {
    "partner": "10_3",
@@ -58,7 +58,7 @@
    "completed": false,
    "certified_slice": false,
    "outcome": "timed_out_or_crashed_UNKNOWN",
-   "cap_seconds": 120
+   "cap_seconds": 30
   },
   {
    "partner": "mirror(10_3)",
@@ -66,7 +66,7 @@
    "completed": false,
    "certified_slice": false,
    "outcome": "timed_out_or_crashed_UNKNOWN",
-   "cap_seconds": 120
+   "cap_seconds": 30
   },
   {
    "partner": "8_8",
@@ -74,7 +74,7 @@
    "completed": false,
    "certified_slice": false,
    "outcome": "timed_out_or_crashed_UNKNOWN",
-   "cap_seconds": 120
+   "cap_seconds": 30
   },
   {
    "partner": "mirror(8_8)",
@@ -82,7 +82,7 @@
    "completed": false,
    "certified_slice": false,
    "outcome": "timed_out_or_crashed_UNKNOWN",
-   "cap_seconds": 120
+   "cap_seconds": 30
   },
   {
    "partner": "9_41",
@@ -90,7 +90,7 @@
    "completed": false,
    "certified_slice": false,
    "outcome": "timed_out_or_crashed_UNKNOWN",
-   "cap_seconds": 120
+   "cap_seconds": 30
   },
   {
    "partner": "mirror(9_41)",
@@ -98,7 +98,7 @@
    "completed": false,
    "certified_slice": false,
    "outcome": "timed_out_or_crashed_UNKNOWN",
-   "cap_seconds": 120
+   "cap_seconds": 30
   },
   {
    "partner": "10_22",
@@ -106,7 +106,7 @@
    "completed": false,
    "certified_slice": false,
    "outcome": "timed_out_or_crashed_UNKNOWN",
-   "cap_seconds": 120
+   "cap_seconds": 30
   },
   {
    "partner": "mirror(10_22)",
@@ -114,7 +114,7 @@
    "completed": false,
    "certified_slice": false,
    "outcome": "timed_out_or_crashed_UNKNOWN",
-   "cap_seconds": 120
+   "cap_seconds": 30
   },
   {
    "partner": "10_87",
@@ -122,7 +122,7 @@
    "completed": false,
    "certified_slice": false,
    "outcome": "timed_out_or_crashed_UNKNOWN",
-   "cap_seconds": 120
+   "cap_seconds": 30
   },
   {
    "partner": "mirror(10_87)",
@@ -130,7 +130,7 @@
    "completed": false,
    "certified_slice": false,
    "outcome": "timed_out_or_crashed_UNKNOWN",
-   "cap_seconds": 120
+   "cap_seconds": 30
   },
   {
    "partner": "6_1",
@@ -138,7 +138,7 @@
    "completed": false,
    "certified_slice": false,
    "outcome": "timed_out_or_crashed_UNKNOWN",
-   "cap_seconds": 120
+   "cap_seconds": 30
   },
   {
    "partner": "mirror(6_1)",
@@ -146,7 +146,7 @@
    "completed": false,
    "certified_slice": false,
    "outcome": "timed_out_or_crashed_UNKNOWN",
-   "cap_seconds": 120
+   "cap_seconds": 30
   },
   {
    "partner": "9_46",
@@ -154,19 +154,11 @@
    "completed": false,
    "certified_slice": false,
    "outcome": "timed_out_or_crashed_UNKNOWN",
-   "cap_seconds": 120
-  },
-  {
-   "partner": "mirror(9_46)",
-   "diagram": 1,
-   "completed": false,
-   "certified_slice": false,
-   "outcome": "timed_out_or_crashed_UNKNOWN",
-   "cap_seconds": 120
+   "cap_seconds": 30
   }
  ],
  "certified_slice": false,
  "stop": null,
  "scope": "Bounded search. A timed-out case is UNKNOWN, never a negative. No hit is a non-existence proof, and a hit needs the oriented whole-link checks of research/20 before it is called a counterexample.",
- "elapsed_seconds": 2160.4
+ "elapsed_seconds": 510.4
 }

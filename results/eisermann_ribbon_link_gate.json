@@ -1,4 +1,5 @@
 {
+ "L_3_1_prediction": "GST L_{n,1} is the square knot Q interleaved with V_n = T_{n,n+1} # mirror(T_{n,n+1}) (GST Figure 1, Section 7; slice in Section 8). Both components are of the form K # -K, hence ribbon, with det(Q) = 9 and det(V_3) = 9. So if L_{3,1} is ribbon then det V(L_{3,1}) = 81 = 17 mod 32. Theorem 1 is automatic here, so this single congruence is the whole test.",
  "controls_pass": true,
  "live_tests": [
   "Theorem 2 (det V mod 32) on any slice link, L_{3,1} included",
@@ -82,9 +83,36 @@
    "null_V": 0,
    "ribbon": false,
    "thm1_satisfied": false
+  },
+  {
+   "components": 2,
+   "det_V": "9",
+   "expected_mod_32": 1,
+   "link": "L9n18",
+   "linking_matrix": "[[0, 4], [4, 0]]",
+   "null_V": 1,
+   "ribbon": false,
+   "signature": -6,
+   "slice_ruled_out_by": "linking number != 0 and signature != 0",
+   "thm1_satisfied": true,
+   "thm2_satisfied": false
+  },
+  {
+   "components": 2,
+   "det_V": "-7",
+   "expected_mod_32": 1,
+   "link": "L9n19",
+   "linking_matrix": "[[0, 4], [4, 0]]",
+   "null_V": 1,
+   "ribbon": false,
+   "signature": -4,
+   "slice_ruled_out_by": "linking number != 0 and signature != 0",
+   "thm1_satisfied": true,
+   "thm2_satisfied": false
   }
  ],
  "scope": "Controls only. No slice link is tested here: GST L_{3,1} is not in the repository and must be built from GST Figure 1 before either live test can be run.",
  "source": "Eisermann, The Jones polynomial of ribbon links, Geom. Topol. 13 (2009) 623-660, arXiv:0802.2287",
+ "theorem_2_has_teeth": "Of 75 tabulated 2-component links only L9n18 and L9n19 have null V = 1, and both VIOLATE Theorem 2 (det V = 9 and 25 against a component-determinant product of 1). Neither is slice: linking number 4, signature -6 and -4. So Theorem 2 is a sharp constraint, not a formality.",
  "vacuity": "Theorem 1 cannot fire on a 2-component slice link: slice with n>=2 gives Delta(L)=0, hence det(L)=0, hence null V >= 1, and Lemma 1 caps it at n-1 = 1. So CAMPAIGN_PLAN WS5, which computes null V of the 2-component link L_{3,1}, is vacuous as written."
 }
