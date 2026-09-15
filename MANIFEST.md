@@ -44,6 +44,17 @@ Cutoff: 2026-08-30. Repository history was preserved; this session only adds the
 | `results/two_fission_J149_sharded/` | four terminated shards of the J149 reverse search; every endpoint is the K0 positive control | executed, hand-stopped before its cap | read the per-shard counts in `README.md` | every shard has `complete: false`; partial coverage, and the filters are blind to the K0/K1 distinction by `research/11` |
 | `graph-reconstruction/` | exact deck engine; deficit measured through n=9 and growing; Ivanov's family improves fraction while deficit diverges | exhaustive computation with nauty canonical forms | `python3 -c "import deck; print(deck.find_collisions(list(deck.geng(9))))"` → `{}` | unrelated to slice-ribbon; Ivanov's b is a *lower* bound, so quoted deficits are upper bounds on the true deficit |
 
+## Added 2026-09-15 (fold of `main`'s 15 September session and PR #4's continuation)
+
+| artifact | what it claims | evidence level | how to verify | unresolved assumptions |
+|---|---|---|---|---|
+| `UNFINISHED.md` | the open threads at the end of the 14-15 September sessions: four unfinished Teichner runs, partners never run, the `s(D_{0,2})` resource failure, three untouched search dials | a register of open work, containing no results | check each row against the run archive and the heartbeats | **nothing in it is a result**; §5's citation claim is corrected inline on the fold |
+| `results/band_generator_saturation.json` | `max_band_len` saturates at 6 on `D_{0,1} # 6_1`; `max_twists` does not saturate; diagram choice changes the band set | direct measurement of the band generator | recount bands at lengths 4, 5, 6, 8, 14 on the same input | measured on the stated inputs; `simple` is not a superset of `shortest` at small lengths, so neither subsumes the other |
+| `results/RBG_r0_s_invariant.json` | `s = 0` over Q, F2 and F3 for all four knots of both r = 0 super-special pairs | KnotJob, with a two-sided control (trefoil fires at 2, ribbon `6_1` at 0) | rerun KnotJob on the stored PD codes | `s = 0` is survival, not evidence; it means the cheapest obstruction does not fire |
+| `results/container_reclamation_2026-09-15.json` | four Teichner searches with 24 h budgets died with zero partner runs completed; observed container lifetime about 26 h | operational record, reconstructed from heartbeats | read each heartbeat in `results/teichner_killed_runs_archive.json` | the lost runs are **not** coverage of their boxes and support no conclusion |
+| `results/L31_candidate_verification.json`, `results/gst_L31_*` | three nominations for GST's `L_{3,1}`, recovered as band fissions, are all rejected | genus + fiberedness + determinant against `Q = 3_1 # -3_1` and `V_3 = 8_19 # -8_19` | rerun `scripts/verify_L31_candidates.py` | that profile is strong but is not a proof of knot type; a positive would still need the R-link property |
+| `research/22` §3.2-3.3 (updated) | Eisermann Theorem 2 is a sharp constraint, and the `L_{3,1}` test is one pre-registered congruence `det V = 17 (mod 32)` | 75 tabulated links scanned; GST Figure 1 and §7 read for the statement | rerun `scripts/eisermann_ribbon_link_gate.py` | the construction is a **figure**; guessing the spiral risks a false counterexample, so the lane stays gated on reading it |
+
 ### Note on numbering
 
 `research/23` and `research/24` were published as `research/19` and
@@ -58,4 +69,4 @@ for unrelated historical reasons. The next free number is 25.
 3. A preprint theorem is cited as a theorem in that version, not as peer-reviewed fact.
 4. `DG` nomenclature follows SnapPy/Hoste–Thistlethwaite style exactly as printed in [S01,S03]: `18nh00000601`.
 5. Any future use of Turaev’s Theorem H must begin by replacing the present abstract-level evidence with the complete primary theorem and hypotheses.
-6. As of the 2026-09-14 fold, every branch is merged into `main` and there are no unmerged branches. Session records written on a branch (`SESSION_2026-09-14.md`, and the per-session sections of `HANDOFF.md`) are true about their own session only; `HANDOFF.md`'s top section is the only one written with sight of the whole board.
+6. As of the 2026-09-15 fold, every line of work in this repository is in one place. PR #3 was merged into `main` independently on 15 September, which re-landed its two research notes at their original numbers; `main` therefore carries duplicate 19 and 20 until this fold lands. Session records written on a branch (`SESSION_2026-09-14.md`, and the per-session sections of `HANDOFF.md`) are true about their own session only; `HANDOFF.md`'s top section is the only one written with sight of the whole board.

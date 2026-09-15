@@ -1,15 +1,22 @@
-# Handoff for Astra — 14 September 2026, all branches folded into `main`
+# Handoff for Astra — 15 September 2026, everything folded into one place
 
 **No counterexample found.** Nothing below changes that, and nothing below is a
 new obstruction to slice-ribbon.
 
-What is new is bookkeeping: `main` now carries every line of work that existed
-in this repository. Three open draft PRs were folded here — #2
-(`claude/pensive-hopper-3rh6p4`), #3 (`claude/counterexample-search-ungpe2`),
-#4 (`claude/inspiring-cray-3mvttt`) — plus the already-merged Opus work that
-`main` was carrying. There are no unmerged branches left. Read this section
-before the four historical handoffs below it; they are each true about their
-own session and none of them is true about the whole board.
+What is new is bookkeeping: this branch carries every line of work that exists
+in this repository. It folds #2 (`claude/pensive-hopper-3rh6p4`) and #4
+(`claude/inspiring-cray-3mvttt`), and merges `main`, which merged #3
+(`claude/counterexample-search-ungpe2`) itself at 13:55Z on 15 September and
+then added a further session on top. Read this section before the historical
+handoffs below it; they are each true about their own session and none of them
+is true about the whole board.
+
+**Updated 15 September.** `main` moved after this fold was first written, and
+#4 gained four more commits. Three things below changed as a result and are
+marked **[15 Sep]**: the note numbering is now genuinely ambiguous *on `main`*
+and fixed here; the Teichner planning advice in §4 was **wrong** and is
+corrected; and `UNFINISHED.md` is now the live list of open threads — read it
+alongside this, not instead of it.
 
 ## 0. Read these first
 
@@ -20,6 +27,8 @@ own session and none of them is true about the whole board.
 | the first invariant that separates the Abe-Tagami family | `research/21_branched_double_covers.md` |
 | the audit of your own prefix-annulus lemma, and a retraction | `research/23_prefix_annulus_lemma_audit.md` §3, §8 (read §5 with §3 of this handoff) |
 | the constructive frontier on D01 | `research/20_next_construction_plan.md` (yours, unchanged) |
+| **what is still open and running** | `UNFINISHED.md` **[15 Sep]** |
+| why most "wider" band searches here were no-ops | `results/band_generator_saturation.json` **[15 Sep]** |
 
 ## 1. Renumbering, because two sessions used the same numbers
 
@@ -42,6 +51,19 @@ mirror-partner lead) and are correct as written — do not "fix" them.
 `09_turaev_grid.md`). That predates all of this and was left alone.
 
 The next free number is **25**.
+
+**[15 Sep] This got worse before it got better.** When `main` merged #3 on 15
+September it took that branch's files as they stood, so **`main` itself now
+carries two notes numbered 19 and two numbered 20**. That ambiguity is live in
+its text: `UNFINISHED.md` §5 and §7 say "research/19" and "research/20" meaning
+the prefix-annulus and route-B notes, while the historical `HANDOFF` sections
+say the same strings meaning the completion-gate and construction-plan notes.
+
+This branch resolves it. Git's rename detection carried the 23/24 renames
+through the merge, so no duplicates came back, and the references in `main`'s
+new files are repointed: `UNFINISHED.md` §5, §7 and its standing cautions, and
+`SESSION_2026-09-15.md`'s header and strategic picture. References that mean
+`main`'s own notes are deliberately left alone.
 
 ## 2. The one result that could have invalidated other work, and does not
 
@@ -100,6 +122,11 @@ I have left §5 standing in the note rather than editing it, on this
 repository's own convention about retractions, but **read it with this
 paragraph next to it.**
 
+**[15 Sep]** `UNFINISHED.md` §5, written after PR #3 merged, repeated the same
+"asserted, not cited" claim. It now carries this correction inline, and its
+heading is changed from "still needs one citation" to "needs one citation
+*registered*, not found".
+
 What is genuinely still open is smaller: **Cochran-Harvey has no `[Sxx]` entry
 in `SOURCES.md`.** The verification register is where this repository decides
 what counts as cited, and a load-bearing theorem that only appears inside two
@@ -154,12 +181,55 @@ The fibered partners `8_9`, `8_20`, `9_27` must **not** be run: adding a fibered
 ribbon `J` leaves `K_0` and `-K_1` unpaired among the fibered prime summands, so
 Miyazaki still returns non-ribbon for the sum and no certificate can exist.
 
-What remains is `9_41`/`9_46` at 34 (yours) and `10_3`/`10_22`/`10_87` at 35.
-After those, the non-fibered ribbon knots up to 10 crossings are exhausted and
-the next partners are 11-crossing, i.e. 36-crossing sums at 24-48 h each.
-**If those five come back negative, widening the box on `6_1` — the cheapest
-sum — beats climbing to 11-crossing partners.** That is a planning
-recommendation, not a result.
+What remains is `9_41`/`9_46` at 34 (yours, and no result came back) and
+`10_3`/`10_22`/`10_87` at 35, of which `10_22` and `10_87` were killed by
+container reclamation and never rerun. After those, the non-fibered ribbon
+knots up to 10 crossings are exhausted and the next partners are 11-crossing,
+i.e. 36-crossing sums at 24-48 h each.
+
+**[15 Sep] I gave you bad advice here and am withdrawing it.** The first
+version of this section said that if the remaining partners come back negative,
+*widening the box* on `6_1` beats climbing to 11-crossing partners. The
+instinct was right; the parameter was wrong, and `results/band_generator_saturation.json`
+shows why:
+
+> **`max_band_len` saturates.** On `D_{0,1} # 6_1` at `paths='shortest'`,
+> `max_twists=2`, the band count is 6,175 at length 4, 9,301 at 5, 10,145 at 6
+> — and *exactly* 10,145 at length 8 and at length 14. Past 6, raising the
+> length adds no bands at all.
+
+So "widen the box" in the sense this campaign has always meant it — longer
+bands — is a **no-op**, and the historical runs recorded at "length ≤ 8" and
+"length ≤ 10" explored nothing beyond length 6. One run of that session at
+length 14 was an exact duplicate of its length-8 sibling and was killed once
+measured.
+
+Three dials are genuinely untouched, and these are what "widening" should mean
+from now on:
+
+* **`paths='simple'`** — about **75x** the band set at saturation on the
+  control. Note it is *not* a superset of `shortest` at small lengths, so
+  neither subsumes the other and both are needed.
+* **`max_twists`** — no saturation, roughly linear (tw=4 about 1.8x tw=2,
+  tw=6 about 2.5x), and pinned at 2 in **every run this campaign has done**.
+* **diagram choice** — one diagram per Teichner run, always. Four shaken seeds
+  of the same 31-crossing `D_{0,1} # 6_1` give 10,071 / 10,271 / 10,356 /
+  11,664 bands: same knot, same box, different band sets.
+
+`teichner_certify.py` now exposes all three. One run of each was launched and
+**none finished** — see `UNFINISHED.md` §1. The same three dials have never
+been applied to the r = 0 RBG sweeps either, whose 304 and 333 two-band
+survivors were all `shortest`, twists 2, at or below saturation.
+
+**Operational rule from the same session:** observed container lifetime is
+about 26 h, so a 24 h budget does not fit inside one container once startup and
+other work are counted. Budget long searches at **20 h or less, and prefer a
+box that finishes to a box that is merely larger.** Four searches with 24 h
+budgets died mid-flight with zero partner runs completed; only the heartbeat in
+`teichner_certify.py` kept a record of them at all
+(`results/container_reclamation_2026-09-15.json`). Also: the rebuilt container's
+first K_B calibration reads 2.96 s, which is cold-start only — repeated runs
+settle at 0.52-0.71 s. Do not re-budget from a cold first measurement.
 
 One calibration worth not re-deriving, in `TOOLING.md`: `max_bands` is **not**
 the fusion number and is **not** bounded below by the genus. One band reaches
@@ -196,6 +266,23 @@ The structural fact worth carrying: **the frontier grows**, 13 to 60 from one
 band to two. For `K_DG = 18nh00000601` the comparable search left only trivial
 bands, which is why no two-band search could start there. This lane has real
 input, and that is the whole reason to spend on it.
+
+**[15 Sep] The strongest known killer does not fire.** Rasmussen's `s` is what
+Nakamura used to kill Manolescu-Piccirillo's five topologically slice knots
+(arXiv:2203.14270) and, via Dunfield-Gong Thm 5.10, 25 further RBG knots, and
+`research/03` records it as obstructing both `K_B` and `K_G`. It had **never**
+been computed for any RBG knot here — KnotJob was only ever pointed at
+Abe-Tagami. Now it has been, for both r = 0 pairs:
+`s_Q = s_{F2} = s_{F3} = 0` on `MP_KB/KG(0,0,0,-1,2,1)`, and `s_Q = 0` on
+`MP_KB/KG(0,0,0,1,2,-1)` (`results/RBG_r0_s_invariant.json`). Two-sided
+controls: the positive trefoil fires at 2, ribbon `6_1` returns 0. A control
+that only confirmed `s = 0` would be worthless here, since `s = 0` is the
+outcome being hunted.
+
+Read this correctly: **`s = 0` is survival, not evidence.** It means the
+cheapest available obstruction fails to kill these knots, which is what a live
+candidate looks like — and what a slice knot looks like, and what plenty of
+non-slice knots look like too.
 
 `research/24` §4 proposes the crossing nobody has tried: an `r = 0` pair has
 diffeomorphic 0-traces, so `K_B` ribbon **and** `K_G` certified non-ribbon is a
@@ -259,6 +346,35 @@ gives the 48-crossing band-sum *knot* `B_{3,1}`, and a band sum cannot be
 reversed without its band. Building `L_{n,k}` from GST Figure 1 is the gating
 task for the whole link lane.
 
+**[15 Sep] The test is now pre-registered, and Theorem 2 has teeth.** Of 75
+tabulated 2-component links scanned, only `L9n18` and `L9n19` have `null V = 1`
+at all; every other fails Theorem 1 outright. On both of those, Theorem 2
+**fails** — `det V = 9` and `25` against a component-determinant product of 1.
+Neither is slice (linking number 4, signatures −6 and −4), so that is
+calibration rather than a candidate, but it shows a link can pass Theorem 1 and
+be caught only by Theorem 2, which is exactly the shape of the `L_{3,1}` test.
+
+From GST Figure 1 and §7: `L_{n,1}` is the square knot `Q` interleaved with
+`V_n = T_{n,n+1} # mirror(T_{n,n+1})`, components algebraically unlinked and
+0-framed, and §8 proves the link slice. Both components are `K # −K`, hence
+ribbon, with `det(Q) = det(V_3) = 9`. So the whole test is one congruence:
+
+> **if `L_{3,1}` is ribbon then `det V(L_{3,1}) ≡ 81 ≡ 17 (mod 32)`.**
+
+A different residue makes `L_{3,1}` slice and not ribbon.
+
+**The blocker is honest and it is a figure.** GST describe each summand as "an
+n-stranded spiral, with a full ±1 twist added relative to the plane of the
+paper", interleaved. That is a picture, not a combinatorial description, and
+guessing it risks a *false* counterexample — the worst available outcome.
+Diao-Pan-Yan (arXiv:2604.17737) implement an algorithm for these links but
+defer the details and publish no PD codes, braid words or data. Recovering
+`L_{3,1}` as a band fission of the GST knot was tried instead: all three
+nominations are **rejected** against the genus/fiberedness/determinant profile
+of `Q` and `V_3`, and widening to length 8 and twists 3 adds none
+(`results/L31_candidate_verification.json`, `results/gst_L31_*`). So the gating
+task is still reading GST Figure 1 itself.
+
 Honest limit: a link-level counterexample would not settle Fox's Problem 25,
 which is about knots. It would be the first slice-not-ribbon object of any kind.
 
@@ -315,8 +431,11 @@ close the gap. Either write the test or strike the pointers.
 ## 5. What I did not do
 
 * **No new mathematics.** This session read, folded, renumbered and audited. The
-  only original work is the `simplify('global')` audit of `main` in §2 and the
-  numbering resolution in §1.
+  only original work is the `simplify('global')` audit of `main` in §2, the
+  numbering resolution in §1, and the correction to `UNFINISHED.md` §5.
+* **[15 Sep] I did not run any of the three untouched dials**, or restart any of
+  the four Teichner searches that container reclamation killed. They are listed
+  in `UNFINISHED.md` §1 and they stay listed.
 * **No search was started, stopped or resumed**, and no running job was touched.
 * **No ledger status changed.** `CANDIDATE_LEDGER.md`, `OBSTRUCTION_MATRIX.md`
   and their CSVs are untouched, including for the branched-cover separation,
@@ -337,29 +456,54 @@ close the gap. Either write the test or strike the pointers.
 
 ## 6. Ranked next actions
 
-1. **Register Cochran-Harvey in `SOURCES.md`** with a `[Sxx]` number, theorem
+Reordered **[15 Sep]** now that saturation is known: the cheap repeat of an
+already-run box is gone, and two items moved up because the dials are new.
+
+1. **Turn one of the three untouched dials on a box that already finished.**
+   `paths='simple'` on `D_{0,1} # 6_1` is the single highest-value run
+   available — about 75x the band set, on the cheapest sum, in a lane where a
+   hit is a proof. Budget ≤ 20 h. Then `max_twists`, then diagram seeds. Apply
+   the same three to the r = 0 sweeps, which have never seen any of them.
+2. **Finish the four killed Teichner searches** (`UNFINISHED.md` §1) and the
+   partners that never ran: `9_41`, `9_46`, `10_22`, `10_87`. Not at 24 h —
+   see the container rule in §4.
+3. **Register Cochran-Harvey in `SOURCES.md`** with a `[Sxx]` number, theorem
    number and hypotheses (§3). Ten minutes, and it is what makes the
    rank-based exclusions cited rather than merely correct.
-2. **Finish the five remaining tractable Teichner partners.** It is the only
-   computation whose success is a proof rather than a candidate. Budget 24 h
-   each at 35 crossings.
-3. **Find or build a Heegaard Floer tool for a closed hyperbolic QHS³** and run
+4. **Compute `s(D_{0,2})` on a bigger machine.** It failed twice on memory at
+   47 crossings (`-Xmx3g` and `-Xmx5g` with four band searches resident on a
+   15 GB container) and `s(D_{1,2})` at 60 was never attempted. `s(K_2) = 0` did
+   land. A nonzero `s(D_{0,2})` proves `D_{0,2}` not slice, hence `K_0` not
+   concordant to `K_2`, killing that pair outright. That is a real kill
+   condition, not another coverage run.
+5. **Read GST Figure 1 and build `L_{3,1}`.** Gates the only computable
+   ribbon-only obstruction family in the catalog, and the test is now a single
+   pre-registered congruence (§4). Do not guess the spiral.
+6. **Find or build a Heegaard Floer tool for a closed hyperbolic QHS³** and run
    the `d(Σ₂(K_1))` test. Finite, falsifiable, and it closes the primary lane
    either way.
-4. **Build `L_{3,1}` from GST Figure 1.** Gates the only computable ribbon-only
-   obstruction family in the catalog.
-5. **Get a second reader on `research/22` §3.1** before striking WS5.
-6. **Apply the `research/24` §4 filter** — prime-summand decomposition and
+7. **Get a second reader on `research/22` §3.1** before striking WS5.
+8. **Apply the `research/24` §4 filter** — prime-summand decomposition and
    fiberedness on `r = 0` realizations, selecting the side that is already
-   certified non-ribbon. Needs a generator this repository does not have.
-7. Re-audit any older script that simplifies a link before measuring an
+   certified non-ribbon. Needs `../mma.py` and `../mp_auto.py`, which no
+   container here has.
+9. Re-audit any older script that simplifies a link before measuring an
    invariant. I covered `scripts/`; I did not audit the notebooks or anything
    outside this repository.
+
+One lead nobody has picked up, from `UNFINISHED.md` §8 and worth repeating: the
+**Abe-Tagami monodromy is explicit** — `t_{c'_1}^{-n} t_{c'_2}^{n} t_d^{-1} t_b
+t_c^{-1} t_a` on a genus-2 once-punctured fiber, in
+`data/knots/AbeTagami_K_n_NOTES.json` — and has never been used
+computationally in this repository. Whether it gives any purchase on
+concordance is unknown, which is exactly why it is interesting.
 
 ## 7. Standing cautions, unchanged
 
 Every search here is coverage, never an obstruction. A timed-out case is
-UNKNOWN, never a negative. Component Jones equality does not identify a knot. A
+UNKNOWN, never a negative, and **an unfinished search supports no conclusion at
+all**. A "wider" box is not wider if the generator has saturated. `s = 0` is
+survival, not evidence. Component Jones equality does not identify a knot. A
 polynomial coefficient distance is a sorting heuristic and nothing else. Passing
 a determinant filter proves no sliceness. Positive endpoints need oriented
 peripheral identification, orientation checks and a replayable movie before they

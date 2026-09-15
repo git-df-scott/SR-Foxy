@@ -16,7 +16,13 @@ Branched double covers now separate the Abe-Tagami family: Sigma_2(K_0) = L(13,5
 
 The Teichner lane is the only constructive one, and its cost roughly doubles per two crossings of the sum: 4.21 h at 31, 7.96 h at 33, over 12 h at 35. `D_{0,1} # 6_1` and `# 8_8` are complete with no certificate. `D_{0,1}` will not shrink below 25 crossings, so 31 is the hard floor. The lane runs out of tractable partners within a handful of runs.
 
+**`max_band_len` saturates**, at 6 on `D_{0,1} # 6_1`, so every historical run recorded at "length <= 8" or "length <= 10" explored nothing beyond length 6. Three dials are genuinely untouched and are what "wider" should mean from here: `paths='simple'` (about 75x the band set), `max_twists` (pinned at 2 in every run this campaign has done), and diagram choice. See [the saturation measurement](results/band_generator_saturation.json) and [what is still open](UNFINISHED.md).
+
+Rasmussen's `s` -- the obstruction that killed Manolescu-Piccirillo's five topologically slice knots -- is **zero on all four knots of both r = 0 pairs**, with a two-sided control. It had never been computed for any RBG knot here. That is survival, not evidence.
+
 The unmined r = 0 RBG pair K(0,0,0,-1,2,1) has now been searched to two bands at length 5: 333 and 304 survivors, no unknot. Its frontier **grows** with band count, unlike K_DG, which is why the lane has real input.
+
+The link lane's test is now pre-registered as a single congruence: if GST's slice link `L_{3,1}` is ribbon then `det V(L_{3,1}) = 17 (mod 32)`. A different residue would make it slice and not ribbon -- the first such object of any kind. It is gated on reading GST Figure 1: the construction is a picture, not a combinatorial description, and three attempts to recover the link as a band fission of the GST knot were all rejected.
 
 A published claim was **retracted**: `Link.simplify('global')` deletes split unknot components, which inverted a screen whose intended pass is "split knot plus unknot". Nothing is eliminated; see [the audit](research/23_prefix_annulus_lemma_audit.md).
 
