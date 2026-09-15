@@ -53,6 +53,9 @@ if os.environ.get('TEICHNER_J'):
 #
 # Widening either is a different search, not a longer one, so a negative
 # result under 'shortest' says nothing about 'simple'.
+import random
+SEED = os.environ.get('TEICHNER_SEED')
+SEED = int(SEED) if SEED not in (None, '') else None
 MAX_TWISTS = int(os.environ.get('TEICHNER_TWISTS', 2))
 PATHS = os.environ.get('TEICHNER_PATHS', 'shortest')
 if PATHS not in ('shortest', 'simple'):
@@ -74,7 +77,8 @@ if __name__ == '__main__':
     out, max_bands, max_band_len = sys.argv[1], int(sys.argv[2]), int(sys.argv[3])
     rec = {'date': datetime.datetime.utcnow().isoformat() + 'Z',
            'box': {'max_bands': max_bands, 'max_band_len': max_band_len,
-                   'max_twists': MAX_TWISTS, 'paths': PATHS, 'J_list': RIBBON_J},
+                   'max_twists': MAX_TWISTS, 'paths': PATHS, 'seed': SEED,
+                   'J_list': RIBBON_J},
            'runs': [],
            'meaning': 'a verified certificate proves K smoothly slice with a disk NOT known handle-ribbon; '
                       'then run homotopy-ribbon obstructions on K'}
@@ -94,7 +98,19 @@ if __name__ == '__main__':
                     'certificate': partner_result.get('unknot'),
                     'pd_code': J.PD_code()}
             partner = partner_certificates[jname]
-            S = K.connected_sum(J); S.simplify('global')
+            S = K.connected_sum(J)
+            S.simplify('global')
+            # A third dial nobody has turned here: every Teichner run in this
+            # repository has searched exactly ONE diagram of the sum. The r=0
+            # RBG sweeps show the diagram matters a lot -- 29 to 85 survivors
+            # across diagrams of one knot in an identical box -- so a ribbon
+            # disk visible on one diagram may be invisible on another.
+            # TEICHNER_SEED shakes the diagram before searching; unset keeps
+            # the canonical diagram, so the default behaviour is unchanged.
+            if SEED is not None:
+                random.seed(SEED)
+                S.backtrack(steps=25)
+                S.simplify('global')
             # Heartbeat: record that this pair was STARTED, with its box, before
             # the long call. A `timeout` kill during the search otherwise leaves
             # no trace at all, because a row is only appended once the search for
