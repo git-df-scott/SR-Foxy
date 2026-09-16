@@ -1,0 +1,124 @@
+[
+ {
+  "object": "10_17_2_1-cable",
+  "crossings": 41,
+  "genus": 8,
+  "fibered": true,
+  "tau": 0,
+  "nu": 0,
+  "epsilon": 0,
+  "det": "1",
+  "det_is_square": true,
+  "deg_delta": 16,
+  "delta": "t**16 - 3*t**14 + 5*t**12 - 7*t**10 + 9*t**8 - 7*t**6 + 5*t**4 - 3*t**2 + 1",
+  "fox_milnor_norm": true,
+  "why_not": [],
+  "status": "ok"
+ },
+ {
+  "object": "18nh00000601",
+  "crossings": 18,
+  "genus": 5,
+  "fibered": true,
+  "tau": 0,
+  "nu": 0,
+  "epsilon": 0,
+  "det": "25",
+  "det_is_square": true,
+  "deg_delta": 10,
+  "delta": "t**10 - 2*t**9 + t**8 - t**7 + 4*t**6 - 7*t**5 + 4*t**4 - t**3 + t**2 - 2*t + 1",
+  "fox_milnor_norm": true,
+  "why_not": [],
+  "status": "ok"
+ },
+ {
+  "object": "AbeTagami_D_0_1",
+  "crossings": 25,
+  "genus": 4,
+  "fibered": true,
+  "tau": 0,
+  "nu": 0,
+  "epsilon": 0,
+  "det": "169",
+  "det_is_square": true,
+  "deg_delta": 8,
+  "delta": "t**8 - 6*t**7 + 19*t**6 - 36*t**5 + 45*t**4 - 36*t**3 + 19*t**2 - 6*t + 1",
+  "fox_milnor_norm": true,
+  "why_not": [],
+  "status": "ok"
+ },
+ {
+  "object": "AbeTagami_D_0_2",
+  "crossings": 47,
+  "genus": 4,
+  "fibered": true,
+  "tau": 0,
+  "nu": 0,
+  "epsilon": 0,
+  "det": "169",
+  "det_is_square": true,
+  "deg_delta": 8,
+  "delta": "t**8 - 6*t**7 + 19*t**6 - 36*t**5 + 45*t**4 - 36*t**3 + 19*t**2 - 6*t + 1",
+  "fox_milnor_norm": true,
+  "why_not": [],
+  "status": "ok"
+ },
+ {
+  "object": "AbeTagami_D_1_2",
+  "status": "skipped (60 crossings)"
+ },
+ {
+  "object": "AbeTagami_K_0_K_-1__6_3",
+  "crossings": 6,
+  "genus": 2,
+  "fibered": true,
+  "tau": 0,
+  "nu": 0,
+  "epsilon": 0,
+  "det": "13",
+  "det_is_square": false,
+  "deg_delta": 4,
+  "delta": "t**4 - 3*t**3 + 5*t**2 - 3*t + 1",
+  "fox_milnor_norm": false,
+  "why_not": [
+   "self-reciprocal t**4 - 3*t**3 + 5*t**2 - 3*t + 1 has ODD multiplicity 1"
+  ],
+  "status": "ok"
+ },
+ {
+  "object": "AbeTagami_K_1",
+  "crossings": 19,
+  "genus": 2,
+  "fibered": true,
+  "tau": 0,
+  "nu": 0,
+  "epsilon": 0,
+  "det": "13",
+  "det_is_square": false,
+  "deg_delta": 4,
+  "delta": "t**4 - 3*t**3 + 5*t**2 - 3*t + 1",
+  "fox_milnor_norm": false,
+  "why_not": [
+   "self-reciprocal t**4 - 3*t**3 + 5*t**2 - 3*t + 1 has ODD multiplicity 1"
+  ],
+  "status": "ok"
+ },
+ {
+  "object": "AbeTagami_K_2",
+  "crossings": 41,
+  "genus": 2,
+  "fibered": true,
+  "tau": 0,
+  "nu": 0,
+  "epsilon": 0,
+  "det": "13",
+  "det_is_square": false,
+  "deg_delta": 4,
+  "delta": "t**4 - 3*t**3 + 5*t**2 - 3*t + 1",
+  "fox_milnor_norm": false,
+  "why_not": [
+   "self-reciprocal t**4 - 3*t**3 + 5*t**2 - 3*t + 1 has ODD multiplicity 1"
+  ],
+  "status": "ok"
+ }
+]
