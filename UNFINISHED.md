@@ -96,14 +96,40 @@ The diagram will not help. `results/D_0_2_diagram_floor_2026-09-16.json`:
 — no seed beat the stored diagram. A negative search, not a proof of crossing
 number, and consistent with `K_1`/`K_2` not shrinking either.
 
-Retry in flight (`results/s_D02_47cr_retry_2026-09-16.log`), changed in three
-ways rather than just raising the heap: **one characteristic** (`-s2` alone
-instead of `-s0 -s2`), `-Xmx12g`, `-XX:+ExitOnOutOfMemoryError` so a Java OOM is
-unambiguous, and a 60-second RSS sampler so a death is diagnosable. `s_2 ≠ 0`
-still obstructs sliceness, so dropping characteristic 0 costs nothing for this
-test. `s(D_{1,2})` at 60 crossings has a generated input
-(`data/knots/AbeTagami_D_1_2.json` -> 60-crossing PD) and is queued. **Until one
-prints a value these remain resource failures, not results.**
+**Correction, 06:55Z: the binding constraint here is the container lifetime, not
+the heap.** The retry (`-s2` alone, `-Xmx13g`,`-XX:+ExitOnOutOfMemoryError`, plus
+a 60-second RSS sampler) ran from 06:24:50Z and stopped at 06:31:50Z at 11.67 GB
+and still climbing — **without printing `exit=3`**, which `ExitOnOutOfMemoryError`
+would have produced on a Java OOM. At 06:54Z the container reported `up 0 min`:
+it had been **reclaimed and restarted**. Everything on disk survived (scratchpad,
+the KnotJob source build, the PD inputs, snappy); only the processes died.
+
+So the earlier framing in this section — "the heap was the binding constraint" —
+is **withdrawn for these runs**. It remains the best reading of the prior
+session's `-Xmx3g`/`-Xmx5g` history, which produced no output at all, but the two
+16 September deaths are reclamation, not OOM. Memory was *close* to binding
+(11.67 GB under a 12 GB ceiling, still rising), so both constraints are live and
+**neither is established as the one that will bite**. What is established is that
+raising the heap again is not obviously the fix.
+
+**This also kills the Teichner lane in this container, independent of the
+Miyazaki correction.** The reclamation came **1 h 47 min** after the three
+recovered searches started, and a comparable completed partner run (`8_8`, same
+box) took **7.96 h**. The `8_9` search had written only its 05:07Z heartbeat and
+is **UNKNOWN**, with no coverage of its box. Relaunching an 8-hour job into a
+box that reclaims inside two hours produces nothing but a heartbeat, so the three
+partners are legitimately back on the board but are **not runnable here**. They
+need a machine that survives a working day.
+
+`s(D_{0,2})` relaunched at 06:55Z **alone**, at `-Xmx13g`, with no band search
+competing for the 15 GB. It is the one job plausibly completable inside a
+reclamation window: `s(K_2)` at 41 crossings took 8 s, and this had already run
+7 minutes without finishing, so the honest estimate is tens of minutes, not hours.
+Log: `results/s_D02_47cr_retry2_2026-09-16.log`; the reclaimed attempts are
+preserved at `results/s_D02_47cr_2026-09-16.log` and
+`results/s_D02_47cr_retry1_reclaimed_2026-09-16.log`. `s(D_{1,2})` at 60 crossings
+has a generated input and is queued behind it. **Until one prints a value these
+remain resource failures, not results.**
 
 ## 4. The untried crossing that needs files outside this clone
 
