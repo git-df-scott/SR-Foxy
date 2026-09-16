@@ -139,6 +139,36 @@ in its docstring. It would have produced a spectacular and entirely false erratu
 
 ---
 
+## 2b. Audit sweep: every stored object behaves as it should
+
+`results/fox_milnor_audit_2026-09-16.json`, produced with the same tool. The point
+of the sweep is integrity: any object the ledger treats as slice that *failed*
+Fox–Milnor would be a serious bug, since `Δ` had never been checked without Sage.
+
+| object | cr | g | fibered | `det` | square | Fox–Milnor |
+|---|---|---|---|---|---|---|
+| `10_17_2_1-cable` | 41 | 8 | yes | 1 | yes | **norm** |
+| `18nh00000601` (`K_G`) | 18 | 5 | yes | 25 | yes | **norm** |
+| `AbeTagami_D_0_1` | 25 | 4 | yes | 169 | yes | **norm** |
+| `AbeTagami_D_0_2` | 47 | 4 | yes | 169 | yes | **norm** |
+| `GST_B31_regina`, `GST_knot` | 48 | 10 | no | 1 | yes | **norm** |
+| `HomPark_P` | 104 | 14 | yes | 9 | yes | **norm** |
+| `K_0 = 6_3`, `K_1`, `K_2`, `K_3` | 6–71 | 2 | yes | 13 | **no** | **not a norm** |
+| `CONTROL_3_1` | 3 | 1 | yes | 3 | **no** | **not a norm** |
+
+**No integrity problem found.** Every certified-slice or candidate object passes;
+every object that is *known not to be slice* fails, correctly — the `K_n` are
+concordant to `6_3` and `det 13` is not a square, and the repository's own
+`CONTROL_3_1` fires. That the non-slice rows fail is what makes the passing rows
+mean anything.
+
+Two incidental notes. `HomPark_P` at 104 crossings passing is the first
+confirmation in this repository that the stored Hom–Park knot is algebraically
+slice as [S08] constructs it. And `AbeTagami_D_0_2` passing — `det 169 = 13²`,
+`Δ` a norm — says the classical obstructions all vanish on it, which is exactly
+why the `s`-invariant was the right next tool there and why the three failed
+attempts in `UNFINISHED.md` §3 were worth making.
+
 ## 3. What this does not do
 
 It does not produce a counterexample, and it does not bring one closer by any
