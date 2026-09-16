@@ -1,0 +1,40 @@
+controls PASS: unlinks {'O2': (1, 1), 'O3': (2, 1)} | Whitehead beta = -1 | L9n18 det V = 9
+VIOLATION L13n2040   detV=89     prod=7     not slice: a component is not slice
+VIOLATION L13n2061   detV=117    prod=27    not slice: a component is not slice
+[   28.1s] scanned 9600 lk0 2490 testable 16 violations 2 candidates 0
+VIOLATION L13n2150   detV=89     prod=7     not slice: a component is not slice
+VIOLATION L13n2360   detV=117    prod=27    not slice: a component is not slice
+VIOLATION L13n2490   detV=117    prod=27    not slice: a component is not slice
+VIOLATION L13n2538   detV=-163   prod=45    not slice: a component is not slice
+VIOLATION L13n4518   detV=-23    prod=7     not slice: a component is not slice
+VIOLATION L13n4524   detV=9      prod=7     not slice: a component is not slice
+VIOLATION L13n4999   detV=-39    prod=7     not slice: a component is not slice
+VIOLATION L13n5076   detV=53     prod=5     not slice: a component is not slice
+VIOLATION L13n5154   detV=25     prod=7     not slice: a component is not slice
+VIOLATION L13n5227   detV=-115   prod=3     not slice: a component is not slice
+VIOLATION L13n5255   detV=-55    prod=7     not slice: a component is not slice
+VIOLATION L13n5314   detV=-43    prod=5     not slice: a component is not slice
+VIOLATION L13n5341   detV=81     prod=1     not slice: Sato-Levine beta = -4
+VIOLATION L13n5365   detV=41     prod=7     not slice: a component is not slice
+VIOLATION L13n5427   detV=-67    prod=3     not slice: a component is not slice
+VIOLATION L13n5444   detV=61     prod=3     not slice: a component is not slice
+VIOLATION L13n5538   detV=117    prod=27    not slice: a component is not slice
+VIOLATION L13n5584   detV=53     prod=5     not slice: a component is not slice
+VIOLATION L13n5588   detV=-43    prod=5     not slice: a component is not slice
+VIOLATION L13n5630   detV=-83    prod=3     not slice: a component is not slice
+VIOLATION L13n5631   detV=77     prod=3     not slice: a component is not slice
+VIOLATION L13n5633   detV=61     prod=3     not slice: a component is not slice
+VIOLATION L13n5636   detV=-67    prod=3     not slice: a component is not slice
+VIOLATION L13n5686   detV=61     prod=3     not slice: a component is not slice
+VIOLATION L13n5772   detV=81     prod=1     not slice: Sato-Levine beta = -4
+VIOLATION L13n5773   detV=-79    prod=1     not slice: Sato-Levine beta = -4
+VIOLATION L13n6355   detV=61     prod=3     not slice: a component is not slice
+VIOLATION L13n6376   detV=-51    prod=3     not slice: a component is not slice
+VIOLATION L13n6378   detV=45     prod=3     not slice: a component is not slice
+VIOLATION L13n6435   detV=77     prod=3     not slice: a component is not slice
+VIOLATION L14n435    detV=45     prod=3     not slice: a component is not slice
+VIOLATION L14n436    detV=-43    prod=5     not slice: a component is not slice
+VIOLATION L14n702    detV=69     prod=27    not slice: a component is not slice
+VIOLATION L14n771    detV=69     prod=27    not slice: a component is not slice
+VIOLATION L14n1619   detV=-43    prod=5     not slice: a component is not slice
+VIOLATION L14n1621   detV=45     prod=3     not slice: a component is not slice

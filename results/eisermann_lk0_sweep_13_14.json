@@ -1,0 +1,51 @@
+{
+ "date": "2026-09-16T22:17:22.383211Z",
+ "range": [
+  13,
+  14
+ ],
+ "controls": {
+  "unlinks": {
+   "O2": [
+    1,
+    1
+   ],
+   "O3": [
+    2,
+    1
+   ]
+  },
+  "whitehead_beta": -1,
+  "L9n18_detV": 9
+ },
+ "scanned": 9600,
+ "lk0": 2490,
+ "testable": 16,
+ "violations": [
+  {
+   "name": "L13n2040",
+   "crossings": 13,
+   "det_V": 89,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n2061",
+   "crossings": 13,
+   "det_V": 117,
+   "comp_dets": [
+    1,
+    27
+   ],
+   "product": 27,
+   "verdict": "not slice: a component is not slice"
+  }
+ ],
+ "candidates": [],
+ "rows": [],
+ "elapsed": 28.1
+}
