@@ -123,8 +123,20 @@ This crosses route A's generator with route B's certificate. I do not find it in
 entry says "run ribbon search on one side", and never says to choose the side
 that is already certified non-ribbon.
 
-Note that it does **not** need two concordant fibered knots. It is the only
-route on this board that escapes section 1.
+Note that it does **not** need two concordant fibered knots. ~~It is the only
+route on this board that escapes section 1.~~
+
+> **[16 Sep] The "only" is wrong — see `research/29`.** Turaev's **Theorem I**
+> also escapes section 1, and it was already on the board: `ERRATA_2026-09-11.md`
+> E1, three days before this note, declared it "a live and untested route-B
+> target" whose knots are algebraically slice and **provably not homotopy-ribbon**
+> (hence not ribbon), with Theorem J confirming no sliceness obstruction. It needs
+> **one knot to be smoothly slice** — no concordance coincidence and no fibered
+> pair. This note never mentions Turaev, and `CANDIDATE_LEDGER.md` carries no
+> Turaev entry, so the lane has been invisible since 11 September while five of
+> its knots sat in `data/knots/`. It is also the cheaper of the two: the `r = 0`
+> crossing needs `../mma.py` and `../mp_auto.py`, which exist in no clone, while
+> the Turaev knots are already here at 27 to 51 crossings.
 
 ### Is it live, or empty for a stupid reason?
 

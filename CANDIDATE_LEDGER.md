@@ -47,3 +47,33 @@ Cutoff: 2026-08-30. Binding terminology: **CE** means an explicit knot with both
 - (-K=r(\bar K)) is the inverse in oriented smooth concordance. Mirrors, reversals, and connected sums are written explicitly.
 - Stable handleslide equivalence, stabilization, homotopy-ribbonness, handle-ribbonness and half-ribbonness are never identified with ribbonness.
 - Mutation and common 0-surgery do not preserve or imply smooth concordance without a separate theorem; no such inference is used.
+
+## Turaev Theorem I knots — added 16 September 2026, Tier B, certificate UNAUDITED
+
+`research/29`. Five knots in `data/knots/Turaev_A_*.json`, absent from this ledger
+until today although `ERRATA_2026-09-11.md` E1 declared the lane live on 11
+September. `research/24` §4's claim that the `r = 0` RBG crossing is "the only
+route on this board that escapes section 1" is wrong because of them.
+
+| object | crossings | genus | `det` | Fox-Milnor | `tau` | `eps` | `s` | status |
+|---|---|---|---|---|---|---|---|---|
+| `Turaev_A_1_1_0_0` | 27 | 3 | 1 | norm | 0 | 0 | **0** | CANDIDATE |
+| `Turaev_A_1_3_0_0` | 37 | — | — | — | — | — | **0** | CANDIDATE |
+| `Turaev_A_2_1_0_0` | 39 | — | — | — | — | — | **0** | CANDIDATE |
+| `Turaev_A_3_1_0_0` | 51 | — | — | — | — | — | running | CANDIDATE |
+| `Turaev_A_1_1_1_1` | 143 | — | — | — | — | — | UNKNOWN | CANDIDATE |
+
+**Route B.** Certificate claimed: *not homotopy-ribbon*, via Turaev Theorem H(ii)
+(proved by pi_1-surjectivity) applied to Theorem I knots, per `ERRATA_2026-09-11.md`
+E1. Since `ribbon => handle-ribbon => homotopy-ribbon`, that is a non-ribbon
+certificate; Theorem J says H obstructs no sliceness. **Missing half: smooth
+sliceness of one of them.** Unlike the three certificates in `research/24` §1 this
+needs no concordance coincidence between distinct fibered knots.
+
+**The certificate is UNAUDITED and must not be quoted until it is.** Nobody has
+verified that these specific stored PD codes realise Theorem I with its hypotheses
+satisfied. `research/08` recovers the construction; it does not close that step.
+Given `ERRATA_2026-09-16.md` E16-1 — a theorem restated without a hypothesis, which
+cancelled three searches — this is exactly the check not to skip. Every row above
+is a CANDIDATE, never a CE, and the `s = 0` entries are *no obstruction*, not
+evidence of sliceness (`results/PREREG_turaev_s_invariant_2026-09-16.md`, rule 2).
