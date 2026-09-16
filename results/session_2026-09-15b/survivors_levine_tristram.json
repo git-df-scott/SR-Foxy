@@ -1,0 +1,1110 @@
+{
+ "date": "2026-09-16T01:19:47.430025Z",
+ "source": "results/session_2026-09-15b/eisermann_shortlist_screened.json",
+ "test": "Levine-Tristram signature vanishes for slice links at every prime-power root of unity",
+ "rows": [
+  {
+   "name": "L12n1933",
+   "crossings": 12,
+   "nonzero_signatures": {
+    "1/2": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.6442467512549813
+    },
+    "1/4": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.2567742900216951
+    },
+    "3/4": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.256774290021695
+    },
+    "1/8": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.025391283296133663
+    },
+    "3/8": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.52858151202469
+    },
+    "5/8": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.5285815120246895
+    },
+    "7/8": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.025391283296133594
+    },
+    "1/3": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.44800729021117386
+    },
+    "2/3": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.4480072902111729
+    },
+    "1/9": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.014700549274984702
+    },
+    "2/9": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.19219552132412307
+    },
+    "4/9": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.6202349211977058
+    },
+    "5/9": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.620234921197706
+    },
+    "7/9": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.1921955213241232
+    },
+    "8/9": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.014700549274984575
+    },
+    "1/5": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.14351584600846265
+    },
+    "2/5": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.5685682383527667
+    },
+    "3/5": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.5685682383527669
+    },
+    "4/5": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.1435158460084626
+    },
+    "1/7": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.044751584527995665
+    },
+    "2/7": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.34125304191833833
+    },
+    "3/7": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.6048744822479146
+    },
+    "4/7": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.6048744822479148
+    },
+    "5/7": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.34125304191833955
+    },
+    "6/7": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.04475158452799518
+    },
+    "1/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.005327083726394545
+    },
+    "2/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.10708068388927201
+    },
+    "3/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.3106563404266415
+    },
+    "4/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.5081739376304552
+    },
+    "5/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.6281062441786964
+    },
+    "6/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.6281062441786976
+    },
+    "7/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.5081739376304563
+    },
+    "8/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.3106563404266409
+    },
+    "9/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.10708068388927103
+    },
+    "10/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.005327083726394497
+    }
+   },
+   "max_abs_signature": 1,
+   "slice_ruled_out": true
+  },
+  {
+   "name": "L14n48413",
+   "crossings": 14,
+   "nonzero_signatures": {
+    "1/2": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.4182176929025825
+    },
+    "1/4": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.32861923663794473
+    },
+    "3/4": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.32861923663794396
+    },
+    "1/8": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.05254175230891181
+    },
+    "3/8": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.40494145091193556
+    },
+    "5/8": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.40494145091193484
+    },
+    "7/8": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.052541752308911664
+    },
+    "1/3": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.39116100555368244
+    },
+    "2/3": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.3911610055536824
+    },
+    "1/9": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.031298934772283654
+    },
+    "2/9": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.27645350440583144
+    },
+    "4/9": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.4159911031666141
+    },
+    "5/9": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.41599110316661614
+    },
+    "7/9": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.2764535044058309
+    },
+    "8/9": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.031298934772283654
+    },
+    "1/5": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.2278386060720294
+    },
+    "2/5": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.41029840304522697
+    },
+    "3/5": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.41029840304522713
+    },
+    "4/5": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.2278386060720301
+    },
+    "1/7": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.08837300620180198
+    },
+    "2/7": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.3652676566249582
+    },
+    "3/7": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.41443253891077875
+    },
+    "4/7": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.41443253891077814
+    },
+    "5/7": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.365267656624957
+    },
+    "6/7": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.0883730062018017
+    },
+    "1/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.011671777841556668
+    },
+    "2/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.18388885169070626
+    },
+    "3/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.3558729250637834
+    },
+    "4/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.4018504605342638
+    },
+    "5/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.41674851224413006
+    },
+    "6/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.4167485122441294
+    },
+    "7/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.4018504605342645
+    },
+    "8/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.3558729250637824
+    },
+    "9/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.1838888516907058
+    },
+    "10/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.011671777841556638
+    }
+   },
+   "max_abs_signature": 1,
+   "slice_ruled_out": true
+  },
+  {
+   "name": "L14n52589",
+   "crossings": 14,
+   "nonzero_signatures": {
+    "1/2": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.4054414989747307
+    },
+    "1/4": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.3300632498858764
+    },
+    "3/4": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.3300632498858767
+    },
+    "1/8": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.02966659282767037
+    },
+    "3/8": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.3872817341575818
+    },
+    "5/8": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.3872817341575824
+    },
+    "7/8": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.02966659282766987
+    },
+    "1/3": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.37262021583652993
+    },
+    "2/3": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.3726202158365305
+    },
+    "1/9": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.016605205865398556
+    },
+    "2/9": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.3062506675798435
+    },
+    "4/9": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.4019276577922219
+    },
+    "5/9": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.40192765779222345
+    },
+    "7/9": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.3062506675798445
+    },
+    "8/9": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.01660520586539823
+    },
+    "1/5": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.21615976316285898
+    },
+    "2/5": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.3939216739589637
+    },
+    "3/5": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.39392167395896394
+    },
+    "4/5": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.2161597631628588
+    },
+    "1/7": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.05546915511375398
+    },
+    "2/7": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.35028653076833566
+    },
+    "3/7": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.3996123460056983
+    },
+    "4/7": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.3996123460056982
+    },
+    "5/7": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.35028653076833477
+    },
+    "6/7": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.055469155113754214
+    },
+    "1/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.005902752676150615
+    },
+    "2/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.1525682652322891
+    },
+    "3/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.343228981379859
+    },
+    "4/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.3837349901567165
+    },
+    "5/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.40309352913059804
+    },
+    "6/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.40309352913059826
+    },
+    "7/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.3837349901567165
+    },
+    "8/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.34322898137985974
+    },
+    "9/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.15256826523228917
+    },
+    "10/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.005902752676150485
+    }
+   },
+   "max_abs_signature": 1,
+   "slice_ruled_out": true
+  },
+  {
+   "name": "L14n52605",
+   "crossings": 14,
+   "nonzero_signatures": {
+    "1/2": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.39429395320605903
+    },
+    "1/4": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.2297173526828784
+    },
+    "3/4": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.22971735268287885
+    },
+    "1/8": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.02689317347347306
+    },
+    "3/8": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.331461407043244
+    },
+    "5/8": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.3314614070432447
+    },
+    "7/8": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.026893173473473485
+    },
+    "1/3": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.3040711408498289
+    },
+    "2/3": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.3040711408498282
+    },
+    "1/9": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.01640663238617877
+    },
+    "2/9": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.17882748359847894
+    },
+    "4/9": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.3734874399106776
+    },
+    "5/9": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.37348743991067734
+    },
+    "7/9": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.17882748359847872
+    },
+    "8/9": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.01640663238617858
+    },
+    "1/5": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.13716037948846738
+    },
+    "2/5": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.34722875565938527
+    },
+    "3/5": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.34722875565938466
+    },
+    "4/5": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.13716037948846746
+    },
+    "1/7": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.045497609812724965
+    },
+    "2/7": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.27088077558204604
+    },
+    "3/7": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.3644594325841939
+    },
+    "4/7": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.36445943258419555
+    },
+    "5/7": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.27088077558204426
+    },
+    "6/7": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.0454976098127248
+    },
+    "1/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.006695254194504967
+    },
+    "2/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.10422315328238628
+    },
+    "3/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.2613538254791519
+    },
+    "4/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.3241247393175251
+    },
+    "5/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.37891301491134743
+    },
+    "6/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.37891301491134716
+    },
+    "7/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.32412473931752517
+    },
+    "8/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.26135382547915176
+    },
+    "9/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.10422315328238642
+    },
+    "10/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.006695254194505562
+    }
+   },
+   "max_abs_signature": 1,
+   "slice_ruled_out": true
+  },
+  {
+   "name": "L14n52619",
+   "crossings": 14,
+   "nonzero_signatures": {
+    "1/2": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 1.023868317770562
+    },
+    "1/4": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.31518166346265813
+    },
+    "3/4": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.3151816634626593
+    },
+    "1/8": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.01960695335004314
+    },
+    "3/8": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.8731118578301867
+    },
+    "5/8": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.8731118578301876
+    },
+    "7/8": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.019606953350044306
+    },
+    "1/3": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.7146281018748163
+    },
+    "2/3": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.7146281018748156
+    },
+    "1/9": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.012798108929400769
+    },
+    "2/9": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.18862177452276865
+    },
+    "4/9": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.9958980185680769
+    },
+    "5/9": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.9958980185680775
+    },
+    "7/9": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.1886217745227696
+    },
+    "8/9": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.01279810892940038
+    },
+    "1/5": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.09905939643838796
+    },
+    "2/5": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.9296633578044765
+    },
+    "3/5": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.9296633578044766
+    },
+    "4/5": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.09905939643838829
+    },
+    "1/7": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.024464685904264028
+    },
+    "2/7": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.4887394352488694
+    },
+    "3/7": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.9770548604331708
+    },
+    "4/7": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.9770548604331719
+    },
+    "5/7": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.4887394352488694
+    },
+    "6/7": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.024464685904263973
+    },
+    "1/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.0052119363656395554
+    },
+    "2/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.038065423715940634
+    },
+    "3/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.42510347891344513
+    },
+    "4/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.8426263497977755
+    },
+    "5/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 1.005268037909636
+    },
+    "6/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 1.005268037909637
+    },
+    "7/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.8426263497977742
+    },
+    "8/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.42510347891344513
+    },
+    "9/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.03806542371594052
+    },
+    "10/11": {
+     "signature": 1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.005211936365639382
+    }
+   },
+   "max_abs_signature": 1,
+   "slice_ruled_out": true
+  },
+  {
+   "name": "L14n54478",
+   "crossings": 14,
+   "nonzero_signatures": {
+    "1/2": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.20041734862940444
+    },
+    "1/4": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.24906438056672842
+    },
+    "3/4": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.24906438056672828
+    },
+    "1/8": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.06704169487218524
+    },
+    "3/8": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.2039251366560134
+    },
+    "5/8": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.2039251366560137
+    },
+    "7/8": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.06704169487218511
+    },
+    "1/3": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.21137124076858402
+    },
+    "2/3": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.21137124076858382
+    },
+    "1/9": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.04230718511837195
+    },
+    "2/9": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.2631703117320198
+    },
+    "4/9": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.20059144125636505
+    },
+    "5/9": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.20059144125636488
+    },
+    "7/9": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.2631703117320205
+    },
+    "8/9": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.04230718511837144
+    },
+    "1/5": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.2418935774224129
+    },
+    "2/5": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.20189267176869233
+    },
+    "3/5": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.20189267176869288
+    },
+    "4/5": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.2418935774224134
+    },
+    "1/7": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.1059816789111258
+    },
+    "2/7": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.22932148041185424
+    },
+    "3/7": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.20083828738849419
+    },
+    "4/7": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.20083828738849407
+    },
+    "5/7": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.22932148041185368
+    },
+    "6/7": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.10598167891112628
+    },
+    "1/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.01726818221528798
+    },
+    "2/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.20082218769632032
+    },
+    "3/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.23610030808108348
+    },
+    "4/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.20536029469253214
+    },
+    "5/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.20050692869055442
+    },
+    "6/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.2005069286905551
+    },
+    "7/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.2053602946925307
+    },
+    "8/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.23610030808108406
+    },
+    "9/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.20082218769632035
+    },
+    "10/11": {
+     "signature": -1,
+     "nullity": 1,
+     "eigenvalue_gap": 0.017268182215287656
+    }
+   },
+   "max_abs_signature": 1,
+   "slice_ruled_out": true
+  }
+ ],
+ "still_live": [],
+ "summary": {
+  "screened": 6,
+  "still_live": 0
+ }
+}

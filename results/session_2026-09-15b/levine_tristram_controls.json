@@ -1,0 +1,55 @@
+{
+ "date": "2026-09-16T01:25:27.097353Z",
+ "what": "controls for the Levine-Tristram slice screen: it must vanish on every slice object and fire on Hopf and Whitehead, which are not slice",
+ "rows": [
+  {
+   "case": "unlink O^2",
+   "max_abs_signature": 0,
+   "expected_nonzero": false,
+   "as_expected": true
+  },
+  {
+   "case": "unlink O^3",
+   "max_abs_signature": 0,
+   "expected_nonzero": false,
+   "as_expected": true
+  },
+  {
+   "case": "unlink O^4",
+   "max_abs_signature": 0,
+   "expected_nonzero": false,
+   "as_expected": true
+  },
+  {
+   "case": "6_1 ribbon knot",
+   "max_abs_signature": 0,
+   "expected_nonzero": false,
+   "as_expected": true
+  },
+  {
+   "case": "9_46 ribbon knot",
+   "max_abs_signature": 0,
+   "expected_nonzero": false,
+   "as_expected": true
+  },
+  {
+   "case": "Borromean L6a4",
+   "max_abs_signature": 0,
+   "expected_nonzero": false,
+   "as_expected": true
+  },
+  {
+   "case": "Hopf L2a1",
+   "max_abs_signature": 1,
+   "expected_nonzero": true,
+   "as_expected": true
+  },
+  {
+   "case": "Whitehead L5a1",
+   "max_abs_signature": 1,
+   "expected_nonzero": true,
+   "as_expected": true
+  }
+ ],
+ "all_as_expected": true
+}
