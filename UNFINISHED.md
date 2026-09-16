@@ -96,40 +96,61 @@ The diagram will not help. `results/D_0_2_diagram_floor_2026-09-16.json`:
 — no seed beat the stored diagram. A negative search, not a proof of crossing
 number, and consistent with `K_1`/`K_2` not shrinking either.
 
-**Correction, 06:55Z: the binding constraint here is the container lifetime, not
-the heap.** The retry (`-s2` alone, `-Xmx13g`,`-XX:+ExitOnOutOfMemoryError`, plus
-a 60-second RSS sampler) ran from 06:24:50Z and stopped at 06:31:50Z at 11.67 GB
-and still climbing — **without printing `exit=3`**, which `ExitOnOutOfMemoryError`
-would have produced on a Java OOM. At 06:54Z the container reported `up 0 min`:
-it had been **reclaimed and restarted**. Everything on disk survived (scratchpad,
-the KnotJob source build, the PD inputs, snappy); only the processes died.
+**Final diagnosis, 07:29Z, after three attempts. This target does not fit in this
+container, and no JVM flag changes that.** Two instrumented attempts, at different
+heaps, died in the same place:
 
-So the earlier framing in this section — "the heap was the binding constraint" —
-is **withdrawn for these runs**. It remains the best reading of the prior
-session's `-Xmx3g`/`-Xmx5g` history, which produced no output at all, but the two
-16 September deaths are reclamation, not OOM. Memory was *close* to binding
-(11.67 GB under a 12 GB ceiling, still rising), so both constraints are live and
-**neither is established as the one that will bite**. What is established is that
-raising the heap again is not obviously the fix.
+| attempt | flags | heap | died at | RSS at death | wall |
+|---|---|---|---|---|---|
+| 1 | `-s0 -s2` | `-Xmx11g` | 05:17Z–? | ~11.5 GB | unknown |
+| 2 | `-s2` | `-Xmx12g` | 06:31:50Z | **11.67 GB** | 7 min |
+| 3 | `-s2`, run alone | `-Xmx13g` | 07:02:25Z | **11.84 GB** | 7 min |
 
-**This also kills the Teichner lane in this container, independent of the
-Miyazaki correction.** The reclamation came **1 h 47 min** after the three
-recovered searches started, and a comparable completed partner run (`8_8`, same
-box) took **7.96 h**. The `8_9` search had written only its 05:07Z heartbeat and
-is **UNKNOWN**, with no coverage of its box. Relaunching an 8-hour job into a
-box that reclaims inside two hours produces nothing but a heartbeat, so the three
-partners are legitimately back on the board but are **not runnable here**. They
-need a machine that survives a working day.
+Attempts 2 and 3 died at the *same* memory figure and the *same* wall time despite
+a 1 GB difference in `-Xmx`. Neither printed `exit=3`, which
+`-XX:+ExitOnOutOfMemoryError` would have produced on a Java OOM — so the JVM never
+hit its own ceiling; it was killed from outside. The box is **15.72 GB with zero
+swap** and the cgroup limit is unset (`memory.limit_in_bytes` is max int64), so
+there is no artificial cap: ~11.8 GB of JVM plus page cache and the rest of the
+system is simply where a swapless 15.7 GB box gives out.
 
-`s(D_{0,2})` relaunched at 06:55Z **alone**, at `-Xmx13g`, with no band search
-competing for the 15 GB. It is the one job plausibly completable inside a
-reclamation window: `s(K_2)` at 41 crossings took 8 s, and this had already run
-7 minutes without finishing, so the honest estimate is tens of minutes, not hours.
-Log: `results/s_D02_47cr_retry2_2026-09-16.log`; the reclaimed attempts are
-preserved at `results/s_D02_47cr_2026-09-16.log` and
-`results/s_D02_47cr_retry1_reclaimed_2026-09-16.log`. `s(D_{1,2})` at 60 crossings
-has a generated input and is queued behind it. **Until one prints a value these
-remain resource failures, not results.**
+**Both of this file's earlier readings were wrong, in opposite directions**, and
+both are withdrawn:
+
+* "The heap was the binding constraint" — wrong, because raising `-Xmx` from 12 to
+  13 GB moved the death by 170 MB and zero seconds.
+* "The container lifetime is the binding constraint, not the heap" (written at
+  06:55Z) — also wrong, or at best half of it. `uptime` did report `up 0 min` after
+  each death, and the 06:32Z event took the small Teichner process too, which a
+  targeted kernel OOM kill would not have done. So the container really does go
+  down as a unit. But the reproducible ~11.8 GB threshold says **memory pressure
+  is what brings it down**, not a clock. From inside the container I cannot
+  separate "kernel OOM killer plus a harness restart" from "harness reclaims under
+  memory pressure", and I am not going to assert either.
+
+What *is* established: **`s(D_{0,2})` at 47 crossings wants more than ~11.8 GB, and
+this container cannot supply it.** Lowering `-Xmx` is not a fix either — it would
+convert an external kill into a Java OOM. The diagram is not a fix: 47 crossings
+is the floor over 150 seeds
+(`results/D_0_2_diagram_floor_2026-09-16.json`). Dropping to one characteristic
+already bought nothing. **Stop relaunching it here.** It needs a machine with
+substantially more RAM, or swap. `s(D_{1,2})` at 60 crossings is strictly harder
+and should not be attempted here at all; its input is generated and waiting.
+
+Logs preserved rather than overwritten: `results/s_D02_47cr_2026-09-16.log`,
+`results/s_D02_47cr_retry1_reclaimed_2026-09-16.log`,
+`results/s_D02_47cr_retry2_killed_2026-09-16.log`. **All three are resource
+failures, not results.** `s(D_{0,2}) != 0` would still prove `D_{0,2}` not slice,
+hence `K_0` not concordant to `K_2`; that remains unknown.
+
+**The Teichner lane is also off this container**, and this conclusion is
+unaffected by which of the two memory readings above is right. The 06:32Z event
+came **1 h 47 min** after the three recovered searches started, and a comparable
+completed partner run (`8_8`, same box) took **7.96 h**. The `8_9` search wrote
+only its 05:07Z heartbeat and is **UNKNOWN**, with no coverage of its box. The
+three partners are legitimately back on the board after the Miyazaki correction
+and are **not runnable here** — they need a machine that stays up for a working
+day.
 
 ## 4. The untried crossing that needs files outside this clone
 
