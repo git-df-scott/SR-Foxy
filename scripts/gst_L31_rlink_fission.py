@@ -31,7 +31,8 @@ Usage: gst_L31_rlink_fission.py <out.json> [seed] [diagrams] [twists] [len]
 import json, os, random, sys, time, datetime
 import snappy
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from spherogram.links.bands.core import min_len_bands, add_one_band
+from spherogram.links.bands.core import (min_len_bands, add_one_band,
+                                         normalize_crossing_labels)
 from knot_floer_homology import pd_to_hfk
 from r_link_test import r_link_verdict
 
@@ -86,6 +87,10 @@ def main():
             if diagram:
                 D.backtrack(30)
                 D.simplify('global')
+                # backtrack + simplify leaves crossing labels non-contiguous,
+                # and min_len_bands rejects that with
+                # ValueError('Link needs normalized crossing labels').
+                normalize_crossing_labels(D)
             for band in min_len_bands(D, max_twists=twists, max_band_len=max_len):
                 rec['counts']['bands'] += 1
                 try:

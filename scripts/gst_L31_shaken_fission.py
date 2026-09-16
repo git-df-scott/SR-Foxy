@@ -16,7 +16,8 @@ Acceptance is on genus and fiberedness directly, not on determinant: 6_1 and
 """
 import json, os, random, sys, time
 import snappy
-from spherogram.links.bands.core import min_len_bands, add_one_band
+from spherogram.links.bands.core import (min_len_bands, add_one_band,
+                                         normalize_crossing_labels)
 from knot_floer_homology import pd_to_hfk
 
 MAX_TWISTS = int(os.environ.get('GST_TWISTS', 2))
@@ -67,6 +68,11 @@ def main(out_path):
             if diagram:
                 D.backtrack(BACKTRACK)
                 D.simplify('global')
+                # Required: min_len_bands raises
+                # ValueError('Link needs normalized crossing labels') on a
+                # shaken diagram.  This script had never been run, so the
+                # fault was latent.
+                normalize_crossing_labels(D)
             for band in min_len_bands(D, max_twists=MAX_TWISTS,
                                       max_band_len=MAX_LEN):
                 if time.time() - t0 > DEADLINE:
