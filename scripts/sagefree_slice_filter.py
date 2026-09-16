@@ -331,14 +331,17 @@ def could_be_strongly_slice(link):
         return True
     if sig != 0:
         return False
-    # Cheap: det(L) = |Delta_L(-1)| = |(-2) g(-1)^2|, so |det|/2 is a square.
-    if det != 0 and abs(det) % 2 == 0 and not _is_square(abs(det) // 2):
-        return False
-    try:
-        if not link_fox_milnor(link):
-            return False
-    except Exception:
-        return True
+    # WITHDRAWN 2026-09-16.  Two link-level tests were tried here and both are
+    # removed: |det(L)|/2 a perfect square, and `link_fox_milnor` below (the
+    # Torres-corrected Fox-Milnor, dividing det(V - tV^T) by one factor of
+    # t - 1 before applying the knot test).  They are kept in the file, unused,
+    # because the reasoning may be repairable, but they FAILED CALIBRATION: with
+    # them installed the search no longer finds the known, verified ribbon disk
+    # of K_B, so they reject links that lie on a genuine ribbon movie.  Whatever
+    # is wrong -- the Torres normalisation, the Seifert-matrix convention, or
+    # the multivariable-to-one-variable specialisation -- the failure direction
+    # is the fatal one: a filter that can lose a disk can lose a counterexample.
+    # Do not reinstate either without re-running scripts/kb_band_length_floor.py.
     try:
         return components_all_slice(link)
     except Exception:
