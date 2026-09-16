@@ -82,13 +82,28 @@ at 41 crossings — the earlier session's decision to hold the 41-crossing input
 "for the larger follow-up session" was over-cautious by three orders of
 magnitude. `s(D_{0,1}) = 0` in 5 s.
 
-`s(D_{0,2})` at 47 crossings is running at `-Xmx11g` and sits at 11.4 GB resident,
-which is exactly why `-Xmx3g` and `-Xmx5g` produced no output at all: the heap was
-the binding constraint, not the algorithm. It may still hit the ceiling. Log:
-`results/s_D02_47cr_2026-09-16.log`. `s(D_{1,2})` at 60 crossings now has a
-generated input (`data/knots/AbeTagami_D_1_2.json` -> 60-crossing PD) and is
-queued behind it. **Until one of them prints a value these remain resource
-failures, not results.**
+`s(D_{0,2})` at 47 crossings **failed a third time**, now at `-Xmx11g`: it ran
+from 05:17Z, held ~11.5 GB resident, and died without printing a value or an exit
+code (`results/s_D02_47cr_2026-09-16.log`). The whole process group went, so the
+wrapper never reported `exit=`; `dmesg` is unavailable in this container, so
+**OOM-kill versus harness reaping cannot be distinguished** and is not asserted.
+Either way: **resource failure, not a result.** The heap being the binding
+constraint at 3 GB and 5 GB is established; that 11 GB is also insufficient on a
+15 GB box is new and worse than `UNFINISHED` §3 assumed.
+
+The diagram will not help. `results/D_0_2_diagram_floor_2026-09-16.json`:
+`simplify('global')` plus `backtrack(30)` holds at **47 crossings over 150 seeds**
+— no seed beat the stored diagram. A negative search, not a proof of crossing
+number, and consistent with `K_1`/`K_2` not shrinking either.
+
+Retry in flight (`results/s_D02_47cr_retry_2026-09-16.log`), changed in three
+ways rather than just raising the heap: **one characteristic** (`-s2` alone
+instead of `-s0 -s2`), `-Xmx12g`, `-XX:+ExitOnOutOfMemoryError` so a Java OOM is
+unambiguous, and a 60-second RSS sampler so a death is diagnosable. `s_2 ≠ 0`
+still obstructs sliceness, so dropping characteristic 0 costs nothing for this
+test. `s(D_{1,2})` at 60 crossings has a generated input
+(`data/knots/AbeTagami_D_1_2.json` -> 60-crossing PD) and is queued. **Until one
+prints a value these remain resource failures, not results.**
 
 ## 4. The untried crossing that needs files outside this clone
 
