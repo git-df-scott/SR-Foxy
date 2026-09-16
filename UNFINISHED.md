@@ -37,12 +37,25 @@ len 5 (7.96 h, no certificate, 10,023-link frontier preserved in
 back. `10_22` and `10_87` (35-crossing sums) were killed by container
 reclamation and never rerun to completion.
 
-`8_9`, `8_20`, `9_27` must **not** be run: they are fibered, and adding a
+~~`8_9`, `8_20`, `9_27` must **not** be run: they are fibered, and adding a
 fibered ribbon `J` leaves `K_0` and `-K_1` unpaired among the fibered prime
-summands, so Miyazaki still gives non-ribbon and no certificate can exist.
+summands, so Miyazaki still gives non-ribbon and no certificate can exist.~~
+
+**[16 Sep] WITHDRAWN — see `ERRATA_2026-09-16.md` (E16-1).** Miyazaki Thm 5.5
+requires *every* prime fibered summand to be minimal in the homotopy-ribbon
+order or to have no nonunit norm factor of `Delta`. A nontrivial ribbon `J`
+fails **both**: it is above the unknot in the ribbon order, and Fox-Milnor makes
+`Delta_J` itself a nonunit norm. So the theorem does not apply to `D_{0,1} # J`
+and cannot obstruct any Teichner sum. `8_9`, `8_20`, `9_27` are legitimate
+partners at 33, 33 and 34 crossings, and are running
+(`results/teichner_D01_fibered_partners.json`). The correct rule is that the sum
+is excluded iff **every prime summand of `J`** satisfies an alternative — which
+rules out `J = L # (-L)`, e.g. the square knot, and never rules out a prime
+fibered ribbon `J`.
 
 After those, the non-fibered ribbon knots of at most 10 crossings are
-exhausted. The lane runs out of tractable partners rather than failing.
+exhausted, but with the three above restored the lane has three more tractable
+partners than this file claimed, in its cheapest crossing band.
 
 ## 3. `s(D_{0,2})` and `s(D_{1,2})` — could not be computed here
 
@@ -58,6 +71,86 @@ failures, not results.
 
 Worth finishing on a bigger machine: `s(D_{0,2}) != 0` would prove `D_{0,2}` not
 slice, hence `K_0` not concordant to `K_2`, killing that pair outright.
+
+**[16 Sep] Picked up, and the diagnosis was right: it was the heap.** KnotJob was
+rebuilt **from source** under `javac 21` (the distributed jar needs Java 23, which
+this container does not have; the author states the source is Java 11 compatible,
+and it compiles clean). The full control set was re-run on the new build rather
+than assumed equivalent: `s(+3_1) = +2`, `s(-3_1) = -2`, `s(4_1) = 0`,
+`s(6_1) = 0`, all correct. On that build `s(K_2) = 0` **reproduces in 8 seconds**
+at 41 crossings — the earlier session's decision to hold the 41-crossing input
+"for the larger follow-up session" was over-cautious by three orders of
+magnitude. `s(D_{0,1}) = 0` in 5 s.
+
+`s(D_{0,2})` at 47 crossings **failed a third time**, now at `-Xmx11g`: it ran
+from 05:17Z, held ~11.5 GB resident, and died without printing a value or an exit
+code (`results/s_D02_47cr_2026-09-16.log`). The whole process group went, so the
+wrapper never reported `exit=`; `dmesg` is unavailable in this container, so
+**OOM-kill versus harness reaping cannot be distinguished** and is not asserted.
+Either way: **resource failure, not a result.** The heap being the binding
+constraint at 3 GB and 5 GB is established; that 11 GB is also insufficient on a
+15 GB box is new and worse than `UNFINISHED` §3 assumed.
+
+The diagram will not help. `results/D_0_2_diagram_floor_2026-09-16.json`:
+`simplify('global')` plus `backtrack(30)` holds at **47 crossings over 150 seeds**
+— no seed beat the stored diagram. A negative search, not a proof of crossing
+number, and consistent with `K_1`/`K_2` not shrinking either.
+
+**Final diagnosis, 07:29Z, after three attempts. This target does not fit in this
+container, and no JVM flag changes that.** Two instrumented attempts, at different
+heaps, died in the same place:
+
+| attempt | flags | heap | died at | RSS at death | wall |
+|---|---|---|---|---|---|
+| 1 | `-s0 -s2` | `-Xmx11g` | 05:17Z–? | ~11.5 GB | unknown |
+| 2 | `-s2` | `-Xmx12g` | 06:31:50Z | **11.67 GB** | 7 min |
+| 3 | `-s2`, run alone | `-Xmx13g` | 07:02:25Z | **11.84 GB** | 7 min |
+
+Attempts 2 and 3 died at the *same* memory figure and the *same* wall time despite
+a 1 GB difference in `-Xmx`. Neither printed `exit=3`, which
+`-XX:+ExitOnOutOfMemoryError` would have produced on a Java OOM — so the JVM never
+hit its own ceiling; it was killed from outside. The box is **15.72 GB with zero
+swap** and the cgroup limit is unset (`memory.limit_in_bytes` is max int64), so
+there is no artificial cap: ~11.8 GB of JVM plus page cache and the rest of the
+system is simply where a swapless 15.7 GB box gives out.
+
+**Both of this file's earlier readings were wrong, in opposite directions**, and
+both are withdrawn:
+
+* "The heap was the binding constraint" — wrong, because raising `-Xmx` from 12 to
+  13 GB moved the death by 170 MB and zero seconds.
+* "The container lifetime is the binding constraint, not the heap" (written at
+  06:55Z) — also wrong, or at best half of it. `uptime` did report `up 0 min` after
+  each death, and the 06:32Z event took the small Teichner process too, which a
+  targeted kernel OOM kill would not have done. So the container really does go
+  down as a unit. But the reproducible ~11.8 GB threshold says **memory pressure
+  is what brings it down**, not a clock. From inside the container I cannot
+  separate "kernel OOM killer plus a harness restart" from "harness reclaims under
+  memory pressure", and I am not going to assert either.
+
+What *is* established: **`s(D_{0,2})` at 47 crossings wants more than ~11.8 GB, and
+this container cannot supply it.** Lowering `-Xmx` is not a fix either — it would
+convert an external kill into a Java OOM. The diagram is not a fix: 47 crossings
+is the floor over 150 seeds
+(`results/D_0_2_diagram_floor_2026-09-16.json`). Dropping to one characteristic
+already bought nothing. **Stop relaunching it here.** It needs a machine with
+substantially more RAM, or swap. `s(D_{1,2})` at 60 crossings is strictly harder
+and should not be attempted here at all; its input is generated and waiting.
+
+Logs preserved rather than overwritten: `results/s_D02_47cr_2026-09-16.log`,
+`results/s_D02_47cr_retry1_reclaimed_2026-09-16.log`,
+`results/s_D02_47cr_retry2_killed_2026-09-16.log`. **All three are resource
+failures, not results.** `s(D_{0,2}) != 0` would still prove `D_{0,2}` not slice,
+hence `K_0` not concordant to `K_2`; that remains unknown.
+
+**The Teichner lane is also off this container**, and this conclusion is
+unaffected by which of the two memory readings above is right. The 06:32Z event
+came **1 h 47 min** after the three recovered searches started, and a comparable
+completed partner run (`8_8`, same box) took **7.96 h**. The `8_9` search wrote
+only its 05:07Z heartbeat and is **UNKNOWN**, with no coverage of its box. The
+three partners are legitimately back on the board after the Miyazaki correction
+and are **not runnable here** — they need a machine that stays up for a working
+day.
 
 ## 4. The untried crossing that needs files outside this clone
 
@@ -144,6 +237,16 @@ no nilpotent invariant can separate ribbon from handle-ribbon. Proving
 non-ribbonness needs a non-nilpotent invariant of derivative links applied to
 **every** derivative, which needs the fiber and monodromy explicitly. Not
 available.
+
+**[16 Sep] Before proposing a Floer computation on this pair, read
+`research/26` §2.** `CFK^infinity` for `K_0` and `K_1` up to local equivalence is
+**already computed** — `research/09` and `research/11`, 12 September — and the
+answer is that they share the same *involutive* local-equivalence class, the
+figure-eight's. So `tau`, `epsilon`, `nu`, `nu+`, `Upsilon` and the
+Dai-Hom-Stoffregen-Truong `phi_{i,j}` **all agree**, and none of them can separate
+the pair. Re-verified bit-for-bit on 16 September. Conditional on the same
+input/lifting dependency `research/09` carries. Directly recomputed today for
+completeness: `tau = nu = epsilon = 0` for `K_0`, `K_1` and `K_2` alike.
 
 Note for whoever picks this up: the Abe-Tagami monodromy **is** explicit and is
 recorded in `data/knots/AbeTagami_K_n_NOTES.json` as

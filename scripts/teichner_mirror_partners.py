@@ -14,9 +14,21 @@ the checks research/20 demands before being called one: `are_same_link` allows
 mirror equivalence, so a hit requires an orientation-compatible identification
 of every intermediate link, not just this replay.
 
-Fibered partners are excluded on purpose: for prime fibered J, D01 # J is a
-connected sum of prime fibered knots and Miyazaki's pairing theorem forbids it
-from being homotopy-ribbon.
+WITHDRAWN [16 Sep 2026], see ERRATA_2026-09-16.md (E16-1).  This docstring used
+to say: "Fibered partners are excluded on purpose: for prime fibered J, D01 # J
+is a connected sum of prime fibered knots and Miyazaki's pairing theorem forbids
+it from being homotopy-ribbon."  That is wrong.  Miyazaki Thm 5.5 requires EVERY
+prime fibered summand to be minimal in the homotopy-ribbon order or to have no
+nonunit norm factor of Delta, and a nontrivial ribbon J fails both (it sits above
+the unknot in the ribbon order, and Fox-Milnor makes Delta_J itself a nonunit
+norm).  So the theorem does not apply to D01 # J and cannot obstruct any Teichner
+sum.  8_9, 8_20 and 9_27 are legitimate partners and are included below.
+
+The rule that IS correct: the sum is excluded iff every prime summand of J
+satisfies one of the two alternatives.  That never excludes a prime fibered
+ribbon J, and it does exclude J = L # (-L) -- the square knot 3_1 # (-3_1) being
+the smallest case, since 3_1 has irreducible Delta = t^2 - t + 1 -- for which no
+run can ever produce a certificate.  Do not add such a J to PARTNERS.
 
 Each case runs in its own process under a wall-clock cap, so one slow case
 cannot consume the whole budget -- breadth across partners and diagrams is the
@@ -25,7 +37,7 @@ point of this run.
 import json, os, subprocess, sys, time, datetime
 
 PARTNERS = os.environ.get('TM_PARTNERS',
-            '6_1,9_46,10_3,8_8,9_41,10_22,10_87').split(',')
+            '6_1,9_46,10_3,8_8,9_41,10_22,10_87,8_9,8_20,9_27').split(',')
 BANDS = int(os.environ.get('TM_BANDS', 2))
 BAND_LEN = int(os.environ.get('TM_LEN', 6))
 DIAGRAMS = int(os.environ.get('TM_DIAGRAMS', 6))

@@ -177,9 +177,22 @@ crossings over 120 seeds, and `K_1` at 19 over 400 seeds, and since
 (`results/teichner_lane_size_floor.json`; a negative search, not a proof of
 crossing number).
 
-The fibered partners `8_9`, `8_20`, `9_27` must **not** be run: adding a fibered
+~~The fibered partners `8_9`, `8_20`, `9_27` must **not** be run: adding a fibered
 ribbon `J` leaves `K_0` and `-K_1` unpaired among the fibered prime summands, so
-Miyazaki still returns non-ribbon for the sum and no certificate can exist.
+Miyazaki still returns non-ribbon for the sum and no certificate can exist.~~
+
+**[16 Sep] WITHDRAWN — see `ERRATA_2026-09-16.md` (E16-1).** Miyazaki Thm 5.5
+requires *every* prime fibered summand to be minimal in the homotopy-ribbon
+order or to have no nonunit norm factor of `Delta`. A nontrivial ribbon `J`
+fails **both**: it is above the unknot in the ribbon order, and Fox-Milnor makes
+`Delta_J` itself a nonunit norm. So the theorem does not apply to `D_{0,1} # J`
+and cannot obstruct any Teichner sum. `8_9`, `8_20`, `9_27` are legitimate
+partners at 33, 33 and 34 crossings, and are running
+(`results/teichner_D01_fibered_partners.json`). The correct rule is that the sum
+is excluded iff **every prime summand of `J`** satisfies an alternative — which
+rules out `J = L # (-L)`, e.g. the square knot, and never rules out a prime
+fibered ribbon `J`.
+
 
 What remains is `9_41`/`9_46` at 34 (yours, and no result came back) and
 `10_3`/`10_22`/`10_87` at 35, of which `10_22` and `10_87` were killed by

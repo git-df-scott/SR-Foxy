@@ -47,3 +47,32 @@ Cutoff: 2026-08-30. Binding terminology: **CE** means an explicit knot with both
 - (-K=r(\bar K)) is the inverse in oriented smooth concordance. Mirrors, reversals, and connected sums are written explicitly.
 - Stable handleslide equivalence, stabilization, homotopy-ribbonness, handle-ribbonness and half-ribbonness are never identified with ribbonness.
 - Mutation and common 0-surgery do not preserve or imply smooth concordance without a separate theorem; no such inference is used.
+
+## Turaev Theorem I knots — 16 September 2026: NOT candidates, lane nearly empty
+
+`research/29`, **as corrected**. An earlier version of this entry, written earlier
+the same day, listed all five `data/knots/Turaev_A_*.json` knots as Tier-B
+candidates. That was wrong and is withdrawn. `results/turaev_family_status.md`
+(UPDATE, 12 September 2026) already settled the matter.
+
+| object | `(p,q,r,s)` | cr | `mu_135,mu_246` | Theorem I obstructs | status |
+|---|---|---|---|---|---|
+| `Turaev_A_1_1_0_0` | (1,1,0,0) | 27 | (0,0) | **no** | **RIBBON** — one-band DG certificate, 1.3 s |
+| `Turaev_A_1_3_0_0` | (1,3,0,0) | 37 | (0,0) | **no** | not a candidate |
+| `Turaev_A_2_1_0_0` | (2,1,0,0) | 39 | (0,0) | **no** | not a candidate |
+| `Turaev_A_3_1_0_0` | (3,1,0,0) | 51 | (0,0) | **no** | not a candidate |
+| `Turaev_A_1_1_1_1` | (1,1,1,1) | 143 | (1,1) | **yes** | **DEAD** — `slice_obstruction_HKL` = (3,13), not topologically slice (12 Sep, reverified 25.3 s) |
+
+Theorem I's conclusions are for `r≠0 and s≠0`, `r≠0 or s≠0`, and `r=0,s≠0` or
+`r≠0,s=0`. **`r = s = 0` falls into none of them**, so the four `(0,0)` members carry
+no non-ribbon certificate at all; `research/08` §4 says this outright. The `s = 0`
+values computed on three of them on 16 September are correct computations with **no
+evidential value**, and `A(1,1,0,0)` being ribbon made its own row a foregone
+conclusion.
+
+**What is still true.** Turaev Theorem I *is* a route-B certificate needing only one
+knot to be smoothly slice — no concordance coincidence, no pair of fibered knots — so
+`research/24` §4's "the only route on this board that escapes section 1" is wrong as
+written. But the family has exactly **one** realised member, and it is dead. The next
+smallest unbuilt members are `(1,3,1,1)` and `(2,1,1,1)`; the build pipeline exists,
+and the expected outcome is another HKL kill. HKL needs Sage.
