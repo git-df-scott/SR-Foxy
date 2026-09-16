@@ -126,17 +126,22 @@ that is already certified non-ribbon.
 Note that it does **not** need two concordant fibered knots. ~~It is the only
 route on this board that escapes section 1.~~
 
-> **[16 Sep] The "only" is wrong — see `research/29`.** Turaev's **Theorem I**
-> also escapes section 1, and it was already on the board: `ERRATA_2026-09-11.md`
-> E1, three days before this note, declared it "a live and untested route-B
-> target" whose knots are algebraically slice and **provably not homotopy-ribbon**
-> (hence not ribbon), with Theorem J confirming no sliceness obstruction. It needs
-> **one knot to be smoothly slice** — no concordance coincidence and no fibered
-> pair. This note never mentions Turaev, and `CANDIDATE_LEDGER.md` carries no
-> Turaev entry, so the lane has been invisible since 11 September while five of
-> its knots sat in `data/knots/`. It is also the cheaper of the two: the `r = 0`
-> crossing needs `../mma.py` and `../mp_auto.py`, which exist in no clone, while
-> the Turaev knots are already here at 27 to 51 crossings.
+> **[16 Sep] The "only" is wrong as written, though less damningly than I first
+> claimed — see `research/29` and its correction.** Turaev's **Theorem I** is also a
+> route-B certificate that escapes section 1: its knots are algebraically slice and
+> **not homotopy-ribbon** (hence not ribbon), Theorem J confirms no sliceness
+> obstruction, and it needs **one knot to be smoothly slice** — no concordance
+> coincidence and no fibered pair.
+>
+> **But this note was right not to lean on it.** `results/turaev_family_status.md`
+> records, on 12 September and so two days *before* this note, that the family's only
+> realised member `A(1,1,1,1)` was **killed**: `slice_obstruction_HKL` = (3,13),
+> proving it not topologically slice. The other four stored knots have `r = s = 0`,
+> which Theorem I does not obstruct at all, and one of them is known ribbon. So
+> omitting Turaev here may have been a deliberate editorial call, not an oversight.
+> The correction to section 4 is therefore narrow: strike "only", keep everything
+> else. The family is not exhausted — `(1,3,1,1)` and `(2,1,1,1)` are unbuilt — but
+> its one tested member is dead and the next are expected to die the same way.
 
 ### Is it live, or empty for a stupid reason?
 
