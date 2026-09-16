@@ -320,6 +320,50 @@ def components_all_slice(link):
     return True
 
 
+def milnor_screen(link):
+    """Milnor invariants of the shortest length, which vanish for strongly
+    slice links.  Spherogram's Sage filter does NOT do this.
+
+    * 2 components, linking number 0: Sato-Levine `beta = [z^3] nabla`.
+    * 3 components, all linking numbers 0: `[z^4] nabla = mu-bar(123)^2`.
+    * every 2-component sublink of any link: the same Sato-Levine test, since
+      every sublink of a strongly slice link is strongly slice.
+
+    Calibrated by `scripts/kb_band_length_floor.py`: with this installed the
+    search must still find and verify the known ribbon disk of `K_B`.  It is
+    the multivariable Fox-Milnor test that dropping Sage cost, and this is a
+    different, cheaper obstruction that partly replaces it.
+    """
+    import itertools
+    from triple_linking import conway_coefficients
+
+    def coeff(nab, k):
+        return nab[k] if len(nab) > k else 0
+
+    n = len(link.link_components)
+    if n == 2:
+        if coeff(conway_coefficients(link), 3):
+            return False
+        return True
+    if n == 3:
+        if coeff(conway_coefficients(link), 4):
+            return False
+    for pair in itertools.combinations(range(n), 2):
+        C = link.copy()
+        S = C.sublink([C.link_components[i] for i in pair])
+        S.simplify('global')
+        if len(S.link_components) < 2:
+            continue
+        try:
+            if S.linking_matrix()[0][1] != 0:
+                return False
+        except Exception:
+            continue
+        if coeff(conway_coefficients(S), 3):
+            return False
+    return True
+
+
 def could_be_strongly_slice(link):
     if not linking_nums_all_zero(link):
         return False

@@ -1,0 +1,24 @@
+{
+ "date": "2026-09-16T02:43:06.232156Z",
+ "census": "HTLinkExteriors(cusps=7)",
+ "range": [
+  0,
+  4
+ ],
+ "census_size": 4,
+ "screens": [
+  "all pairwise linking numbers zero",
+  "every component a slice knot (signature 0, |det| a square, Fox-Milnor)",
+  "1 <= null V(L) < n-1: at least 1 as slice requires, less than n-1 as ribbon forbids"
+ ],
+ "counts": {
+  "examined": 4,
+  "lk_zero": 0,
+  "components_slice": 0,
+  "null_V_1": 0,
+  "shortlist": 0
+ },
+ "shortlist": [],
+ "stop": "finished",
+ "elapsed_seconds": 0.0
+}
