@@ -4,6 +4,8 @@ Condensed from `research/04_computational_tooling.md` (2026-09-11), where every 
 
 ## Non-negotiable facts
 
+0. **[16 Sep] This container has no SageMath and cannot get one** (no conda, no Sage package; `ams.org` and some other hosts are also 403 behind the proxy). What *does* pip-install and work on bare CPython 3.11: `snappy==3.3.2` (including `spherogram.links.bands.search`, `knot_floer_homology`, `connected_sum`, `PD_code`) and `sympy`. So the usable paths are `scripts/teichner_certify_nosage.py` and `scripts/sagefree_*.py`; `Link.jones_polynomial` still needs patching from `sagefree_jones.py` because the `@sage_method` decorator is bound at import. Fact 1 below remains true of the *stock* pipeline.
+
 1. **SageMath is mandatory.** SnapPy's entire Dunfield–Gong band pipeline (`Link.ribbon_concordant_links`, `Link.add_band`, `RibbonLinks`, `spherogram.links.bands.verify_ribbon_to_unknot`), the HKL Casson–Gordon obstruction (`Manifold.slice_obstruction_HKL`), `Link.seifert_matrix`, `Link.signature`, `Manifold.alexander_polynomial` and `Manifold.hyperbolic_torsion` are `@sage_method` and raise `SageNotAvailable` in bare CPython (run). Write `env_assert.py` first.
 2. **The target knot is in hand** (`data/knots/18nh00000601.json`): Burton census row, knot signature, PD codes, braid word, HFK, volume, branched-cover homology. Genus 5 and fiberedness confirmed independently of the literature (run).
 3. **No complete band search exists.** Every tool is a bounded search; negative results are coverage statements. DG's own search stopped at 4 bands.
@@ -47,7 +49,7 @@ Data to stage: Dunfield–Gong `plausibly_slice_V1.zip` (1.02 GB, Harvard Datave
 | HKL / Casson–Gordon | `Manifold.slice_obstruction_HKL` | Sage only; DG report HKL 6.6× as effective as all smooth obstructions combined |
 | twisted Alexander | `Manifold.hyperbolic_torsion()` and variants | Sage only; there is no `snappy.twisted_alexander` |
 | Fox calculus | `snappy.snap.fox_milnor` | present, undocumented |
-| s, s̃_c, Khovanov, X-torsion | KnotJob | GUI; scripting requires reading bundled source |
+| s, s̃_c, Khovanov, X-torsion | KnotJob | **batch mode IS documented** — `KnotJob/README.TXT` in the distributed zip lists every flag (`-s0`, `-sgr`, `-scr`, `-sbls3`, `-kb0`, `-kx0`, `-ns`, `-nf`), and `knotjob/KnotJobCommand.java` implements it. The **jar** needs Java 23 (class-file major 67); the **source** is Java 11 compatible and compiles clean under `javac 21` (283 files, no errors), which is how the 16 Sep runs were done. A source build is a different build from the sha256-pinned jar: recalibrate the full control set, do not assume equivalence. [16 Sep] |
 | Υ, ν⁺, d-invariants of Σ₂ | none confirmed | assemble by hand or by literature lookup |
 | Milnor invariants of links | none; build from GAP `nq`/`lpres` | needed only for derivative links |
 | metabolizer enumeration | none; ~100 lines of Sage | see fact 5 |

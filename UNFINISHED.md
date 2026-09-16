@@ -72,6 +72,24 @@ failures, not results.
 Worth finishing on a bigger machine: `s(D_{0,2}) != 0` would prove `D_{0,2}` not
 slice, hence `K_0` not concordant to `K_2`, killing that pair outright.
 
+**[16 Sep] Picked up, and the diagnosis was right: it was the heap.** KnotJob was
+rebuilt **from source** under `javac 21` (the distributed jar needs Java 23, which
+this container does not have; the author states the source is Java 11 compatible,
+and it compiles clean). The full control set was re-run on the new build rather
+than assumed equivalent: `s(+3_1) = +2`, `s(-3_1) = -2`, `s(4_1) = 0`,
+`s(6_1) = 0`, all correct. On that build `s(K_2) = 0` **reproduces in 8 seconds**
+at 41 crossings — the earlier session's decision to hold the 41-crossing input
+"for the larger follow-up session" was over-cautious by three orders of
+magnitude. `s(D_{0,1}) = 0` in 5 s.
+
+`s(D_{0,2})` at 47 crossings is running at `-Xmx11g` and sits at 11.4 GB resident,
+which is exactly why `-Xmx3g` and `-Xmx5g` produced no output at all: the heap was
+the binding constraint, not the algorithm. It may still hit the ceiling. Log:
+`results/s_D02_47cr_2026-09-16.log`. `s(D_{1,2})` at 60 crossings now has a
+generated input (`data/knots/AbeTagami_D_1_2.json` -> 60-crossing PD) and is
+queued behind it. **Until one of them prints a value these remain resource
+failures, not results.**
+
 ## 4. The untried crossing that needs files outside this clone
 
 `research/24` §4. An `r = 0` RBG pair has diffeomorphic 0-traces, so a ribbon
@@ -157,6 +175,16 @@ no nilpotent invariant can separate ribbon from handle-ribbon. Proving
 non-ribbonness needs a non-nilpotent invariant of derivative links applied to
 **every** derivative, which needs the fiber and monodromy explicitly. Not
 available.
+
+**[16 Sep] Before proposing a Floer computation on this pair, read
+`research/26` §2.** `CFK^infinity` for `K_0` and `K_1` up to local equivalence is
+**already computed** — `research/09` and `research/11`, 12 September — and the
+answer is that they share the same *involutive* local-equivalence class, the
+figure-eight's. So `tau`, `epsilon`, `nu`, `nu+`, `Upsilon` and the
+Dai-Hom-Stoffregen-Truong `phi_{i,j}` **all agree**, and none of them can separate
+the pair. Re-verified bit-for-bit on 16 September. Conditional on the same
+input/lifting dependency `research/09` carries. Directly recomputed today for
+completeness: `tau = nu = epsilon = 0` for `K_0`, `K_1` and `K_2` alike.
 
 Note for whoever picks this up: the Abe-Tagami monodromy **is** explicit and is
 recorded in `data/knots/AbeTagami_K_n_NOTES.json` as
