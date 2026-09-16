@@ -1,0 +1,79 @@
+{
+ "date": "2026-09-16T01:37:59.943308Z",
+ "what": "controls pinning the Magnus/Wirtinger conventions",
+ "rows": [
+  {
+   "case": "unlink O^2",
+   "indices": [
+    0,
+    1
+   ],
+   "mu_bar": 0,
+   "expected_nonzero": false,
+   "as_expected": true,
+   "error": null
+  },
+  {
+   "case": "unlink O^3",
+   "indices": [
+    0,
+    1,
+    2
+   ],
+   "mu_bar": 0,
+   "expected_nonzero": false,
+   "as_expected": true,
+   "error": null
+  },
+  {
+   "case": "Hopf L2a1",
+   "indices": [
+    0,
+    1
+   ],
+   "mu_bar": 1,
+   "expected_nonzero": true,
+   "as_expected": true,
+   "error": null
+  },
+  {
+   "case": "Whitehead L5a1",
+   "indices": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "mu_bar": 1,
+   "expected_nonzero": true,
+   "as_expected": true,
+   "error": null
+  },
+  {
+   "case": "Borromean L6a4",
+   "indices": [
+    0,
+    1,
+    2
+   ],
+   "mu_bar": 1,
+   "expected_nonzero": true,
+   "as_expected": true,
+   "error": null
+  },
+  {
+   "case": "Whitehead cyclic",
+   "indices": [
+    0,
+    1,
+    1,
+    0
+   ],
+   "mu_bar": 1,
+   "expected_nonzero": true,
+   "as_expected": true,
+   "error": null
+  }
+ ],
+ "all_as_expected": true
+}

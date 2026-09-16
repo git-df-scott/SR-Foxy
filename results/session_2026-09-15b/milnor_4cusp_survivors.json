@@ -1,0 +1,71 @@
+{
+ "date": "2026-09-16T01:38:07.139078Z",
+ "source": "results/session_2026-09-15b/screened_4cusp.json",
+ "rows": [
+  {
+   "name": "L10n107",
+   "components": 4,
+   "mu_bar_length_n": {
+    "(0, 1, 2, 3)": 1,
+    "(0, 2, 1, 3)": -1,
+    "(1, 0, 2, 3)": 0,
+    "(1, 2, 0, 3)": -1,
+    "(2, 0, 1, 3)": 0,
+    "(2, 1, 0, 3)": 1
+   },
+   "slice_ruled_out": true
+  },
+  {
+   "name": "L14n59991",
+   "components": 4,
+   "mu_bar_length_n": {
+    "(0, 1, 2, 3)": "RuntimeError: meridian propagation incomplete",
+    "(0, 2, 1, 3)": "RuntimeError: meridian propagation incomplete",
+    "(1, 0, 2, 3)": "RuntimeError: meridian propagation incomplete",
+    "(1, 2, 0, 3)": "RuntimeError: meridian propagation incomplete",
+    "(2, 0, 1, 3)": "RuntimeError: meridian propagation incomplete",
+    "(2, 1, 0, 3)": "RuntimeError: meridian propagation incomplete"
+   },
+   "slice_ruled_out": false
+  },
+  {
+   "name": "L14n62224",
+   "components": 4,
+   "mu_bar_length_n": {
+    "(0, 1, 2, 3)": 2,
+    "(0, 2, 1, 3)": -2,
+    "(1, 0, 2, 3)": 0,
+    "(1, 2, 0, 3)": -2,
+    "(2, 0, 1, 3)": 0,
+    "(2, 1, 0, 3)": 2
+   },
+   "slice_ruled_out": true
+  },
+  {
+   "name": "L14n62566",
+   "components": 4,
+   "mu_bar_length_n": {
+    "(0, 1, 2, 3)": -1,
+    "(0, 2, 1, 3)": 0,
+    "(1, 0, 2, 3)": 1,
+    "(1, 2, 0, 3)": 0,
+    "(2, 0, 1, 3)": 1,
+    "(2, 1, 0, 3)": -1
+   },
+   "slice_ruled_out": true
+  },
+  {
+   "name": "L14n63195",
+   "components": 4,
+   "mu_bar_length_n": {
+    "(0, 1, 2, 3)": 0,
+    "(0, 2, 1, 3)": -1,
+    "(1, 0, 2, 3)": 1,
+    "(1, 2, 0, 3)": -1,
+    "(2, 0, 1, 3)": 1,
+    "(2, 1, 0, 3)": 0
+   },
+   "slice_ruled_out": true
+  }
+ ]
+}
