@@ -1,0 +1,45 @@
+{
+ "date": "2026-09-15T23:52:27.966904Z",
+ "knot": "K_B_DG_0friend_of_18nh00000601",
+ "crossings": 31,
+ "filter": "scripts/sagefree_slice_filter.py (no Sage)",
+ "box": {
+  "max_bands": 2,
+  "max_twists": 2,
+  "paths": "shortest",
+  "diagram": "canonical, simplify(global) only"
+ },
+ "measurements": [
+  {
+   "max_band_len": 1,
+   "unknot_endpoint_found": false,
+   "certificate_verified": false,
+   "seconds": 0.02
+  },
+  {
+   "max_band_len": 2,
+   "unknot_endpoint_found": true,
+   "certificate_verified": true,
+   "seconds": 1.08
+  },
+  {
+   "max_band_len": 3,
+   "unknot_endpoint_found": true,
+   "certificate_verified": true,
+   "seconds": 1.42
+  },
+  {
+   "max_band_len": 4,
+   "unknot_endpoint_found": true,
+   "certificate_verified": true,
+   "seconds": 1.27
+  },
+  {
+   "max_band_len": 6,
+   "unknot_endpoint_found": true,
+   "certificate_verified": true,
+   "seconds": 1.61
+  }
+ ],
+ "reading": "A ribbon disk that is present on the searched diagram is found at max_band_len 2 and verified, on a 31-crossing knot, in about a second. Deeper boxes on one diagram buy frontier, not discovery; the dial that matters for finding a disk is how many diagrams are searched. Every Teichner run in this repository has searched one."
+}
