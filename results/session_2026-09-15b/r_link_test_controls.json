@@ -1,0 +1,73 @@
+{
+ "date": "2026-09-16T00:55:16.965362Z",
+ "what": "controls for scripts/r_link_test.py, the R-link property test: 0-framed surgery on every component gives #n(S^1 x S^2)",
+ "controls": [
+  {
+   "case": "2-component unlink",
+   "components": 2,
+   "verdict": "YES",
+   "expected": "YES",
+   "as_expected": true,
+   "filled_homology": "Z + Z",
+   "filled_volume": null,
+   "reason": null,
+   "certificate": "pi_1 of the 0-filled manifold is free of rank 2, so the manifold is #2(S^1 x S^2)"
+  },
+  {
+   "case": "3-component unlink",
+   "components": 3,
+   "verdict": "YES",
+   "expected": "YES",
+   "as_expected": true,
+   "filled_homology": "Z + Z + Z",
+   "filled_volume": null,
+   "reason": null,
+   "certificate": "pi_1 of the 0-filled manifold is free of rank 3, so the manifold is #3(S^1 x S^2)"
+  },
+  {
+   "case": "Hopf link L2a1",
+   "components": 2,
+   "verdict": "NO",
+   "expected": "NO",
+   "as_expected": true,
+   "filled_homology": "0",
+   "filled_volume": null,
+   "reason": "first homology of the filled manifold is not Z^2",
+   "certificate": null
+  },
+  {
+   "case": "Whitehead link L5a1",
+   "components": 2,
+   "verdict": "NO",
+   "expected": "NO",
+   "as_expected": true,
+   "filled_homology": "Z + Z",
+   "filled_volume": null,
+   "reason": "pi_1 of the 0-filled manifold has 18 homomorphisms to S_3, but a free group of rank 2 has 36, so it is not free and the manifold is not #2(S^1 x S^2)",
+   "certificate": null
+  },
+  {
+   "case": "L6a5",
+   "components": 3,
+   "verdict": "NO",
+   "expected": "NO",
+   "as_expected": true,
+   "filled_homology": "Z/2",
+   "filled_volume": null,
+   "reason": "first homology of the filled manifold is not Z^3",
+   "certificate": null
+  },
+  {
+   "case": "L7a1",
+   "components": 2,
+   "verdict": "NO",
+   "expected": "NO",
+   "as_expected": true,
+   "filled_homology": "Z + Z",
+   "filled_volume": null,
+   "reason": "pi_1 of the 0-filled manifold has 30 homomorphisms to S_3, but a free group of rank 2 has 36, so it is not free and the manifold is not #2(S^1 x S^2)",
+   "certificate": null
+  }
+ ],
+ "all_as_expected": true
+}
