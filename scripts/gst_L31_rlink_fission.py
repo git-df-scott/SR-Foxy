@@ -35,6 +35,30 @@ from spherogram.links.bands.core import (min_len_bands, add_one_band,
                                          normalize_crossing_labels)
 from knot_floer_homology import pd_to_hfk
 from r_link_test import r_link_verdict
+# Link.determinant() is Sage-only.  Calling it inside a try/except that
+# `continue`s silently skipped EVERY candidate and made det_9_9 identically 0 --
+# a fabricated negative, not coverage.  sagefree_slice_filter.signature_and_det
+# gives |det(V + V^T)| in pure Python; checked against det(6_1) = 9.
+from sagefree_jones import jones_polynomial
+
+
+def link_determinant(L):
+    """|det(L)| = |V_L(q = i)|, computed from the diagram.
+
+    The obvious route, |det(V + V^T)| from a Seifert matrix, is not usable
+    here: spherogram's Seifert algorithm raises
+    ValueError('list.remove(x): x not in list') on connected sums, and the
+    components of a band fission of the 48-crossing GST knot are exactly that
+    shape.  The Jones route needs no Seifert surface.  Checked against the
+    table on 6_1=9, 9_46=9, 3_1=3, 4_1=5, 8_19=3, L5a1=8, L2a1=2, and on the
+    two values this search actually tests against -- the square knot and
+    V_3 = 8_19 # mirror(8_19), both 9 -- where the Seifert route fails.
+    """
+    if not L.crossings:
+        return 1
+    val = jones_polynomial(L).substitute_complex(1j)
+    d = abs(val)
+    return int(round(d))
 
 WANT = sorted([(2, True), (6, True)])
 
@@ -45,7 +69,7 @@ def profile(L):
     if not L.crossings:
         return (0, True, 1)
     h = pd_to_hfk([tuple(c) for c in L.PD_code()])
-    return (h['seifert_genus'], h['fibered'], abs(int(L.determinant())))
+    return (h['seifert_genus'], h['fibered'], link_determinant(L))
 
 
 def main():
@@ -107,14 +131,22 @@ def main():
                 except Exception:
                     continue
                 rec['counts']['linking_zero'] += 1
-                try:
-                    dets = []
-                    for i in range(2):
-                        M = L.copy()
-                        S = M.sublink([M.link_components[i]])
-                        S.simplify('global')
-                        dets.append(1 if not S.crossings else abs(int(S.determinant())))
-                except Exception:
+                dets = []
+                failed = False
+                for i in range(2):
+                    M = L.copy()
+                    S = M.sublink([M.link_components[i]])
+                    S.simplify('global')
+                    try:
+                        dets.append(link_determinant(S))
+                    except Exception as e:
+                        # Never swallowed: a silent skip here is exactly what
+                        # made the earlier runs report det_9_9 = 0 vacuously.
+                        rec.setdefault('determinant_errors', []).append(
+                            f'{type(e).__name__}: {e}')
+                        failed = True
+                        break
+                if failed:
                     continue
                 if sorted(dets) != [9, 9]:
                     continue

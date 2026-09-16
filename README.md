@@ -28,6 +28,8 @@ A published claim was **retracted**: `Link.simplify('global')` deletes split unk
 
 See [reproduction instructions](REPRODUCE_2026-09-12.md), [exact Floer-filter diagram](figures/common-successor-filter.png), and [an actual search move](figures/fusion-example.png). All development stays on `main`.
 
+The **link lane is now closed over the tabulated census**: of 34,590 three-, 7,463 four- and 1,101 five-component hyperbolic links to 14 crossings, 115 are certified non-ribbon by Eisermann's Theorem 1 and **all 115 are provably not slice** ([session record](SESSION_2026-09-15b.md) sections 14-17). The toolchain that did it runs without Sage -- Jones, Eisermann `null V`/`det V`, the R-link property, Milnor invariants to length n, Levine-Tristram -- each with controls. Two latent faults were fixed on the way: `min_len_bands` rejects a shaken diagram unless crossing labels are renormalized, and `Link.determinant()` is Sage-only, which had made every fission script vacuous here. One coverage claim was **retracted** for that second reason; see section 18.
+
 `graph-reconstruction/` is a self-contained side project on the Kelly-Ulam conjecture, unrelated to slice-ribbon. No counterexample there either.
 
 New: [minimum-genus target bounds](research/10_low_genus_targets.md), [involutive algebra audit](research/11_involutive_local_equivalence.md), [coupled movies and corrected torsion](research/12_coupled_movie_audit.md), and [explicit linking/character audit](research/13_fox_goeritz_hkl.md).
