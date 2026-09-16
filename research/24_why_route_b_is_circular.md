@@ -6,6 +6,21 @@
 > unchanged.
 
 
+> **Correction registered 16 September 2026 — `ERRATA_2026-09-16.md` (E16-1).**
+> The exclusion of the fibered partners `8_9`, `8_20`, `9_27` in §3 below, and the
+> "within a handful of runs of exhausting its tractable partners" in §4b that
+> depends on it, are **withdrawn**. Miyazaki Thm 5.5 requires *every* prime
+> fibered summand to be minimal in the homotopy-ribbon order or to have no
+> nonunit norm factor of `Delta`; a nontrivial ribbon `J` fails both, so the
+> theorem does not apply to `D_{0,1} # J` and cannot obstruct any Teichner sum.
+> The body of this note is left standing rather than rewritten, per this
+> repository's convention on retractions. Note that §2's cable observation —
+> `C_{p,q}(Sq) # -T(p,q)` is a **ribbon** connected sum of two prime fibered
+> knots that do not pair — is, read the other way round, a disproof of the
+> unqualified restatement §3 used: it is consistent with the real theorem only
+> because `Delta` of the cable carries the nonunit norm factor `Delta_Sq(t^p)`,
+> which is exactly the deleted hypothesis.
+
 14 September 2026. **No counterexample found.** This note is strategy, not
 computation. It asks what the board actually looks like after a year of lanes,
 and it reaches one structural conclusion and one concrete unmined lane.

@@ -1,0 +1,4 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+[     0.1s] partner 8_9 verified=True
+[     0.1s] START D_{0,1} = K_0 # (-K_1) # 8_9  33 crossings  box={'max_bands': 2, 'max_band_len': 5, 'max_twists': 2, 'paths': 'shortest', 'seed': None, 'J_list': ['8_9', '8_20', '9_27']}
