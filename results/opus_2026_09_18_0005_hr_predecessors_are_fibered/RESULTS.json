@@ -1,0 +1,84 @@
+{
+ "conclusion": "K_0 and K_1 are minimal with respect to <=_h, without a fiberedness restriction on the predecessor.",
+ "all_checks_pass": true,
+ "n_checks": 13,
+ "n_pass": 13,
+ "checks": [
+  {
+   "name": "S0 stored Alexander polynomial is Delta",
+   "pass": true,
+   "detail": "t**4 - 3*t**3 + 5*t**2 - 3*t + 1"
+  },
+  {
+   "name": "A1 g(K_0) = g(K_1) = 2",
+   "pass": true,
+   "detail": "stored HFK genus; same fiber for K_1"
+  },
+  {
+   "name": "A2 both targets fibered",
+   "pass": true,
+   "detail": "stored HFK fiberedness; K_1 by Abe-Tagami Appendix B"
+  },
+  {
+   "name": "B1 predecessor genus is 0 or 1",
+   "pass": true,
+   "detail": "g(J) < g(K) = 2 by the compression genus lemma"
+  },
+  {
+   "name": "B2 case list has exactly the 4 fibered knots of genus <= 1",
+   "pass": true,
+   "detail": "U, both trefoils, 4_1; genus-one fibered knots are classical"
+  },
+  {
+   "name": "C1 determinant of K_0 = K_1 is 13",
+   "pass": true,
+   "detail": "|Delta(-1)| = 13"
+  },
+  {
+   "name": "C2 13 is not a perfect square",
+   "pass": true,
+   "detail": "Fox-Milnor/Murasugi: a slice knot has square determinant, so U is not a predecessor"
+  },
+  {
+   "name": "C3 Delta is irreducible over Q",
+   "pass": true,
+   "detail": "sympy Poly.is_irreducible"
+  },
+  {
+   "name": "C4 Delta_{3_1 (right)} does not divide Delta",
+   "pass": true,
+   "detail": "remainder t - 1"
+  },
+  {
+   "name": "C4 Delta_{3_1 (left, mirror)} does not divide Delta",
+   "pass": true,
+   "detail": "remainder t - 1"
+  },
+  {
+   "name": "C4 Delta_{4_1} does not divide Delta",
+   "pass": true,
+   "detail": "remainder 9*t - 3"
+  },
+  {
+   "name": "D1 fibered and Delta = 1 forces the unknot",
+   "pass": true,
+   "detail": "deg Delta_J = 2 g(J) for fibered J; degree 0 => g = 0 => J = U"
+  },
+  {
+   "name": "D2 so the previously-flagged non-fibered Delta=1 gap is empty",
+   "pass": true,
+   "detail": "Sun arXiv:2604.20785 Thm 1.1 makes every <=_h-predecessor fibered, so no non-fibered predecessor exists to worry about"
+  }
+ ],
+ "external_inputs_not_verified_here": [
+  "Sun arXiv:2604.20785 Theorem 1.1 (fibered classes descend across a ribbon homology cobordism)",
+  "Agol-Ren Theorem 1.7 = Casson-Gordon [CG83]",
+  "Friedl-Powell arXiv:1907.09031 Theorem 1.1",
+  "Classification of genus-one fibered knots (3_1, m3_1, 4_1)"
+ ],
+ "inputs": {
+  "link_json": "data/knots/AbeTagami_L_63_c1_c2.json"
+ },
+ "sympy_version": "1.14.0",
+ "python_version": "3.11.15"
+}
