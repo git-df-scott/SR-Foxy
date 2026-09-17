@@ -240,6 +240,49 @@ So: **`Σ₂(K_1)` is Dehn surgery on an explicit 4-component link in `L(13,5)`,
 with an explicit slope vector on a saved triangulation.** That is the object the
 `research/21` §3 `d`-invariant gate was missing.
 
+### 5a. The unwinding to `S³` fails, and the gate is homological
+
+The `d`-invariant formulas consume surgery on a link in `S³`, so the obvious
+follow-through was to unwind `L(13,5)`: drill the core of its genus-1 Heegaard
+torus and fill that core along the slope restoring `S³`. The cover already
+carries the **lifted branch knot** `K̃_0` as its fifth cusp, so no new curve
+would have been needed — *if* `K̃_0` were that core.
+
+**It is not.** With the meridian vector `μ` on the four lifted curves, so that
+the ambient is `L(13,5)`, filling the `K̃_0` cusp along `(a,b)` gives
+
+```
+|H_1| = 13 · |a|,   independent of b
+```
+
+over the whole box `|a|,|b| ≤ 4`. That is exactly the signature of a
+**null-homologous** knot in a rational homology sphere, where filling along
+`a·μ + b·λ` multiplies `|H_1(Y)|` by `|a|`. So `[K̃_0] = 0` in
+`H_1(Σ₂(K_0)) = Z/13`, every filling has order divisible by 13, and **no filling
+is ever `S³`**. A Heegaard-torus core generates `H_1`, so `K̃_0` is not one.
+
+*Excluded, precisely:* unwinding `L(13,5)` **via the lifted branch knot**.
+*Not excluded:* unwinding via an actual Heegaard-torus core, which is a
+different curve and is not a cusp of this cover. The §5 surgery description is
+untouched.
+
+A first version of this search also returned zero, for a different and wrong
+reason — it filtered on `str(homology()) != ''` when SnapPy prints trivial `H_1`
+as `'0'`, discarding every candidate. That zero was a bug; this one is a
+computation, and the `H_1` grid is the evidence rather than a failed search.
+Artifact: `results/opus_2026_09_17/unwind_L13_5_attempt.json`.
+
+**The route that replaces it, needing no unwinding.** `13/5 = [3,3,2]`
+(`3 − 1/(3 − 1/2) = 13/5`), so `−L(13,5)` bounds the negative definite linear
+plumbing with weights `(−3,−3,−2)`. `Σ₂(K_1)` therefore bounds that plumbing
+with the four lifted 2-handles attached, `b₂ = 3 + 4 = 7`. **If that form is
+negative definite**, then `D_{0,1}` slice would make
+`Σ₂(D_{0,1}) = L(13,5) # −Σ₂(K_1)` bound a rational homology ball, and
+Donaldson's theorem would force the form to embed in the diagonal lattice — a
+finite, exact, integer test whose *failure* would kill the Abe–Tagami lane
+outright. What it still needs is the lifted curves' classes and pairwise
+linking in `L(13,5)`, which is not yet computed.
+
 ---
 
 ## 6. Two moves that fail, delimited exactly
