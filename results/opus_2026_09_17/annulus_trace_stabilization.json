@@ -1,0 +1,95 @@
+{
+ "ALL_CHECKS_PASS": true,
+ "K_0_is_not_K_1": true,
+ "annulus_disjoint_from_K": true,
+ "component_order": [
+  "K (=6_3)",
+  "c'_1 (push-off of c_1, inner)",
+  "c'_2 (push-off of c_2, outer)"
+ ],
+ "conclusion": {
+  "W": "(S^3 x I) with 2-handles on the Hopf link c1 u c2, framings 2 and 0",
+  "W_intersection_form": "even, unimodular, indefinite, rank 2 = H",
+  "annulus": "C = K_0 x I in W, chi(C) = 0, connected, two boundary components K_0 in -S^3 and K_1 in S^3",
+  "handle_calculus_step_NOT_machine_checked": "H realised by a Hopf link with one 0-framed component and one even framing is the S^2-bundle over S^2 with even Euler number, i.e. S^2 x S^2; hence W is diffeomorphic to (S^3 x I) # (S^2 x S^2). Cited to standard Kirby calculus (Gompf-Stipsicz, GSM 20, ch. 4); NOT verified from the original in this container. The weaker statement (W simply connected with form H, hence homeomorphic to (S^3 x I) # (S^2 x S^2) by Freedman) needs no such citation.",
+  "this_is_not_a_concordance": "W is not S^3 x I. research/14 section 3 proves pi_1(W - C) = Z, which with Delta_{K_0} != 1 forbids replacing W by a standard S^3 x I keeping this annulus."
+ },
+ "crossings": 27,
+ "framings": [
+  2,
+  0
+ ],
+ "framings_are_integral": true,
+ "handle_intersection_form": {
+  "determinant": -1,
+  "even": true,
+  "isomorphic_over_Z_to_hyperbolic_H": true,
+  "matrix": [
+   [
+    2,
+    1
+   ],
+   [
+    1,
+    0
+   ]
+  ],
+  "signature": 0,
+  "unimodular": true
+ },
+ "input": "data/knots/AbeTagami_L_63_c1_c2.json",
+ "knot_component": {
+  "crossings_after_simplify": 6,
+  "isometric_to_6_3": true
+ },
+ "linking_matrix": [
+  [
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   1,
+   0
+  ]
+ ],
+ "lk_K_c1": 0,
+ "lk_K_c2": 0,
+ "lk_c1_c2": 1,
+ "n": 1,
+ "outgoing_boundary_is_S3": true,
+ "outgoing_knot_is_stored_K_1": true,
+ "outgoing_knot_volume": 9.120006500798135,
+ "regina": "7.4",
+ "seconds": 0.0,
+ "slopes": {
+  "c'_1": [
+   2,
+   1
+  ],
+  "c'_2": [
+   0,
+   1
+  ]
+ },
+ "snappy": "3.3.2",
+ "stored_K_1_volume": 9.120006500798125,
+ "surgery_sublink": {
+  "L2a1_isoSig": "dLQacccbjkg",
+  "L2a1_tets": 3,
+  "components": 2,
+  "crossings_after_simplify": 2,
+  "diagram_argument": "the sublink simplifies to a 2-crossing 2-component diagram with lk = +1; the only such link is the Hopf link",
+  "exterior_isosig_match": true,
+  "is_hopf_link": true,
+  "isoSig": "dLQacccbjkg",
+  "isoSig_tets": 3,
+  "note": "the Hopf link exterior is T^2 x I, not hyperbolic, so no isometry test is used or available"
+ }
+}

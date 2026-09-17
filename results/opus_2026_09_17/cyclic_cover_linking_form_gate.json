@@ -1,0 +1,339 @@
+{
+ "controls": {
+  "3_1": {
+   "p=2": {
+    "det_intersection_form": 3,
+    "dim": 1,
+    "disc_is_square": true,
+    "discriminant": 1,
+    "elementary_abelian": true,
+    "gram_times_q": [
+     [
+      1
+     ]
+    ],
+    "invariant_factors": [
+     3
+    ],
+    "order_from_alexander": 3,
+    "order_matches_alexander": true,
+    "q": 3,
+    "rank_form": 2,
+    "squares_mod_q": [
+     1
+    ],
+    "|H_1|": 3
+   },
+   "p=3": {
+    "det_intersection_form": 4,
+    "dim": 2,
+    "disc_is_square": true,
+    "discriminant": 1,
+    "elementary_abelian": true,
+    "gram_times_q": [
+     [
+      0,
+      1
+     ],
+     [
+      1,
+      0
+     ]
+    ],
+    "invariant_factors": [
+     2,
+     2
+    ],
+    "order_from_alexander": 4,
+    "order_matches_alexander": true,
+    "q": 2,
+    "rank_form": 4,
+    "squares_mod_q": [
+     1
+    ],
+    "|H_1|": 4
+   },
+   "p=5": {
+    "det_intersection_form": 1,
+    "elementary_abelian": false,
+    "invariant_factors": [],
+    "order_from_alexander": 1,
+    "order_matches_alexander": true,
+    "rank_form": 8,
+    "|H_1|": 1
+   }
+  },
+  "4_1": {
+   "p=2": {
+    "det_intersection_form": -5,
+    "dim": 1,
+    "disc_is_square": false,
+    "discriminant": 3,
+    "elementary_abelian": true,
+    "gram_times_q": [
+     [
+      3
+     ]
+    ],
+    "invariant_factors": [
+     5
+    ],
+    "order_from_alexander": 5,
+    "order_matches_alexander": true,
+    "q": 5,
+    "rank_form": 2,
+    "squares_mod_q": [
+     1,
+     4
+    ],
+    "|H_1|": 5
+   },
+   "p=3": {
+    "det_intersection_form": 16,
+    "elementary_abelian": false,
+    "invariant_factors": [
+     4,
+     4
+    ],
+    "order_from_alexander": 16,
+    "order_matches_alexander": true,
+    "rank_form": 4,
+    "|H_1|": 16
+   },
+   "p=5": {
+    "det_intersection_form": 121,
+    "dim": 2,
+    "disc_is_square": false,
+    "discriminant": 10,
+    "elementary_abelian": true,
+    "gram_times_q": [
+     [
+      5,
+      9
+     ],
+     [
+      9,
+      5
+     ]
+    ],
+    "invariant_factors": [
+     11,
+     11
+    ],
+    "order_from_alexander": 121,
+    "order_matches_alexander": true,
+    "q": 11,
+    "rank_form": 8,
+    "squares_mod_q": [
+     1,
+     3,
+     4,
+     5,
+     9
+    ],
+    "|H_1|": 121
+   }
+  }
+ },
+ "gates": {
+  "p=2": {
+   "H1_orders": [
+    13,
+    13
+   ],
+   "OBSTRUCTION_FIRES": false,
+   "both_elementary_abelian": true,
+   "dim": 1,
+   "disc_K0": 5,
+   "disc_K1": 6,
+   "disc_ratio": 3,
+   "forms_isometric": true,
+   "metabolizer_exists": true,
+   "q": 13,
+   "ratio_is_square": true
+  },
+  "p=3": {
+   "H1_orders": [
+    49,
+    49
+   ],
+   "OBSTRUCTION_FIRES": false,
+   "both_elementary_abelian": true,
+   "dim": 2,
+   "disc_K0": 6,
+   "disc_K1": 6,
+   "disc_ratio": 1,
+   "forms_isometric": true,
+   "metabolizer_exists": true,
+   "q": 7,
+   "ratio_is_square": true
+  },
+  "p=5": {
+   "H1_orders": [
+    256,
+    256
+   ],
+   "both_elementary_abelian": false,
+   "status": "not decided by this criterion: groups are not elementary abelian of the same odd exponent and rank"
+  }
+ },
+ "primes": [
+  2,
+  3,
+  5
+ ],
+ "seconds": 2.0,
+ "snappy": "3.3.2",
+ "targets": {
+  "K_0": {
+   "p=2": {
+    "det_intersection_form": 13,
+    "dim": 1,
+    "disc_is_square": false,
+    "discriminant": 5,
+    "elementary_abelian": true,
+    "gram_times_q": [
+     [
+      5
+     ]
+    ],
+    "invariant_factors": [
+     13
+    ],
+    "order_from_alexander": 13,
+    "order_matches_alexander": true,
+    "q": 13,
+    "rank_form": 4,
+    "squares_mod_q": [
+     1,
+     3,
+     4,
+     9,
+     10,
+     12
+    ],
+    "|H_1|": 13
+   },
+   "p=3": {
+    "det_intersection_form": 49,
+    "dim": 2,
+    "disc_is_square": false,
+    "discriminant": 6,
+    "elementary_abelian": true,
+    "gram_times_q": [
+     [
+      1,
+      3
+     ],
+     [
+      3,
+      1
+     ]
+    ],
+    "invariant_factors": [
+     7,
+     7
+    ],
+    "order_from_alexander": 49,
+    "order_matches_alexander": true,
+    "q": 7,
+    "rank_form": 8,
+    "squares_mod_q": [
+     1,
+     2,
+     4
+    ],
+    "|H_1|": 49
+   },
+   "p=5": {
+    "det_intersection_form": 256,
+    "elementary_abelian": false,
+    "invariant_factors": [
+     4,
+     4,
+     4,
+     4
+    ],
+    "order_from_alexander": 256,
+    "order_matches_alexander": true,
+    "rank_form": 16,
+    "|H_1|": 256
+   }
+  },
+  "K_1": {
+   "p=2": {
+    "det_intersection_form": -13,
+    "dim": 1,
+    "disc_is_square": false,
+    "discriminant": 6,
+    "elementary_abelian": true,
+    "gram_times_q": [
+     [
+      6
+     ]
+    ],
+    "invariant_factors": [
+     13
+    ],
+    "order_from_alexander": 13,
+    "order_matches_alexander": true,
+    "q": 13,
+    "rank_form": 34,
+    "squares_mod_q": [
+     1,
+     3,
+     4,
+     9,
+     10,
+     12
+    ],
+    "|H_1|": 13
+   },
+   "p=3": {
+    "det_intersection_form": 49,
+    "dim": 2,
+    "disc_is_square": false,
+    "discriminant": 6,
+    "elementary_abelian": true,
+    "gram_times_q": [
+     [
+      5,
+      1
+     ],
+     [
+      1,
+      0
+     ]
+    ],
+    "invariant_factors": [
+     7,
+     7
+    ],
+    "order_from_alexander": 49,
+    "order_matches_alexander": true,
+    "q": 7,
+    "rank_form": 68,
+    "squares_mod_q": [
+     1,
+     2,
+     4
+    ],
+    "|H_1|": 49
+   },
+   "p=5": {
+    "det_intersection_form": 256,
+    "elementary_abelian": false,
+    "invariant_factors": [
+     4,
+     4,
+     4,
+     4
+    ],
+    "order_from_alexander": 256,
+    "order_matches_alexander": true,
+    "rank_form": 136,
+    "|H_1|": 256
+   }
+  }
+ }
+}

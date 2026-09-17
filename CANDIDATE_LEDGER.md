@@ -1,3 +1,11 @@
+> **Opus update, 17 September 2026.** The Abe–Tagami row's "Same 0-surgery is not
+> concordance" caveat is now sharpened in both directions by
+> `research/33_one_stabilization_and_the_forced_collapse.md`: same 0-surgery *does*
+> force equal algebraic concordance class (Lemma B), so no Seifert-form invariant
+> can obstruct `D_{n,m}`; and the `n = 1` twist trace exhibits `D_{0,1}` bounding a
+> smooth disk in `B⁴ # (S²×S²)` (Theorem A). `D_{0,1}` remains a CANDIDATE and
+> this audit still finds **NO CE**.
+
 # Certified candidate ledger
 
 Cutoff: 2026-08-30. Binding terminology: **CE** means an explicit knot with both a proof of smooth sliceness in standard (B^4) and a proof of non-ribbonness. Every entry below is a **CANDIDATE**. This audit finds **NO CE**.
