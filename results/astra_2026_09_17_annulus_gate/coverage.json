@@ -1,0 +1,103 @@
+{
+  "pinned_commit": "b7ae7270ea6abc6976c0ec598067e2cac3602887",
+  "repo_read_exhaustive": false,
+  "fully_read_files": [
+    "UNFINISHED.md",
+    "ERRATA_2026-09-16.md",
+    "CANDIDATE_LEDGER.md",
+    "OBSTRUCTION_MATRIX.md",
+    "ABE_TAGAMI_AUDIT.md",
+    "MANIFEST.md",
+    "results/astra_2026_09_16/summary.json",
+    "results/astra_2026_09_16_followup/summary.json",
+    "results/astra_2026_09_16_followup/claude_review_audit.json",
+    "results/astra_2026_09_16_followup/claude_response.json",
+    "research/12_coupled_movie_audit.md",
+    "research/14_marked_annulus_audit.md",
+    "research/15_infection_target_compatibility.md",
+    "research/20_next_construction_plan.md",
+    "research/opus_mixed_lift_review.md",
+    "scripts/check_annulus_group_certificate.py"
+  ],
+  "partially_read_files": [
+    {
+      "path": "results/annulus_group_compact.json",
+      "lines": [
+        1,
+        160
+      ],
+      "used": "simplified relator, meridian, and axis words; not all original generator maps"
+    }
+  ],
+  "metadata_only": [
+    "repository main commit",
+    "root git tree",
+    "research directory tree"
+  ],
+  "large_generated_dataset_coverage": "Not inspected; no new assertion of search coverage.",
+  "source_reading": [
+    {
+      "source": "Abe-Tagami arXiv:1502.01102",
+      "scope": "Selected theorem/hypothesis and annulus-presentation sections; Figures 4-5 visually inspected. Not all paper independently reproved."
+    },
+    {
+      "source": "Park arXiv:1512.00401v1",
+      "scope": "Definitions 2.1 and 3.1, body Theorem 3.3 and standardness argument; not every application diagram."
+    },
+    {
+      "source": "Eisermann 2009",
+      "scope": "Theorems 1-2, satellite Proposition 6.13, Corollary 6.15, Example 6.16, Questions 7.1 and 7.8. Not the full combinatorial proof."
+    },
+    {
+      "source": "Oliveira-Smith arXiv:2603.23717v1",
+      "scope": "Exact knot identification, standard-B4 theorem chain, and selected argument text. No independent full Kirby-calculus replay."
+    },
+    {
+      "source": "Miller-Zupan arXiv:2005.11243v1",
+      "scope": "Introduction, derivative definition, Proposition 1.1 and Theorem 1.3; not full paper."
+    }
+  ],
+  "computations": [
+    "Fox Laurent derivatives",
+    "exact Schreier rewriting and inverse free automorphism",
+    "exact characteristic polynomial and unit-circle identity",
+    "normalized marked-word comparison",
+    "fiber class-two normal forms",
+    "independent truncated Magnus expansions",
+    "4681 short-word arithmetic controls",
+    "existing SL(2,F5) witness recheck",
+    "optimized repeat and deliberate input-mutation tests"
+  ],
+  "not_run": [
+    "band searches",
+    "HFK",
+    "HKL",
+    "Jones",
+    "Rasmussen s",
+    "branched-cover recognition",
+    "source PD group extraction"
+  ],
+  "operational_failures": [
+    {
+      "attempt": "container repository snapshot download",
+      "outcome": "DNS resolution failure; no snapshot or clone created; GitHub connector reads succeeded"
+    },
+    {
+      "attempt": "selected PDF theorem-page screenshots",
+      "outcome": "internal screenshot errors; Figures 4-5 page screenshot succeeded; no claim all diagrams read"
+    },
+    {
+      "attempt": "Miller-Zupan v2 HTML",
+      "outcome": "404; actual v1 PDF retrieved successfully"
+    }
+  ],
+  "remote_mutations": [],
+  "branches_created": [],
+  "mac_accessed": false,
+  "processes_left_running": false,
+  "limitations": [
+    "Computed statements use transcribed upstream marked words.",
+    "New local-knotting consequence is a proof by retraction, not a computation of all disks.",
+    "No counterexample and no new concordance or disk."
+  ]
+}
