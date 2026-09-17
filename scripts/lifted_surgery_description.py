@@ -22,8 +22,19 @@ this reproducible: rerunning covers() can return a different representative.
 Controls, both required:
   * some filling of M~ must give Sigma_2(K_0), recognised by Regina as exactly
     L(13,5);
-  * some filling must give a manifold with the same Regina isoSig as Sigma_2(K_1)
-    built independently from the stored K_1 diagram.
+  * some filling must give Sigma_2(K_1), built independently from the stored
+    K_1 diagram.
+
+IDENTIFICATION, and a retracted earlier method.  A first version of this search
+compared Regina isoSigs after a randomised simplify().  That is WRONG: isoSig is
+a canonical invariant of a TRIANGULATION, not of a manifold, and two
+simplifications of the same manifold routinely land on different triangulations
+(the target here simplified to 19 tetrahedra on one run and 20 on the next).
+That method produced two apparent hits on one run and zero on the next; both are
+artifacts and neither is an identification.  Survivors are instead identified by
+hyperbolic volume and confirmed with SnapPy is_isometric_to, which is legitimate
+for closed hyperbolic manifolds by Mostow rigidity.  Failures to find a
+geometric structure are recorded UNKNOWN, never as a non-match.
 
 Usage: python3 scripts/lifted_surgery_description.py <out.json>
 """
@@ -39,6 +50,17 @@ def closed(M, rounds=4):
     for _ in range(rounds):
         T.simplify()
     return T
+
+
+def geometric_volume(M, tries=300):
+    """Volume of a positively oriented solution, or None (UNKNOWN)."""
+    for i in range(tries):
+        N = M.copy()
+        if i:
+            N.randomize()
+        if N.solution_type() == 'all tetrahedra positively oriented':
+            return float(N.volume())
+    return None
 
 
 def recognise(T):
@@ -70,13 +92,16 @@ def main(out_path):
     k1 = json.load(open('data/knots/AbeTagami_K_1.json'))['pd_code_snappy_0indexed']
     e = snappy.Link([tuple(c) for c in k1]).exterior()
     e.dehn_fill((2, 0))
-    T_target = closed(e.covers(2, cover_type='cyclic')[0])
-    target = T_target.isoSig()
+    S = e.covers(2, cover_type='cyclic')[0]
+    T_target = closed(S)
+    target_vol = geometric_volume(snappy.Manifold(T_target.snapPea()))
+    assert target_vol is not None, 'no hyperbolic structure found on the target'
+    target_mfd = snappy.Manifold(T_target.snapPea())
 
     slopes = [(p, q) for p in range(-SLOPE_RANGE, SLOPE_RANGE + 1)
               for q in range(-SLOPE_RANGE, SLOPE_RANGE + 1)
               if math.gcd(abs(p), abs(q)) == 1]
-    lens, hits, checked = [], [], 0
+    lens, hits, unknown, checked = [], [], [], 0
     for combo in itertools.product(slopes, repeat=4):
         checked += 1
         M = Mt.copy()
@@ -90,8 +115,22 @@ def main(out_path):
         T = closed(M)
         if recognise(T) == 'L(13,5)':
             lens.append([list(s) for s in combo])
-        if T.isoSig() == target:
-            hits.append([list(s) for s in combo])
+            continue
+        cand = snappy.Manifold(T.snapPea())
+        vol = geometric_volume(cand, tries=60)
+        if vol is None:
+            unknown.append([list(s) for s in combo])
+            continue
+        if abs(vol - target_vol) > 1e-6:
+            continue
+        try:
+            same = bool(cand.is_isometric_to(target_mfd))
+        except Exception:
+            same = None
+        if same:
+            hits.append({'slopes': [list(s) for s in combo], 'volume': vol})
+        elif same is None:
+            unknown.append([list(s) for s in combo])
 
     out = {
         'snappy': snappy.version(), 'regina': regina.versionString(),
@@ -106,8 +145,12 @@ def main(out_path):
         'K_lift_induced_filling': [list(map(float, info[klift[0]]))],
         'slope_box': SLOPE_RANGE, 'slopes_per_cusp': len(slopes),
         'fillings_checked': checked,
-        'target_isoSig_Sigma2_K1': target,
+        'target_volume_Sigma2_K1': target_vol,
         'target_tetrahedra': T_target.size(),
+        'identification_method': ('hyperbolic volume then is_isometric_to; '
+                                  'isoSig comparison was tried first and is '
+                                  'retracted as unsound, see module docstring'),
+        'fillings_unknown': unknown, 'n_unknown': len(unknown),
         'fillings_giving_L13_5': lens,
         'fillings_giving_Sigma2_K1': hits,
         'n_L13_5': len(lens), 'n_Sigma2_K1': len(hits),
@@ -123,7 +166,7 @@ def main(out_path):
         json.dump(out, fh, indent=1, sort_keys=True)
     print('M~ tets', Mt.num_tetrahedra(), '| checked', checked,
           '| L(13,5):', len(lens), '| Sigma_2(K_1):', len(hits),
-          '| %.0fs' % (time.time() - t0))
+          '| UNKNOWN:', len(unknown), '| %.0fs' % (time.time() - t0))
     print('Sigma_2(K_1) fillings:', hits)
 
 

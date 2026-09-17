@@ -192,9 +192,30 @@ namely the preimage of `c'_1 ∪ c'_2`. That is the object the `d`-invariant gat
 needs. Cross-validation of both endpoints is in
 `results/opus_2026_09_17/lifted_surgery_description.json`.
 
-**Limit.** SnapPy renormalizes cusp bases per cover, so the two slope sets are
-not directly comparable as written; pinning them in one fixed basis is a bounded
-search over slopes on `M̃` and is the immediate next step (§7, lead 1).
+**Limits, and one retracted method.** SnapPy renormalizes cusp bases per cover,
+so the lifted slopes are not `(1,0)` and `(2,1)/(0,1)` in the cover's own basis;
+they have to be found by search and then pinned by saving the triangulation,
+because `covers()` need not return the same representative on a rerun (34, 36
+and 38 tetrahedra were all observed).
+
+**Retraction.** A first version of that search identified the filled manifold by
+comparing Regina `isoSig`s after a randomised `simplify()`. That is unsound:
+`isoSig` is a canonical invariant of a *triangulation*, not of a manifold, and
+two simplifications of the same manifold routinely differ — the target here
+simplified to 19 tetrahedra on one run and 20 on the next. That method reported
+two fillings on one run and zero on the next; **both are artifacts and neither
+is an identification**, and any slopes read off it are withdrawn. The script's
+own `controls_pass` flag caught this, by finding `L(13,5)` fillings but no
+`Σ₂(K_1)` filling, which the construction forbids.
+
+What survives, and is solid: `M̃` is well defined (the unique 5-cusped index-2
+cover, 34 tetrahedra, `H_1 = Z⁴`), and **320 of 65,536 fillings give exactly
+`L(13,5)`, Regina-recognised by name** — a genuine identification that does not
+use `isoSig` matching. So the geometric statement stands on the construction;
+the *slopes* do not yet exist. Survivors are now identified by hyperbolic volume
+and confirmed with `is_isometric_to`, legitimate for closed hyperbolic manifolds
+by Mostow rigidity, with failures to find a geometric structure recorded
+`UNKNOWN` rather than as non-matches. Pinning the slopes remains §7 lead 1.
 
 ---
 
