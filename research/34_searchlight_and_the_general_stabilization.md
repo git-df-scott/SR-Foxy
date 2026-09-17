@@ -272,16 +272,37 @@ as `'0'`, discarding every candidate. That zero was a bug; this one is a
 computation, and the `H_1` grid is the evidence rather than a failed search.
 Artifact: `results/opus_2026_09_17/unwind_L13_5_attempt.json`.
 
-**The route that replaces it, needing no unwinding.** `13/5 = [3,3,2]`
-(`3 − 1/(3 − 1/2) = 13/5`), so `−L(13,5)` bounds the negative definite linear
-plumbing with weights `(−3,−3,−2)`. `Σ₂(K_1)` therefore bounds that plumbing
-with the four lifted 2-handles attached, `b₂ = 3 + 4 = 7`. **If that form is
-negative definite**, then `D_{0,1}` slice would make
-`Σ₂(D_{0,1}) = L(13,5) # −Σ₂(K_1)` bound a rational homology ball, and
-Donaldson's theorem would force the form to embed in the diagonal lattice — a
-finite, exact, integer test whose *failure* would kill the Abe–Tagami lane
-outright. What it still needs is the lifted curves' classes and pairwise
-linking in `L(13,5)`, which is not yet computed.
+**The route that was proposed to replace it — and is now EXCLUDED.**
+`13/5 = [3,3,2]`, so the negative definite linear plumbing `P(−3,−3,−2)` bounds
+`L(13,5)`, and `Σ₂(K_1)` bounds `P` capped onto the four-handle cobordism, with
+`b₂ = 3 + 4 = 7`. The plan was to hope that form is negative definite and run
+Donaldson.
+
+**It can never be negative definite.** The four-handle cobordism *is* the
+oriented double branched cover `W_2 → W` of the annulus-twist trace along the
+trace annulus, because `lk(K, c'_i) = 0` makes each handle lift to two handles.
+Degree-2 pullback on rational relative cohomology gives
+`Q_{W_2}(p^*a, p^*b) = 2 Q_W(a,b)`, and `Q_W ≅ H` is nondegenerate, so `p^*` is
+injective and `Q_{W_2}` contains a nondegenerate copy of `2H` — signature
+`(1,1)`. Gluing along a rational homology sphere is a rational orthogonal direct
+sum, so **`b₂⁺ ≥ 1` survives any cap, in either orientation**, and neither
+handle slides nor negative blow-ups can remove it. A `G`-signature computation
+(`σ(W_2) = 2σ(W) − ½[C]² = 0`) confirms it independently.
+
+Full lemma, hypothesis-by-hypothesis, with a one-command arithmetic checker:
+`results/opus_2026_09_17_1836_trace_cap_gate/`.
+
+*Excluded:* this trace-plus-cap negative definite strategy only. *Not excluded:*
+other non-trace negative definite fillings of `Σ₂(K_1)`, Donaldson arguments in
+general, `d`-invariants, and — emphatically — sliceness of `D_{0,1}`.
+
+Two corrections that pass also forced. The orientation worry is **vacuous**:
+`5² ≡ −1 (mod 13)` makes `L(13,5)` amphichiral, so `P(−3,−3,−2)` bounds `Y_0`
+either way. And the target lattice quoted above was wrong: `D_{0,1}` slice does
+**not** make `Y_1` bound a rational homology ball — only
+`Y_0 # (−Y_1)` does — so the correct demand is an embedding into
+`⟨−1⟩^{3 + b₂(X_1)}` for an explicit negative definite filling `X_1` of `−Y_1`,
+which nobody has, and never `⟨−1⟩⁷`.
 
 ---
 

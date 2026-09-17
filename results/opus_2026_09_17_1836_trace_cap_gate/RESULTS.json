@@ -1,0 +1,54 @@
+{
+  "counterexample": false,
+  "status": "TRACE_CAP_NEGATIVE_DEFINITE_STRATEGY_EXCLUDED_ARGUMENT_SOUND",
+  "timestamp_utc": "2026-09-17T18:36:45Z",
+  "branch": "claude/compassionate-carson-b6lxu8",
+  "origin_main_read": "f7ba2516304c0553a3180570abb6e257f4a68094",
+  "verdict_on_proposed_degree_pullback_argument": "SOUND",
+  "lemma": {
+    "statement": "For W the n=1 annulus-twist trace with Q_W = [[2,1],[1,0]], C = K_0 x I the trace annulus and p: W_2 -> W the oriented double branched cover, b2+(W_2) >= 1 and b2-(W_2) >= 1; hence for any P glued to either boundary component along a rational homology sphere, Q_{P u W_2} = Q_P (+) Q_{W_2} over Q and P u W_2 is indefinite in either orientation.",
+    "hypotheses_checked": {
+      "cobordism_is_genuinely_W2": "yes: lk(K_0,c'_i)=0 and C disjoint from the attaching circles, so each handle lifts to two handles and the branched covering extends across those exact handles; W_2 = (Y_0 x I) u (four lifted 2-handles)",
+      "relative_cohomology_applies_to_both_boundary_components": "yes: dW = S^3 u S^3 and dW_2 = (-Y_0) u Y_1 are rational homology spheres, so H^1(d;Q)=H^2(d;Q)=0 and H^2(.,d;Q) -> H^2(.;Q) is an isomorphism on both",
+      "degree_and_orientation_conventions": "p proper of degree 2, p(dW_2) in dW, p_*[W_2,dW_2] = 2[W,dW]; cup product naturality holds for any continuous map and the branch locus is codimension 2",
+      "rational_direct_sum_for_the_gluing": "yes: H_2(Y;Q)=H_1(Y;Q)=0 gives 0 -> H_2(P;Q)(+)H_2(W_2;Q) -> H_2(P u W_2;Q) -> 0 with the pieces orthogonal",
+      "actual_trace_not_an_arbitrary_filling": "the lemma is proved about W_2 defined by the branched cover, not about any filling matched only on the boundary; whether the bounded slope search of research/34 section 5 found the covering-induced slopes was NOT established and is not needed"
+    },
+    "independent_cross_check": "G-signature: sigma(W_2) = 2 sigma(W) - [C]^2/2 = 0 since sigma(W)=0 and [C]^2=0; with b2(W_2) >= 2 this forces indefiniteness independently"
+  },
+  "excluded": "capping the branched trace W_2 with the negative definite plumbing P(-3,-3,-2) to obtain a rank-seven negative definite filling of Sigma_2(K_1); handle slides preserve the form and negative blow-ups only add <-1> summands",
+  "NOT_excluded": [
+    "other non-trace negative definite fillings of Y_1",
+    "Donaldson-type arguments in general",
+    "d-invariant or Floer arguments",
+    "sliceness of D_{0,1}"
+  ],
+  "orientation_gate": {
+    "question": "does P(-3,-3,-2) bound Y_0 or -Y_0",
+    "resolution": "vacuous: 5^2 = -1 mod 13 and 5*8 = 1 mod 13, so L(13,5) = L(13,8) = L(13,-5) = -L(13,5) is amphichiral",
+    "plumbing_matrix": [[-3, 1, 0], [1, -3, 1], [0, 1, -2]],
+    "plumbing_det": -13,
+    "plumbing_negative_definite": true,
+    "negative_continued_fraction_13_over_5": [3, 3, 2],
+    "reproduces": "research/21 section 3, independently"
+  },
+  "correct_donaldson_statement": {
+    "what_D01_slice_gives": "K_0 and K_1 smoothly concordant, hence a rational homology cobordism V from Y_0 to Y_1 (b_2(V;Q)=0), equivalently Sigma_2(D01) = Y_0 # (-Y_1) bounds a rational homology ball Z",
+    "what_it_does_NOT_give": ["K_1 slice", "Y_1 bounds a rational homology ball"],
+    "missing_input": "an explicit negative definite filling X_1 of -Y_1",
+    "closed_manifold_if_supplied": "(P natural-sum X_1) glued to -Z along Y_0 # (-Y_1), closed smooth oriented negative definite, b_2 = 3 + b_2(X_1)",
+    "theorem_invoked": "Donaldson diagonalizability for closed smooth oriented negative definite 4-manifolds",
+    "correct_target_lattice": "<-1>^(3 + b_2(X_1))",
+    "explicitly_not": "<-1>^7, which would silently treat Y_1 as rationally null-cobordant"
+  },
+  "constructive_step_completed": {
+    "fact": "spherogram .mirror() preserves crossing labels exactly, so the lower-to-upper correspondence for the based product-disk map is canonical and already stored",
+    "evidence": "27 crossings, label multisets equal, component lengths [34,8,12] on both sides, signs flipped",
+    "cut_recorded_by_scaffold": "upper crossing 0 index 0; lower crossing 0 index sign%4 = 3; pairing 'corresponding endpoints, not crossed endpoints'",
+    "still_missing": "the whisker, i.e. the basepoint transport word through the glued arcs f1[i1]=g1[j1], f2[i2]=g2[j2]; the scaffold admits this in its own orientation_limit field",
+    "claim_about_pass08_branches": "none; which of the 12 surviving branches is physical was NOT determined"
+  },
+  "not_rerun": ["65536 filling inputs", "ordinary s", "HKL", "Floer comparisons", "D01 two/three-parallel", "KDG four-parallel"],
+  "one_command_check": "python3 results/opus_2026_09_17_1836_trace_cap_gate/check_trace_cap_gate.py",
+  "checker_exit_status": 0
+}
