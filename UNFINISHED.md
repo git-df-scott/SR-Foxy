@@ -1,6 +1,8 @@
 > Astra update, 16 September: §3's ordinary s computations over Q and F2
 > are superseded by additivity; see E16-2 in `ERRATA_2026-09-16.md`.
 > Historical running markers are not evidence of a currently live process.
+> The latest bounded search results and prepared continuation queue are indexed
+> in `results/astra_2026_09_16/summary.json`. No counterexample was found.
 
 # UNFINISHED
 

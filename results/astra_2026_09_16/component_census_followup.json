@@ -1,0 +1,16 @@
+{
+  "url": "https://knotinfo.org/results.php?searchmode=singleknot&singleknot=12n_309&submittype=singleknot",
+  "title": "KnotInfo: 12n_309",
+  "accessed": "2026-09-16",
+  "response_sha256": "9fa60116011945c52c453c340882ba54d7f734620a4311b79fa73016d8e3c61f",
+  "selected_fields": {
+    "name": "12n_309",
+    "smooth_four_genus": "0",
+    "smooth_concordance_genus": "0",
+    "smooth_concordance_order": "1",
+    "double_slice_genus": "0",
+    "ribbon_number": "3"
+  },
+  "claim": "The table records 12n_309 as smoothly slice. This lookup provides no obstruction on numerically matched components.",
+  "limitations": "No numerical census nomination was promoted to a verified identification; no path is excluded or certified from this lookup."
+}

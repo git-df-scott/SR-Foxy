@@ -212,7 +212,7 @@ if __name__ == '__main__':
             rec['hits'].append(row)
         if err is None:
             rec['completed'][uid] = row
-            rec['failures'].pop(uid, None)
+            # Keep prior failed attempts as evidence, even after a retry succeeds.
         else:
             # Failed searches are retried on resume and never count as empty
             # completed frontiers, even when the library returned no result.

@@ -49,6 +49,11 @@ class CheckpointTests(unittest.TestCase):
             self.assertFalse(record['coverage']['6_1']['complete'])
             self.assertEqual(record['coverage']['6_1']['zero_survivor_diagrams'], [])
             self.assertEqual(len(next(iter(record['failures'].values()))), 2)
+            with patch.object(search, 'ribbon_concordant_links', return_value={}):
+                self.old_runner(output, source)
+            recovered = json.loads(output.read_text())
+            self.assertEqual(len(recovered['completed']), 1)
+            self.assertEqual(len(next(iter(recovered['failures'].values()))), 2)
 
     def test_success_saves_paths_and_changed_input_refuses_resume(self):
         with tempfile.TemporaryDirectory() as directory:
