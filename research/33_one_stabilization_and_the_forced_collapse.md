@@ -205,13 +205,20 @@ fix is to simplify in Regina first and re-solve in SnapPy:
 | `Σ₂(K_0)` | 3 | `L(13,5)` | none (correct: lens space) | — |
 | `Σ₂(K_1)` | 19 | none | yes, 9 tetrahedra | `7.2813263517` |
 
-`Σ₂(K_1)` is irreducible and **non-Haken**. The `Σ₂(K_1)` row above was read
-off a direct run; the packaged `scripts/sigma2_geometry_probe.py`, which adds
-the lens-space controls and a `Σ₂(K_2)` row, was **still running when this note
-was committed** and its
-`results/opus_2026_09_17/sigma2_geometry_probe.json` lands in a follow-up
-commit. Nothing in §3 or §5 depends on the `K_2` row. See that file for the
-triangulation isoSigs and the controls (`3_1 → L(3,1)`, `4_1 → L(5,q)`, `6_3 → L(13,5)`, all
+`Σ₂(K_1)` is irreducible and **non-Haken**. The packaged probe has now run to
+completion and `results/opus_2026_09_17/sigma2_geometry_probe.json` is committed.
+Every control is recognised by name and correctly fails to be hyperbolic:
+`Σ₂(3_1) = L(3,1)`, `Σ₂(4_1) = L(5,2)`, `Σ₂(6_3) = L(13,5)`. `Σ₂(K_1)` comes
+back at 19 tetrahedra, unrecognised, with a positively oriented solution of
+volume **7.281326351748624** — agreeing to fifteen digits with the volume used
+independently to identify `Σ₂(K_1)` in the lifted surgery search of
+`research/34` §5, which is a genuine cross-check between two unrelated routes to
+the same manifold.
+
+The `Σ₂(K_2)` row is **NOT ATTEMPTED**: that leg was killed by its own 50-minute
+timeout (SIGTERM, exit 143) on 2026-09-17, which is a resource failure and not a
+result. The script now omits it by default so it terminates. Nothing in §3 or §5
+depends on it. See the artifact for the triangulation isoSigs and the controls (`3_1 → L(3,1)`, `4_1 → L(5,q)`, `6_3 → L(13,5)`, all
 recognized, none hyperbolic).
 
 **Honesty note.** A positively oriented solution is strong numerical evidence,
