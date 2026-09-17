@@ -1,0 +1,22 @@
+{
+  "repository": "git-df-scott/SR-Foxy",
+  "pinned_commit": "b7ae7270ea6abc6976c0ec598067e2cac3602887",
+  "source_note": "research/14_marked_annulus_audit.md",
+  "source_record": "results/annulus_group_compact.json",
+  "source_record_blob_sha": "86d0953649fbfe4740c03a65fe22ac7e0d522988",
+  "source_record_lines_inspected": [
+    1,
+    160
+  ],
+  "upstream_marked_PD_path": "data/knots/AbeTagami_L_63_c1_c2.json",
+  "upstream_reported_PD_sha256_NOT_recomputed_here": "e242f97d5da7ca97ef035c36c9db82e519e6bf11580bad3fa5cd8b57238d43ab",
+  "relator": "aabbbaBAABabbbaabABBBAba",
+  "axis_u": "BabA",
+  "axis_v": "BBABabbbaBABabbbaBAA",
+  "meridian": "bba",
+  "abelianization": {
+    "a": -3,
+    "b": 2
+  },
+  "scope": "Fixed marked axes in standard product-disk exterior. Words and source hash transcribed from the pinned record; geometry not independently extracted."
+}

@@ -1,0 +1,124 @@
+{
+  "status": "RECORDED_RESULTS_REPRODUCED_NO_COUNTEREXAMPLE",
+  "counterexample": false,
+  "runs": [
+    {
+      "name": "ribbon61_3",
+      "mode": "exact",
+      "crossings": 90,
+      "input_sha256": "a5b9846b8c3ff99276c0a36d91fc0d714ac188ba26cf75c15ac04e58b8fd7791",
+      "status": "COMPUTED",
+      "raw": {
+        "coefficients_x": [
+          0,
+          -14339,
+          0,
+          -55571,
+          0,
+          -80679,
+          0,
+          -52001,
+          0,
+          -12554
+        ],
+        "order": 5,
+        "modulus": null,
+        "crossings": 90,
+        "writhe": 0,
+        "max_states": 197,
+        "max_frontier": 12,
+        "seconds": 0.0047812
+      },
+      "evaluation": {
+        "exact_divisible": true,
+        "exact_remainder": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "quotient_at_i": [
+          1785,
+          0
+        ],
+        "remainder_mod32": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "quotient_mod32": [
+          25,
+          0
+        ]
+      },
+      "matches_recorded_value": true,
+      "wall_seconds": 0.03837287199996808
+    },
+    {
+      "name": "ribbon61_4",
+      "mode": "exact",
+      "crossings": 160,
+      "input_sha256": "24f2b1b2fb666817e8387fecac918806b6e8993de0a3aec12575f01a1498a325",
+      "status": "COMPUTED",
+      "raw": {
+        "coefficients_x": [
+          19681,
+          0,
+          78724,
+          0,
+          118086,
+          0,
+          78724,
+          0,
+          19681,
+          0
+        ],
+        "order": 5,
+        "modulus": null,
+        "crossings": 160,
+        "writhe": 0,
+        "max_states": 3820,
+        "max_frontier": 18,
+        "seconds": 0.0943844
+      },
+      "evaluation": {
+        "exact_divisible": true,
+        "exact_remainder": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "quotient_at_i": [
+          19681,
+          0
+        ],
+        "remainder_mod32": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "quotient_mod32": [
+          1,
+          0
+        ]
+      },
+      "matches_recorded_value": true,
+      "wall_seconds": 0.10408722699992268
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+Independent Astra audit — pinned input b7ae727, no branch or repo edits.
+NO COUNTEREXAMPLE. No new disk or concordance.
+
+The fixed product-disk annulus obstruction in research/14 is genuine at the
+level of the recorded group. New exact work makes it a free-group calculation:
+G = F4 semidirect Z. Individually normalized marked words are
+U=x0^-1 x1 and V=x1^-1 x2 x3^-1 x0^-1 x1 x2^-1 x1 x3.
+Their fiber abelianizations both equal (-1,1,0,0). The monodromy has characteristic
+polynomial t^4-3t^3+5t^2-3t+1, with no unit-circle roots. Any conjugacy must
+therefore have t exponent zero, but the cyclically reduced fiber lengths are
+2 and 8. Inverse conjugacy is also impossible.
+
+A class-two quotient of the FIBER subgroup detects this too: the [x2,x3]
+central coordinates are 0 and -1 and are invariant under fiber conjugation.
+Meanwhile the original axes ARE conjugate in G/G'': Fox(v)=t^-2 Fox(u).
+Thus Alexander/metabelian agreement does not validate a modifying annulus.
+
+New geometric deduction: ordinary interior local knotting of the product disk
+cannot fix the problem while these axes remain marked and fixed. Its exterior
+group is G *_{<mu>} H for the 2-knot group H, and retracts to G by
+h -> mu^(epsilon_H(h)). A purported conjugacy retracts to the forbidden one.
+The same criterion applies to separate disk summands when this meridian-amalgam
+and marking condition is satisfied. It does NOT exclude genuinely mixed
+stabilization disks or arbitrary nonlocal disk changes.
+
+NEXT REQUEST: supply ONE concrete changed-axis surgery link with actual band
+paths, oriented framings, and resulting boundary knot. The suggested uv/vu
+words already in research/14 are conjugate algebraically, but no embedding,
+annulus, standard ambient ball, or intended boundary follows from that fact.
+Do not expand searches until the proposed construction's marking and boundary
+can be checked. A fixed-axis/local-knotting repair is excluded by the retraction.
+
+Evidence: REPORT.md, inputs.json, verify_annulus_gate.py,
+verification_results.json. 44 named exact checks, 4681 arithmetic controls.
+The original knot-to-group/peripheral extraction was not independently rerun.

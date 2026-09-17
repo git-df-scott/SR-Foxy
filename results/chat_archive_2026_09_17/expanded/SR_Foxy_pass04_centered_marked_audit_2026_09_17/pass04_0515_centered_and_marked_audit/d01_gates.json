@@ -1,0 +1,53 @@
+{
+  "status": "BOTH_TESTED_D01_GATES_PASS_NO_SLICENESS_OBSTRUCTION",
+  "counterexample_found": false,
+  "signed_determinant_D01": 169,
+  "summand_values": {
+    "K0_e1": 13,
+    "K1_e1": 13,
+    "K0_e2": -23,
+    "K1_e2": -23,
+    "K0_e3": -1067,
+    "K1_e3": -1067,
+    "D01_e2_direct": -47
+  },
+  "gates": [
+    {
+      "n": 2,
+      "value": -47,
+      "method": "derived and directly computed",
+      "required_product": 28561,
+      "difference": -28608,
+      "difference_mod32": 0,
+      "difference_divided_by_32": -894
+    },
+    {
+      "n": 3,
+      "value": -27911,
+      "method": "derived, not directly computed on D01",
+      "required_product": 4826809,
+      "difference": -4854720,
+      "difference_mod32": 0,
+      "difference_divided_by_32": -151710
+    }
+  ],
+  "direct_D01_two_parallel_matches": true,
+  "symbolic_generic_identities_pass": true,
+  "perturbed_e2_rejected": true,
+  "input_sha256": {
+    "direct/K0_p1_signed_control/result.json": "f25bb16ed3f8eb752fe101414233151a6185a6efeaa118f4caf4f9422218975d",
+    "direct/K1_p1_signed_control/result.json": "0139942843287fed0f5ca175d749198664b9a5ac5788dd56f223f6df8187f0a8",
+    "direct/K0_p2_control/result.json": "ae4dbf3aa2893f43dac194dfbb71a3cf116a967ccada380d66aaea5969586c01",
+    "direct/K1_p2_new/result.json": "374cb8cb97017b5b59a291a1149ae4076bdfef948f3cd3ccfd0976cf00473d12",
+    "direct/K0_p3_new/result.json": "7cb62029f4718a6e472c5509a381b328cdd33ebd9f69e5ec06f4ffc4f509a012",
+    "direct/K1_p3_new/result.json": "817e735998dbf8c6909d928a8cd0e4c6270b70715e65663d5f23dc81f0237612",
+    "direct/D01_p2_direct/result.json": "e70f8aff0b2e45f3ee673923461de87b406d4e74e71a31685832547c56032506"
+  },
+  "script_sha256": "518f792900822c4a419817ad7a5031d668210ff1bc481b68a637534fa2aa4e3b",
+  "limitations": [
+    "Matching gate values are not positive evidence of concordance.",
+    "No direct D01 three-parallel calculation was run.",
+    "Knot-to-paper identification remains upstream.",
+    "All direct knot calculations share the previously audited cabler/frontier engine."
+  ]
+}

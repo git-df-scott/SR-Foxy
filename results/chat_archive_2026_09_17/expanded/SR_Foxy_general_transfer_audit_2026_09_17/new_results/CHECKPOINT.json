@@ -1,0 +1,35 @@
+{
+  "status": "PROPOSED_GENERAL_TRANSFER_PROOF_INDEPENDENT_REVIEW_PENDING",
+  "counterexample_found": false,
+  "new_disk_or_concordance": false,
+  "base_commit": "0eb81a1a15147b2059b9028d0bbc0f4173f0ad33",
+  "intended_repository_directory": "results/astra_2026_09_17_overnight/pass03_0431_general_transfer",
+  "remote_published": false,
+  "commit_sha": null,
+  "write_status": "Current installed GitHub toolset exposes no write operation; no authenticated gh CLI present; additions-only patch prepared.",
+  "new_proof_claim": "All ribbon-pattern satellites of a smoothly slice knot pass Eisermann nullity and determinant-product mod32 necessities. Independently unreviewed.",
+  "finite_algebra": {
+    "max_degree": 20,
+    "checks_passed": 4832,
+    "negative_checks": 22
+  },
+  "new_direct_knot_controls": {
+    "61_sum_61_two_parallel": 97,
+    "61_sum_61_three_parallel": 32049
+  },
+  "failed_control": {
+    "target": "61_sum_61_four_parallel",
+    "status": "ERROR_UNKNOWN",
+    "error": "std::bad_alloc",
+    "address_space_mib": 2048,
+    "value": null
+  },
+  "new_target_cable_computations": 0,
+  "no_background_process": true,
+  "next_action": "Adversarial audit of PROPOSED_TRANSFER_THEOREM.md before additional Jones cable/pattern jobs.",
+  "remaining_CE_gaps": {
+    "D01": "Smooth concordance K0 -> K1 in standard S3 x I",
+    "KDG": "Global nonribbon proof"
+  },
+  "created_utc": "2026-09-17T04:52:10.229699+00:00"
+}

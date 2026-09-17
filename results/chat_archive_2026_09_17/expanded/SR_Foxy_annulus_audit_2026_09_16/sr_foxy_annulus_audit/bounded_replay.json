@@ -1,0 +1,458 @@
+{
+  "limits": {
+    "cpu_seconds": 20,
+    "address_space_bytes": 536870912
+  },
+  "peak_rss_kib": 94764,
+  "result": {
+    "status": "EXACT_ALGEBRA_VERIFIED_NO_COUNTEREXAMPLE",
+    "input_sha256": "cb0fc5c7cc134345f5d21b39d6055f0c341d1239d61e1bce31d5b277140e77bf",
+    "script_sha256": "77ce89596af112b04add7a2b7d098c721d0017e86915f4f3b13354e379a5453c",
+    "python": "3.13.5",
+    "platform": "Linux",
+    "seed": null,
+    "deterministic": true,
+    "seconds": 0.20495693699990625,
+    "named_checks_passed": 44,
+    "checks": [
+      "Nielsen substitution for a",
+      "Nielsen substitution for b",
+      "Schreier relator",
+      "unique extremal generators permit Tietze elimination",
+      "phi inverse composition 0",
+      "inverse phi composition 0",
+      "phi inverse composition 1",
+      "inverse phi composition 1",
+      "phi inverse composition 2",
+      "inverse phi composition 2",
+      "phi inverse composition 3",
+      "inverse phi composition 3",
+      "eliminated relator freely trivial",
+      "characteristic polynomial equals Delta",
+      "exact unit-circle exclusion identity",
+      "positive completed-square remainder numerator",
+      "normalized marked words",
+      "common nonzero fiber abelianization",
+      "both marked words cyclically reduced",
+      "free-fiber conjugacy obstruction",
+      "U class-two coordinates",
+      "V class-two coordinates",
+      "central x2-x3 conjugacy obstruction",
+      "independent Magnus x2-x3 obstruction",
+      "independent Magnus x3-x2 obstruction",
+      "exact metabelian blindness identity",
+      "Fox relator derivative a",
+      "Fox relator derivative b",
+      "4681 exhaustive short-word arithmetic controls",
+      "positive free-conjugacy control 0",
+      "positive central-invariant control 0",
+      "positive free-conjugacy control 1",
+      "positive central-invariant control 1",
+      "positive free-conjugacy control 2",
+      "positive central-invariant control 2",
+      "positive free-conjugacy control 3",
+      "positive central-invariant control 3",
+      "uv/vu positive control",
+      "existing finite representation relator independently checked",
+      "existing finite axis images independently checked",
+      "finite conjugacy and inverse obstruction",
+      "finite image order 120",
+      "substituting U for V removes target central witness",
+      "tampered relator negative control"
+    ],
+    "arithmetic_control_words": 4681,
+    "schreier": {
+      "r": [
+        [
+          -2,
+          -1
+        ],
+        [
+          -4,
+          -1
+        ],
+        [
+          -5,
+          -1
+        ],
+        [
+          -7,
+          -1
+        ],
+        [
+          -6,
+          1
+        ],
+        [
+          -5,
+          -1
+        ],
+        [
+          -6,
+          1
+        ],
+        [
+          -4,
+          1
+        ],
+        [
+          -5,
+          -1
+        ],
+        [
+          -4,
+          1
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          -5,
+          -1
+        ],
+        [
+          -4,
+          1
+        ],
+        [
+          -5,
+          -1
+        ],
+        [
+          -6,
+          1
+        ],
+        [
+          -4,
+          1
+        ],
+        [
+          -2,
+          1
+        ]
+      ],
+      "u": [
+        [
+          -2,
+          -1
+        ],
+        [
+          -4,
+          -1
+        ],
+        [
+          -6,
+          -1
+        ],
+        [
+          -5,
+          1
+        ],
+        [
+          -4,
+          1
+        ],
+        [
+          -2,
+          1
+        ]
+      ],
+      "v": [
+        [
+          -2,
+          -1
+        ],
+        [
+          -4,
+          -1
+        ],
+        [
+          -7,
+          -1
+        ],
+        [
+          -6,
+          1
+        ],
+        [
+          -5,
+          -1
+        ],
+        [
+          -8,
+          -1
+        ],
+        [
+          -7,
+          1
+        ],
+        [
+          -6,
+          -1
+        ],
+        [
+          -7,
+          1
+        ],
+        [
+          -5,
+          1
+        ],
+        [
+          -4,
+          1
+        ],
+        [
+          -2,
+          1
+        ]
+      ],
+      "shifts": [
+        7,
+        6,
+        8
+      ],
+      "relation": [
+        -3,
+        -1,
+        2,
+        -3,
+        2,
+        4,
+        -3,
+        4,
+        -5,
+        -3,
+        4,
+        -3,
+        2
+      ]
+    },
+    "phi": [
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        -3,
+        4,
+        -3,
+        2,
+        -3,
+        -1,
+        2,
+        -3,
+        2,
+        4,
+        -3,
+        4
+      ]
+    ],
+    "phi_inverse": [
+      [
+        1,
+        -2,
+        1,
+        3,
+        -2,
+        3,
+        -4,
+        -2,
+        3,
+        -2,
+        1,
+        -2
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ]
+    ],
+    "monodromy_matrix": [
+      [
+        0,
+        0,
+        0,
+        -1
+      ],
+      [
+        1,
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        0,
+        -5
+      ],
+      [
+        0,
+        0,
+        1,
+        3
+      ]
+    ],
+    "characteristic_polynomial_ascending": [
+      1,
+      -3,
+      5,
+      -3,
+      1
+    ],
+    "normalized_axes": {
+      "U": [
+        -1,
+        2
+      ],
+      "V": [
+        -2,
+        3,
+        -4,
+        -1,
+        2,
+        -3,
+        2,
+        4
+      ],
+      "common_abelianization": [
+        -1,
+        1,
+        0,
+        0
+      ],
+      "cyclic_lengths": [
+        2,
+        8
+      ]
+    },
+    "fiber_class_two": {
+      "pair_order": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "U": [
+        [
+          -1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "V": [
+        [
+          -1,
+          1,
+          0,
+          0
+        ],
+        [
+          -1,
+          1,
+          -1,
+          -1,
+          2,
+          -1
+        ]
+      ],
+      "central_23_values": [
+        0,
+        -1
+      ]
+    },
+    "metabelian": {
+      "fox_u": [
+        {
+          "-2": 1,
+          "0": -1
+        },
+        {
+          "-2": -1,
+          "-5": 1
+        }
+      ],
+      "fox_v": [
+        {
+          "-2": -1,
+          "-4": 1
+        },
+        {
+          "-4": -1,
+          "-7": 1
+        }
+      ],
+      "v_over_u_shift": -2
+    },
+    "finite_recheck": {
+      "u": [
+        2,
+        2,
+        1,
+        4
+      ],
+      "v": [
+        4,
+        3,
+        3,
+        0
+      ],
+      "traces": [
+        1,
+        4
+      ],
+      "image_order": 120
+    },
+    "proof_dependencies": [
+      "The read repository presentation and axis markings represent the intended product-disk exterior.",
+      "The free-by-cyclic Tietze argument and no-unit-circle argument are supplied in REPORT.md.",
+      "The local-knotting conclusion uses the meridian-amalgam retraction proved in REPORT.md."
+    ],
+    "not_verified": [
+      "No independent extraction of the knot group/peripherals from the original PD diagram.",
+      "No new surface movie, changed-axis embedding, surgery-boundary identification, or slice disk.",
+      "No nonconcordance obstruction for K0,K1 and no global nonribbon obstruction for KDG."
+    ]
+  }
+}

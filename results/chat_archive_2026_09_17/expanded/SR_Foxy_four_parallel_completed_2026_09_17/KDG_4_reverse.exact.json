@@ -1,0 +1,60 @@
+{
+  "status": "COMPUTED",
+  "raw": {
+    "coefficients_x": [
+      106081,
+      0,
+      424324,
+      0,
+      636486,
+      0,
+      424324,
+      0,
+      106081,
+      0
+    ],
+    "order": 5,
+    "modulus": null,
+    "crossings": 288,
+    "writhe": 0,
+    "max_states": 197612,
+    "max_frontier": 24,
+    "seconds": 28.2346
+  },
+  "evaluation": {
+    "exact": true,
+    "divisibility_remainder": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "exact_divisible": true,
+    "quotient_at_x_i": [
+      106081,
+      0
+    ],
+    "quotient_at_x_i_mod32": [
+      1,
+      0
+    ],
+    "remainder_mod32": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "wall_seconds": 28.496367504999967,
+  "input_file": "KDG_4_reverse.input.txt",
+  "memory_cap_mib": 3072,
+  "timeout_seconds": 40
+}

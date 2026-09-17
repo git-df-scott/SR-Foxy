@@ -1,0 +1,89 @@
+{
+  "knot": "K0",
+  "parallel": 2,
+  "status": "COMPUTED",
+  "counterexample": false,
+  "order": {
+    "order": [
+      14,
+      9,
+      15,
+      11,
+      7,
+      12,
+      13,
+      6,
+      2,
+      8,
+      10,
+      0,
+      5,
+      4,
+      23,
+      22,
+      3,
+      18,
+      16,
+      1,
+      17,
+      21,
+      19,
+      20
+    ],
+    "max_frontier": 8,
+    "energy": 273,
+    "seed": 11,
+    "seeds_tested": 24
+  },
+  "crossings": 24,
+  "components": 2,
+  "writhe": 0,
+  "linking_matrix": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "planar_euler": 2,
+  "all_components_equal_zero_writhe_source_pd": true,
+  "input_sha256": "5773b0b2192457640241a3fcb612068feaf89fd58a80005c82fd0fdd8fdcc2c5",
+  "arithmetic": "arbitrary-precision cpp_int",
+  "timeout_seconds": 30,
+  "memory_bytes": 2147483648,
+  "raw": {
+    "coefficients_x": [
+      503,
+      0,
+      1943,
+      0,
+      2834,
+      0,
+      1851,
+      0,
+      457,
+      0
+    ],
+    "order": 5,
+    "modulus": null,
+    "crossings": 24,
+    "writhe": 0,
+    "max_states": 14,
+    "max_frontier": 8,
+    "seconds": 0.000402003
+  },
+  "exact_divisible": true,
+  "exact_remainder": "0",
+  "e_value": [
+    -23,
+    0
+  ],
+  "e_mod32": [
+    9,
+    0
+  ],
+  "wall_seconds": 0.04874372799997673
+}

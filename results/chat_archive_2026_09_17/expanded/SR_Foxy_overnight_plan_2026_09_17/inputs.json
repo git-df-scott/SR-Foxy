@@ -1,0 +1,23 @@
+{
+  "base_commit": "6722dc9686d419bb63edefd3cb6024973f4165f6",
+  "status": "REUSED_CABLE_DATA_NOT_NEW_KNOT_COMPUTATIONS",
+  "KDG": {
+    "signed_determinant": 25,
+    "two_parallel_quotient_mod32": 17,
+    "three_parallel_quotient_exact": 6601,
+    "two_parallel_jet_mod32": [15, 0, 30, 0, 15, 0],
+    "three_parallel_jet_mod32": [0, 9, 0, 27, 0, 27, 0, 9],
+    "two_parallel_source": "results/astra_2026_09_16_followup/root_jet_final/manifest.json",
+    "two_parallel_source_blob": "19867b6aaa75e1633dbd12e7ab809ea68548b570",
+    "three_parallel_source": "results/astra_2026_09_16_followup/exact_jet_results.json",
+    "three_parallel_source_blob": "83c9e0ce234701006afa3a637ee288e5b9816cff",
+    "geometric_dependency": "Stored diagrams must be the correctly oriented, zero-framed parallels of the intended KDG knot. This pass does not regenerate their diagrams or Jones polynomials."
+  },
+  "published_stevedore_control": {
+    "signed_determinant": 9,
+    "two_parallel_quotient_exact": 49,
+    "three_parallel_quotient_exact": 1785,
+    "source": "Michael Eisermann, The Jones polynomial of ribbon links, Example 6.16",
+    "url": "https://pnp.mathematik.uni-stuttgart.de/igt/eiserm/publications/ribbonlinks.pdf"
+  }
+}

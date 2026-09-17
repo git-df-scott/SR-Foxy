@@ -1,0 +1,42 @@
+{
+  "commit": "a624b2c5b40e504d91c6bbff921eed67a989c5ba",
+  "all_six_published_files_match": true,
+  "files": [
+    {
+      "file": "FOUR_STRAND_GATE.md",
+      "local_git_blob": "9babcd32c2f3379ca59d3a56a110251179ffc166",
+      "remote_git_blob": "9babcd32c2f3379ca59d3a56a110251179ffc166",
+      "match": true
+    },
+    {
+      "file": "LOW_WRAPPING_LEMMA.md",
+      "local_git_blob": "062580ea85d0e9af6fd226d0acfa155834b3aee5",
+      "remote_git_blob": "062580ea85d0e9af6fd226d0acfa155834b3aee5",
+      "match": true
+    },
+    {
+      "file": "README.md",
+      "local_git_blob": "646d8dcf99c18ae982a7e00cb2b6b7206ad3c112",
+      "remote_git_blob": "646d8dcf99c18ae982a7e00cb2b6b7206ad3c112",
+      "match": true
+    },
+    {
+      "file": "check_results.json",
+      "local_git_blob": "f1b5f2b44b21c901892fe0320b3fbbb9d3a77bd8",
+      "remote_git_blob": "f1b5f2b44b21c901892fe0320b3fbbb9d3a77bd8",
+      "match": true
+    },
+    {
+      "file": "check_transfer.py",
+      "local_git_blob": "edbb87b4ad5ea654bf15a1c4643e4739db73577c",
+      "remote_git_blob": "edbb87b4ad5ea654bf15a1c4643e4739db73577c",
+      "match": true
+    },
+    {
+      "file": "inputs.json",
+      "local_git_blob": "d205c028194904375c99b2a3818cd5af34b3d172",
+      "remote_git_blob": "d205c028194904375c99b2a3818cd5af34b3d172",
+      "match": true
+    }
+  ]
+}

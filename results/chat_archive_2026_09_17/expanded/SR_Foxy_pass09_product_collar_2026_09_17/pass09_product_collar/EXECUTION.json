@@ -1,0 +1,13 @@
+{
+  "producer": "COMPLETED",
+  "producer_seconds": 0.6556121569999505,
+  "producer_checks": 370,
+  "memory_limit_bytes": 1073741824,
+  "timeout_seconds": 15,
+  "independent_saved_certificate": "PASS",
+  "negative_mutations_rejected": 3,
+  "first_shell_invocation": "TIMEOUT_UNKNOWN_NO_RESULT",
+  "direct_repository_download": "FAILED_DNS",
+  "environment": "Linux container, not Mac",
+  "CE": false
+}

@@ -1,0 +1,9 @@
+{
+  "status": "EXTERNAL_TIMEOUT_UNKNOWN",
+  "outer_tool_limit_seconds": 120,
+  "inner_requested_timeout_seconds": 240,
+  "result_file_produced": false,
+  "last_logged_step": 240,
+  "last_logged_internal_seconds": 31.0513,
+  "meaning": "No exact invariant value; cause of long final phase not diagnosed."
+}

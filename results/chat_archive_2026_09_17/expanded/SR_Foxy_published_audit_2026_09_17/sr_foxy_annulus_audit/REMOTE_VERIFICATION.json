@@ -1,0 +1,26 @@
+{
+  "verified_remote_main": "6722dc9686d419bb63edefd3cb6024973f4165f6",
+  "base": "b7ae7270ea6abc6976c0ec598067e2cac3602887",
+  "added_files": 12,
+  "existing_files_modified": 0,
+  "deletions": 0,
+  "branches_created": 0,
+  "published_blob_hashes_match_local_bytes": true,
+  "published_blob_sha1": {
+    "FRAMING_ADDENDUM.md": "525120051bea35b56828c1278468c579d5ba9c66",
+    "OPUS_PROMPT.md": "850f80f5e90b24ef8a9299e4b811c7e2f34950a1",
+    "PUBLICATION_MANIFEST.json": "ddabf8bae60a7136038a252cd2e6e1373b96389c",
+    "PUBLICATION_RECHECK.json": "1a686f83ad99f4c82887fea0c3ab912336308389",
+    "README.md": "8c88b39e75531ce429b2d6a8fd8cd5047feadff4",
+    "REPORT.md": "630d7eb260e6a34024ea6536a504b573ba7d2bec",
+    "coverage.json": "7924f4d5b2c37cf1ce33a8e911dce83904e573b9",
+    "framing_results.json": "967ccf5fe14b445a196123ce7089af8daea82fe8",
+    "inputs.json": "9fa6bdd6e501c8aff7a07d53f117920f863bca32",
+    "verification_results.json": "465effbe236d3130218d49cd3a92c39bcd95332d",
+    "verify_annulus_gate.py": "9fa8c98184d1e2e2bba12bc7344e04f37e38c250",
+    "verify_framing_gate.py": "1a0b0b4fc03f364c2bbdf1c49c80b22b592ca441"
+  },
+  "remote_scope": "Only results/astra_2026_09_17_annulus_gate/",
+  "credential_pattern_scan": "passed; no credential copied into artifacts",
+  "mathematical_status": "NO_COUNTEREXAMPLE"
+}

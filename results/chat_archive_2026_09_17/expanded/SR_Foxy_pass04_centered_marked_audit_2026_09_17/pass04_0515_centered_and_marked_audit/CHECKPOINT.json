@@ -1,0 +1,37 @@
+{
+  "status": "NO_COUNTEREXAMPLE_NEW_VERIFICATION_AND_PROOF_REPAIR",
+  "base_main_commit": "7a74678daccd9f3148b25a22a3f84a82eb1d374b",
+  "published": false,
+  "publication_limitation": "No write action exposed; local additions-only patch.",
+  "new_results": [
+    "Corrected the false uncentered moment identity in the all-degree proof, with an all-degree centered proof.",
+    "Exact D01 summand cable gates through multiplicity three pass; direct D01 two-parallel confirms connected-sum formula.",
+    "New direct marked-PD finite group certificate removes dependence on saved SnapPy group/peripheral extraction for this fixed-axis obstruction."
+  ],
+  "counterexample_found": false,
+  "slice_disk_constructed": false,
+  "global_nonribbon_proof_constructed": false,
+  "finished_tests": [
+    "K0 p1 control",
+    "K1 p1 control",
+    "K0 p2 known control",
+    "K1 p2",
+    "K0 p3",
+    "K1 p3",
+    "D01 p2 direct"
+  ],
+  "not_run": [
+    "D01 p3 direct (value derived)",
+    "KDG p5 or higher",
+    "new band sweep",
+    "s/HKL/Floer"
+  ],
+  "proof_status": "Specific printed error repaired; no further fatal gap found in inspected all-degree steps. Same-assistant review, not outside peer review.",
+  "next_action": "Construct/audit one actual marked framed changed-axis diagram; use the direct PD group certificate method before annulus embedding and ambient standardness work.",
+  "standing_limits": [
+    "No source-paper marked figure-to-PD identification claimed.",
+    "No positive concordance evidence from matching invariants.",
+    "Fixed-axis obstruction does not obstruct all disks or concordances."
+  ],
+  "automation_status": "Previously created hourly overnight task observed enabled; not changed or duplicated in this pass. No uninterrupted three-hour execution guarantee."
+}

@@ -1,0 +1,1611 @@
+{
+  "source_count": 24,
+  "zip_count": 10,
+  "expanded_file_count": 207,
+  "sources": [
+    {
+      "attachment": "SR_Foxy_annulus_audit_2026_09_16.zip",
+      "archive_path": "attachments/SR_Foxy_annulus_audit_2026_09_16.zip",
+      "bytes": 26217,
+      "sha256": "b7e78ee70452da7fb5e7dce69ad7dc7de2d1474cb0fb4ae35aa3f00e17b0a1da"
+    },
+    {
+      "attachment": "sr_foxy_audit_2026_09_16/REPORT.md",
+      "archive_path": "attachments/sr_foxy_audit_2026_09_16/REPORT.md",
+      "bytes": 18175,
+      "sha256": "855d07e1f94a7e6323291c62854dda8eff72eab3e4af0fddae35bd09178a47aa"
+    },
+    {
+      "attachment": "sr_foxy_audit_2026_09_16/OPUS_AUDIT_NOTE.txt",
+      "archive_path": "attachments/sr_foxy_audit_2026_09_16/OPUS_AUDIT_NOTE.txt",
+      "bytes": 2164,
+      "sha256": "3b8aaf14cc6d60421929d993f235f41f0315648f2027f2e784ee983fa3a59a59"
+    },
+    {
+      "attachment": "SR_Foxy_Opus_prompt_2026_09_17.md",
+      "archive_path": "attachments/SR_Foxy_Opus_prompt_2026_09_17.md",
+      "bytes": 9503,
+      "sha256": "a821b102892d22dafa3bc663b01759a5ecca3c63935192a6d57f1fbb8daf1cce"
+    },
+    {
+      "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+      "archive_path": "attachments/SR_Foxy_published_audit_2026_09_17.zip",
+      "bytes": 45595,
+      "sha256": "da80d9e28086757f3c5f703fe08bf1a992b5329c6271f5634fa9a15d7297a487"
+    },
+    {
+      "attachment": "SR_Foxy_overnight_plan_2026_09_17.zip",
+      "archive_path": "attachments/SR_Foxy_overnight_plan_2026_09_17.zip",
+      "bytes": 15639,
+      "sha256": "dd7c2d5a64590c2a6e9cab23337672bcd9c886a57b41ebc40d679a2e80a2737b"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "archive_path": "attachments/SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "bytes": 67825,
+      "sha256": "f068019ed831cd35c22a327db9f6898a4b2de8113ffcf05d3ba41c1ca982fbef"
+    },
+    {
+      "attachment": "sr_foxy_pass03/PROPOSED_TRANSFER_THEOREM.md",
+      "archive_path": "attachments/sr_foxy_pass03/PROPOSED_TRANSFER_THEOREM.md",
+      "bytes": 22868,
+      "sha256": "77df80d6269759fc1cf626a263e11e7e2b2a1d3c18fde05c1cb57139037ade36"
+    },
+    {
+      "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "archive_path": "attachments/SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "bytes": 78427,
+      "sha256": "c9eb3f2860b04f7192d00838202149f1329736255b7d3b3ff3825581d2b64dbf"
+    },
+    {
+      "attachment": "SR_Foxy_pass03_additions.patch",
+      "archive_path": "attachments/SR_Foxy_pass03_additions.patch",
+      "bytes": 95607,
+      "sha256": "c06aa2fa67559e66e7a6c8b10b5f48526a678af6f65d4b78fa9b16fe254ff0cb"
+    },
+    {
+      "attachment": "sr_foxy_pass04_0515_audit/DIRECT_PD_CERTIFICATE.md",
+      "archive_path": "attachments/sr_foxy_pass04_0515_audit/DIRECT_PD_CERTIFICATE.md",
+      "bytes": 5438,
+      "sha256": "09a5ef337823c7eb06541604db858cb67cfe4114d24d1d25ae0a914b288e1e98"
+    },
+    {
+      "attachment": "sr_foxy_pass04_0515_audit/MOMENT_CORRECTION.md",
+      "archive_path": "attachments/sr_foxy_pass04_0515_audit/MOMENT_CORRECTION.md",
+      "bytes": 4237,
+      "sha256": "581538478a4f870ce21e4fd7133360cb83087e9c23fe802e5a0e7b77364d5a9e"
+    },
+    {
+      "attachment": "sr_foxy_pass04_0515_audit/D01_JONES_GATE.md",
+      "archive_path": "attachments/sr_foxy_pass04_0515_audit/D01_JONES_GATE.md",
+      "bytes": 6189,
+      "sha256": "c7577617d44b7fad02cb013b6d91cfc16e2c1aa0dce7e5e4d52a5fbacddb65d2"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "archive_path": "attachments/SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "bytes": 155843,
+      "sha256": "81ae568688c66c5963cac7c69b7b6570560e5d48ff95f009bbf1a721d1da6d55"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_additions.patch",
+      "archive_path": "attachments/SR_Foxy_pass04_centered_marked_additions.patch",
+      "bytes": 216389,
+      "sha256": "a21045ed0563b0bf10823aff09295bb84f6670cb56d101ba63919111ca8468bd"
+    },
+    {
+      "attachment": "SR_Foxy_pass07_relative_r3_r2_2026_09_17.zip",
+      "archive_path": "attachments/SR_Foxy_pass07_relative_r3_r2_2026_09_17.zip",
+      "bytes": 12045,
+      "sha256": "240a3a36bd70a6005040a692925f65ac6675db594d797caefb177ad42c30f7f1"
+    },
+    {
+      "attachment": "SR_Foxy_pass08_whisker_branch_gate_2026_09_17.zip",
+      "archive_path": "attachments/SR_Foxy_pass08_whisker_branch_gate_2026_09_17.zip",
+      "bytes": 27216,
+      "sha256": "aea9550340cd5b68923103ba89de7e7c76eedc1f7c05b849c086201d22d7a70d"
+    },
+    {
+      "attachment": "UNSENT_SR_Foxy_Opus_morning_handoff.txt",
+      "archive_path": "attachments/UNSENT_SR_Foxy_Opus_morning_handoff.txt",
+      "bytes": 4692,
+      "sha256": "71bde9fce6fa5b9d7555fa4fdec2f2ada7740aa85e61f8383bb593c7c5d466c2"
+    },
+    {
+      "attachment": "sr_foxy_codex_handoff_2026_09_17/PROGRESS_REPORT.md",
+      "archive_path": "attachments/sr_foxy_codex_handoff_2026_09_17/PROGRESS_REPORT.md",
+      "bytes": 13498,
+      "sha256": "30c443243e0cce29da7b6f9668c75c6aa15148bbfcf166161151b92c18d627c6"
+    },
+    {
+      "attachment": "sr_foxy_codex_handoff_2026_09_17/CODEX_HANDOFF.md",
+      "archive_path": "attachments/sr_foxy_codex_handoff_2026_09_17/CODEX_HANDOFF.md",
+      "bytes": 11138,
+      "sha256": "98a17cbb97b9aeeabd29257827f1ae632743ffaa0ba10fb2aeedd26765641d3a"
+    },
+    {
+      "attachment": "SR_Foxy_progress_and_Codex_handoff_2026_09_17.zip",
+      "archive_path": "attachments/SR_Foxy_progress_and_Codex_handoff_2026_09_17.zip",
+      "bytes": 11970,
+      "sha256": "98107f99ec17fb64d71abcf97f5bb7d72115b2786789c48cf016faccfb8a48c1"
+    },
+    {
+      "attachment": "SR_Foxy_morning_audit_2026_09_17.md",
+      "archive_path": "attachments/SR_Foxy_morning_audit_2026_09_17.md",
+      "bytes": 3491,
+      "sha256": "ada18b82a353e0818ec7c587f237cb7cf6c35cd042093e8563d283fca2060580"
+    },
+    {
+      "attachment": "SR_Foxy_pass09_product_collar_2026_09_17.zip",
+      "archive_path": "attachments/SR_Foxy_pass09_product_collar_2026_09_17.zip",
+      "bytes": 23982,
+      "sha256": "5f4c1238ea59d69f81a47f1be74ffca716a1c82920bf3d6fda91c37aac70eba2"
+    },
+    {
+      "attachment": "sr_foxy_pass09_product_map/README.md",
+      "archive_path": "attachments/sr_foxy_pass09_product_map/README.md",
+      "bytes": 7815,
+      "sha256": "490bd68865df706d51afe70e2d9e386cae87d633ab0eb7c043603cd739cf655b"
+    }
+  ],
+  "zip_members": [
+    {
+      "attachment": "SR_Foxy_annulus_audit_2026_09_16.zip",
+      "member": "sr_foxy_annulus_audit/REPORT.md",
+      "archive_path": "expanded/SR_Foxy_annulus_audit_2026_09_16/sr_foxy_annulus_audit/REPORT.md",
+      "bytes": 18175,
+      "sha256": "855d07e1f94a7e6323291c62854dda8eff72eab3e4af0fddae35bd09178a47aa"
+    },
+    {
+      "attachment": "SR_Foxy_annulus_audit_2026_09_16.zip",
+      "member": "sr_foxy_annulus_audit/OPUS_AUDIT_NOTE.txt",
+      "archive_path": "expanded/SR_Foxy_annulus_audit_2026_09_16/sr_foxy_annulus_audit/OPUS_AUDIT_NOTE.txt",
+      "bytes": 2164,
+      "sha256": "3b8aaf14cc6d60421929d993f235f41f0315648f2027f2e784ee983fa3a59a59"
+    },
+    {
+      "attachment": "SR_Foxy_annulus_audit_2026_09_16.zip",
+      "member": "sr_foxy_annulus_audit/inputs.json",
+      "archive_path": "expanded/SR_Foxy_annulus_audit_2026_09_16/sr_foxy_annulus_audit/inputs.json",
+      "bytes": 844,
+      "sha256": "cb0fc5c7cc134345f5d21b39d6055f0c341d1239d61e1bce31d5b277140e77bf"
+    },
+    {
+      "attachment": "SR_Foxy_annulus_audit_2026_09_16.zip",
+      "member": "sr_foxy_annulus_audit/verify_annulus_gate.py",
+      "archive_path": "expanded/SR_Foxy_annulus_audit_2026_09_16/sr_foxy_annulus_audit/verify_annulus_gate.py",
+      "bytes": 15136,
+      "sha256": "77ce89596af112b04add7a2b7d098c721d0017e86915f4f3b13354e379a5453c"
+    },
+    {
+      "attachment": "SR_Foxy_annulus_audit_2026_09_16.zip",
+      "member": "sr_foxy_annulus_audit/verification_results.json",
+      "archive_path": "expanded/SR_Foxy_annulus_audit_2026_09_16/sr_foxy_annulus_audit/verification_results.json",
+      "bytes": 6653,
+      "sha256": "57781dfcfbdf6deb4dc49d5a8ed83d09e70961d24f732045b5c6a45fbe2068a9"
+    },
+    {
+      "attachment": "SR_Foxy_annulus_audit_2026_09_16.zip",
+      "member": "sr_foxy_annulus_audit/verification_repeat_optimized.json",
+      "archive_path": "expanded/SR_Foxy_annulus_audit_2026_09_16/sr_foxy_annulus_audit/verification_repeat_optimized.json",
+      "bytes": 6653,
+      "sha256": "2ab33dc9fcab1dfb8e0b0a19fc6205cccf1b98de1d18bb7565a2e54ecddc0112"
+    },
+    {
+      "attachment": "SR_Foxy_annulus_audit_2026_09_16.zip",
+      "member": "sr_foxy_annulus_audit/repeat_stdout.json",
+      "archive_path": "expanded/SR_Foxy_annulus_audit_2026_09_16/sr_foxy_annulus_audit/repeat_stdout.json",
+      "bytes": 158,
+      "sha256": "33865a9959f6a3eb45cb401f8c986f10b4fe015dbfdadaab3bc6106db6901468"
+    },
+    {
+      "attachment": "SR_Foxy_annulus_audit_2026_09_16.zip",
+      "member": "sr_foxy_annulus_audit/adversarial_checks.json",
+      "archive_path": "expanded/SR_Foxy_annulus_audit_2026_09_16/sr_foxy_annulus_audit/adversarial_checks.json",
+      "bytes": 390,
+      "sha256": "369e3d7a44b3cc31cde90451301af801f03f2cab3778cf8d5585cb9b50983708"
+    },
+    {
+      "attachment": "SR_Foxy_annulus_audit_2026_09_16.zip",
+      "member": "sr_foxy_annulus_audit/bounded_replay.json",
+      "archive_path": "expanded/SR_Foxy_annulus_audit_2026_09_16/sr_foxy_annulus_audit/bounded_replay.json",
+      "bytes": 7673,
+      "sha256": "0a742bf57ffd98fac6ecd66c703130993e52bc1c459d0e3a1d7d775d3168041a"
+    },
+    {
+      "attachment": "SR_Foxy_annulus_audit_2026_09_16.zip",
+      "member": "sr_foxy_annulus_audit/coverage.json",
+      "archive_path": "expanded/SR_Foxy_annulus_audit_2026_09_16/sr_foxy_annulus_audit/coverage.json",
+      "bytes": 3671,
+      "sha256": "1a5f6db461975d0f3e69ee2eee8fa25db5ed12fbeb7e39f5e2e0ecd1388efed5"
+    },
+    {
+      "attachment": "SR_Foxy_annulus_audit_2026_09_16.zip",
+      "member": "sr_foxy_annulus_audit/adversarial/replace_v_with_u.json",
+      "archive_path": "expanded/SR_Foxy_annulus_audit_2026_09_16/sr_foxy_annulus_audit/adversarial/replace_v_with_u.json",
+      "bytes": 853,
+      "sha256": "34eb7cf422731018ef026babf75ce4d12354f083ea04306818d0c2f22127c995"
+    },
+    {
+      "attachment": "SR_Foxy_annulus_audit_2026_09_16.zip",
+      "member": "sr_foxy_annulus_audit/adversarial/append_a_to_relator.json",
+      "archive_path": "expanded/SR_Foxy_annulus_audit_2026_09_16/sr_foxy_annulus_audit/adversarial/append_a_to_relator.json",
+      "bytes": 870,
+      "sha256": "c814361afd12de6d4df2be545aafe4b14d3b6fc71e2116801b2a1119720d958e"
+    },
+    {
+      "attachment": "SR_Foxy_annulus_audit_2026_09_16.zip",
+      "member": "sr_foxy_annulus_audit/ARTIFACT_MANIFEST.json",
+      "archive_path": "expanded/SR_Foxy_annulus_audit_2026_09_16/sr_foxy_annulus_audit/ARTIFACT_MANIFEST.json",
+      "bytes": 1618,
+      "sha256": "598ee9c1e7e988fe4b6fcef7efc8215cbe3a48effe8eb8b99c8a57093cad0efa"
+    },
+    {
+      "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+      "member": "sr_foxy_annulus_audit/ARTIFACT_MANIFEST.json",
+      "archive_path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/ARTIFACT_MANIFEST.json",
+      "bytes": 1618,
+      "sha256": "598ee9c1e7e988fe4b6fcef7efc8215cbe3a48effe8eb8b99c8a57093cad0efa"
+    },
+    {
+      "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+      "member": "sr_foxy_annulus_audit/FRAMING_ADDENDUM.md",
+      "archive_path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/FRAMING_ADDENDUM.md",
+      "bytes": 5899,
+      "sha256": "8e10f9172620a53b5f0ee5f44c1b7842910ca0303f14f4510574acaeb47cfebc"
+    },
+    {
+      "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+      "member": "sr_foxy_annulus_audit/OPUS_AUDIT_NOTE.txt",
+      "archive_path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/OPUS_AUDIT_NOTE.txt",
+      "bytes": 2164,
+      "sha256": "3b8aaf14cc6d60421929d993f235f41f0315648f2027f2e784ee983fa3a59a59"
+    },
+    {
+      "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+      "member": "sr_foxy_annulus_audit/OPUS_PROMPT.md",
+      "archive_path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/OPUS_PROMPT.md",
+      "bytes": 9503,
+      "sha256": "a821b102892d22dafa3bc663b01759a5ecca3c63935192a6d57f1fbb8daf1cce"
+    },
+    {
+      "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+      "member": "sr_foxy_annulus_audit/PUBLICATION_MANIFEST.json",
+      "archive_path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/PUBLICATION_MANIFEST.json",
+      "bytes": 2150,
+      "sha256": "c05f4a9a72843f1d2abddc3ce5830ab14a2abcab1efb4c6b6b1dd5fc3a064e15"
+    },
+    {
+      "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+      "member": "sr_foxy_annulus_audit/PUBLICATION_RECHECK.json",
+      "archive_path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/PUBLICATION_RECHECK.json",
+      "bytes": 1350,
+      "sha256": "0b7e9a1738a742545c4e100cddccefcd603c921084d379f811cfa260ad138be3"
+    },
+    {
+      "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+      "member": "sr_foxy_annulus_audit/README.md",
+      "archive_path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/README.md",
+      "bytes": 4156,
+      "sha256": "7e8c6fd9360cd05ddf3749f3a6bb00b57fb513a4900d9cc10458217d250c841f"
+    },
+    {
+      "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+      "member": "sr_foxy_annulus_audit/REMOTE_VERIFICATION.json",
+      "archive_path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/REMOTE_VERIFICATION.json",
+      "bytes": 1329,
+      "sha256": "0db6a811e118fef02531265c4e1179a3aed5d0dc085501a188588dc4a2b35f91"
+    },
+    {
+      "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+      "member": "sr_foxy_annulus_audit/REPORT.md",
+      "archive_path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/REPORT.md",
+      "bytes": 18175,
+      "sha256": "855d07e1f94a7e6323291c62854dda8eff72eab3e4af0fddae35bd09178a47aa"
+    },
+    {
+      "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+      "member": "sr_foxy_annulus_audit/adversarial/append_a_to_relator.json",
+      "archive_path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/adversarial/append_a_to_relator.json",
+      "bytes": 870,
+      "sha256": "c814361afd12de6d4df2be545aafe4b14d3b6fc71e2116801b2a1119720d958e"
+    },
+    {
+      "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+      "member": "sr_foxy_annulus_audit/adversarial/replace_v_with_u.json",
+      "archive_path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/adversarial/replace_v_with_u.json",
+      "bytes": 853,
+      "sha256": "34eb7cf422731018ef026babf75ce4d12354f083ea04306818d0c2f22127c995"
+    },
+    {
+      "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+      "member": "sr_foxy_annulus_audit/adversarial_checks.json",
+      "archive_path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/adversarial_checks.json",
+      "bytes": 390,
+      "sha256": "369e3d7a44b3cc31cde90451301af801f03f2cab3778cf8d5585cb9b50983708"
+    },
+    {
+      "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+      "member": "sr_foxy_annulus_audit/bounded_replay.json",
+      "archive_path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/bounded_replay.json",
+      "bytes": 7673,
+      "sha256": "0a742bf57ffd98fac6ecd66c703130993e52bc1c459d0e3a1d7d775d3168041a"
+    },
+    {
+      "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+      "member": "sr_foxy_annulus_audit/coverage.json",
+      "archive_path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/coverage.json",
+      "bytes": 3671,
+      "sha256": "1a5f6db461975d0f3e69ee2eee8fa25db5ed12fbeb7e39f5e2e0ecd1388efed5"
+    },
+    {
+      "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+      "member": "sr_foxy_annulus_audit/framing_results.json",
+      "archive_path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/framing_results.json",
+      "bytes": 2273,
+      "sha256": "a81bc31797c531b2e0605b1b6c06b95c1a5184f54ee1c7947dacdb6207be5719"
+    },
+    {
+      "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+      "member": "sr_foxy_annulus_audit/inputs.json",
+      "archive_path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/inputs.json",
+      "bytes": 844,
+      "sha256": "cb0fc5c7cc134345f5d21b39d6055f0c341d1239d61e1bce31d5b277140e77bf"
+    },
+    {
+      "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+      "member": "sr_foxy_annulus_audit/publish_recheck.json",
+      "archive_path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/publish_recheck.json",
+      "bytes": 6653,
+      "sha256": "f7d198eecdd53be4c384fa8f183e8ed466d40a7d60c40f6b7afb6a1f7cfd5bb4"
+    },
+    {
+      "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+      "member": "sr_foxy_annulus_audit/publish_recheck_optimized.json",
+      "archive_path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/publish_recheck_optimized.json",
+      "bytes": 6653,
+      "sha256": "a7b6e3c344d31a8f3d92a2d965855f2f2d91d208e7f7c0d8601eaf7c6de9cf2e"
+    },
+    {
+      "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+      "member": "sr_foxy_annulus_audit/repeat_stdout.json",
+      "archive_path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/repeat_stdout.json",
+      "bytes": 158,
+      "sha256": "33865a9959f6a3eb45cb401f8c986f10b4fe015dbfdadaab3bc6106db6901468"
+    },
+    {
+      "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+      "member": "sr_foxy_annulus_audit/verification_repeat_optimized.json",
+      "archive_path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/verification_repeat_optimized.json",
+      "bytes": 6653,
+      "sha256": "2ab33dc9fcab1dfb8e0b0a19fc6205cccf1b98de1d18bb7565a2e54ecddc0112"
+    },
+    {
+      "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+      "member": "sr_foxy_annulus_audit/verification_results.json",
+      "archive_path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/verification_results.json",
+      "bytes": 6653,
+      "sha256": "57781dfcfbdf6deb4dc49d5a8ed83d09e70961d24f732045b5c6a45fbe2068a9"
+    },
+    {
+      "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+      "member": "sr_foxy_annulus_audit/verify_annulus_gate.py",
+      "archive_path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/verify_annulus_gate.py",
+      "bytes": 15136,
+      "sha256": "77ce89596af112b04add7a2b7d098c721d0017e86915f4f3b13354e379a5453c"
+    },
+    {
+      "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+      "member": "sr_foxy_annulus_audit/verify_framing_gate.py",
+      "archive_path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/verify_framing_gate.py",
+      "bytes": 3899,
+      "sha256": "df338bd693d7a0eb6aca22fe43abe4a9e1676fa2bb0129c61f4141920f86b008"
+    },
+    {
+      "attachment": "SR_Foxy_overnight_plan_2026_09_17.zip",
+      "member": "ARTIFACT_MANIFEST.json",
+      "archive_path": "expanded/SR_Foxy_overnight_plan_2026_09_17/ARTIFACT_MANIFEST.json",
+      "bytes": 1159,
+      "sha256": "039304098e905022d578f32a5652cc365b676742208043ec8700a257f540bb54"
+    },
+    {
+      "attachment": "SR_Foxy_overnight_plan_2026_09_17.zip",
+      "member": "README.md",
+      "archive_path": "expanded/SR_Foxy_overnight_plan_2026_09_17/README.md",
+      "bytes": 5351,
+      "sha256": "e277c01b1b8985f9b1ab1c4d73e0c4f25cc6a42a924f94928bd99a907238dfb8"
+    },
+    {
+      "attachment": "SR_Foxy_overnight_plan_2026_09_17.zip",
+      "member": "inputs.json",
+      "archive_path": "expanded/SR_Foxy_overnight_plan_2026_09_17/inputs.json",
+      "bytes": 1224,
+      "sha256": "0b3d8b7da27583671b804f802c11a7221ca4a507a72a40ca517524c6a28f2954"
+    },
+    {
+      "attachment": "SR_Foxy_overnight_plan_2026_09_17.zip",
+      "member": "PUBLICATION_CHECK.json",
+      "archive_path": "expanded/SR_Foxy_overnight_plan_2026_09_17/PUBLICATION_CHECK.json",
+      "bytes": 1340,
+      "sha256": "b4fd2468856a0b9311026cdb46a0cb40c699487a5eaa934cec2d8d8935fea744"
+    },
+    {
+      "attachment": "SR_Foxy_overnight_plan_2026_09_17.zip",
+      "member": "FOUR_STRAND_GATE.md",
+      "archive_path": "expanded/SR_Foxy_overnight_plan_2026_09_17/FOUR_STRAND_GATE.md",
+      "bytes": 2934,
+      "sha256": "cf6617473dddc2d90454c706a23dc22bdd37403d87eaadca130d59835c0a37f4"
+    },
+    {
+      "attachment": "SR_Foxy_overnight_plan_2026_09_17.zip",
+      "member": "LOW_WRAPPING_LEMMA.md",
+      "archive_path": "expanded/SR_Foxy_overnight_plan_2026_09_17/LOW_WRAPPING_LEMMA.md",
+      "bytes": 11701,
+      "sha256": "890d36ca4847a320a2f3afe04f5599ad9de69f1908199f47ed13938bc625d16a"
+    },
+    {
+      "attachment": "SR_Foxy_overnight_plan_2026_09_17.zip",
+      "member": "check_results.json",
+      "archive_path": "expanded/SR_Foxy_overnight_plan_2026_09_17/check_results.json",
+      "bytes": 912,
+      "sha256": "9b0d44401c3d526dea11e112ad9c4caa7ea9ecf2c0a5b8a154adc5264f824700"
+    },
+    {
+      "attachment": "SR_Foxy_overnight_plan_2026_09_17.zip",
+      "member": "optimized_recheck.json",
+      "archive_path": "expanded/SR_Foxy_overnight_plan_2026_09_17/optimized_recheck.json",
+      "bytes": 911,
+      "sha256": "c67379566a1f719a1f68265de5f2adb156cefd230d8ea1c86538ee42e545e979"
+    },
+    {
+      "attachment": "SR_Foxy_overnight_plan_2026_09_17.zip",
+      "member": "check_transfer.py",
+      "archive_path": "expanded/SR_Foxy_overnight_plan_2026_09_17/check_transfer.py",
+      "bytes": 7023,
+      "sha256": "d4464f30dcb7b16429f9a9b21e8b5290fcaad3235b435eec182a5484b21ac407"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "ribbon61_1.exact.log",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_1.exact.log",
+      "bytes": 47,
+      "sha256": "29609e411ce03f5d455d103b03bbc06e53ba237e8402299188648d7a67d96e50"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "publication_verification.json",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/publication_verification.json",
+      "bytes": 632,
+      "sha256": "5a6d4f95c9ce60e0c823e1d054253be19424fffb787adcc5ef60ff8c7b8c893d"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "KDG_4.exact.log",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_4.exact.log",
+      "bytes": 750,
+      "sha256": "70105b924e7350e351474a2b7373c0ad5e3a81ffc7149ba8c5bb289cb2428cfa"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "KDG_1.input.txt",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_1.input.txt",
+      "bytes": 247,
+      "sha256": "d246184d59009b551a8f7dd9aa151c2731459fb387404a7ac65a2237381afffb"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "source_pd.json",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/source_pd.json",
+      "bytes": 5446,
+      "sha256": "e67ad435cb22d8843c3e5430fada345873209f110c14063839aeb45b3488f26c"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "ribbon61_4.exact.log",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_4.exact.log",
+      "bytes": 498,
+      "sha256": "f140c4d2dcbeaf3cda5280e69ebace11f22cbbd47998e748fad525212e67f454"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "validation.json",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/validation.json",
+      "bytes": 5146,
+      "sha256": "3b563a78bbbf408ae7899a095b7dc586204fb0fdc9e511b5772ffa9b6c53bc36"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "KDG_4_reverse.exact.log",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_4_reverse.exact.log",
+      "bytes": 887,
+      "sha256": "43cda8a9a018cf1115d4741f55806b95d21cc7fcc68ec02d68a505d2cba918ac"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "run.py",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/run.py",
+      "bytes": 2396,
+      "sha256": "4d2d351659ec7fcb54ffd361bc5f98186ea5f9e2220055067fdb5f8dd6eb5705"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "KDG_4.mod32.log",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_4.mod32.log",
+      "bytes": 893,
+      "sha256": "34db1f689ac72c6f74d1983bc53454c639ce92b90014bdf2d075fad24932b85c"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "ribbon61_4.json",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_4.json",
+      "bytes": 11050,
+      "sha256": "878e3ccd63eb295e7f7ea2b441affbf04b59b85c68447c41aaf620a1d95dbbbb"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "KDG_4_reverse.exact.json",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_4_reverse.exact.json",
+      "bytes": 861,
+      "sha256": "53d12d7d4150b434a894e812e5f5dd24578903e49411f8ce90ef7f37e72b9acd"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "KDG_4.input.txt",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_4.input.txt",
+      "bytes": 5438,
+      "sha256": "f1a7e5f9ac2b1deaf84d867ac6c3e6bddee5fb8c3593ba0871a826119b152943"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "ribbon61_4.exact.json",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_4.exact.json",
+      "bytes": 853,
+      "sha256": "662c5e0771a7e0bed0b4603d3f676cb50b19559698407cb76b3750c00e9b9932"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "validation_initial.json",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/validation_initial.json",
+      "bytes": 5150,
+      "sha256": "cdc2d2eefaf4d9eb005ae08367d3e50268a1b48818401f13d24d5b1386ad221e"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "KDG_4.json",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_4.json",
+      "bytes": 19782,
+      "sha256": "0ecfc4fffba9158a6a95f2cf4fda24d6511c0c988d641e23c699aea728a324be"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "KDG_4_reverse.json",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_4_reverse.json",
+      "bytes": 19835,
+      "sha256": "66cf1240180ed5703fcef5f1bbd3775301dae293e9dac5956f6ffd7eb781c2d1"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "validate_initial.py",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/validate_initial.py",
+      "bytes": 6643,
+      "sha256": "cddd724e84fde7fd47e7d79520829a0288c1235106870b5782c6e6ddeac6f1ee"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "geometry.py",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/geometry.py",
+      "bytes": 6527,
+      "sha256": "2bebeaa028ebb8ea539b7cc023c9a6c0b1da4e39b64c29e6ffd5d88c28217bc0"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "KDG_1.json",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_1.json",
+      "bytes": 2244,
+      "sha256": "abd7e5cd730e229bbdfaa1c5c7a352c2caff026fd6eaf34ea6a34ab6a1cdd3d8"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "KDG_4_planar.json",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_4_planar.json",
+      "bytes": 19828,
+      "sha256": "7baa537c8a69da6aab5d3120530af93bec236978164e51af8c8e8de09f78b7af"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "ribbon61_3.exact.json",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_3.exact.json",
+      "bytes": 822,
+      "sha256": "c742ce6694ab7f8545a4d7f76ef06dc05c31c2e39311e6b098fa45230fb6fd15"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "validate.py",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/validate.py",
+      "bytes": 6654,
+      "sha256": "0f0a2cab90886f95f6f2b41b31ec07d101dd0b8bd4cf5452505af0464fbd0e41"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "ribbon61_1.json",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_1.json",
+      "bytes": 1353,
+      "sha256": "c275bf3111c1bf244bceb1cfe70b2294ef102cc39606644aeead5b4bb4bd5134"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "ribbon61_3.input.txt",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_3.input.txt",
+      "bytes": 1487,
+      "sha256": "a5b9846b8c3ff99276c0a36d91fc0d714ac188ba26cf75c15ac04e58b8fd7791"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "ribbon61_1.exact.json",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_1.exact.json",
+      "bytes": 727,
+      "sha256": "1bb1ea97b4f0308bd5bcd6ed8f62d17f28a927800c9d9a1fe1312b3612be2c9c"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "KDG_1.exact.json",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_1.exact.json",
+      "bytes": 727,
+      "sha256": "8a1c336266e7158f43370998adedf5ff3b2b5c4d64b606729f049773f298d192"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "ribbon61_4.input.txt",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_4.input.txt",
+      "bytes": 2878,
+      "sha256": "24f2b1b2fb666817e8387fecac918806b6e8993de0a3aec12575f01a1498a325"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "ribbon61_4.mod32.json",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_4.mod32.json",
+      "bytes": 809,
+      "sha256": "7fd45a78c6fbf8cb26ed8e307190bca535a4224421545882bc974453c3a1bc30"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "frontier_jet_initial.cpp",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/frontier_jet_initial.cpp",
+      "bytes": 5655,
+      "sha256": "ba0e449a4e8f13d07a790e71bb3e64509c2746814e18d43f67581715e7f015cc"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "ribbon61_3.exact.log",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_3.exact.log",
+      "bytes": 296,
+      "sha256": "bc8af48197eb6f632aaf90542d319f730c72178a467ab32ebef40bf001346a77"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "frontier_jet.cpp",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/frontier_jet.cpp",
+      "bytes": 5850,
+      "sha256": "87427c37138b467bedadc17665ef72ff7588d9078d033a7364cf0f7053a9461a"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "KDG_4_reverse.input.txt",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_4_reverse.input.txt",
+      "bytes": 5438,
+      "sha256": "2c8d1be29ce02d1b90d6b96e07582f3454c5ebe7d1f76363a9773bf56afdbf92"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "ribbon61_4.mod32.log",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_4.mod32.log",
+      "bytes": 499,
+      "sha256": "461e9082af781c5c939a838fbc237bcdedf3dd2d0708637fd2ce13e710fa75eb"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "KDG_1.exact.log",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_1.exact.log",
+      "bytes": 95,
+      "sha256": "1ff933c26be8f2ac1d7ad481e684d19cf71b8f33327b4fa84360ec2a1c6a44b2"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "make_publication.py",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/make_publication.py",
+      "bytes": 2263,
+      "sha256": "b1a79c1575beefb4d4d11e3897e2bf46523ceffe76837caa9774e77c67cc724a"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "KDG_4.exact.interruption.json",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_4.exact.interruption.json",
+      "bytes": 306,
+      "sha256": "b6de0537503031935c41f1a5f4c855d6d481726cbc6873ff9bea277082d18168"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "ribbon61_1.input.txt",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_1.input.txt",
+      "bytes": 127,
+      "sha256": "a035f06b7fb0076c2d0bb29796efb31bd02b14f16fd1869174d86f8d58a83e12"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "KDG_4.mod32.json",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_4.mod32.json",
+      "bytes": 802,
+      "sha256": "ad993d03ebe306b3d3be0fc09fd62619b688dc6a07ea3f01a4e5a571eda3e990"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "prepare.py",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/prepare.py",
+      "bytes": 2577,
+      "sha256": "6f159b7b12ea68b13107f06e5b74c66a3e7b33d11d2c7364c7647203b24068de"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "ribbon61_3.json",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_3.json",
+      "bytes": 6427,
+      "sha256": "e1ef14ef52fd6b290786e85e63f595ba1ce6662eea045eaad62b50c8c2c9f55c"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "publication_controls/ribbon61_4.log",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/publication_controls/ribbon61_4.log",
+      "bytes": 499,
+      "sha256": "2631950f5f758fa39625a8dc2b8ca722bd17ae29928cb27e40e0dccbf058ddc6"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "publication_controls/ribbon61_3.input.txt",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/publication_controls/ribbon61_3.input.txt",
+      "bytes": 1487,
+      "sha256": "a5b9846b8c3ff99276c0a36d91fc0d714ac188ba26cf75c15ac04e58b8fd7791"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "publication_controls/ribbon61_4.input.txt",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/publication_controls/ribbon61_4.input.txt",
+      "bytes": 2878,
+      "sha256": "24f2b1b2fb666817e8387fecac918806b6e8993de0a3aec12575f01a1498a325"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "publication_controls/manifest.json",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/publication_controls/manifest.json",
+      "bytes": 2368,
+      "sha256": "8b34c052e2d3c36c5ea7d1a5cc177c334607f5705cf6d8f23c2be76c05d09ced"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "publication_controls/ribbon61_3.log",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/publication_controls/ribbon61_3.log",
+      "bytes": 296,
+      "sha256": "9023168d6ec1c44d725223c4cc1c11ce704b7deb471a2b15d7cc5256abe6ec54"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "publication/README.md",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/publication/README.md",
+      "bytes": 5764,
+      "sha256": "995eb2fba9a476463bf105ea153da3809531c5e2b9a56db179be488afb9251f4"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "publication/validation.json",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/publication/validation.json",
+      "bytes": 5146,
+      "sha256": "3b563a78bbbf408ae7899a095b7dc586204fb0fdc9e511b5772ffa9b6c53bc36"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "publication/geometry.py",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/publication/geometry.py",
+      "bytes": 6527,
+      "sha256": "2bebeaa028ebb8ea539b7cc023c9a6c0b1da4e39b64c29e6ffd5d88c28217bc0"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "publication/certificate.json",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/publication/certificate.json",
+      "bytes": 8617,
+      "sha256": "aec2248dd4dd011f901188b40337c263c51b3d012081b87fe831610f480bbd80"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "publication/MANIFEST.json",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/publication/MANIFEST.json",
+      "bytes": 1144,
+      "sha256": "ed3a1d9806b9013a705f8ef5a4bf261d541d6c08cc362a380018a2bfc260c62c"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "publication/frontier_jet.cpp",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/publication/frontier_jet.cpp",
+      "bytes": 5850,
+      "sha256": "87427c37138b467bedadc17665ef72ff7588d9078d033a7364cf0f7053a9461a"
+    },
+    {
+      "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "member": "publication/reproduce.py",
+      "archive_path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/publication/reproduce.py",
+      "bytes": 4235,
+      "sha256": "be1537bedbb5d2e7240ff8e8da289d6fec6baa05eb8b254301b109be820c0a7a"
+    },
+    {
+      "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "member": "README_OFFLINE.txt",
+      "archive_path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/README_OFFLINE.txt",
+      "bytes": 888,
+      "sha256": "3d84411abb58f36073da93df5bf1e355ad7d47bcb3cc2142c649fc691987b840"
+    },
+    {
+      "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "member": "new_results/coverage.json",
+      "archive_path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/coverage.json",
+      "bytes": 1144,
+      "sha256": "1224ccd6869a32f43f9e52e89b634f796729b196502bf61104a144e5574acf0d"
+    },
+    {
+      "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "member": "new_results/check_general_transfer.py",
+      "archive_path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/check_general_transfer.py",
+      "bytes": 9530,
+      "sha256": "195f7fff301a4c8a0deda8685770e2ad5aae025aa604b2e3ada3a6b3f6cf16c3"
+    },
+    {
+      "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "member": "new_results/check_connected_sum_controls.py",
+      "archive_path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/check_connected_sum_controls.py",
+      "bytes": 5494,
+      "sha256": "e7cca295aaddbfb752a9911bd1f975fa6bf6cc5f31698c3b31beed173a795b21"
+    },
+    {
+      "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "member": "new_results/MANIFEST.json",
+      "archive_path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/MANIFEST.json",
+      "bytes": 3135,
+      "sha256": "2e1d5f135f688c42436155bb57a502418a167729f1f87aadd19d782a3a51e17b"
+    },
+    {
+      "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "member": "new_results/OPUS_REVIEW.md",
+      "archive_path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/OPUS_REVIEW.md",
+      "bytes": 4140,
+      "sha256": "dc2fb4ce76f04644ba61e8e62bf86165ee77c4254a99ee75602c7e2ffb49faa8"
+    },
+    {
+      "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "member": "new_results/algebra_results.json",
+      "archive_path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/algebra_results.json",
+      "bytes": 6894,
+      "sha256": "3e380deb7861bfa66b94dadfd4a3f545857bad6d83febf57944c2be3e3f5d8e7"
+    },
+    {
+      "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "member": "new_results/README.md",
+      "archive_path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/README.md",
+      "bytes": 5082,
+      "sha256": "d3f65c6d0ce82986d9d1cac5a5b2e0fccd7c079849361c64a1df9e19b8b5d8ee"
+    },
+    {
+      "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "member": "new_results/CHECKPOINT.json",
+      "archive_path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/CHECKPOINT.json",
+      "bytes": 1432,
+      "sha256": "bc4f3583db8f4a66c7bc6a7b85d3a18dc1ab1e56761440421029eb437220a3c7"
+    },
+    {
+      "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "member": "new_results/PROPOSED_TRANSFER_THEOREM.md",
+      "archive_path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/PROPOSED_TRANSFER_THEOREM.md",
+      "bytes": 22868,
+      "sha256": "77df80d6269759fc1cf626a263e11e7e2b2a1d3c18fde05c1cb57139037ade36"
+    },
+    {
+      "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "member": "new_results/direct_controls/ribbon61_sum_61_parallel_4.log",
+      "archive_path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/direct_controls/ribbon61_sum_61_parallel_4.log",
+      "bytes": 215,
+      "sha256": "7de1d590eec9a4e33521b0ccd2879bf002eb092499193b30a2116316ba510c7a"
+    },
+    {
+      "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "member": "new_results/direct_controls/manifest.json",
+      "archive_path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/direct_controls/manifest.json",
+      "bytes": 14205,
+      "sha256": "3c7a39fc79dc629e85a25d2bd3012036277a5f35fd82311f326dadedaba43778"
+    },
+    {
+      "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "member": "new_results/direct_controls/ribbon61_sum_61_parallel_3.log",
+      "archive_path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/direct_controls/ribbon61_sum_61_parallel_3.log",
+      "bytes": 585,
+      "sha256": "f9fde5c6f6654da812c51090a1ce7a1b5ec992a51ab5db575fb78a731523573f"
+    },
+    {
+      "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "member": "new_results/direct_controls/ribbon61_sum_61_parallel_2.input.txt",
+      "archive_path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/direct_controls/ribbon61_sum_61_parallel_2.input.txt",
+      "bytes": 1297,
+      "sha256": "ed03f2f925aefa066b5c46a8500d7823cae96d34c6da6b2380cb9218b8edfa6d"
+    },
+    {
+      "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "member": "new_results/direct_controls/ribbon61_sum_61_parallel_3.input.txt",
+      "archive_path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/direct_controls/ribbon61_sum_61_parallel_3.input.txt",
+      "bytes": 3278,
+      "sha256": "93c61aa0790395f31cf545c3fd1414264ff730199249878827116b570caccd68"
+    },
+    {
+      "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "member": "new_results/direct_controls/ribbon61_sum_61_parallel_2.log",
+      "archive_path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/direct_controls/ribbon61_sum_61_parallel_2.log",
+      "bytes": 243,
+      "sha256": "e9a5b8a98c2a5e358a7b6b2730d2790ce170db3bb51151c672e03ede6c81efc8"
+    },
+    {
+      "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "member": "new_results/direct_controls/ribbon61_sum_61_parallel_4.input.txt",
+      "archive_path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/direct_controls/ribbon61_sum_61_parallel_4.input.txt",
+      "bytes": 6078,
+      "sha256": "3cdef6c94dbb3b3b2cccdebdd31ab7ff6cd18f4533d41ce1e50afc9c72091968"
+    },
+    {
+      "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "member": "SR_Foxy_pass03_additions.patch",
+      "archive_path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/SR_Foxy_pass03_additions.patch",
+      "bytes": 95607,
+      "sha256": "c06aa2fa67559e66e7a6c8b10b5f48526a678af6f65d4b78fa9b16fe254ff0cb"
+    },
+    {
+      "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "member": "PATCH_VALIDATION.json",
+      "archive_path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/PATCH_VALIDATION.json",
+      "bytes": 907,
+      "sha256": "4e325e9cab2b92d1f15bf29aa79ae19e2f8790bc7c52595f7343da9806b2fb72"
+    },
+    {
+      "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "member": "dependencies/pass02/geometry.py",
+      "archive_path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/dependencies/pass02/geometry.py",
+      "bytes": 6527,
+      "sha256": "2bebeaa028ebb8ea539b7cc023c9a6c0b1da4e39b64c29e6ffd5d88c28217bc0"
+    },
+    {
+      "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "member": "dependencies/pass02/frontier_jet.cpp",
+      "archive_path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/dependencies/pass02/frontier_jet.cpp",
+      "bytes": 5850,
+      "sha256": "87427c37138b467bedadc17665ef72ff7588d9078d033a7364cf0f7053a9461a"
+    },
+    {
+      "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "member": "dependencies/pass02/reproduce.py",
+      "archive_path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/dependencies/pass02/reproduce.py",
+      "bytes": 4235,
+      "sha256": "be1537bedbb5d2e7240ff8e8da289d6fec6baa05eb8b254301b109be820c0a7a"
+    },
+    {
+      "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "member": "dependencies/pass02/certificate.json",
+      "archive_path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/dependencies/pass02/certificate.json",
+      "bytes": 8617,
+      "sha256": "aec2248dd4dd011f901188b40337c263c51b3d012081b87fe831610f480bbd80"
+    },
+    {
+      "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "member": "dependencies/pass02/MANIFEST.json",
+      "archive_path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/dependencies/pass02/MANIFEST.json",
+      "bytes": 1144,
+      "sha256": "ed3a1d9806b9013a705f8ef5a4bf261d541d6c08cc362a380018a2bfc260c62c"
+    },
+    {
+      "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "member": "exploratory/explore_cabling_transfer.py",
+      "archive_path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/exploratory/explore_cabling_transfer.py",
+      "bytes": 735,
+      "sha256": "eab1be6b1986ca83dc029bf877f1f2909ef3d0c58ef3aee52912d80bc1b717c3"
+    },
+    {
+      "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "member": "exploratory/leading_laws.py",
+      "archive_path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/exploratory/leading_laws.py",
+      "bytes": 522,
+      "sha256": "d7a8b7d7fd6f621e7434d81e5ac0e2cc3c0616395a986b6b30ddcc972cbf9399"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/CHECKPOINT.json",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/CHECKPOINT.json",
+      "bytes": 1796,
+      "sha256": "87f05fc2d3e244189a4fd92302af8e69014778a4ac3c2fdcb1457af4bcbb08d0"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/CORRECTED_TRANSFER_WORKING_COPY.md",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/CORRECTED_TRANSFER_WORKING_COPY.md",
+      "bytes": 23386,
+      "sha256": "63a266c2f6444c9735e041a7b4d4128895b001f2307915bb965a13ecb2bd7d2b"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/D01_JONES_GATE.md",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/D01_JONES_GATE.md",
+      "bytes": 6189,
+      "sha256": "c7577617d44b7fad02cb013b6d91cfc16e2c1aa0dce7e5e4d52a5fbacddb65d2"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/DIRECT_PD_CERTIFICATE.md",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/DIRECT_PD_CERTIFICATE.md",
+      "bytes": 5438,
+      "sha256": "09a5ef337823c7eb06541604db858cb67cfe4114d24d1d25ae0a914b288e1e98"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/MANIFEST.json",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/MANIFEST.json",
+      "bytes": 12127,
+      "sha256": "5327023ec26182d79c2b9b04209ba7ed5ffc87d3e928b552ddce322647452755"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/MATRIX_ASSIGNMENT.md",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/MATRIX_ASSIGNMENT.md",
+      "bytes": 996,
+      "sha256": "7b101db0201a4f5f0a88f9caeadecfd9a8d38f81dc23f57889d681a2fead4d6d"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/MOMENT_CORRECTION.md",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/MOMENT_CORRECTION.md",
+      "bytes": 4237,
+      "sha256": "581538478a4f870ce21e4fd7133360cb83087e9c23fe802e5a0e7b77364d5a9e"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/OPUS_HANDOFF.md",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/OPUS_HANDOFF.md",
+      "bytes": 2766,
+      "sha256": "533362a006aa8a104f3e605ddd10ed76363903b59264692a054ff3c39270dc5f"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/README.md",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/README.md",
+      "bytes": 5376,
+      "sha256": "ff34a4b5eb849299b75f733e321ed75ae76b1299e32fc64627225e1d04d670d0"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/SOURCES.md",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/SOURCES.md",
+      "bytes": 4367,
+      "sha256": "3b08cc4206d2c5ef937ec4de8eeb2a899e484fa2c49f9324f68f2873f39645fe"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/centered_moment_results.json",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/centered_moment_results.json",
+      "bytes": 1468,
+      "sha256": "fa4649158805323e0ffe880c14e232a54be47ad36f2c5ad939f3bf76135187f9"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/check_centered_moments.py",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/check_centered_moments.py",
+      "bytes": 4585,
+      "sha256": "7b19c7673bcb093e85b5de266e9725c44577daade2bd99df413b296cb61dd01b"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/check_d01_gates.py",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/check_d01_gates.py",
+      "bytes": 3962,
+      "sha256": "518f792900822c4a419817ad7a5031d668210ff1bc481b68a637534fa2aa4e3b"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/check_marked_pd_certificate.py",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/check_marked_pd_certificate.py",
+      "bytes": 8456,
+      "sha256": "c0847f9f2424cc2aeea7c252a051e5be06353ad5ee2d2a2299713b7969e252ef"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/coverage.json",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/coverage.json",
+      "bytes": 1247,
+      "sha256": "2d76ff2327f0e906bdecbf2919ce94e44805857fc791d54e1bd693293d8e1540"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/d01_gates.json",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/d01_gates.json",
+      "bytes": 2065,
+      "sha256": "76dc19d4a1e5c45dfca1221de95fdef060d59fbd808deb9102498f9109cab8d5"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/D01_p2_direct/input.txt",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/D01_p2_direct/input.txt",
+      "bytes": 1918,
+      "sha256": "28e6efe7f849aacaa12791f5984eee7bc9184c15711c25441954f7df6ce88a0a"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/D01_p2_direct/result.json",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/D01_p2_direct/result.json",
+      "bytes": 2201,
+      "sha256": "e70f8aff0b2e45f3ee673923461de87b406d4e74e71a31685832547c56032506"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/D01_p2_direct/stderr.log",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/D01_p2_direct/stderr.log",
+      "bytes": 340,
+      "sha256": "f5502a4998aeb96687d4bf927862e4b2b9995c04475458ca3a0ab1f09f41a4e5"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/D01_p2_direct/stdout.txt",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/D01_p2_direct/stdout.txt",
+      "bytes": 168,
+      "sha256": "e415b1e1a72f513bafb6213991b9f6f869a89fbdcfffcd1854cd9e2726f9b26a"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/K0_p1_signed_control/input.txt",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K0_p1_signed_control/input.txt",
+      "bytes": 70,
+      "sha256": "c32b925d11efff95ca01ab038fbb84afa554096e71c4d674dbeff0913258d31f"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/K0_p1_signed_control/result.json",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K0_p1_signed_control/result.json",
+      "bytes": 1071,
+      "sha256": "f25bb16ed3f8eb752fe101414233151a6185a6efeaa118f4caf4f9422218975d"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/K0_p1_signed_control/stderr.log",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K0_p1_signed_control/stderr.log",
+      "bytes": 45,
+      "sha256": "24c454da9b34757d8a65caf40564198f2ef19e63c58f305700c62e18858529c1"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/K0_p1_signed_control/stdout.txt",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K0_p1_signed_control/stdout.txt",
+      "bytes": 154,
+      "sha256": "4403d7de7f083bcb0fe6e061b9dd3c4e4b6ecfd744336f18c94d6c3779dbd652"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/K0_p2_control/input.txt",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K0_p2_control/input.txt",
+      "bytes": 337,
+      "sha256": "5773b0b2192457640241a3fcb612068feaf89fd58a80005c82fd0fdd8fdcc2c5"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/K0_p2_control/result.json",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K0_p2_control/result.json",
+      "bytes": 1295,
+      "sha256": "ae4dbf3aa2893f43dac194dfbb71a3cf116a967ccada380d66aaea5969586c01"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/K0_p2_control/stderr.log",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K0_p2_control/stderr.log",
+      "bytes": 97,
+      "sha256": "d0ecf2322952559c668612d7190684a707b4e7f5471f0c615423eeb3f1f3f454"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/K0_p2_control/stdout.txt",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K0_p2_control/stdout.txt",
+      "bytes": 160,
+      "sha256": "655588fd9a4b763439182145fb5224f1f25eeb6cc6137f3e04bd99b21c037b3f"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/K0_p3_new/input.txt",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K0_p3_new/input.txt",
+      "bytes": 803,
+      "sha256": "c13a0913fbae36e8ed2443eece7b794f73d8c0a96fb6041a63572139c0e38f79"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/K0_p3_new/result.json",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K0_p3_new/result.json",
+      "bytes": 1662,
+      "sha256": "7cb62029f4718a6e472c5509a381b328cdd33ebd9f69e5ec06f4ffc4f509a012"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/K0_p3_new/stderr.log",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K0_p3_new/stderr.log",
+      "bytes": 195,
+      "sha256": "4b362f509424b3830de844a7111bace04e9ebae9eda9e0a7b127f8306b9cdd46"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/K0_p3_new/stdout.txt",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K0_p3_new/stdout.txt",
+      "bytes": 165,
+      "sha256": "ea35ab484da2948bbdc6d69df13034cecd20f32dbf0cbb32253429dcc4e5b63f"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/K1_p1_signed_control/input.txt",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K1_p1_signed_control/input.txt",
+      "bytes": 307,
+      "sha256": "e189fd9676a4a6e9767a74117a3c9e033a89614cef874dacd46623cd6a0f1ae9"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/K1_p1_signed_control/result.json",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K1_p1_signed_control/result.json",
+      "bytes": 1238,
+      "sha256": "0139942843287fed0f5ca175d749198664b9a5ac5788dd56f223f6df8187f0a8"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/K1_p1_signed_control/stderr.log",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K1_p1_signed_control/stderr.log",
+      "bytes": 96,
+      "sha256": "677e66998752b8f482c094c6ef1347d7f36531c97691f7bd3f7e1536c1fe3f96"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/K1_p1_signed_control/stdout.txt",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K1_p1_signed_control/stdout.txt",
+      "bytes": 163,
+      "sha256": "90cb32ee6010382fd8672b96074a0864b08ab5d4f7a81d750bcb0ccb08b6fb8e"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/K1_p2_new/input.txt",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K1_p2_new/input.txt",
+      "bytes": 1449,
+      "sha256": "453064666f2b3a031d7421d57f2ad90fba15df8af99fa1b447c3bc1e9c95f11a"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/K1_p2_new/result.json",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K1_p2_new/result.json",
+      "bytes": 1940,
+      "sha256": "374cb8cb97017b5b59a291a1149ae4076bdfef948f3cd3ccfd0976cf00473d12"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/K1_p2_new/stderr.log",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K1_p2_new/stderr.log",
+      "bytes": 290,
+      "sha256": "c06581ea89ab4961b434a40a5b832b6dde51984500307b9eb9e836f5da167d44"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/K1_p2_new/stdout.txt",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K1_p2_new/stdout.txt",
+      "bytes": 165,
+      "sha256": "937ac09aee52465905d756a3dd82ee4dccc6c08fa45c80f419a9881b3a534b85"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/K1_p3_new/input.txt",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K1_p3_new/input.txt",
+      "bytes": 3638,
+      "sha256": "1f1ee66344e65196e1f72460c0067a15d925b21f922903e92a5443076c322107"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/K1_p3_new/result.json",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K1_p3_new/result.json",
+      "bytes": 3215,
+      "sha256": "817e735998dbf8c6909d928a8cd0e4c6270b70715e65663d5f23dc81f0237612"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/K1_p3_new/stderr.log",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K1_p3_new/stderr.log",
+      "bytes": 630,
+      "sha256": "c3a3a60b13987e6186d204de8cf479f0de9e5653feeff5c52a5781744159bed4"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/direct/K1_p3_new/stdout.txt",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K1_p3_new/stdout.txt",
+      "bytes": 179,
+      "sha256": "0f8add2831f7dc08ec20426201915e6c3df7734c71ff6f1995c18c5be10c4c14"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/environment.json",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/environment.json",
+      "bytes": 446,
+      "sha256": "b0ad533fba1faef9ef316de5d48aaa49a7027189eac3e1457cfaafea0e564d97"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/inputs.json",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/inputs.json",
+      "bytes": 3762,
+      "sha256": "942e0845d43a228966734dbea02089e6bde38e8272fc0d608cde5f1226d05a47"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/marked_pd.json",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/marked_pd.json",
+      "bytes": 692,
+      "sha256": "09efb428eef5b53eed9d1f3cc7e2664326f1ab80d349d9f2598e522ef1a6f00a"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/marked_pd_certificate.json",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/marked_pd_certificate.json",
+      "bytes": 6520,
+      "sha256": "c9131e3e4b83dc2b228a577116d24987cf2767ffa7862958e1c51cd5734f3d32"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/marked_pd_certificate.py",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/marked_pd_certificate.py",
+      "bytes": 9013,
+      "sha256": "d98267d86ae54ebbcce8e7e0d26d7f7754b9dc583092c3b0dac1ef766c2026af"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/marked_pd_replay.json",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/marked_pd_replay.json",
+      "bytes": 2504,
+      "sha256": "54b7e26589d82f22f6fc13ccbe3adbeb696a1f8323b2ee9b69cdef06bd24713a"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/marked_pd_replay_optimized.json",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/marked_pd_replay_optimized.json",
+      "bytes": 2504,
+      "sha256": "54b7e26589d82f22f6fc13ccbe3adbeb696a1f8323b2ee9b69cdef06bd24713a"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/optimized_replay.log",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/optimized_replay.log",
+      "bytes": 2504,
+      "sha256": "54b7e26589d82f22f6fc13ccbe3adbeb696a1f8323b2ee9b69cdef06bd24713a"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/run_summand_jets.py",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/run_summand_jets.py",
+      "bytes": 4097,
+      "sha256": "a6de8bdef1c2f142258089cd8d613aed87301593079fc3395bf1d4460c8f1402"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/upstream/dependencies/pass02/frontier_jet.cpp",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/upstream/dependencies/pass02/frontier_jet.cpp",
+      "bytes": 5850,
+      "sha256": "87427c37138b467bedadc17665ef72ff7588d9078d033a7364cf0f7053a9461a"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/upstream/dependencies/pass02/geometry.py",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/upstream/dependencies/pass02/geometry.py",
+      "bytes": 6527,
+      "sha256": "2bebeaa028ebb8ea539b7cc023c9a6c0b1da4e39b64c29e6ffd5d88c28217bc0"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/upstream/new_results/check_general_transfer.py",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/upstream/new_results/check_general_transfer.py",
+      "bytes": 9530,
+      "sha256": "195f7fff301a4c8a0deda8685770e2ad5aae025aa604b2e3ada3a6b3f6cf16c3"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "pass04_0515_centered_and_marked_audit/upstream/proposed_transfer_original.md",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/upstream/proposed_transfer_original.md",
+      "bytes": 22868,
+      "sha256": "77df80d6269759fc1cf626a263e11e7e2b2a1d3c18fde05c1cb57139037ade36"
+    },
+    {
+      "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "member": "SR_Foxy_pass04_centered_marked_additions.patch",
+      "archive_path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/SR_Foxy_pass04_centered_marked_additions.patch",
+      "bytes": 216389,
+      "sha256": "a21045ed0563b0bf10823aff09295bb84f6670cb56d101ba63919111ca8468bd"
+    },
+    {
+      "attachment": "SR_Foxy_pass07_relative_r3_r2_2026_09_17.zip",
+      "member": "sr_foxy_pass07_0123_relative_r3_r2/check_relative_r3_r2.py",
+      "archive_path": "expanded/SR_Foxy_pass07_relative_r3_r2_2026_09_17/sr_foxy_pass07_0123_relative_r3_r2/check_relative_r3_r2.py",
+      "bytes": 12564,
+      "sha256": "c5442e3e9a060f842c0a62786117f9f5a19d2aebbf8559e5e4f9af3360cfcd7d"
+    },
+    {
+      "attachment": "SR_Foxy_pass07_relative_r3_r2_2026_09_17.zip",
+      "member": "sr_foxy_pass07_0123_relative_r3_r2/RESULTS.json",
+      "archive_path": "expanded/SR_Foxy_pass07_relative_r3_r2_2026_09_17/sr_foxy_pass07_0123_relative_r3_r2/RESULTS.json",
+      "bytes": 2758,
+      "sha256": "7a78c303d609f5479678377bb7eaee36785db9ca35442969c31a790942321358"
+    },
+    {
+      "attachment": "SR_Foxy_pass07_relative_r3_r2_2026_09_17.zip",
+      "member": "sr_foxy_pass07_0123_relative_r3_r2/SOURCES.md",
+      "archive_path": "expanded/SR_Foxy_pass07_relative_r3_r2_2026_09_17/sr_foxy_pass07_0123_relative_r3_r2/SOURCES.md",
+      "bytes": 961,
+      "sha256": "6656927e30796a9c9b71a425c8ce467bf8b622b15e5d64a59f9a495b614d65d1"
+    },
+    {
+      "attachment": "SR_Foxy_pass07_relative_r3_r2_2026_09_17.zip",
+      "member": "sr_foxy_pass07_0123_relative_r3_r2/results.txt",
+      "archive_path": "expanded/SR_Foxy_pass07_relative_r3_r2_2026_09_17/sr_foxy_pass07_0123_relative_r3_r2/results.txt",
+      "bytes": 3153,
+      "sha256": "8548d06f1e113df85ea65a1bfa97b27d76f1ca64262290a035b77d4acc54cce6"
+    },
+    {
+      "attachment": "SR_Foxy_pass07_relative_r3_r2_2026_09_17.zip",
+      "member": "sr_foxy_pass07_0123_relative_r3_r2/README.md",
+      "archive_path": "expanded/SR_Foxy_pass07_relative_r3_r2_2026_09_17/sr_foxy_pass07_0123_relative_r3_r2/README.md",
+      "bytes": 4856,
+      "sha256": "fdfe1d7506378f9726366487268d5918ea94e6698475510a20432e88656df589"
+    },
+    {
+      "attachment": "SR_Foxy_pass07_relative_r3_r2_2026_09_17.zip",
+      "member": "sr_foxy_pass07_0123_relative_r3_r2/MANIFEST.json",
+      "archive_path": "expanded/SR_Foxy_pass07_relative_r3_r2_2026_09_17/sr_foxy_pass07_0123_relative_r3_r2/MANIFEST.json",
+      "bytes": 729,
+      "sha256": "a228572c14fe57a3ae9d4980cb2fbc5125506923b3142c0397bbd06026b3f7c9"
+    },
+    {
+      "attachment": "SR_Foxy_pass08_whisker_branch_gate_2026_09_17.zip",
+      "member": "sr_foxy_pass08_0202_whisker_branch_gate/__pycache__/check_whisker_branch_gate.cpython-313.pyc",
+      "archive_path": "expanded/SR_Foxy_pass08_whisker_branch_gate_2026_09_17/sr_foxy_pass08_0202_whisker_branch_gate/__pycache__/check_whisker_branch_gate.cpython-313.pyc",
+      "bytes": 27445,
+      "sha256": "bf953d9abcb8da8504bb3c71aec63d70fd54c7ea88879763f4baa286c4afb97d"
+    },
+    {
+      "attachment": "SR_Foxy_pass08_whisker_branch_gate_2026_09_17.zip",
+      "member": "sr_foxy_pass08_0202_whisker_branch_gate/SOURCES.md",
+      "archive_path": "expanded/SR_Foxy_pass08_whisker_branch_gate_2026_09_17/sr_foxy_pass08_0202_whisker_branch_gate/SOURCES.md",
+      "bytes": 1239,
+      "sha256": "0a1510524081b2b8dd460d7c1f4407869810d959371eb55daa3fa2f8cf981f43"
+    },
+    {
+      "attachment": "SR_Foxy_pass08_whisker_branch_gate_2026_09_17.zip",
+      "member": "sr_foxy_pass08_0202_whisker_branch_gate/run.txt",
+      "archive_path": "expanded/SR_Foxy_pass08_whisker_branch_gate_2026_09_17/sr_foxy_pass08_0202_whisker_branch_gate/run.txt",
+      "bytes": 3534,
+      "sha256": "0fc4a5a30c9e8cb6d78d3bf0f64860e4e8a0889db6be6a8d5d57577ee2003947"
+    },
+    {
+      "attachment": "SR_Foxy_pass08_whisker_branch_gate_2026_09_17.zip",
+      "member": "sr_foxy_pass08_0202_whisker_branch_gate/RESULTS.json",
+      "archive_path": "expanded/SR_Foxy_pass08_whisker_branch_gate_2026_09_17/sr_foxy_pass08_0202_whisker_branch_gate/RESULTS.json",
+      "bytes": 3269,
+      "sha256": "14d67e0f2ca9638eb43616a2f5af21ac78a6b9feb0f97575389e18b2c51c3f7b"
+    },
+    {
+      "attachment": "SR_Foxy_pass08_whisker_branch_gate_2026_09_17.zip",
+      "member": "sr_foxy_pass08_0202_whisker_branch_gate/README.md",
+      "archive_path": "expanded/SR_Foxy_pass08_whisker_branch_gate_2026_09_17/sr_foxy_pass08_0202_whisker_branch_gate/README.md",
+      "bytes": 4751,
+      "sha256": "195813826bc1117a3aee8f4655fde04a3e75858f2c99f98e707551cc63c2d861"
+    },
+    {
+      "attachment": "SR_Foxy_pass08_whisker_branch_gate_2026_09_17.zip",
+      "member": "sr_foxy_pass08_0202_whisker_branch_gate/check_whisker_branch_gate.py",
+      "archive_path": "expanded/SR_Foxy_pass08_whisker_branch_gate_2026_09_17/sr_foxy_pass08_0202_whisker_branch_gate/check_whisker_branch_gate.py",
+      "bytes": 15948,
+      "sha256": "e238970f021bd029dabdc40dd6a0ce4efb93b455de6c177078a46613d8447aa1"
+    },
+    {
+      "attachment": "SR_Foxy_progress_and_Codex_handoff_2026_09_17.zip",
+      "member": "CODEX_HANDOFF.md",
+      "archive_path": "expanded/SR_Foxy_progress_and_Codex_handoff_2026_09_17/CODEX_HANDOFF.md",
+      "bytes": 11138,
+      "sha256": "98a17cbb97b9aeeabd29257827f1ae632743ffaa0ba10fb2aeedd26765641d3a"
+    },
+    {
+      "attachment": "SR_Foxy_progress_and_Codex_handoff_2026_09_17.zip",
+      "member": "MANIFEST.json",
+      "archive_path": "expanded/SR_Foxy_progress_and_Codex_handoff_2026_09_17/MANIFEST.json",
+      "bytes": 265,
+      "sha256": "e5630addd893865b16b021e9e2869459bc662ec3a82c6caad8470129b6c58b02"
+    },
+    {
+      "attachment": "SR_Foxy_progress_and_Codex_handoff_2026_09_17.zip",
+      "member": "PROGRESS_REPORT.md",
+      "archive_path": "expanded/SR_Foxy_progress_and_Codex_handoff_2026_09_17/PROGRESS_REPORT.md",
+      "bytes": 13498,
+      "sha256": "30c443243e0cce29da7b6f9668c75c6aa15148bbfcf166161151b92c18d627c6"
+    },
+    {
+      "attachment": "SR_Foxy_pass09_product_collar_2026_09_17.zip",
+      "member": "pass09_product_collar/README.md",
+      "archive_path": "expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/README.md",
+      "bytes": 7815,
+      "sha256": "490bd68865df706d51afe70e2d9e386cae87d633ab0eb7c043603cd739cf655b"
+    },
+    {
+      "attachment": "SR_Foxy_pass09_product_collar_2026_09_17.zip",
+      "member": "pass09_product_collar/certificate.json",
+      "archive_path": "expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/certificate.json",
+      "bytes": 4468,
+      "sha256": "a35eebbc4ec7a98a801e949ad3be1a2c9b414f5a6d04b29ea6d45add9c296867"
+    },
+    {
+      "attachment": "SR_Foxy_pass09_product_collar_2026_09_17.zip",
+      "member": "pass09_product_collar/check_saved_proof.py",
+      "archive_path": "expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/check_saved_proof.py",
+      "bytes": 3760,
+      "sha256": "53171695d1ee7f4fd6d541fd5d8d2f36ef3258b4d660deb39921eb0715fd732f"
+    },
+    {
+      "attachment": "SR_Foxy_pass09_product_collar_2026_09_17.zip",
+      "member": "pass09_product_collar/diagram_core.py",
+      "archive_path": "expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/diagram_core.py",
+      "bytes": 10330,
+      "sha256": "cf9012abcbc9d79b76aed7741d6a14cff99437706b245a007286aea35f1fc62a"
+    },
+    {
+      "attachment": "SR_Foxy_pass09_product_collar_2026_09_17.zip",
+      "member": "pass09_product_collar/verify_product_collar.py",
+      "archive_path": "expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/verify_product_collar.py",
+      "bytes": 9526,
+      "sha256": "8600bf524f852130da11667ffeee0ff259306509f4b1eeb497475540cc901d97"
+    },
+    {
+      "attachment": "SR_Foxy_pass09_product_collar_2026_09_17.zip",
+      "member": "pass09_product_collar/RESULTS.json",
+      "archive_path": "expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/RESULTS.json",
+      "bytes": 14281,
+      "sha256": "5df99bab6f8785d8778ab99fa5726b56b4476badd7633ee4bfd7af7b59e6dca0"
+    },
+    {
+      "attachment": "SR_Foxy_pass09_product_collar_2026_09_17.zip",
+      "member": "pass09_product_collar/saved_proof_check.json",
+      "archive_path": "expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/saved_proof_check.json",
+      "bytes": 244,
+      "sha256": "fd66cd23e1f322440d9a65eac779381ee5d3dc86df6f6043704b8cf7918b860b"
+    },
+    {
+      "attachment": "SR_Foxy_pass09_product_collar_2026_09_17.zip",
+      "member": "pass09_product_collar/EXECUTION.json",
+      "archive_path": "expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/EXECUTION.json",
+      "bytes": 401,
+      "sha256": "13785b236ad5d3ade543554d13dfe2f4a52c8c546825eb8ac5cd2bcaef6762df"
+    },
+    {
+      "attachment": "SR_Foxy_pass09_product_collar_2026_09_17.zip",
+      "member": "pass09_product_collar/inputs/check_whisker_branch_gate.py",
+      "archive_path": "expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/inputs/check_whisker_branch_gate.py",
+      "bytes": 15948,
+      "sha256": "e238970f021bd029dabdc40dd6a0ce4efb93b455de6c177078a46613d8447aa1"
+    },
+    {
+      "attachment": "SR_Foxy_pass09_product_collar_2026_09_17.zip",
+      "member": "pass09_product_collar/MANIFEST.json",
+      "archive_path": "expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/MANIFEST.json",
+      "bytes": 1188,
+      "sha256": "1a1c32e0b27590f856675931d9dcd7846264435fb1b88dc1b71d7a26d31c6e64"
+    }
+  ],
+  "missing_expected_attachments": [],
+  "credential_scan_matches": 0,
+  "font_files": 0,
+  "limitations": [
+    "No verbatim chat export",
+    "No recovery of unseen or unmounted historical files",
+    "No mathematical revalidation in archive pass",
+    "New archive payload not pushed at creation"
+  ]
+}
