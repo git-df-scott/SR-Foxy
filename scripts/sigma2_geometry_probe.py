@@ -30,6 +30,14 @@ import snappy, regina
 TRIES_REGINA = 40
 TRIES_SNAPPY = 400
 
+# K_2 is a 60-crossing diagram; building its exterior, its double cover and 40
+# Regina simplifications did not finish inside a 50-minute budget on 2026-09-17
+# and the job was killed by its timeout (SIGTERM, exit 143).  That is a resource
+# failure, not a result.  Pass a comma-separated list of target labels as the
+# second argument to restrict the run; the default now omits K_2 so the script
+# terminates, and K_2 is recorded as NOT ATTEMPTED rather than as unknown.
+DEFAULT_TARGETS = 'K_0,K_1'
+
 
 def sigma_2(pd):
     e = snappy.Link([tuple(c) for c in pd]).exterior()
@@ -101,15 +109,25 @@ def main(out_path):
     for nm in ('3_1', '4_1', '6_3'):
         out['controls'].append(probe('control %s' % nm,
                                      snappy.Link(nm).PD_code()))
-    for lab, f in (('K_0 (= 6_3)', 'AbeTagami_K_0_K_-1__6_3'),
-                   ('K_1', 'AbeTagami_K_1'),
-                   ('K_2', 'AbeTagami_K_2')):
+    wanted = [x.strip() for x in (sys.argv[2] if len(sys.argv) > 2
+                                  else DEFAULT_TARGETS).split(',')]
+    out['targets_requested'] = wanted
+    out['targets_not_attempted'] = []
+    for key, lab, f in (('K_0', 'K_0 (= 6_3)', 'AbeTagami_K_0_K_-1__6_3'),
+                        ('K_1', 'K_1', 'AbeTagami_K_1'),
+                        ('K_2', 'K_2', 'AbeTagami_K_2')):
+        if key not in wanted:
+            out['targets_not_attempted'].append(
+                {'label': lab,
+                 'reason': 'not requested; K_2 timed out at 50 min on '
+                           '2026-09-17 and is a resource failure, not a result'})
+            continue
         pd = json.load(open('data/knots/%s.json' % f))['pd_code_snappy_0indexed']
         out['targets'].append(probe(lab, pd))
     out['verdict'] = (
         'Sigma_2(K_0) = L(13,5) is recognized exactly, as in research/21. '
-        'Sigma_2(K_1) and Sigma_2(K_2) admit positively oriented hyperbolic '
-        'solutions on explicit triangulations. Numerical, not verified: '
+        'Sigma_2(K_1) admits a positively oriented hyperbolic '
+        'solution on an explicit triangulation. Numerical, not verified: '
         'interval arithmetic needs Sage. If hyperbolic they are not Seifert '
         'fibered, which removes the Ozsvath-Szabo plumbing algorithm as a '
         'route to their d-invariants and hence to the research/21 section 3 '
