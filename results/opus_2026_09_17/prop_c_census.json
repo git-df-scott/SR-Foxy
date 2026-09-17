@@ -1,0 +1,19 @@
+{
+ "hyperbolic_in_the_q=-1_case": [],
+ "knots_scanned": 405,
+ "max_seifert_matrix_size": 12,
+ "primes": [
+  3,
+  5,
+  7
+ ],
+ "proposition_C_violations": [],
+ "seconds": 318.9,
+ "snappy": "3.3.2",
+ "table_size": 802,
+ "tally": {
+  "q=-1 mod p / anisotropic": 271,
+  "q=1 mod p / hyperbolic": 372
+ },
+ "verdict": "Proposition C holds on every case scanned. The complementary q = -1 (mod p) case is anisotropic in every case scanned, which is where the gate is live. A census is corroboration, not a proof; the proof is in research/33 section 4b."
+}

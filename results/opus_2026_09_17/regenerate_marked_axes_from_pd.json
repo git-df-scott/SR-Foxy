@@ -1,0 +1,276 @@
+{
+ "SL2_order": 120,
+ "alexander_expected": [
+  1,
+  -3,
+  5,
+  -3,
+  1
+ ],
+ "alexander_matches": false,
+ "all_seeds_agree": true,
+ "input": "data/knots/AbeTagami_L_63_c1_c2.json",
+ "pd_crossings": 27,
+ "seconds": 0.3,
+ "seeds": [
+  {
+   "H1_of_filled_manifold": "Z",
+   "generators": [
+    "a",
+    "b"
+   ],
+   "homomorphisms_to_SL2F5_found": 3,
+   "len_u": 4,
+   "len_v": 16,
+   "relators": [
+    "aBAAABabbaaabABBAbaaabb"
+   ],
+   "seed": 0,
+   "separating_homomorphism": {
+    "class_size_u": 20,
+    "class_size_v": 20,
+    "images": {
+     "a": [
+      0,
+      1,
+      4,
+      3
+     ],
+     "b": [
+      0,
+      2,
+      2,
+      2
+     ]
+    },
+    "positive_control_u_vs_conjugate_of_u_same_class": true,
+    "trace_u": 1,
+    "trace_v": 4,
+    "u_conj_to_v": false,
+    "u_conj_to_v_inverse": false
+   },
+   "u": "ABab",
+   "u_is_conjugate_to_neither_v_nor_v_inverse": true,
+   "v": "ABabbaBabbaBAAAB"
+  },
+  {
+   "H1_of_filled_manifold": "Z",
+   "generators": [
+    "a",
+    "b",
+    "c"
+   ],
+   "homomorphisms_to_SL2F5_found": 1,
+   "len_u": 10,
+   "len_v": 3,
+   "relators": [
+    "aCAbcBcb",
+    "acAcabCBC"
+   ],
+   "seed": 1,
+   "separating_homomorphism": {
+    "class_size_u": 20,
+    "class_size_v": 20,
+    "images": {
+     "a": [
+      0,
+      1,
+      4,
+      0
+     ],
+     "b": [
+      1,
+      0,
+      1,
+      1
+     ],
+     "c": [
+      3,
+      4,
+      2,
+      3
+     ]
+    },
+    "positive_control_u_vs_conjugate_of_u_same_class": true,
+    "trace_u": 1,
+    "trace_v": 4,
+    "u_conj_to_v": false,
+    "u_conj_to_v_inverse": false
+   },
+   "u": "BcbcaCACbc",
+   "u_is_conjugate_to_neither_v_nor_v_inverse": true,
+   "v": "Abc"
+  },
+  {
+   "H1_of_filled_manifold": "Z",
+   "generators": [
+    "a",
+    "b"
+   ],
+   "homomorphisms_to_SL2F5_found": 1,
+   "len_u": 13,
+   "len_v": 10,
+   "relators": [
+    "abbaaabbaBAABBAbaabABBAAB"
+   ],
+   "seed": 2,
+   "separating_homomorphism": {
+    "class_size_u": 20,
+    "class_size_v": 20,
+    "images": {
+     "a": [
+      0,
+      1,
+      4,
+      0
+     ],
+     "b": [
+      1,
+      0,
+      1,
+      1
+     ]
+    },
+    "positive_control_u_vs_conjugate_of_u_same_class": true,
+    "trace_u": 1,
+    "trace_v": 4,
+    "u_conj_to_v": false,
+    "u_conj_to_v_inverse": false
+   },
+   "u": "BBAABabbaaabA",
+   "u_is_conjugate_to_neither_v_nor_v_inverse": true,
+   "v": "BAABabbaaa"
+  },
+  {
+   "H1_of_filled_manifold": "Z",
+   "generators": [
+    "a",
+    "b",
+    "c"
+   ],
+   "homomorphisms_to_SL2F5_found": 2,
+   "len_u": 5,
+   "len_v": 3,
+   "relators": [
+    "aBabACAcb",
+    "aCacBAbc"
+   ],
+   "seed": 3,
+   "separating_homomorphism": {
+    "class_size_u": 20,
+    "class_size_v": 20,
+    "images": {
+     "a": [
+      0,
+      1,
+      4,
+      1
+     ],
+     "b": [
+      0,
+      1,
+      4,
+      0
+     ],
+     "c": [
+      3,
+      2,
+      3,
+      4
+     ]
+    },
+    "positive_control_u_vs_conjugate_of_u_same_class": true,
+    "trace_u": 1,
+    "trace_v": 4,
+    "u_conj_to_v": false,
+    "u_conj_to_v_inverse": false
+   },
+   "u": "bCAca",
+   "u_is_conjugate_to_neither_v_nor_v_inverse": true,
+   "v": "CAb"
+  },
+  {
+   "H1_of_filled_manifold": "Z",
+   "generators": [
+    "a",
+    "b"
+   ],
+   "homomorphisms_to_SL2F5_found": 4,
+   "len_u": 12,
+   "len_v": 10,
+   "relators": [
+    "aBBabAAbbABaaBAbbAAbaBBab"
+   ],
+   "seed": 4,
+   "separating_homomorphism": {
+    "class_size_u": 20,
+    "class_size_v": 20,
+    "images": {
+     "a": [
+      0,
+      1,
+      4,
+      2
+     ],
+     "b": [
+      1,
+      3,
+      1,
+      4
+     ]
+    },
+    "positive_control_u_vs_conjugate_of_u_same_class": true,
+    "trace_u": 1,
+    "trace_v": 4,
+    "u_conj_to_v": false,
+    "u_conj_to_v_inverse": false
+   },
+   "u": "AbbAAbaBBaaB",
+   "u_is_conjugate_to_neither_v_nor_v_inverse": true,
+   "v": "bbAAbaBBab"
+  },
+  {
+   "H1_of_filled_manifold": "Z",
+   "generators": [
+    "a",
+    "b"
+   ],
+   "homomorphisms_to_SL2F5_found": 3,
+   "len_u": 5,
+   "len_v": 17,
+   "relators": [
+    "aabbbaBAABabbbaabABBBAb"
+   ],
+   "seed": 5,
+   "separating_homomorphism": {
+    "class_size_u": 20,
+    "class_size_v": 20,
+    "images": {
+     "a": [
+      0,
+      1,
+      4,
+      2
+     ],
+     "b": [
+      0,
+      2,
+      2,
+      3
+     ]
+    },
+    "positive_control_u_vs_conjugate_of_u_same_class": true,
+    "trace_u": 1,
+    "trace_v": 4,
+    "u_conj_to_v": false,
+    "u_conj_to_v_inverse": false
+   },
+   "u": "BAABB",
+   "u_is_conjugate_to_neither_v_nor_v_inverse": true,
+   "v": "BABabbbaBAABaBAAB"
+  }
+ ],
+ "seeds_run": 6,
+ "snappy": "3.3.2",
+ "verdict": "The marked axes u, v regenerated directly from the stored PD are nonconjugate (and u is not conjugate to v inverse) in the regenerated product-disk group, confirmed by an explicitly exhibited homomorphism to SL(2,F_5) on every triangulation seed. This discharges the upstream PD-to-marked-group dependency that Astra flagged, for the conjugacy conclusion only. It does NOT independently re-verify that the stored PD is the Abe-Tagami figure."
+}

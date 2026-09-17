@@ -1,0 +1,237 @@
+{
+ "alexander": [
+  1,
+  -3,
+  5,
+  -3,
+  1
+ ],
+ "claim": "Every odd prime p < 60 puts H_1(Sigma_p(K_n)) in the q = 1 mod p regime, where Proposition C (research/33 section 4b) proves the linking form is hyperbolic. So the branched-cyclic-cover linking-form metabolizer gate cannot fire for any D_{n,m} at any odd prime below 60.",
+ "limits": "Scan, not a proof for all p. Says nothing about d-invariants, Casson-Gordon, or metabelian twisted Alexander on the same covers.",
+ "live_cases_found": [],
+ "rows": [
+  {
+   "factorization": {
+    "7": 2
+   },
+   "order": 49,
+   "p": 3,
+   "q_mod_p": {
+    "7": 1
+   },
+   "regime": {
+    "7": "q=1 mod p: Prop C hyperbolic, gate VACUOUS"
+   }
+  },
+  {
+   "factorization": {
+    "2": 8
+   },
+   "order": 256,
+   "p": 5,
+   "q_mod_p": {
+    "2": 2
+   },
+   "regime": {
+    "2": "other"
+   }
+  },
+  {
+   "factorization": {
+    "43": 2
+   },
+   "order": 1849,
+   "p": 7,
+   "q_mod_p": {
+    "43": 1
+   },
+   "regime": {
+    "43": "q=1 mod p: Prop C hyperbolic, gate VACUOUS"
+   }
+  },
+  {
+   "factorization": {
+    "397": 2
+   },
+   "order": 157609,
+   "p": 11,
+   "q_mod_p": {
+    "397": 1
+   },
+   "regime": {
+    "397": "q=1 mod p: Prop C hyperbolic, gate VACUOUS"
+   }
+  },
+  {
+   "factorization": {
+    "1171": 2
+   },
+   "order": 1371241,
+   "p": 13,
+   "q_mod_p": {
+    "1171": 1
+   },
+   "regime": {
+    "1171": "q=1 mod p: Prop C hyperbolic, gate VACUOUS"
+   }
+  },
+  {
+   "factorization": {
+    "10303": 2
+   },
+   "order": 106151809,
+   "p": 17,
+   "q_mod_p": {
+    "10303": 1
+   },
+   "regime": {
+    "10303": "q=1 mod p: Prop C hyperbolic, gate VACUOUS"
+   }
+  },
+  {
+   "factorization": {
+    "30553": 2
+   },
+   "order": 933485809,
+   "p": 19,
+   "q_mod_p": {
+    "30553": 1
+   },
+   "regime": {
+    "30553": "q=1 mod p: Prop C hyperbolic, gate VACUOUS"
+   }
+  },
+  {
+   "factorization": {
+    "139": 2,
+    "1933": 2
+   },
+   "order": 72192703969,
+   "p": 23,
+   "q_mod_p": {
+    "139": 1,
+    "1933": 1
+   },
+   "regime": {
+    "139": "q=1 mod p: Prop C hyperbolic, gate VACUOUS",
+    "1933": "q=1 mod p: Prop C hyperbolic, gate VACUOUS"
+   }
+  },
+  {
+   "factorization": {
+    "13399": 2,
+    "523": 2
+   },
+   "order": 49107536936329,
+   "p": 29,
+   "q_mod_p": {
+    "13399": 1,
+    "523": 1
+   },
+   "regime": {
+    "13399": "q=1 mod p: Prop C hyperbolic, gate VACUOUS",
+    "523": "q=1 mod p: Prop C hyperbolic, gate VACUOUS"
+   }
+  },
+  {
+   "factorization": {
+    "20781781": 2
+   },
+   "order": 431882421531961,
+   "p": 31,
+   "q_mod_p": {
+    "20781781": 1
+   },
+   "regime": {
+    "20781781": "q=1 mod p: Prop C hyperbolic, gate VACUOUS"
+   }
+  },
+  {
+   "factorization": {
+    "542011447": 2
+   },
+   "order": 293776408679033809,
+   "p": 37,
+   "q_mod_p": {
+    "542011447": 1
+   },
+   "regime": {
+    "542011447": "q=1 mod p: Prop C hyperbolic, gate VACUOUS"
+   }
+  },
+  {
+   "factorization": {
+    "1231": 2,
+    "3872287": 2
+   },
+   "order": 22722242067695378209,
+   "p": 41,
+   "q_mod_p": {
+    "1231": 1,
+    "3872287": 1
+   },
+   "regime": {
+    "1231": "q=1 mod p: Prop C hyperbolic, gate VACUOUS",
+    "3872287": "q=1 mod p: Prop C hyperbolic, gate VACUOUS"
+   }
+  },
+  {
+   "factorization": {
+    "14136248023": 2
+   },
+   "order": 199833508167771408529,
+   "p": 43,
+   "q_mod_p": {
+    "14136248023": 1
+   },
+   "regime": {
+    "14136248023": "q=1 mod p: Prop C hyperbolic, gate VACUOUS"
+   }
+  },
+  {
+   "factorization": {
+    "12973": 2,
+    "9583207": 2
+   },
+   "order": 15456194507020596136921,
+   "p": 47,
+   "q_mod_p": {
+    "12973": 1,
+    "9583207": 1
+   },
+   "regime": {
+    "12973": "q=1 mod p: Prop C hyperbolic, gate VACUOUS",
+    "9583207": "q=1 mod p: Prop C hyperbolic, gate VACUOUS"
+   }
+  },
+  {
+   "factorization": {
+    "3242477591971": 2
+   },
+   "order": 10513660934434054763664841,
+   "p": 53,
+   "q_mod_p": {
+    "3242477591971": 1
+   },
+   "regime": {
+    "3242477591971": "q=1 mod p: Prop C hyperbolic, gate VACUOUS"
+   }
+  },
+  {
+   "factorization": {
+    "119276927797": 2,
+    "709": 2
+   },
+   "order": 7151635300483451540767973329,
+   "p": 59,
+   "q_mod_p": {
+    "119276927797": 1,
+    "709": 1
+   },
+   "regime": {
+    "119276927797": "q=1 mod p: Prop C hyperbolic, gate VACUOUS",
+    "709": "q=1 mod p: Prop C hyperbolic, gate VACUOUS"
+   }
+  }
+ ]
+}

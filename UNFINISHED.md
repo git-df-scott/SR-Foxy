@@ -1,3 +1,14 @@
+> **Opus update, 17 September.** §3's larger-`s` targets and §7's structural
+> obstacle are unchanged, but two whole families of test are now excluded *by
+> theorem*: see `research/33_one_stabilization_and_the_forced_collapse.md`.
+> Lemma B there shows every Seifert-form invariant is forced to agree across the
+> Abe–Tagami family, so Fox–Milnor, Levine–Tristram, Milnor signatures and the
+> algebraic concordance class can never obstruct any `D_{n,m}`. Theorem A there
+> shows `K_0` and `K_1` cobound an explicit annulus in `(S³×I) # (S²×S²)`:
+> the lane is at most one stabilization from a counterexample. `Σ₂(K_1)` is
+> (numerically) hyperbolic, which closes the plumbing route to `research/21`
+> §3's d-invariant gate. Still no counterexample.
+
 > Astra update, 16 September: §3's ordinary s computations over Q and F2
 > are superseded by additivity; see E16-2 in `ERRATA_2026-09-16.md`.
 > Historical running markers are not evidence of a currently live process.

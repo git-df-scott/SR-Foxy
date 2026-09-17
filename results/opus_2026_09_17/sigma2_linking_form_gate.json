@@ -1,0 +1,82 @@
+{
+ "controls": {
+  "3_1": {
+   "H1": "Z/3",
+   "genus_of_seifert_matrix": 1,
+   "lambda_gg": "1/3"
+  },
+  "4_1": {
+   "H1": "Z/5",
+   "genus_of_seifert_matrix": 1,
+   "lambda_gg": "3/5"
+  },
+  "5_1": {
+   "H1": "Z/5",
+   "genus_of_seifert_matrix": 2,
+   "lambda_gg": "1/5"
+  },
+  "6_1": {
+   "H1": "Z/9",
+   "genus_of_seifert_matrix": 4,
+   "lambda_gg": "5/9"
+  },
+  "6_3": {
+   "H1": "Z/13",
+   "genus_of_seifert_matrix": 2,
+   "lambda_gg": "5/13"
+  }
+ },
+ "metabolizer_tests": {
+  "D(0,1)": {
+   "a_i": 5,
+   "a_i*a_j mod 13": 4,
+   "a_j": 6,
+   "is_quadratic_residue": true,
+   "metabolizer_exists": true,
+   "obstruction_fires": false
+  },
+  "D(0,2)": {
+   "a_i": 5,
+   "a_i*a_j mod 13": 9,
+   "a_j": 7,
+   "is_quadratic_residue": true,
+   "metabolizer_exists": true,
+   "obstruction_fires": false
+  },
+  "D(1,2)": {
+   "a_i": 6,
+   "a_i*a_j mod 13": 3,
+   "a_j": 7,
+   "is_quadratic_residue": true,
+   "metabolizer_exists": true,
+   "obstruction_fires": false
+  }
+ },
+ "quadratic_residues_mod_13": [
+  1,
+  3,
+  4,
+  9,
+  10,
+  12
+ ],
+ "snappy": "3.3.2",
+ "targets": {
+  "K_0 (= 6_3)": {
+   "H1": "Z/13",
+   "lambda_gg": "5/13",
+   "seifert_matrix_size": 4
+  },
+  "K_1": {
+   "H1": "Z/13",
+   "lambda_gg": "6/13",
+   "seifert_matrix_size": 34
+  },
+  "K_2": {
+   "H1": "Z/13",
+   "lambda_gg": "7/13",
+   "seifert_matrix_size": 60
+  }
+ },
+ "verdict": "NO OBSTRUCTION. All three Z/13 linking forms lie in the same square class (5, 6, 7 are all non-residues mod 13), so every D_{i,j} admits a linking-form metabolizer and this gate is passed, not failed. This excludes exactly one thing: the order-13 linking form of the double branched cover cannot obstruct sliceness of D_{0,1}, D_{0,2} or D_{1,2}."
+}

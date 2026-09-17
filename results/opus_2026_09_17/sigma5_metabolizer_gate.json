@@ -1,0 +1,212 @@
+{
+ "controls": {
+  "10_3": {
+   "invariant_factors": [
+    211,
+    211
+   ],
+   "metabolic": "not attempted",
+   "note": "group too large for the direct search here; not a negative result",
+   "order": 44521,
+   "ribbon": true
+  },
+  "6_1": {
+   "invariant_factors": [
+    31,
+    31
+   ],
+   "metabolic": true,
+   "metabolizer_generators": [
+    [
+     15,
+     1
+    ]
+   ],
+   "nodes": 2,
+   "order": 961,
+   "ribbon": true,
+   "verification": {
+    "ok": true,
+    "pairings_checked": 961,
+    "size": 31
+   }
+  },
+  "9_46": {
+   "invariant_factors": [
+    31,
+    31
+   ],
+   "metabolic": true,
+   "metabolizer_generators": [
+    [
+     1,
+     0
+    ]
+   ],
+   "nodes": 2,
+   "order": 961,
+   "ribbon": true,
+   "verification": {
+    "ok": true,
+    "pairings_checked": 961,
+    "size": 31
+   }
+  }
+ },
+ "p": 5,
+ "seconds": 24.2,
+ "snappy": "3.3.2",
+ "target": {
+  "D01_group": [
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4
+  ],
+  "D01_order": 65536,
+  "H1_K_0": [
+   4,
+   4,
+   4,
+   4
+  ],
+  "H1_K_1": [
+   4,
+   4,
+   4,
+   4
+  ],
+  "OBSTRUCTION_FIRES": false,
+  "gram_K_0": [
+   [
+    "1/2",
+    "1/4",
+    "1/4",
+    "0"
+   ],
+   [
+    "1/4",
+    "0",
+    "0",
+    "1/4"
+   ],
+   [
+    "1/4",
+    "0",
+    "1/2",
+    "0"
+   ],
+   [
+    "0",
+    "1/4",
+    "0",
+    "0"
+   ]
+  ],
+  "gram_K_1": [
+   [
+    "1/2",
+    "0",
+    "3/4",
+    "1/2"
+   ],
+   [
+    "0",
+    "0",
+    "1/4",
+    "3/4"
+   ],
+   [
+    "3/4",
+    "1/4",
+    "1/2",
+    "3/4"
+   ],
+   [
+    "1/2",
+    "3/4",
+    "3/4",
+    "1/2"
+   ]
+  ],
+  "isometry_images_of_standard_generators": [
+   [
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    2,
+    0,
+    3,
+    0
+   ],
+   [
+    0,
+    1,
+    2,
+    1
+   ]
+  ],
+  "metabolic": true,
+  "metabolizer_generators": [
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    2,
+    0,
+    3,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    2,
+    1
+   ]
+  ],
+  "metabolizer_verification": {
+   "ok": true,
+   "pairings_checked": 65536,
+   "size": 256
+  }
+ },
+ "verdict": "The Sigma_5 linking form of D_{0,1} is metabolic, with an explicitly verified metabolizer. The gate is passed: no obstruction. This excludes exactly one thing, the p = 5 linking-form obstruction."
+}

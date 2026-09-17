@@ -1,0 +1,60 @@
+{
+  "counterexample": false,
+  "status": "KDG_LANE_REFRAMED_AS_AGOL_REN_OPEN_QUESTION_NO_COUNTEREXAMPLE",
+  "timestamp_utc": "2026-09-17T19:12:00Z",
+  "branch": "claude/compassionate-carson-b6lxu8",
+  "primary_sources_fetched": [
+    {
+      "arxiv": "2603.23717",
+      "authors": ["Trevor Oliveira-Smith"],
+      "title": "A Dunfield-Gong 4-Sphere is Standard",
+      "date": "2026-03-24",
+      "claim_used": "18_nh00000601 is slice in the standard B^4, and bounds a fibered HANDLE-RIBBON disk in B^4",
+      "read": "abstract page"
+    },
+    {
+      "arxiv": "2603.10884",
+      "authors": ["Ian Agol", "Qiuyu Ren"],
+      "title": "Ribbon concordance of fibered knots and compressions of surface homeomorphisms",
+      "date": "2026-03-12",
+      "claims_used": [
+        "Section 2 definition: a concordance in a homotopy IxS^3 is STRONGLY HOMOTOPY-RIBBON iff its complement admits a relative handle decomposition with only 1- and 2-handles; write J <=_h K",
+        "Section 1.2 verbatim: 'To our knowledge, it is open whether <=_h is a strictly finer relation than <=.'",
+        "Theorem 1.4 (Casson-Gordon 1983): for fibered J,K, J <=_h K iff the monodromy of K compresses to that of J",
+        "Theorem 1.2: J <=_h K implies lambda(J) <= lambda(K)",
+        "Corollary 1.10(1): if slice-ribbon holds, every concordance class contains at most one fibered knot minimal with respect to <=_h"
+      ],
+      "read": "LaTeX source: abstract, sections 1.1, 1.2, 2 definitions, 7"
+    }
+  ],
+  "main_proposition": {
+    "statement": "KDG = 18nh00000601 is a counterexample to slice-ribbon if and only if <=_h is strictly finer than <=, witnessed at the pair (U, KDG).",
+    "proof_sketch": "KDG is slice in standard B^4 (Oliveira-Smith Cor 1.1.1), so it is a counterexample iff not ribbon, iff U not<= KDG. Agol-Ren's strongly-homotopy-ribbon condition IS the handle-ribbon condition (complement with only 1- and 2-handles), so Oliveira-Smith's fibered handle-ribbon disk gives U <=_h KDG, in the standard IxS^3. A pair with U <=_h KDG and U not<= KDG is exactly a witness that <=_h is strictly finer than <=.",
+    "consequence_1": "Proving KDG non-ribbon would simultaneously resolve an open question of Agol-Ren (March 2026).",
+    "consequence_2": "If <=_h = <= then KDG IS ribbon and the flagship lane dies.",
+    "consequence_3": "Explains why every OBSTRUCTION_MATRIX.md entry reads APPLIES BUT VANISHES for KDG: each such obstruction factors through <=_h, and U <=_h KDG holds.",
+    "character": "hardness calibration, NOT an obstruction; does not show KDG ribbon or non-ribbon"
+  },
+  "abe_tagami_certificate_replacement": {
+    "new_certificate": "Agol-Ren Corollary 1.10(1): if K_0 and K_1 are concordant fibered knots, both <=_h-minimal, and distinct, then slice-ribbon is false",
+    "advantage_over_miyazaki_5_5": "needs only fibered + distinct + <=_h-minimal; no irreducible Alexander condition and no prime-summand audit, the audit that ERRATA_2026-09-16 E16-1 already had to correct",
+    "distinctness_evidence": "exterior volumes 5.693021091 vs 9.120006501; Sigma_2(K_0) = L(13,5) is a lens space, Sigma_2(K_1) is not (research/21 section 2)",
+    "minimality_lemma": "If J <_h K are fibered and J != K then g(J) < g(K), immediate from the compression-body definition since a nontrivial compression strictly reduces -chi",
+    "genus_0_predecessor_excluded": "AIRTIGHT: U <=_h 6_3 would make 6_3 handle-ribbon hence slice, but det(6_3) = 13 is not a perfect square",
+    "genus_1_predecessors_excluded": "MODULO one lemma: Delta(3_1) = t^2-t+1 and Delta(4_1) = t^2-3t+1 neither divides the irreducible Delta(6_3) = t^4-3t^3+5t^2-3t+1"
+  },
+  "UNVERIFIED_DEPENDENCY": {
+    "needed": "J <=_h K implies Delta_J divides Delta_K",
+    "known": "Gilmer 1984 proves this for ribbon concordance <=",
+    "status": "NOT found stated at the <=_h level in the parts of Agol-Ren read, and NOT reconstructed here; plausible from the compression-body structure and the circle of ideas in Miyazaki Lemma 1.3, but recorded as UNVERIFIED, not established"
+  },
+  "UNKNOWN_not_a_failed_exclusion": {
+    "quantity": "lambda(6_3), the dilatation of the monodromy of 6_3",
+    "computed_here": "homological LOWER bound 1.722084, the spectral radius of the action on H_1(fiber), i.e. max |root| of Delta",
+    "why_it_does_not_decide": "the bound is attained by a complex-conjugate pair, so the invariant foliations are not orientable and lambda(6_3) is strictly larger by an unknown amount; a lower bound cannot exclude 4_1 (lambda = 2.618034)",
+    "what_would_settle_it": "train-track software (flipper or Twister), not installed"
+  },
+  "not_rerun": ["65536 filling inputs", "ordinary s", "HKL", "Floer comparisons", "D01 two/three-parallel", "KDG four-parallel"],
+  "one_command_check": "python3 results/opus_2026_09_17_1912_agol_ren_reframing/check_agol_ren_arithmetic.py",
+  "checker_exit_status": 0
+}
