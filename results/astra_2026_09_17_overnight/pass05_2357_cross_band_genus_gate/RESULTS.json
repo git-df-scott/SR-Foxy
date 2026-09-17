@@ -1,0 +1,34 @@
+{
+  "status": "PASS_NO_COUNTEREXAMPLE",
+  "claim": "The canonical crossed double boundary-banding of the two product annuli is genus one, not an annulus. Under the separately stated conditional framing hypothesis, the naive two-handle shortcut also fails, while a full mixed unimodular hyperbolic basis exists; integral framing alone therefore does not supply the missing compression or ambient-standardness.",
+  "checks": {
+    "crossed_oriented_surface": {
+      "start": {"chi": 0, "boundary": 4, "components": 2},
+      "after_first_band": {"chi": -1, "boundary": 3, "components": 1},
+      "after_second_band": {"chi": -2, "boundary": 2, "components": 1},
+      "genus": 1,
+      "is_annulus": false
+    },
+    "conditional_framing": {
+      "Q_det": 1,
+      "naive_cross_pair_gram": [[2, 0], [0, -2]],
+      "naive_cross_pair_det": -4,
+      "mixed_basis_det": -1,
+      "mixed_basis_gram": [[0, 1, 0, 0], [1, 0, 0, 0], [0, 0, 0, 1], [0, 0, 1, 0]],
+      "target_hyperbolic_form": [[0, 1, 0, 0], [1, 0, 0, 0], [0, 0, 0, 1], [0, 0, 1, 0]]
+    },
+    "pure_four_two_handlebody": {
+      "two_handles": 4,
+      "one_handles": 0,
+      "three_handles_assumed": 0,
+      "H2_rank": 4,
+      "can_be_B4_without_additional_handle_cancellation": false
+    }
+  },
+  "scope": {
+    "rules_out": "Only the literal surface obtained from the two original product annuli by the two crossed boundary bands, without an additional compression or a different spanning annulus.",
+    "does_not_rule_out": "A different annulus with the same new boundary curves, or a compression of the canonical genus-one surface by a nonseparating disk in the disk exterior.",
+    "framing_section_is_conditional": true
+  },
+  "next_action": "Specify one replayable crossed band pair and a candidate nonseparating compression disk (or a separately embedded annulus), then check its marked-group word, framing, boundary knot and ambient standardness before any broad search."
+}

@@ -1,0 +1,7 @@
+{
+  "original_path_in_conversation": "/mnt/data/sr_foxy_pass03/PROPOSED_TRANSFER_THEOREM.md",
+  "original_attachment_id": "file_000000009af481fd9eb14961d680397d",
+  "original_sha256": "77df80d6269759fc1cf626a263e11e7e2b2a1d3c18fde05c1cb57139037ade36",
+  "correction": "Equation (2) requires the centered monomial (r+1)^n; section 5 top-degree extraction uses u=r+1. Original preserved.",
+  "input_repository_commit": "7a74678daccd9f3148b25a22a3f84a82eb1d374b"
+}

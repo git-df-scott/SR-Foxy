@@ -1,0 +1,41 @@
+{
+  "status": "EXPLICIT_CROSSED_BANDS_BOUNDARY_IS_UNLINK_NO_COUNTEREXAMPLE",
+  "source_commit": "70c6e7edfae59ecd042ae2d72dea851a0142f23d",
+  "source_path": "data/knots/AbeTagami_marked_product_scaffold.json",
+  "band1": {
+    "along_top": [[15,2],[16,2],[2,2],[41,0]],
+    "arc_is_under": [false,false],
+    "twist": 0,
+    "compressed_spec": "a40a423e_0_0",
+    "intended_pair": ["c1_upper","c2_lower"]
+  },
+  "band2": {
+    "along_top": [[13,2],[27,0],[32,2],[52,0]],
+    "arc_is_under": [false,false],
+    "twist": 0,
+    "compressed_spec": "d0826c36_0_0",
+    "intended_pair": ["c2_upper","c1_lower"]
+  },
+  "initial_component_lengths": [68,12,8,12,8],
+  "final_crossings": 62,
+  "final_component_lengths": [74,26,24],
+  "eta_sublink_pd": [[0,1,2,3],[4,0,3,5],[2,6,7,8],[9,7,6,10],[1,11,9,10],[4,5,8,11]],
+  "eta_sublink_components": 2,
+  "eta_sublink_crossings": 6,
+  "reidemeister_II_sequence": [["R2",1,5,3,1],["R2",0,2,2,0],["R2",3,4,0,2]],
+  "reidemeister_result": "zero-crossing two-component diagram; hence the 2-component unlink",
+  "first_unlinking_bigon_relative_to_R": {
+    "eta_crossings_full": [26,56],
+    "side_1_mixed_crossings": [17],
+    "side_2_mixed_crossings": [18],
+    "R_edge_connects": [[17,0],[18,2]],
+    "conclusion": "the first RII move is not available in the complement of R"
+  },
+  "scope": [
+    "This certifies the two NEW boundary curves form L_0 in S^3.",
+    "It does not certify an annulus between them in the product-disk exterior.",
+    "It does not compute their based words in the product-disk group.",
+    "It does not certify Park 0-standardness, surgery boundary knot identity, or a slice disk."
+  ],
+  "counterexample": false
+}

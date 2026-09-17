@@ -1,0 +1,33 @@
+{
+  "status": "NO_COUNTEREXAMPLE_NEW_VERIFIED_REDUCTION",
+  "counterexample": false,
+  "pass": "pass01_2203",
+  "base_main_before_pass": "a624b2c5b40e504d91c6bbff921eed67a989c5ba",
+  "result_summary": [
+    "Independent audit found the low-wrapping transfer lemma sound conditional on stored KDG cable identifications and values.",
+    "Clarified a terminology hazard: the zero quantity in the two-parallel annulus argument is the ordinary link determinant V(L)(i)=Delta(L)(i), not Eisermann's reduced Jones determinant.",
+    "Identified the canonical four-parallel pattern P=z^4 as the first explicit degree-four ribbon pattern; P(U) is the four-component unlink and a(alpha)=1.",
+    "Reduced its direct KDG test to the existing order-five root-jet engine: exact delta^4 divisibility first, then quotient residue 25^4=1 mod 32.",
+    "Prepared a bounded reproducible runner with a 6_1^4 ribbon control and strict modular-vs-exact qualifications."
+  ],
+  "exact_unresolved_step": "Run the prepared KDG four-parallel root-jet in the pinned SnapPy/Spherogram environment. This automation container does not have snappy or spherogram installed, so no four-parallel diagram or Jones value was claimed.",
+  "environment_check": {
+    "snappy_available": false,
+    "spherogram_available": false,
+    "note": "Verified in the automation Python environment before preparing the runner."
+  },
+  "artifacts": [
+    "results/astra_2026_09_17_overnight/pass01_2203/LOW_WRAPPING_AUDIT.md",
+    "results/astra_2026_09_17_overnight/pass01_2203/KDG_4PARALLEL_GATE.md",
+    "results/astra_2026_09_17_overnight/pass01_2203/run_kdg_4parallel_gate.py"
+  ],
+  "primary_source": {
+    "author": "Michael Eisermann",
+    "title": "The Jones polynomial of ribbon links",
+    "venue": "Geometry & Topology 13 (2009), 623-660",
+    "locations": ["Theorem 1", "Theorem 2", "Definition 6.12", "Proposition 6.13", "Corollary 6.15", "Example 6.16"],
+    "url": "https://pnp.mathematik.uni-stuttgart.de/igt/eiserm/publications/ribbonlinks.pdf",
+    "checked": "2026-09-17"
+  },
+  "single_next_action": "Execute run_kdg_4parallel_gate.py first in modular mode and, for any hit or before any mathematical verdict on nullity, rerun with --exact; independently verify a target hit before invoking slice-ribbon."
+}
