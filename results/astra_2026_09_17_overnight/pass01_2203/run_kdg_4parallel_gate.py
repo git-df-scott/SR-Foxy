@@ -172,7 +172,13 @@ def main():
             if probe["status"] != "COMPUTED":
                 manifest["status"] = "BLOCKED_BY_CONTROL_UNKNOWN"
                 break
-            if probe["result"]["ribbon_obstructed_mod_32"]:
+            control = probe["result"]
+            control_failed = bool(control["ribbon_obstructed_mod_32"])
+            if args.exact:
+                control_failed = control_failed or bool(
+                    control.get("ribbon_divisibility_obstructed_exact")
+                )
+            if control_failed:
                 manifest["status"] = "CONTROL_FAILED"
                 break
 
