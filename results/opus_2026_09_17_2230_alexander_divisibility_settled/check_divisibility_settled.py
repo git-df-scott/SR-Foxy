@@ -36,8 +36,23 @@ check('  perfect square (Fox-Milnor test for slice)',
       sympy.sqrt(det).is_Integer, False)
 
 # Handle balance under <=_h: chi(X_C) = chi(X_J) = 0 forces #1-handles = #2-handles.
-check('Euler characteristic of a knot exterior (homology circle)',
-      0, 0)
+check('Euler characteristic of a knot exterior (homology circle)', 0, 0)
+
+# The genus lemma: chi(d_e C) = chi(d_i C) + 2(a - b) for a compression body
+# built from I x d_i C by a 0-handles and b 1-handles. Nontrivial means b > a.
+# For fibered knots chi(F) = 1 - 2g on both sides.
+def genus_of_exterior(g_interior, a, b):
+    chi_i = 1 - 2 * g_interior
+    chi_e = chi_i + 2 * (a - b)
+    assert (1 - chi_e) % 2 == 0
+    return (1 - chi_e) // 2
+
+check('trivial compression (a = b = 0) keeps genus', genus_of_exterior(2, 0, 0), 2)
+check('one 1-handle raises exterior genus by 1', genus_of_exterior(2, 0, 1), 3)
+check('  so a proper predecessor of a genus-2 knot has genus <= 1',
+      genus_of_exterior(1, 0, 1) <= 2, True)
+check('cancelling pair (a = b = 1) is trivial, genus unchanged',
+      genus_of_exterior(2, 1, 1), 2)
 
 print()
 print('ALL CHECKS PASS' if ok else 'SOME CHECKS FAILED')

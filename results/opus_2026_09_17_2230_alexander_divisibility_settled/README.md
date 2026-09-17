@@ -43,16 +43,15 @@ needed.
 
 The chain, hypothesis by hypothesis:
 
-1. **`≤_h` gives the surjectivity.** Agol–Ren §2: `J ≤_h K` iff the concordance
-   complement admits a relative handle decomposition with only 1- and 2-handles.
-   Relative to the *smaller* end `X_J` — this is fixed by the ribbon-disk case,
-   where `X_U` is a solid torus and the disk exterior is a 0-handle plus 1- and
-   2-handles. Dually the decomposition is relative to `X_K` with handles of index
-   `4−1 = 3` and `4−2 = 2`, i.e. **index ≥ 2 only**, which changes `π₁` by adding
-   relations at most. Hence `π₁(X_K) ↠ π₁(X_C)`. Friedl–Powell make exactly this
-   step for `≥_sm` in their §1 ("*admits a handle decomposition relative to `X_J`
-   with only 2- and 3-handles, from which it is easy to see that the induced map
-   … is surjective*").
+1. **`≤_h` gives the surjectivity — and Agol–Ren state this themselves.** In
+   the proof of their Theorem 1.4 they write, verbatim: *"Since `C` is a strongly
+   homotopy-ribbon concordance, `B∖D` can be built from `S³∖K` by attaching
+   2,3-handles, showing that `π₁(S³∖K) → π₁(B∖D)` is surjective."* So this step
+   is **sourced, not derived here**. The same proof also fixes the "relative to
+   which end" convention beyond doubt: its sufficiency direction says the
+   complement "*is built from `S³∖J` by attaching 1,2-handles (since `C` is built
+   from `∂_iC` by attaching 1-handles)*" — relative to the **smaller** end,
+   as the ribbon-disk case demands.
 2. **The ambient.** Friedl–Powell state Theorem 1.1 for `S³ × I`; Agol–Ren's
    `≤_h` allows *some homotopy* `I × S³`. A homotopy `I × S³` is a simply
    connected h-cobordism from `S³` to `S³`, hence **homeomorphic to `S³ × I`** by
@@ -92,8 +91,8 @@ depend on it.
 is now available, so:
 
 * A nontrivial compression strictly reduces `−χ`, so a proper `≤_h`-predecessor
-  of a fibered knot has **strictly smaller genus** (Agol–Ren Thm 1.4 plus their
-  §2 compression-body definition).
+  of a fibered knot has **strictly smaller genus**. This is now *proved*, not
+  asserted — see §"The genus lemma" below.
 * `6_3` has genus 2, so proper predecessors have genus `≤ 1`.
 * **Genus 0** (the unknot): `U ≤_h 6_3` would make `6_3` handle-ribbon hence
   slice, but `det(6_3) = 13` is not a perfect square. Excluded.
@@ -117,6 +116,42 @@ most error-prone dependency is retired.**
 
 The missing ingredient is unchanged and untouched: a smooth concordance
 `K_0 ≃ K_1`.
+
+## The genus lemma, proved
+
+The previous checkpoint called this "immediate from their definitions". It is,
+but here is the computation, so the certificate is self-contained.
+
+Agol–Ren §2: a relative compression body `C` has
+`∂C = (−∂_iC) ∪ A ∪ ∂_eC` with `A` a union of **annuli**, and `C` is obtained
+from `I × ∂_iC` by attaching `a` 0-handles and `b` 1-handles.
+
+For a compact 3-manifold, `χ(∂C) = 2χ(C)`. Annuli have `χ = 0`, so
+`χ(∂_iC) + χ(∂_eC) = 2χ(C)`. Also `χ(C) = χ(∂_iC) + a − b`. Combining:
+
+```
+χ(∂_eC) = χ(∂_iC) + 2(a − b)
+```
+
+A compression is trivial exactly when `C ≅ I × ∂_iC`, i.e. when the 0- and
+1-handles cancel; a **nontrivial** compression has `b > a`, whence
+`χ(∂_eC) < χ(∂_iC)`, i.e. `−χ` strictly increases from interior to exterior
+boundary.
+
+For fibered **knots** the fibers are connected with one boundary circle — the
+vertical boundary `A ≅ I × ∂(∂_iC) ≅ I × ∂(∂_eC)` forces the same number of
+boundary circles on both sides, and Agol–Ren restrict to connected `∂_iC` when
+concluding that the compressed monodromy is a fibered knot's. So
+`χ(F) = 1 − 2g` on both sides and
+
+```
+1 − 2g(K) < 1 − 2g(J)   ⟹   g(J) < g(K).
+```
+
+> **Lemma.** If `J <_h K` are fibered knots with `J ≠ K`, then `g(J) < g(K)`.
+
+Since `∂_eC = F_K` and `∂_iC = F_J` by Theorem 1.4, this is exactly what the
+minimality argument needs.
 
 ## Positive control
 

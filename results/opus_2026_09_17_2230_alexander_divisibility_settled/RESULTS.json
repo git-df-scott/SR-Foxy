@@ -1,56 +1,67 @@
 {
-  "counterexample": false,
-  "status": "ALEXANDER_DIVISIBILITY_UNDER_LEQ_H_SETTLED_AFFIRMATIVELY",
-  "question": "Does J <=_h K imply Delta_J divides Delta_K, or does Gilmer's argument genuinely need the stronger J <= K?",
-  "verdict": "BOTH. Gilmer's proof does need more (Friedl-Powell: 'Gilmer's proof does not extend to the topological category'), but the theorem is TRUE under strictly weaker hypotheses by a different proof. So J <=_h K implies Delta_J | Delta_K.",
-  "timestamp_utc": "2026-09-17T22:30:00Z",
-  "discharges": "the UNVERIFIED DEPENDENCY recorded in results/opus_2026_09_17_1912_agol_ren_reframing/RESULTS.json",
-  "primary_source": {
-    "arxiv": "1907.09031",
-    "authors": ["Stefan Friedl", "Mark Powell"],
-    "title": "Homotopy ribbon concordance and Alexander polynomials",
-    "read": "LaTeX source, ribbon-conc-alex-poly-links-4.tex",
-    "theorem_1_1": "If J >=_top L then Delta_L divides Delta_J",
-    "definition_of_geq_top": "locally flat concordance C in S^3 x I from J to -L with pi_1(X_J) -> pi_1(X_C) SURJECTIVE and pi_1(X_L) -> pi_1(X_C) INJECTIVE",
-    "decisive_remark_verbatim": "Perhaps somewhat surprisingly, the condition that pi_1(X_L) -> pi_1(X_C) is injective is not needed anywhere in our proof of Theorem 1.1.",
-    "gilmer_remark_verbatim": "For knots and for >=_sm instead of >=_top, Theorem 1.1 is a consequence of a more general theorem of Gilmer. However Gilmer's proof does not extend to the topological category."
-  },
-  "convention_alignment": {
-    "warning": "the two papers orient the relation oppositely; inverting this would invert the conclusion",
-    "friedl_powell_J_surjective_end": "= Agol-Ren's K",
-    "friedl_powell_L_injective_end": "= Agol-Ren's J",
-    "so_Delta_L_divides_Delta_J_reads": "Delta_J | Delta_K in Agol-Ren's J <= K notation, the direction needed"
-  },
-  "chain_of_implication": [
-    "Agol-Ren <=_h gives a relative handle decomposition of the concordance complement with only 1- and 2-handles, relative to the SMALLER end X_J (fixed by the ribbon-disk case: X_U a solid torus, disk exterior a 0-handle plus 1- and 2-handles)",
-    "dually that is a decomposition relative to X_K with handles of index 3 and 2 only, i.e. index >= 2, which can only add relations to pi_1, so pi_1(X_K) -> pi_1(X_C) is SURJECTIVE; Friedl-Powell make exactly this step for >=_sm in their section 1",
-    "a homotopy I x S^3 is a simply connected h-cobordism from S^3 to S^3, hence HOMEOMORPHIC to S^3 x I by Freedman's topological h-cobordism theorem, so a smooth concordance in it is a locally flat concordance in S^3 x I, the category Friedl-Powell work in",
-    "Theorem 1.1 needs only the surjectivity, by the authors' own remark, so no appeal to Gordon Lemma 3.1 or residual finiteness is required",
-    "therefore J <=_h K implies Delta_J | Delta_K"
+ "ambient_note": "Friedl-Powell separately remark their proof 'can also be generalised to concordances between links in homology spheres' but did not carry it out; that remark is NOT relied on here. The Freedman h-cobordism route is used instead.",
+ "campaign_consequence": {
+  "6_3_genus": 2,
+  "conclusion": "K_0 = 6_3 and K_1 = A_1(6_3) are both <=_h-minimal and distinct, so by Agol-Ren Corollary 1.10(1), if they are smoothly concordant then the Slice-Ribbon Conjecture is false",
+  "genus_0_predecessor": "EXCLUDED: U <=_h 6_3 would make 6_3 handle-ribbon hence slice, but det = 13 is not a perfect square",
+  "genus_1_predecessors": "EXCLUDED: Delta(3_1) = t^2-t+1 and Delta(4_1) = t^2-3t+1 neither divides the irreducible Delta(6_3) = t^4-3t^3+5t^2-3t+1",
+  "minimality_lemma_now_available": "a nontrivial compression strictly reduces -chi, so a proper <=_h-predecessor of a fibered knot has strictly smaller genus",
+  "what_is_unchanged": "the missing ingredient is still a smooth concordance K_0 ~ K_1",
+  "what_this_buys": "the certificate now needs only fibered + distinct + <=_h-minimal, with no irreducible-Alexander hypothesis on the pair and no prime-summand audit, retiring the dependency that ERRATA_2026-09-16 E16-1 already had to correct once"
+ },
+ "chain_of_implication": [
+  "Agol-Ren state the surjectivity themselves in the proof of their Theorem 1.4, verbatim: 'Since C is a strongly homotopy-ribbon concordance, B\\D can be built from S^3\\K by attaching 2,3-handles, showing that pi_1(S^3\\K) -> pi_1(B\\D) is surjective.' The same proof fixes the relative-to-which-end convention: its sufficiency direction says the complement is built from S^3\\J by 1,2-handles, i.e. relative to the SMALLER end. This step is sourced, not derived here.",
+  "dually that is a decomposition relative to X_K with handles of index 3 and 2 only, i.e. index >= 2, which can only add relations to pi_1, so pi_1(X_K) -> pi_1(X_C) is SURJECTIVE; Friedl-Powell make exactly this step for >=_sm in their section 1",
+  "a homotopy I x S^3 is a simply connected h-cobordism from S^3 to S^3, hence HOMEOMORPHIC to S^3 x I by Freedman's topological h-cobordism theorem, so a smooth concordance in it is a locally flat concordance in S^3 x I, the category Friedl-Powell work in",
+  "Theorem 1.1 needs only the surjectivity, by the authors' own remark, so no appeal to Gordon Lemma 3.1 or residual finiteness is required",
+  "therefore J <=_h K implies Delta_J | Delta_K"
+ ],
+ "checker_exit_status": 0,
+ "convention_alignment": {
+  "friedl_powell_J_surjective_end": "= Agol-Ren's K",
+  "friedl_powell_L_injective_end": "= Agol-Ren's J",
+  "so_Delta_L_divides_Delta_J_reads": "Delta_J | Delta_K in Agol-Ren's J <= K notation, the direction needed",
+  "warning": "the two papers orient the relation oppositely; inverting this would invert the conclusion"
+ },
+ "counterexample": false,
+ "discharges": "the UNVERIFIED DEPENDENCY recorded in results/opus_2026_09_17_1912_agol_ren_reframing/RESULTS.json",
+ "genus_lemma_now_proved": {
+  "proof": "Agol-Ren section 2: a relative compression body C has dC = (-d_iC) u A u d_eC with A a union of annuli, and C is obtained from I x d_iC by a 0-handles and b 1-handles. For a compact 3-manifold chi(dC) = 2 chi(C); annuli have chi 0, so chi(d_iC) + chi(d_eC) = 2 chi(C). Also chi(C) = chi(d_iC) + a - b. Hence chi(d_eC) = chi(d_iC) + 2(a-b). A trivial compression is C = I x d_iC, i.e. the handles cancel; a nontrivial one has b > a, so chi(d_eC) < chi(d_iC). For fibered knots both fibers are connected with one boundary circle (the vertical boundary forces equal boundary counts), so chi(F) = 1 - 2g and 1-2g(K) < 1-2g(J), i.e. g(J) < g(K).",
+  "statement": "If J <_h K are fibered knots with J != K then g(J) < g(K)",
+  "status": "PROVED here from their definitions; the previous checkpoint only asserted it"
+ },
+ "one_command_check": "python3 results/opus_2026_09_17_2230_alexander_divisibility_settled/check_divisibility_settled.py",
+ "positive_control": {
+  "alexander_polynomials": [
+   "t^4-2t^3+3t^2-2t+1",
+   "t^4-6t^3+11t^2-6t+1"
   ],
-  "ambient_note": "Friedl-Powell separately remark their proof 'can also be generalised to concordances between links in homology spheres' but did not carry it out; that remark is NOT relied on here. The Freedman h-cobordism route is used instead.",
-  "strengthening_not_relied_on": {
-    "source": "author comment in the Friedl-Powell LaTeX source",
-    "content": "Gordon's argument actually proves: if Y = X with n 1-handles and n 2-handles attached and H_*(Y,X) = 0, then pi_1(X) -> pi_1(Y) is a monomorphism, whenever pi_1(X) is residually finite",
-    "why_it_applies_under_leq_h": "handle counts are automatically balanced since chi(X_C) = chi(X_J) = 0 for homology circles, H_*(X_C,X_J) = 0, and knot groups are residually finite",
-    "consequence": "<=_h implies the FULL >=_top condition, not merely the half Theorem 1.1 uses"
-  },
-  "campaign_consequence": {
-    "minimality_lemma_now_available": "a nontrivial compression strictly reduces -chi, so a proper <=_h-predecessor of a fibered knot has strictly smaller genus",
-    "6_3_genus": 2,
-    "genus_0_predecessor": "EXCLUDED: U <=_h 6_3 would make 6_3 handle-ribbon hence slice, but det = 13 is not a perfect square",
-    "genus_1_predecessors": "EXCLUDED: Delta(3_1) = t^2-t+1 and Delta(4_1) = t^2-3t+1 neither divides the irreducible Delta(6_3) = t^4-3t^3+5t^2-3t+1",
-    "conclusion": "K_0 = 6_3 and K_1 = A_1(6_3) are both <=_h-minimal and distinct, so by Agol-Ren Corollary 1.10(1), if they are smoothly concordant then the Slice-Ribbon Conjecture is false",
-    "what_this_buys": "the certificate now needs only fibered + distinct + <=_h-minimal, with no irreducible-Alexander hypothesis on the pair and no prime-summand audit, retiring the dependency that ERRATA_2026-09-16 E16-1 already had to correct once",
-    "what_is_unchanged": "the missing ingredient is still a smooth concordance K_0 ~ K_1"
-  },
-  "positive_control": {
-    "example": "Friedl-Powell's own: 3_1 # -3_1 and 4_1 # -4_1 are both slice hence concordant",
-    "alexander_polynomials": ["t^4-2t^3+3t^2-2t+1", "t^4-6t^3+11t^2-6t+1"],
-    "gcd": 1,
-    "meaning": "coprime, so neither is homotopy ribbon concordant to the other: the divisibility test is not vacuous on concordant pairs"
-  },
-  "why_no_counterexample_hunt": "Gilmer proves divisibility under <=. Any pair with J <=_h K and Delta_J not dividing Delta_K would satisfy J <=_h K but J not<= K, hence would by itself prove <=_h != <=, the question Agol-Ren record as open. A counterexample search was therefore at least as hard as an open problem; only the proof direction was tractable.",
-  "one_command_check": "python3 results/opus_2026_09_17_2230_alexander_divisibility_settled/check_divisibility_settled.py",
-  "checker_exit_status": 0
+  "example": "Friedl-Powell's own: 3_1 # -3_1 and 4_1 # -4_1 are both slice hence concordant",
+  "gcd": 1,
+  "meaning": "coprime, so neither is homotopy ribbon concordant to the other: the divisibility test is not vacuous on concordant pairs"
+ },
+ "primary_source": {
+  "arxiv": "1907.09031",
+  "authors": [
+   "Stefan Friedl",
+   "Mark Powell"
+  ],
+  "decisive_remark_verbatim": "Perhaps somewhat surprisingly, the condition that pi_1(X_L) -> pi_1(X_C) is injective is not needed anywhere in our proof of Theorem 1.1.",
+  "definition_of_geq_top": "locally flat concordance C in S^3 x I from J to -L with pi_1(X_J) -> pi_1(X_C) SURJECTIVE and pi_1(X_L) -> pi_1(X_C) INJECTIVE",
+  "gilmer_remark_verbatim": "For knots and for >=_sm instead of >=_top, Theorem 1.1 is a consequence of a more general theorem of Gilmer. However Gilmer's proof does not extend to the topological category.",
+  "read": "LaTeX source, ribbon-conc-alex-poly-links-4.tex",
+  "theorem_1_1": "If J >=_top L then Delta_L divides Delta_J",
+  "title": "Homotopy ribbon concordance and Alexander polynomials"
+ },
+ "question": "Does J <=_h K imply Delta_J divides Delta_K, or does Gilmer's argument genuinely need the stronger J <= K?",
+ "status": "ALEXANDER_DIVISIBILITY_UNDER_LEQ_H_SETTLED_AFFIRMATIVELY_AND_GENUS_LEMMA_PROVED",
+ "strengthening_not_relied_on": {
+  "consequence": "<=_h implies the FULL >=_top condition, not merely the half Theorem 1.1 uses",
+  "content": "Gordon's argument actually proves: if Y = X with n 1-handles and n 2-handles attached and H_*(Y,X) = 0, then pi_1(X) -> pi_1(Y) is a monomorphism, whenever pi_1(X) is residually finite",
+  "source": "author comment in the Friedl-Powell LaTeX source",
+  "why_it_applies_under_leq_h": "handle counts are automatically balanced since chi(X_C) = chi(X_J) = 0 for homology circles, H_*(X_C,X_J) = 0, and knot groups are residually finite"
+ },
+ "timestamp_utc": "2026-09-17T22:30:00Z",
+ "verdict": "BOTH. Gilmer's proof does need more (Friedl-Powell: 'Gilmer's proof does not extend to the topological category'), but the theorem is TRUE under strictly weaker hypotheses by a different proof. So J <=_h K implies Delta_J | Delta_K.",
+ "why_no_counterexample_hunt": "Gilmer proves divisibility under <=. Any pair with J <=_h K and Delta_J not dividing Delta_K would satisfy J <=_h K but J not<= K, hence would by itself prove <=_h != <=, the question Agol-Ren record as open. A counterexample search was therefore at least as hard as an open problem; only the proof direction was tractable."
 }
