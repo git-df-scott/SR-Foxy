@@ -1,0 +1,106 @@
+[
+  {
+    "name": "ribbon61_3parallel",
+    "status": "COMPUTED",
+    "result": {
+      "components": 3,
+      "crossings": 84,
+      "jet_mod_32": [
+        0,
+        25,
+        0,
+        11,
+        0,
+        11,
+        0,
+        25
+      ],
+      "exact_integer_arithmetic": true,
+      "exact_divisibility_remainder": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "exact_quotient_at_i": [
+        1785,
+        0
+      ],
+      "morse_width": 14,
+      "max_retained_states": 428,
+      "exhaustion_starts_tested": 84,
+      "layout_seed": 20260917,
+      "divisibility_remainder_mod_32": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient_at_i_mod_32": [
+        25,
+        0
+      ],
+      "expected_mod_32": 25,
+      "ribbon_obstructed_mod_32": false,
+      "ribbon_divisibility_obstructed_exact": false,
+      "scope": "Necessary ribbon conditions only; zero residue is inconclusive."
+    },
+    "seconds": 3.163
+  },
+  {
+    "name": "KDG_3parallel",
+    "status": "COMPUTED",
+    "result": {
+      "components": 3,
+      "crossings": 162,
+      "jet_mod_32": [
+        0,
+        9,
+        0,
+        27,
+        0,
+        27,
+        0,
+        9
+      ],
+      "exact_integer_arithmetic": true,
+      "exact_divisibility_remainder": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "exact_quotient_at_i": [
+        6601,
+        0
+      ],
+      "morse_width": 20,
+      "max_retained_states": 16156,
+      "exhaustion_starts_tested": 162,
+      "layout_seed": 20260917,
+      "divisibility_remainder_mod_32": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient_at_i_mod_32": [
+        9,
+        0
+      ],
+      "expected_mod_32": 9,
+      "ribbon_obstructed_mod_32": false,
+      "ribbon_divisibility_obstructed_exact": false,
+      "scope": "Necessary ribbon conditions only; zero residue is inconclusive."
+    },
+    "seconds": 19.361
+  }
+]

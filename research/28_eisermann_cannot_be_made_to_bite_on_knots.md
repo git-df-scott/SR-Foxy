@@ -1,5 +1,16 @@
 # Two ways to make Eisermann non-vacuous for knots, and why both fail
 
+> Follow-up correction, 16 September: the seven cable computations below do
+> **not** prove that the cable congruence is an identity, or close all
+> ribbon-preserving satellite constructions. Eisermann's Proposition 6.13
+> explicitly preserves ribbonness under ribbon patterns; Corollary 6.15 treats
+> every parallel multiplicity. The discussion after Example 6.16 describes
+> boundary-link automaticity as a possible explanation, referring to open
+> Question 7.8. The blanket conclusions below are withdrawn. Primary source:
+> https://pnp.mathematik.uni-stuttgart.de/igt/eiserm/publications/ribbonlinks.pdf
+> A truncated exact Jones calculation and bounded KDG cable tests are recorded
+> in `results/astra_2026_09_16_followup/`. Passing a modular test is inconclusive.
+
 16 September 2026. **No counterexample to the Slice-Ribbon Conjecture was found.**
 This note is a **negative result**, recorded at the same prominence a hit would
 get, because both ideas are attractive enough that someone will have them again.

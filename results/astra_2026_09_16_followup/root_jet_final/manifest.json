@@ -1,0 +1,241 @@
+{
+  "input_sha256": "54df26b84472ecd3df54b969a25c802104dadf917c4500b1bf526abba4adfca4",
+  "jet_script_sha256": "97223ea0e8c9296319e1e11bb027f89a277ff2000059df6b377469be96d63a88",
+  "scope": "Necessary Eisermann conditions mod 32 only. Zero residue is inconclusive. No verified counterexample.",
+  "runs": [
+    {
+      "name": "trefoil_3parallel",
+      "p": 3,
+      "crossings": 45,
+      "braid_writhe": -3,
+      "linking_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "status": "COMPUTED",
+      "timeout_seconds": 45,
+      "rss_limit_mib": 1024,
+      "seconds": 2.606,
+      "exit_code": 0,
+      "result": {
+        "components": 3,
+        "crossings": 45,
+        "jet_mod_32": [
+          0,
+          5,
+          0,
+          15,
+          0,
+          15,
+          0,
+          5
+        ],
+        "morse_width": 12,
+        "max_retained_states": 112,
+        "exhaustion_starts_tested": 45,
+        "layout_seed": 20260917,
+        "divisibility_remainder_mod_32": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "quotient_at_i_mod_32": [
+          5,
+          0
+        ],
+        "expected_mod_32": 5,
+        "ribbon_obstructed_mod_32": false,
+        "scope": "Necessary ribbon conditions only; zero residue is inconclusive."
+      }
+    },
+    {
+      "name": "ribbon61_3parallel",
+      "p": 3,
+      "crossings": 84,
+      "braid_writhe": 2,
+      "linking_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "status": "COMPUTED",
+      "timeout_seconds": 45,
+      "rss_limit_mib": 1024,
+      "seconds": 2.575,
+      "exit_code": 0,
+      "result": {
+        "components": 3,
+        "crossings": 84,
+        "jet_mod_32": [
+          0,
+          25,
+          0,
+          11,
+          0,
+          11,
+          0,
+          25
+        ],
+        "morse_width": 14,
+        "max_retained_states": 428,
+        "exhaustion_starts_tested": 84,
+        "layout_seed": 20260917,
+        "divisibility_remainder_mod_32": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "quotient_at_i_mod_32": [
+          25,
+          0
+        ],
+        "expected_mod_32": 25,
+        "ribbon_obstructed_mod_32": false,
+        "scope": "Necessary ribbon conditions only; zero residue is inconclusive."
+      }
+    },
+    {
+      "name": "KDG_2parallel",
+      "p": 2,
+      "crossings": 72,
+      "braid_writhe": 0,
+      "linking_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "status": "COMPUTED",
+      "timeout_seconds": 45,
+      "rss_limit_mib": 1024,
+      "seconds": 2.573,
+      "exit_code": 0,
+      "result": {
+        "components": 2,
+        "crossings": 72,
+        "jet_mod_32": [
+          15,
+          0,
+          30,
+          0,
+          15,
+          0
+        ],
+        "morse_width": 14,
+        "max_retained_states": 427,
+        "exhaustion_starts_tested": 72,
+        "layout_seed": 20260917,
+        "divisibility_remainder_mod_32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "quotient_at_i_mod_32": [
+          17,
+          0
+        ],
+        "expected_mod_32": 17,
+        "ribbon_obstructed_mod_32": false,
+        "scope": "Necessary ribbon conditions only; zero residue is inconclusive."
+      }
+    },
+    {
+      "name": "KDG_3parallel",
+      "p": 3,
+      "crossings": 162,
+      "braid_writhe": 0,
+      "linking_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "status": "COMPUTED",
+      "timeout_seconds": 45,
+      "rss_limit_mib": 1024,
+      "seconds": 19.994,
+      "exit_code": 0,
+      "result": {
+        "components": 3,
+        "crossings": 162,
+        "jet_mod_32": [
+          0,
+          9,
+          0,
+          27,
+          0,
+          27,
+          0,
+          9
+        ],
+        "morse_width": 20,
+        "max_retained_states": 16144,
+        "exhaustion_starts_tested": 162,
+        "layout_seed": 20260917,
+        "divisibility_remainder_mod_32": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "quotient_at_i_mod_32": [
+          9,
+          0
+        ],
+        "expected_mod_32": 9,
+        "ribbon_obstructed_mod_32": false,
+        "scope": "Necessary ribbon conditions only; zero residue is inconclusive."
+      }
+    }
+  ],
+  "complete": true
+}
