@@ -29,6 +29,14 @@ This module is self-validating: `python3 scripts/sagefree_slice_filter.py`
 checks the invariants against knots and links whose values are in the tables.
 """
 from fractions import Fraction
+from math import isqrt
+
+
+def _seifert_rows(link):
+    """Accept both Spherogram's lists and its Sage matrix return type."""
+    matrix = link.seifert_matrix()
+    rows = matrix.rows() if hasattr(matrix, 'rows') else matrix
+    return [[int(value) for value in row] for row in rows]
 
 
 def linking_nums_all_zero(link):
@@ -88,7 +96,7 @@ def _signature_of_symmetric(M):
 
 
 def seifert_signature(link):
-    V = link.seifert_matrix()
+    V = _seifert_rows(link)
     n = len(V)
     S = [[V[i][j] + V[j][i] for j in range(n)] for i in range(n)]
     return _signature_of_symmetric(S)
@@ -123,18 +131,12 @@ def _det_int(M):
 
 def _is_square(m):
     m = abs(m)
-    if m == 0:
-        return True
-    r = int(m ** 0.5)
-    for c in (r - 2, r - 1, r, r + 1, r + 2):
-        if c >= 0 and c * c == m:
-            return True
-    return False
+    return isqrt(m) ** 2 == m
 
 
 def signature_and_det(link):
     """(signature of V+V^T, det of V+V^T) from one Seifert matrix."""
-    V = link.seifert_matrix()
+    V = _seifert_rows(link)
     n = len(V)
     S = [[V[i][j] + V[j][i] for j in range(n)] for i in range(n)]
     return _signature_of_symmetric(S), _det_int(S)
@@ -164,7 +166,7 @@ def slice_knot_screen(link):
 def _alexander_coeffs(link):
     """Coefficients of det(V - t V^T), lowest degree first, over Z."""
     import sympy
-    V = link.seifert_matrix()
+    V = _seifert_rows(link)
     n = len(V)
     if n == 0:
         return [1]

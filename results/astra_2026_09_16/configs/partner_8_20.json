@@ -1,0 +1,1 @@
+{"parameters": {"seed": 20260916, "seconds": 30, "rss_limit_mib": 1536, "twists": 2, "length": 3, "paths": "simple", "ribbon_cache": false, "recognize_terminal": true}, "jobs": [{"label": "partner_control_8_20", "prefix": [[[15, 6, 0, 7], [0, 11, 1, 12], [8, 1, 9, 2], [13, 2, 14, 3], [3, 14, 4, 15], [9, 5, 10, 4], [5, 11, 6, 10], [12, 8, 13, 7]]]}]}

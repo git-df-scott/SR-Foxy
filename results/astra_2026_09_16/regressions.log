@@ -1,0 +1,22 @@
+/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+test_component_screen_actually_rejects_nonslice_control (test_bounded_ribbon_search.CheckpointTests.test_component_screen_actually_rejects_nonslice_control) ... ok
+test_failed_component_calculation_keeps_candidate (test_bounded_ribbon_search.CheckpointTests.test_failed_component_calculation_keeps_candidate) ... ok
+test_failure_is_unknown_and_retried (test_bounded_ribbon_search.CheckpointTests.test_failure_is_unknown_and_retried) ... ok
+test_false_certificate_replay_is_unknown (test_bounded_ribbon_search.CheckpointTests.test_false_certificate_replay_is_unknown) ... ok
+test_large_square_exact (test_bounded_ribbon_search.CheckpointTests.test_large_square_exact) ... ok
+test_list_and_sage_matrix_interfaces_agree (test_bounded_ribbon_search.CheckpointTests.test_list_and_sage_matrix_interfaces_agree) ... ok
+test_streaming_error_not_complete (test_bounded_ribbon_search.CheckpointTests.test_streaming_error_not_complete) ... ok
+test_success_saves_paths_and_changed_input_refuses_resume (test_bounded_ribbon_search.CheckpointTests.test_success_saves_paths_and_changed_input_refuses_resume) ... ok
+test_coefficient_parser_rejects_code (test_research_audit.ResearchAuditTests.test_coefficient_parser_rejects_code) ... ok
+test_cyclotomic_relation (test_research_audit.ResearchAuditTests.test_cyclotomic_relation) ... ok
+test_failed_replay_cannot_certify (test_research_audit.ResearchAuditTests.test_failed_replay_cannot_certify) ... ok
+test_missing_endpoint_cannot_certify (test_research_audit.ResearchAuditTests.test_missing_endpoint_cannot_certify) ... ok
+test_nonnorm_negative_control (test_research_audit.ResearchAuditTests.test_nonnorm_negative_control) ... ok
+test_norm_positive_control (test_research_audit.ResearchAuditTests.test_norm_positive_control) ... ok
+test_rank_total_is_not_enough (test_research_audit.ResearchAuditTests.test_rank_total_is_not_enough) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.026s
+
+OK

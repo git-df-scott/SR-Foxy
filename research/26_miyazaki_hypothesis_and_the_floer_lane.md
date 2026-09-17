@@ -25,43 +25,18 @@ Miyazaki's Theorem 5.5 requires **every** prime fibered summand to satisfy one o
   among all fibered knots in homology spheres;
 * **(b)** there is no `f(t) ∈ Z[t] \ {±t^k}` with `f(t)f(t^{-1}) | Δ_{K_i}(t)`.
 
-**Proposition.** *Let `J` be a nontrivial ribbon knot. Then `J` satisfies neither
-(a) nor (b). Consequently Theorem 5.5 does not apply to any connected sum having
-`J` as a prime summand, and in particular cannot obstruct the ribbonness of
-`K # J` for any `K`.*
+**Corrected proposition (Astra review, 16 September).** Let `J` be a
+nontrivial **prime fibered ribbon** knot. It is not minimal in the
+homotopy-ribbon order, since it lies above the unknot, and its nonconstant
+Alexander polynomial is a Fox–Milnor norm. Both alternatives fail for this
+prime summand, so the stated Miyazaki theorem does not apply to `K # J`.
 
-*Proof.* (a): `J` ribbon gives a ribbon concordance `U → J`, hence `J ≥ U`, and a
-ribbon concordance is in particular a homotopic ribbon concordance. `U` is a
-fibered knot in `S^3` and `U ≠ J`, so `J` is not minimal. (Gordon's Lemma 3.4,
-in the form Hom–Park use, gives the same thing via `g(J) > g(U) = 0`.) (b): `J`
-ribbon is slice, so Fox–Milnor gives `Δ_J(t) = f(t)f(t^{-1})` up to units. `J` is
-nontrivial and fibered, so `deg Δ_J = 2g(J) > 0` and `f ∉ {±t^k}`; `f` is then an
-explicit witness against (b). ∎
-
-Note what the proposition does *not* require: primality of `J`, fiberedness of
-`J`, or anything about `K`. It applies to `J` itself as a summand.
-
-This is not an accident of these three knots. It says Miyazaki 5.5 is
-*constitutionally* unable to obstruct a Teichner sum — which is exactly what the
-Teichner lane needs to be true, since `K # J` ribbon must not imply `K` ribbon or
-the lane would be vacuous. The old claim was therefore in tension with this
-repository's own reason for running the lane.
-
-### 1.1 The rule that is correct, which is not the negation of the wrong one
-
-> Miyazaki 5.5 excludes `D_{0,1} # J` **iff every prime summand of `J`** satisfies
-> (a) or (b).
-
-Both directions have content.
-
-* A **prime fibered ribbon** `J` is never excluded: it fails at itself. `8_9`,
-  `8_20`, `9_27` are exactly this case, and are now running.
-* `J = L # (-L)` **is** excluded. Smallest case: the square knot
-  `Sq = 3_1 # (-3_1)`, whose prime summands `±3_1` are fibered with irreducible
-  `Δ = t² - t + 1`, which satisfies (b). So `K_0 # (-K_1) # 3_1 # (-3_1)` is
-  inside the theorem, `3_1` pairs with `-3_1`, and `K_0` would have to pair with
-  `-K_1`. No band search on such a `J` can ever return a certificate, and
-  `scripts/teichner_mirror_partners.py` now says so in its docstring.
+The former version incorrectly removed primality and fiberedness. For a
+composite ribbon `J`, the hypotheses must instead be checked on each prime
+summand. The square knot has eligible trefoil summands and its stabilization
+of `D01` is still nonribbon. No general assertion for arbitrary `L # (-L)`,
+and no iff characterization of ribbonness, is justified by this argument.
+See the corrected `ERRATA_2026-09-16.md`.
 
 ### 1.2 The repository already held the disproof of the unqualified version
 

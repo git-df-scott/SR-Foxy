@@ -69,7 +69,7 @@ obstruction is fully computable, and it is computed in
     d(L(13,5)) = { 0, ±2/13, ±2/13, ±6/13, ±6/13, ±8/13, ±8/13 }
 
 thirteen values, symmetric under negation — as it must be, since 6_3 is
-negative amphichiral and L(13,5) ≅ −L(13,5) because 5 · 8 ≡ 1 (mod 13). So
+negative amphichiral and L(13,5) ≅ −L(13,5) because 5² ≡ −1 (mod 13). So
 no orientation convention for Σ₂(K₀) is load-bearing.
 
 **Claim (elementary, offered for audit; not a new published result).**
@@ -95,16 +95,19 @@ it asks for thirteen rational numbers attached to one specific closed
 would be the first positive evidence the campaign has ever produced for the
 concordance the lane needs, rather than another exhausted finite search.
 
-## 4. The cheap route to the missing half is closed
+## 4. The tested Goeritz diagrams do not supply the missing half
 
 If some diagram of K₁ had a definite Goeritz form, Σ₂(K₁) would bound a
 definite 4-manifold and Ozsváth–Szabó's inequality would bound its
-d-invariants directly, with equality under sharpness. It does not: forty
-randomized diagrams of K₁ (rank-9 Goeritz forms) and of K₂ (rank-18) were all
-indefinite, while 6_3 returns a negative definite rank-3 form with determinant
-13 on the first try, as an alternating knot must. So the missing half needs a
-genuine Heegaard Floer computation for a closed hyperbolic rational homology
-sphere, not a lattice shortcut. No tool in the recorded environment does this.
+d-invariants directly, with equality under sharpness. Forty randomized diagrams of `K_1` and `K_2` returned indefinite Goeritz
+forms. This finite search does not exclude other diagrams or definite fillings.
+Hyperbolicity of the closed covers was not verified, so the earlier description
+of `Sigma_2(K_1)` as hyperbolic is withdrawn. A general correction-term
+computation or a usable surgery/plumbing description remains open.
+
+The bounded Regina recognition probe in `results/astra_2026_09_16/` recognizes
+the `K_0` control as `L(13,5)` and leaves the `K_1` triangulation unrecognized.
+Unrecognized does not mean hyperbolic or non-Seifert-fibered.
 
 ## 5. Reproduction
 

@@ -1,0 +1,156 @@
+{
+  "status": "SCOPED_INVARIANT_CALCULATIONS",
+  "input": "results/knotjob/inputs.txt",
+  "input_sha256": "3c6fb97cd2a85a89522ad65225d0885a64d0187c1767b2c774b60a12b6addce8",
+  "jar_sha256": "b63daf5f689660a276ed37bbca3393cb26fe62e097427cdd599647b874304718",
+  "java_version": "openjdk version \"25.0.4.1\" 2026-08-18 LTS\nOpenJDK Runtime Environment Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS)\nOpenJDK 64-Bit Server VM Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS, mixed mode, sharing)\n",
+  "names": [
+    "positive_trefoil",
+    "negative_trefoil",
+    "ribbon_6_1",
+    "AbeTagami_K_0_K_-1__6_3",
+    "AbeTagami_K_1",
+    "AbeTagami_K_2"
+  ],
+  "flags": [
+    "-s0",
+    "-s2"
+  ],
+  "timeout_seconds": 45,
+  "heap_limit": "2g",
+  "runs": [
+    {
+      "name": "positive_trefoil",
+      "flag": "-s0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/summand_s_check/positive_trefoil_s0.log",
+      "seconds": 0.517,
+      "printed_values": [
+        "S-Invariant mod 0 : 2"
+      ]
+    },
+    {
+      "name": "positive_trefoil",
+      "flag": "-s2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/summand_s_check/positive_trefoil_s2.log",
+      "seconds": 0.4,
+      "printed_values": [
+        "S-Invariant mod 2 : 2"
+      ]
+    },
+    {
+      "name": "negative_trefoil",
+      "flag": "-s0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/summand_s_check/negative_trefoil_s0.log",
+      "seconds": 0.419,
+      "printed_values": [
+        "S-Invariant mod 0 : -2"
+      ]
+    },
+    {
+      "name": "negative_trefoil",
+      "flag": "-s2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/summand_s_check/negative_trefoil_s2.log",
+      "seconds": 0.377,
+      "printed_values": [
+        "S-Invariant mod 2 : -2"
+      ]
+    },
+    {
+      "name": "ribbon_6_1",
+      "flag": "-s0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/summand_s_check/ribbon_6_1_s0.log",
+      "seconds": 0.396,
+      "printed_values": [
+        "S-Invariant mod 0 : 0"
+      ]
+    },
+    {
+      "name": "ribbon_6_1",
+      "flag": "-s2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/summand_s_check/ribbon_6_1_s2.log",
+      "seconds": 0.39,
+      "printed_values": [
+        "S-Invariant mod 2 : 0"
+      ]
+    },
+    {
+      "name": "AbeTagami_K_0_K_-1__6_3",
+      "flag": "-s0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/summand_s_check/AbeTagami_K_0_K_-1__6_3_s0.log",
+      "seconds": 0.399,
+      "printed_values": [
+        "S-Invariant mod 0 : 0"
+      ]
+    },
+    {
+      "name": "AbeTagami_K_0_K_-1__6_3",
+      "flag": "-s2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/summand_s_check/AbeTagami_K_0_K_-1__6_3_s2.log",
+      "seconds": 0.396,
+      "printed_values": [
+        "S-Invariant mod 2 : 0"
+      ]
+    },
+    {
+      "name": "AbeTagami_K_1",
+      "flag": "-s0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/summand_s_check/AbeTagami_K_1_s0.log",
+      "seconds": 0.488,
+      "printed_values": [
+        "S-Invariant mod 0 : 0"
+      ]
+    },
+    {
+      "name": "AbeTagami_K_1",
+      "flag": "-s2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/summand_s_check/AbeTagami_K_1_s2.log",
+      "seconds": 0.437,
+      "printed_values": [
+        "S-Invariant mod 2 : 0"
+      ]
+    },
+    {
+      "name": "AbeTagami_K_2",
+      "flag": "-s0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/summand_s_check/AbeTagami_K_2_s0.log",
+      "seconds": 3.248,
+      "printed_values": [
+        "S-Invariant mod 0 : 0"
+      ]
+    },
+    {
+      "name": "AbeTagami_K_2",
+      "flag": "-s2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/summand_s_check/AbeTagami_K_2_s2.log",
+      "seconds": 1.131,
+      "printed_values": [
+        "S-Invariant mod 2 : 0"
+      ]
+    }
+  ],
+  "queue_complete": true
+}

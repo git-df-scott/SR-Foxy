@@ -1,0 +1,14 @@
+{
+  "input_sha256": "431379bc23a2dd019bdfb629adbac8130f3d7c301007cf268934e086d590ca5d",
+  "seed": 0,
+  "cover_homology": "Z/13",
+  "filled_isosig": "FLvPwvPwvLMwPLAQLQMQPkacgdgikrtpovrzywxtACAByByxDCEEDEbbgbbrbladtnkaxoaoauuquqttobhlwx",
+  "simplified_isosig": "uLvLLvLMwQQAPQccfhijnpqonqlqrrtpsstttllvcqtalwvwvoganhhuk",
+  "tetrahedra": 20,
+  "recognized_triangulation": null,
+  "recognized_manifold": null,
+  "status": "UNRECOGNIZED_UNKNOWN",
+  "elapsed_seconds": 2.271,
+  "exit_code": 0,
+  "scope": "Bounded search for a recognizable closed triangulation of Sigma_2(K).\n\nRecognition may expose a Seifert/plumbing route to correction terms. Failure\nto recognize is UNKNOWN, and does not establish hyperbolicity or absence of\na definite filling. No correction term or sliceness claim is computed here."
+}

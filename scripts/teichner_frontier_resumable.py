@@ -61,10 +61,10 @@ def unit_id(knot, J, diagram, bh):
 
 def shaken(K, J, diagram):
     """Deterministic diagram: same (J, diagram) always gives the same link."""
+    random.seed(1000 * diagram + 7)
     S = K.connected_sum(J)
     S.simplify('global')
     if diagram:
-        random.seed(1000 * diagram + 7)      # same seed rule as the original runner
         S.backtrack(steps=25)
         S.simplify('global')
     return S
@@ -111,7 +111,7 @@ def audit():
     print('    violations of the implication:', bad)
     print('    (these knots are not slice, so no certificate is expected either way;')
     print('     the control checks the implication never fires in the wrong direction)')
-    return bad == 0
+    return ok1 and bad == 0
 
 
 if __name__ == '__main__':
@@ -125,24 +125,41 @@ if __name__ == '__main__':
     box = {'max_bands': 1, 'max_band_len': max_len, 'max_twists': twists,
            'paths': 'shortest', 'backtrack_steps': 25,
            'partners': partners, 'n_diagrams': n_diagrams}
-    bh = box_hash({k: box[k] for k in ('max_bands', 'max_band_len', 'max_twists',
-                                       'paths', 'backtrack_steps')})
+    # A knot name is not an input identity. Include input and implementation
+    # bytes; refuse old checkpoints rather than silently inheriting negatives.
+    from pathlib import Path
+    import importlib.metadata
+    provenance = {
+        'input_sha256': hashlib.sha256(Path(knot_json).read_bytes()).hexdigest(),
+        'runner_sha256': hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+        'filter_sha256': hashlib.sha256(Path(sff.__file__).read_bytes()).hexdigest(),
+        'search_sha256': hashlib.sha256(Path(_bs.__file__).read_bytes()).hexdigest(),
+        'snappy_version': importlib.metadata.version('snappy'),
+        'spherogram_version': importlib.metadata.version('spherogram'),
+    }
+    bh = box_hash(dict(parameters={k: box[k] for k in
+                   ('max_bands', 'max_band_len', 'max_twists', 'paths', 'backtrack_steps')},
+                       provenance=provenance))
 
     d = json.load(open(knot_json))
     K = snappy.Link([tuple(c) for c in (d.get('pd_code_snappy_0indexed') or d['pd_code'])])
     kname = d['name']
 
-    rec = {'schema': 'teichner-frontier-v2', 'knot': kname, 'box': box,
+    rec = {'schema': 'teichner-frontier-v3', 'knot': kname, 'box': box,
+           'provenance': provenance,
            'box_hash': bh, 'meaning': __doc__.split('WHY RESUMABLE')[0].strip(),
-           'completed': {}, 'hits': [],
+           'completed': {}, 'failures': {}, 'hits': [],
            'started': datetime.datetime.utcnow().isoformat() + 'Z'}
     if os.path.exists(out):
         old = json.load(open(out))
+        if old.get('schema') != rec['schema']:
+            sys.exit('REFUSING legacy checkpoint: retain it and use a new output file.')
         if old.get('box_hash') != bh:
             sys.exit('REFUSING to resume: checkpoint box_hash %s != this run %s. '
                      'A retuned search must not be merged into an old one.'
                      % (old.get('box_hash'), bh))
         rec['completed'] = old.get('completed', {})
+        rec['failures'] = old.get('failures', {})
         rec['hits'] = old.get('hits', [])
         rec['resumed_from'] = old.get('started')
         print('RESUMING: %d units already complete' % len(rec['completed']), flush=True)
@@ -176,6 +193,8 @@ if __name__ == '__main__':
         if 'unknot' in res:
             try:
                 verified = bool(verify_ribbon_to_unknot(S, res['unknot']))
+                if not verified:
+                    err = 'Certificate replay returned False'
             except Exception as e:
                 err = 'verify %s: %s' % (type(e).__name__, e)
         row = {'id': uid, 'J': jname, 'diagram': i, 'crossings': len(S.crossings),
@@ -183,12 +202,21 @@ if __name__ == '__main__':
                'unknot_endpoint_found': 'unknot' in res,
                'certificate_verified': verified,
                'seconds': round(time.time() - ts, 1), 'error': err,
+               'status': 'COMPLETE' if err is None else 'ERROR_UNKNOWN',
+               'sum_pd': [list(c) for c in S.PD_code()],
+               'frontier_certificates': [v for k, v in res.items() if k != 'unknot'],
                'finished_at': datetime.datetime.utcnow().isoformat() + 'Z'}
         if verified:
             row['certificate'] = res['unknot']
             row['sum_pd'] = [list(c) for c in S.PD_code()]
             rec['hits'].append(row)
-        rec['completed'][uid] = row          # atomic completion record
+        if err is None:
+            rec['completed'][uid] = row
+            rec['failures'].pop(uid, None)
+        else:
+            # Failed searches are retried on resume and never count as empty
+            # completed frontiers, even when the library returned no result.
+            rec['failures'].setdefault(uid, []).append(row)
         flush()
         print('[%8.1fs] %s # %s diag %d: survivors=%d unknot=%s verified=%s (%.1fs)%s'
               % (time.time() - t0, kname, jname, i, row['survivors'],

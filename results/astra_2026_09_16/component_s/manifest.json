@@ -1,0 +1,501 @@
+{
+  "status": "SCOPED_INVARIANT_CALCULATIONS",
+  "input": "results/astra_2026_09_16/component_s_inputs.txt",
+  "input_sha256": "378081929b3381cfe18c68f8d693c42185718e3e2c22026cc9260c2bbd359c62",
+  "jar_sha256": "b63daf5f689660a276ed37bbca3393cb26fe62e097427cdd599647b874304718",
+  "java_version": "openjdk version \"25.0.4.1\" 2026-08-18 LTS\nOpenJDK Runtime Environment Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS)\nOpenJDK 64-Bit Server VM Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS, mixed mode, sharing)\n",
+  "names": [
+    "ribbon_control",
+    "trefoil_control",
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "C9",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "C15",
+    "C16",
+    "C17",
+    "inconsistent_HFK_component"
+  ],
+  "flags": [
+    "-s0",
+    "-s2"
+  ],
+  "timeout_seconds": 20,
+  "heap_limit": "2g",
+  "runs": [
+    {
+      "name": "ribbon_control",
+      "flag": "-s0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/ribbon_control_s0.log",
+      "seconds": 0.513,
+      "printed_values": [
+        "S-Invariant mod 0 : 0"
+      ]
+    },
+    {
+      "name": "ribbon_control",
+      "flag": "-s2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/ribbon_control_s2.log",
+      "seconds": 0.385,
+      "printed_values": [
+        "S-Invariant mod 2 : 0"
+      ]
+    },
+    {
+      "name": "trefoil_control",
+      "flag": "-s0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/trefoil_control_s0.log",
+      "seconds": 0.383,
+      "printed_values": [
+        "S-Invariant mod 0 : -2"
+      ]
+    },
+    {
+      "name": "trefoil_control",
+      "flag": "-s2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/trefoil_control_s2.log",
+      "seconds": 0.401,
+      "printed_values": [
+        "S-Invariant mod 2 : -2"
+      ]
+    },
+    {
+      "name": "C0",
+      "flag": "-s0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C0_s0.log",
+      "seconds": 0.402,
+      "printed_values": [
+        "S-Invariant mod 0 : 0"
+      ]
+    },
+    {
+      "name": "C0",
+      "flag": "-s2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C0_s2.log",
+      "seconds": 0.376,
+      "printed_values": [
+        "S-Invariant mod 2 : 0"
+      ]
+    },
+    {
+      "name": "C1",
+      "flag": "-s0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C1_s0.log",
+      "seconds": 0.4,
+      "printed_values": [
+        "S-Invariant mod 0 : 0"
+      ]
+    },
+    {
+      "name": "C1",
+      "flag": "-s2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C1_s2.log",
+      "seconds": 0.397,
+      "printed_values": [
+        "S-Invariant mod 2 : 0"
+      ]
+    },
+    {
+      "name": "C2",
+      "flag": "-s0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C2_s0.log",
+      "seconds": 0.402,
+      "printed_values": [
+        "S-Invariant mod 0 : 0"
+      ]
+    },
+    {
+      "name": "C2",
+      "flag": "-s2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C2_s2.log",
+      "seconds": 0.391,
+      "printed_values": [
+        "S-Invariant mod 2 : 0"
+      ]
+    },
+    {
+      "name": "C3",
+      "flag": "-s0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C3_s0.log",
+      "seconds": 0.387,
+      "printed_values": [
+        "S-Invariant mod 0 : 0"
+      ]
+    },
+    {
+      "name": "C3",
+      "flag": "-s2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C3_s2.log",
+      "seconds": 0.396,
+      "printed_values": [
+        "S-Invariant mod 2 : 0"
+      ]
+    },
+    {
+      "name": "C4",
+      "flag": "-s0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C4_s0.log",
+      "seconds": 0.412,
+      "printed_values": [
+        "S-Invariant mod 0 : 0"
+      ]
+    },
+    {
+      "name": "C4",
+      "flag": "-s2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C4_s2.log",
+      "seconds": 0.406,
+      "printed_values": [
+        "S-Invariant mod 2 : 0"
+      ]
+    },
+    {
+      "name": "C5",
+      "flag": "-s0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C5_s0.log",
+      "seconds": 0.405,
+      "printed_values": [
+        "S-Invariant mod 0 : 0"
+      ]
+    },
+    {
+      "name": "C5",
+      "flag": "-s2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C5_s2.log",
+      "seconds": 0.387,
+      "printed_values": [
+        "S-Invariant mod 2 : 0"
+      ]
+    },
+    {
+      "name": "C6",
+      "flag": "-s0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C6_s0.log",
+      "seconds": 0.409,
+      "printed_values": [
+        "S-Invariant mod 0 : 0"
+      ]
+    },
+    {
+      "name": "C6",
+      "flag": "-s2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C6_s2.log",
+      "seconds": 0.409,
+      "printed_values": [
+        "S-Invariant mod 2 : 0"
+      ]
+    },
+    {
+      "name": "C7",
+      "flag": "-s0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C7_s0.log",
+      "seconds": 0.403,
+      "printed_values": [
+        "S-Invariant mod 0 : 0"
+      ]
+    },
+    {
+      "name": "C7",
+      "flag": "-s2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C7_s2.log",
+      "seconds": 0.408,
+      "printed_values": [
+        "S-Invariant mod 2 : 0"
+      ]
+    },
+    {
+      "name": "C8",
+      "flag": "-s0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C8_s0.log",
+      "seconds": 0.41,
+      "printed_values": [
+        "S-Invariant mod 0 : 0"
+      ]
+    },
+    {
+      "name": "C8",
+      "flag": "-s2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C8_s2.log",
+      "seconds": 0.404,
+      "printed_values": [
+        "S-Invariant mod 2 : 0"
+      ]
+    },
+    {
+      "name": "C9",
+      "flag": "-s0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C9_s0.log",
+      "seconds": 0.417,
+      "printed_values": [
+        "S-Invariant mod 0 : 0"
+      ]
+    },
+    {
+      "name": "C9",
+      "flag": "-s2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C9_s2.log",
+      "seconds": 0.399,
+      "printed_values": [
+        "S-Invariant mod 2 : 0"
+      ]
+    },
+    {
+      "name": "C10",
+      "flag": "-s0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C10_s0.log",
+      "seconds": 0.407,
+      "printed_values": [
+        "S-Invariant mod 0 : 0"
+      ]
+    },
+    {
+      "name": "C10",
+      "flag": "-s2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C10_s2.log",
+      "seconds": 0.407,
+      "printed_values": [
+        "S-Invariant mod 2 : 0"
+      ]
+    },
+    {
+      "name": "C11",
+      "flag": "-s0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C11_s0.log",
+      "seconds": 0.42,
+      "printed_values": [
+        "S-Invariant mod 0 : 0"
+      ]
+    },
+    {
+      "name": "C11",
+      "flag": "-s2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C11_s2.log",
+      "seconds": 0.411,
+      "printed_values": [
+        "S-Invariant mod 2 : 0"
+      ]
+    },
+    {
+      "name": "C12",
+      "flag": "-s0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C12_s0.log",
+      "seconds": 0.407,
+      "printed_values": [
+        "S-Invariant mod 0 : 0"
+      ]
+    },
+    {
+      "name": "C12",
+      "flag": "-s2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C12_s2.log",
+      "seconds": 0.401,
+      "printed_values": [
+        "S-Invariant mod 2 : 0"
+      ]
+    },
+    {
+      "name": "C13",
+      "flag": "-s0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C13_s0.log",
+      "seconds": 0.404,
+      "printed_values": [
+        "S-Invariant mod 0 : 0"
+      ]
+    },
+    {
+      "name": "C13",
+      "flag": "-s2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C13_s2.log",
+      "seconds": 0.409,
+      "printed_values": [
+        "S-Invariant mod 2 : 0"
+      ]
+    },
+    {
+      "name": "C14",
+      "flag": "-s0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C14_s0.log",
+      "seconds": 0.408,
+      "printed_values": [
+        "S-Invariant mod 0 : 0"
+      ]
+    },
+    {
+      "name": "C14",
+      "flag": "-s2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C14_s2.log",
+      "seconds": 0.403,
+      "printed_values": [
+        "S-Invariant mod 2 : 0"
+      ]
+    },
+    {
+      "name": "C15",
+      "flag": "-s0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C15_s0.log",
+      "seconds": 0.415,
+      "printed_values": [
+        "S-Invariant mod 0 : 0"
+      ]
+    },
+    {
+      "name": "C15",
+      "flag": "-s2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C15_s2.log",
+      "seconds": 0.406,
+      "printed_values": [
+        "S-Invariant mod 2 : 0"
+      ]
+    },
+    {
+      "name": "C16",
+      "flag": "-s0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C16_s0.log",
+      "seconds": 0.397,
+      "printed_values": [
+        "S-Invariant mod 0 : 0"
+      ]
+    },
+    {
+      "name": "C16",
+      "flag": "-s2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C16_s2.log",
+      "seconds": 0.407,
+      "printed_values": [
+        "S-Invariant mod 2 : 0"
+      ]
+    },
+    {
+      "name": "C17",
+      "flag": "-s0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C17_s0.log",
+      "seconds": 0.4,
+      "printed_values": [
+        "S-Invariant mod 0 : 0"
+      ]
+    },
+    {
+      "name": "C17",
+      "flag": "-s2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/C17_s2.log",
+      "seconds": 0.406,
+      "printed_values": [
+        "S-Invariant mod 2 : 0"
+      ]
+    },
+    {
+      "name": "inconsistent_HFK_component",
+      "flag": "-s0",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/inconsistent_HFK_component_s0.log",
+      "seconds": 0.411,
+      "printed_values": [
+        "S-Invariant mod 0 : 0"
+      ]
+    },
+    {
+      "name": "inconsistent_HFK_component",
+      "flag": "-s2",
+      "status": "finished",
+      "exit_code": 0,
+      "log": "results/astra_2026_09_16/component_s/inconsistent_HFK_component_s2.log",
+      "seconds": 0.409,
+      "printed_values": [
+        "S-Invariant mod 2 : 0"
+      ]
+    }
+  ],
+  "queue_complete": true
+}
