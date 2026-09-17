@@ -208,14 +208,37 @@ is an identification**, and any slopes read off it are withdrawn. The script's
 own `controls_pass` flag caught this, by finding `L(13,5)` fillings but no
 `Σ₂(K_1)` filling, which the construction forbids.
 
-What survives, and is solid: `M̃` is well defined (the unique 5-cusped index-2
-cover, 34 tetrahedra, `H_1 = Z⁴`), and **320 of 65,536 fillings give exactly
-`L(13,5)`, Regina-recognised by name** — a genuine identification that does not
-use `isoSig` matching. So the geometric statement stands on the construction;
-the *slopes* do not yet exist. Survivors are now identified by hyperbolic volume
-and confirmed with `is_isometric_to`, legitimate for closed hyperbolic manifolds
-by Mostow rigidity, with failures to find a geometric structure recorded
-`UNKNOWN` rather than as non-matches. Pinning the slopes remains §7 lead 1.
+Survivors are now identified by hyperbolic volume and confirmed with
+`is_isometric_to`, legitimate for closed hyperbolic manifolds by Mostow
+rigidity, with failures to find a positively oriented solution recorded
+`UNKNOWN` rather than as non-matches. **On that method the controls pass**, and
+the slopes exist:
+
+| | count | identified by |
+|---|---:|---|
+| fillings searched | 65,536 | slope box `|p|,|q| ≤ 2`, coprime |
+| give `Σ₂(K_0) = L(13,5)` | **320** | Regina recognition *by name* |
+| give `Σ₂(K_1)` | **59** | volume `7.28132635174862` + `is_isometric_to` |
+| no geometric solution found | 986 | recorded `UNKNOWN`, not as non-matches |
+
+`M̃` is the unique 5-cusped index-2 cover, **34 tetrahedra**, `H_1 = Z⁴`, and its
+triangulation string is saved in the artifact — without it the slopes are
+meaningless, since `covers()` returned 34-, 36- and 38-tetrahedron
+representatives on different runs.
+
+**The slopes have exactly the structure the construction predicts.** Every one
+of the 59 hits assigns `±(2,−1)` to two of the four cusps and `±(1,1)` to the
+other two — that is, the two lifts of `c'_1` share a slope up to sign and the
+two lifts of `c'_2` share the other. Downstairs the twist is `(2,1)` on `c'_1`
+and `(0,1)` on `c'_2`; SnapPy's per-cover basis differs, but the pairing is the
+signature of the doubled lift and it is reproduced by the search rather than
+assumed. Of the `C(4,2) · 2⁴ = 96` slope assignments with that shape, 59 are
+confirmed and the remainder fall in the `UNKNOWN` bucket; **no claim is made
+about those 37.**
+
+So: **`Σ₂(K_1)` is Dehn surgery on an explicit 4-component link in `L(13,5)`,
+with an explicit slope vector on a saved triangulation.** That is the object the
+`research/21` §3 `d`-invariant gate was missing.
 
 ---
 
@@ -241,10 +264,11 @@ by Mostow rigidity, with failures to find a geometric structure recorded
 
 Ordered by expected value per unit of work. None is a claim; each is a next step.
 
-1. **Pin the lifted slopes on `M̃` in one fixed basis** (§5). First computation: a
-   bounded slope search on the 34-tetrahedron `M̃`, filtering by `H_1 = Z/13` then
-   by isoSig against `Σ₂(K_1)`. Deliverable: a surgery presentation of `Σ₂(K_1)`,
-   which is the only currently visible route to the `research/21` §3 gate.
+1. ~~Pin the lifted slopes on `M̃`.~~ **Done, see §5**: 59 confirmed slope
+   vectors on a saved 34-tetrahedron triangulation. The lead becomes: convert
+   that surgery description into one on a link in `S³` by unwinding
+   `L(13,5) = -13/5` surgery on an unknot, which is what the `d`-invariant
+   formulas actually take as input.
 2. **Intersection form of the branched double cover of the trace.** `W₂ → W`
    branched over `C` has `∂W₂ = (−L(13,5)) ⊔ Σ₂(K_1)` and `b₂ = 4`. First
    computation: the `4 × 4` form from the lifted curves. *If it is definite*,
