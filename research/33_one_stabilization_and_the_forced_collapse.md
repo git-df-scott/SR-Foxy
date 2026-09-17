@@ -205,9 +205,13 @@ fix is to simplify in Regina first and re-solve in SnapPy:
 | `Σ₂(K_0)` | 3 | `L(13,5)` | none (correct: lens space) | — |
 | `Σ₂(K_1)` | 19 | none | yes, 9 tetrahedra | `7.2813263517` |
 
-`Σ₂(K_1)` is irreducible and **non-Haken**. See
-`results/opus_2026_09_17/sigma2_geometry_probe.json` for the triangulation
-isoSigs and the controls (`3_1 → L(3,1)`, `4_1 → L(5,q)`, `6_3 → L(13,5)`, all
+`Σ₂(K_1)` is irreducible and **non-Haken**. The `Σ₂(K_1)` row above was read
+off a direct run; the packaged `scripts/sigma2_geometry_probe.py`, which adds
+the lens-space controls and a `Σ₂(K_2)` row, was **still running when this note
+was committed** and its
+`results/opus_2026_09_17/sigma2_geometry_probe.json` lands in a follow-up
+commit. Nothing in §3 or §5 depends on the `K_2` row. See that file for the
+triangulation isoSigs and the controls (`3_1 → L(3,1)`, `4_1 → L(5,q)`, `6_3 → L(13,5)`, all
 recognized, none hyperbolic).
 
 **Honesty note.** A positively oriented solution is strong numerical evidence,
