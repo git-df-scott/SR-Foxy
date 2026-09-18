@@ -1,0 +1,426 @@
+{
+  "scope": "Necessary peripheral condition; not a geometric identification",
+  "seam_start": [
+    1,
+    1
+  ],
+  "boundary_meridian": 5,
+  "events": [
+    {
+      "crossing": 3,
+      "port": 0,
+      "letter": 4
+    },
+    {
+      "crossing": 2,
+      "port": 0,
+      "letter": -3
+    },
+    {
+      "crossing": 12,
+      "port": 0,
+      "letter": 1
+    },
+    {
+      "crossing": 4,
+      "port": 0,
+      "letter": 5
+    },
+    {
+      "crossing": 11,
+      "port": 0,
+      "letter": -1
+    },
+    {
+      "crossing": 1,
+      "port": 0,
+      "letter": -5
+    },
+    {
+      "crossing": 8,
+      "port": 0,
+      "letter": -4
+    },
+    {
+      "crossing": 5,
+      "port": 0,
+      "letter": 9
+    },
+    {
+      "crossing": 0,
+      "port": 0,
+      "letter": -1
+    },
+    {
+      "crossing": 38,
+      "port": 0,
+      "letter": 14
+    },
+    {
+      "crossing": 39,
+      "port": 0,
+      "letter": -11
+    },
+    {
+      "crossing": 27,
+      "port": 0,
+      "letter": 15
+    },
+    {
+      "crossing": 29,
+      "port": 0,
+      "letter": 11
+    },
+    {
+      "crossing": 35,
+      "port": 0,
+      "letter": 15
+    },
+    {
+      "crossing": 30,
+      "port": 0,
+      "letter": -11
+    },
+    {
+      "crossing": 32,
+      "port": 0,
+      "letter": -15
+    },
+    {
+      "crossing": 31,
+      "port": 0,
+      "letter": -13
+    },
+    {
+      "crossing": 28,
+      "port": 0,
+      "letter": 17
+    }
+  ],
+  "upper_boundary_transport": [
+    4,
+    -3,
+    1,
+    5,
+    -1,
+    -5,
+    -4,
+    9,
+    -1
+  ],
+  "lower_boundary_transport": [
+    14,
+    -11,
+    15,
+    11,
+    15,
+    -11,
+    -15,
+    -13,
+    17
+  ],
+  "preferred_boundary_longitude": [
+    4,
+    -3,
+    1,
+    5,
+    -1,
+    -5,
+    -4,
+    9,
+    -1,
+    14,
+    -11,
+    15,
+    11,
+    15,
+    -11,
+    -15,
+    -13,
+    17
+  ],
+  "total_writhe": 0,
+  "upper_source_transport": [
+    6,
+    -5,
+    6,
+    -5,
+    8,
+    5,
+    -6,
+    5,
+    6,
+    -5,
+    8,
+    5,
+    -6,
+    -5,
+    6,
+    -5,
+    -8,
+    -8,
+    5,
+    -6,
+    -5,
+    8,
+    6,
+    -5,
+    -8,
+    5,
+    -6
+  ],
+  "lower_source_transport": [
+    6,
+    -5,
+    8,
+    5,
+    -6,
+    -8,
+    5,
+    6,
+    -5,
+    8,
+    5,
+    -6,
+    -5,
+    6,
+    -5,
+    -8,
+    5,
+    -6,
+    5,
+    6,
+    -5,
+    8,
+    5,
+    -6,
+    5,
+    6,
+    -5,
+    -8,
+    5,
+    -6,
+    -5,
+    8,
+    6,
+    -5,
+    -8,
+    5,
+    -6,
+    -8,
+    6,
+    -5,
+    8,
+    5,
+    -6,
+    8,
+    6,
+    -5,
+    8,
+    5,
+    -6,
+    -8,
+    6,
+    -5,
+    -8,
+    5,
+    -6,
+    5,
+    -6
+  ],
+  "seam_source_meridian": [
+    6,
+    -5,
+    8,
+    5,
+    -6
+  ],
+  "proofs": [
+    {
+      "claim": "longitude",
+      "source_word": [
+        6,
+        -5,
+        6,
+        -5,
+        8,
+        5,
+        -6,
+        5,
+        6,
+        -5,
+        8,
+        5,
+        -6,
+        -5,
+        6,
+        -5,
+        -8,
+        5,
+        -6,
+        -5,
+        6,
+        -5,
+        -8,
+        5,
+        -6,
+        5,
+        6,
+        -5,
+        8,
+        5,
+        -6,
+        5,
+        6,
+        -5,
+        -8,
+        5,
+        -6,
+        -5,
+        8,
+        6,
+        -5,
+        -8,
+        5,
+        -6,
+        -8,
+        6,
+        -5,
+        8,
+        5,
+        -6,
+        8,
+        6,
+        -5,
+        8,
+        5,
+        -6,
+        -8,
+        6,
+        -5,
+        -8,
+        5,
+        -6,
+        5,
+        -6
+      ],
+      "trace": [
+        [
+          17,
+          [
+            1,
+            -1,
+            14,
+            22
+          ]
+        ],
+        [
+          17,
+          [
+            4,
+            -1,
+            0,
+            11
+          ]
+        ],
+        [
+          7,
+          [
+            0,
+            -1,
+            8,
+            20
+          ]
+        ]
+      ],
+      "residue": []
+    },
+    {
+      "claim": "upper_transport_centralizes_seam_meridian",
+      "source_word": [
+        6,
+        -5,
+        6,
+        -5,
+        8,
+        5,
+        -6,
+        5,
+        6,
+        -5,
+        8,
+        5,
+        -6,
+        -5,
+        6,
+        -5,
+        -8,
+        -8,
+        5,
+        -6,
+        -5,
+        8,
+        6,
+        -5,
+        8,
+        5,
+        -6,
+        -8,
+        5,
+        6,
+        -5,
+        8,
+        8,
+        5,
+        -6,
+        5,
+        6,
+        -5,
+        -8,
+        5,
+        -6,
+        -5,
+        6,
+        -5,
+        -8,
+        5,
+        -6,
+        -8,
+        5,
+        -6
+      ],
+      "trace": [
+        [
+          17,
+          [
+            0,
+            -1,
+            17,
+            15
+          ]
+        ],
+        [
+          9,
+          [
+            1,
+            -1,
+            12,
+            22
+          ]
+        ],
+        [
+          2,
+          [
+            4,
+            -1,
+            6,
+            14
+          ]
+        ]
+      ],
+      "residue": []
+    }
+  ],
+  "all_integer_n_argument": "u l=1 and [u,mu]=1 imply u mu^n l mu^-n=1",
+  "negative_control_longitude_times_meridian_exponent": 1
+}

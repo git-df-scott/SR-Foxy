@@ -1,0 +1,15 @@
+{
+  "upstream_free_word_checker": {
+    "boundary_rewrite_steps_verified": 64,
+    "boundary_word_length": 26,
+    "commutator_identity": "PASS: literal free reduction",
+    "handle_loops_in_exponent_zero_subgroup": 26,
+    "mapped_genus_upper_bound": 13,
+    "mutation_controls_rejected": 2
+  },
+  "handle_instruction_replay": "PASS",
+  "handles": 26,
+  "disk_push_upper_bound": 614,
+  "wrong_multiplication_order_rejected": true,
+  "scope": "Algebraic inputs only; geometric proof is in research/42"
+}
