@@ -1,0 +1,23 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+qualifying knots (fibered, irreducible Delta): 16970
+knots in shared-Delta buckets: 14127 across 2925 buckets
+  1000/14127  3s
+  2000/14127  7s
+  3000/14127  11s
+  4000/14127  15s
+  5000/14127  19s
+  6000/14127  23s
+  7000/14127  26s
+  8000/14127  30s
+  9000/14127  34s
+  10000/14127  37s
+  11000/14127  40s
+  12000/14127  44s
+  13000/14127  49s
+  14000/14127  55s
+0-surgery volumes computed (56s)
+with a usable geometric solution: 14122  unusable/failed: 5
+volume-matched groups inside a shared Delta: 1589
+CONFIRMED isometric 0-surgery pairs: 0
+volume-matched but not confirmed (incl. UNKNOWN): 2352

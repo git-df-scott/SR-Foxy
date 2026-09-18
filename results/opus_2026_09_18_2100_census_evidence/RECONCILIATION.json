@@ -1,0 +1,97 @@
+{
+ "hashes": {
+  "cub_search.log": {
+   "sha256": "86c05079c83e87a76d276a017958d9a7eaa29f0c4b9fb7dc9f0afc7010472359",
+   "bytes": 584
+  },
+  "hfk_battery.json.gz": {
+   "sha256": "26972791452214141c725e598782c7b881969e04a88dceed31482d2c94e658dc",
+   "bytes": 585
+  },
+  "miyazaki_pair_sweep.json.gz": {
+   "sha256": "f3d8d3c3098776b00a34b5e776655d48d76955979d7d52838eb895209addb35a",
+   "bytes": 699721
+  },
+  "miyazaki_pair_sweep.jsonl.gz": {
+   "sha256": "afa6964174a7e45f539da292e856ff72f010adba61b61273dc3849188d0796f0",
+   "bytes": 688912
+  },
+  "pair_sweep.log": {
+   "sha256": "34fabed388cce2a8af6a2cd45dd0032ba3d9b5c762da7aa18d37e674afc98720",
+   "bytes": 6578
+  },
+  "zero_surgery_isosig.jsonl.gz": {
+   "sha256": "9c42a189610d8778bea5ccdd7a2929c07447a0ae47dd93eafc37079a2946d769",
+   "bytes": 3942
+  },
+  "zero_surgery_pairs.json.gz": {
+   "sha256": "599ffcf854a6c3b8a4a4da63c570e2c4fc426aff0c3149e55f38e11ef3f88b96",
+   "bytes": 10146
+  },
+  "zero_surgery_volumes.jsonl.gz": {
+   "sha256": "acc5c1953d854a0f4c77c43218fd174ba45cd05acc4e7721eb340fe30a7433f2",
+   "bytes": 311422
+  },
+  "zs_confirm.log": {
+   "sha256": "80eb9b114c1ccff92529d076b8dd826aac5c4175e047a7f15218654bc3e9b17f",
+   "bytes": 256
+  },
+  "zs_hammer.log": {
+   "sha256": "4b47c7d9711815197a59f2ad51ab6af332b7c25afad1f1fb8d8790f28f438f9d",
+   "bytes": 284
+  },
+  "zs_isosig.log": {
+   "sha256": "69d9cfce3a6789376be11414bf92f087a035d53c74d04fcac8a28ad2267425b8",
+   "bytes": 267
+  },
+  "zs_pairs.log": {
+   "sha256": "42335af31c118d6d82ad97ea1d5033eab4a856d865b2f437571fc26922e8f4b6",
+   "bytes": 807
+  }
+ },
+ "reconciliation": {
+  "sweep_jsonl_rows": 16970,
+  "sweep_scan_markers": 29,
+  "sweep_json_reported_n_fibered_irred": 16970,
+  "sweep_json_reported_n_pairs": 35612,
+  "sweep_json_pairs_STORED": 2000,
+  "sweep_pairs_TRUNCATED_BY": 33612,
+  "jsonl_vs_json_row_match": true,
+  "volume_records": 14127,
+  "volume_usable": 14122,
+  "volume_null_or_nongeometric": 5,
+  "solution_types": {
+   "unrecognized solution type": 4,
+   "contains flat tetrahedra": 1,
+   "all tetrahedra positively oriented": 14061,
+   "contains negatively oriented tetrahedra": 61
+  },
+  "volume_errors": 0,
+  "pairs_json_n_confirmed": 0,
+  "pairs_json_n_unconfirmed": 2352,
+  "pairs_json_unconfirmed_STORED": 500,
+  "pairs_unconfirmed_TRUNCATED_BY": 1852,
+  "pairs_unconfirmed_verdicts": {
+   "UNKNOWN": 500
+  },
+  "isosig_signed_so_far": 61,
+  "isosig_with_signature": 60,
+  "isosig_errors": 1,
+  "isosig_matching_groups_so_far": []
+ },
+ "status": {
+  "miyazaki_pair_sweep": "FINISHED (exit 0)",
+  "zero_surgery_pair_search": "FINISHED (exit 0) but its 0 confirmed is RETRACTED: every pair threw RuntimeError",
+  "zero_surgery_confirm": "KILLED by PID after 238 CPU-min without finishing 100/2352; NO final json exists",
+  "zero_surgery_hammer": "KILLED (superseded); sample probe had timed out",
+  "zero_surgery_isometry_signature": "STILL RUNNING at archive time; checkpoint above is partial",
+  "common_upper_bound_search": "STOPPED at 20000/59937, filter B admitted nothing; no final json"
+ },
+ "known_defects_not_yet_repaired": [
+  "try_isometry returns on the FIRST boolean; SnapPy documents True as rigorous but False as possibly numerical, so a False must not end escalation or be recorded as certified DISTINCT.",
+  "Volume grouping uses round(v/1e-6) bins, which drops pairs straddling a bin boundary; needs a sorted-window comparison.",
+  "Rounded complex length spectra were used to justify DISTINCT_BY_SPEC; rounding is not interval verification and cannot certify distinctness.",
+  "Scientific record truncated: pairs[:2000], all[:4000], unknown[:300], fingerprint stored as fa[:3] of 8 entries.",
+  "miyazaki_pair_sweep silently skips HFK exceptions (except Exception: continue) with no ledger."
+ ]
+}
