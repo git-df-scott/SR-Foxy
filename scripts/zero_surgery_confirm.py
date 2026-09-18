@@ -47,9 +47,21 @@ RETRIES = 6
 SPEC_CUTOFF = 1.2
 
 
+# The census must be built ONCE.  Rebuilding it inside filled() made every
+# call reload all 59937 exteriors; with up to six calls per pair the first run
+# burned 238 minutes of CPU without finishing 100 pairs.
+_CENSUS = None
+
+
+def census():
+    global _CENSUS
+    if _CENSUS is None:
+        _CENSUS = snappy.HTLinkExteriors(cusps=1)
+    return _CENSUS
+
+
 def filled(index, hp=False):
-    census = snappy.HTLinkExteriors(cusps=1)
-    M = census[index]
+    M = census()[index]
     name = M.name()
     if hp:
         M = snappy.ManifoldHP(M)
@@ -125,30 +137,32 @@ def main():
     results = []
     t0 = time.time()
     for k, (A, B) in enumerate(pairs):
-        if k and k % 100 == 0:
+        if k and k % 200 == 0:
             print(f"  {k}/{len(pairs)}  {time.time()-t0:.0f}s  "
                   f"{Counter(r['verdict'] for r in results)}")
             sys.stdout.flush()
         rec = {"a": A["name"], "b": B["name"], "vol": A["vol"],
                "delta": A["delta"], "ia": A["i"], "ib": B["i"]}
+        # Cheap separator first: a differing complex length spectrum settles the
+        # pair outright, so the expensive escalation only runs on ties.
+        for idx in (A["i"], B["i"]):
+            if idx not in fp_cache:
+                fp_cache[idx] = fingerprint(idx)
+        fa, fb = fp_cache[A["i"]], fp_cache[B["i"]]
+        if fa is not None and fb is not None and fa != fb:
+            rec["verdict"] = "DISTINCT_BY_SPEC"
+            rec["spec"] = [list(map(list, fa[:3])), list(map(list, fb[:3]))]
+            results.append(rec)
+            continue
         iso = try_isometry(A["i"], B["i"])
         if iso is True:
             rec["verdict"] = "ISOMETRIC"
         elif iso is False:
             rec["verdict"] = "DISTINCT_BY_ISO"
         else:
-            for idx in (A["i"], B["i"]):
-                if idx not in fp_cache:
-                    fp_cache[idx] = fingerprint(idx)
-            fa, fb = fp_cache[A["i"]], fp_cache[B["i"]]
-            if fa is None or fb is None:
-                rec["verdict"] = "UNKNOWN"
-            elif fa != fb:
-                rec["verdict"] = "DISTINCT_BY_SPEC"
-                rec["spec"] = [list(map(list, fa[:3])), list(map(list, fb[:3]))]
-            else:
-                rec["verdict"] = "UNKNOWN"
-                rec["note"] = "complex length spectra agree; kernel undecided"
+            rec["verdict"] = "UNKNOWN"
+            rec["note"] = ("complex length spectra agree or unavailable;"
+                           " kernel undecided")
         results.append(rec)
 
     tally = Counter(r["verdict"] for r in results)
