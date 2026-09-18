@@ -315,6 +315,14 @@ which nobody has, and never `⟨−1⟩⁷`.
   because tubing into `G` changes `[C] ∈ H_2(W, ∂)` by `[G] ≠ 0`, and a
   concordance needs `[C] = 0`. The failure is homological and complete: no
   choice of tubes avoids it. This does not exclude other destabilizations.
+
+  **Correction, 18 September 2026:** the claimed blanket homological failure
+  above is withdrawn. Conditional on realizable framed dual-sphere tubes,
+  the signed net class change is `-(C.F)[G]`, which is zero for the recorded
+  `C.F=0`. Embeddedness, framing, and simultaneous removal from the other
+  sphere remain unproved. This does not change the fixed-annulus cyclic-
+  exterior obstruction below. See [the signed calculation](../results/night_2026_09_18/literature.md#norman-trick-correction)
+  and [the new response audit](35_mixed_axes_response_and_winding_gate.md).
 * **Pushing `C` off the summand.** If `C` could be isotoped into the `S³ × I`
   part, then `π₁((S³×I) ∖ C) = π₁(W ∖ C) = Z` (connected sum with simply
   connected `S²×S²` does not change `π₁`), and `research/14` §3's lemma would

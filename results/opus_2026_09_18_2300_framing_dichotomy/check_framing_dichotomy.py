@@ -1,18 +1,10 @@
 #!/usr/bin/env python3
-"""The mixed-band program cannot produce D_{0,1}: the annulus framing is forced to 0.
+"""Check formal linking sums and the archived 0000 surgery polynomial.
 
-Reads the committed marked scaffold's linking matrix and shows that ANY pair of
-axes obtained by band-summing one upper to one lower marked circle has linking
-number 0, hence bounds only a 0-framed annulus, hence induces +-1/r surgery
-rather than the (1 +- 1/n) that Abe-Tagami's +1-framed annulus requires.
-
-Linking number is bilinear on homology classes and a band sum adds them, so band
-paths, over/under choices, internal twists and endpoints cannot change any of
-these numbers.  That is why Astra's 16 over/under choices, 88 short dual paths and
-2839 expanded assignments all reported zero pairwise linking and the same
-off-target polynomial.
-
-Standard library + sympy only.  Exit 0 iff every check passes.
+These arithmetic checks do not classify other band designs. The archived
+0110 design has the same zero linking and the target polynomial at r=1.
+See research/36_audit_of_framing_and_miyazaki_closures.md. Historical
+RESULTS.json is retained as superseded evidence, not a theorem certificate.
 """
 import json
 import os
@@ -56,7 +48,7 @@ def main():
              for b in ("c1_lower", "c2_lower")]
     check("B3 every upper-lower cross linking vanishes", cross == [0, 0, 0, 0], cross)
 
-    # --- bilinearity forces framing 0 for every mixed design ------------
+    # --- formal linking sums; not a universal geometric band theorem -----
     def lk_sum(P, Q):
         return sum(lk(a, b) for a in P for b in Q)
 
@@ -67,42 +59,31 @@ def main():
             (("c1_upper", "c1_lower"), ("c2_upper", "c2_lower")),
     }
     for name, (P, Q) in designs.items():
-        check(f"C1 {name}: lk = 0", lk_sum(P, Q) == 0, lk_sum(P, Q))
+        check(f"C1 {name}: formal source-matrix sum = 0", lk_sum(P, Q) == 0, lk_sum(P, Q))
     check("C2 a same-half annulus keeps framing magnitude 1",
           abs(lk("c1_lower", "c2_lower")) == 1 and abs(lk("c1_upper", "c2_upper")) == 1,
           "this is the FIXED-AXIS configuration, obstructed by SL(2,F_5) nonconjugacy")
 
-    # --- the polynomial signature of the framing mismatch ---------------
+    # --- specific archived polynomial, not deduced from linking alone -----
     Dr = sp.expand(DELTA**2 - r**2 * t**2 * (t**2 - 1)**2)
-    check("D1 Astra's Delta_r equals Delta^2 - r^2 (t^3-t)^2",
+    check("D1 archived 0000 Delta_r equals Delta^2 - r^2 (t^3-t)^2",
           sp.expand(Dr - (DELTA**2 - r**2*(t**3 - t)**2)) == 0, "")
     check("D2 Delta_r = Delta^2 only at r = 0",
           sp.solve(sp.Eq(sp.expand(Dr - DELTA**2), 0), r) == [0], "")
-    check("D3 r = 0 is the meridional filling, i.e. NO twist",
-          True, "slopes (1,0),(-1,0); boundary is K_0 # (-K_0), which is ribbon")
 
     n_pass = sum(1 for c in checks if c["pass"])
     out = {"all_checks_pass": n_pass == len(checks), "n_checks": len(checks),
            "n_pass": n_pass, "checks": checks,
            "linking_matrix": M, "component_markings": idx,
-           "conclusion":
-               "Any axes obtained by band-summing one upper to one lower marked"
-               " circle have linking 0, so they bound only a 0-framed annulus and"
-               " induce +-1/r surgery instead of the required 1 +- 1/n. No choice"
-               " of band path, over/under, internal twist or endpoint can change"
-               " this, because linking is bilinear on homology classes and a band"
-               " sum adds them. Hence the mixed-band program cannot produce"
-               " D_{0,1}.",
-           "dichotomy": {
-               "same-half axes": "framing +-1, correct, but obstructed by the"
-                                 " SL(2,F_5) axis-nonconjugacy certificate",
-               "mixed axes": "escape the conjugacy gate, but framing is forced to"
-                             " 0 and the boundary polynomial is wrong"},
+           "conclusion": "Formal source-matrix sums vanish and the archived 0000"
+                         " polynomial is non-target for nonzero r. These checks"
+                         " do not exclude general mixed-band designs.",
+           "scope": "ARITHMETIC_ONLY_UNIVERSAL_CLOSURE_RETRACTED",
            "not_established_here": [
-               "Nothing about axes that are NOT band sums of the four marked"
-               " circles; those lie outside this argument.",
-               "No statement about whether any B_r is slice.",
-               "No knot is identified anywhere."],
+               "Linking zero does not determine the surgery Alexander polynomial.",
+               "The 0110 design already has linking zero and the target polynomial.",
+               "No claim about all band paths, endpoints, twists, or orientations.",
+               "No annulus, disk, or knot identification is certified."],
            "sympy_version": sp.__version__}
     print(json.dumps(out, indent=1))
     return 0 if out["all_checks_pass"] else 1
