@@ -1,0 +1,2 @@
+{"bits": "0110", "linking_sums": [[0, 0, 0], [0, 0, 0], [0, 0, 0]], "longitude_response": [["0", "0"], ["0", "0"]], "scope": "Same linking as 0000, different exact longitude response. Archived polynomial match independently rechecked below."}
+{"parameter": 1, "exact_polynomial": "t**8 - 6*t**7 + 19*t**6 - 36*t**5 + 45*t**4 - 36*t**3 + 19*t**2 - 6*t + 1", "matches_target": true, "counterexample_to_slice_ribbon": false, "meaning": "Refutes uniform non-target-polynomial claim from linking zero, not a geometric concordance certificate"}

@@ -1,5 +1,8 @@
 # The `Delta_r` family cannot carry a Miyazaki non-ribbon certificate
 
+> **Audit correction, 18 September 2026:** Proposition N below overreaches. The norm-free alternative fails, but the separate minimality alternative is not excluded. The quartic is in fact irreducible for all integer r by [the elementary proof and audit](../../research/36_audit_of_framing_and_miyazaki_closures.md). The old raw RESULTS.json includes an unconditional True for the invalid alternative-1 dismissal; it is not a certificate of that claim.
+
+
 18 September 2026, Opus night session. **CE: NO.**
 **Smooth concordance `K_0 ~ K_1`: UNKNOWN. Slice-Ribbon CE: NO.**
 

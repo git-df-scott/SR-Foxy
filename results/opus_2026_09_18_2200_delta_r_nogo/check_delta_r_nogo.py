@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify Astra's Delta_r algebra and Proposition N (Miyazaki cannot reach it).
+"""Verify Delta_r algebra; exclude only Miyazaki's norm-free alternative.
 
 See README.md.  Standard library + sympy only.  Exit 0 iff every check passes.
 """
@@ -77,25 +77,24 @@ def main():
             check("C4 r=0: Delta_0 = Delta^2, the campaign's target",
                   sp.expand(Dr.subs(r, 0) - DELTA**2) == 0, "")
 
-    # Proposition N, the two alternatives.
+    # Only the norm-free alternative is ruled out; minimality remains open.
     check("D1 alt.2 fails for every r != 0: Delta_r IS the norm f_r f_r^*",
-          True, "f_r is not a unit, so an f with f(t)f(1/t) | Delta_r exists")
-    check("D2 alt.1 is incompatible with the goal",
-          True, "U <=_h B_r is exactly a homotopy-ribbon disk, i.e. non-minimality")
+          sp.expand(Dr-f*star(f)) == 0 and sp.Poly(f,t).degree() == 4,
+          "f_r is monic of degree four with constant one, hence not a Laurent unit")
 
     n_pass = sum(1 for c in checks if c["pass"])
     out = {"all_checks_pass": n_pass == len(checks), "n_checks": len(checks),
            "n_pass": n_pass, "checks": checks,
-           "conclusion": "Miyazaki Thm 5.5 cannot certify any B_r with r != 0"
-                         " non-homotopy-ribbon. Any redesigned band pair must"
-                         " land on Delta^2 exactly (r = 0).",
+           "conclusion": "The norm-free alternative of Miyazaki 5.5 fails."
+                         " The independent minimality alternative is unresolved.",
+           "scope": "POLYNOMIAL_CHECKS_NOT_A_BLANKET_MIYAZAKI_EXCLUSION",
            "not_established_here": [
-               "Nothing about whether any B_r is slice.",
+               "Nothing about whether any B_r is slice or minimal.",
                "No knot identification of B_r; a polynomial match is not a knot.",
-               "Irreducibility of f_r is verified for |r| <= 6, not proved for all r;"
-               " the symmetry argument needs only non-symmetry, which holds for all"
-               " r != 0.",
-               "Other non-ribbon theorems are not excluded, merely unavailable here."],
+               "Finite irreducibility checks here cover |r| <= 6; research/36"
+               " supplies a separate all-integer proof.",
+               "Non-symmetry alone would not imply the symmetric-divisor claim"
+               " without the irreducibility argument."],
            "sympy_version": sp.__version__,
            "python_version": sys.version.split()[0]}
     print(json.dumps(out, indent=1))

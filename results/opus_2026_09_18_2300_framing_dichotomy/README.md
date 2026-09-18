@@ -1,5 +1,8 @@
 # The framing dichotomy: why no mixed-band design can produce `D_{0,1}`
 
+> **Audit correction, 18 September 2026:** the universal corollary below is unsupported. The existing 0110 band choice has the same zero linking but the target polynomial at r=1, independently reproduced in [the new audit](../../research/36_audit_of_framing_and_miyazaki_closures.md). It still fails its own group gate; it is not a counterexample. The old raw RESULTS.json records arithmetic and does not certify the claimed universal theorem.
+
+
 18 September 2026, Opus night session. **CE: NO.**
 **Smooth concordance `K_0 ~ K_1`: UNKNOWN. Slice-Ribbon CE: NO.**
 
