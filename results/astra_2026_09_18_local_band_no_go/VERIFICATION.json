@@ -1,0 +1,46 @@
+{
+  "status": "LOCAL_TARGET_COMPATIBILITY_OBSTRUCTION_VERIFIED",
+  "counterexample_found": false,
+  "source_main": "100963acdbe68897e21a562ca289b3e94f653261",
+  "input_blobs": {
+    "results/chat_archive_2026_09_17/expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/diagram_core.py": "66cc09e760cbfbb6a41cc725972fb86e8af49cc3",
+    "results/astra_2026_09_17_overnight/pass06_0055_explicit_unlink_bands/check_explicit_unlink_bands.py": "baf481237bbbcd9ab57c3c378a6fc8e34286c0ef",
+    "results/astra_2026_09_17_collar_boundary_audit/CERTIFICATE.json": "86bb4e5ec1ae5a1762f4ce724279c7c5a509fed6"
+  },
+  "variants": 16,
+  "unlink_certificates": 8,
+  "remaining_unlink_status": "UNKNOWN",
+  "polynomial_matches_at_r1": [
+    "0110",
+    "1110"
+  ],
+  "general_centralizer_norm": {
+    "norm": "199282855936",
+    "sqrt_floor": "446411",
+    "lower_square": "199282780921",
+    "upper_square": "199283673744",
+    "square": false
+  },
+  "peripheral_groebner_bases": "n,m for *000 and *011; 1 for all other variants",
+  "all_integer_surgery_formula": "Delta_target-r^2*t^2*(t^2-1)^2",
+  "specialization_certificate": "55 Laurent-unit pivots, 7x6 residual matrix, all 7 maximal minors verified as zero or Laurent-unit multiples; no r-dependent division",
+  "failures_and_corrections": [
+    "A generic-parameter Smith calculation initially had a JSON Symbol serialization error; converted metadata to strings.",
+    "SymPy's matrix Smith wrapper failed to coerce ZZ[r,t] into QQ(r)[t]; an explicit DomainMatrix worked for 0000.",
+    "Generic Smith for 0011 timed out at 30 seconds. Replaced this approach with Laurent-unit elimination and all maximal minors, which passed for both variants and certifies every specialization.",
+    "The 0110 repaired-boundary diagram conversion timed out after 20 seconds: UNKNOWN. No knot identity or counterexample is inferred."
+  ],
+  "limits": [
+    "Fixed paths and zero internal band twists only",
+    "Candidate collar map is not geometrically certified",
+    "Equality of traces or Alexander polynomials is only a necessary gate",
+    "No slice disk, nonribbon proof, or standard-four-ball proof"
+  ],
+  "packaged_script_checks": [
+    "check_local_bands.py PASSED from pinned GitHub bytes",
+    "check_traces.mjs calculation PASSED for 16 variants with independent BigInt arithmetic",
+    "check_peripheral.py PASSED, all eight representative Groebner bases asserted",
+    "check_all_surgeries.py PASSED, both seven-minor identities asserted",
+    "check_discriminant.py formula matched independent norm witness"
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "formula": "(t^4-3*t^3+5*t^2-3*t+1)^2-r^2*t^2*(t^2-1)^2",
+  "bits_0000": [
+    {
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant": "0",
+      "ratio_to_expected": "0"
+    },
+    {
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "determinant": "0",
+      "ratio_to_expected": "0"
+    },
+    {
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "determinant": "-(r*t**3 - r*t - t**4 + 3*t**3 - 5*t**2 + 3*t - 1)*(r*t**3 - r*t + t**4 - 3*t**3 + 5*t**2 - 3*t + 1)/t**6",
+      "ratio_to_expected": "t**(-6)"
+    },
+    {
+      "rows": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "determinant": "(r*t**3 - r*t - t**4 + 3*t**3 - 5*t**2 + 3*t - 1)*(r*t**3 - r*t + t**4 - 3*t**3 + 5*t**2 - 3*t + 1)/t**6",
+      "ratio_to_expected": "-1/t**6"
+    },
+    {
+      "rows": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "determinant": "-(r*t**3 - r*t - t**4 + 3*t**3 - 5*t**2 + 3*t - 1)*(r*t**3 - r*t + t**4 - 3*t**3 + 5*t**2 - 3*t + 1)/t**6",
+      "ratio_to_expected": "t**(-6)"
+    },
+    {
+      "rows": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "determinant": "(r*t**3 - r*t - t**4 + 3*t**3 - 5*t**2 + 3*t - 1)*(r*t**3 - r*t + t**4 - 3*t**3 + 5*t**2 - 3*t + 1)/t**6",
+      "ratio_to_expected": "-1/t**6"
+    },
+    {
+      "rows": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "determinant": "-(r*t**3 - r*t - t**4 + 3*t**3 - 5*t**2 + 3*t - 1)*(r*t**3 - r*t + t**4 - 3*t**3 + 5*t**2 - 3*t + 1)/t**5",
+      "ratio_to_expected": "t**(-5)"
+    }
+  ],
+  "bits_0011": [
+    {
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant": "0",
+      "ratio_to_expected": "0"
+    },
+    {
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "determinant": "0",
+      "ratio_to_expected": "0"
+    },
+    {
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "determinant": "-(r*t**3 - r*t - t**4 + 3*t**3 - 5*t**2 + 3*t - 1)*(r*t**3 - r*t + t**4 - 3*t**3 + 5*t**2 - 3*t + 1)/t**6",
+      "ratio_to_expected": "t**(-6)"
+    },
+    {
+      "rows": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "determinant": "(r*t**3 - r*t - t**4 + 3*t**3 - 5*t**2 + 3*t - 1)*(r*t**3 - r*t + t**4 - 3*t**3 + 5*t**2 - 3*t + 1)/t**6",
+      "ratio_to_expected": "-1/t**6"
+    },
+    {
+      "rows": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "determinant": "-(r*t**3 - r*t - t**4 + 3*t**3 - 5*t**2 + 3*t - 1)*(r*t**3 - r*t + t**4 - 3*t**3 + 5*t**2 - 3*t + 1)/t**5",
+      "ratio_to_expected": "t**(-5)"
+    },
+    {
+      "rows": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "determinant": "(r*t**3 - r*t - t**4 + 3*t**3 - 5*t**2 + 3*t - 1)*(r*t**3 - r*t + t**4 - 3*t**3 + 5*t**2 - 3*t + 1)/t**5",
+      "ratio_to_expected": "-1/t**5"
+    },
+    {
+      "rows": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "determinant": "-(r*t**3 - r*t - t**4 + 3*t**3 - 5*t**2 + 3*t - 1)*(r*t**3 - r*t + t**4 - 3*t**3 + 5*t**2 - 3*t + 1)/t**4",
+      "ratio_to_expected": "t**(-4)"
+    }
+  ]
+}
