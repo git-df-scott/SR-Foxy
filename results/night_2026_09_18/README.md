@@ -6,6 +6,13 @@ No disk in standard B4, embedded annulus, concordance, or new nonribbon knot
 is claimed. The work is exact algebra for the existing marked diagrams, plus
 primary-source and proof audits.
 
+Continuation: [research/37](../../research/37_two_isotropic_lines_and_the_collar_map.md)
+computes the saved collar's Alexander-module map and the native Blanchfield
+form. A specific 104-letter correction preserves the boundary module and
+forces exact axis conjugacy under q0. It is a word-level construction, not an
+embedded annulus or a controlled surgery diagram. The same corrected based
+word fails the test for a mere lower-segment conjugation with fixed ends.
+
 Start: clean `codex/reliable-counterexample-search`, HEAD b7ae727.
 The user then explicitly requested existing main and authorized pushing.
 Switched to existing main and fast-forwarded to 91732d4. Three concurrent upstream commits through aa2df2c were later read and
@@ -54,6 +61,8 @@ python results/night_2026_09_18/axis_segments.py
 python results/night_2026_09_18/winding_trace.py
 python results/night_2026_09_18/winding_collar.py
 python3 results/night_2026_09_18/check_bezout.py
+python results/night_2026_09_18/collar_module.py
+python results/night_2026_09_18/word_correction.py
 ```
 
 SymPy is required by the algebra producers; axis_segments and check_bezout

@@ -1,0 +1,6 @@
+{
+  "free_group_identity": "PASS",
+  "correction_replay": "PASS",
+  "two_mutation_rejections": "PASS",
+  "module_or_geometry_checked_by_this_script": false
+}
