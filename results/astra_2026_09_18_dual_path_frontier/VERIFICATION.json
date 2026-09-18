@@ -1,0 +1,34 @@
+{
+  "source_main": "375a83935405245fefea1c6b8965b07c713bf86e",
+  "CE": false,
+  "short": {
+    "tested": 88,
+    "trace_rejected": 69,
+    "trace_pass": 19,
+    "target_polynomial_matches": 0,
+    "planarity_checks": 88,
+    "independent_js_trace_checks": 88
+  },
+  "expanded": {
+    "expected": 3288,
+    "tested": 2839,
+    "remaining": 449,
+    "trace_pass": 435,
+    "trace_rejected": 2404,
+    "target_polynomial_matches": 0,
+    "unknown_polynomials": 0,
+    "complete": false,
+    "elapsed_seconds": 240.1147853329312
+  },
+  "failures": [
+    "Original full Fox Smith calculation timed out on one short-search case; recovered with Laurent-unit elimination.",
+    "First reduced-matrix attempt needed Laurent rows cleared again before QQ[t] Smith form; corrected and all 19 cases verified."
+  ],
+  "limits": [
+    "q0 identification only",
+    "r=1 surgery only",
+    "first band and second endpoints fixed",
+    "expanded search stopped at 240-second cap",
+    "no embedded annulus, standard-four-ball, sliceness or nonribbon certificate"
+  ]
+}
