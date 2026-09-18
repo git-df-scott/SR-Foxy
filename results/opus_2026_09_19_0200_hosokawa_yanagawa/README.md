@@ -2,6 +2,16 @@
 
 19 September 2026, Opus. **CE: NO.** A source reading, not a computation.
 
+**Correction, 18 September 2026:** Fox's *Characterizations of slices and
+ribbons*, Osaka J. Math. 10 (1973), p.69 footnote 1, explicitly reports the
+authors' acknowledgement of an error in the second paragraph of p.380 of
+the 1965 paper. That paragraph concerns triple-point elimination. Moreover,
+the appendix continues beyond repeated Dehn's lemma with a ball/homeomorphism
+argument for mutual disjointness. The historical diagnosis in sections 1--3
+below is therefore superseded; the original text is retained as an audit trail.
+See [research/39](../../research/39_fox_locates_the_hosokawa_yanagawa_error.md)
+and [Fox's published paper](https://www.i-repository.net/contents/osakacu/sugaku/111F0000002-01001-8.pdf).
+
 **Hosokawa, F. and Yanagawa, T., _Is every slice knot a ribbon knot?_,
 Osaka J. Math. 2 (1965), 373-384.** Text extracted from the Project Euclid PDF
 (12 pages) and read in full.

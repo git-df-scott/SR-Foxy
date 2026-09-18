@@ -33,8 +33,8 @@
   "artifacts": [
     {
       "path": "results/night_2026_09_18_followup/README.md",
-      "bytes": 4164,
-      "sha256": "e961db675bb4be1b33fef8307e125ba40b58b203dd4e0e98b751ca23af484e8d"
+      "bytes": 4970,
+      "sha256": "3048eef2994a7cb64b7bdd91c8c2089395a0eaae1d24bb14d6563199127a7dd3"
     },
     {
       "path": "results/night_2026_09_18_followup/audit_geometry_free.py",
@@ -100,6 +100,21 @@
       "path": "results/opus_2026_09_19_0000_geometry_free_certificate/README.md",
       "bytes": 3999,
       "sha256": "8ddfb2bec5c6513465959613c0eeeb80c7d05277daf8f6b7362b1367a5f5208d"
+    },
+    {
+      "path": "results/night_2026_09_18_followup/history_review.md",
+      "bytes": 1110,
+      "sha256": "2e6730a147b13457db769ce74b7aa0bf816c9a57bf12959d3ef726f086b02978"
+    },
+    {
+      "path": "research/39_fox_locates_the_hosokawa_yanagawa_error.md",
+      "bytes": 3568,
+      "sha256": "16bf4d4293896fd94d4360920da6d61926dc5d1905c42b711610ec2ae1a04adc"
+    },
+    {
+      "path": "results/opus_2026_09_19_0200_hosokawa_yanagawa/README.md",
+      "bytes": 5742,
+      "sha256": "eddcb835030db16bc009c9a26e340fe1dba3b94b52830d47397e68814087da58"
     }
   ],
   "checks": {
@@ -109,12 +124,15 @@
     "source_and_boundary_integral_Fox_identities": "PASS",
     "all_rewrites": "73 replayed;104 to20 letters",
     "mutation_controls": "coefficient and rewrite rejected",
-    "Luna_theorem_and_integral_argument_review": "Complete; F2-to-rank bridge resolved via Juhasz"
+    "Luna_theorem_and_integral_argument_review": "Complete; F2-to-rank bridge resolved via Juhasz",
+    "historical_source_correction": "Fox1973p69footnote1 and HY1965p380 and appendix read; independent source review agrees"
   },
   "not_done": [
     "No geometric collar identification",
     "No actual clasper or corrected surgery PD",
     "No embedded annulus or standard-B4 slice disk",
     "No rerun of incoming03833e5 MP/RBG checker"
-  ]
+  ],
+  "published_audit_commit": "8087901",
+  "published_audit_parent": "eff71b0fd24f6b1d546c2ae9656f912b8dbeb8fc"
 }

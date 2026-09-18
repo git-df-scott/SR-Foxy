@@ -69,6 +69,19 @@ was read but not independently rerun in this pass; it was preserved unchanged.
 Primary source: Gukov--Halverson--Manolescu--Ruehle,
 [*Searching for Ribbons with Machine Learning*, Section 6](https://web.stanford.edu/~cm5/sliceML.pdf).
 
+The later incoming `eff71b0` historical note required a correction. Fox's 1973
+paper explicitly reports the authors' acknowledgement of the Hosokawa--Yanagawa
+p.380 error; the original appendix also contains the disjointness argument
+omitted from the incoming diagnosis. See
+[research/39](../../research/39_fox_locates_the_hosokawa_yanagawa_error.md) and
+`history_review.md`. No new disk construction follows from this source finding.
+
+Integration: the first push raced with `eff71b0`. Only the unpublished local
+commit was replayed above it; the missing committer identity required an
+explicit per-command Codex identity to finish. No merge commit, new branch,
+force-push, or removal of upstream work was used. The research/38 work was
+successfully pushed as `8087901` before this historical correction.
+
 ## Next constructive step
 
 The integral correction is a concrete candidate for a local null-homologous
