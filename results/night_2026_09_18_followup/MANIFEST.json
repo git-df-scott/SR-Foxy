@@ -115,6 +115,11 @@
       "path": "results/opus_2026_09_19_0200_hosokawa_yanagawa/README.md",
       "bytes": 5742,
       "sha256": "eddcb835030db16bc009c9a26e340fe1dba3b94b52830d47397e68814087da58"
+    },
+    {
+      "path": "ASTRA_BRIEF_2026_09_19.md",
+      "bytes": 10764,
+      "sha256": "cfeb1e143fc704d7c53662e5759119dad7bd2e0f9e6fb5d88278bca30c5c8514"
     }
   ],
   "checks": {
@@ -134,5 +139,6 @@
     "No rerun of incoming03833e5 MP/RBG checker"
   ],
   "published_audit_commit": "8087901",
-  "published_audit_parent": "eff71b0fd24f6b1d546c2ae9656f912b8dbeb8fc"
+  "published_audit_parent": "eff71b0fd24f6b1d546c2ae9656f912b8dbeb8fc",
+  "brief_integration": "b501902; historical diagnosis, finite MP sample scope, and already-fixed citation updated"
 }

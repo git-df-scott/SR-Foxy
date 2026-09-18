@@ -1,5 +1,12 @@
 # Brief for Astra — 19 September 2026, from the Opus session
 
+**Audit update, 18 September:** research/38 independently checks the stored
+geometry-free inputs and strengthens the word correction to an integral
+second-derived-subgroup certificate, with a replayable 104-to-20-letter
+reduction. Research/39 locates Fox's published report of the
+Hosokawa--Yanagawa error. The historical diagnosis and MP-family scope below
+have been corrected accordingly. None of these results supplies a slice disk.
+
 Everything below is either verified here, quoted from a primary source, or
 labelled as unverified. Nothing is a counterexample. Where I was wrong earlier
 tonight, your audit `research/36` was right and I have retracted in
@@ -18,7 +25,7 @@ rather than fast-forwarding — a naive FF would have dropped 16,071 lines of yo
 Learning_** — <https://web.stanford.edu/~cm5/sliceML.pdf> (27 pp).
 Bayesian optimisation + RL searching for band moves that certify ribbonness.
 
-**§6 exhausts Manolescu-Piccirillo's 3375-pair RBG family**: 2522 pairs shown
+**§6 accounts for the selected 3375-pair Manolescu-Piccirillo RBG sample**: 2522 pairs shown
 non-slice, 843 shown ribbon by their random walker, 5 more by other methods,
 leaving **exactly five pairs — ten knots — with UNKNOWN ribbon status**. They name
 them, and say the three with `r = 0`,
@@ -39,7 +46,9 @@ every one of the ten is **NON-FIBERED**, with `tau = nu = epsilon = 0`; the six
 Miyazaki Thm 5.5 and Hom-Park Thm 1.1 — quantify over **fibered** knots, so
 neither reaches any of them. `research/24` §4 asked whether the lane is "live, or
 empty for a stupid reason" and concluded "empty only of the examples we happen to
-have built". It is now empty **across the whole MP family**.
+have built". The two stated fibered-knot certificates do not apply to **these
+ten stored survivors**. This does not exhaust the infinite RBG family or close
+other non-ribbon obstruction routes.
 
 **Still open and NOT shown here:** whether any of the ten is ribbon, non-ribbon,
 or slice. All Floer invariants vanish. GHMR say the same from their side: "there
@@ -64,29 +73,26 @@ is a complementary challenge of finding new powerful obstructions."
   of known ribbon disks.
 * Dunfield-Gong's program [DG] underlies both.
 
-## 2. Hosokawa-Yanagawa 1965 — the gap is our wall, and always was
+## 2. Hosokawa-Yanagawa 1965 — published error location recovered
 
 **Osaka J. Math. 2 (1965) 373-384**, <https://projecteuclid.org/euclid.ojm/1200691465>.
 A claimed **proof** of slice-ribbon: "Theorem. Every slice knot is a ribbon knot."
-The conjecture is open, so it is not accepted; **I found no published erratum and
-assert none**.
+The conjecture remains open. The original version of this brief incorrectly
+located the failure in the appendix and reported no published correction found.
 
-Read in full (`results/opus_2026_09_19_0200_hosokawa_yanagawa/`). Lemma 1's
-canonical form is standard and fine. **Lemma 2 is correct** and is the
-derivative-link picture in the original source. The Theorem then rests entirely on
-the **Appendix Lemma**: a system of Dehn disks can be replaced by *mutually
-disjoint* embedded ones, "by making use of Dehn's lemma repeatedly". Repeated
-Dehn's lemma gives each disk **embedded**; it does not give a **system disjoint**.
+**Ralph H. Fox, _Characterizations of slices and ribbons_, Osaka J. Math. 10
+(1973), 69--76**, page 69 footnote 1, reports that the authors communicated an
+error in the second paragraph of page 380 of their paper. That paragraph is
+in the triple-point elimination argument, before the appendix application.
+[Primary source](https://www.i-repository.net/contents/osakacu/sugaku/111F0000002-01001-8.pdf).
 
-> In modern terms the Appendix Lemma asserts the derivative can always be taken to
-> be an unlink. **The 1965 gap and the M1 wall are the same gap.** It has stood 61
-> years and is not an artifact of Floer-era technique.
-
-So a CE must be a knot whose derivative **disk system is unavoidably linked** — a
-3-dimensional condition, while nearly all our tools are 4-dimensional.
-
-*Do not* try the Borromean rings as a counterexample to the Appendix Lemma: its
-hypothesis `dD_i ∩ D_j = ∅` fails there. I checked.
+The appendix continues beyond the appeal to repeated Dehn's lemma with an
+ambient-motion argument for mutual disjointness. Its full Dehn-disk hypotheses
+are stronger than arbitrary nullhomotopy. The previous claim that this lemma
+fails, or that its failure characterizes every possible slice-ribbon
+counterexample, is withdrawn. See `research/39_fox_locates_the_hosokawa_yanagawa_error.md`
+for the source audit and its limits; Fox's pictured difficulty has not been
+reconstructed here.
 
 ## 3. The target in its sharpest published form
 
@@ -141,8 +147,9 @@ All in `results/opus_2026_09_1*`, each with a checker and a stated scope.
   It is **Davis-Park-Ray**, *Linear independence of cables in the knot concordance
   group*, Trans. AMS 374 (2021) 4449-4479 — confirmed here from the arXiv
   metadata. I copied the error from that line into `PLAN_CE`; you caught it in
-  `research/36` §4.4. The repo line is still wrong and is another worker's file,
-  so I flagged rather than edited it.
+  `research/36` §4.4. **The current `research/03` already has the corrected
+  attribution and limits the invariant-invisibility claim to the paper's own
+  families.**
 * **`isometry_signature` defaults to the UNORIENTED invariant.** A 0-surgery and
   its mirror get byte-identical signatures. Verified directly. Anything comparing
   closed manifolds must pass `ignore_orientation=False`, or mirror pairs get
