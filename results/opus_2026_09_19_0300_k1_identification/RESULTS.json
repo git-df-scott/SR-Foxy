@@ -1,0 +1,55 @@
+{
+ "all_checks_pass": true,
+ "n_checks": 7,
+ "n_pass": 7,
+ "checks": [
+  {
+   "name": "L has the 3 components the card names",
+   "pass": true,
+   "detail": "['K (=6_3)', \"c'_1 (push-off of c_1, inner)\", \"c'_2 (push-off of c_2, outer)\"]"
+  },
+  {
+   "name": "card's n-fold slopes are (n+1,n) and (n-1,n)",
+   "pass": true,
+   "detail": "{'n-fold annulus twist': {\"c'_1\": '(n+1, n)', \"c'_2\": '(n-1, n)'}}"
+  },
+  {
+   "name": "L exterior has 3 cusps",
+   "pass": true,
+   "detail": "3"
+  },
+  {
+   "name": "CONTROL n=0: filling L at (1,0),(-1,0) returns 6_3",
+   "pass": true,
+   "detail": "gLLPQccdefffhggaacv"
+  },
+  {
+   "name": "n=1: filling L at (2,1),(0,1) returns the stored K_1",
+   "pass": true,
+   "detail": "mvLLLPPQQcdjhkilikilklwrqunrlrkcawm"
+  },
+  {
+   "name": "K_0 and K_1 have different oriented signatures",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "RESIDUAL GAP recorded: verified=True is unavailable here",
+   "pass": true,
+   "detail": "SageNotAvailable: Sorry, this feature requires using SnapPy inside Sage."
+  }
+ ],
+ "signatures": {
+  "stored_K_0": "gLLPQccdefffhggaacv",
+  "stored_K_1": "mvLLLPPQQcdjhkilikilklwrqunrlrkcawm",
+  "L_filled_n0": "gLLPQccdefffhggaacv",
+  "L_filled_n1": "mvLLLPPQQcdjhkilikilklwrqunrlrkcawm"
+ },
+ "conclusion": "The stored K_1 is identified with the n=1 annulus twist of 6_3 by matching ORIENTED isometry signatures of the canonical retriangulation, with the n=0 control returning 6_3. This replaces the construction card's is_isometric_to call, which is the weakest kind of check this campaign has relied on.",
+ "residual_gap": "isometry_signature(verified=True) raises SageNotAvailable here, so the canonical retriangulation is computed numerically. This is a high-confidence identification, not a proof. Rerunning inside Sage with verified=True would close it.",
+ "not_established_here": [
+  "Nothing about sliceness or concordance.",
+  "The PD code of L itself is taken as committed; this does not re-derive it from Abe-Tagami's figures, which remains the upstream dependency.",
+  "Gordon-Luecke is cited, not reproved."
+ ]
+}
