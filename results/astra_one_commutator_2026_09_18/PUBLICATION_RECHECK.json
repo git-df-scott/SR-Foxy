@@ -1,0 +1,38 @@
+{
+  "source_commit": "19cddf9f527f8d3487943b98bba2c7f355629426",
+  "archive_files": 27,
+  "manifest_checked": 26,
+  "manifest_all_pass": true,
+  "replays": {
+    "python": {
+      "matches_saved_bytes": true,
+      "elapsed_seconds": 0.763300858000008,
+      "returncode": 0
+    },
+    "optimized": {
+      "matches_saved_bytes": true,
+      "elapsed_seconds": 2.7552650789999973,
+      "returncode": 0
+    },
+    "finite": {
+      "matches_saved_bytes": true,
+      "elapsed_seconds": 0.764391357000008,
+      "returncode": 0
+    },
+    "independent": {
+      "matches_saved_bytes": true,
+      "elapsed_seconds": 0.08630100400000629,
+      "returncode": 0
+    }
+  },
+  "mac_checkout_accessed": false,
+  "new_branch_created": false,
+  "publication_directory": "results/astra_one_commutator_2026_09_18",
+  "original_zip_sha256": "d8fa1840759797398394672498eeede38dd3e4105c36635a70ad9e6495c40929",
+  "bundle_sha256": "5a1e64010dabcf469bba33a8a4e35b318403c84424cf37835bc73ea7f72aa6f7",
+  "bundle_git_blob_sha1": "55f8baa4c5ccb038e44caf2457d3d34337ab3987",
+  "all_27_member_bytes_match_original_zip": true,
+  "original_scientific_files_modified": false,
+  "independent_corruptions_rejected": 8,
+  "source_checkout_comparison_run": false
+}
