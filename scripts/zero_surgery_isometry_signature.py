@@ -58,9 +58,17 @@ def census():
 
 
 def signature(i, verified=False):
+    """ORIENTED isometry signature of the 0-surgery.
+
+    ignore_orientation MUST be False.  SnapPy's default returns the UNORIENTED
+    invariant, which gives a manifold and its mirror the identical signature
+    (checked directly: they agree with the default and differ with it off).
+    A shared 0-surgery in the Abe-Tagami sense needs an ORIENTATION-PRESERVING
+    homeomorphism, so the default would have counted mirror pairs as hits.
+    """
     M = snappy.ManifoldHP(census()[i])
     M.dehn_fill((0, 1))
-    return M.isometry_signature(verified=verified)
+    return M.isometry_signature(verified=verified, ignore_orientation=False)
 
 
 def main():
