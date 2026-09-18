@@ -145,15 +145,19 @@ dependent" in general — it is the sharply specified: **the 4-term relation
 `K_{p,q_1} - K_{p,q_2} - J_{p,q_1} + J_{p,q_2} = 0` holds for some distinct `K, J`.**
 
 **State of the art on cable independence** (PARTIALLY VERIFIED — abstracts):
-- Dai–Hom–Stoffregen–Truong, *Linear independence of cables in the knot concordance group*, arXiv:1806.06225:
+- Christopher W. Davis–JungHwan Park–Arunima Ray, *Linear independence of cables in the knot concordance group*,
+  [arXiv:1806.06225](https://arxiv.org/abs/1806.06225), Trans. AMS 374 (2021), 4449–4479:
   infinite families whose sets of cables are linearly independent in `C`; these examples lie arbitrarily deep in
   the solvable and bipolar filtrations, and — critically — **the independence cannot be detected by any
   combination of algebraic concordance invariants, Casson–Gordon invariants, and `τ`, `ε`, `Υ`.** This is
-  exactly the difficulty the Hom–Park dichotomy runs into.
+  a result about their specified families; it does not establish the same invisibility for the Hom–Park
+  four-term candidates without matching the hypotheses and parameters. (Attribution and scope corrected
+  18 September 2026; see research/36 and ERRATA_2026-09-18_OPUS.md.)
 - Hedden–Kim–Livingston / S. Kim–Livingston (after Hedden–Livingston–Ruberman): the relevant cokernel contains
   `Z^∞ ⊕ (Z/2)^∞`. (UNVERIFIED — search-result restatement.)
 - Feller–Park–Ray: linear independence of a subfamily of mixed iterated cables. (UNVERIFIED.)
-- Hom's `ε` and `Υ`: standard cable formulae exist but are insufficient per DHST above. (PARTIALLY VERIFIED.)
+- Hom's `ε` and `Υ`: standard cable formulae exist. Their insufficiency for the Davis–Park–Ray families
+  above does not by itself settle their values or sufficiency on the present four-term candidates.
 - Figure-eight cable lane (relevant because `4_1` is *not* tight fibered, but the techniques transfer):
   Dai–Kang–Mallick–Park–Stoffregen, *The (2,1)-cable of the figure-eight knot is not smoothly slice*,
   Invent. Math. 238 (2024) 371–390, arXiv:2207.14187 (VERIFIED — intro read); and

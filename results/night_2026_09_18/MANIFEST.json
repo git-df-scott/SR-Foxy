@@ -28,8 +28,8 @@
   "artifacts": [
     {
       "path": "results/night_2026_09_18/README.md",
-      "bytes": 7878,
-      "sha256": "fb6a832a0f745ed5edd1a8cf2f61810d4b07e0faa1fe53cb9fcb63593005ab3e"
+      "bytes": 8444,
+      "sha256": "945718231f2b978391e874acdf0cd9975dfa2d75845607f6feff394d6baec348"
     },
     {
       "path": "results/night_2026_09_18/algebra_review.md",
@@ -185,6 +185,51 @@
       "path": "results/opus_2026_09_18_2300_framing_dichotomy/check_framing_dichotomy.py",
       "bytes": 4312,
       "sha256": "4c41ead73f7c81aa0f9777e1ceff0089e74da678bcf777d4f6b0d5c964ef402c"
+    },
+    {
+      "path": "results/night_2026_09_18/check_word_correction.py",
+      "bytes": 1531,
+      "sha256": "92e7199c69c85e6422f542a8af537ea16608aebc246e89e296d4efe8069bed96"
+    },
+    {
+      "path": "results/night_2026_09_18/word_correction_check.json",
+      "bytes": 158,
+      "sha256": "b741cefa8c11c79564a468ee14ec13e7bb075fb32dff8ff111a9f7da0f0fc9d6"
+    },
+    {
+      "path": "results/night_2026_09_18/collar_module.json",
+      "bytes": 2174,
+      "sha256": "71d97274177445a0ee831869b6bfe6aa5872bf01b7641ba987be3130f6621c75"
+    },
+    {
+      "path": "results/night_2026_09_18/word_correction.py",
+      "bytes": 3085,
+      "sha256": "e3e44d1c8e841cc1594cf0923ef359c3713f2e862d59697568ef245ff75e99a7"
+    },
+    {
+      "path": "results/night_2026_09_18/isotropic_review.md",
+      "bytes": 4795,
+      "sha256": "433db131d34fd8859562efdfa87ac0b7f0b666a893a0594a302e28b61bfa1562"
+    },
+    {
+      "path": "results/night_2026_09_18/word_correction.json",
+      "bytes": 3644,
+      "sha256": "d0aa7f52c62e7fda2b185cab06e77b2d6000c393674ed85c4a242e0894af68ba"
+    },
+    {
+      "path": "results/night_2026_09_18/collar_module.py",
+      "bytes": 4090,
+      "sha256": "65cf1bcf7378d741bea0e512335eedff7a94544b4b8b349aa2c4b6ec2ea3f36c"
+    },
+    {
+      "path": "research/37_two_isotropic_lines_and_the_collar_map.md",
+      "bytes": 10279,
+      "sha256": "bc671d192aab1c991b8055b33c4a395610315c788c098c381439cc3b0a1e5ff5"
+    },
+    {
+      "path": "research/03_candidate_families.md",
+      "bytes": 54125,
+      "sha256": "a8876d41d52218af61ef91612262736f011f3503d8242e3356fe269d4147cb7f"
     }
   ],
   "checks": {
@@ -200,16 +245,24 @@
     "0110_longitude_response_zero": "PASS",
     "corrected_framing_arithmetic": "11/11",
     "corrected_Miyazaki_algebra": "84/84",
-    "all_integer_quartic_irreducibility": "Written proof independently reviewed; not a finite-search claim"
+    "all_integer_quartic_irreducibility": "Written proof independently reviewed; not a finite-search claim",
+    "saved_collar_module_map": "PASS: source and mapped boundary relators, native and repaired coordinates",
+    "native_pairing_form": "PASS: exact Hermitian and congruence identities",
+    "module_preserving_word_correction": "PASS: zero boundary F-class and exact free-word conjugacy",
+    "independent_word_replay": "PASS, including two mutation rejections",
+    "fixed_based_lower_connector_realization": "REJECTED by nonzero exact trace difference; not a universal geometric exclusion"
   },
   "limitations": [
     "Shared archived PD/Fox extractor across both surgery computations",
     "No geometric identification of any q_n collar",
     "No newly embedded annulus or standard B4 disk",
     "No independent figure-to-PD verification",
-    "Census recovery reviewed, not rerun"
+    "Census recovery reviewed, not rerun",
+    "Corrected word has no marked surgery diagram, controlled Laurent response, or embedded annulus"
   ],
   "integration_base_commit": "5ef25e25e3c7a52c3428b5a14d0c457ce8f12063",
   "novelty_correction": "The opposite-twist all-r formula was already in local_band_no_go at 375a839. New work is two-variable response, boundary module/winding-word checks, and closure audits.",
-  "integration_note": "Preserves upstream 5ef25e2 census-script repairs; those repairs were not independently audited in this pass."
+  "integration_note": "Preserves upstream 5ef25e2 census-script repairs; those repairs were not independently audited in this pass.",
+  "continuation_base_commit": "3b51c50c2c8e2630ebf1d6c9f5a6ebbf555da411",
+  "continuation_recorded_at_utc": "2026-09-18T20:51:52.032753+00:00"
 }
