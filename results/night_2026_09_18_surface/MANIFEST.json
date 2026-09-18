@@ -1,0 +1,98 @@
+{
+  "date": "2026-09-18",
+  "base_commit": "6846026b982d0429bc035ba42d3c0a46baa4f353",
+  "scope": "Explicit group identities and mapped surface; geometric realization remains open",
+  "inputs": [
+    {
+      "path": "results/astra_2026_09_17_collar_boundary_audit/CERTIFICATE.json",
+      "bytes": 8602,
+      "sha256": "6969cd957ce3a1ba023ade673ca4aa13611e97ad0b5da9f5078fa28c9662c420"
+    },
+    {
+      "path": "results/night_2026_09_18/word_correction.json",
+      "bytes": 3644,
+      "sha256": "d0aa7f52c62e7fda2b185cab06e77b2d6000c393674ed85c4a242e0894af68ba"
+    },
+    {
+      "path": "results/night_2026_09_18_followup/shorten_correction.py",
+      "bytes": 2190,
+      "sha256": "315b2a89e2aeaa20ab1437d629f72a03e5d8580a56e4aaa661fd96b08d4149fe"
+    },
+    {
+      "path": "results/night_2026_09_18_followup/integral_correction.py",
+      "bytes": 3530,
+      "sha256": "2cc0687858bbdfbe65199d85837eb1e3f09446f6a60a8d6923796682384b4281"
+    },
+    {
+      "path": "results/chat_archive_2026_09_17/expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/diagram_core.py",
+      "bytes": 10330,
+      "sha256": "cf9012abcbc9d79b76aed7741d6a14cff99437706b245a007286aea35f1fc62a"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "results/night_2026_09_18_surface/README.md",
+      "bytes": 1619,
+      "sha256": "8757821993b658e903bf017767bf1c40adc3c1208a59c1016a890af1252606f2"
+    },
+    {
+      "path": "results/night_2026_09_18_surface/check_surface.py",
+      "bytes": 3944,
+      "sha256": "f7d906a8e15838171652ce87bf39a63c486d6c7e6acd253a8bd72146ccb17e8f"
+    },
+    {
+      "path": "results/night_2026_09_18_surface/factor_surface.py",
+      "bytes": 4364,
+      "sha256": "87bee2f3f1056b2efd4c39cff1c96cc0a611298fa648524e46503715323a2b41"
+    },
+    {
+      "path": "results/night_2026_09_18_surface/independent_review.md",
+      "bytes": 953,
+      "sha256": "a2e09445e36526ac8b1a2a7bd1e375bfd13e1351658c350b8cda726c8ebe7c17"
+    },
+    {
+      "path": "results/night_2026_09_18_surface/integral_short_boundary.py",
+      "bytes": 3660,
+      "sha256": "c5cdad46047ad7000ca41397d14177dc89f157d3ebc02c97e2368a9b0faf6341"
+    },
+    {
+      "path": "results/night_2026_09_18_surface/replay.json",
+      "bytes": 248,
+      "sha256": "35db204bda2f646e9e70377204f6248ceab892193c1fdc556e4dcfcc2ff19882"
+    },
+    {
+      "path": "results/night_2026_09_18_surface/short_boundary.json",
+      "bytes": 13954,
+      "sha256": "2619093683d62f23d21a542604857dab12975057191a70c3af4ffe9473d5b36c"
+    },
+    {
+      "path": "results/night_2026_09_18_surface/short_integral.json",
+      "bytes": 4147,
+      "sha256": "0c66da8ed8b3d286ed34e556751b7d3f0df3306bc34baa7cbf2e3701cb4482be"
+    },
+    {
+      "path": "results/night_2026_09_18_surface/shorten_boundary.py",
+      "bytes": 2251,
+      "sha256": "9aa149b0ecc2fa0e6a6ab4685128c09f84fbc339dcbf44ec3637830985a74e3f"
+    },
+    {
+      "path": "results/night_2026_09_18_surface/surface_certificate.json",
+      "bytes": 17337,
+      "sha256": "30c3bbe7084e6cf697447b414c6734091f5379fb9f2f4d700358e361ad1a7e15"
+    },
+    {
+      "path": "research/40_explicit_boundary_commutators_and_mapped_surface.md",
+      "bytes": 7231,
+      "sha256": "9851218cb9299341fd45a4b944ad191385b3bec918141bb896bac4a2ae8796e0"
+    }
+  ],
+  "verification": {
+    "boundary_rewrite_steps_verified": 64,
+    "boundary_word_length": 26,
+    "commutator_identity": "PASS: literal free reduction",
+    "handle_loops_in_exponent_zero_subgroup": 26,
+    "mapped_genus_upper_bound": 13,
+    "mutation_controls_rejected": 2
+  },
+  "independent_review": "Luna: checker passes; group and mapped-surface implications accepted with stated input-provenance scope"
+}
