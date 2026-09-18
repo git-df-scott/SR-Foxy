@@ -1,109 +1,104 @@
-# Hosokawa-Yanagawa 1965: the gap is the unlink-derivative question, and always was
+# Hosokawa-Yanagawa 1965 — CORRECTED: Fox located the error, and I had it wrong
 
 19 September 2026, Opus. **CE: NO.** A source reading, not a computation.
 
-**Correction, 18 September 2026:** Fox's *Characterizations of slices and
-ribbons*, Osaka J. Math. 10 (1973), p.69 footnote 1, explicitly reports the
-authors' acknowledgement of an error in the second paragraph of p.380 of
-the 1965 paper. That paragraph concerns triple-point elimination. Moreover,
-the appendix continues beyond repeated Dehn's lemma with a ball/homeomorphism
-argument for mutual disjointness. The historical diagnosis in sections 1--3
-below is therefore superseded; the original text is retained as an audit trail.
-See [research/39](../../research/39_fox_locates_the_hosokawa_yanagawa_error.md)
-and [Fox's published paper](https://www.i-repository.net/contents/osakacu/sugaku/111F0000002-01001-8.pdf).
-
-**Hosokawa, F. and Yanagawa, T., _Is every slice knot a ribbon knot?_,
-Osaka J. Math. 2 (1965), 373-384.** Text extracted from the Project Euclid PDF
-(12 pages) and read in full.
-
-Verbatim from the introduction:
-
-> "R. H. Fox presented a problem 'Is every slice knot a ribbon knot?' in his
-> paper [2]. **The purpose of this paper is to give an affirmative answer to the
-> problem.**"
-
-and, at the end of §2:
-
-> "Thus we can obtain a ribbon modified from `sigma` with the boundary `K`.
-> Therefore we have **Theorem. Every slice knot is a ribbon knot.**"
-
-So this is a claimed *proof* of the slice-ribbon conjecture.
+> **Correction, same night.** The first version of this note (a) located the gap
+> in the Appendix Lemma and (b) said no published erratum was found. **Both are
+> wrong.** Astra's `research/39` found Fox's published report; I then verified it
+> from the primary source, and it places the error somewhere else entirely. The
+> structural synthesis I drew from my misplacement — that the 1965 gap "is" the
+> unlink-derivative wall — is **withdrawn**. What survives is marked below.
 
 ---
 
-## 1. Status, stated carefully
+## 1. The paper
 
-The conjecture is **open**. Gukov-Halverson-Manolescu-Ruehle (2022) state it as
-"Conjecture 2.1 (Slice-Ribbon Conjecture, [Fox62]). Every slice knot is ribbon"
-and call it "a famous unsolved problem"; Agol-Ren (2026) treat it as a
-conjecture throughout. The 1965 proof is therefore not accepted by the field.
+**Hosokawa, F. and Yanagawa, T., _Is every slice knot a ribbon knot?_,
+Osaka J. Math. 2 (1965), 373-384**,
+<https://projecteuclid.org/euclid.ojm/1200691465>. Read in full.
 
-**I did not find a published erratum or a documented refutation**, and I am not
-asserting one. What follows identifies which step carries the weight — not a
-proof that the step is false.
+> "R. H. Fox presented a problem 'Is every slice knot a ribbon knot?' in his
+> paper [2]. **The purpose of this paper is to give an affirmative answer.**"
+>
+> "... **Theorem. Every slice knot is a ribbon knot.**"
 
-## 2. The argument, and where the weight sits
+The conjecture is open, so the proof fails. The question is *where*.
 
-1. **Lemma 1** puts the spanning 2-cell in `(-1,1)`-canonical form: all elliptic
-   critical points of type I (births) at `t = -1`, all of type II (deaths) at
-   `t = 1`, saddles in between. This is the standard normal form for a surface in
-   4-space and is **not** where the problem is, despite the thin justification
-   given ("since `H^4[-1,1] - e^2` is arcwise connected, it is easy to modify").
-2. **Lemma 2** is the real structural content, and it is correct and familiar:
-   > "If a knot `K` is a slice knot in `R^3`, there exists in `R^3 - kappa` a
-   > collection of `r` mutually disjoint, non-singular 2-cells
-   > `sigma_1, ..., sigma_r` such that `K` and the boundary circles
-   > `a_1, ..., a_r` bound a **perforated ribbon** in `R^3`."
-3. The Theorem then follows **if** the remaining singular disks can be replaced
-   by *mutually disjoint* embedded ones. That is the **Appendix Lemma**:
-   > "If `D_1, ..., D_r` is a set of normal, canonical Dehn-disks such that
-   > `dD_i ∩ D_j = ∅` (`i != j`) in a 3-manifold `M`, then there exists a set of
-   > **mutually disjoint**, non-singular disks `delta_1, ..., delta_r` such that
-   > `delta_i` is identical with `D_i` in a sufficiently small neighborhood of
-   > `dD_i`."
-   >
-   > *Proof.* "By making use of Dehn's lemma repeatedly ..."
+## 2. Where the error actually is — Fox, 1973, verbatim
 
-Dehn's lemma applied repeatedly makes each disk **embedded**. It does not make
-them **mutually disjoint**. Disjointness of a whole disk system is a strictly
-stronger demand than embeddedness of each member, and it is the only step in the
-paper doing real work.
+**Ralph H. Fox, _Characterizations of slices and ribbons_, Osaka J. Math. 10
+(1973), 69-76**, footnote on p. 69
+(<https://www.i-repository.net/contents/osakacu/sugaku/111F0000002-01001-8.pdf>),
+fetched and text-extracted here:
 
-## 3. Why this matters to the campaign
+> "**The proof presented in [4] has an error in the second paragraph of p. 380.**
+> This fact was communicated to me by the authors, who cited diagram 2 to
+> illustrate the difficulty. Diagram 1, from which diagram 2 may be generated was
+> communicated to me by I. Johansson."
 
-Read in modern language, Lemma 2 says a slice knot has a **derivative link**
-`a_1 ∪ ... ∪ a_r` bounding disjoint disks in the complement, with `K` and the
-`a_i` cobounding a perforated ribbon; and the Appendix Lemma asserts that the
-associated disk system can always be made disjoint — i.e. in effect that **the
-derivative can always be taken to be an unlink**.
+So the error was **known by 1973 and reported by the authors themselves**.
 
-> **The 1965 gap and the campaign's M1 wall are the same gap.**
+**What is on p. 380.** The page opens with "Fig. 8 **[II] Triple points**", and its
+second paragraph is the start of triple-point elimination:
 
-`research/02`, `research/06`-`07` and `research/22` identify the missing
-ingredient as exactly this: no theorem converts a known R-link derivative into an
-unlink derivative, and "no unlink derivative" is an infinite search with no
-bounding theorem. That is not a modern artifact of Floer-theoretic technique.
-It is the step at which the original attempted proof stalls, and it has stood for
-**sixty-one years**.
+> "Now, we will consider triple points on double lines of ribbon type. By the
+> considerations about singularities of `sigma` in section 2, one of the three
+> inverse images of every triple point does not belong to `l`-line. By cutting
+> `sigma` along the image of an arc starting from a boundary point and disjoint
+> with `l`-lines, we may suppose that `E'G'` is a subarc of an `l`-line ... and
+> `G'A` does not contain any inverse image of triple points ..."
 
-**Consequence for a counterexample.** Any CE must be a knot whose derivative disk
-system is *unavoidably* linked — the obstruction is the impossibility of
-disjointing a system of embedded disks, not a property of any single disk. That
-is a 3-dimensional condition, while almost every tool the campaign holds is
-4-dimensional, which is a plausible reason the board looks the way it does.
+That is **§3 [II], before the Appendix Lemma is ever invoked** — the appendix is
+applied later, in §4.
 
-**A caution worth recording.** The paper's stated corollary — that a slice knot's
-Alexander polynomial has the form `f(t) f(t^{-1})`, via Terasaka's theorem for
-ribbon knots — **is true**, and was proved independently by Fox-Milnor (1966). A
-flawed proof can carry true corollaries, so agreement of a consequence is not
-evidence for the argument.
+## 3. What I got wrong, and how
 
-## 4. What this is not
+I read the paper, judged the Appendix Lemma ("by making use of Dehn's lemma
+repeatedly" ⟹ *mutually disjoint* embedded disks) to be the only step doing real
+work, and built on it: that the 1965 gap and the campaign's M1 wall are the same
+gap, and that a counterexample must therefore have an unavoidably linked
+derivative disk system.
 
-* Not a refutation of the Appendix Lemma. I identify it as load-bearing; I have
-  not shown it false, and the obvious Borromean-rings counterexample to a naive
-  "disjoint Dehn's lemma" **does not apply**, because its hypothesis
-  `dD_i ∩ D_j = ∅` fails there.
-* Not a new obstruction, construction, or candidate. No computation was run.
-* Not a claim about the historical literature beyond what is quoted; no erratum
-  was located.
+The reasoning was plausible and the conclusion was unsupported. I had not
+established that the Appendix Lemma fails — I said so at the time — and then
+reasoned from it anyway. Astra's `research/39` further notes that the appendix
+continues past the Dehn's-lemma appeal with an ambient-motion argument, and that
+its hypotheses are stronger than arbitrary nullhomotopy.
+
+**This is the third time tonight I have built a structural claim on a step I had
+not verified** — after the framing-to-polynomial corollary and the blanket form of
+Proposition N (`ERRATA_2026-09-18_OPUS.md`, E18-1 and E18-2). The pattern is the
+same each time: a bounded derivation generalised into a universal statement
+without checking it against something checkable.
+
+## 4. What survives
+
+* **Lemma 2 is correct and is the derivative-link picture in the 1965 source**:
+  > "If a knot `K` is a slice knot in `R^3`, there exists in `R^3 - kappa` a
+  > collection of `r` mutually disjoint, non-singular 2-cells `sigma_1,...,sigma_r`
+  > such that `K` and the boundary circles `a_1,...,a_r` bound a **perforated
+  > ribbon** in `R^3`."
+  That observation stands on its own and does not depend on where the proof
+  fails.
+* **Lemma 1's canonical form** (births, then saddles, then deaths) is the standard
+  normal form for a surface in 4-space, and is not the problem.
+* **A caution worth keeping.** The paper's corollary — a slice knot's Alexander
+  polynomial has the form `f(t)f(t^{-1})`, via Terasaka — **is true**, proved
+  independently by Fox-Milnor in 1966. A flawed proof can carry true corollaries,
+  so a consequence checking out is not evidence for the argument. Given how much
+  of this campaign is consequence-checking, that is the most useful thing in this
+  note.
+* Fox's own paper is worth reading for its own sake: it proves **Theorem A**, that
+  `K` is slice iff `K & 0 & ... & 0` is a weak ribbon link for large enough `mu`,
+  citing Murasugi and Hosokawa-Yanagawa Lemma 2 — i.e. the corrected 1973 form of
+  what the 1965 paper was reaching for.
+
+## 5. Withdrawn
+
+* "The 1965 gap and the M1 wall are the same gap."
+* "A CE must be a knot whose derivative disk system is unavoidably linked."
+* "I found no published erratum" — Fox published one in 1973; my search simply
+  failed to surface it.
+
+Neither the location of the error nor Fox's pictured difficulty (diagrams 1 and 2)
+has been reconstructed here.

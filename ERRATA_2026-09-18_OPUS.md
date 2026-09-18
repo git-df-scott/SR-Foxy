@@ -107,6 +107,32 @@ lifting/input assumptions. Confirmed present in the repository. Auditing those
 assumptions is a different and much cheaper task than starting from HFK ranks,
 which is what I proposed.
 
+## E18-8. Hosokawa-Yanagawa: wrong gap, and a missed erratum
+
+`results/opus_2026_09_19_0200_hosokawa_yanagawa/` originally located the 1965
+proof's failure in the Appendix Lemma and reported that no published erratum was
+found. **Both wrong.** Astra's `research/39` found Fox's report; verified here
+from the primary source, **Fox, _Characterizations of slices and ribbons_, Osaka
+J. Math. 10 (1973) 69-76**, p. 69 footnote:
+
+> "The proof presented in [4] has an error in the second paragraph of p. 380.
+> This fact was communicated to me by the authors, who cited diagram 2 to
+> illustrate the difficulty."
+
+Page 380 opens "[II] Triple points", so the error is in triple-point elimination,
+in section 3, **before the appendix is ever invoked**. The synthesis I drew from
+the misplacement - that the 1965 gap "is" the M1 unlink-derivative wall, and that
+a CE must have an unavoidably linked derivative disk system - is **withdrawn**.
+
+What survives: Lemma 2 really is the derivative-link picture in the 1965 source,
+and the caution that the paper's true corollary (Fox-Milnor via Terasaka) came out
+of a flawed proof.
+
+**This is the third instance of one failure mode tonight**, with E18-1 and E18-2:
+a bounded derivation generalised into a universal statement without checking it
+against something checkable. In all three cases the checkable thing existed and I
+did not look.
+
 ---
 
 ## What still stands from the three commits
