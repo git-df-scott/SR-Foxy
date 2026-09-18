@@ -1,0 +1,122 @@
+{
+ "all_checks_pass": true,
+ "n_checks": 12,
+ "n_pass": 12,
+ "checks": [
+  {
+   "name": "A1 source annulus framing lk(c'_1,c'_2) = +1",
+   "pass": true,
+   "detail": "from the construction card"
+  },
+  {
+   "name": "A2 n-fold twist slopes are (n+1,n) and (n-1,n)",
+   "pass": true,
+   "detail": "so the coefficients are 1 +- 1/n, not +- 1/n"
+  },
+  {
+   "name": "A3 n=1 slopes used are (2,1) and (0,1)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "B1 lk(c1_upper,c2_upper) = +1",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "B2 lk(c1_lower,c2_lower) = -1 (the copy is mirrored)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "B3 every upper-lower cross linking vanishes",
+   "pass": true,
+   "detail": "[0, 0, 0, 0]"
+  },
+  {
+   "name": "C1 crossed  eta1=c1u#c2l, eta2=c2u#c1l: lk = 0",
+   "pass": true,
+   "detail": "0"
+  },
+  {
+   "name": "C1 uncrossed eta1=c1u#c1l, eta2=c2u#c2l: lk = 0",
+   "pass": true,
+   "detail": "0"
+  },
+  {
+   "name": "C2 a same-half annulus keeps framing magnitude 1",
+   "pass": true,
+   "detail": "this is the FIXED-AXIS configuration, obstructed by SL(2,F_5) nonconjugacy"
+  },
+  {
+   "name": "D1 Astra's Delta_r equals Delta^2 - r^2 (t^3-t)^2",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "D2 Delta_r = Delta^2 only at r = 0",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "D3 r = 0 is the meridional filling, i.e. NO twist",
+   "pass": true,
+   "detail": "slopes (1,0),(-1,0); boundary is K_0 # (-K_0), which is ribbon"
+  }
+ ],
+ "linking_matrix": [
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   -1
+  ],
+  [
+   0,
+   0,
+   0,
+   -1,
+   0
+  ]
+ ],
+ "component_markings": {
+  "R": 0,
+  "c1_upper": 1,
+  "c2_upper": 2,
+  "c1_lower": 3,
+  "c2_lower": 4
+ },
+ "conclusion": "Any axes obtained by band-summing one upper to one lower marked circle have linking 0, so they bound only a 0-framed annulus and induce +-1/r surgery instead of the required 1 +- 1/n. No choice of band path, over/under, internal twist or endpoint can change this, because linking is bilinear on homology classes and a band sum adds them. Hence the mixed-band program cannot produce D_{0,1}.",
+ "dichotomy": {
+  "same-half axes": "framing +-1, correct, but obstructed by the SL(2,F_5) axis-nonconjugacy certificate",
+  "mixed axes": "escape the conjugacy gate, but framing is forced to 0 and the boundary polynomial is wrong"
+ },
+ "not_established_here": [
+  "Nothing about axes that are NOT band sums of the four marked circles; those lie outside this argument.",
+  "No statement about whether any B_r is slice.",
+  "No knot is identified anywhere."
+ ],
+ "sympy_version": "1.14.0"
+}
