@@ -1,5 +1,23 @@
 #!/usr/bin/env python3
-"""Robustly decide the volume-matched 0-surgery pairs left UNKNOWN by SnapPea.
+"""SUPERSEDED AND DEFECTIVE - DO NOT REUSE WITHOUT REPAIR.
+
+Replaced by scripts/zero_surgery_isometry_signature.py.
+
+Known defects, recorded in results/opus_2026_09_18_2100_census_evidence/:
+  * try_isometry returns on the FIRST boolean. SnapPy documents
+    is_isometric_to returning True as rigorous but False as possibly
+    numerical, so this both ends escalation early and would record an
+    uncertified exclusion as DISTINCT_BY_ISO.
+  * DISTINCT_BY_SPEC rests on six-place rounding of a Python complex, which
+    is not interval verification and cannot certify distinctness;
+    multiplicities were not preserved either.
+  * The scientific record is truncated by all[:4000] and unknown[:300], and
+    the eight-entry fingerprint is stored as fa[:3].
+  * It rebuilt the census inside filled(); fixed in 089d8bd, but the run had
+    already burned 238 CPU-minutes without finishing 100 of 2352 pairs.
+It produced NO final output; nothing from it was ever published.
+
+Robustly decide the volume-matched 0-surgery pairs left UNKNOWN by SnapPea.
 
 scripts/zero_surgery_pair_search.py found 1589 volume-matched groups inside a
 shared Alexander polynomial and reported 0 confirmed isometric pairs.  That was

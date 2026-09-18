@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Hammer a sample of volume-matched 0-surgery pairs to see if ANY confirm.
+"""SUPERSEDED - DO NOT REUSE.
+
+Replaced by scripts/zero_surgery_isometry_signature.py. Its sampling probe
+timed out because is_isometric_to is only fast when it succeeds, and the
+interesting pairs are exactly the ones where the kernel throws.
+
+Hammer a sample of volume-matched 0-surgery pairs to see if ANY confirm.
 
 Context.  Among prime fibered knots with irreducible Alexander polynomial (so
 that the Miyazaki criterion applies to their connected sums), 1589 groups have

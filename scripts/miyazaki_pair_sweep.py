@@ -90,7 +90,7 @@ def main():
     # Resume from the checkpoint: the sandbox can be recycled mid-run, so every
     # kept row is appended to a JSONL file and the scan restarts after the last
     # index recorded there.
-    rows, start = [], 0
+    rows, errors, start = [], [], 0
     if os.path.exists(CKPT):
         with open(CKPT) as fh:
             for line in fh:
@@ -119,7 +119,10 @@ def main():
             sys.stdout.flush()
         try:
             h = census[i].link().knot_floer_homology()
-        except Exception:
+        except Exception as e:
+            # Do NOT skip silently: an HFK failure is a knot absent from the
+            # census totals, and the earlier run left no way to count them.
+            errors.append({"i": i, "error": f"{type(e).__name__}: {e}"})
             continue
         if not h.get("fibered"):
             continue
@@ -139,6 +142,7 @@ def main():
     ck.close()
 
     print(f"fibered knots with irreducible Delta: {len(rows)}  ({time.time()-t0:.0f}s)")
+    print(f"HFK exceptions (knots NOT covered by this sweep): {len(errors)}")
     groups = defaultdict(list)
     for r in rows:
         groups[r["delta"]].append(r)
@@ -161,7 +165,7 @@ def main():
     with open(OUT, "w") as fh:
         json.dump({"searched": n, "n_fibered_irreducible": len(rows),
                    "n_shared_delta": len(multi), "n_pairs": len(pairs),
-                   "pairs": pairs[:2000], "rows": rows,
+                   "pairs": pairs, "rows": rows, "hfk_exceptions": errors,
                    "scope_caveat": "hyperbolic knots of at most 14 crossings;"
                                    " a null result is a bounded negative"}, fh)
     for p in pairs[:30]:

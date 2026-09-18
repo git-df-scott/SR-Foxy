@@ -32,6 +32,7 @@ connected sum would be slice and not ribbon, refuting slice-ribbon.  A shared
 0-surgery does NOT imply concordance - Yasui disproved Akbulut-Kirby - so a hit is
 an Abe-Tagami-type CANDIDATE with two explicit diagrams, not a counterexample.
 """
+import glob
 import json
 import os
 import sys
@@ -41,6 +42,7 @@ from collections import Counter, defaultdict
 import snappy
 
 VOLS = "/tmp/claude-0/zero_surgery_volumes.jsonl"
+CKPT_GLOB = "/tmp/claude-0/zero_surgery_isosig*.jsonl"
 CKPT = "/tmp/claude-0/zero_surgery_isosig.jsonl"
 OUT = "/tmp/claude-0/zero_surgery_isosig.json"
 TOL = 1e-10
@@ -80,18 +82,34 @@ def main():
           f"  knots to sign: {len(todo)}")
     sys.stdout.flush()
 
+    # Shard across cores: shard k of n handles the indices congruent to k mod n.
+    # Every shard reads EVERY checkpoint file, so work already done by the
+    # original single run (or by a sibling shard) is never repeated.
+    shard, nshard = 0, 1
+    for a in sys.argv[1:]:
+        if a.startswith("--shard="):
+            shard = int(a.split("=")[1])
+        elif a.startswith("--of="):
+            nshard = int(a.split("=")[1])
+    ckpt = CKPT if nshard == 1 else CKPT.replace(".jsonl", f"_s{shard}.jsonl")
+
     done = {}
-    if os.path.exists(CKPT):
-        for line in open(CKPT):
+    for f in sorted(glob.glob(CKPT_GLOB)):
+        for line in open(f):
             try:
                 r = json.loads(line)
             except ValueError:
                 continue
-            done[r["i"]] = r
-        print("resuming with", len(done), "signatures")
-        sys.stdout.flush()
+            if "i" in r:
+                done[r["i"]] = r
+    print(f"shard {shard}/{nshard}: resuming with {len(done)} signatures already known")
+    sys.stdout.flush()
 
-    ck = open(CKPT, "a", buffering=1)
+    todo = [d for j, d in enumerate(todo) if j % nshard == shard]
+    print(f"shard {shard}: {len(todo)} knots in this shard")
+    sys.stdout.flush()
+
+    ck = open(ckpt, "a", buffering=1)
     t0 = time.time()
     for k, d in enumerate(todo):
         if d["i"] in done:
