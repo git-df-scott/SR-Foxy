@@ -117,8 +117,8 @@
     },
     {
       "path": "research/42_surface_realization_with_exact_linking.md",
-      "bytes": 10512,
-      "sha256": "95bfdabeefca9477777bff4dfad554f55fa33cd4c7eb235318a2dffe9e21c349"
+      "bytes": 11198,
+      "sha256": "217c66e9b661253e47232b4ec10feef4fe96344fe88709435711ace7e9093480"
     },
     {
       "path": "research/43_annulus_obstruction_after_boundary_realization.md",
@@ -138,5 +138,13 @@
     "surface instruction replay passes; upstream free-word identities pass",
     "three newly corrupted certificates rejected; two upstream controls rejected"
   ],
-  "geometric_status": "Disk-push existence proof independently audited; no explicit marked diagram or 4D annulus"
+  "geometric_status": "Disk-push existence proof independently audited; no explicit marked diagram or 4D annulus",
+  "amendments": [
+    {
+      "date": "2026-09-18",
+      "path": "research/42_surface_realization_with_exact_linking.md",
+      "previous_sha256": "95bfdabeefca9477777bff4dfad554f55fa33cd4c7eb235318a2dffe9e21c349",
+      "reason": "Added explicit full-width strip model after independent adversarial audit; algebraic artifacts unchanged"
+    }
+  ]
 }

@@ -86,6 +86,16 @@ available. Every other marked handle loop is fixed. The *free boundary edges
 of the selected band move too*. Holding the entire surface boundary fixed
 would invalidate this argument.
 
+Explicit local model, added after a fresh adversarial audit: first narrow the
+chosen band to width epsilon, keeping its core fixed. Arrange D to leave S
+normally along a0, so the normal direction to D there is the band's width
+direction. Sweep a0 through embedded arcs a_t in D, with fixed endpoint
+collars, and thicken a_t in the continuous normal direction to D. Taper back
+to the unchanged strip at the ends. For sufficiently small epsilon the strips
+avoid the rest of S and are embedded; the final strip avoids R since a1 does.
+The free band edges follow this sweep. Isotopy extension gives the claimed
+ambient isotopy, so the Seifert form and ordinary surface type are preserved.
+
 Why can the required whisker avoid S without changing its class in G? Start
 with the desired path in M, avoiding the fixed auxiliary curves by general
 position. At any transverse crossing of S, run a detour on the two sides of

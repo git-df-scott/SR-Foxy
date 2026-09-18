@@ -1,0 +1,91 @@
+{
+  "date": "2026-09-18",
+  "base_commit": "5312c8e1efb4cdc634a6e0a1815cbeea6ab35ef7",
+  "scope": "Positive final oriented simplicial isomorphisms; kernel-trusted upstream filling/retriangulation; no paper-to-L certificate",
+  "checks": [
+    "saved replay: 24+48 directed faces, four mutations rejected",
+    "fresh independent build into /tmp/sr-positive-identification-fresh: 24+48 directed faces, four mutations rejected"
+  ],
+  "artifacts": [
+    {
+      "path": "results/night_2026_09_18_positive_identification/README.md",
+      "bytes": 1546,
+      "sha256": "ecfc3c2488e38beabe061ef9aa6e53b86a1df8083f1810784e7a5622a5d9bafb"
+    },
+    {
+      "path": "results/night_2026_09_18_positive_identification/build_certificate.py",
+      "bytes": 5282,
+      "sha256": "1a37d5fffa4cbb86781cb48a167f82f0778e2448fc76652b7c05d9afe783dc00"
+    },
+    {
+      "path": "results/night_2026_09_18_positive_identification/check_certificate.py",
+      "bytes": 4989,
+      "sha256": "0a1d208f1ddc2f68181723c49200c5d44ce5f2bc46ca0dc5f75ba384fa26f6dd"
+    },
+    {
+      "path": "results/night_2026_09_18_positive_identification/replay.json",
+      "bytes": 319,
+      "sha256": "fa40108c8db90ceed359a8b152cfad98311914f0ddebc45ea09ffccba2653910"
+    },
+    {
+      "path": "results/night_2026_09_18_positive_identification/saved/certificate.json",
+      "bytes": 28200,
+      "sha256": "0145162a7c615e8c3ec680db7b6e8c3faf3d7f68a22e5381dbf14ebc10997563"
+    },
+    {
+      "path": "results/night_2026_09_18_positive_identification/saved/n0_filled_exterior.tri",
+      "bytes": 1912,
+      "sha256": "ce8498ee553d30caa9f95f2cde6f0549f4744acd81306ce6aca0d19ed829531f"
+    },
+    {
+      "path": "results/night_2026_09_18_positive_identification/saved/n0_filled_retriangulated.tri",
+      "bytes": 1912,
+      "sha256": "8c6bf8aa08199b0912273519ff56dbb9657e1229f36ce144f9a24c506b9f358d"
+    },
+    {
+      "path": "results/night_2026_09_18_positive_identification/saved/n0_link_with_filling_instructions.tri",
+      "bytes": 5231,
+      "sha256": "66ab631cbc1213fca23e2ca6a179aa77af2580eeee98962e1824a699a698e624"
+    },
+    {
+      "path": "results/night_2026_09_18_positive_identification/saved/n0_stored_pd_exterior.tri",
+      "bytes": 1905,
+      "sha256": "629d219aa642260116e21a51984993a651009c050745437dd297d834499fc860"
+    },
+    {
+      "path": "results/night_2026_09_18_positive_identification/saved/n0_stored_retriangulated.tri",
+      "bytes": 1905,
+      "sha256": "9a9a5bef02ca5a1947b095670306ce50a97b47a70d63f39d7a946a94c715f0c2"
+    },
+    {
+      "path": "results/night_2026_09_18_positive_identification/saved/n1_filled_exterior.tri",
+      "bytes": 3383,
+      "sha256": "551b704e8e25f716b121ad6da2fd69d2fc9bb02d3ca3dd60a411859a4b7e8957"
+    },
+    {
+      "path": "results/night_2026_09_18_positive_identification/saved/n1_filled_retriangulated.tri",
+      "bytes": 3677,
+      "sha256": "d29a65c32e6d949acb4a27ce320ed9121a659e0f9a352169d4dbe467eb0bcff4"
+    },
+    {
+      "path": "results/night_2026_09_18_positive_identification/saved/n1_link_with_filling_instructions.tri",
+      "bytes": 5525,
+      "sha256": "6affa4324220703b8eae14ebc86624c317cb55688d9a8b45e2554bd1a8c3a82e"
+    },
+    {
+      "path": "results/night_2026_09_18_positive_identification/saved/n1_stored_pd_exterior.tri",
+      "bytes": 3376,
+      "sha256": "5705491bc963f92c7de875f9ccac854d6d9944fb6f97d17b33e893a3c5360407"
+    },
+    {
+      "path": "results/night_2026_09_18_positive_identification/saved/n1_stored_retriangulated.tri",
+      "bytes": 3670,
+      "sha256": "ca5a0ec8438b26138c63511f32e9d10e7d1fd71689f417180092e64e1ffc8913"
+    },
+    {
+      "path": "research/44_positive_combinatorial_K1_identification.md",
+      "bytes": 4847,
+      "sha256": "f3da08a2d18b3894564da327b30016c3492a7f07a4ea80ec6642ec0f329bf22c"
+    }
+  ]
+}
