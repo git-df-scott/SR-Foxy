@@ -1,0 +1,59 @@
+{
+  "status": "PASS_FOR_STORED_PD_KNOTS",
+  "counterexample": false,
+  "data": {
+    "K_0": {
+      "input_sha256": "1c9916334ea4bc7616be3eb4b225140d8f44a6aa701e4fc083413242fca665c4",
+      "crossings": 6,
+      "ranks": {
+        "-2,-2": 1,
+        "-1,-1": 3,
+        "0,0": 5,
+        "1,1": 3,
+        "2,2": 1
+      },
+      "top_rank": 1,
+      "genus_from_support": 2,
+      "fox_alexander": "t**4 - 3*t**3 + 5*t**2 - 3*t + 1",
+      "hfk_euler_alexander": "t**4 - 3*t**3 + 5*t**2 - 3*t + 1",
+      "fox_size": {
+        "initial_square": 5,
+        "after_unit_pivots": 1
+      },
+      "irreducible_mod_2": true,
+      "total_rank": 13,
+      "agrees_with_opus": true
+    },
+    "K_1": {
+      "input_sha256": "431379bc23a2dd019bdfb629adbac8130f3d7c301007cf268934e086d590ca5d",
+      "crossings": 19,
+      "ranks": {
+        "-2,-4": 1,
+        "-1,-3": 2,
+        "-1,-1": 1,
+        "0,-2": 2,
+        "0,0": 3,
+        "1,-1": 2,
+        "1,1": 1,
+        "2,0": 1
+      },
+      "top_rank": 1,
+      "genus_from_support": 2,
+      "fox_alexander": "t**4 - 3*t**3 + 5*t**2 - 3*t + 1",
+      "hfk_euler_alexander": "t**4 - 3*t**3 + 5*t**2 - 3*t + 1",
+      "fox_size": {
+        "initial_square": 18,
+        "after_unit_pivots": 1
+      },
+      "irreducible_mod_2": true,
+      "total_rank": 13,
+      "agrees_with_opus": true
+    }
+  },
+  "versions": {
+    "spherogram": "2.4.1",
+    "knot_floer_homology": "1.2.2",
+    "sympy": "1.14.0"
+  },
+  "scope": "Same HFK backend as Opus, independent exact Fox/Euler agreement; no PD-to-paper identification or slice disk certified"
+}

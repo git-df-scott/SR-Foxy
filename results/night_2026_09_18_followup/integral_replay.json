@@ -1,0 +1,7 @@
+{
+  "integral_source_Fox_identity": "PASS",
+  "integral_boundary_Fox_identity": "PASS",
+  "all_73_rewrites": "PASS",
+  "two_mutations_rejected": true,
+  "independence": "standard-library integer Laurent arithmetic; exact relator provenance"
+}
