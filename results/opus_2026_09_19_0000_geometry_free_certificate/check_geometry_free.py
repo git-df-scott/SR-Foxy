@@ -26,6 +26,7 @@ It is not needed.  Every hypothesis can be certified combinatorially.
 Exit 0 iff every check passes.  spherogram + sympy only; no geometry, no Sage.
 """
 import json
+import importlib.metadata
 import os
 import sys
 from collections import defaultdict
@@ -47,7 +48,8 @@ def check(name, ok, detail):
 def alexander(ranks):
     poly = defaultdict(int)
     for (A, M), r in ranks.items():
-        poly[A] += ((-1) ** M) * r
+        # Avoid converting negative Maslov exponents into floating-point signs.
+        poly[A] += (1 if M % 2 == 0 else -1) * r
     lo = min(poly)
     c = sp.Poly(sum(v * t ** (A - lo) for A, v in poly.items()), t).all_coeffs()[::-1]
     while c and c[0] == 0:
@@ -62,9 +64,11 @@ def main():
     for name, stem in TARGETS:
         with open(os.path.join(REPO, "data", "knots", stem + ".json")) as fh:
             pd = json.load(fh)["pd_code"]
-        h = spherogram.Link(pd).knot_floer_homology()
+        h = spherogram.Link(pd).knot_floer_homology(prime=2)
         ranks = dict(h["ranks"])
-        g = h["seifert_genus"]
+        assert all(type(r) == int and r > 0 for r in ranks.values())
+        g = max(A for A, M in ranks)
+        assert g == h["seifert_genus"] and min(A for A, M in ranks) == -g
         top = sum(r for (A, M), r in ranks.items() if A == g)
         P = alexander(ranks)
         data[name] = {"genus": g, "top_rank": top, "irreducible": bool(P.is_irreducible),
@@ -72,7 +76,8 @@ def main():
                       "ranks": {f"{A},{M}": r for (A, M), r in sorted(ranks.items())},
                       "alexander": str(P.as_expr())}
         d = data[name]
-        check(f"{name}: fibered by Ni (rank 1 at top Alexander grading)", top == 1, top)
+        check(f"{name}: fibered by Ni/Juhasz (top F2 dimension 1; integral free rank 1)",
+              top == 1 and abs(P.LC()) == 1 and P.degree() == 2*g, top)
         check(f"{name}: deg Delta = 2g", d["degree"] == 2 * g, f"{d['degree']} vs {2*g}")
         check(f"{name}: Delta irreducible over Q", d["irreducible"], d["alexander"])
         check(f"{name}: PRIME by Lemma P", top == 1 and d["irreducible"],
@@ -86,7 +91,7 @@ def main():
     # Miyazaki's alternative 2 for each summand.
     check("Miyazaki alternative 2 holds for each summand",
           data["K_0"]["irreducible"] and data["K_1"]["irreducible"],
-          "irreducible Delta admits no f with f(t)f(1/t) | Delta")
+          "irreducible Delta admits no nonunit f with f(t)f(1/t) | Delta")
 
     n_pass = sum(1 for c in checks if c["pass"])
     out = {"all_checks_pass": n_pass == len(checks), "n_checks": len(checks),
@@ -105,6 +110,13 @@ def main():
                "Ni's theorem and Miyazaki Thm 5.5 are cited, not reproved.",
                "The PD codes are taken from data/knots as committed."],
            "spherogram_version": spherogram.__version__,
+           "hfk_backend_version": importlib.metadata.version("knot_floer_homology"),
+           "hfk_coefficients": "F_2",
+           "fiberedness_coefficient_bridge":
+               "UCT bounds integral free rank by the F2 dimension; the nonzero top Euler"
+               " coefficient forces free rank at least one. Juhasz Theorem 9.11 uses rank one."
+               " Genus follows from top free nonvanishing (Juhasz 1.4/1.5) and Alexander breadth."
+               " See research/38; this does not infer absence of odd integral torsion.",
            "sympy_version": sp.__version__}
     print(json.dumps(out, indent=1))
     return 0 if out["all_checks_pass"] else 1

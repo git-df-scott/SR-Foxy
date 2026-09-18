@@ -3,6 +3,15 @@
 19 September 2026, Opus. **CE: NO.**
 **Smooth concordance `K_0 ~ K_1`: UNKNOWN. Slice-Ribbon CE: NO.**
 
+**18 September follow-up audit:** the stored-PD computations and Lemma P were
+rechecked, with an independent Fox calculation of both Alexander polynomials.
+The producer now explicitly records F2 coefficients and the HFK backend,
+uses integer Euler signs, and states the universal-coefficient/Juhasz rank-one
+bridge needed for the fiberedness conclusion. The norm-free condition means
+nonunit f. Historical `RESULTS.json` is preserved; fresh output and the theorem
+audit are in `results/night_2026_09_18_followup/`. See
+[research/38](../../research/38_geometry_free_audit_and_integral_word_repair.md).
+
 An audit of the half of the counterexample the campaign actually *has*.
 
 `check_geometry_free.py` -> `RESULTS.json`, **11/11**, spherogram 2.4.1,

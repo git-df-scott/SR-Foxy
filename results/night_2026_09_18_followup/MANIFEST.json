@@ -1,0 +1,120 @@
+{
+  "date_utc": "2026-09-18T21:09:43.797630+00:00",
+  "requested_audit_commit": "79fe4bc9ac9a2075d3e428054042bbf4ad5d9118",
+  "integration_base": "03833e57d64a13cb7b88d1a5322fdc830703cb67",
+  "counterexample": false,
+  "inputs": [
+    {
+      "path": "data/knots/AbeTagami_K_0_K_-1__6_3.json",
+      "bytes": 1921,
+      "sha256": "1c9916334ea4bc7616be3eb4b225140d8f44a6aa701e4fc083413242fca665c4"
+    },
+    {
+      "path": "data/knots/AbeTagami_K_1.json",
+      "bytes": 2247,
+      "sha256": "431379bc23a2dd019bdfb629adbac8130f3d7c301007cf268934e086d590ca5d"
+    },
+    {
+      "path": "results/astra_2026_09_17_collar_boundary_audit/CERTIFICATE.json",
+      "bytes": 8602,
+      "sha256": "6969cd957ce3a1ba023ade673ca4aa13611e97ad0b5da9f5078fa28c9662c420"
+    },
+    {
+      "path": "results/night_2026_09_18/word_correction.json",
+      "bytes": 3644,
+      "sha256": "d0aa7f52c62e7fda2b185cab06e77b2d6000c393674ed85c4a242e0894af68ba"
+    },
+    {
+      "path": "results/chat_archive_2026_09_17/expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/diagram_core.py",
+      "bytes": 10330,
+      "sha256": "cf9012abcbc9d79b76aed7741d6a14cff99437706b245a007286aea35f1fc62a"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "results/night_2026_09_18_followup/README.md",
+      "bytes": 4164,
+      "sha256": "e961db675bb4be1b33fef8307e125ba40b58b203dd4e0e98b751ca23af484e8d"
+    },
+    {
+      "path": "results/night_2026_09_18_followup/audit_geometry_free.py",
+      "bytes": 3973,
+      "sha256": "4b764e1bef8bca117d0d9c6d71c034e5cef3f3886f94627cbd53935f1f905469"
+    },
+    {
+      "path": "results/night_2026_09_18_followup/check_integral_and_rewrite.py",
+      "bytes": 4776,
+      "sha256": "a2da6e501b8288e5d48237ac597cb83ee2339e75754017fa77611c9ce4dcba66"
+    },
+    {
+      "path": "results/night_2026_09_18_followup/geometry_free_audit.json",
+      "bytes": 1593,
+      "sha256": "6fe1b369a7a08fe023d50adb7b3c49c61615307e2caabe0ee32651f8d1437f45"
+    },
+    {
+      "path": "results/night_2026_09_18_followup/geometry_free_producer_recheck.json",
+      "bytes": 3123,
+      "sha256": "9abe26a6e90000dab804523b7ebfac336de036a04c899d750dfd730cfd11c825"
+    },
+    {
+      "path": "results/night_2026_09_18_followup/integral_correction.json",
+      "bytes": 4910,
+      "sha256": "8decd0a6c0b23d5ba4a690b969f83969865ee4eab710ed300c34d1da780e237c"
+    },
+    {
+      "path": "results/night_2026_09_18_followup/integral_correction.py",
+      "bytes": 3530,
+      "sha256": "2cc0687858bbdfbe65199d85837eb1e3f09446f6a60a8d6923796682384b4281"
+    },
+    {
+      "path": "results/night_2026_09_18_followup/integral_replay.json",
+      "bytes": 243,
+      "sha256": "54b2af508e1fed3fa23cbf03c7d94d3214ffefb7e77185a75e046a3f26898880"
+    },
+    {
+      "path": "results/night_2026_09_18_followup/shorten_correction.py",
+      "bytes": 2190,
+      "sha256": "315b2a89e2aeaa20ab1437d629f72a03e5d8580a56e4aaa661fd96b08d4149fe"
+    },
+    {
+      "path": "results/night_2026_09_18_followup/shortened_correction.json",
+      "bytes": 16479,
+      "sha256": "1e7f65b0cbeed46bfcf67b758ef521699b10463459beaaabb37df7af6a2aa96e"
+    },
+    {
+      "path": "results/night_2026_09_18_followup/theorem_audit.md",
+      "bytes": 10045,
+      "sha256": "24467107293f48bc9ed1cf0eb4c870b8831a0422196be7c7dd3f2f94992a46a4"
+    },
+    {
+      "path": "research/38_geometry_free_audit_and_integral_word_repair.md",
+      "bytes": 10827,
+      "sha256": "3a3893c820c919a4bb35abe5655c2552c08f3b9fc8d4dfd4f28976e9ec91d82c"
+    },
+    {
+      "path": "results/opus_2026_09_19_0000_geometry_free_certificate/check_geometry_free.py",
+      "bytes": 6070,
+      "sha256": "86dd9e57e6004404536ae760cf53c3e5debf471d80ed4ec7f781f9b5c6e9d8aa"
+    },
+    {
+      "path": "results/opus_2026_09_19_0000_geometry_free_certificate/README.md",
+      "bytes": 3999,
+      "sha256": "8ddfb2bec5c6513465959613c0eeeb80c7d05277daf8f6b7362b1367a5f5208d"
+    }
+  ],
+  "checks": {
+    "HFK_ranks_recomputed": "PASS; shared backend",
+    "independent_Fox_Alexander": "PASS for both knots",
+    "revised_Opus_checker": "11/11",
+    "source_and_boundary_integral_Fox_identities": "PASS",
+    "all_rewrites": "73 replayed;104 to20 letters",
+    "mutation_controls": "coefficient and rewrite rejected",
+    "Luna_theorem_and_integral_argument_review": "Complete; F2-to-rank bridge resolved via Juhasz"
+  },
+  "not_done": [
+    "No geometric collar identification",
+    "No actual clasper or corrected surgery PD",
+    "No embedded annulus or standard-B4 slice disk",
+    "No rerun of incoming03833e5 MP/RBG checker"
+  ]
+}
