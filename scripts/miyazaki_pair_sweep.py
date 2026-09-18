@@ -46,11 +46,25 @@ import sys
 import time
 from collections import defaultdict
 
+import os
+
 import snappy
 import sympy as sp
 
 t = sp.Symbol("t")
 OUT = "/tmp/claude-0/miyazaki_pair_sweep.json"
+CKPT = "/tmp/claude-0/miyazaki_pair_sweep.jsonl"
+
+# Irreducibility is the expensive step and depends only on the coefficient
+# tuple; distinct Alexander polynomials are far fewer than knots, so memoise.
+_IRRED = {}
+
+
+def irreducible(d):
+    if d not in _IRRED:
+        _IRRED[d] = bool(
+            sp.Poly(sum(v * t**k for k, v in enumerate(d)), t).is_irreducible)
+    return _IRRED[d]
 
 
 def alex_from_ranks(ranks):
@@ -73,10 +87,34 @@ def main():
     print("census size:", n)
     sys.stdout.flush()
 
-    rows = []
+    # Resume from the checkpoint: the sandbox can be recycled mid-run, so every
+    # kept row is appended to a JSONL file and the scan restarts after the last
+    # index recorded there.
+    rows, start = [], 0
+    if os.path.exists(CKPT):
+        with open(CKPT) as fh:
+            for line in fh:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    r = json.loads(line)
+                except ValueError:
+                    continue            # torn final line from a hard kill
+                if r.get("_scanned_through") is not None:
+                    start = max(start, r["_scanned_through"])
+                else:
+                    r["delta"] = tuple(r["delta"])
+                    rows.append(r)
+                    start = max(start, r["i"] + 1)
+        print(f"resuming from index {start} with {len(rows)} rows already kept")
+        sys.stdout.flush()
+
     t0 = time.time()
-    for i in range(n):
-        if i and i % 10000 == 0:
+    ck = open(CKPT, "a", buffering=1)
+    for i in range(start, n):
+        if i and i % 2000 == 0:
+            ck.write(json.dumps({"_scanned_through": i}) + "\n")
             print(f"  {i}/{n}  {time.time()-t0:.0f}s  kept={len(rows)}")
             sys.stdout.flush()
         try:
@@ -89,13 +127,16 @@ def main():
         d = alex_from_ranks(ranks)
         if len(d) < 3:
             continue                       # Delta = 1, outside the criterion
-        if not sp.Poly(sum(v * t**k for k, v in enumerate(d)), t).is_irreducible:
+        if not irreducible(d):
             continue
-        rows.append({"i": i, "name": census[i].name(), "delta": d,
-                     "genus": h.get("seifert_genus"), "tau": h.get("tau"),
-                     "nu": h.get("nu"), "eps": h.get("epsilon"),
-                     "rank": sum(ranks.values()),
-                     "ranks": {f"{A},{M}": r for (A, M), r in sorted(ranks.items())}})
+        row = {"i": i, "name": census[i].name(), "delta": d,
+               "genus": h.get("seifert_genus"), "tau": h.get("tau"),
+               "nu": h.get("nu"), "eps": h.get("epsilon"),
+               "rank": sum(ranks.values()),
+               "ranks": {f"{A},{M}": r for (A, M), r in sorted(ranks.items())}}
+        rows.append(row)
+        ck.write(json.dumps(row) + "\n")
+    ck.close()
 
     print(f"fibered knots with irreducible Delta: {len(rows)}  ({time.time()-t0:.0f}s)")
     groups = defaultdict(list)
