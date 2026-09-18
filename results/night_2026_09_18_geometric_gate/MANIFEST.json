@@ -1,0 +1,142 @@
+{
+  "date": "2026-09-18",
+  "base_commit": "c1d0c46bf1d1d0a76595502dfbc13b3c632ff3b7",
+  "scope": "Exact finite algebra and a written 3D surface realization proof; 4D annulus and Slice-Ribbon CE not established",
+  "inputs": [
+    {
+      "path": "results/chat_archive_2026_09_17/expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/RESULTS.json",
+      "bytes": 14281,
+      "sha256": "5df99bab6f8785d8778ab99fa5726b56b4476badd7633ee4bfd7af7b59e6dca0"
+    },
+    {
+      "path": "results/chat_archive_2026_09_17/expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/diagram_core.py",
+      "bytes": 10330,
+      "sha256": "cf9012abcbc9d79b76aed7741d6a14cff99437706b245a007286aea35f1fc62a"
+    },
+    {
+      "path": "results/chat_archive_2026_09_17/expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/verify_product_collar.py",
+      "bytes": 9526,
+      "sha256": "8600bf524f852130da11667ffeee0ff259306509f4b1eeb497475540cc901d97"
+    },
+    {
+      "path": "results/chat_archive_2026_09_17/expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/check_saved_proof.py",
+      "bytes": 3760,
+      "sha256": "53171695d1ee7f4fd6d541fd5d8d2f36ef3258b4d660deb39921eb0715fd732f"
+    },
+    {
+      "path": "results/astra_2026_09_17_collar_boundary_audit/CERTIFICATE.json",
+      "bytes": 8602,
+      "sha256": "6969cd957ce3a1ba023ade673ca4aa13611e97ad0b5da9f5078fa28c9662c420"
+    },
+    {
+      "path": "results/night_2026_09_18_surface/surface_certificate.json",
+      "bytes": 17337,
+      "sha256": "30c3bbe7084e6cf697447b414c6734091f5379fb9f2f4d700358e361ad1a7e15"
+    },
+    {
+      "path": "results/night_2026_09_18_surface/check_surface.py",
+      "bytes": 3944,
+      "sha256": "f7d906a8e15838171652ce87bf39a63c486d6c7e6acd253a8bd72146ccb17e8f"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "results/night_2026_09_18_geometric_gate/README.md",
+      "bytes": 2427,
+      "sha256": "a2f2df5c7b7c7da1185ea615c36031ff04fb64c770fb8ce2144ce44a57358288"
+    },
+    {
+      "path": "results/night_2026_09_18_geometric_gate/check_peripheral.py",
+      "bytes": 2685,
+      "sha256": "a031d0ebf359799553372336a159b3be304d67090ecffc10d4fcd159a85f07af"
+    },
+    {
+      "path": "results/night_2026_09_18_geometric_gate/check_point_push.py",
+      "bytes": 3316,
+      "sha256": "06913ccccbcc3814cb8f431d0d1ae16491949cdfb9e61997635d5ed1a8360db9"
+    },
+    {
+      "path": "results/night_2026_09_18_geometric_gate/check_surface_recipe.py",
+      "bytes": 2204,
+      "sha256": "c1505a220f344ed5cc748ffe1c864a66f06d7a495837f4f0b3d4fe4b3f4b035a"
+    },
+    {
+      "path": "results/night_2026_09_18_geometric_gate/independent_review.md",
+      "bytes": 2354,
+      "sha256": "78cbb9ab790a9ce6a48c76b67b37782b3236f7e676a7ec1c78bf7f60631b9a66"
+    },
+    {
+      "path": "results/night_2026_09_18_geometric_gate/peripheral_certificate.json",
+      "bytes": 5066,
+      "sha256": "b909a36fb7784ee260479cf238688486da818a919610dc7b9fb1f25ef569536f"
+    },
+    {
+      "path": "results/night_2026_09_18_geometric_gate/peripheral_gate.py",
+      "bytes": 2398,
+      "sha256": "c9b1066b06247e8c640357cadcb5f6185ccb8f917027e33baebe2c475edb7017"
+    },
+    {
+      "path": "results/night_2026_09_18_geometric_gate/peripheral_replay.json",
+      "bytes": 307,
+      "sha256": "e7204622da48d0a104c5599a20c315083a107318c32faa9324a098f301c4e18d"
+    },
+    {
+      "path": "results/night_2026_09_18_geometric_gate/point_push.py",
+      "bytes": 4036,
+      "sha256": "4888d8e566d40c1e61f7b2ea118a5145755de1a9aedf61d825dff7ddd0f4d96d"
+    },
+    {
+      "path": "results/night_2026_09_18_geometric_gate/point_push_certificate.json",
+      "bytes": 17230,
+      "sha256": "3cc933dd27dbc8e1bea6a0508272c81289d5490315c131e5a5ced473b245241a"
+    },
+    {
+      "path": "results/night_2026_09_18_geometric_gate/point_push_replay.json",
+      "bytes": 347,
+      "sha256": "7222ea73133255506a27a4dad1f6e58ba97b5553e89438629309ae953d944749"
+    },
+    {
+      "path": "results/night_2026_09_18_geometric_gate/surface_recipe.json",
+      "bytes": 18020,
+      "sha256": "dadfc47d0c824efc12092c90868c1b1db3c915eda39b18f863170a297e2eaf7c"
+    },
+    {
+      "path": "results/night_2026_09_18_geometric_gate/surface_recipe.py",
+      "bytes": 1412,
+      "sha256": "9224c19ab04a99dd0cb0ef74a4745ea90d384ff4ce524a93cc0c2436524e0d56"
+    },
+    {
+      "path": "results/night_2026_09_18_geometric_gate/surface_recipe_replay.json",
+      "bytes": 504,
+      "sha256": "b433eb76f9065354a488acc911d56c6afd738790955590009df6839f3e43e6aa"
+    },
+    {
+      "path": "research/41_capped_null_claspers_and_the_longitude_defect.md",
+      "bytes": 10097,
+      "sha256": "014916bd303332f0c7f897cee4b5d93df146fcc0cb053c3d904ad1f60bcec762"
+    },
+    {
+      "path": "research/42_surface_realization_with_exact_linking.md",
+      "bytes": 10512,
+      "sha256": "95bfdabeefca9477777bff4dfad554f55fa33cd4c7eb235318a2dffe9e21c349"
+    },
+    {
+      "path": "research/43_annulus_obstruction_after_boundary_realization.md",
+      "bytes": 4275,
+      "sha256": "6f903857a7fd6bc41295563daeddb017adf72e59fe74d815f29277728626f5e9"
+    },
+    {
+      "path": "OPUS_TASK_2026_09_18_CAPPED_CLASPER.md",
+      "bytes": 3134,
+      "sha256": "1ef60483e4b21e5e7e8fe298e5cecb3ea255f13cfbeaf279d02d4ff6ee3944a4"
+    }
+  ],
+  "checks": [
+    "peripheral producer output reproduced",
+    "point-push producer output reproduced",
+    "independent peripheral and first-jet replays pass",
+    "surface instruction replay passes; upstream free-word identities pass",
+    "three newly corrupted certificates rejected; two upstream controls rejected"
+  ],
+  "geometric_status": "Disk-push existence proof independently audited; no explicit marked diagram or 4D annulus"
+}
