@@ -1,0 +1,162 @@
+{
+  "author": "Astra",
+  "source_main": "07c20b0fd7f40aa3dd330d66ba1107a0af446d55",
+  "latest_opus_read": "71200112d0f4e881896f1f5b5f01f4dc84809192",
+  "counterexample_found": false,
+  "python_symbolic": "Passed with pinned remote input bytes; all nine source and eighteen boundary relations checked symbolically",
+  "independent_symbolic": {
+    "status": "INDEPENDENT_SYMBOLIC_CHECK_PASSED",
+    "arithmetic": "sparse bivariate integer polynomials modulo monic R(z), JavaScript BigInt",
+    "source_relators": 9,
+    "boundary_relations": 18,
+    "irreducibility_divisors": 14,
+    "geometric_realization_verified": false,
+    "counterexample_found": false,
+    "negative_controls": [
+      {
+        "mutation": "axis",
+        "rejected": true,
+        "reason": "eta1 polynomial"
+      },
+      {
+        "mutation": "matrix",
+        "rejected": true,
+        "reason": "source determinant 1"
+      },
+      {
+        "mutation": "trace",
+        "rejected": true,
+        "reason": "difference polynomial"
+      }
+    ]
+  },
+  "boundary": {
+    "status": "BOUNDARY_CHECKS_PASSED",
+    "equals_Abe_Tagami_difference_polynomial": false,
+    "fox_milnor_norm": true,
+    "nonribbonness": "UNKNOWN",
+    "original_surgery_fox_matches_recovered_pd": true,
+    "seifert_determinant_matches_hfk_euler": true,
+    "seifert_removed_t_power": 51,
+    "sliceness": "UNKNOWN"
+  },
+  "seam_region_diagnostic": {
+    "sector_0_2_region": 0,
+    "sector_0_1_region": 6,
+    "other_region_word": [
+      6,
+      -5,
+      8,
+      5,
+      -6
+    ],
+    "seam_meridian_word": [
+      6,
+      -5,
+      8,
+      5,
+      -6
+    ],
+    "other_region_is_seam_meridian_literally": true
+  },
+  "determinant_probe": {
+    "scope": "Determinant only, group presentation for proposed unlink (+1/n,-1/n) fillings; diagram-to-surgery convention still requires independent audit",
+    "full_wirtinger_generators": 62,
+    "full_wirtinger_relations": 62,
+    "component_linking_sums_including_self_writhe": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "meridian_generators": [
+      5,
+      22,
+      23
+    ],
+    "results": [
+      {
+        "annulus_parameter": -3,
+        "rank": 61,
+        "generators": 61,
+        "torsion_order": 169,
+        "finite_order": 169,
+        "square": true
+      },
+      {
+        "annulus_parameter": -2,
+        "rank": 61,
+        "generators": 61,
+        "torsion_order": 169,
+        "finite_order": 169,
+        "square": true
+      },
+      {
+        "annulus_parameter": -1,
+        "rank": 61,
+        "generators": 61,
+        "torsion_order": 169,
+        "finite_order": 169,
+        "square": true
+      },
+      {
+        "annulus_parameter": 0,
+        "rank": 61,
+        "generators": 61,
+        "torsion_order": 169,
+        "finite_order": 169,
+        "square": true
+      },
+      {
+        "annulus_parameter": 1,
+        "rank": 61,
+        "generators": 61,
+        "torsion_order": 169,
+        "finite_order": 169,
+        "square": true
+      },
+      {
+        "annulus_parameter": 2,
+        "rank": 61,
+        "generators": 61,
+        "torsion_order": 169,
+        "finite_order": 169,
+        "square": true
+      },
+      {
+        "annulus_parameter": 3,
+        "rank": 61,
+        "generators": 61,
+        "torsion_order": 169,
+        "finite_order": 169,
+        "square": true
+      }
+    ]
+  },
+  "failures_and_corrections": [
+    "Global python3 lacked SymPy; used an existing installed runtime without installing packages.",
+    "First exterior_to_link call used partially filled triangulation and was rejected; corrected to filled_triangulation().",
+    "r=0 diagram conversion exceeded its 20-second cap: UNKNOWN. Exact r=0 Fox control succeeded.",
+    "First Seifert-output serialization encountered SymPy Zero; converted entries to Python int and reran successfully.",
+    "First check_boundary equality compared expanded and unexpanded SymPy expressions structurally; replaced with expansion of their difference. Final check passed.",
+    "A packaging check compared Python tuples with JSON arrays; canonicalized through JSON before comparison. Mathematical internal assertions had passed."
+  ],
+  "limits": [
+    "No independent re-fetch of external primary papers in this repo-only pass",
+    "No geometric realization of q_n certified",
+    "No sliceness or nonribbonness of the new boundary certified",
+    "No interval-certified hyperbolicity computation",
+    "No claim that the recovered PD is minimal-crossing"
+  ]
+}
