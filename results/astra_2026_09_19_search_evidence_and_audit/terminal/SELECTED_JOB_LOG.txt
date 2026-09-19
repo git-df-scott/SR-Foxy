@@ -1,0 +1,12 @@
+Selected verbatim lines from GitHub job 105928864600, not the complete log.
+Retrieved through the authorized GitHub job-log action on 19 September 2026.
+
+2026-09-19T17:42:41.8436883Z {"counts":{"DUPLICATE_ENDPOINT":29596,"NEW_ENDPOINT":4465,"NO_SAMPLED_BAND":53,"attempts":34114},"phase":"common_upper","search_seconds":781.7204441629997,"segment":3}
+2026-09-19T17:43:10.8906495Z ##[error]The operation was canceled.
+2026-09-19T17:43:10.8910793Z ##[end-action id=__self_3.compute;outcome=cancelled;conclusion=cancelled;duration_ms=811313]
+2026-09-19T17:43:11.7295864Z Beginning upload of artifact content to blob storage
+2026-09-19T17:43:13.1517616Z SHA256 digest of uploaded artifact zip is cf4f075c1a66df3e1d1ae33b6dd717a70e49a735026bee943eb0cdb7b9d570ea
+2026-09-19T17:43:13.3455861Z Artifact astra-seven-hour-checkpoint.zip successfully finalized. Artifact ID 10589621369
+2026-09-19T17:43:13.6384376Z Terminate orphan process: pid (3017) (python)
+
+These lines establish cancellation and upload/cleanup chronology. They do not identify the cancellation initiator or uniquely establish the cause of SQLite corruption.

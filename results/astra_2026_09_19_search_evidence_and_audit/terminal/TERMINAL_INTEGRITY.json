@@ -1,0 +1,176 @@
+{
+  "first": {
+    "bytes": 14954496,
+    "sha256": "4d8d568c5169c801083d6390ebb645a9fdfd60971f0045f512392bfd2d6a625a",
+    "queries": {
+      "PRAGMA integrity_check": {
+        "result": [
+          [
+            "ok"
+          ]
+        ]
+      },
+      "SELECT count(*) FROM nodes": {
+        "result": [
+          [
+            10309
+          ]
+        ]
+      },
+      "SELECT count(*) FROM attempts": {
+        "result": [
+          [
+            12769
+          ]
+        ]
+      },
+      "SELECT * FROM runs": {
+        "result": [
+          [
+            1,
+            "common_upper",
+            1,
+            "BOUNDED_SEGMENT_COMPLETE_NO_NOMINATION",
+            "2026-09-19T16:29:34Z",
+            "2026-09-19T16:59:34Z",
+            1800.016701387,
+            1789.511606257,
+            "{\"DUPLICATE_ENDPOINT\":78510,\"NEW_ENDPOINT\":10305,\"NO_SAMPLED_BAND\":40,\"attempts\":88855}"
+          ]
+        ]
+      }
+    }
+  },
+  "second": {
+    "bytes": 30904320,
+    "sha256": "8003e6108f89b30028735c47381f3dce69b80ed478934327b071e1b13e6c8888",
+    "queries": {
+      "PRAGMA integrity_check": {
+        "result": [
+          [
+            "ok"
+          ]
+        ]
+      },
+      "SELECT count(*) FROM nodes": {
+        "result": [
+          [
+            21067
+          ]
+        ]
+      },
+      "SELECT count(*) FROM attempts": {
+        "result": [
+          [
+            25649
+          ]
+        ]
+      },
+      "SELECT * FROM runs": {
+        "result": [
+          [
+            1,
+            "common_upper",
+            1,
+            "BOUNDED_SEGMENT_COMPLETE_NO_NOMINATION",
+            "2026-09-19T16:29:34Z",
+            "2026-09-19T16:59:34Z",
+            1800.016701387,
+            1789.511606257,
+            "{\"DUPLICATE_ENDPOINT\":78510,\"NEW_ENDPOINT\":10305,\"NO_SAMPLED_BAND\":40,\"attempts\":88855}"
+          ],
+          [
+            2,
+            "common_upper",
+            2,
+            "BOUNDED_SEGMENT_COMPLETE_NO_NOMINATION",
+            "2026-09-19T16:59:36Z",
+            "2026-09-19T17:29:36Z",
+            1800.0043416449998,
+            1789.815350338,
+            "{\"DUPLICATE_ENDPOINT\":67466,\"NEW_ENDPOINT\":10758,\"NO_SAMPLED_BAND\":84,\"attempts\":78308}"
+          ]
+        ]
+      }
+    }
+  },
+  "terminal": {
+    "bytes": 37900288,
+    "sha256": "2be2074398922ba1e3599e5bf9368409d8224e6b550289ae86137dbe6c4db032",
+    "queries": {
+      "PRAGMA integrity_check": {
+        "error": "database disk image is malformed"
+      },
+      "SELECT count(*) FROM nodes": {
+        "result": [
+          [
+            25671
+          ]
+        ]
+      },
+      "SELECT count(*) FROM attempts": {
+        "error": "database disk image is malformed"
+      },
+      "SELECT * FROM runs": {
+        "result": [
+          [
+            1,
+            "common_upper",
+            1,
+            "BOUNDED_SEGMENT_COMPLETE_NO_NOMINATION",
+            "2026-09-19T16:29:34Z",
+            "2026-09-19T16:59:34Z",
+            1800.016701387,
+            1789.511606257,
+            "{\"DUPLICATE_ENDPOINT\":78510,\"NEW_ENDPOINT\":10305,\"NO_SAMPLED_BAND\":40,\"attempts\":88855}"
+          ],
+          [
+            2,
+            "common_upper",
+            2,
+            "BOUNDED_SEGMENT_COMPLETE_NO_NOMINATION",
+            "2026-09-19T16:59:36Z",
+            "2026-09-19T17:29:36Z",
+            1800.0043416449998,
+            1789.815350338,
+            "{\"DUPLICATE_ENDPOINT\":67466,\"NEW_ENDPOINT\":10758,\"NO_SAMPLED_BAND\":84,\"attempts\":78308}"
+          ],
+          [
+            3,
+            "common_upper",
+            3,
+            "RUNNING",
+            "2026-09-19T17:29:39Z",
+            null,
+            781.7204441629997,
+            777.376774861,
+            "{\"DUPLICATE_ENDPOINT\":29596,\"NEW_ENDPOINT\":4465,\"NO_SAMPLED_BAND\":53,\"attempts\":34114}"
+          ]
+        ]
+      }
+    }
+  },
+  "terminal_json_status": {
+    "status": "RUNNING",
+    "updated": "2026-09-19T17:42:41Z",
+    "current_search_seconds": 781.7204441629997,
+    "current_cpu_seconds": 777.3771406039999,
+    "counts": {
+      "DUPLICATE_ENDPOINT": 29596,
+      "NEW_ENDPOINT": 4465,
+      "NO_SAMPLED_BAND": 53,
+      "attempts": 34114
+    },
+    "final_or_nomination_files": []
+  },
+  "durable_completed_wall_seconds": 3600.021043032,
+  "durable_completed_cpu_seconds": 3579.326956595,
+  "last_heartbeat_total_wall_seconds": 4381.7414871949995,
+  "last_heartbeat_total_cpu_seconds": 4356.703731456,
+  "last_heartbeat_aggregate_counts": {
+    "DUPLICATE_ENDPOINT": 175572,
+    "NEW_ENDPOINT": 25528,
+    "NO_SAMPLED_BAND": 177,
+    "attempts": 201277
+  }
+}

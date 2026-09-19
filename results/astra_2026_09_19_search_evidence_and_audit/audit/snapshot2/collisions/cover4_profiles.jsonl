@@ -1,0 +1,141 @@
+{"node": 1507, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 1.3762456420000717}
+{"node": 1513, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6973767189999762}
+{"node": 1527, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6877517780000062}
+{"node": 1529, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.7875369649999584}
+{"node": 1544, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6984947149999243}
+{"node": 1552, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6832820349999338}
+{"node": 1584, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.7183402530000649}
+{"node": 1590, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6627418719999696}
+{"node": 1603, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6780282640000905}
+{"node": 1628, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6894452359999832}
+{"node": 1635, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6834764479999649}
+{"node": 1652, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6635573710000244}
+{"node": 1778, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6691866680000658}
+{"node": 1848, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6712710210000523}
+{"node": 1934, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6834263899999087}
+{"node": 1947, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.7017037620000792}
+{"node": 2245, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6754846339999858}
+{"node": 2482, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[0, 0, 0], [2, 0], [2, 68, 0], [2, 324, 0], [5, 5, 15, 285, 0], [98, 0], [286, 0]], "seconds": 0.860546539999973}
+{"node": 2490, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[0, 0, 0], [2, 0], [2, 68, 0], [2, 324, 0], [5, 5, 15, 285, 0], [98, 0], [286, 0]], "seconds": 0.6891694159999133}
+{"node": 2491, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6862761180000234}
+{"node": 2494, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6989548259999765}
+{"node": 2516, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[0, 0, 0], [2, 0], [2, 68, 0], [2, 324, 0], [5, 5, 15, 285, 0], [98, 0], [286, 0]], "seconds": 0.648079781999968}
+{"node": 2651, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.681134944000064}
+{"node": 2658, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6711643749999894}
+{"node": 2663, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.8594001579999713}
+{"node": 2703, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6969078779999336}
+{"node": 2724, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6799371170000086}
+{"node": 2761, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.7074755700000424}
+{"node": 2809, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6968326740000066}
+{"node": 2841, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6799335729999711}
+{"node": 2965, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.8313294770000539}
+{"node": 2989, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6797784489999685}
+{"node": 3082, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.7335513180000817}
+{"node": 3148, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.7279096439999648}
+{"node": 3157, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.7347791259999212}
+{"node": 3209, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.709842717000015}
+{"node": 3364, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[0, 0, 0], [2, 0], [2, 68, 0], [2, 324, 0], [5, 5, 15, 285, 0], [98, 0], [286, 0]], "seconds": 0.7019865749999781}
+{"node": 3389, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.715842997999971}
+{"node": 3500, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6602468419999923}
+{"node": 3608, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.7095155329999443}
+{"node": 3706, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.756950962000019}
+{"node": 3761, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 5, 5, 855, 0], [402, 0]], "seconds": 1.0016524579999668}
+{"node": 3775, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.7594772340000873}
+{"node": 3824, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 5, 5, 855, 0], [402, 0]], "seconds": 0.7155196969999906}
+{"node": 3855, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.7582277730000442}
+{"node": 3949, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 5, 5, 855, 0], [402, 0]], "seconds": 0.7747537089999241}
+{"node": 4013, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.7155075010000473}
+{"node": 4036, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 5, 5, 855, 0], [402, 0]], "seconds": 0.6456142360000285}
+{"node": 4059, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 5, 5, 855, 0], [402, 0]], "seconds": 0.7859913549999646}
+{"node": 4101, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 5, 5, 855, 0], [402, 0]], "seconds": 0.7067804370000204}
+{"node": 4387, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.664880151000034}
+{"node": 4420, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 5, 5, 855, 0], [402, 0]], "seconds": 0.6470763890000626}
+{"node": 4628, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 5, 5, 855, 0], [402, 0]], "seconds": 0.6873151559999542}
+{"node": 4704, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[0, 0, 0], [2, 0], [2, 68, 0], [2, 324, 0], [5, 5, 15, 285, 0], [98, 0], [286, 0]], "seconds": 0.6663474929999893}
+{"node": 4709, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6792896879999262}
+{"node": 4905, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6792788760000121}
+{"node": 4939, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6592454320000343}
+{"node": 4958, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 5, 5, 855, 0], [402, 0]], "seconds": 0.6644097679999277}
+{"node": 5108, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 5, 5, 855, 0], [402, 0]], "seconds": 0.6851400209999383}
+{"node": 5407, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6614128050000545}
+{"node": 6094, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6936988710000378}
+{"node": 6287, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 5, 5, 855, 0], [402, 0]], "seconds": 0.6911492499999667}
+{"node": 6995, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6446200560000079}
+{"node": 7078, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.7268115130000297}
+{"node": 7602, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 5, 5, 855, 0], [402, 0]], "seconds": 0.7058412850000195}
+{"node": 7800, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6782677749999948}
+{"node": 8917, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 5, 5, 855, 0], [402, 0]], "seconds": 0.6973054040000761}
+{"node": 8960, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.7293740089999119}
+{"node": 8966, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6940184860000045}
+{"node": 9005, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.7125838959999555}
+{"node": 9116, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6838552340000206}
+{"node": 9182, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6870140730000003}
+{"node": 9340, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6843063889999712}
+{"node": 9437, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.7262620129999959}
+{"node": 9542, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 1.4584480519999943}
+{"node": 9676, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.8667998409999882}
+{"node": 9821, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.9584154240000089}
+{"node": 10028, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.7141485619999912}
+{"node": 10143, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.8048889030000055}
+{"node": 10153, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.920572945999993}
+{"node": 10187, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.7569216910000023}
+{"node": 10191, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.8457557120000274}
+{"node": 10278, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.7232870739999271}
+{"node": 10450, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.7356293730000516}
+{"node": 10466, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6439332029999605}
+{"node": 10475, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[0, 0, 0], [2, 0], [2, 68, 0], [2, 324, 0], [5, 5, 15, 285, 0], [98, 0], [286, 0]], "seconds": 0.6978302429999985}
+{"node": 10565, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.7191533129999925}
+{"node": 10702, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6883768650000093}
+{"node": 10753, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6909567899999729}
+{"node": 10791, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6999356899999611}
+{"node": 11143, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.6415219799999932}
+{"node": 11186, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.020744945999922493}
+{"node": 11211, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.053786428999956115}
+{"node": 11231, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.023117293000041172}
+{"node": 11451, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.021886291000100755}
+{"node": 11685, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.022363887999972576}
+{"node": 11686, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.03739264499995443}
+{"node": 11797, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[25, 4275, 0], [18370, 0]], "seconds": 0.018546040999922297}
+{"node": 11890, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.022260437999989335}
+{"node": 11946, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.045555552999985593}
+{"node": 12017, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.02328823300001659}
+{"node": 12018, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.02705370799992579}
+{"node": 12264, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[25, 4275, 0], [18370, 0]], "seconds": 0.021945984000012686}
+{"node": 12395, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[25, 4275, 0], [18370, 0]], "seconds": 0.015851491000034912}
+{"node": 12700, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.027571405000003324}
+{"node": 12963, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[25, 4275, 0], [18370, 0]], "seconds": 0.019198652000000038}
+{"node": 13090, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.042118631999983336}
+{"node": 13131, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.026917611000044417}
+{"node": 13179, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.03094805900002484}
+{"node": 13180, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[25, 4275, 0], [18370, 0]], "seconds": 0.016577368999946884}
+{"node": 14020, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.026847774999964713}
+{"node": 14570, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.03000030499993045}
+{"node": 15001, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[0, 0, 0], [2, 84, 0], [5, 5, 15, 285, 0], [10, 100, 0], [386, 0], [770, 0], [4370, 0]], "seconds": 0.032377440000004754}
+{"node": 15083, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.022253788999933022}
+{"node": 15222, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[0, 0, 0], [2, 84, 0], [5, 5, 15, 285, 0], [10, 100, 0], [386, 0], [770, 0], [4370, 0]], "seconds": 0.034303322999903685}
+{"node": 15603, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 5, 5, 855, 0], [1554, 0]], "seconds": 0.030303015999948002}
+{"node": 15643, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[0, 0, 0], [2, 84, 0], [5, 5, 15, 285, 0], [10, 100, 0], [386, 0], [770, 0], [4370, 0]], "seconds": 0.0378187840000237}
+{"node": 16144, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[0, 0, 0], [2, 84, 0], [5, 5, 15, 285, 0], [10, 100, 0], [386, 0], [770, 0], [4370, 0]], "seconds": 0.03258723999999802}
+{"node": 16163, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 5, 5, 855, 0], [1554, 0]], "seconds": 0.02603386999999202}
+{"node": 16185, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 5, 5, 855, 0], [1554, 0]], "seconds": 0.02801269000008233}
+{"node": 16281, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[0, 0, 0], [2, 84, 0], [5, 5, 15, 285, 0], [10, 100, 0], [386, 0], [770, 0], [4370, 0]], "seconds": 0.03053929700001845}
+{"node": 16296, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.02600914799995735}
+{"node": 17049, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.02833296500000415}
+{"node": 17053, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 5, 5, 855, 0], [1554, 0]], "seconds": 0.02475349799999549}
+{"node": 17253, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.02911694899989925}
+{"node": 17302, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 5, 5, 855, 0], [1554, 0]], "seconds": 0.023285294999936923}
+{"node": 17599, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 5, 5, 855, 0], [1554, 0]], "seconds": 0.020100921999983257}
+{"node": 17681, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 5, 5, 855, 0], [1554, 0]], "seconds": 0.022886211000013645}
+{"node": 17888, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.02523732999998174}
+{"node": 18487, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.02218158499999845}
+{"node": 18519, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[25, 4275, 0], [18370, 0]], "seconds": 0.018993686000044363}
+{"node": 18597, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 5, 5, 855, 0], [1554, 0]], "seconds": 0.029206729000065934}
+{"node": 18776, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.023801765000030173}
+{"node": 18867, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[25, 4275, 0], [18370, 0]], "seconds": 0.023997177999945052}
+{"node": 19155, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.027816771999937373}
+{"node": 19190, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.023017189000029248}
+{"node": 19624, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[0, 0, 0], [2, 84, 0], [5, 5, 15, 285, 0], [10, 100, 0], [386, 0], [770, 0], [4370, 0]], "seconds": 0.034005808999950204}
+{"node": 20029, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.029228552999938984}
+{"node": 20054, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[5, 1530, 0], [25, 4275, 0]], "seconds": 0.0259252360000346}
+{"node": 20301, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[0, 0, 0], [2, 0], [2, 68, 0], [2, 324, 0], [5, 5, 15, 285, 0], [98, 0], [286, 0]], "seconds": 0.03557591100002355}
+{"node": 20407, "degree": 4, "status": "EXACT_ENUMERATORS_AGREE", "profile": [[0, 0, 0], [2, 84, 0], [5, 5, 15, 285, 0], [10, 100, 0], [386, 0], [770, 0], [4370, 0]], "seconds": 0.03774870200004443}

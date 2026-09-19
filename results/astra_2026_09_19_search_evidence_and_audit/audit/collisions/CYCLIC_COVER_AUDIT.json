@@ -1,0 +1,1319 @@
+{
+  "status": "ALL_REMAINING_OPPOSITE_SIDE_CHECKPOINT_ENDPOINTS_SEPARATED",
+  "counterexample_established": false,
+  "seconds": 1.23737663899999,
+  "controls": [
+    {
+      "control": "3_1",
+      "degree": 2,
+      "h1": [
+        3,
+        0
+      ],
+      "cross_check": "SnapPea cyclic cover and triangulation homology"
+    },
+    {
+      "control": "3_1",
+      "degree": 3,
+      "h1": [
+        2,
+        2,
+        0
+      ],
+      "cross_check": "SnapPea cyclic cover and triangulation homology"
+    },
+    {
+      "control": "3_1",
+      "degree": 4,
+      "h1": [
+        3,
+        0
+      ],
+      "cross_check": "SnapPea cyclic cover and triangulation homology"
+    },
+    {
+      "control": "4_1",
+      "degree": 2,
+      "h1": [
+        5,
+        0
+      ],
+      "cross_check": "SnapPea cyclic cover and triangulation homology"
+    },
+    {
+      "control": "4_1",
+      "degree": 3,
+      "h1": [
+        4,
+        4,
+        0
+      ],
+      "cross_check": "SnapPea cyclic cover and triangulation homology"
+    },
+    {
+      "control": "4_1",
+      "degree": 4,
+      "h1": [
+        3,
+        15,
+        0
+      ],
+      "cross_check": "SnapPea cyclic cover and triangulation homology"
+    },
+    {
+      "control": "6_1",
+      "degree": 2,
+      "h1": [
+        9,
+        0
+      ],
+      "cross_check": "SnapPea cyclic cover and triangulation homology"
+    },
+    {
+      "control": "6_1",
+      "degree": 3,
+      "h1": [
+        7,
+        7,
+        0
+      ],
+      "cross_check": "SnapPea cyclic cover and triangulation homology"
+    },
+    {
+      "control": "6_1",
+      "degree": 4,
+      "h1": [
+        5,
+        45,
+        0
+      ],
+      "cross_check": "SnapPea cyclic cover and triangulation homology"
+    },
+    {
+      "control": "6_3",
+      "degree": 2,
+      "h1": [
+        13,
+        0
+      ],
+      "cross_check": "SnapPea cyclic cover and triangulation homology"
+    },
+    {
+      "control": "6_3",
+      "degree": 3,
+      "h1": [
+        7,
+        7,
+        0
+      ],
+      "cross_check": "SnapPea cyclic cover and triangulation homology"
+    },
+    {
+      "control": "6_3",
+      "degree": 4,
+      "h1": [
+        3,
+        39,
+        0
+      ],
+      "cross_check": "SnapPea cyclic cover and triangulation homology"
+    }
+  ],
+  "nodes": [
+    {
+      "node": 510,
+      "profiles": {
+        "2": [
+          3,
+          57,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          75,
+          1425,
+          0
+        ]
+      },
+      "native_degree4": [
+        75,
+        1425,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 516,
+      "profiles": {
+        "2": [
+          3,
+          57,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          75,
+          1425,
+          0
+        ]
+      },
+      "native_degree4": [
+        75,
+        1425,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 522,
+      "profiles": {
+        "2": [
+          3,
+          57,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          75,
+          1425,
+          0
+        ]
+      },
+      "native_degree4": [
+        75,
+        1425,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 525,
+      "profiles": {
+        "2": [
+          3,
+          57,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          75,
+          1425,
+          0
+        ]
+      },
+      "native_degree4": [
+        75,
+        1425,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 537,
+      "profiles": {
+        "2": [
+          3,
+          57,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          75,
+          1425,
+          0
+        ]
+      },
+      "native_degree4": [
+        75,
+        1425,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 553,
+      "profiles": {
+        "2": [
+          3,
+          57,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          75,
+          1425,
+          0
+        ]
+      },
+      "native_degree4": [
+        75,
+        1425,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 569,
+      "profiles": {
+        "2": [
+          3,
+          57,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          75,
+          1425,
+          0
+        ]
+      },
+      "native_degree4": [
+        75,
+        1425,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 621,
+      "profiles": {
+        "2": [
+          3,
+          57,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          75,
+          1425,
+          0
+        ]
+      },
+      "native_degree4": [
+        75,
+        1425,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 937,
+      "profiles": {
+        "2": [
+          3,
+          57,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          75,
+          1425,
+          0
+        ]
+      },
+      "native_degree4": [
+        75,
+        1425,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 1031,
+      "profiles": {
+        "2": [
+          3,
+          57,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          75,
+          1425,
+          0
+        ]
+      },
+      "native_degree4": [
+        75,
+        1425,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 1082,
+      "profiles": {
+        "2": [
+          3,
+          57,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          75,
+          1425,
+          0
+        ]
+      },
+      "native_degree4": [
+        75,
+        1425,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 1423,
+      "profiles": {
+        "2": [
+          3,
+          57,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          75,
+          1425,
+          0
+        ]
+      },
+      "native_degree4": [
+        75,
+        1425,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 1808,
+      "profiles": {
+        "2": [
+          171,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          25,
+          4275,
+          0
+        ]
+      },
+      "native_degree4": [
+        25,
+        4275,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 1813,
+      "profiles": {
+        "2": [
+          171,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          25,
+          4275,
+          0
+        ]
+      },
+      "native_degree4": [
+        25,
+        4275,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 1849,
+      "profiles": {
+        "2": [
+          171,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          25,
+          4275,
+          0
+        ]
+      },
+      "native_degree4": [
+        25,
+        4275,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 1869,
+      "profiles": {
+        "2": [
+          171,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          25,
+          4275,
+          0
+        ]
+      },
+      "native_degree4": [
+        25,
+        4275,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 1979,
+      "profiles": {
+        "2": [
+          171,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          25,
+          4275,
+          0
+        ]
+      },
+      "native_degree4": [
+        25,
+        4275,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 2246,
+      "profiles": {
+        "2": [
+          171,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          25,
+          4275,
+          0
+        ]
+      },
+      "native_degree4": [
+        25,
+        4275,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 2353,
+      "profiles": {
+        "2": [
+          171,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          25,
+          4275,
+          0
+        ]
+      },
+      "native_degree4": [
+        25,
+        4275,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 2482,
+      "profiles": {
+        "2": [
+          3,
+          57,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          5,
+          5,
+          15,
+          285,
+          0
+        ]
+      },
+      "native_degree4": [
+        5,
+        5,
+        15,
+        285,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 2490,
+      "profiles": {
+        "2": [
+          3,
+          57,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          5,
+          5,
+          15,
+          285,
+          0
+        ]
+      },
+      "native_degree4": [
+        5,
+        5,
+        15,
+        285,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 2516,
+      "profiles": {
+        "2": [
+          3,
+          57,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          5,
+          5,
+          15,
+          285,
+          0
+        ]
+      },
+      "native_degree4": [
+        5,
+        5,
+        15,
+        285,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 2646,
+      "profiles": {
+        "2": [
+          3,
+          57,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          75,
+          1425,
+          0
+        ]
+      },
+      "native_degree4": [
+        75,
+        1425,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 3319,
+      "profiles": {
+        "2": [
+          3,
+          57,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          75,
+          1425,
+          0
+        ]
+      },
+      "native_degree4": [
+        75,
+        1425,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 3364,
+      "profiles": {
+        "2": [
+          3,
+          57,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          5,
+          5,
+          15,
+          285,
+          0
+        ]
+      },
+      "native_degree4": [
+        5,
+        5,
+        15,
+        285,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 3678,
+      "profiles": {
+        "2": [
+          171,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          25,
+          4275,
+          0
+        ]
+      },
+      "native_degree4": [
+        25,
+        4275,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 3761,
+      "profiles": {
+        "2": [
+          171,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          5,
+          5,
+          5,
+          855,
+          0
+        ]
+      },
+      "native_degree4": [
+        5,
+        5,
+        5,
+        855,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 3824,
+      "profiles": {
+        "2": [
+          171,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          5,
+          5,
+          5,
+          855,
+          0
+        ]
+      },
+      "native_degree4": [
+        5,
+        5,
+        5,
+        855,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 3949,
+      "profiles": {
+        "2": [
+          171,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          5,
+          5,
+          5,
+          855,
+          0
+        ]
+      },
+      "native_degree4": [
+        5,
+        5,
+        5,
+        855,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 4036,
+      "profiles": {
+        "2": [
+          171,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          5,
+          5,
+          5,
+          855,
+          0
+        ]
+      },
+      "native_degree4": [
+        5,
+        5,
+        5,
+        855,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 4059,
+      "profiles": {
+        "2": [
+          171,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          5,
+          5,
+          5,
+          855,
+          0
+        ]
+      },
+      "native_degree4": [
+        5,
+        5,
+        5,
+        855,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 4101,
+      "profiles": {
+        "2": [
+          171,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          5,
+          5,
+          5,
+          855,
+          0
+        ]
+      },
+      "native_degree4": [
+        5,
+        5,
+        5,
+        855,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 4420,
+      "profiles": {
+        "2": [
+          171,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          5,
+          5,
+          5,
+          855,
+          0
+        ]
+      },
+      "native_degree4": [
+        5,
+        5,
+        5,
+        855,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 4628,
+      "profiles": {
+        "2": [
+          171,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          5,
+          5,
+          5,
+          855,
+          0
+        ]
+      },
+      "native_degree4": [
+        5,
+        5,
+        5,
+        855,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 4704,
+      "profiles": {
+        "2": [
+          3,
+          57,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          5,
+          5,
+          15,
+          285,
+          0
+        ]
+      },
+      "native_degree4": [
+        5,
+        5,
+        15,
+        285,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 4958,
+      "profiles": {
+        "2": [
+          171,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          5,
+          5,
+          5,
+          855,
+          0
+        ]
+      },
+      "native_degree4": [
+        5,
+        5,
+        5,
+        855,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 5108,
+      "profiles": {
+        "2": [
+          171,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          5,
+          5,
+          5,
+          855,
+          0
+        ]
+      },
+      "native_degree4": [
+        5,
+        5,
+        5,
+        855,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 6287,
+      "profiles": {
+        "2": [
+          171,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          5,
+          5,
+          5,
+          855,
+          0
+        ]
+      },
+      "native_degree4": [
+        5,
+        5,
+        5,
+        855,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 7602,
+      "profiles": {
+        "2": [
+          171,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          5,
+          5,
+          5,
+          855,
+          0
+        ]
+      },
+      "native_degree4": [
+        5,
+        5,
+        5,
+        855,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 8373,
+      "profiles": {
+        "2": [
+          171,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          25,
+          4275,
+          0
+        ]
+      },
+      "native_degree4": [
+        25,
+        4275,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 8912,
+      "profiles": {
+        "2": [
+          171,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          25,
+          4275,
+          0
+        ]
+      },
+      "native_degree4": [
+        25,
+        4275,
+        0
+      ],
+      "matched": true
+    },
+    {
+      "node": 8917,
+      "profiles": {
+        "2": [
+          171,
+          0
+        ],
+        "3": [
+          77,
+          77,
+          0
+        ],
+        "4": [
+          5,
+          5,
+          5,
+          855,
+          0
+        ]
+      },
+      "native_degree4": [
+        5,
+        5,
+        5,
+        855,
+        0
+      ],
+      "matched": true
+    }
+  ],
+  "buckets": [
+    {
+      "bucket": 1,
+      "counts": [
+        14,
+        5
+      ],
+      "profiles_by_side": [
+        [
+          [
+            75,
+            1425,
+            0
+          ]
+        ],
+        [
+          [
+            5,
+            5,
+            15,
+            285,
+            0
+          ]
+        ]
+      ],
+      "shared_profiles": false
+    },
+    {
+      "bucket": 2,
+      "counts": [
+        13,
+        10
+      ],
+      "profiles_by_side": [
+        [
+          [
+            5,
+            5,
+            5,
+            855,
+            0
+          ]
+        ],
+        [
+          [
+            25,
+            4275,
+            0
+          ]
+        ]
+      ],
+      "shared_profiles": false
+    }
+  ]
+}

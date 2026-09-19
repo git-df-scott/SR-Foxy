@@ -1,0 +1,245 @@
+{
+  "counterexample_established": false,
+  "scope": "Exact finite postprocessing of the first two common_upper checkpoints; not a theorem about unsearched movies or smooth concordance. No running job modified.",
+  "workflow_run": 35455048082,
+  "launch_sha": "042a7dfc6fe61967902e1c4f7174af5f6342862c",
+  "artifacts": [
+    {
+      "id": 10587559866,
+      "sha256": "ed95f67285a105410eaefd8e0354b1343af90831969a69e802efa5b50dab334c",
+      "complete_segments": 1
+    },
+    {
+      "id": 10589240719,
+      "sha256": "41b015d6114e936a4514573042377e01a3aefa74caa4a89b7479ffd7ed26d0cc",
+      "complete_segments": 2
+    }
+  ],
+  "measured_search_wall_seconds": 3600.021043032,
+  "measured_search_cpu_seconds": 3579.326956595,
+  "seven_hours_complete": false,
+  "aggregate_attempt_outcomes": {
+    "DUPLICATE_ENDPOINT": 145976,
+    "NEW_ENDPOINT": 21063,
+    "NO_SAMPLED_BAND": 124,
+    "attempts": 167163
+  },
+  "stored_endpoint_nodes_including_roots": 21067,
+  "distinct_knots_not_claimed": true,
+  "all_saved_parent_ledgers_checked": true,
+  "native_complete_chain_replays_per_checkpoint": 200,
+  "native_replay_independent": false,
+  "jones_computed_for_every_node": true,
+  "jones_cross_side_classes": {
+    "AT": 0,
+    "wild17": 4
+  },
+  "second_checkpoint_homfly_nodes": 315,
+  "second_checkpoint_cyclic_nodes": 184,
+  "second_checkpoint_all_degree4_covers_nodes": 141,
+  "degree4_enumeration_methods": [
+    "low_index",
+    "snappea"
+  ],
+  "enumerators_agree_all_nodes": true,
+  "unknown_cover_computations": 0,
+  "conclusion": "For each of the two target families, every left endpoint stored in checkpoint 2 is distinct from every right endpoint stored there. Jones, HOMFLY-PT, cyclic-cover H1 and full degree-4 cover H1 spectra give the finite exclusion. No claim that all possible movies in the stated box were generated.",
+  "degree4_cover_spectra": [
+    {
+      "bucket": 1,
+      "profiles_by_side": [
+        {
+          "[[5, 1530, 0], [25, 4275, 0]]": [
+            1507,
+            1513,
+            1527,
+            1529,
+            1544,
+            1552,
+            1584,
+            1590,
+            1603,
+            1628,
+            1635,
+            1652,
+            1778,
+            1848,
+            1934,
+            1947,
+            2245,
+            2491,
+            2494,
+            2651,
+            2658,
+            2663,
+            2703,
+            2724,
+            2761,
+            2809,
+            2841,
+            2965,
+            2989,
+            3082,
+            3148,
+            3157,
+            3209,
+            3389,
+            3500,
+            3608,
+            3706,
+            3775,
+            3855,
+            4013,
+            4387,
+            4709,
+            4905,
+            4939,
+            5407,
+            6094,
+            6995,
+            7078,
+            7800,
+            8960,
+            8966,
+            9005,
+            9116,
+            9182,
+            9340,
+            9437,
+            9542,
+            9676,
+            9821,
+            10028,
+            10143,
+            10153,
+            10187,
+            10191,
+            10278,
+            10450,
+            10466,
+            10565,
+            10702,
+            10753,
+            10791,
+            11143,
+            11186,
+            11211,
+            11231,
+            11451,
+            11685,
+            11686,
+            11890,
+            11946,
+            12017,
+            12018,
+            12700,
+            13090,
+            13131,
+            13179,
+            14020,
+            14570,
+            15083,
+            16296,
+            17049,
+            17253,
+            17888,
+            18487,
+            18776,
+            19155,
+            19190,
+            20029,
+            20054
+          ]
+        },
+        {
+          "[[25, 4275, 0], [18370, 0]]": [
+            11797,
+            12264,
+            12395,
+            12963,
+            13180,
+            18519,
+            18867
+          ]
+        }
+      ]
+    },
+    {
+      "bucket": 2,
+      "profiles_by_side": [
+        {
+          "[[0, 0, 0], [2, 84, 0], [5, 5, 15, 285, 0], [10, 100, 0], [386, 0], [770, 0], [4370, 0]]": [
+            15001,
+            15222,
+            15643,
+            16144,
+            16281,
+            19624,
+            20407
+          ]
+        },
+        {
+          "[[0, 0, 0], [2, 0], [2, 68, 0], [2, 324, 0], [5, 5, 15, 285, 0], [98, 0], [286, 0]]": [
+            2482,
+            2490,
+            2516,
+            3364,
+            4704,
+            10475,
+            20301
+          ]
+        }
+      ]
+    },
+    {
+      "bucket": 3,
+      "profiles_by_side": [
+        {
+          "[[5, 5, 5, 855, 0], [402, 0]]": [
+            3761,
+            3824,
+            3949,
+            4036,
+            4059,
+            4101,
+            4420,
+            4628,
+            4958,
+            5108,
+            6287,
+            7602,
+            8917
+          ]
+        },
+        {
+          "[[5, 5, 5, 855, 0], [1554, 0]]": [
+            15603,
+            16163,
+            16185,
+            17053,
+            17302,
+            17599,
+            17681,
+            18597
+          ]
+        }
+      ]
+    }
+  ],
+  "independent_fixed_witnesses": {
+    "nodes": [
+      510,
+      2482,
+      3761,
+      1808
+    ],
+    "mod5_betti": [
+      3,
+      5,
+      5,
+      3
+    ],
+    "standalone_checker": "verify_cyclic4.py",
+    "checker_scope": "Four fixed PD diagrams; does not independently replay all knot-polynomial and covering enumeration computations."
+  }
+}

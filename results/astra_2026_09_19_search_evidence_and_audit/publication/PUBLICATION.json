@@ -1,0 +1,19 @@
+{
+  "directory": "results/astra_2026_09_19_live_checkpoint_audit/",
+  "commits": [
+    "4b010b3461a4e4311833d03a31ceb2a4d028509b",
+    "73f82bbf80a93a6d18065685368e561cc52d4a5a",
+    "08ca57cf5f14f7ff765934a504bb6774e4c908dd",
+    "0e358a27e2de1e5d6dcca58f8a8ffaff8fdd1785"
+  ],
+  "branch": "main",
+  "published_files": [
+    "CYCLIC4_WITNESSES.json",
+    "verify_cyclic4.py",
+    "README.md",
+    "REPLAY.json"
+  ],
+  "checker_blob_readback_matches": true,
+  "raw_checkpoint_databases_pushed": false,
+  "original_running_workflow_changed": false
+}

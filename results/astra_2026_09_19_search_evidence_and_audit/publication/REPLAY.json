@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "mod5_betti": {
+    "510": 3,
+    "2482": 5,
+    "3761": 5,
+    "1808": 3
+  },
+  "corrupt_witnesses_rejected": 8,
+  "counterexample_established": false
+}
