@@ -1,0 +1,11 @@
+{
+  "level": 4,
+  "shard": 0,
+  "shards": 4,
+  "enumerated_records_replayed": 3949,
+  "independent_integer_spot_checks": 4,
+  "multivariable_certificates_replayed": 12,
+  "self_return_movies_replayed": 50,
+  "all_checks_passed": true,
+  "elapsed_seconds": 9.4177725315094
+}

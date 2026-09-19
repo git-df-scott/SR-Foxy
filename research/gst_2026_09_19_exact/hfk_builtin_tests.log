@@ -1,0 +1,2 @@
+module tests: TestResults(failed=0, attempted=40)
+regression tests: TestResults(failed=0, attempted=1)

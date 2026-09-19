@@ -1,0 +1,6 @@
+processed 400 {'excluded_nonzero_linking': 358, 'excluded_nonzero_Fox_minor': 41, 'inconclusive_specializations_zero': 1} seconds 0.79
+processed 800 {'excluded_nonzero_linking': 707, 'excluded_nonzero_Fox_minor': 92, 'inconclusive_specializations_zero': 1} seconds 1.4
+processed 1200 {'excluded_nonzero_linking': 1068, 'excluded_nonzero_Fox_minor': 131, 'inconclusive_specializations_zero': 1} seconds 1.98
+processed 1600 {'excluded_nonzero_linking': 1399, 'excluded_nonzero_Fox_minor': 198, 'inconclusive_specializations_zero': 3} seconds 2.64
+{'scope': 'Spherogram simple dual paths, fixed source PD, bounded length and half-twists; not a global ribbon decision. Surviving specializations are NOT a sliceness result.', 'max_length': 3, 'max_twists': 1, 'count': 1698, 'status_counts': {'excluded_nonzero_linking': 1483, 'excluded_nonzero_Fox_minor': 212, 'inconclusive_specializations_zero': 3}, 'elapsed_seconds': 2.7929651737213135}
+surviving_bands [('7f42_0_1', 2, 1), ('050472_0_0', 3, 0), ('b1b575_0_0', 3, 0)]
