@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "source_run": 35455048082,
+  "counterexample_established": false,
+  "mod5_betti": {"510":3,"2482":5,"3761":5,"1808":3},
+  "corrupt_witnesses_rejected": 8,
+  "libraries": "Python standard library only",
+  "scope": "Four fixed PD diagrams from checkpoint 1. This is not an independent replay of all 21067 endpoint polynomial calculations or all degree-four cover enumerations.",
+  "checkpoint_2_measured_search_seconds": 3600.021043032,
+  "checkpoint_2_measured_cpu_seconds": 3579.326956595,
+  "seven_hours_complete": false,
+  "checkpoint_2_attempts": 167163,
+  "checkpoint_2_endpoint_nodes_including_roots": 21067,
+  "checkpoint_2_all_opposite_side_saved_endpoints_separated": true,
+  "running_search_modified_or_restarted": false
+}

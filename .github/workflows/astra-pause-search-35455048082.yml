@@ -1,0 +1,34 @@
+name: Pause Astra search 35455048082 at Scott's request
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/astra-pause-search-35455048082.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: write
+
+jobs:
+  stop_requested_search:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Cancel only the explicitly paused search run
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          run_id=35455048082
+          status=$(gh api "repos/$GH_REPO/actions/runs/$run_id" --jq .status)
+          echo "Target run $run_id is $status"
+          if [ "$status" != completed ]; then
+            gh api --method POST "repos/$GH_REPO/actions/runs/$run_id/cancel"
+            echo 'Cancellation requested. Existing search cancellation handlers and always-upload steps may preserve a partial checkpoint.'
+          else
+            echo 'Target run is already terminal; no cancellation needed.'
+          fi
+          echo 'No search restarted. No scientific claims modified. User requested pause on 2026-09-19.'
