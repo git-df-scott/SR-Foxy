@@ -47,18 +47,37 @@ available prior for "not separated by anything we can check".
 * `sigma(K3a1) = 2`, `sigma(6_1) = 0` — the Sage-free signature fires correctly
   in both directions.
 
-## 3. A correctness fix, and a question it raises about the older runs
+## 3. RETRACTED: the historical Teichner runs were NOT degraded
 
-`Link.connected_sum` leaves **tuple-valued crossing labels**. This repository
-already records the fault (`min_len_bands` rejects a diagram whose crossing
-labels are not renormalized), and `spherogram.links.bands.normalize_crossing_labels`
-is the fix. It is applied in place in `wild_pair_teichner_hunt.py`.
+**This section previously flagged a possible defect in every historical Teichner
+run. That flag is wrong and is withdrawn.**
 
-**`scripts/teichner_certify_nosage.py` and `scripts/teichner_certify.py` do not
-do this**, and every Teichner target in this campaign is a connected sum. Whether
-the historical Teichner negatives were run on unnormalized diagrams is **open and
-should be checked before any of them is cited as coverage.** Not asserted here —
-flagged.
+What is true: `Link.connected_sum` leaves tuple-valued crossing labels, and
+`crossing_labels_are_normalized(D_{0,1} # 6_1)` is `False` as
+`scripts/teichner_certify_nosage.py` builds it. Calling `min_len_bands` on it
+directly raises `ValueError('Link needs normalized crossing labels')` -- it
+fails loudly, it does not silently return a smaller band set.
+
+What I did not check before flagging it: **the caller.**
+`spherogram.links.bands.search.ribbon_concordant_links` calls
+`normalize_crossing_labels(link)` itself, on its own copy, before any band
+generation, on both the `shortest` and `simple` paths. So every Teichner run in
+this repository has been searching a properly labelled diagram, and the
+historical negatives stand as the coverage they claim.
+
+Two pieces of evidence were already in hand and contradicted the flag: run `A`
+here is executing normally from exactly that unnormalized input, and the
+completed 4.21 h and 7.96 h partner runs returned times and endpoint sets rather
+than a traceback.
+
+The `normalize_crossing_labels` call in `wild_pair_teichner_hunt.py` is
+therefore **redundant, not a fix**. It is left in place as belt and braces and
+costs nothing.
+
+*Failure mode, for the record: a bounded observation ("these labels are not
+normalized, and this one function rejects that") generalised into a claim about
+every historical run, without checking the caller that was one `inspect.getsource`
+away. This is the same pattern `ERRATA_2026-09-18_OPUS.md` records three times.*
 
 ## 4. Measured cost, which is worse than a crossing count suggests
 

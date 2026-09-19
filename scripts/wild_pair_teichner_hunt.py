@@ -151,9 +151,9 @@ def main():
             d_cr = len(D.crossings)
             S = D.connected_sum(snappy.Link(jname))
             S.simplify('global')
-            # connected_sum leaves tuple-valued crossing labels; min_len_bands
-            # is documented in this repo as rejecting a diagram whose labels are
-            # not renormalized.  Correctness fix, applied in place.
+            # connected_sum leaves tuple-valued crossing labels.  REDUNDANT, not
+            # a fix: ribbon_concordant_links normalizes its own copy before any
+            # band generation.  Kept as belt and braces; it costs nothing.
             normalize_crossing_labels(S)
             ts = time.time()
             res = ribbon_concordant_links(S, max_bands=max_bands, max_twists=TWISTS,
