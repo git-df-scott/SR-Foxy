@@ -127,3 +127,17 @@ until its controls agree is how a wrong tool gets believed.
 
 `burau_alexander.py` replaced it and passes 9/9 against tabulated Alexander
 polynomials before being pointed at the audit.
+
+## Postscript: the Seifert-matrix version of this audit was abandoned, not failed
+
+`check_bigradings.py` does the same job through `Link.seifert_matrix()` and
+`det(V - tV^T)`. It ran for **7m47s without completing `K_1`** and was stopped;
+it wrote no `RESULTS.json`. **That is a resource outcome, not a result** — it
+decided nothing about the bigradings either way, and nothing in this directory
+rests on it. The bottleneck is spherogram's isotopy-to-a-braid inside
+`seifert_matrix()` on a 19-crossing diagram.
+
+It is kept for the record. `burau_alexander.py` answers the same question in
+seconds because the braid word is already what the Burau representation wants,
+so the expensive isotopy never happens. Both routes are equally independent of
+the HFK calculator, which is the only property the audit needed.
