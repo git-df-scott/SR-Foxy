@@ -1,0 +1,38 @@
+{
+  "main_start": "7a74678daccd9f3148b25a22a3f84a82eb1d374b",
+  "main_end": "7a74678daccd9f3148b25a22a3f84a82eb1d374b",
+  "whole_files_read": [
+    "conversation PROPOSED_TRANSFER_THEOREM.md",
+    "data/knots/AbeTagami_K_0_K_-1__6_3.json",
+    "data/knots/AbeTagami_K_1.json",
+    "data/knots/AbeTagami_D_0_1.json",
+    "data/knots/AbeTagami_L_63_c1_c2.json",
+    "research/28_eisermann_cannot_be_made_to_bite_on_knots.md",
+    "archived pass02 geometry.py",
+    "archived pass02 frontier_jet.cpp",
+    "archived check_general_transfer.py"
+  ],
+  "partial_reads": [
+    "Spherogram invariants.py lines1-210",
+    "Primary source pages explicitly identified in SOURCES.md"
+  ],
+  "metadata_only": [
+    "Current main branch",
+    "Overnight checkpoint directory listing"
+  ],
+  "not_examined": [
+    "Entire repository",
+    "Large band-frontier archives",
+    "Unpushed Opus/Mac work",
+    "All branches/PRs"
+  ],
+  "repeated_as_controls_not_new_results": [
+    "K0 signed determinant13",
+    "K1 signed determinant13",
+    "K0 two-parallel e2=-23"
+  ],
+  "failures": [
+    "Morton-Strickland next screenshot beyond printed92 returned429; not claimed read.",
+    "GitHub create action discovery returned none; no push attempted or claimed."
+  ]
+}

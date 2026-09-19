@@ -1,0 +1,27 @@
+/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+Traceback (most recent call last):
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/SR-Foxy/scripts/check_intermediate_jones.py", line 62, in <module>
+    p=argparse.ArgumentParser();p.add_argument('archive');p.add_argument('output');a=p.parse_args();run(a.archive,a.output)
+                                                                                                    ~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/SR-Foxy/scripts/check_intermediate_jones.py", line 51, in run
+    hopf=check(snappy.Link('L2a1').PD_code());assert hopf['nonsplit_by_Jones']
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/SR-Foxy/scripts/check_intermediate_jones.py", line 28, in check
+    v=jones(L);p=jones(P);q=jones(Q);t=v.parent().gen()
+                 ~~~~~^^^
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/SR-Foxy/scripts/check_intermediate_jones.py", line 19, in jones
+    if not pieces:return (q+q**-1)**(L.unlinked_unknot_components-1)
+                         ~~~~~~~~~^^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  File "sage/rings/polynomial/laurent_polynomial.pyx", line 1228, in sage.rings.polynomial.laurent_polynomial.LaurentPolynomial_univariate.__pow__
+    raise
+  File "sage/rings/polynomial/laurent_polynomial.pyx", line 1224, in sage.rings.polynomial.laurent_polynomial.LaurentPolynomial_univariate.__pow__
+    return self._parent.element_class(self._parent, self.__u**right, self.__n*right)
+  File "sage/rings/polynomial/laurent_polynomial.pyx", line 366, in sage.rings.polynomial.laurent_polynomial.LaurentPolynomial_univariate.__init__
+    f = parent._R(f)
+  File "sage/structure/parent.pyx", line 900, in sage.structure.parent.Parent.__call__
+    return mor._call_(x)
+  File "sage/categories/map.pyx", line 827, in sage.categories.map.Map._call_
+    cpdef Element _call_(self, x):
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/sage/rings/fraction_field.py", line 1397, in _call_
+    raise TypeError("fraction must have unit denominator")
+TypeError: fraction must have unit denominator

@@ -1,0 +1,43 @@
+/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+placement 1 moves 384 unique 147
+placement 2 moves 768 unique 265
+placement 3 moves 1152 unique 408
+placement 4 moves 1536 unique 504
+placement 5 moves 1920 unique 679
+placement 6 moves 2304 unique 877
+placement 7 moves 2688 unique 1052
+placement 8 moves 3072 unique 1233
+placement 9 moves 3456 unique 1386
+placement 10 moves 3840 unique 1492
+placement 11 moves 4224 unique 1626
+placement 12 moves 4608 unique 1756
+placement 13 moves 4992 unique 1887
+placement 14 moves 5376 unique 2025
+placement 15 moves 5760 unique 2095
+placement 16 moves 6144 unique 2215
+placement 17 moves 6528 unique 2302
+placement 18 moves 6912 unique 2451
+placement 19 moves 7296 unique 2633
+placement 20 moves 7680 unique 2775
+placement 21 moves 8064 unique 2869
+placement 22 moves 8448 unique 2941
+placement 23 moves 8832 unique 3034
+placement 24 moves 9216 unique 3149
+placement 25 moves 9600 unique 3267
+placement 26 moves 9984 unique 3444
+placement 27 moves 10368 unique 3669
+placement 28 moves 10752 unique 3829
+placement 29 moves 11136 unique 3945
+placement 30 moves 11520 unique 4030
+placement 31 moves 11904 unique 4187
+placement 32 moves 12288 unique 4384
+placement 33 moves 12672 unique 4571
+placement 34 moves 13056 unique 4696
+placement 35 moves 13440 unique 4771
+placement 36 moves 13824 unique 4873
+placement 37 moves 14208 unique 5067
+placement 38 moves 14592 unique 5159
+placement 39 moves 14976 unique 5253
+placement 40 moves 15360 unique 5412
+{"type": "summary", "moves": 15360, "unique_diagrams": 5412, "first_bands": 480, "seconds": 21.098, "stop": "finite_box_finished"}

@@ -1,0 +1,133 @@
+{
+ "name": "AbeTagami_K_0_(=K_-1)_=_6_3",
+ "pd_code": [
+  [
+   8,
+   11,
+   9,
+   0
+  ],
+  [
+   0,
+   4,
+   1,
+   3
+  ],
+  [
+   6,
+   2,
+   7,
+   1
+  ],
+  [
+   2,
+   8,
+   3,
+   7
+  ],
+  [
+   4,
+   9,
+   5,
+   10
+  ],
+  [
+   10,
+   5,
+   11,
+   6
+  ]
+ ],
+ "pd_code_convention": "SnapPy/spherogram 0-indexed PD code (Link.PD_code(KnotTheory=False))",
+ "source": "Abe-Tagami arXiv:1502.01102 Section 2 / Appendix B: K_n = A^n(6_3); K_0 = 6_3 (snappy.Link('6_3')).",
+ "verification": {
+  "is_6_3": true,
+  "is_a_knot_(1_component)": true,
+  "alexander_polynomial_is_1-3t+5t^2-3t^3+t^4": {
+   "computed (symmetrised)": "+1*t^-2 -3*t^-1 +5*t^0 -3*t^1 +1*t^2",
+   "matches": true
+  },
+  "HFK_fibered_genus_2": {
+   "fibered": true,
+   "seifert_genus": 2,
+   "ok": true
+  },
+  "0_surgery": {
+   "volume": 4.059766425638614,
+   "identified_as": [
+    "s912(0,1)"
+   ],
+   "homology": "Z"
+  },
+  "K_0 = A^0(6_3) = 6_3 by definition (n=0 annulus twist is the identity)": true,
+  "K_{-1} = K_0 = 6_3": "Abe-Tagami arXiv:1502.01102, Remark B.14: K_n and K_m are the same fibered knot iff n=m or n+m=-1 (from d_3(xi_n) = -n^2-n+3/2). Hence K_{-1} = K_0 = 6_3."
+ },
+ "invariants": {
+  "crossings": 6,
+  "alexander_polynomial": "+1*t^-2 -3*t^-1 +5*t^0 -3*t^1 +1*t^2",
+  "HFK": {
+   "L_space_knot": false,
+   "epsilon": 0,
+   "fibered": true,
+   "modulus": 2,
+   "nu": 0,
+   "seifert_genus": 2,
+   "tau": 0,
+   "total_rank": 13
+  },
+  "HFK_ranks_(alex,maslov)": {
+   "(-2, -2)": 1,
+   "(-1, -1)": 3,
+   "(0, 0)": 5,
+   "(1, 1)": 3,
+   "(2, 2)": 1
+  },
+  "exterior": {
+   "solution_type": "all tetrahedra positively oriented",
+   "volume": 5.6930210912813,
+   "hyperbolic": true
+  }
+ },
+ "n": [
+  0,
+  -1
+ ],
+ "pd_code_snappy_0indexed": [
+  [
+   8,
+   11,
+   9,
+   0
+  ],
+  [
+   0,
+   4,
+   1,
+   3
+  ],
+  [
+   6,
+   2,
+   7,
+   1
+  ],
+  [
+   2,
+   8,
+   3,
+   7
+  ],
+  [
+   4,
+   9,
+   5,
+   10
+  ],
+  [
+   10,
+   5,
+   11,
+   6
+  ]
+ ]
+}

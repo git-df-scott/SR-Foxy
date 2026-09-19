@@ -1,0 +1,15 @@
+{
+ "knot": "GST_Figure2_regina_gst",
+ "date": "2026-09-11T20:53:56.557588Z",
+ "box": {
+  "max_bands": 1,
+  "max_twists": 2,
+  "max_band_len": 8,
+  "paths": "shortest",
+  "filter_for_plausibly_slice": true,
+  "use_ribbon_link_cache": true
+ },
+ "seconds": 3894.6,
+ "survivor_links": 1,
+ "unknot_found": false
+}

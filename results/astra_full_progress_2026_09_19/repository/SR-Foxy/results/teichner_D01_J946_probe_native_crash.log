@@ -1,0 +1,45 @@
+/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+------------------------------------------------------------------------
+0   signals.cpython-314-darwin.so       0x000000010b1f6b5c sigdie + 92
+1   signals.cpython-314-darwin.so       0x000000010b1f6a4c sigdie_for_sig + 296
+2   signals.cpython-314-darwin.so       0x000000010b1f68d8 _sig_on_trampoline + 0
+3   libsystem_platform.dylib            0x0000000185709744 _sigtramp + 56
+4   libomalloc-0.9.6.dylib              0x000000010ce40b08 omAllocBinFromFullPage + 64
+5   libomalloc-0.9.6.dylib              0x000000010ce40b08 omAllocBinFromFullPage + 64
+6   p_Procs_FieldGeneral.so             0x000000014583ccb0 p_Copy__FieldGeneral_LengthThree_OrdGeneral + 132
+7   multi_polynomial_libsingular.cpytho 0x000000012a9a14e4 _Z96__pyx_f_4sage_5rings_10polynomial_28multi_polynomial_libsingular_23MPolynomial_libsingular__sub_P90__pyx_obj_4sage_5rings_10polynomial_28multi_polynomial_libsingular_MPolynomial_libsingularP7_objecti + 100
+8   element.cpython-314-darwin.so       0x000000010a8cfbe4 __pyx_pw_4sage_9structure_7element_7Element_71__sub__ + 700
+9   Python                              0x0000000105467278 binary_op1 + 92
+10  Python                              0x0000000105466f7c PyNumber_Subtract + 32
+11  matrix2.cpython-314-darwin.so       0x0000000135f9c664 __pyx_pf_4sage_6matrix_7matrix2_6Matrix_58_charpoly_df + 6748
+12  matrix2.cpython-314-darwin.so       0x0000000135f28070 __pyx_pw_4sage_6matrix_7matrix2_6Matrix_59_charpoly_df + 596
+13  Python                              0x0000000105487174 _PyObject_VectorcallPrepend + 440
+14  Python                              0x000000010548759c PyObject_VectorcallMethod + 544
+15  matrix2.cpython-314-darwin.so       0x0000000135f27a6c __pyx_pw_4sage_6matrix_7matrix2_6Matrix_57charpoly + 2304
+16  Python                              0x0000000105487174 _PyObject_VectorcallPrepend + 440
+17  Python                              0x000000010548759c PyObject_VectorcallMethod + 544
+18  matrix2.cpython-314-darwin.so       0x0000000135f97c10 __pyx_pf_4sage_6matrix_7matrix2_6Matrix_36determinant + 5264
+19  matrix2.cpython-314-darwin.so       0x0000000135f1e6d8 __pyx_pw_4sage_6matrix_7matrix2_6Matrix_37determinant + 596
+20  Python                              0x0000000105487174 _PyObject_VectorcallPrepend + 440
+21  Python                              0x000000010548759c PyObject_VectorcallMethod + 544
+22  matrix2.cpython-314-darwin.so       0x0000000135f1df64 __pyx_pw_4sage_6matrix_7matrix2_6Matrix_33minors + 2968
+23  Python                              0x0000000105485cec PyObject_Vectorcall + 88
+24  Python                              0x00000001055b4c68 _PyEval_EvalFrameDefault + 10488
+25  Python                              0x00000001055b1e3c PyEval_EvalCode + 248
+26  Python                              0x000000010562b788 run_mod + 172
+27  Python                              0x000000010562a0fc pyrun_file + 164
+28  Python                              0x0000000105629690 _PyRun_SimpleFileObject + 256
+29  Python                              0x00000001056292f4 _PyRun_AnyFileObject + 80
+30  Python                              0x0000000105657650 pymain_run_file_obj + 164
+31  Python                              0x00000001056573a0 pymain_run_file + 72
+32  Python                              0x0000000105656b50 Py_RunMain + 992
+33  Python                              0x0000000105656efc pymain_main + 236
+34  Python                              0x0000000105656f9c Py_BytesMain + 44
+35  dyld                                0x00000001853344e4 start + 6992
+------------------------------------------------------------------------
+Unhandled SIGSEGV: A segmentation fault occurred.
+This probably occurred because a *compiled* module has a bug
+in it and is not properly wrapped with sig_on(), sig_off().
+Python will now terminate.
+------------------------------------------------------------------------

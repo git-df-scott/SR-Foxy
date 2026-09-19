@@ -1,0 +1,33 @@
+name: Astra research snapshot 2026-09-19
+
+# Read-only environment setup; reruns only when this file changes or by dispatch.
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/astra-snapshot-20260919.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  dependencies:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Fetch missing offline CPython 3.13 topology dependencies
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p export/wheels
+          for package in 'cypari>=2.3' 'low_index>=1.2.1' 'tkinter-gl>=1.0' 'pypng' 'pickleshare'; do
+            python -m pip download --dest export/wheels --no-deps --only-binary=:all: --platform manylinux_2_17_x86_64 --platform manylinux2014_x86_64 --platform manylinux_2_24_x86_64 --platform manylinux_2_28_x86_64 --platform manylinux_2_34_x86_64 --python-version 313 --implementation cp --abi cp313 "$package" || printf 'UNAVAILABLE: %s\n' "$package" >> export/wheels/UNAVAILABLE.txt
+          done
+          python -m pip wheel --wheel-dir export/wheels --no-deps PyX
+          (cd export/wheels && sha256sum *.whl > SHA256SUMS)
+      - name: Publish dependency wheels
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: sr-foxy-extra-wheels-cp313
+          path: export/wheels/
+          retention-days: 3
+          if-no-files-found: error
+          compression-level: 0

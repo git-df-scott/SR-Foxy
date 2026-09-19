@@ -1,0 +1,19 @@
+{
+  "status": "EXACT_ALGEBRA_VERIFIED_NOT_A_SLICE_CERTIFICATE",
+  "checks": [
+    {
+      "knot": "K0",
+      "assignments_checked": 1,
+      "square_zero_lifts": 1,
+      "verified_unknot_retractions": 1
+    },
+    {
+      "knot": "K1",
+      "assignments_checked": 262144,
+      "square_zero_lifts": 256,
+      "verified_unknot_retractions": 256
+    }
+  ],
+  "complex_sha256": "bb9685351bd920762ebce794c21f091e67609f05e0a738da12a3396095a565b9",
+  "lift_sha256": "21d6db4b5a30b59c4a851a8304df40fc9cefa2d95e31bd9001424f2d65ed655f"
+}

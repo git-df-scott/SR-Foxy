@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "files_checked": 2555,
+  "errors": [],
+  "scope": "File sizes and SHA-256 only. No mathematical validation, network access, search, or writes."
+}

@@ -1,0 +1,3 @@
+/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+{"input_sha256": "1c9916334ea4bc7616be3eb4b225140d8f44a6aa701e4fc083413242fca665c4", "seed": 0, "cover_homology": "Z/13", "filled_isosig": "mLLvQQLLQcdeggfghijlkltcxlgswcffoff", "simplified_isosig": "dLQbcbchxwn", "tetrahedra": 3, "recognized_triangulation": "L(13,5)", "recognized_manifold": "L(13,5)", "status": "RECOGNIZED"}

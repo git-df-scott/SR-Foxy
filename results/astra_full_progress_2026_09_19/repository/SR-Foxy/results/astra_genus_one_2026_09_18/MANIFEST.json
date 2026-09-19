@@ -1,0 +1,461 @@
+{
+  "source_commit": "ceb83c2c86c4b538599f95b62812587d2fa3c6fe",
+  "files": [
+    {
+      "path": "COVERAGE_AND_SOURCES.json",
+      "bytes": 3031,
+      "sha256": "0f5a0caa6e5cf3b13f09e52f6c4b115537e679848d987ea861c89fd91d63f6a7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4578,
+      "sha256": "b19df510cab012a7afb62f3ac7e2b5c4293d5d437ea3ac282b0ea76b52577d6b"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 18360,
+      "sha256": "57f30377489f2f84d58fac84ff72d9efe4eddec0115fb265721606c4c8b5857f"
+    },
+    {
+      "path": "VERIFICATION.json",
+      "bytes": 6179,
+      "sha256": "e24786d625fd6f5126e22a4957ebbf00a8a8d07b9e0ca9ad5f14f7ab284acbf6"
+    },
+    {
+      "path": "attempt01/build_spatial_model.py",
+      "bytes": 8609,
+      "sha256": "849598636c92d4a8a63d4c253485a48e393610ed07f8e96e9974c790ae080f20"
+    },
+    {
+      "path": "attempt01/gauss_group_probe.json",
+      "bytes": 244,
+      "sha256": "77456fee2b0d24157dfa6adcef29e9799e60abe71ec72fb488b64bed95fd11a8"
+    },
+    {
+      "path": "attempt01/projected_model.json",
+      "bytes": 647410,
+      "sha256": "7a58c7ac5a01c1903e773589460887da96f6e89002a9882654b956299e6909d9"
+    },
+    {
+      "path": "attempt01/spatial_model.json",
+      "bytes": 115528,
+      "sha256": "1ada04c8f655e062da3c2d2e6caeb586741a0ddc7b468b20c19125398cb4e092"
+    },
+    {
+      "path": "attempt01/surface_mesh.json",
+      "bytes": 55080,
+      "sha256": "c5911f4ea7a691a45702b7387790f41108bf53ad8354b68cf3efda6981bffb1a"
+    },
+    {
+      "path": "attempt02/build_spatial_model.py",
+      "bytes": 8795,
+      "sha256": "998f3116d2a143c9ccc18f0049fe52174b8d7e4e4d7231d4c901a123acfe3811"
+    },
+    {
+      "path": "attempt02/independent_checker_first.log",
+      "bytes": 725,
+      "sha256": "0fd678a565be8299a41edee22e2360597ddac82ffd0fd9c24865a32b363e1895"
+    },
+    {
+      "path": "attempt02/legacy_gauss_group_probe.json",
+      "bytes": 244,
+      "sha256": "77456fee2b0d24157dfa6adcef29e9799e60abe71ec72fb488b64bed95fd11a8"
+    },
+    {
+      "path": "attempt02/legacy_gauss_group_probe.py",
+      "bytes": 1964,
+      "sha256": "f864a7f0b8371d0596a69bc3c68a39b2f1776e825a2fdc4b4572ee074b17fb97"
+    },
+    {
+      "path": "attempt02/legacy_projected_model.json",
+      "bytes": 647638,
+      "sha256": "fd361a82c7ad9a4965eef8d173c3d21a5340fa718386e73161c4330900e73535"
+    },
+    {
+      "path": "attempt02/projected_model.json",
+      "bytes": 647638,
+      "sha256": "fd361a82c7ad9a4965eef8d173c3d21a5340fa718386e73161c4330900e73535"
+    },
+    {
+      "path": "attempt02/spatial_marking_check.json",
+      "bytes": 1922,
+      "sha256": "0dfd545c2c15ca48c98ee5ef8b772358f3e319d8f03b2c2e9248786a74783318"
+    },
+    {
+      "path": "attempt02/spatial_model.json",
+      "bytes": 116424,
+      "sha256": "65e6a898da827663affd83f717b6a2631e6b36a38408aaca5f0f484201c01472"
+    },
+    {
+      "path": "attempt02/surface_mesh.json",
+      "bytes": 55366,
+      "sha256": "a9e2ea074768767c84144eb3e0e83d46090e4697a4b7d48d4bf50641a3c1567c"
+    },
+    {
+      "path": "attempt02/surgery_diagram.json",
+      "bytes": 710743,
+      "sha256": "f8c82108cc1df4a36053f41366e1116e85df9249d0a01e09c7f6e249da393940"
+    },
+    {
+      "path": "attempt02/surgery_link.json",
+      "bytes": 61440,
+      "sha256": "b981adfe5105c976decd7496f1ce3fa8e6199494f21b96ceb63daa88636f8a3a"
+    },
+    {
+      "path": "auxiliary_group.log",
+      "bytes": 345,
+      "sha256": "9419265067ccf3bc9ad69e3ac424b2b47780346027e5b6d401689c69b2f9798d"
+    },
+    {
+      "path": "auxiliary_group_certificate.json",
+      "bytes": 109404,
+      "sha256": "48feda4654828ff7ece8c9d911992911f315b5e6cb3ecf29c98ce5a42ea5399a"
+    },
+    {
+      "path": "build_correction_cobordism.py",
+      "bytes": 5516,
+      "sha256": "1babbc8aaecc95eac60901690fb504efbe77774c23d30d9aa8af48678eea1eab"
+    },
+    {
+      "path": "build_spatial_model.py",
+      "bytes": 8878,
+      "sha256": "2af9963db9a69103fca9988a5baae4a1d4e66a52cff1611cf94b645497899e82"
+    },
+    {
+      "path": "check_auxiliary_group.py",
+      "bytes": 1711,
+      "sha256": "41883500a6f5aee5aa74b0628b4b3ede335d784b7bd91af0aa960b3fd34c6d86"
+    },
+    {
+      "path": "check_exact_independent.mjs",
+      "bytes": 12787,
+      "sha256": "771b9d29021f4df63468c4794ea1588e818b922c6fdec004df7e04697dc6ef8b"
+    },
+    {
+      "path": "check_mesh_independent.py",
+      "bytes": 3780,
+      "sha256": "c2eae53dce87ef2d3dda7194a8615c88633faa869b7e3d8f2817ad92d155bf85"
+    },
+    {
+      "path": "check_spatial_marking.py",
+      "bytes": 2602,
+      "sha256": "9443654c17da782736484b8f7c4cd1855dfff6fafb081101173687e90570fbf9"
+    },
+    {
+      "path": "check_subgroup_independent.py",
+      "bytes": 4836,
+      "sha256": "fe7976ec95867b410f1f56b916718b7083212ee91a68d68653a32db75598e70e"
+    },
+    {
+      "path": "correction_cobordism_mesh.json",
+      "bytes": 66512,
+      "sha256": "d1dbf3903721ea92a9458032d868ef4627cdf9f566291490f6de66690f261705"
+    },
+    {
+      "path": "diagram_primitives.py",
+      "bytes": 4411,
+      "sha256": "dc975d54ba3d23e301b067b256778931c62d26214aa70972b1b08ae748533989"
+    },
+    {
+      "path": "environment.json",
+      "bytes": 508,
+      "sha256": "95d07e9696bd8920ffd332efe5e363eaaa2df3a2dadaee51a5cdba4223bddfc4"
+    },
+    {
+      "path": "filled_group.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "filled_group.py",
+      "bytes": 1334,
+      "sha256": "dc5553b42c06ebc656ee4f856a15f2e8143b5ed48774db5d82f6d9960041db8a"
+    },
+    {
+      "path": "filled_group_certificate.json",
+      "bytes": 440,
+      "sha256": "5baa09a86427001cdb0fd5a5242e9219adf272d6911c53a56428eef256d6f4a7"
+    },
+    {
+      "path": "filled_maximal_minors.json",
+      "bytes": 711,
+      "sha256": "33792c100b3c7a6bfd84aa1ee56fb9150d7f3518edf932680fdf844dd1eaaadd"
+    },
+    {
+      "path": "framed_fox_boundary.json",
+      "bytes": 221438,
+      "sha256": "f4e5f6981d41ab72fdcae838ffa98a41dedc8d4b0b15f3acd81ff73fe2623b52"
+    },
+    {
+      "path": "framed_fox_boundary.log",
+      "bytes": 819,
+      "sha256": "67693b74df9e46648bdc775a4ac88dfcb7989f83504577bd8f115235ba30c2ab"
+    },
+    {
+      "path": "framed_fox_boundary.py",
+      "bytes": 7887,
+      "sha256": "ce7059f4b8c85ccd80beb36b5def2cf761ee95144a584f5859054f8e222bf4f1"
+    },
+    {
+      "path": "handle_homology_probe.json",
+      "bytes": 984,
+      "sha256": "91777f11c5f7cec8cd292806bbf3dc698a30baae0cc62d356865a5738c64fb81"
+    },
+    {
+      "path": "handle_homology_probe.py",
+      "bytes": 2449,
+      "sha256": "6b0b1bf8ad05b29c546322313fd78716c007ddc6b1cc2b3ca90dad0902e7300c"
+    },
+    {
+      "path": "independent_exact_check.json",
+      "bytes": 1521,
+      "sha256": "73a12b0eb9e6c15c4190e0b3c931fb1b4535fbf45a4513f60714aaa92776ce75"
+    },
+    {
+      "path": "independent_exact_check.log",
+      "bytes": 1521,
+      "sha256": "73a12b0eb9e6c15c4190e0b3c931fb1b4535fbf45a4513f60714aaa92776ce75"
+    },
+    {
+      "path": "independent_mesh_check.json",
+      "bytes": 591,
+      "sha256": "01d54270736db91f1ea25616813651b71759ee6e5c5c6b7aeadc65a7c2de3f55"
+    },
+    {
+      "path": "independent_mesh_check.log",
+      "bytes": 591,
+      "sha256": "01d54270736db91f1ea25616813651b71759ee6e5c5c6b7aeadc65a7c2de3f55"
+    },
+    {
+      "path": "independent_subgroup_check.json",
+      "bytes": 648,
+      "sha256": "3dad64d84db88a10ea49e4964313d6298103f241b97105f4f24d65f1bff61bfb"
+    },
+    {
+      "path": "independent_subgroup_check.log",
+      "bytes": 648,
+      "sha256": "3dad64d84db88a10ea49e4964313d6298103f241b97105f4f24d65f1bff61bfb"
+    },
+    {
+      "path": "marked_genus_one.obj",
+      "bytes": 27497,
+      "sha256": "5e55e8da031d9fbcab7cae5bab5c1d125232da6fbd91c143a5c1ff766a546001"
+    },
+    {
+      "path": "marked_genus_one_spatial.png",
+      "bytes": 346795,
+      "sha256": "2d01fc9141a638b55f9477048ea53b87db84a136ea4d964d4b8030eafa858856"
+    },
+    {
+      "path": "marked_genus_one_spatial.svg",
+      "bytes": 81156,
+      "sha256": "f697c5f2746e45e419494913d133254f3fd90d82dfa97f638e77f0e722af61f7"
+    },
+    {
+      "path": "mesh_check.py",
+      "bytes": 5766,
+      "sha256": "4942513e37c6f69375f0c9c3a94a7b1bb53fa924603c36a50a1258db7f0da299"
+    },
+    {
+      "path": "optimized_mode_rejection.log",
+      "bytes": 390,
+      "sha256": "30403f3c59e7b3744c4de3358a46e3bf186bef069a88fa5193351c42926c148b"
+    },
+    {
+      "path": "planar_base.json",
+      "bytes": 50568,
+      "sha256": "1c3864dab79adaacf577de7eb2a8f2bb259b747250c13a83751ab573ac14ff83"
+    },
+    {
+      "path": "polygon_diagram.py",
+      "bytes": 5069,
+      "sha256": "bf01fa1a3c27a2b3b6081031c864ff90bbe38c819ee8b794ae84fd47fc506ec0"
+    },
+    {
+      "path": "prior/astra_one_commutator_2026_09_18/CERTIFICATE.json",
+      "bytes": 24411,
+      "sha256": "920bc9fde02894beed3f7945b184b3eb927282820196d56f210cb8313757e39f"
+    },
+    {
+      "path": "prior/astra_one_commutator_2026_09_18/COVERAGE.json",
+      "bytes": 3064,
+      "sha256": "8340849e0a5408aee8a43d4e63fc79d67b9f20a53cedba106d85708b9ad8a639"
+    },
+    {
+      "path": "prior/astra_one_commutator_2026_09_18/INDEPENDENT_CHECK.json",
+      "bytes": 2204,
+      "sha256": "a3f84f0547fb84580a0cd6c92bfb65c3c8cddf666c94edd32a309f3eb0556e99"
+    },
+    {
+      "path": "prior/astra_one_commutator_2026_09_18/ONE_HANDLE_RECIPE.json",
+      "bytes": 1881,
+      "sha256": "69d8424d18665adffd370d5d0f563557a4a3edb251c0e95968705c5d8b5a8aa1"
+    },
+    {
+      "path": "prior/astra_one_commutator_2026_09_18/OPTIMIZED_REPLAY.json",
+      "bytes": 24411,
+      "sha256": "920bc9fde02894beed3f7945b184b3eb927282820196d56f210cb8313757e39f"
+    },
+    {
+      "path": "prior/astra_one_commutator_2026_09_18/README.md",
+      "bytes": 1946,
+      "sha256": "a1e2a2adb80134b528905c8aa16a0439477a1deeb80951c12a6de11a8404481c"
+    },
+    {
+      "path": "prior/astra_one_commutator_2026_09_18/REPORT.md",
+      "bytes": 11185,
+      "sha256": "b0d9af57f2ffded6fc77c5267e669aa083de70887965a03ee59151b752ed256c"
+    },
+    {
+      "path": "prior/astra_one_commutator_2026_09_18/SOURCES.json",
+      "bytes": 2465,
+      "sha256": "7d1f6987ceec84993dde641dd2f960fabd291c1aec29845274482c53a86b0369"
+    },
+    {
+      "path": "prior/astra_one_commutator_2026_09_18/SUMMARY.json",
+      "bytes": 2003,
+      "sha256": "42036b42144650fe18bc5bbf447c59082f25b672d62cf13aff04d1ce1a21e8c1"
+    },
+    {
+      "path": "prior/astra_one_commutator_2026_09_18/add_verified_inputs.py",
+      "bytes": 1632,
+      "sha256": "7309c94c3da6cdd235ba2998dd0948738568970c6c6532a0b60b883e1cfcfab4"
+    },
+    {
+      "path": "prior/astra_one_commutator_2026_09_18/boundary_handle_certificate.json",
+      "bytes": 19641,
+      "sha256": "39bdd1546fa9e0e173ef9b80fcda19a7c322bf53c9078965b1da596fef6d1d73"
+    },
+    {
+      "path": "prior/astra_one_commutator_2026_09_18/build_certificate.py",
+      "bytes": 3763,
+      "sha256": "96117a0a394250b88024dbdafaa80fd2d6eff6bb519cfeb04e92274fb274391a"
+    },
+    {
+      "path": "prior/astra_one_commutator_2026_09_18/check_independent.mjs",
+      "bytes": 10765,
+      "sha256": "da86f32727c7080c66e8bbd35afa3773c573446c589d048aa685024a1ac2ac3e"
+    },
+    {
+      "path": "prior/astra_one_commutator_2026_09_18/compress_boundary.py",
+      "bytes": 1699,
+      "sha256": "d8e5aba2972e1b274dc48ded030a56efb14e896cdc45a1342fb8a2d93945ae03"
+    },
+    {
+      "path": "prior/astra_one_commutator_2026_09_18/direct_identity_attempt.json",
+      "bytes": 19325,
+      "sha256": "fbdc724cf6ca4e8c5e19db7f8958719a1c32fd1e368cf4c3d34d8ed80069f062"
+    },
+    {
+      "path": "prior/astra_one_commutator_2026_09_18/explore_fiber.py",
+      "bytes": 1878,
+      "sha256": "f79e218d25346bd32533741d6f3c9936be701403331c74e60798468ce8f1a6ab"
+    },
+    {
+      "path": "prior/astra_one_commutator_2026_09_18/fiber_probe.json",
+      "bytes": 5259,
+      "sha256": "a21af4c63313e0d643f25a365b59c33c52862ac7822d84e29fc7202ab572bf40"
+    },
+    {
+      "path": "prior/astra_one_commutator_2026_09_18/finite_witness.json",
+      "bytes": 12904,
+      "sha256": "2f6f931b5c06773886b0148dee99441d677b7151bd6e9e6c4ee86c05d139f275"
+    },
+    {
+      "path": "prior/astra_one_commutator_2026_09_18/finite_witness.py",
+      "bytes": 1777,
+      "sha256": "a93976924a0f8c2a209d124dbe083f58428472537ef12f4fff1dd62a2243ed15"
+    },
+    {
+      "path": "prior/astra_one_commutator_2026_09_18/free_words.py",
+      "bytes": 1854,
+      "sha256": "0986465f3e6a089f674f6f8a5dba2293b68d450ffc403efae0a05670a953f172"
+    },
+    {
+      "path": "prior/astra_one_commutator_2026_09_18/handle_optimization.json",
+      "bytes": 1896,
+      "sha256": "096ea99db1ab9bb6df093fd3cc00d9ba5919a4784bf79447517d8487ecd1b75f"
+    },
+    {
+      "path": "prior/astra_one_commutator_2026_09_18/inputs.json",
+      "bytes": 1117,
+      "sha256": "bf8b605ccff5ffd929ccdf19d1ecacabe43ef157da5b08232fc64fe7f67cf4f1"
+    },
+    {
+      "path": "prior/astra_one_commutator_2026_09_18/inputs_extended.json",
+      "bytes": 6509,
+      "sha256": "0fc42d62c29c689426d962147c253cb7ac0abf2de0d1abb1678b30c38ff5cd77"
+    },
+    {
+      "path": "prior/astra_one_commutator_2026_09_18/optimize_handles.py",
+      "bytes": 1921,
+      "sha256": "e44c35bff8a5a880bcffc8825e6107f9303b1b486678c978ed37969fc64083ef"
+    },
+    {
+      "path": "prior/astra_one_commutator_2026_09_18/q0_compatibility.json",
+      "bytes": 1093,
+      "sha256": "e925daee47773b1279b8e1f37087fb073bf7d4236326fa42813121310f6cbdbc"
+    },
+    {
+      "path": "prior/astra_one_commutator_2026_09_18/verify_against_checkout.py",
+      "bytes": 1891,
+      "sha256": "c223bd8863c1cb025ecc600e137af3eb005cb8a12c9ae1274f27f6ae9fceb8d6"
+    },
+    {
+      "path": "render_spatial.py",
+      "bytes": 1619,
+      "sha256": "bb2640e57593d3d35cd406a1120a1846523e67496cee0e0f689175686fa0086f"
+    },
+    {
+      "path": "spatial_marking_check.json",
+      "bytes": 1919,
+      "sha256": "dde05ebab256209e8c3b7ab736a60d538b4df7e67b690aceb35653ed2648ccbf"
+    },
+    {
+      "path": "spatial_model.json",
+      "bytes": 95363,
+      "sha256": "788d2ea1c11a2c69593313d2821f7be9beabe70b0d11be49478dd049ee0bd228"
+    },
+    {
+      "path": "splice_axis.py",
+      "bytes": 2473,
+      "sha256": "6e5db599863ba3c403eaff36a7abecca555e206be9eb2631c18e5683c077d15f"
+    },
+    {
+      "path": "stallings_probe.json",
+      "bytes": 13217,
+      "sha256": "61f8cd08b17e2f72b0bdc77d0f43f497115618c877808aa4c85be3f64a16ff69"
+    },
+    {
+      "path": "stallings_probe.py",
+      "bytes": 3519,
+      "sha256": "e742f4590b7cdef808846d90ac2e419b09996ff21223447cfdbc9eceb1951ac4"
+    },
+    {
+      "path": "surface_boundary_framing.json",
+      "bytes": 338309,
+      "sha256": "454608c61cd7dac101734ae7ceec7bf297e9bf36dfc9e153bfe8450625022f7f"
+    },
+    {
+      "path": "surface_mesh.json",
+      "bytes": 42263,
+      "sha256": "2152a22f5b65ba7bacc391cae33f53d762c0d89587b9853bf92bb37a153005a7"
+    },
+    {
+      "path": "surgery_diagram.json",
+      "bytes": 554927,
+      "sha256": "b1ec94ba104508f5422918aa3af9155f25faad857acc99e5b9551cf5daebd6c8"
+    },
+    {
+      "path": "surgery_link.json",
+      "bytes": 52897,
+      "sha256": "ea5183d62fd75514b3076430f557900ae3d029028666681e0d0ed861646437bc"
+    },
+    {
+      "path": "two_parameter_minors.json",
+      "bytes": 1300,
+      "sha256": "40d9f6664fdca0264efce747d7b473b861d6f794c2b1c3e22cec5479000c67d0"
+    }
+  ],
+  "qualification": "Includes failed and superseded attempts, explicitly under attempt01/attempt02. No original repository or prior package content was overwritten."
+}

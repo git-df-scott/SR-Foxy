@@ -1,0 +1,293 @@
+{
+ "all_checks_pass": true,
+ "n_checks": 24,
+ "n_pass": 24,
+ "checks": [
+  {
+   "name": "all ten MP/RBG survivors are present",
+   "pass": true,
+   "detail": "['MP_KB_-1_0_-1_-1_2_-1', 'MP_KB_-2_0_0_-1_2_-1', 'MP_KB_0_0_-2_0_0_1', 'MP_KB_0_0_0_-1_2_1', 'MP_KB_0_0_0_1_2_-1', 'MP_KG_-1_0_-1_-1_2_-1', 'MP_KG_-2_0_0_-1_2_-1', 'MP_KG_0_0_-2_0_0_1', 'MP_KG_0_0_0_-1_2_1', 'MP_KG_0_0_0_1_2_-1']"
+  },
+  {
+   "name": "MP_KB_-1_0_-1_-1_2_-1: NON-fibered",
+   "pass": true,
+   "detail": "False"
+  },
+  {
+   "name": "MP_KB_-1_0_-1_-1_2_-1: tau = nu = epsilon = 0",
+   "pass": true,
+   "detail": "0,0,0"
+  },
+  {
+   "name": "MP_KB_-2_0_0_-1_2_-1: NON-fibered",
+   "pass": true,
+   "detail": "False"
+  },
+  {
+   "name": "MP_KB_-2_0_0_-1_2_-1: tau = nu = epsilon = 0",
+   "pass": true,
+   "detail": "0,0,0"
+  },
+  {
+   "name": "MP_KB_0_0_-2_0_0_1: NON-fibered",
+   "pass": true,
+   "detail": "False"
+  },
+  {
+   "name": "MP_KB_0_0_-2_0_0_1: tau = nu = epsilon = 0",
+   "pass": true,
+   "detail": "0,0,0"
+  },
+  {
+   "name": "MP_KB_0_0_0_-1_2_1: NON-fibered",
+   "pass": true,
+   "detail": "False"
+  },
+  {
+   "name": "MP_KB_0_0_0_-1_2_1: tau = nu = epsilon = 0",
+   "pass": true,
+   "detail": "0,0,0"
+  },
+  {
+   "name": "MP_KB_0_0_0_1_2_-1: NON-fibered",
+   "pass": true,
+   "detail": "False"
+  },
+  {
+   "name": "MP_KB_0_0_0_1_2_-1: tau = nu = epsilon = 0",
+   "pass": true,
+   "detail": "0,0,0"
+  },
+  {
+   "name": "MP_KG_-1_0_-1_-1_2_-1: NON-fibered",
+   "pass": true,
+   "detail": "False"
+  },
+  {
+   "name": "MP_KG_-1_0_-1_-1_2_-1: tau = nu = epsilon = 0",
+   "pass": true,
+   "detail": "0,0,0"
+  },
+  {
+   "name": "MP_KG_-2_0_0_-1_2_-1: NON-fibered",
+   "pass": true,
+   "detail": "False"
+  },
+  {
+   "name": "MP_KG_-2_0_0_-1_2_-1: tau = nu = epsilon = 0",
+   "pass": true,
+   "detail": "0,0,0"
+  },
+  {
+   "name": "MP_KG_0_0_-2_0_0_1: NON-fibered",
+   "pass": true,
+   "detail": "False"
+  },
+  {
+   "name": "MP_KG_0_0_-2_0_0_1: tau = nu = epsilon = 0",
+   "pass": true,
+   "detail": "0,0,0"
+  },
+  {
+   "name": "MP_KG_0_0_0_-1_2_1: NON-fibered",
+   "pass": true,
+   "detail": "False"
+  },
+  {
+   "name": "MP_KG_0_0_0_-1_2_1: tau = nu = epsilon = 0",
+   "pass": true,
+   "detail": "0,0,0"
+  },
+  {
+   "name": "MP_KG_0_0_0_1_2_-1: NON-fibered",
+   "pass": true,
+   "detail": "False"
+  },
+  {
+   "name": "MP_KG_0_0_0_1_2_-1: tau = nu = epsilon = 0",
+   "pass": true,
+   "detail": "0,0,0"
+  },
+  {
+   "name": "the six r=0 knots are identified",
+   "pass": true,
+   "detail": "['MP_KB_0_0_-2_0_0_1', 'MP_KB_0_0_0_-1_2_1', 'MP_KB_0_0_0_1_2_-1', 'MP_KG_0_0_-2_0_0_1', 'MP_KG_0_0_0_-1_2_1', 'MP_KG_0_0_0_1_2_-1']"
+  },
+  {
+   "name": "every r=0 knot has Delta = 1",
+   "pass": true,
+   "detail": "{'MP_KB_0_0_-2_0_0_1': True, 'MP_KB_0_0_0_-1_2_1': True, 'MP_KB_0_0_0_1_2_-1': True, 'MP_KG_0_0_-2_0_0_1': True, 'MP_KG_0_0_0_-1_2_1': True, 'MP_KG_0_0_0_1_2_-1': True}"
+  },
+  {
+   "name": "no MP survivor can carry a Miyazaki or Hom-Park certificate",
+   "pass": true,
+   "detail": "both theorems quantify over fibered knots"
+  }
+ ],
+ "knots": {
+  "MP_KB_-1_0_-1_-1_2_-1": {
+   "crossings": 37,
+   "fibered": false,
+   "genus": 2,
+   "tau": 0,
+   "nu": 0,
+   "eps": 0,
+   "total_rank": 81,
+   "delta_is_one": false,
+   "euler_char": {
+    "-2": 3.0,
+    "-1": -12.0,
+    "0": 19,
+    "1": -12,
+    "2": 3
+   },
+   "params": "-1_0_-1_-1_2_-1"
+  },
+  "MP_KB_-2_0_0_-1_2_-1": {
+   "crossings": 37,
+   "fibered": false,
+   "genus": 2,
+   "tau": 0,
+   "nu": 0,
+   "eps": 0,
+   "total_rank": 113,
+   "delta_is_one": false,
+   "euler_char": {
+    "-2": 4.0,
+    "-1": -20.0,
+    "0": 33,
+    "1": -20,
+    "2": 4
+   },
+   "params": "-2_0_0_-1_2_-1"
+  },
+  "MP_KB_0_0_-2_0_0_1": {
+   "crossings": 31,
+   "fibered": false,
+   "genus": 2,
+   "tau": 0,
+   "nu": 0,
+   "eps": 0,
+   "total_rank": 33,
+   "delta_is_one": true,
+   "euler_char": {
+    "0": 1.0
+   },
+   "params": "0_0_-2_0_0_1"
+  },
+  "MP_KB_0_0_0_-1_2_1": {
+   "crossings": 33,
+   "fibered": false,
+   "genus": 2,
+   "tau": 0,
+   "nu": 0,
+   "eps": 0,
+   "total_rank": 97,
+   "delta_is_one": true,
+   "euler_char": {
+    "0": 1.0
+   },
+   "params": "0_0_0_-1_2_1"
+  },
+  "MP_KB_0_0_0_1_2_-1": {
+   "crossings": 33,
+   "fibered": false,
+   "genus": 2,
+   "tau": 0,
+   "nu": 0,
+   "eps": 0,
+   "total_rank": 33,
+   "delta_is_one": true,
+   "euler_char": {
+    "0": 1.0
+   },
+   "params": "0_0_0_1_2_-1"
+  },
+  "MP_KG_-1_0_-1_-1_2_-1": {
+   "crossings": 37,
+   "fibered": false,
+   "genus": 2,
+   "tau": 0,
+   "nu": 0,
+   "eps": 0,
+   "total_rank": 81,
+   "delta_is_one": false,
+   "euler_char": {
+    "-2": 3.0,
+    "-1": -12.0,
+    "0": 19.0,
+    "1": -12.0,
+    "2": 3
+   },
+   "params": "-1_0_-1_-1_2_-1"
+  },
+  "MP_KG_-2_0_0_-1_2_-1": {
+   "crossings": 37,
+   "fibered": false,
+   "genus": 2,
+   "tau": 0,
+   "nu": 0,
+   "eps": 0,
+   "total_rank": 113,
+   "delta_is_one": false,
+   "euler_char": {
+    "-2": 4.0,
+    "-1": -20.0,
+    "0": 33.0,
+    "1": -20.0,
+    "2": 4
+   },
+   "params": "-2_0_0_-1_2_-1"
+  },
+  "MP_KG_0_0_-2_0_0_1": {
+   "crossings": 21,
+   "fibered": false,
+   "genus": 2,
+   "tau": 0,
+   "nu": 0,
+   "eps": 0,
+   "total_rank": 33,
+   "delta_is_one": true,
+   "euler_char": {
+    "0": 1
+   },
+   "params": "0_0_-2_0_0_1"
+  },
+  "MP_KG_0_0_0_-1_2_1": {
+   "crossings": 33,
+   "fibered": false,
+   "genus": 2,
+   "tau": 0,
+   "nu": 0,
+   "eps": 0,
+   "total_rank": 97,
+   "delta_is_one": true,
+   "euler_char": {
+    "0": 1.0
+   },
+   "params": "0_0_0_-1_2_1"
+  },
+  "MP_KG_0_0_0_1_2_-1": {
+   "crossings": 33,
+   "fibered": false,
+   "genus": 2,
+   "tau": 0,
+   "nu": 0,
+   "eps": 0,
+   "total_rank": 33,
+   "delta_is_one": true,
+   "euler_char": {
+    "0": 1.0
+   },
+   "params": "0_0_0_1_2_-1"
+  }
+ },
+ "conclusion": "All ten Manolescu-Piccirillo RBG survivors are non-fibered, so neither Miyazaki Thm 5.5 nor Hom-Park Thm 1.1 can certify any of them non-ribbon. research/24 section 4's lane is empty across the whole MP family, not merely across previously built examples.",
+ "not_established_here": [
+  "Nothing about whether any of the ten is ribbon, non-ribbon, or slice; tau, nu and epsilon all vanish, so no Floer obstruction to sliceness is found either. They remain open.",
+  "Only the two non-ribbon certificates this campaign can apply are considered; another theorem could still reach them.",
+  "The PD codes are taken from data/knots as committed."
+ ],
+ "source": "Gukov-Halverson-Manolescu-Ruehle, Searching for Ribbons with Machine Learning, https://web.stanford.edu/~cm5/sliceML.pdf, Section 6",
+ "spherogram_version": "2.4.1"
+}

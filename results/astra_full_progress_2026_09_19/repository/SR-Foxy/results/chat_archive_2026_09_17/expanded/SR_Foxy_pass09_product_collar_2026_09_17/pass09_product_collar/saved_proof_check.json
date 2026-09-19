@@ -1,0 +1,10 @@
+{
+  "independent_relator_replay": "PASS",
+  "tamper_tests_rejected": [
+    "axis word",
+    "claimed common word",
+    "source generator image"
+  ],
+  "geometric_disk_identification": "NOT_VERIFIED_BY_THIS_CHECKER",
+  "counterexample": false
+}

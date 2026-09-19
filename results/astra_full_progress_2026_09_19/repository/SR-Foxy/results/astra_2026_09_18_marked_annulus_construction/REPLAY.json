@@ -1,0 +1,21 @@
+{
+  "check_saved.py": {
+    "input_hashes": "PASS",
+    "seam_faces": "PASS",
+    "axis_word_transport": "PASS",
+    "compression_quotient_relators_and_loops": "PASS",
+    "cable_component_projections": "PASS",
+    "actual_saddle_adjacency_and_components": "PASS",
+    "negative_controls_rejected": 3,
+    "new_one_handle_images_and_nonidentity": "PASS",
+    "scope": "Finite data only; geometric arguments are separately stated; no CE"
+  },
+  "check_factor_identification.py": {
+    "D01_dual_bigon_and_factor_reconnections": "PASS",
+    "K0_factor_exact_port_graph": "PASS",
+    "mirror_K1_factor_positive_gluing_map": "PASS",
+    "directed_face_checks": 48,
+    "negative_controls_rejected": 1,
+    "scope": "Unoriented prime factor identification; upstream triangulation and peripheral matrices remain kernel-trusted"
+  }
+}

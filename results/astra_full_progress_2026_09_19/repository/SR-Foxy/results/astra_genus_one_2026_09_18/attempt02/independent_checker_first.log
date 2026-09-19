@@ -1,0 +1,12 @@
+file:///mnt/data/astra_genus_one_2026_09_18/check_exact_independent.mjs:11
+function requireTrue(b,name){if(!b)throw new Error(name);checks.push(name);}
+                                         ^
+
+Error: auxiliary exact Tietze replay kills both preferred longitudes; free group rank two
+    at requireTrue (file:///mnt/data/astra_genus_one_2026_09_18/check_exact_independent.mjs:11:42)
+    at file:///mnt/data/astra_genus_one_2026_09_18/check_exact_independent.mjs:86:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+
+Node.js v22.16.0

@@ -1,0 +1,57 @@
+{
+  "parameters": {
+    "seed": 20260916,
+    "seconds": 40,
+    "rss_limit_mib": 1536,
+    "twists": 2,
+    "length": 2,
+    "paths": "shortest",
+    "ribbon_cache": false,
+    "recognize_terminal": true
+  },
+  "jobs": [
+    {
+      "label": "control_6_1",
+      "prefix": [
+        [
+          [
+            6,
+            11,
+            7,
+            0
+          ],
+          [
+            0,
+            5,
+            1,
+            6
+          ],
+          [
+            10,
+            2,
+            11,
+            1
+          ],
+          [
+            2,
+            10,
+            3,
+            9
+          ],
+          [
+            8,
+            4,
+            9,
+            3
+          ],
+          [
+            4,
+            8,
+            5,
+            7
+          ]
+        ]
+      ]
+    }
+  ]
+}

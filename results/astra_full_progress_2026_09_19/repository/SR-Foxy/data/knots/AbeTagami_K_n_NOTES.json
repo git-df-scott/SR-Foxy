@@ -1,0 +1,27 @@
+{
+ "name": "AbeTagami_K_n_NOTES",
+ "notes": {
+  "name": "AbeTagami_K_n_NOT_OBTAINED_notes",
+  "status": "FAILED for n = +-2, +-3 and for n = 1 (= K_-2); only K_0 = K_-1 = 6_3 was obtained",
+  "what_was_read": {
+   "paper": "T. Abe, K. Tagami, 'Fibered knots with the same 0-surgery and the slice-ribbon conjecture', arXiv:1502.01102 (e-print source downloaded and read)",
+   "definition": "K_n = A^n(6_3): n-fold annulus twist along the shrunken annulus A~ of the annulus presentation (A,b) of 6_3 given in Figure 'annulus-pre'. An n-fold annulus twist = (+1/n)-surgery on c_1 and (-1/n)-surgery on c_2 with respect to the framing induced by A (A is an unknotted annulus with one full twist, so these are (1+1/n) and (1-1/n) Seifert-framed surgeries).",
+   "compatibility": "Appendix B: (A,b) is compatible with a fiber surface F of 6_3; A^n(6_3) is therefore obtained from 6_3 by twistings of order +n and -n along curves c'_1, c'_2 on F, and is fibered with monodromy t_{c'_1}^{-n} t_{c'_2}^{n} t_d^{-1} t_b t_c^{-1} t_a.",
+   "distinctness": "Remark B (Oba's computation): d_3(xi_n) = -n^2-n+3/2, so K_n = K_m iff n=m or n+m=-1; in particular K_{-1}=K_0=6_3, K_{-2}=K_1, K_{-3}=K_2.",
+   "diagrams_inspected": [
+    "annulus-pre.pdf (6_3 and its annulus presentation)",
+    "annulus-twist.pdf (shrunken annulus A~ and A(6_3))",
+    "compatible-annulus-presentation.pdf (fiber surface F with c'_1, c'_2)",
+    "fig.pdf (K_0 and K_1 with a full-twist box labelled 1)",
+    "Abe-Jong-Omae-Takeuchi arXiv:1209.0361 Figure 3 (the annulus twist as: double the rails running along the annulus, then blow down a (-1)-framed unknot encircling them, producing a diagram of K_1 with 4 parallel rails and one full-twist box)"
+   ]
+  },
+  "why_it_failed": "Producing a PD code requires transcribing a ~25-30 crossing hand-drawn diagram (or the 3-component link 6_3 u c'_1 u c'_2, from which the K_n exteriors would be Dehn fillings X(c'_1 -> (n+1,n), c'_2 -> (n-1,n)) and PD codes could be recovered with snappy's exterior_to_link). No machine-readable PD/DT/braid data for these knots was found in the e-print sources of arXiv:1502.01102, arXiv:1209.0361, arXiv:1305.7492 or in Dunfield-Gong arXiv:2512.21825 (checked: that paper's tables concern RBG links, and contain no Abe-Tagami data). No fabricated PD code is reported here.",
+  "rigorous_negative_result": {
+   "search": "Every hyperbolic knot exterior in snappy.HTLinkExteriors(cusps=1) (all 59937 hyperbolic knots with at most 14 crossings) was Dehn filled along (0,1) and its volume compared with vol(M_{6_3}(0)) = 4.059766425638614 (= s912(0,1)), with is_isometric_to on the near-matches.",
+   "result": "Exactly one isometric match: K6a1 = 6_3 itself. (K9a40 has 0-surgery volume 4.0597665492, a near-coincidence, and is NOT isometric.)",
+   "consequence": "K_n for n not in {0,-1} is not a hyperbolic knot of 14 or fewer crossings; these knots cannot be recovered from the standard tables."
+  },
+  "D_nm_connected_sums": "Not computed: D_{n,m} = K_n # mirror-reverse(K_m) needs K_1 and K_2. (spherogram.Link has no connected_sum method in this build; a connected sum can be built by hand from two PD codes, but the inputs are missing.)"
+ }
+}

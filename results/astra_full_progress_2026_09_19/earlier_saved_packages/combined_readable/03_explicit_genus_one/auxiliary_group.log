@@ -1,0 +1,28 @@
+{
+  "status": "COMPLETE",
+  "input_generators": 377,
+  "input_meridians": [
+    1,
+    57
+  ],
+  "remaining_generators": [
+    46,
+    313
+  ],
+  "remaining_relators": [],
+  "meridian_images": [
+    [
+      313,
+      46,
+      -313
+    ],
+    [
+      313
+    ]
+  ],
+  "longitude_images": [
+    [],
+    []
+  ],
+  "seconds": 11.503157266000017
+}

@@ -1,0 +1,6 @@
+{"name": "AbeTagami_K_1", "flag": "-sq2e", "status": "finished", "exit_code": 0, "log": "results/resumed_knotjob_sq2/AbeTagami_K_1_sq2e.log", "seconds": 142.885, "printed_values": ["Even Sq^2 Invariant : (0, 0, 0, 0)"]}
+{"name": "AbeTagami_K_1", "flag": "-sq2o0", "status": "inconclusive_timeout", "log": "results/resumed_knotjob_sq2/AbeTagami_K_1_sq2o0.log", "seconds": 300.124, "printed_values": []}
+{"name": "AbeTagami_K_1", "flag": "-sq2o1", "status": "inconclusive_timeout", "log": "results/resumed_knotjob_sq2/AbeTagami_K_1_sq2o1.log", "seconds": 300.12, "printed_values": []}
+{"name": "AbeTagami_D_0_1", "flag": "-sq2e", "status": "inconclusive_timeout", "log": "results/resumed_knotjob_sq2/AbeTagami_D_0_1_sq2e.log", "seconds": 300.099, "printed_values": []}
+{"name": "AbeTagami_D_0_1", "flag": "-sq2o0", "status": "inconclusive_timeout", "log": "results/resumed_knotjob_sq2/AbeTagami_D_0_1_sq2o0.log", "seconds": 300.147, "printed_values": []}
+{"name": "AbeTagami_D_0_1", "flag": "-sq2o1", "status": "inconclusive_timeout", "log": "results/resumed_knotjob_sq2/AbeTagami_D_0_1_sq2o1.log", "seconds": 300.097, "printed_values": []}

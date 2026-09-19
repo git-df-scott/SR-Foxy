@@ -1,0 +1,150 @@
+{
+  "status": "CHECKPOINT_VALIDATED",
+  "counterexample_found": false,
+  "checks": {
+    "results/evening_session_validation.json": {
+      "status": "PASSED",
+      "counts": {
+        "retained_band_replays": 409,
+        "search_bands": 35930,
+        "rank_rejections": 35521,
+        "wanted_matches": 0,
+        "source_returns": 0,
+        "odd_logs_euler_checked": 8,
+        "odd_mirror_check": 1,
+        "independently_group_checked_links": 1092
+      },
+      "limitations": "Finite search; same-library ribbon/PD replay, independent triangulation Fox presentation and integer determinant checks. Jones Euler and mirror controls do not formally verify the Khovanov implementation. No counterexample."
+    },
+    "results/teichner_frontier_validation.json": {
+      "status": "PASSED",
+      "counts": {
+        "partner_certificates": 2,
+        "raw_band_replays": 587,
+        "factor_obstruction_witnesses": 74,
+        "Jones_pairing_controls": 2
+      },
+      "summary": {
+        "941": {
+          "saved": 217,
+          "direct_or_inherited_obstructed": 108,
+          "live": 109,
+          "live_first_stage": 6
+        },
+        "946": {
+          "saved": 370,
+          "direct_or_inherited_obstructed": 129,
+          "live": 241,
+          "live_first_stage": 15
+        }
+      },
+      "limitations": "Same-library band/decomposition and partner-certificate replay. No independent formal checker for ribbon cache or HFK. The nonribbon gate is a theorem applied to computed hypotheses."
+    },
+    "results/teichner_third_band_validation.json": {
+      "status": "PASSED",
+      "summary": {
+        "941": {
+          "bands": 50767,
+          "saved_paths_replayed": 209,
+          "sha256": "243d9a9b61524a8c5ae4a8e629c4d125e3787ec28caba89d2dbc953ac1ba977f"
+        },
+        "946": {
+          "bands": 50845,
+          "saved_paths_replayed": 246,
+          "sha256": "28b7674cb4266472c2bcf3dac4a775d4c3b7fb01bb4df34f9406ab342dacc7d9"
+        }
+      },
+      "scope": "Exact raw replay and rank checks; same-library simplification and certificate machinery. Finite search, no counterexample."
+    },
+    "results/teichner_component_gate_validation.json": {
+      "status": "PASSED",
+      "independent_Jones_determinants": 392,
+      "explicit_norm_factorizations": 13,
+      "limitations": "Norm and determinant conditions are necessary, not sliceness proofs. HFK computed by the existing library."
+    },
+    "results/teichner_final_continuation_validation.json": {
+      "status": "PASSED",
+      "raw_band_replays": 96,
+      "component_Jones_square_determinant_checks": 236,
+      "partner_and_D01_Jones_chirality_checks": true,
+      "scope": "96 retained paths remain unknown. Mirror partners are not removed by an amphichirality argument for D01."
+    }
+  },
+  "sha256": {
+    "research/19_link_concordance_completion_gate.md": "5684d3482242fde91f26455083959bfe571fdf89ddbb7c262a3fa1fc46c8dbfa",
+    "results/ancestry_link_rank_25533.json": "3eed4b976baac3ae47ced5a678e7a258bb8ebfb5421b65004aab27a3132c9791",
+    "results/component_link_concordance_independent.json": "078d10a0c1e249dc1401b79a1b12a24e1793aab6cf964f811b548847299db5d1",
+    "results/component_link_concordance_independent_partial.json": "e28b522971bce704247f49d13b29530a341a4ed0dc0340ed09accbef55d4606d",
+    "results/component_link_concordance_ranks.json": "750a9ad4fba7aecc1fe72c8c84a3802d9f2b13d01226ddde63c7e07fd049f7a3",
+    "results/detached_unknot_copy_regression.json": "2e24f40dfe60a816cf4c6b1c98db8bfc4e607184bee53e0af0b241eb446c446d",
+    "results/evening_session_validation.json": "fdf7404d2e6628d6269bed9a97425a75a048c09c4214ea711e58a5165e0b0d91",
+    "results/link_rank_specialization_regression.json": "20123608ddd27beec27247bb801fc1e96df3daec658363ab963a97ec1b06bd9c",
+    "results/odd_khovanov_Q/C2.log": "e012e4b5f7d738624295b8ab9a496c370b61ef7ff6b04f15a403deda260f81d9",
+    "results/odd_khovanov_Q/C2.txt": "209095fbf74d426020048562ca7d87a0dc9ac0f5127ba751f0f2d75fe49b9f3c",
+    "results/odd_khovanov_Q/C4.log": "6aa971c124bf669e05d385ec0ba5e9c02c4e65ee6e8f089c5571eea866687b4b",
+    "results/odd_khovanov_Q/C4.txt": "29d90a7bd0277e543398f8e98e9e6140b4629f74ea8c85731b5444ff75ed2e54",
+    "results/odd_khovanov_Q/J25533.log": "42e35caaaa51f9dd86b3bb69dc16b13616618771afa18c6f2ce7dc4b947b0aff",
+    "results/odd_khovanov_Q/J25533.txt": "31b3dcc804900ce40a5a23d141ec84b0c8bcd48c1f46575bb74bd5b4c6f4b735",
+    "results/odd_khovanov_Q/J25541.log": "461fc00e76b1b83aa772401bfa28c56d69b18e4827b0cd4ffebaba05246ced84",
+    "results/odd_khovanov_Q/J25541.txt": "1dc7d893eaeaffd2b84b921578bc56cd0b0206ec2adc6b26a18276c1504d7fac",
+    "results/odd_khovanov_Q/K0.log": "e0dd8e6843b3cdf26f65b3fe6c67d5ee1f9226bec41d61761748c77e364289ec",
+    "results/odd_khovanov_Q/K0.txt": "2ab0f315e48fd4c7c61703288a01ae27240f8ef93928b49513e1f21b14173eff",
+    "results/odd_khovanov_Q/K1.log": "f8bc020688715792e3383e0f601ef26027e2fa59de5fa88c785dab64b1aa2637",
+    "results/odd_khovanov_Q/K1.txt": "5ec64b605479b533c734098c9a3f805d6809cc8331bad0646204b34f1a342772",
+    "results/odd_khovanov_Q/manifest.json": "90de174404f415f88a1245ed1e00cb3d60faa0449059e5905d8d84522e1f8098",
+    "results/odd_khovanov_Q/mirror_K1.log": "1d367bf5bc879d0ceb77d28d3f65a3c5e82f14ab7d18fc194864f62ccf0bf468",
+    "results/odd_khovanov_Q/mirror_K1.txt": "1bd97049601b09acc36b0c507eb37a71b37e680dea446ee630777f828a919d0b",
+    "results/odd_khovanov_Q/ribbon_6_1.log": "f41ce3f5d9ade3973dd04f0ca7306aec74e899cb049e94d835cf08775436e5fd",
+    "results/odd_khovanov_Q/ribbon_6_1.txt": "ffc3d68ac453bfbd51c5719c642c36f4a61b33f72ca942d80e9cf21839f8c6f7",
+    "results/odd_khovanov_Q/trefoil.log": "9b9373accddc30754621ccf9930e15cacdee32b83e31f36c3b8494be6bff8308",
+    "results/odd_khovanov_Q/trefoil.txt": "490bd191523a20a4de712f33d9be08cda016509051f36b96ba40149f8567c35f",
+    "results/returning_fission_K0_to_K1.json": "9d1eef266d2fab8093c132fb0da7d058ec9605b672eeea56244353f263510a99",
+    "results/returning_fission_K0_to_K1_copy_bug.json": "2afd145c5c22864c0dc53a288e0efdc186646cec2cb81106009ed2b8418745b6",
+    "results/returning_fission_K0_to_K1_partial.json": "98ebc9b9411abe8206371074841dab53c2fc2874c566354d3c03b7d18fd42ce2",
+    "results/returning_fission_K1_to_K0.json": "bfedb61f8702bcac9f312bf9c51db0cd7b8826578ae2da7ac63aab1fa0afb321",
+    "results/returning_fission_K1_to_K0_partial.json": "aa65e54a8fd1ad6500957a9ea81ce66925f24ea2b0bb60143a355ec8d8e8b1db",
+    "results/teichner_D01_J941_mixed.json": "e17f6f5c744c1b0e780b2aef45bf6e058cf31327668cbd40566e214d646e72a4",
+    "results/teichner_D01_J941_probe.json": "ccb26ec7593182b2abbd65868e72540b1c53bdc1ab3a6a0776c8529c6573990a",
+    "results/teichner_D01_J941_probe.log": "fd5f86552d0b08eba375645dd2879d3858e84cb7f6c112bec6b30c05d45646fb",
+    "results/teichner_D01_J941_probe_native_crash.json": "cb9687e6f931cc36127948f0fdc3506181a6dff1956ffeff0d11391e7a6345c8",
+    "results/teichner_D01_J941_probe_native_crash.log": "dc964fc29d0fe97f094dcd97b52dc43add60895c8ca962380afa1cf0747d513b",
+    "results/teichner_D01_J941_third_band.json": "243d9a9b61524a8c5ae4a8e629c4d125e3787ec28caba89d2dbc953ac1ba977f",
+    "results/teichner_D01_J946_component_filtered_continuation.json": "e920efd50d8fdd2fe0c38d70b0870f21fda24cbe605205247e5ce0fe6028086b",
+    "results/teichner_D01_J946_mixed.json": "7199b2d8f88ea24736f6a211cfcaf3ce51ad55381160d0876a6fd92849f6a19b",
+    "results/teichner_D01_J946_probe.json": "fe02185db73bccbef5ef35a836f17487d8ec4ec1ff410830f8d1dbb71ef5b4b1",
+    "results/teichner_D01_J946_probe.log": "fd5f86552d0b08eba375645dd2879d3858e84cb7f6c112bec6b30c05d45646fb",
+    "results/teichner_D01_J946_probe_native_crash.json": "8745fccad5e4eae4f5cc2d92d8683c1721d60a319d3939fab799757139898fee",
+    "results/teichner_D01_J946_probe_native_crash.log": "61416a72a35b307e7413d0238580f538b3187eec85b24f16be7050b174175955",
+    "results/teichner_D01_J946_third_band.json": "28b7674cb4266472c2bcf3dac4a775d4c3b7fb01bb4df34f9406ab342dacc7d9",
+    "results/teichner_component_gate_validation.json": "6a3b97d6cc6d890f19ea6c76f114a4e07667dc2d602a498f3ad8bf2f21a4e75b",
+    "results/teichner_component_slice_gate.json": "d88ac2cb50cd516cce372ef6e612818c9643ca3e84cf2c60652df13a6ec5584b",
+    "results/teichner_factor_gate.json": "8f5ecfb084bf9437622abc7b0e5f755f448cdd7f2c851f23fcc0b1ce1d9dbf45",
+    "results/teichner_final_continuation_validation.json": "408da661ffc8ba0d8edd53df532406ccdcbf8da90de817250db695c56bcf3f6f",
+    "results/teichner_frontier_validation.json": "838bc0594818e6940cf45329bec50b98a99cf0e4a605a80f2c322488d7947583",
+    "results/teichner_live_frontier.json": "eff13c3719355138783c05be0a6e58d44472f6e67e3616a52db4f20a4ba99f7c",
+    "results/teichner_partner_return_recognition.json": "052b720fe5210803f603700ad1638b19897c6f3f7a99379a7aed4e6491534483",
+    "results/teichner_partner_return_simplification.json": "5bff6bec3b7ab1c48a4ffeac6f42efd34cf867c6b840fbfb287238bb4ac2e0cb",
+    "results/teichner_third_band_validation.json": "30d1e2c520d6d9867b4ecdcbb11c41f11c3a7836821902aabb11cca174497e91",
+    "scripts/check_colored_link_rank.py": "155b684742fc060bf6e5cb212c98477363dcded0182b901716012215b9c8cd73",
+    "scripts/check_evening_session.py": "c03056cc5e1ebe47ccfcca3edfcdd5d6a178771903509afaab92c1311ad1fe73",
+    "scripts/check_teichner_component_gate.py": "0e3378f4cac30b5ec7c248f1ddf1af2db4c2ff8d7749a75a53c706a9ab628392",
+    "scripts/check_teichner_final_continuation.py": "9ba2281ba2288be65d07ed97e3764fc26fb0e0ae01a5b6668369601876ed1ba0",
+    "scripts/check_teichner_frontier.py": "e74044a362ae4a9c629a4f886720e11ed6298eeb92da2293837786dec426ca4c",
+    "scripts/check_third_band.py": "7c9853c600059e692c5bf8eea1ab8dbcdf4a79cea298db690d033b5a34f0fe79",
+    "scripts/colored_link_rank.py": "52c3689a10580c550c0399cc860572078fbef1b3de35ed75669916dbb8331857",
+    "scripts/odd_khovanov_gate.py": "e465bc8cf40b9a1f227467cff961c9f5b2a3502822bc85800163278f62d7fc63",
+    "scripts/returning_fission_search.py": "74adf831c6cb761c300437d3fe5a8a2fc3627d75490c7b518eedaca72c23638a",
+    "scripts/teichner_bounded_probe.py": "09715a9290d05b888b82be6dc7bbcf6c6d78894e7e8ff399003937e486859f5e",
+    "scripts/teichner_component_slice_gate.py": "76a0bb66c260081b5cd0b2bf4f3dec10dc9fb8c41a4b93456439b8d651c3adeb",
+    "scripts/teichner_factor_gate.py": "42529c1f09cc5524d03cfe4183eaae243fac55f25f608030b43c6a45d8fca2da",
+    "scripts/teichner_mixed_frontier.py": "ad3a53951a5396aae925b8539642a1eeca0723b0166364edc222b39443317556",
+    "README.md": "a16ffa42911370ecb77afb5da5dee74945415c55f5df0d0b442b338c37a41a68",
+    "HANDOFF.md": "43a1121e1f27e60079b0b58e2cf2e1b02d95268392c8fe5d9ab0d4777e38c111"
+  },
+  "limits": [
+    "No exhaustive band or isotopy search.",
+    "No independent formal implementation proof for HFK/Khovanov or ribbon-link cache.",
+    "Claude message delivery not confirmed."
+  ],
+  "documentation_hash_refresh": "2026-09-14 UTC: HANDOFF documentation hash refreshed only; prior computational checks were not rerun."
+}

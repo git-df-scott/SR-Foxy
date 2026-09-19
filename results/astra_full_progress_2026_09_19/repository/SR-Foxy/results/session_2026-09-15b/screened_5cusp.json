@@ -1,0 +1,195 @@
+{
+ "date": "2026-09-16T02:44:52.655718Z",
+ "source": "results/session_2026-09-15b/eisermann_census_5cusp.json",
+ "meaning": "every entry is PROVED not ribbon by Eisermann Theorem 1. survivors[] are those not yet excluded from being slice; a survivor is a target, not a counterexample.",
+ "rows": [
+  {
+   "components": 5,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": null,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      3
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      4
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      3
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      4
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      2,
+      3
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      2,
+      4
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      3,
+      4
+     ],
+     "split_trivial": true,
+     "beta": 0
+    }
+   ],
+   "slice_ruled_out": false,
+   "reasons": [],
+   "name": "L14n64050",
+   "null_V": 2,
+   "ribbon_requires_null_V": 4,
+   "pd_code": [
+    [
+     5,
+     1,
+     6,
+     0
+    ],
+    [
+     1,
+     21,
+     2,
+     20
+    ],
+    [
+     9,
+     2,
+     10,
+     3
+    ],
+    [
+     3,
+     24,
+     0,
+     25
+    ],
+    [
+     4,
+     13,
+     5,
+     14
+    ],
+    [
+     6,
+     18,
+     7,
+     17
+    ],
+    [
+     26,
+     7,
+     27,
+     8
+    ],
+    [
+     8,
+     19,
+     9,
+     16
+    ],
+    [
+     10,
+     12,
+     11,
+     15
+    ],
+    [
+     22,
+     4,
+     23,
+     11
+    ],
+    [
+     12,
+     21,
+     13,
+     22
+    ],
+    [
+     14,
+     24,
+     15,
+     23
+    ],
+    [
+     16,
+     25,
+     17,
+     26
+    ],
+    [
+     18,
+     20,
+     19,
+     27
+    ]
+   ]
+  }
+ ],
+ "survivors": [
+  "L14n64050"
+ ],
+ "summary": {
+  "screened": 1,
+  "survivors": 1
+ }
+}

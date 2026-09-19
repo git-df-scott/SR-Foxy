@@ -1,0 +1,127 @@
+{
+ "all_checks_pass": true,
+ "n_checks": 23,
+ "n_pass": 23,
+ "checks": [
+  {
+   "name": "G1a K_0 exterior isometric to snappy 6_3",
+   "pass": true,
+   "detail": "stored SnapPy is_isometric_to result"
+  },
+  {
+   "name": "G1b K_0 fibered (HFK)",
+   "pass": true,
+   "detail": "stored HFK fiberedness"
+  },
+  {
+   "name": "G1c K_0 Seifert genus 2",
+   "pass": true,
+   "detail": "stored HFK genus"
+  },
+  {
+   "name": "G2a K_1 has a hyperbolic structure (positive volume)",
+   "pass": true,
+   "detail": "vol(S^3 - K_1) = 9.120006500798125"
+  },
+  {
+   "name": "G2b K_0 volume matches 6_3",
+   "pass": true,
+   "detail": "vol(S^3 - K_0) = 5.6930210912813015"
+  },
+  {
+   "name": "G2c n=1 slopes are integral (framings 2 and 0)",
+   "pass": true,
+   "detail": "slopes [[2, 1], [0, 1]]"
+  },
+  {
+   "name": "G2d n=1 filling really is S^3",
+   "pass": true,
+   "detail": "stored Regina isSphere"
+  },
+  {
+   "name": "G3a stored isometry test says K_1 exterior is NOT 6_3 exterior",
+   "pass": true,
+   "detail": "stored SnapPy is_isometric_to result"
+  },
+  {
+   "name": "G3b volumes are separated well beyond numerical error",
+   "pass": true,
+   "detail": "|9.120006500798125 - 5.6930210912813015| = 3.4269854095168233"
+  },
+  {
+   "name": "G3c K_0 != K_1 by Mostow rigidity",
+   "pass": true,
+   "detail": "distinct volumes of hyperbolic knot exteriors"
+  },
+  {
+   "name": "G4 both knots are prime",
+   "pass": true,
+   "detail": "hyperbolic exterior => prime; both volumes positive"
+  },
+  {
+   "name": "G5a stored Alexander polynomial equals Delta",
+   "pass": true,
+   "detail": "t**4 - 3*t**3 + 5*t**2 - 3*t + 1"
+  },
+  {
+   "name": "G5b Delta is irreducible over Q",
+   "pass": true,
+   "detail": "sympy Poly.is_irreducible"
+  },
+  {
+   "name": "G5c determinant is 13",
+   "pass": true,
+   "detail": "|Delta(-1)| = 13"
+  },
+  {
+   "name": "G5d 13 is not a perfect square",
+   "pass": true,
+   "detail": "Fox-Milnor/Murasugi: a slice knot has square determinant"
+  },
+  {
+   "name": "G5e stored 0-surgeries agree (so Delta_{K_1} = Delta_{K_0})",
+   "pass": true,
+   "detail": "stored SnapPy 0-surgery isometry"
+  },
+  {
+   "name": "G6 Delta_{3_1 (either chirality)} does not divide Delta",
+   "pass": true,
+   "detail": "remainder t - 1"
+  },
+  {
+   "name": "G6 Delta_{4_1} does not divide Delta",
+   "pass": true,
+   "detail": "remainder 9*t - 3"
+  },
+  {
+   "name": "G7a linking number lk(c'_1,c'_2) = 1",
+   "pass": true,
+   "detail": "1"
+  },
+  {
+   "name": "G7b lk(K, c'_i) = 0",
+   "pass": true,
+   "detail": "so K x I is disjoint from both 2-handles"
+  },
+  {
+   "name": "G7c trace form is unimodular",
+   "pass": true,
+   "detail": "det = -1"
+  },
+  {
+   "name": "G7d trace form is even and indefinite",
+   "pass": true,
+   "detail": "even unimodular rank 2 indefinite => H"
+  },
+  {
+   "name": "G8 genus(K_1) = 2 <= 3 (Abe-Tagami Appendix B monodromy on the 6_3 fiber)",
+   "pass": true,
+   "detail": "same fiber surface, so same genus; recorded in AbeTagami_K_n_NOTES.json"
+  }
+ ],
+ "inputs": {
+  "link_json": "data/knots/AbeTagami_L_63_c1_c2.json"
+ },
+ "sympy_version": "1.14.0",
+ "python_version": "3.11.15"
+}

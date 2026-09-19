@@ -1,0 +1,39 @@
+{
+ "date": "2026-09-14T21:55:01.650568Z",
+ "target": "D_{0,1} = K_0 # (-K_1)",
+ "box": {
+  "max_bands": 2,
+  "max_band_len": 6,
+  "max_twists": 2,
+  "diagrams_per_partner": 6,
+  "backtrack_steps": 25,
+  "case_cap_seconds": 420,
+  "deadline_seconds": 28000.0
+ },
+ "partners": [
+  "6_1",
+  "9_46",
+  "10_3",
+  "8_8",
+  "9_41",
+  "10_22",
+  "10_87"
+ ],
+ "runs": [
+  {
+   "partner": "6_1",
+   "diagram": 0,
+   "completed": false,
+   "certified_slice": false,
+   "outcome": "timed_out_or_crashed_UNKNOWN",
+   "cap_seconds": 420
+  }
+ ],
+ "certified_slice": false,
+ "stop": "killed_by_operator_for_rebalancing",
+ "scope": "Bounded search. A timed-out case is UNKNOWN, never a negative. No hit is a non-existence proof, and a hit needs the oriented whole-link checks of research/20 before it is called a counterexample. This file records ONE interrupted case and is retained as a preserved attempt, not as coverage: it is not a negative result.",
+ "elapsed_seconds": 420.0,
+ "status": "INTERRUPTED_SUPERSEDED",
+ "superseded_by": "results/teichner_mirror_breadth.json",
+ "why_superseded": "The 420s cap bought a longer prefix of an enumeration that cannot finish at this size: the repository's own probes (teichner_D01_J946_probe.json, teichner_D01_J941_probe.json) return TIMEOUT_UNKNOWN on the same 2-band, length-6 box over a 34-crossing sum, at ~6500 bands in 180s. The K_B calibration found its ribbon disk on the first diagram in 0.9 seconds, so in this box a hit arrives fast or not at all. Budget was therefore moved to many short cases (120s) over many diagrams rather than few long ones."
+}

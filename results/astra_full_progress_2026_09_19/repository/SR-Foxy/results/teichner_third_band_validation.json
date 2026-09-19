@@ -1,0 +1,16 @@
+{
+  "status": "PASSED",
+  "summary": {
+    "941": {
+      "bands": 50767,
+      "saved_paths_replayed": 209,
+      "sha256": "243d9a9b61524a8c5ae4a8e629c4d125e3787ec28caba89d2dbc953ac1ba977f"
+    },
+    "946": {
+      "bands": 50845,
+      "saved_paths_replayed": 246,
+      "sha256": "28b7674cb4266472c2bcf3dac4a775d4c3b7fb01bb4df34f9406ab342dacc7d9"
+    }
+  },
+  "scope": "Exact raw replay and rank checks; same-library simplification and certificate machinery. Finite search, no counterexample."
+}

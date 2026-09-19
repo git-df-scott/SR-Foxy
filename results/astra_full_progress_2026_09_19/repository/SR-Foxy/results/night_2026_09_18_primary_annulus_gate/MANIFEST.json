@@ -1,0 +1,83 @@
+{
+  "date": "2026-09-18",
+  "scope": "Written local and chain-level annulus lemmas, exact stored-PD Jones distinction, and source audit; no explicit annulus or Slice-Ribbon CE",
+  "artifacts": [
+    {
+      "path": "research/45_mutation_lead_source_audit.md",
+      "bytes": 3328,
+      "sha256": "598e0bd378aed9582b9991870973adc0014857cc8c559770c702da346905035c"
+    },
+    {
+      "path": "research/46_paired_clasps_and_the_primary_annulus_obstruction.md",
+      "bytes": 9774,
+      "sha256": "0e40ee511bbd809fafe514e1cc4052d687d129cf4dcda8edae6cc5168a33dde7"
+    },
+    {
+      "path": "research/47_cyclic_annulus_gate_from_exact_boundary_linking.md",
+      "bytes": 5681,
+      "sha256": "d07ae489c9bcc720792419d06183e621a84a8ad52db3a47f669f2f740c79c2dd"
+    },
+    {
+      "path": "HANDOFF_2026_09_18_EXACT_IDENTIFICATION_AND_ANNULUS.md",
+      "bytes": 3600,
+      "sha256": "6d39b9523abbd3c45096fab137bb45a22a472cebf8471d40033fa3d0470078fa"
+    },
+    {
+      "path": "results/night_2026_09_18_jones/.gitignore",
+      "bytes": 17,
+      "sha256": "0b396ba1a21f5709f9a94c74d50ddaba1464f6aaef748540fd43361f05d6e431"
+    },
+    {
+      "path": "results/night_2026_09_18_jones/README.md",
+      "bytes": 4535,
+      "sha256": "8108d8cbe36a1ee1721f0df82dfa9b16fd75e029411b43a088954081d37750ad"
+    },
+    {
+      "path": "results/night_2026_09_18_jones/RESULTS.json",
+      "bytes": 18464,
+      "sha256": "c9deeaef9f163fe8e528c2f0d65b036ff6473aae04dccb1f43e5701479461fa7"
+    },
+    {
+      "path": "results/night_2026_09_18_jones/check_jones.py",
+      "bytes": 9375,
+      "sha256": "c0b199f65324fd6c3f7c11a0d06578fdae9ea228a34d4eabe97ef8dc71099cfe"
+    },
+    {
+      "path": "results/night_2026_09_18_jones/independent_replay.json",
+      "bytes": 188,
+      "sha256": "5d1b7faff4435df7e0415070343f88eeaade45ee6ec66f3f71a8ac05ba7b816b"
+    },
+    {
+      "path": "results/night_2026_09_18_jones/inputs.json",
+      "bytes": 1923,
+      "sha256": "6a1e54a2e8ecc902555d9d3989b830c0d0a7c0f3c8d90539f943a98b3e1dfaef"
+    },
+    {
+      "path": "results/night_2026_09_18_jones/state_histogram.c",
+      "bytes": 1546,
+      "sha256": "d0cc6028cfed92349719623ac663268a91bf44fd81c65e5f6cefa60fdf52bdd8"
+    }
+  ],
+  "review": {
+    "type": "Independent agent adversarial review; not formal verification or external peer review",
+    "checked": [
+      "equal-exponent opposite-clasp cancellation of exact E",
+      "identity-labelled kink framing correction",
+      "fixed-basepoint latitude and full-group module addition",
+      "kernel of cyclic projection before orbit quotient",
+      "H2(W;Q(t)) vanishing by cellular rank specialization",
+      "boundary collar linking/intersection equality",
+      "nonzero-deck coefficients detect reduced cyclic primary sum"
+    ],
+    "unresolved": [
+      "geometric identification of saved q0",
+      "actual marked annulus movie and double-point ledger",
+      "clean framed Whitney disks",
+      "nonribbon certificate for actual modified surgery boundary"
+    ]
+  },
+  "computational_checks": [
+    "Jones: 29 controls pass; root fresh compilation reproduces full K0/K1 histograms and polynomials",
+    "No high-crossing search; 19-crossing maximum computed, 20-crossing hard limit"
+  ]
+}

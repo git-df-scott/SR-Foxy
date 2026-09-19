@@ -1,0 +1,8 @@
+{
+  "boundary_rewrite_steps_verified": 64,
+  "boundary_word_length": 26,
+  "commutator_identity": "PASS: literal free reduction",
+  "handle_loops_in_exponent_zero_subgroup": 26,
+  "mapped_genus_upper_bound": 13,
+  "mutation_controls_rejected": 2
+}

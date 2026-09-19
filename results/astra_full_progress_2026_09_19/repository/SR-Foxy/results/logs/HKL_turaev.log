@@ -1,0 +1,3 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+{'knot': 'Turaev_A_1_1_1_1', 'spec': [(10, [0, 20]), (20, [0, 10])], 'method': 'basic', 'result': '(3, 13)', 'seconds': 25.3, 'meaning': 'None = no obstruction found in this spec; (p,q) = NOT topologically slice'}

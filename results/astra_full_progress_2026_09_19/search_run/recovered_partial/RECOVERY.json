@@ -1,0 +1,53 @@
+{
+  "kind": "CONSERVATIVE_READABLE_PREFIX_SALVAGE_NOT_COMPLETE_RECOVERY",
+  "source_sha256": "2be2074398922ba1e3599e5bf9368409d8224e6b550289ae86137dbe6c4db032",
+  "completed_checkpoint_sha256": "8003e6108f89b30028735c47381f3dce69b80ed478934327b071e1b13e6c8888",
+  "tables": {
+    "nodes": {
+      "rows_copied": 25669,
+      "last_read_id": 25669,
+      "read_to_end": false,
+      "rejected_rows": [],
+      "source_read_error": "database disk image is malformed",
+      "unchanged_completed_rows": 21067,
+      "completed_rows_missing": [],
+      "completed_rows_different": []
+    },
+    "attempts": {
+      "rows_copied": 31235,
+      "last_read_id": 31235,
+      "read_to_end": false,
+      "rejected_rows": [],
+      "source_read_error": "database disk image is malformed",
+      "unchanged_completed_rows": 25649,
+      "completed_rows_missing": [],
+      "completed_rows_different": []
+    },
+    "runs": {
+      "rows_copied": 3,
+      "last_read_id": 3,
+      "read_to_end": true,
+      "rejected_rows": [],
+      "unchanged_completed_rows": 2,
+      "completed_rows_missing": [],
+      "completed_rows_different": []
+    }
+  },
+  "mathematical_movies_replayed": false,
+  "search_restarted": false,
+  "completed_integrity_check": [
+    "ok"
+  ],
+  "damaged_integrity_error": "database disk image is malformed",
+  "recovered_integrity_check": [
+    "ok"
+  ],
+  "missing_parent_node_ids": [],
+  "depth_inconsistencies": [],
+  "attempts_referring_to_missing_children": [
+    31234
+  ],
+  "nomination_attempt_rows": 0,
+  "unknown_attempt_rows": 0,
+  "output_sha256": "11ccb2a35246786f1235ab24aa0d75b35c680a3fe04c55d1426a76f6510a7348"
+}

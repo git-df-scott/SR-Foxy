@@ -1,0 +1,7 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+K_0: 6 crossings, braid on 3 strands, word length 6
+  K_0: euler=[1, -3, 5, -3, 1] burau=[1, -3, 5, -3, 1] match=True sym_viol=0 ALL_PASS=True
+K_1: 19 crossings, braid on 8 strands, word length 41
+  K_1: euler=[1, -3, 5, -3, 1] burau=[1, -3, 5, -3, 1] match=True sym_viol=0 ALL_PASS=True
+K_2: 41 crossings, braid on 10 strands, word length 69

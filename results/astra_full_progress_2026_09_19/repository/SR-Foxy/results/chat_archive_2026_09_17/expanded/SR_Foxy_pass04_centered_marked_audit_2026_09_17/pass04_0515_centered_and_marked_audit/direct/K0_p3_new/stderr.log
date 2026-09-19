@@ -1,0 +1,4 @@
+step=16 boundary=12 states=126 seconds=0.000616483
+step=32 boundary=12 states=132 seconds=0.00241674
+step=48 boundary=8 states=14 seconds=0.00355283
+step=54 boundary=0 states=1 seconds=0.0036088

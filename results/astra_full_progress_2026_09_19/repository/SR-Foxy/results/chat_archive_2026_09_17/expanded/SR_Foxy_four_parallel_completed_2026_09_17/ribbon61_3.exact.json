@@ -1,0 +1,56 @@
+{
+  "status": "COMPUTED",
+  "raw": {
+    "coefficients_x": [
+      0,
+      -14339,
+      0,
+      -55571,
+      0,
+      -80679,
+      0,
+      -52001,
+      0,
+      -12554
+    ],
+    "order": 5,
+    "modulus": null,
+    "crossings": 90,
+    "writhe": 0,
+    "max_states": 197,
+    "max_frontier": 12,
+    "seconds": 0.00556514
+  },
+  "evaluation": {
+    "exact": true,
+    "divisibility_remainder": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "exact_divisible": true,
+    "quotient_at_x_i": [
+      1785,
+      0
+    ],
+    "quotient_at_x_i_mod32": [
+      25,
+      0
+    ],
+    "remainder_mod32": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "wall_seconds": 0.23933676500001866,
+  "input_file": "ribbon61_3.input.txt",
+  "memory_cap_mib": 3072,
+  "timeout_seconds": 240
+}

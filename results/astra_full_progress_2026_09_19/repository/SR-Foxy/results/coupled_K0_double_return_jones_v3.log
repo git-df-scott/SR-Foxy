@@ -1,0 +1,26 @@
+/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+first 128 crossings 14 nonsplit False
+first 85 crossings 17 nonsplit False
+Traceback (most recent call last):
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/SR-Foxy/scripts/check_intermediate_jones.py", line 66, in <module>
+    p=argparse.ArgumentParser();p.add_argument('archive');p.add_argument('output');a=p.parse_args();run(a.archive,a.output)
+                                                                                                    ~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/SR-Foxy/scripts/check_intermediate_jones.py", line 59, in run
+    c=check(r['simplified_intermediate_pd']);c.update(first_id=r['first_id'],placement=r['placement'],return_positions=r.get('face_return_positions'))
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/SR-Foxy/scripts/check_intermediate_jones.py", line 32, in check
+    v=jones(L);p=jones(P);q=jones(Q);t=v.parent().gen()
+                 ~~~~~^^^
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/SR-Foxy/scripts/check_intermediate_jones.py", line 21, in jones
+    for P in pieces:product*=R(P.jones_polynomial())
+                               ~~~~~~~~~~~~~~~~~~^^
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/spherogram/links/invariants.py", line 691, in jones_polynomial
+    J = jones.jones_polynomial(self, normalized=True)
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/spherogram/links/jones.py", line 204, in jones_polynomial
+    bracket = kauffman_bracket(link)
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/spherogram/links/jones.py", line 186, in kauffman_bracket
+    exhaustion = exhaust.MorseExhaustion(link)
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/spherogram/links/exhaust.py", line 339, in __init__
+    assert C not in crossings
+           ^^^^^^^^^^^^^^^^^^
+AssertionError

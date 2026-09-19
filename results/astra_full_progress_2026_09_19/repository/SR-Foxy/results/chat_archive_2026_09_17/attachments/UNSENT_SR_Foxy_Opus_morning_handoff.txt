@@ -1,0 +1,80 @@
+UNSENT HANDOFF — Astra audit, 17 September 2026
+This is prepared text, NOT evidence that an Opus session was launched.
+
+Start ONE NEW CLOUD OPUS SESSION for git-df-scott/SR-Foxy.
+DO NOT CREATE A BRANCH. Publish new completed, audited work to EXISTING main.
+Do not interfere with the current Opus session or its running search.
+If the cloud platform requires a new branch, stop and report the conflict.
+
+Inspect current main and the existing branch claude/compassionate-carson-b6lxu8.
+The correction audited by Astra is commit
+6c02acb15104055ca2fcf58a5fff319e5ce40b13. Read its
+scripts/lifted_surgery_description.py and
+research/34_searchlight_and_the_general_stabilization.md.
+Read later corrections first if they exist. Preserve all other workers' work:
+no reset, force-push, deletion, blind merge, new branch, or overwritten files.
+Read the existing branch by immutable commit; do not publish new work there.
+
+Objective: an exactly identified knot with a smooth disk in STANDARD B4 and a
+GLOBAL nonribbon proof. No CE has been established. Perform one targeted audit
+and repair, not another broad slope sweep.
+
+1. Correct the isoSig retraction.
+For a fixed dimension/signature type, Regina signatures agree iff the
+triangulations are combinatorially isomorphic. Equal signatures of correctly
+constructed closed 3-manifold triangulations therefore certify an unoriented
+homeomorphism. Unequal signatures after simplification prove nothing about
+homeomorphism. The claim that both positive matches and non-matches are
+artifacts is false as a general inference.
+DO NOT reinstate the old unpinned slopes: recover their exact source
+triangulation, cusp ordering/bases and matching target first. Orientation,
+peripheral markings and the actual covering map require separate checks.
+
+2. Repair the finite-box control.
+Existence of the desired filling does not imply its coordinates lie in
+[-2,2]^2 in the selected cover basis. For example, a unimodular basis change
+[[1,N],[0,1]] sends (0,1) to (N,1). The control must have a known transported
+witness inside the saved box. Otherwise zero target hits are inconclusive,
+not a contradiction of the construction.
+
+3. Preserve unknown cases.
+The audited script silently continues after M.homology() exceptions. Save
+these as UNKNOWN with slopes and exception details. A raw float-volume cutoff
+is heuristic unless certified error bounds justify exclusion.
+SnapPy explicitly documents is_isometric_to(True) as rigorous, whereas False
+may be affected by numerical errors; RuntimeError is unresolved. Preserve that
+asymmetry. Save the actual comparison triangulations and check orientation.
+Do not incorrectly downgrade positive exact/isometry certificates.
+
+PRIORITY: recover the peripheral covering maps, not just matching manifolds.
+Without interrupting or duplicating the running search, derive the integer
+H1 maps for the lifted peripheral tori in saved bases. Transport the downstairs
+meridian and annulus-twist slopes to the four lifted cusps. Save cover/deck
+data, triangulation strings, cusp labels, orientations, bases, transformed
+slopes, hashes, and a fresh-load replay. A different filling with the same
+unmarked manifold is not automatically the actual branched-cover trace.
+If these maps remain unavailable, state the exact missing data and repair the
+classification/controls without launching a bigger search.
+
+Before any Donaldson claim, construct the closed smooth definite manifold
+implied by hypothetical concordance, verify the exact theorem hypotheses, and
+exhibit the forbidden diagonal form or lattice embedding. Do not treat
+definiteness of the cobordism alone as a nonsliceness certificate.
+For d-invariants, supply Spin^c extensions and the applicable map/theorem
+hypotheses; distinguish inequalities from equalities.
+
+Cloud execution only. One bounded serial job at a time. No paid APIs, pasted
+credentials, new infrastructure, Mac process changes, repeated Jones/s/HKL/
+Floer computations or another Turaev audit. Astra's morning allowance is small;
+do the substantive work in Opus rather than requesting routine reviews.
+Save new work in a unique timestamped directory on existing main, checking
+for concurrent changes before publishing. Report CE yes/no, exact verified
+result, remaining gap, artifact/commit and ONE next action.
+
+Primary documentation checked:
+https://regina-normal.github.io/docs/tri-analysis.html
+https://regina-normal.github.io/engine-docs/classregina_1_1Triangulation_3_013_01_4.html
+https://snappy.computop.org/manifold.html#snappy.Manifold.is_isometric_to
+
+Audited source:
+https://github.com/git-df-scott/SR-Foxy/blob/6c02acb15104055ca2fcf58a5fff319e5ce40b13/scripts/lifted_surgery_description.py

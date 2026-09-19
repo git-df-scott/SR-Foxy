@@ -1,0 +1,45 @@
+/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+------------------------------------------------------------------------
+0   signals.cpython-314-darwin.so       0x000000010713ab5c sigdie + 92
+1   signals.cpython-314-darwin.so       0x000000010713aa4c sigdie_for_sig + 296
+2   signals.cpython-314-darwin.so       0x000000010713a8d8 _sig_on_trampoline + 0
+3   libsystem_platform.dylib            0x0000000185709744 _sigtramp + 56
+4   libomalloc-0.9.6.dylib              0x0000000109508b08 omAllocBinFromFullPage + 64
+5   libomalloc-0.9.6.dylib              0x0000000109508b08 omAllocBinFromFullPage + 64
+6   p_Procs_FieldGeneral.so             0x00000001417c4cb0 p_Copy__FieldGeneral_LengthThree_OrdGeneral + 132
+7   multi_polynomial_libsingular.cpytho 0x000000012693c6e4 _Z96__pyx_f_4sage_5rings_10polynomial_28multi_polynomial_libsingular_23MPolynomial_libsingular__add_P90__pyx_obj_4sage_5rings_10polynomial_28multi_polynomial_libsingular_MPolynomial_libsingularP7_objecti + 100
+8   element.cpython-314-darwin.so       0x00000001067ef7bc __pyx_pw_4sage_9structure_7element_7Element_69__add__ + 824
+9   Python                              0x0000000101287278 binary_op1 + 92
+10  Python                              0x00000001012870cc PyNumber_Add + 40
+11  matrix2.cpython-314-darwin.so       0x0000000131f28a58 __pyx_pf_4sage_6matrix_7matrix2_6Matrix_58_charpoly_df + 7760
+12  matrix2.cpython-314-darwin.so       0x0000000131eb4070 __pyx_pw_4sage_6matrix_7matrix2_6Matrix_59_charpoly_df + 596
+13  Python                              0x00000001012a7174 _PyObject_VectorcallPrepend + 440
+14  Python                              0x00000001012a759c PyObject_VectorcallMethod + 544
+15  matrix2.cpython-314-darwin.so       0x0000000131eb3a6c __pyx_pw_4sage_6matrix_7matrix2_6Matrix_57charpoly + 2304
+16  Python                              0x00000001012a7174 _PyObject_VectorcallPrepend + 440
+17  Python                              0x00000001012a759c PyObject_VectorcallMethod + 544
+18  matrix2.cpython-314-darwin.so       0x0000000131f23c10 __pyx_pf_4sage_6matrix_7matrix2_6Matrix_36determinant + 5264
+19  matrix2.cpython-314-darwin.so       0x0000000131eaa6d8 __pyx_pw_4sage_6matrix_7matrix2_6Matrix_37determinant + 596
+20  Python                              0x00000001012a7174 _PyObject_VectorcallPrepend + 440
+21  Python                              0x00000001012a759c PyObject_VectorcallMethod + 544
+22  matrix2.cpython-314-darwin.so       0x0000000131ea9f64 __pyx_pw_4sage_6matrix_7matrix2_6Matrix_33minors + 2968
+23  Python                              0x00000001012a5cec PyObject_Vectorcall + 88
+24  Python                              0x00000001013d4c68 _PyEval_EvalFrameDefault + 10488
+25  Python                              0x00000001013d1e3c PyEval_EvalCode + 248
+26  Python                              0x000000010144b788 run_mod + 172
+27  Python                              0x000000010144a0fc pyrun_file + 164
+28  Python                              0x0000000101449690 _PyRun_SimpleFileObject + 256
+29  Python                              0x00000001014492f4 _PyRun_AnyFileObject + 80
+30  Python                              0x0000000101477650 pymain_run_file_obj + 164
+31  Python                              0x00000001014773a0 pymain_run_file + 72
+32  Python                              0x0000000101476b50 Py_RunMain + 992
+33  Python                              0x0000000101476efc pymain_main + 236
+34  Python                              0x0000000101476f9c Py_BytesMain + 44
+35  dyld                                0x00000001853344e4 start + 6992
+------------------------------------------------------------------------
+Unhandled SIGSEGV: A segmentation fault occurred.
+This probably occurred because a *compiled* module has a bug
+in it and is not properly wrapped with sig_on(), sig_off().
+Python will now terminate.
+------------------------------------------------------------------------

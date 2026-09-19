@@ -1,0 +1,251 @@
+{
+  "inputs": [
+    {
+      "name": "AbeTagami_K_0_K_-1__6_3",
+      "pd": [
+        [
+          8,
+          11,
+          9,
+          0
+        ],
+        [
+          0,
+          4,
+          1,
+          3
+        ],
+        [
+          6,
+          2,
+          7,
+          1
+        ],
+        [
+          2,
+          8,
+          3,
+          7
+        ],
+        [
+          4,
+          9,
+          5,
+          10
+        ],
+        [
+          10,
+          5,
+          11,
+          6
+        ]
+      ],
+      "Alexander": "t^4 - 3*t^3 + 5*t^2 - 3*t + 1",
+      "irreducible": true,
+      "HFK_ranks": [
+        [
+          -2,
+          -2,
+          1
+        ],
+        [
+          -1,
+          -1,
+          3
+        ],
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "fibered": true,
+      "genus": 2,
+      "verified_hyperbolic": true,
+      "volume_lower": "5.6930210912813007651124832754",
+      "volume_upper": "5.6930210912813007651124832795"
+    },
+    {
+      "name": "AbeTagami_K_1",
+      "pd": [
+        [
+          5,
+          11,
+          6,
+          10
+        ],
+        [
+          13,
+          34,
+          14,
+          35
+        ],
+        [
+          35,
+          14,
+          36,
+          15
+        ],
+        [
+          33,
+          21,
+          34,
+          20
+        ],
+        [
+          37,
+          22,
+          0,
+          23
+        ],
+        [
+          8,
+          21,
+          9,
+          22
+        ],
+        [
+          4,
+          27,
+          5,
+          28
+        ],
+        [
+          2,
+          31,
+          3,
+          32
+        ],
+        [
+          32,
+          1,
+          33,
+          2
+        ],
+        [
+          9,
+          1,
+          10,
+          0
+        ],
+        [
+          23,
+          6,
+          24,
+          7
+        ],
+        [
+          36,
+          8,
+          37,
+          7
+        ],
+        [
+          25,
+          17,
+          26,
+          16
+        ],
+        [
+          19,
+          31,
+          20,
+          30
+        ],
+        [
+          15,
+          12,
+          16,
+          13
+        ],
+        [
+          17,
+          27,
+          18,
+          26
+        ],
+        [
+          24,
+          11,
+          25,
+          12
+        ],
+        [
+          29,
+          19,
+          30,
+          18
+        ],
+        [
+          28,
+          3,
+          29,
+          4
+        ]
+      ],
+      "Alexander": "t^4 - 3*t^3 + 5*t^2 - 3*t + 1",
+      "irreducible": true,
+      "HFK_ranks": [
+        [
+          -2,
+          -4,
+          1
+        ],
+        [
+          -1,
+          -3,
+          2
+        ],
+        [
+          -1,
+          -1,
+          1
+        ],
+        [
+          0,
+          -2,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "fibered": true,
+      "genus": 2,
+      "verified_hyperbolic": true,
+      "volume_lower": "9.1200065007981248107367602282",
+      "volume_upper": "9.1200065007981248107367605300"
+    }
+  ],
+  "verified_volume_intervals_disjoint": true,
+  "non_ribbon_implication": "Abe-Tagami Corollary 4.3 applied to these stored diagrams: their connected sum with the concordance inverse of the second is not ribbon.",
+  "source": "https://arxiv.org/html/1502.01102v5",
+  "limitations": "Exact HFK and Alexander results depend on computational libraries; no formal verification of their implementations. This proves no sliceness assertion."
+}

@@ -1,0 +1,9 @@
+/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+first 128 crossings 14 nonsplit False
+first 85 crossings 17 nonsplit False
+first 65 crossings 18 nonsplit False
+first 80 crossings 18 nonsplit False
+first 124 crossings 18 nonsplit False
+first 6 crossings 19 nonsplit False
+first 20 crossings 19 nonsplit True

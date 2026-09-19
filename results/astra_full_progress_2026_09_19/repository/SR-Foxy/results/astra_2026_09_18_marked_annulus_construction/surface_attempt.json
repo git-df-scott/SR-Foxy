@@ -1,0 +1,110 @@
+{
+  "scope": "Marked genus-one product-band surface plus research42 existence correction; failed direct compression; no annulus movie",
+  "orientation_table": [
+    {
+      "native_component": 1,
+      "minimum_port": [
+        6,
+        1
+      ],
+      "final_axis": 1,
+      "orientation_sign": 1
+    },
+    {
+      "native_component": 2,
+      "minimum_port": [
+        7,
+        1
+      ],
+      "final_axis": 2,
+      "orientation_sign": 1
+    },
+    {
+      "native_component": 3,
+      "minimum_port": [
+        33,
+        0
+      ],
+      "final_axis": 2,
+      "orientation_sign": -1
+    },
+    {
+      "native_component": 4,
+      "minimum_port": [
+        34,
+        0
+      ],
+      "final_axis": 1,
+      "orientation_sign": -1
+    }
+  ],
+  "mirror_reverses_both_native_orientations": true,
+  "band_attachment_ports_native_incoming": [
+    [
+      [
+        15,
+        2
+      ],
+      [
+        41,
+        0
+      ]
+    ],
+    [
+      [
+        13,
+        2
+      ],
+      [
+        52,
+        0
+      ]
+    ]
+  ],
+  "product_annulus_orientations": [
+    1,
+    -1
+  ],
+  "events": [
+    {
+      "event": "native product annuli",
+      "components": 2,
+      "boundary_components": 4,
+      "euler_characteristic": 0,
+      "disjoint_from_product_disk": true
+    },
+    {
+      "event": "attach actual transported B1 in boundary collar",
+      "components": 1,
+      "boundary_components": 3,
+      "euler_characteristic": -1,
+      "genus": 0
+    },
+    {
+      "event": "attach actual transported B2 in boundary collar",
+      "components": 1,
+      "boundary_components": 2,
+      "euler_characteristic": -2,
+      "genus": 1,
+      "oriented_boundary": "a-b"
+    },
+    {
+      "event": "glue research42 genus13 correction along b",
+      "components": 1,
+      "boundary_components": 2,
+      "euler_characteristic": -28,
+      "genus": 14,
+      "oriented_boundary": "a-b_prime",
+      "limitation": "Correction is the existing existence construction, not a new coordinate movie"
+    },
+    {
+      "event": "attempt compression of factor10 on u or v",
+      "status": "BLOCKED_FOR_THESE_LOOPS",
+      "reason": "Both have trace3 mod17, so neither is nullhomotopic; see transport.json"
+    }
+  ],
+  "annulus_movie": null,
+  "annulus_double_point_labels": null,
+  "Whitney_disks": null,
+  "not_obstructed": "Other handle systems or another annulus construction are not excluded."
+}

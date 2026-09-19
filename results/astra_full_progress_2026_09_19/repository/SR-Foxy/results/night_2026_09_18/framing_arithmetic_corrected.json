@@ -1,0 +1,115 @@
+{
+ "all_checks_pass": true,
+ "n_checks": 11,
+ "n_pass": 11,
+ "checks": [
+  {
+   "name": "A1 source annulus framing lk(c'_1,c'_2) = +1",
+   "pass": true,
+   "detail": "from the construction card"
+  },
+  {
+   "name": "A2 n-fold twist slopes are (n+1,n) and (n-1,n)",
+   "pass": true,
+   "detail": "so the coefficients are 1 +- 1/n, not +- 1/n"
+  },
+  {
+   "name": "A3 n=1 slopes used are (2,1) and (0,1)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "B1 lk(c1_upper,c2_upper) = +1",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "B2 lk(c1_lower,c2_lower) = -1 (the copy is mirrored)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "B3 every upper-lower cross linking vanishes",
+   "pass": true,
+   "detail": "[0, 0, 0, 0]"
+  },
+  {
+   "name": "C1 crossed  eta1=c1u#c2l, eta2=c2u#c1l: formal source-matrix sum = 0",
+   "pass": true,
+   "detail": "0"
+  },
+  {
+   "name": "C1 uncrossed eta1=c1u#c1l, eta2=c2u#c2l: formal source-matrix sum = 0",
+   "pass": true,
+   "detail": "0"
+  },
+  {
+   "name": "C2 a same-half annulus keeps framing magnitude 1",
+   "pass": true,
+   "detail": "this is the FIXED-AXIS configuration, obstructed by SL(2,F_5) nonconjugacy"
+  },
+  {
+   "name": "D1 archived 0000 Delta_r equals Delta^2 - r^2 (t^3-t)^2",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "D2 Delta_r = Delta^2 only at r = 0",
+   "pass": true,
+   "detail": ""
+  }
+ ],
+ "linking_matrix": [
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   -1
+  ],
+  [
+   0,
+   0,
+   0,
+   -1,
+   0
+  ]
+ ],
+ "component_markings": {
+  "R": 0,
+  "c1_upper": 1,
+  "c2_upper": 2,
+  "c1_lower": 3,
+  "c2_lower": 4
+ },
+ "conclusion": "Formal source-matrix sums vanish and the archived 0000 polynomial is non-target for nonzero r. These checks do not exclude general mixed-band designs.",
+ "scope": "ARITHMETIC_ONLY_UNIVERSAL_CLOSURE_RETRACTED",
+ "not_established_here": [
+  "Linking zero does not determine the surgery Alexander polynomial.",
+  "The 0110 design already has linking zero and the target polynomial.",
+  "No claim about all band paths, endpoints, twists, or orientations.",
+  "No annulus, disk, or knot identification is certified."
+ ],
+ "sympy_version": "1.14.0"
+}

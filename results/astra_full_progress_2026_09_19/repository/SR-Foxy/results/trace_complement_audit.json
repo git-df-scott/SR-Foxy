@@ -1,0 +1,70 @@
+{
+  "all_algebra_checks_passed": true,
+  "source_certificate": "results/annulus_group_compact.json",
+  "relator": "aabbbaBAABabbbaabABBBAb",
+  "longitude_words": [
+    "BabA",
+    "BBABabbbaBABabbbaBAA"
+  ],
+  "longitude_1_is_basis_commutator": true,
+  "relator_abelian_exponents": [
+    2,
+    3
+  ],
+  "longitude_abelian_exponents": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "quotient_by_both_longitudes": "Z (explicit presentation reduction, not homology only)",
+  "meridian_normalized_abelianization": {
+    "a": -3,
+    "b": 2
+  },
+  "fox_derivatives": [
+    {
+      "-3": 1,
+      "-2": -2,
+      "-1": 2,
+      "0": 2,
+      "1": -2,
+      "2": 1
+    },
+    {
+      "-6": 1,
+      "-5": -2,
+      "-4": 3,
+      "-3": -1,
+      "-2": 3,
+      "-1": -2,
+      "0": 1
+    }
+  ],
+  "alexander_coefficients_low_to_high": [
+    1,
+    -3,
+    5,
+    -3,
+    1
+  ],
+  "boundary_alexander_order_coefficients_low_to_high": [
+    1,
+    -6,
+    19,
+    -36,
+    45,
+    -36,
+    19,
+    -6,
+    1
+  ],
+  "delta_at_1": 1,
+  "delta_at_minus_1": 13,
+  "intersection_determinant_status": "Delta^2 up to Laurent unit, DEDUCED by the written duality argument; matrix not constructed",
+  "mixed_word_proposal": "u^-1 (uv) u = vu, checked as a free-group identity; no geometric realization certified"
+}

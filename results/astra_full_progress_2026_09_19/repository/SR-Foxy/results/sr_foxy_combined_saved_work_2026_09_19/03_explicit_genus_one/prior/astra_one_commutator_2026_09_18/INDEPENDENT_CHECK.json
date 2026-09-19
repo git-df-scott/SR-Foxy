@@ -1,0 +1,119 @@
+{
+  "status": "PASS",
+  "implementation": "Independent JavaScript; free cancellation and BigInt finite matrices",
+  "identity": {
+    "tietze_steps": 7,
+    "finite_schreier_rules": 4,
+    "original_length": 104,
+    "handle_lengths": [
+      4,
+      10
+    ],
+    "identity": true
+  },
+  "finite_nontriviality": [
+    {
+      "prime": 11,
+      "z": 6,
+      "delta": [
+        1,
+        10,
+        3,
+        9
+      ],
+      "nontrivial": true
+    },
+    {
+      "prime": 17,
+      "z": 1,
+      "delta": [
+        15,
+        5,
+        15,
+        13
+      ],
+      "nontrivial": true
+    },
+    {
+      "prime": 17,
+      "z": 9,
+      "delta": [
+        15,
+        0,
+        13,
+        8
+      ],
+      "nontrivial": true
+    },
+    {
+      "prime": 23,
+      "z": 5,
+      "delta": [
+        21,
+        18,
+        1,
+        2
+      ],
+      "nontrivial": true
+    },
+    {
+      "prime": 23,
+      "z": 21,
+      "delta": [
+        22,
+        15,
+        18,
+        5
+      ],
+      "nontrivial": true
+    }
+  ],
+  "corrupt_certificates_rejected": [
+    {
+      "name": "A sign",
+      "rejected": true,
+      "message": "A: Tietze translation"
+    },
+    {
+      "name": "B sign",
+      "rejected": true,
+      "message": "B: Tietze translation"
+    },
+    {
+      "name": "Tietze replacement",
+      "rejected": true,
+      "message": "Invalid Tietze equation"
+    },
+    {
+      "name": "Schreier replacement",
+      "rejected": true,
+      "message": "Invalid Schreier equation"
+    },
+    {
+      "name": "Claimed commutator",
+      "rejected": true,
+      "message": "Recorded expansion differs"
+    },
+    {
+      "name": "Original correction",
+      "rejected": true,
+      "message": "Original correction changed"
+    },
+    {
+      "name": "Finite generator image",
+      "rejected": true,
+      "message": "Non-SL2 generator"
+    },
+    {
+      "name": "Finite displayed delta",
+      "rejected": true,
+      "message": "Incorrect displayed finite value"
+    }
+  ],
+  "abelianization": "Z",
+  "saved_q0_identity_by_free_reduction": true,
+  "geometric_q0_identified": false,
+  "commutator_length_in_G_prime": 1,
+  "checks_including_letter_validation": 39555,
+  "CE": false
+}

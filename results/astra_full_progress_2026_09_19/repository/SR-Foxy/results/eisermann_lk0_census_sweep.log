@@ -1,0 +1,84 @@
+[    0.2s] scanned 50, 2-comp 33, lk0 12, testable 0
+[    0.5s] scanned 150, 2-comp 111, lk0 44, testable 0
+[    0.6s] scanned 225, 2-comp 186, lk0 62, testable 0
+[    0.8s] scanned 325, 2-comp 233, lk0 81, testable 0
+TESTABLE  L10n32   lk=0 nullV=1 detV=-23 prod=9 holds=True
+TESTABLE  L10n36   lk=0 nullV=1 detV=-23 prod=9 holds=True
+TESTABLE  L10n56   lk=0 nullV=1 detV=17 prod=None holds=None
+TESTABLE  L10n57   lk=0 nullV=1 detV=-15 prod=None holds=None
+TESTABLE  L10n59   lk=0 nullV=1 detV=-23 prod=9 holds=True
+[    1.2s] scanned 425, 2-comp 284, lk0 103, testable 5
+[    1.6s] scanned 500, 2-comp 359, lk0 148, testable 5
+[    2.4s] scanned 1000, 2-comp 695, lk0 234, testable 5
+TESTABLE  L11n218  lk=0 nullV=1 detV=-19 prod=3 holds=False
+TESTABLE  L11n226  lk=0 nullV=1 detV=13 prod=3 holds=False
+TESTABLE  L11n244  lk=0 nullV=1 detV=33 prod=None holds=None
+TESTABLE  L11n247  lk=0 nullV=1 detV=-31 prod=None holds=None
+[    3.2s] scanned 1425, 2-comp 915, lk0 285, testable 9
+[    3.4s] scanned 1450, 2-comp 940, lk0 310, testable 9
+[    3.6s] scanned 1475, 2-comp 965, lk0 335, testable 9
+[    4.0s] scanned 1550, 2-comp 1040, lk0 372, testable 9
+[    4.2s] scanned 1575, 2-comp 1065, lk0 397, testable 9
+[    4.5s] scanned 1625, 2-comp 1115, lk0 433, testable 9
+[    4.6s] scanned 1650, 2-comp 1140, lk0 442, testable 9
+[    4.8s] scanned 1700, 2-comp 1190, lk0 470, testable 9
+[    5.0s] scanned 1725, 2-comp 1215, lk0 485, testable 9
+[    5.3s] scanned 1800, 2-comp 1290, lk0 526, testable 9
+[    5.9s] scanned 2275, 2-comp 1765, lk0 551, testable 9
+[    6.6s] scanned 2500, 2-comp 1990, lk0 636, testable 9
+[    6.7s] scanned 2550, 2-comp 2040, lk0 651, testable 9
+[    6.8s] scanned 2575, 2-comp 2065, lk0 658, testable 9
+[    7.1s] scanned 2650, 2-comp 2140, lk0 698, testable 9
+[    7.8s] scanned 3475, 2-comp 2353, lk0 723, testable 9
+[    8.1s] scanned 3525, 2-comp 2403, lk0 756, testable 9
+TESTABLE  L12n84   lk=0 nullV=1 detV=-23 prod=9 holds=True
+[    8.6s] scanned 3600, 2-comp 2478, lk0 806, testable 10
+[    8.7s] scanned 3625, 2-comp 2503, lk0 824, testable 10
+[    8.9s] scanned 3650, 2-comp 2528, lk0 838, testable 10
+[    9.0s] scanned 3675, 2-comp 2553, lk0 859, testable 10
+[    9.3s] scanned 3800, 2-comp 2678, lk0 892, testable 10
+TESTABLE  L12n399  lk=0 nullV=1 detV=-71 prod=25 holds=True
+TESTABLE  L12n418  lk=0 nullV=1 detV=-71 prod=25 holds=True
+[    9.8s] scanned 3875, 2-comp 2753, lk0 934, testable 12
+TESTABLE  L12n467  lk=0 nullV=1 detV=69 prod=27 holds=False
+[   10.2s] scanned 3950, 2-comp 2828, lk0 973, testable 13
+TESTABLE  L12n508  lk=0 nullV=1 detV=69 prod=27 holds=False
+TESTABLE  L12n520  lk=0 nullV=1 detV=-71 prod=25 holds=True
+TESTABLE  L12n529  lk=0 nullV=1 detV=-71 prod=25 holds=True
+[   10.5s] scanned 3975, 2-comp 2853, lk0 987, testable 16
+TESTABLE  L12n544  lk=0 nullV=1 detV=-43 prod=5 holds=False
+TESTABLE  L12n545  lk=0 nullV=1 detV=45 prod=3 holds=False
+[   10.7s] scanned 4000, 2-comp 2878, lk0 999, testable 18
+TESTABLE  L12n564  lk=0 nullV=1 detV=45 prod=3 holds=False
+[   10.9s] scanned 4025, 2-comp 2903, lk0 1013, testable 19
+[   11.1s] scanned 4225, 2-comp 3103, lk0 1024, testable 19
+TESTABLE  L12n817  lk=0 nullV=1 detV=-95 prod=1 holds=True
+TESTABLE  L12n910  lk=0 nullV=1 detV=-95 prod=1 holds=True
+[   11.5s] scanned 4475, 2-comp 3353, lk0 1038, testable 21
+TESTABLE  L12n1040 lk=0 nullV=1 detV=21 prod=5 holds=False
+[   11.7s] scanned 4525, 2-comp 3403, lk0 1053, testable 22
+TESTABLE  L12n1095 lk=0 nullV=1 detV=-11 prod=5 holds=False
+[   11.8s] scanned 4550, 2-comp 3428, lk0 1063, testable 23
+TESTABLE  L12n1109 lk=0 nullV=1 detV=-47 prod=None holds=None
+TESTABLE  L12n1180 lk=0 nullV=1 detV=-63 prod=None holds=None
+TESTABLE  L12n1181 lk=0 nullV=1 detV=-63 prod=None holds=None
+[   12.1s] scanned 4625, 2-comp 3503, lk0 1086, testable 26
+TESTABLE  L12n1199 lk=0 nullV=1 detV=-35 prod=None holds=None
+TESTABLE  L12n1200 lk=0 nullV=1 detV=33 prod=None holds=None
+TESTABLE  L12n1201 lk=0 nullV=1 detV=29 prod=None holds=None
+TESTABLE  L12n1202 lk=0 nullV=1 detV=-31 prod=None holds=None
+[   12.4s] scanned 4650, 2-comp 3528, lk0 1095, testable 30
+[   12.5s] scanned 4675, 2-comp 3553, lk0 1106, testable 30
+TESTABLE  L12n1242 lk=0 nullV=1 detV=-35 prod=None holds=None
+TESTABLE  L12n1249 lk=0 nullV=1 detV=-19 prod=None holds=None
+TESTABLE  L12n1252 lk=0 nullV=1 detV=13 prod=None holds=None
+[   12.8s] scanned 4700, 2-comp 3578, lk0 1123, testable 33
+TESTABLE  L12n1257 lk=0 nullV=1 detV=29 prod=None holds=None
+TESTABLE  L12n1272 lk=0 nullV=1 detV=49 prod=None holds=None
+TESTABLE  L12n1273 lk=0 nullV=1 detV=-47 prod=None holds=None
+TESTABLE  L12n1299 lk=0 nullV=1 detV=-47 prod=None holds=None
+TESTABLE  L12n1300 lk=0 nullV=1 detV=49 prod=None holds=None
+TESTABLE  L12n1327 lk=0 nullV=1 detV=-63 prod=None holds=None
+TESTABLE  L12n1333 lk=0 nullV=1 detV=-71 prod=25 holds=True
+TESTABLE  L12n1375 lk=0 nullV=1 detV=-95 prod=1 holds=True
+DONE scanned=5700 two_component=3732 lk0=1152 testable_lk0=41 violations=9

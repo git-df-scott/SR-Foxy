@@ -1,0 +1,39 @@
+{
+  "status": "NO_COUNTEREXAMPLE_FOUND",
+  "claude_delegation": "Completed actual Claude Code review; see claude_response.json and claude_review_audit.json. Review suggestions are not accepted without checking.",
+  "new_method": "Exact truncated Jones polynomial arithmetic at q^2+1, with seeded low-width Morse traversal and zero-state removal.",
+  "KDG_three_parallel": {
+    "crossings": 162,
+    "computed_Jones_nullity": 2,
+    "computed_Jones_determinant": 6601,
+    "component_determinant_product": 15625,
+    "difference_divided_by_32": -282,
+    "Eisermann_obstruction": false,
+    "seconds": 19.361,
+    "source": "exact_jet_results.json"
+  },
+  "controls": {
+    "published_61_three_parallel_determinant": 1785,
+    "source": "Eisermann, The Jones polynomial of ribbon links, Example 6.16",
+    "url": "https://pnp.mathematik.uni-stuttgart.de/igt/eiserm/publications/ribbonlinks.pdf",
+    "full_polynomial_small_case_comparisons": "tests/test_jones_root_jet.py",
+    "tests_passed": 20
+  },
+  "limitations": [
+    "No slice-ribbon counterexample found.",
+    "Passing this test does not prove ribbonness or automaticity for other patterns.",
+    "Primary and exact-integer controls validate the implementation; no independent full Jones polynomial computation of the 162-crossing target was obtained.",
+    "The initial unsigned trefoil control input was wrong and preserved as superseded evidence. Later tests use signed Jones determinants.",
+    "Failed time/memory-limited attempts are retained as unknown, superseded only by separately recorded completed computations."
+  ],
+  "next_research_target": "A non-parallel ribbon satellite pattern, or a theorem explaining automaticity for boundary links; do not repeat the already completed HKL(2,13) jobs.",
+  "observed_usage": {
+    "start": 57,
+    "latest": 59,
+    "hard_stop": 60
+  },
+  "script_sha256": {
+    "scripts/jones_root_jet.py": "9a25a1b117af7f4042156e3c0bc91c42f76b81d48767521131fbcc2e42467170",
+    "scripts/run_root_jet_pilot.py": "2fd4c60faee4b591c053011803742ecfbd60f3e463f85b0b5fb6344562dd7c5f"
+  }
+}

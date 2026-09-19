@@ -1,0 +1,19 @@
+/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+    Looking at (2, 13) ...
+        Homology: [ 13, 13 ]
+        Candidate metabolizers: 14
+        Considing cyclic quotients up to size 13^1
+            Looking at Z/13^1 with 14 remaining
+                Now with 13 remaining
+                Now with 12 remaining
+                Now with 11 remaining
+                Now with 10 remaining
+                Now with 9 remaining
+                Now with 8 remaining
+                Now with 7 remaining
+                Now with 6 remaining
+                Now with 5 remaining
+                Now with 4 remaining
+
+{"knot": "D_{0,1} = K_0 # (-K_1)", "p": 2, "q": 13, "method": "direct", "ribbon_mode": false, "result": null, "seconds": 4.782, "snappy": "3.3.2", "meaning": "A returned pair is a computational nonsliceness obstruction; null means only no obstruction in this calculation."}

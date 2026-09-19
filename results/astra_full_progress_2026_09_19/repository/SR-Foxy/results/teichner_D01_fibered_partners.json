@@ -1,0 +1,24 @@
+{
+ "date": "2026-09-16T05:07:17.883671Z",
+ "filter": "sagefree_slice_filter (linking numbers, Seifert signature, Fox-Milnor on knots, per-component slice tests); weaker than spherogram's Sage filter, so coverage is valid and no disk can be lost",
+ "box": {
+  "max_bands": 2,
+  "max_band_len": 5,
+  "max_twists": 2,
+  "paths": "shortest",
+  "seed": null,
+  "J_list": [
+   "8_9",
+   "8_20",
+   "9_27"
+  ]
+ },
+ "runs": [],
+ "meaning": "a verified certificate proves K smoothly slice; it gives no conclusion about K being ribbon or handle-ribbon",
+ "in_progress": {
+  "knot": "D_{0,1} = K_0 # (-K_1)",
+  "J": "8_9",
+  "sum_crossings": 33,
+  "started": "2026-09-16T05:07:18.019760Z"
+ }
+}

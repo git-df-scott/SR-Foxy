@@ -1,0 +1,1 @@
+{"components": 3, "crossings": 45, "jet_mod_32": [0, 5, 0, 15, 0, 15, 0, 5], "morse_width": 12, "max_retained_states": 132, "exhaustion_starts_tested": 16, "divisibility_remainder_mod_32": [0, 0, 0, 0, 0, 0], "quotient_at_i_mod_32": [5, 0], "expected_mod_32": 5, "ribbon_obstructed_mod_32": false, "scope": "Necessary ribbon conditions only; zero residue is inconclusive."}

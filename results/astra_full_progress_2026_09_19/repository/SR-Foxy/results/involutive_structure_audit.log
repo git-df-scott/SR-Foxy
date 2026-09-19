@@ -1,0 +1,1 @@
+{"mixed_gauges": 256, "diagonal": {"E": {"cycle_dimension": 5, "enumerated": 32, "solutions": 2}, "B": {"cycle_dimension": 4, "enumerated": 16, "solutions": 2}}, "spaces": {"Q_cycle_dimension": 10, "X_cycle_dimension": 10, "H_variables": 18, "Y_variables": 18}, "cases": [[10, true], [10, true], [10, true], [10, true]], "all_cases_pass": true}

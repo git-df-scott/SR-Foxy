@@ -1,0 +1,2169 @@
+{
+ "controls_pass": true,
+ "controls": [
+  {
+   "control": "slice 6_1: sigma_omega == 0",
+   "passed": true
+  },
+  {
+   "control": "slice 8_8: sigma_omega == 0",
+   "passed": true
+  },
+  {
+   "control": "slice 9_46: sigma_omega == 0",
+   "passed": true
+  },
+  {
+   "control": "slice 10_3: sigma_omega == 0",
+   "passed": true
+  },
+  {
+   "control": "slice 6_1: sigma_omega == 0",
+   "passed": true
+  },
+  {
+   "control": "ribbon square knot: sigma_omega == 0",
+   "passed": true
+  },
+  {
+   "control": "trefoil: sigma_omega != 0 somewhere",
+   "passed": true,
+   "values": [
+    -2,
+    0
+   ]
+  },
+  {
+   "control": "omega=-1 matches Murasugi on 3_1",
+   "passed": true,
+   "lt": -2,
+   "repo": -2
+  },
+  {
+   "control": "omega=-1 matches Murasugi on 4_1",
+   "passed": true,
+   "lt": 0,
+   "repo": 0
+  },
+  {
+   "control": "omega=-1 matches Murasugi on 6_1",
+   "passed": true,
+   "lt": 0,
+   "repo": 0
+  },
+  {
+   "control": "omega=-1 matches Murasugi on 5_2",
+   "passed": true,
+   "lt": 2,
+   "repo": 2
+  }
+ ],
+ "n_omegas": 232,
+ "prime_powers": [
+  2,
+  3,
+  4,
+  5,
+  7,
+  8,
+  9,
+  11,
+  13,
+  16,
+  17,
+  19,
+  23,
+  25,
+  27,
+  29,
+  31
+ ],
+ "pairs_in": 300,
+ "pairs_killed_by_levine_tristram": 3,
+ "pairs_surviving": 297,
+ "seifert_matrix_errors": 0,
+ "meaning": "a killed pair is PROVED not concordant, so its D = J # (-J') is proved not slice and is not a counterexample; a surviving pair is undecided, NOT a counterexample and NOT evidence of one",
+ "counterexample": false,
+ "survivors": [
+  {
+   "cr_sum": 17,
+   "A": "K7a2",
+   "B": "K10n4",
+   "genus": 2,
+   "deg_delta": 4
+  },
+  {
+   "cr_sum": 18,
+   "A": "K7a1",
+   "B": "K11n28",
+   "genus": 2,
+   "deg_delta": 4
+  },
+  {
+   "cr_sum": 18,
+   "A": "K8a15",
+   "B": "K10n32",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 19,
+   "A": "K8a14",
+   "B": "K11n53",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 19,
+   "A": "K8a15",
+   "B": "K11n58",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 19,
+   "A": "K9a19",
+   "B": "K10n11",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 20,
+   "A": "K10n9",
+   "B": "K10n16",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 20,
+   "A": "K8a5",
+   "B": "K12n13",
+   "genus": 2,
+   "deg_delta": 4
+  },
+  {
+   "cr_sum": 20,
+   "A": "K9a1",
+   "B": "K11n130",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 20,
+   "A": "K9a11",
+   "B": "K11n55",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 20,
+   "A": "K9a13",
+   "B": "K11n11",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 20,
+   "A": "K9a13",
+   "B": "K11n112",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 20,
+   "A": "K9a13",
+   "B": "K11n22",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 20,
+   "A": "K9a2",
+   "B": "K11n128",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 20,
+   "A": "K9a28",
+   "B": "K11n119",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 20,
+   "A": "K9a28",
+   "B": "K11n32",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 20,
+   "A": "K9n6",
+   "B": "K11n1",
+   "genus": 2,
+   "deg_delta": 4
+  },
+  {
+   "cr_sum": 21,
+   "A": "K10a10",
+   "B": "K11n156",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 21,
+   "A": "K10a10",
+   "B": "K11n179",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 21,
+   "A": "K10a120",
+   "B": "K11a33",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 21,
+   "A": "K10a120",
+   "B": "K11a7",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 21,
+   "A": "K10a120",
+   "B": "K11a82",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 21,
+   "A": "K10a32",
+   "B": "K11n154",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 21,
+   "A": "K10a35",
+   "B": "K11n5",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 21,
+   "A": "K10a72",
+   "B": "K11n163",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 21,
+   "A": "K10a88",
+   "B": "K11a257",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 21,
+   "A": "K10n32",
+   "B": "K11n58",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 21,
+   "A": "K10n33",
+   "B": "K11n118",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 21,
+   "A": "K10n8",
+   "B": "K11n129",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 21,
+   "A": "K8a14",
+   "B": "K13n493",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 21,
+   "A": "K8a15",
+   "B": "K13n1774",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 21,
+   "A": "K8a15",
+   "B": "K13n2537",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 21,
+   "A": "K8a8",
+   "B": "K13n3589",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 21,
+   "A": "K9a1",
+   "B": "K12n271",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 21,
+   "A": "K9a11",
+   "B": "K12n162",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 21,
+   "A": "K9a11",
+   "B": "K12n315",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 21,
+   "A": "K9a13",
+   "B": "K12n719",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 21,
+   "A": "K9a14",
+   "B": "K12n285",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 21,
+   "A": "K9a19",
+   "B": "K12n303",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 21,
+   "A": "K9a2",
+   "B": "K12n142",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 21,
+   "A": "K9a28",
+   "B": "K12n152",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 21,
+   "A": "K9a28",
+   "B": "K12n35",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 21,
+   "A": "K9n3",
+   "B": "K12n179",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K10a10",
+   "B": "K12n300",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K10a10",
+   "B": "K12n463",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K10a11",
+   "B": "K12n431",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K10a11",
+   "B": "K12n586",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K10a21",
+   "B": "K12n505",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K10a22",
+   "B": "K12n396",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K10a25",
+   "B": "K12n14",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K10a25",
+   "B": "K12n298",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K10a3",
+   "B": "K12n272",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K10a32",
+   "B": "K12n70",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K10a38",
+   "B": "K12n5",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K10a52",
+   "B": "K12n3",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K10a52",
+   "B": "K12n385",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K10a52",
+   "B": "K12n69",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K10a66",
+   "B": "K12n158",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K10a66",
+   "B": "K12n39",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K10a7",
+   "B": "K12n164",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K10a7",
+   "B": "K12n548",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K10a72",
+   "B": "K12n161",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K10a72",
+   "B": "K12n584",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K10a91",
+   "B": "K12n787",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 22,
+   "A": "K10a93",
+   "B": "K12n695",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 22,
+   "A": "K10a94",
+   "B": "K12n705",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K10n11",
+   "B": "K12n303",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K10n12",
+   "B": "K12n347",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K10n33",
+   "B": "K12n102",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K10n8",
+   "B": "K12n184",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11a160",
+   "B": "K11a289",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11a19",
+   "B": "K11a25",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11a19",
+   "B": "K11a281",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11a24",
+   "B": "K11a26",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11a24",
+   "B": "K11a315",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11a25",
+   "B": "K11a281",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11a251",
+   "B": "K11a253",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11a252",
+   "B": "K11a254",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11a26",
+   "B": "K11a315",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11a33",
+   "B": "K11a82",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11a7",
+   "B": "K11a33",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11a7",
+   "B": "K11a82",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11a76",
+   "B": "K11a160",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11a76",
+   "B": "K11a289",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11a99",
+   "B": "K11a277",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11n10",
+   "B": "K11n103",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11n109",
+   "B": "K11n137",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11n11",
+   "B": "K11n112",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11n11",
+   "B": "K11n22",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11n14",
+   "B": "K11n121",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11n146",
+   "B": "K11n167",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11n15",
+   "B": "K11n56",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11n156",
+   "B": "K11n179",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11n22",
+   "B": "K11n112",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11n32",
+   "B": "K11n119",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11n36",
+   "B": "K11n44",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11n41",
+   "B": "K11n47",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11n52",
+   "B": "K11n124",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K11n7",
+   "B": "K11n160",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K8a14",
+   "B": "K14n15761",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K8a14",
+   "B": "K14n19720",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K8a14",
+   "B": "K14n6651",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K8a15",
+   "B": "K14n10428",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K8a15",
+   "B": "K14n15718",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K8a15",
+   "B": "K14n2096",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K8a15",
+   "B": "K14n22803",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K8a15",
+   "B": "K14n291",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K8a6",
+   "B": "K14n10430",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K8a6",
+   "B": "K14n7914",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K8a8",
+   "B": "K14n9523",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K9a1",
+   "B": "K13n1483",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K9a11",
+   "B": "K13n1844",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K9a11",
+   "B": "K13n2249",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K9a11",
+   "B": "K13n276",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K9a13",
+   "B": "K13n1575",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K9a13",
+   "B": "K13n1855",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K9a2",
+   "B": "K13n3864",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K9a28",
+   "B": "K13n3987",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K9a9",
+   "B": "K13n2220",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 22,
+   "A": "K9n3",
+   "B": "K13n4084",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a10",
+   "B": "K13n1761",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a10",
+   "B": "K13n2291",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a10",
+   "B": "K13n3288",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a10",
+   "B": "K13n3833",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a10",
+   "B": "K13n688",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a106",
+   "B": "K13n1531",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a106",
+   "B": "K13n1904",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a106",
+   "B": "K13n2700",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a107",
+   "B": "K13n3997",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a107",
+   "B": "K13n4446",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a11",
+   "B": "K13n101",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a11",
+   "B": "K13n1820",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a11",
+   "B": "K13n1858",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a11",
+   "B": "K13n693",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a11",
+   "B": "K13n89",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a118",
+   "B": "K13n1610",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a118",
+   "B": "K13n3255",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a120",
+   "B": "K13n5086",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a21",
+   "B": "K13n106",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a21",
+   "B": "K13n152",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a21",
+   "B": "K13n4467",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a24",
+   "B": "K13n1552",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a24",
+   "B": "K13n3155",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a25",
+   "B": "K13n1",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a25",
+   "B": "K13n253",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a32",
+   "B": "K13n10",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a32",
+   "B": "K13n1054",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a32",
+   "B": "K13n1447",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a32",
+   "B": "K13n1631",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a32",
+   "B": "K13n4011",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a32",
+   "B": "K13n4372",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a35",
+   "B": "K13n954",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a38",
+   "B": "K13n2347",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a38",
+   "B": "K13n2619",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a52",
+   "B": "K13n1413",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a52",
+   "B": "K13n1763",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a52",
+   "B": "K13n4858",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a66",
+   "B": "K13n2473",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a66",
+   "B": "K13n4015",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a66",
+   "B": "K13n4021",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a7",
+   "B": "K13n1931",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a72",
+   "B": "K13n2416",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a72",
+   "B": "K13n96",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a78",
+   "B": "K13n2639",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a88",
+   "B": "K13n2748",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a88",
+   "B": "K13n678",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a93",
+   "B": "K13n1004",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a93",
+   "B": "K13n1138",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a93",
+   "B": "K13n1515",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a93",
+   "B": "K13n3258",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a93",
+   "B": "K13n679",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10a94",
+   "B": "K13n2541",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10n12",
+   "B": "K13n2436",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10n15",
+   "B": "K13n2188",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10n15",
+   "B": "K13n472",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10n32",
+   "B": "K13n1774",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10n32",
+   "B": "K13n2537",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10n41",
+   "B": "K13n1863",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K10n8",
+   "B": "K13n2344",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11a131",
+   "B": "K12n872",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11a14",
+   "B": "K12n790",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11a156",
+   "B": "K12n829",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11a159",
+   "B": "K12n140",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11a159",
+   "B": "K12n302",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11a162",
+   "B": "K12a112",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11a162",
+   "B": "K12a174",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11a177",
+   "B": "K12n686",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11a259",
+   "B": "K12n191",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11a266",
+   "B": "K12a497",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11a267",
+   "B": "K12a19",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11a274",
+   "B": "K12n174",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11a284",
+   "B": "K12a61",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11a287",
+   "B": "K12a8",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11a287",
+   "B": "K12n842",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11a288",
+   "B": "K12a58",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11a3",
+   "B": "K12n206",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11a3",
+   "B": "K12n227",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11a3",
+   "B": "K12n800",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11a301",
+   "B": "K12a318",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11a301",
+   "B": "K12a84",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11a302",
+   "B": "K12a476",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11a314",
+   "B": "K12a2",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11a34",
+   "B": "K12n827",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11a40",
+   "B": "K12n658",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11a83",
+   "B": "K12n427",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11a9",
+   "B": "K12n538",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n11",
+   "B": "K12n719",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n112",
+   "B": "K12n719",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n115",
+   "B": "K12n281",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n118",
+   "B": "K12n102",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n119",
+   "B": "K12n152",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n119",
+   "B": "K12n35",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n124",
+   "B": "K12n390",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n124",
+   "B": "K12n42",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n124",
+   "B": "K12n506",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n127",
+   "B": "K12n73",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n128",
+   "B": "K12n142",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n129",
+   "B": "K12n184",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n130",
+   "B": "K12n271",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n131",
+   "B": "K12n38",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n144",
+   "B": "K12n316",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n154",
+   "B": "K12n70",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n156",
+   "B": "K12n300",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n156",
+   "B": "K12n463",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n160",
+   "B": "K12n165",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n163",
+   "B": "K12n161",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n163",
+   "B": "K12n584",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n168",
+   "B": "K12n157",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n177",
+   "B": "K12n2",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n179",
+   "B": "K12n300",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n179",
+   "B": "K12n463",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n19",
+   "B": "K12n336",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n22",
+   "B": "K12n719",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n32",
+   "B": "K12n152",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n32",
+   "B": "K12n35",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n33",
+   "B": "K12n211",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n33",
+   "B": "K12n280",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n33",
+   "B": "K12n44",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n36",
+   "B": "K12n345",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n41",
+   "B": "K12n326",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n44",
+   "B": "K12n345",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n47",
+   "B": "K12n326",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n52",
+   "B": "K12n390",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n52",
+   "B": "K12n42",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n52",
+   "B": "K12n506",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n54",
+   "B": "K12n372",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n55",
+   "B": "K12n162",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n55",
+   "B": "K12n315",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n59",
+   "B": "K12n76",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n7",
+   "B": "K12n165",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K11n92",
+   "B": "K12n423",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9a1",
+   "B": "K14n12126",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9a1",
+   "B": "K14n23033",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9a1",
+   "B": "K14n6562",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9a11",
+   "B": "K14n15277",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9a11",
+   "B": "K14n2045",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9a13",
+   "B": "K14n16403",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9a15",
+   "B": "K14n7436",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9a19",
+   "B": "K14n12476",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9a19",
+   "B": "K14n15436",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9a19",
+   "B": "K14n8508",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9a2",
+   "B": "K14n10043",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9a2",
+   "B": "K14n10413",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9a2",
+   "B": "K14n13823",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9a2",
+   "B": "K14n23316",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9a2",
+   "B": "K14n26758",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9a28",
+   "B": "K14n10715",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9a28",
+   "B": "K14n15568",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9a28",
+   "B": "K14n24570",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9a28",
+   "B": "K14n25035",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9a28",
+   "B": "K14n8586",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9a28",
+   "B": "K14n9699",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9a6",
+   "B": "K14n11743",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9a6",
+   "B": "K14n6510",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9a6",
+   "B": "K14n7241",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9a6",
+   "B": "K14n9695",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9n3",
+   "B": "K14n23380",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9n3",
+   "B": "K14n9354",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9n4",
+   "B": "K14n282",
+   "genus": 2,
+   "deg_delta": 4
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9n7",
+   "B": "K14n1375",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 23,
+   "A": "K9n7",
+   "B": "K14n8167",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 24,
+   "A": "K10a10",
+   "B": "K14n10696",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 24,
+   "A": "K10a10",
+   "B": "K14n11437",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 24,
+   "A": "K10a10",
+   "B": "K14n12930",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 24,
+   "A": "K10a100",
+   "B": "K14n17492",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 24,
+   "A": "K10a106",
+   "B": "K14n25274",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 24,
+   "A": "K10a11",
+   "B": "K14n12375",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 24,
+   "A": "K10a11",
+   "B": "K14n1932",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 24,
+   "A": "K10a11",
+   "B": "K14n21184",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 24,
+   "A": "K10a11",
+   "B": "K14n23103",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 24,
+   "A": "K10a11",
+   "B": "K14n665",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 24,
+   "A": "K10a118",
+   "B": "K14n20522",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 24,
+   "A": "K10a118",
+   "B": "K14n20544",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 24,
+   "A": "K10a118",
+   "B": "K14n26815",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 24,
+   "A": "K10a120",
+   "B": "K14n19433",
+   "genus": 4,
+   "deg_delta": 8
+  },
+  {
+   "cr_sum": 24,
+   "A": "K10a21",
+   "B": "K14n26901",
+   "genus": 3,
+   "deg_delta": 6
+  },
+  {
+   "cr_sum": 24,
+   "A": "K10a21",
+   "B": "K14n7231",
+   "genus": 3,
+   "deg_delta": 6
+  }
+ ],
+ "seconds": 4.7
+}

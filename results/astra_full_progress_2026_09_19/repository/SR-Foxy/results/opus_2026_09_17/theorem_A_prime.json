@@ -1,0 +1,315 @@
+{
+ "det_is_not_a_standardness_certificate": "det = -1 is reported as a property of the intersection form only. The S^3 boundary for k=1 was certified by Regina 3-sphere recognition (results/opus_2026_09_17/annulus_trace_stabilization.json).",
+ "rows": [
+  {
+   "Q": [
+    [
+     -5,
+     -6
+    ],
+    [
+     -6,
+     -7
+    ]
+   ],
+   "ambient_up_to_homeomorphism": "(S^3 x I) # CP^2 # CP^2bar",
+   "det": -1,
+   "even": false,
+   "form": "<1>+<-1> (odd)",
+   "framings": [
+    -5,
+    -7
+   ],
+   "k": -6,
+   "signature": 0
+  },
+  {
+   "Q": [
+    [
+     -4,
+     -5
+    ],
+    [
+     -5,
+     -6
+    ]
+   ],
+   "ambient_up_to_homeomorphism": "(S^3 x I) # (S^2 x S^2)",
+   "det": -1,
+   "even": true,
+   "form": "H (even hyperbolic)",
+   "framings": [
+    -4,
+    -6
+   ],
+   "k": -5,
+   "signature": 0
+  },
+  {
+   "Q": [
+    [
+     -3,
+     -4
+    ],
+    [
+     -4,
+     -5
+    ]
+   ],
+   "ambient_up_to_homeomorphism": "(S^3 x I) # CP^2 # CP^2bar",
+   "det": -1,
+   "even": false,
+   "form": "<1>+<-1> (odd)",
+   "framings": [
+    -3,
+    -5
+   ],
+   "k": -4,
+   "signature": 0
+  },
+  {
+   "Q": [
+    [
+     -2,
+     -3
+    ],
+    [
+     -3,
+     -4
+    ]
+   ],
+   "ambient_up_to_homeomorphism": "(S^3 x I) # (S^2 x S^2)",
+   "det": -1,
+   "even": true,
+   "form": "H (even hyperbolic)",
+   "framings": [
+    -2,
+    -4
+   ],
+   "k": -3,
+   "signature": 0
+  },
+  {
+   "Q": [
+    [
+     -1,
+     -2
+    ],
+    [
+     -2,
+     -3
+    ]
+   ],
+   "ambient_up_to_homeomorphism": "(S^3 x I) # CP^2 # CP^2bar",
+   "det": -1,
+   "even": false,
+   "form": "<1>+<-1> (odd)",
+   "framings": [
+    -1,
+    -3
+   ],
+   "k": -2,
+   "signature": 0
+  },
+  {
+   "Q": [
+    [
+     0,
+     -1
+    ],
+    [
+     -1,
+     -2
+    ]
+   ],
+   "ambient_up_to_homeomorphism": "(S^3 x I) # (S^2 x S^2)",
+   "det": -1,
+   "even": true,
+   "form": "H (even hyperbolic)",
+   "framings": [
+    0,
+    -2
+   ],
+   "k": -1,
+   "signature": 0
+  },
+  {
+   "Q": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     -1
+    ]
+   ],
+   "ambient_up_to_homeomorphism": "(S^3 x I) # CP^2 # CP^2bar",
+   "det": -1,
+   "even": false,
+   "form": "<1>+<-1> (odd)",
+   "framings": [
+    1,
+    -1
+   ],
+   "k": 0,
+   "signature": 0
+  },
+  {
+   "Q": [
+    [
+     2,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "ambient_up_to_homeomorphism": "(S^3 x I) # (S^2 x S^2)",
+   "det": -1,
+   "even": true,
+   "form": "H (even hyperbolic)",
+   "framings": [
+    2,
+    0
+   ],
+   "k": 1,
+   "signature": 0
+  },
+  {
+   "Q": [
+    [
+     3,
+     2
+    ],
+    [
+     2,
+     1
+    ]
+   ],
+   "ambient_up_to_homeomorphism": "(S^3 x I) # CP^2 # CP^2bar",
+   "det": -1,
+   "even": false,
+   "form": "<1>+<-1> (odd)",
+   "framings": [
+    3,
+    1
+   ],
+   "k": 2,
+   "signature": 0
+  },
+  {
+   "Q": [
+    [
+     4,
+     3
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "ambient_up_to_homeomorphism": "(S^3 x I) # (S^2 x S^2)",
+   "det": -1,
+   "even": true,
+   "form": "H (even hyperbolic)",
+   "framings": [
+    4,
+    2
+   ],
+   "k": 3,
+   "signature": 0
+  },
+  {
+   "Q": [
+    [
+     5,
+     4
+    ],
+    [
+     4,
+     3
+    ]
+   ],
+   "ambient_up_to_homeomorphism": "(S^3 x I) # CP^2 # CP^2bar",
+   "det": -1,
+   "even": false,
+   "form": "<1>+<-1> (odd)",
+   "framings": [
+    5,
+    3
+   ],
+   "k": 4,
+   "signature": 0
+  },
+  {
+   "Q": [
+    [
+     6,
+     5
+    ],
+    [
+     5,
+     4
+    ]
+   ],
+   "ambient_up_to_homeomorphism": "(S^3 x I) # (S^2 x S^2)",
+   "det": -1,
+   "even": true,
+   "form": "H (even hyperbolic)",
+   "framings": [
+    6,
+    4
+   ],
+   "k": 5,
+   "signature": 0
+  },
+  {
+   "Q": [
+    [
+     7,
+     6
+    ],
+    [
+     6,
+     5
+    ]
+   ],
+   "ambient_up_to_homeomorphism": "(S^3 x I) # CP^2 # CP^2bar",
+   "det": -1,
+   "even": false,
+   "form": "<1>+<-1> (odd)",
+   "framings": [
+    7,
+    5
+   ],
+   "k": 6,
+   "signature": 0
+  },
+  {
+   "Q": [
+    [
+     8,
+     7
+    ],
+    [
+     7,
+     6
+    ]
+   ],
+   "ambient_up_to_homeomorphism": "(S^3 x I) # (S^2 x S^2)",
+   "det": -1,
+   "even": true,
+   "form": "H (even hyperbolic)",
+   "framings": [
+    8,
+    6
+   ],
+   "k": 7,
+   "signature": 0
+  }
+ ],
+ "smooth_cases_proved_here": "k = 1 only (research/34 section 3, clutching argument). For other k the reduction of Q_k to H over Z is immediate but was not realized by handle slides on the (2,2k) torus link.",
+ "theorem": "A': for an annulus presentation whose annulus has k full twists, the 1-fold annulus twist has integral framings k+1 and k-1 on the (2,2k) torus link dA, and lk(K,c_i)=0, so K x I is an annulus from K to A^1(K) disjoint from the handles. det Q_k = (k+1)(k-1) - k^2 = -1 for every k; signature 0; Q_k even iff k odd."
+}

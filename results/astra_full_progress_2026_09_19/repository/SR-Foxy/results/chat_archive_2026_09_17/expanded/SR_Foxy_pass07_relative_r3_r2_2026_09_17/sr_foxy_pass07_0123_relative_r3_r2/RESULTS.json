@@ -1,0 +1,112 @@
+{
+  "status": "FIRST_RELATIVE_UNLINK_MOVE_CERTIFIED_NO_COUNTEREXAMPLE",
+  "counterexample": false,
+  "input_main_commit": "9d4634224db3c32dce419e67510c994111bd7502",
+  "bands": [
+    "a40a423e_0_0",
+    "d0826c36_0_0"
+  ],
+  "initial_full_crossings": 62,
+  "initial_eta_sublink_crossings": 6,
+  "certified_full_link_isotopy": [
+    {
+      "move": "RIII",
+      "triangle": [
+        [
+          17,
+          3
+        ],
+        [
+          18,
+          2
+        ],
+        [
+          26,
+          3
+        ]
+      ],
+      "crossing_set": [
+        17,
+        18,
+        26
+      ]
+    },
+    {
+      "move": "RII",
+      "data": [
+        26,
+        56,
+        3,
+        1
+      ],
+      "crossing_set": [
+        26,
+        56
+      ]
+    }
+  ],
+  "local_height_check": "At crossings 17 and 18, R occupies ports 0,2 (the under-strand) and eta occupies ports 1,3 (the over-strand). The same R strand joins the two mixed crossings. Thus the standard RIII can be realized by moving the two eta strands in the upper half of a local ball while keeping the bottom R strand fixed pointwise; projection alone did not obstruct the move.",
+  "after_move_full_crossings": 60,
+  "after_move_eta_sublink_crossings": 4,
+  "after_move_eta_sublink_pd": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      2,
+      4,
+      5,
+      3
+    ],
+    [
+      6,
+      5,
+      4,
+      7
+    ],
+    [
+      1,
+      0,
+      6,
+      7
+    ]
+  ],
+  "eta_only_remaining_RII_moves_after_deleting_R": [
+    [
+      0,
+      1,
+      2,
+      0
+    ],
+    [
+      2,
+      3,
+      0,
+      2
+    ]
+  ],
+  "full_link_immediate_RII_after_move": [],
+  "rIII_only_unlock_search_for_next_eta_pair": {
+    "status": "NO_TARGET_R2_THROUGH_DEPTH",
+    "depth": 4,
+    "states": 6478,
+    "expanded": 6477
+  },
+  "rIII_only_search_for_any_eta_RII": {
+    "status": "NO_ETA_R2_THROUGH_DEPTH",
+    "depth": 4,
+    "states": 6478,
+    "expanded": 6477
+  },
+  "scope": [
+    "This corrects pass06's claim that the first eta RII cancellation is blocked by R.",
+    "The first RIII is supported off R because R is the bottom strand at both mixed crossings; together with the eta-eta RII this certifies the first eta cancellation by an isotopy in S3\\R. It still does not supply an annulus in the product-disk exterior.",
+    "The remaining four-crossing eta configuration is not certified unlink relative to R.",
+    "The depth-4 RIII search is finite diagram search only, not an obstruction theorem.",
+    "No surgery framing, boundary-knot identity, Park 0-standardness, or slice disk is certified."
+  ],
+  "source_code_dependency": "Reidemeister-III rewiring and face criterion ported literally from Spherogram simplify.py; next_corner port rule from links_base.py."
+}

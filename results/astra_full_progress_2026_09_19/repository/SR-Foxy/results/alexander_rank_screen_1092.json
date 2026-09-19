@@ -1,0 +1,18 @@
+{
+ "date": "2026-09-14T01:06:58.361112+00:00",
+ "source": "results/normalized_component_neighborhoods.json",
+ "source_sha256_16": "7dbb1ae35b6bf5a8",
+ "calibration": {
+  "split_3_1_U_4_1": "0",
+  "hopf_L2a1": "1",
+  "whitehead_L5a1": "a^2*b^3 - a*b^2 - a*b + 1",
+  "split_3_1_U_unknot": "0",
+  "split_3_1_U_unknot_components": 2
+ },
+ "meaning": "Delta = 0 passes the necessary condition of research/19. It is not a concordance, not a splitness proof and not a counterexample.",
+ "zero": [],
+ "nonzero": 1092,
+ "errors": [],
+ "examined": 1092,
+ "seconds": 381.1
+}

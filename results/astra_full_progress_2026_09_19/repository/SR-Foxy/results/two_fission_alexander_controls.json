@@ -1,0 +1,35 @@
+{
+  "status": "BASIC_RANK_CONTROLS_PASSED",
+  "controls": [
+    {
+      "name": "6_3",
+      "rank": 5,
+      "arcs": 6,
+      "expected_nullity": 0
+    },
+    {
+      "name": "3_1",
+      "rank": 2,
+      "arcs": 3,
+      "expected_nullity": 0
+    },
+    {
+      "name": "L2a1",
+      "rank": 1,
+      "arcs": 2,
+      "expected_nullity": 0
+    },
+    {
+      "name": "split_6_3_unknot",
+      "rank": 6,
+      "arcs": 8,
+      "expected_nullity": 1
+    },
+    {
+      "name": "proven_nonsplit_intermediate_20",
+      "rank": 17,
+      "arcs": 19,
+      "expected_nullity": 1
+    }
+  ]
+}

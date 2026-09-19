@@ -1,0 +1,409 @@
+{
+ "date": "2026-09-16T00:56:46.350601Z",
+ "results": [
+  {
+   "source": "results/gst_L31_band_fission.json",
+   "index": 0,
+   "verdict": "NO",
+   "detail": {
+    "components": 2,
+    "attempts": [],
+    "filled_homology": "Z + Z",
+    "filled_solution_type": "all tetrahedra positively oriented",
+    "filled_volume": 42.36742528500411,
+    "reason": "the 0-filled manifold is hyperbolic (volume 42.367425), hence irreducible with non-free pi_1, so it is not #2(S^1 x S^2)"
+   }
+  },
+  {
+   "source": "results/gst_L31_band_fission.json",
+   "index": 1,
+   "verdict": "UNKNOWN",
+   "detail": {
+    "components": 2,
+    "attempts": [
+     {
+      "try": 0,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 1,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 2,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 3,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 4,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 5,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 6,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 7,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 8,
+      "generators": 5,
+      "relators": 5
+     },
+     {
+      "try": 9,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 10,
+      "generators": 5,
+      "relators": 5
+     },
+     {
+      "try": 11,
+      "generators": 5,
+      "relators": 5
+     }
+    ],
+    "filled_homology": "Z + Z",
+    "filled_solution_type": "contains degenerate tetrahedra",
+    "presentation": {
+     "generators": 4,
+     "relators": [
+      "aacDBCbcddddaabAAADaacDBCbcddddaabAAAAADaacDBCbcddddaabAAAD",
+      "aabcDBCbdCBcDBCbcddd",
+      "aaDBCbcDcbdCBAAd",
+      "aabAABCbcDcdCBcbdCbcDcdCBcbdCbcDcdddd"
+     ]
+    },
+    "hom_counts": {
+     "S_3": {
+      "counted": 36,
+      "free_rank_2": 36
+     },
+     "S_4": {
+      "counted": 576,
+      "free_rank_2": 576
+     }
+    },
+    "reason": "homology is Z^2 but no presentation reduced to 0 relators in 12 attempts; group simplification is heuristic, so this is inconclusive, NOT a rejection"
+   }
+  },
+  {
+   "source": "results/gst_L31_fission_tw3.json",
+   "index": 0,
+   "verdict": "UNKNOWN",
+   "detail": {
+    "components": 2,
+    "attempts": [
+     {
+      "try": 0,
+      "generators": 5,
+      "relators": 5
+     },
+     {
+      "try": 1,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 2,
+      "generators": 5,
+      "relators": 5
+     },
+     {
+      "try": 3,
+      "generators": 5,
+      "relators": 5
+     },
+     {
+      "try": 4,
+      "generators": 5,
+      "relators": 5
+     },
+     {
+      "try": 5,
+      "generators": 5,
+      "relators": 5
+     },
+     {
+      "try": 6,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 7,
+      "generators": 5,
+      "relators": 5
+     },
+     {
+      "try": 8,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 9,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 10,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 11,
+      "generators": 4,
+      "relators": 4
+     }
+    ],
+    "filled_homology": "Z + Z",
+    "filled_solution_type": "contains negatively oriented tetrahedra",
+    "presentation": {
+     "generators": 5,
+     "relators": [
+      "aaaEAAeDbdEaaecAADbdeebcdEaaeAAE",
+      "aaEEDBdaabcccAAEaaaEAAeaaCAAEaaaEAAeaaCAAEaaaEAAeDbdE",
+      "bCBAAeeec",
+      "aaCCCBAADbdeebcdEaaecAADbdeecdEaaeAAAeAeAeAAAe",
+      "aaaEaEaaaEAAeDCbbdaabccccAAE"
+     ]
+    },
+    "hom_counts": {
+     "S_3": {
+      "counted": 36,
+      "free_rank_2": 36
+     }
+    },
+    "reason": "homology is Z^2 but no presentation reduced to 0 relators in 12 attempts; group simplification is heuristic, so this is inconclusive, NOT a rejection"
+   }
+  },
+  {
+   "source": "results/gst_L31_fission_tw3.json",
+   "index": 1,
+   "verdict": "NO",
+   "detail": {
+    "components": 2,
+    "attempts": [],
+    "filled_homology": "Z + Z",
+    "filled_solution_type": "all tetrahedra positively oriented",
+    "filled_volume": 42.367425285004124,
+    "reason": "the 0-filled manifold is hyperbolic (volume 42.367425), hence irreducible with non-free pi_1, so it is not #2(S^1 x S^2)"
+   }
+  },
+  {
+   "source": "results/gst_L31_fission_tw3.json",
+   "index": 2,
+   "verdict": "UNKNOWN",
+   "detail": {
+    "components": 2,
+    "attempts": [
+     {
+      "try": 0,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 1,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 2,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 3,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 4,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 5,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 6,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 7,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 8,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 9,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 10,
+      "generators": 5,
+      "relators": 5
+     },
+     {
+      "try": 11,
+      "generators": 4,
+      "relators": 4
+     }
+    ],
+    "filled_homology": "Z + Z",
+    "filled_solution_type": "contains degenerate tetrahedra",
+    "presentation": {
+     "generators": 4,
+     "relators": [
+      "ababAdaaBABABABdcbDABCDbadBCDbababAdCCbcbcbDb",
+      "aaccc",
+      "adBCDbababAdaaBAAdCCbcbcbcbDbababAABCDb",
+      "ababAdBCDbadBCBCBCBccDaBABABdcbDABdCCbcbcbcbDb"
+     ]
+    },
+    "hom_counts": {
+     "S_3": {
+      "counted": 36,
+      "free_rank_2": 36
+     },
+     "S_4": {
+      "counted": 576,
+      "free_rank_2": 576
+     }
+    },
+    "reason": "homology is Z^2 but no presentation reduced to 0 relators in 12 attempts; group simplification is heuristic, so this is inconclusive, NOT a rejection"
+   }
+  },
+  {
+   "source": "results/gst_L31_fission_len8.json",
+   "index": 0,
+   "verdict": "NO",
+   "detail": {
+    "components": 2,
+    "attempts": [],
+    "filled_homology": "Z + Z",
+    "filled_solution_type": "all tetrahedra positively oriented",
+    "filled_volume": 42.367425285004124,
+    "reason": "the 0-filled manifold is hyperbolic (volume 42.367425), hence irreducible with non-free pi_1, so it is not #2(S^1 x S^2)"
+   }
+  },
+  {
+   "source": "results/gst_L31_fission_len8.json",
+   "index": 1,
+   "verdict": "UNKNOWN",
+   "detail": {
+    "components": 2,
+    "attempts": [
+     {
+      "try": 0,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 1,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 2,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 3,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 4,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 5,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 6,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 7,
+      "generators": 5,
+      "relators": 5
+     },
+     {
+      "try": 8,
+      "generators": 4,
+      "relators": 5
+     },
+     {
+      "try": 9,
+      "generators": 4,
+      "relators": 5
+     },
+     {
+      "try": 10,
+      "generators": 4,
+      "relators": 4
+     },
+     {
+      "try": 11,
+      "generators": 4,
+      "relators": 4
+     }
+    ],
+    "filled_homology": "Z + Z",
+    "filled_solution_type": "contains degenerate tetrahedra",
+    "presentation": {
+     "generators": 4,
+     "relators": [
+      "acdaDDbAdCADCADCBAAAADDacdaBAbcdacdacDaBddaaaabcd",
+      "cccDD",
+      "aBAbcdaBAAAADDbAdCADCADCBabADCBddaaaabcdacdacD",
+      "aDDAbcdaBAbcdacdacDaBddADDaBddaaaabcdacd"
+     ]
+    },
+    "hom_counts": {
+     "S_3": {
+      "counted": 36,
+      "free_rank_2": 36
+     },
+     "S_4": {
+      "counted": 576,
+      "free_rank_2": 576
+     }
+    },
+    "reason": "homology is Z^2 but no presentation reduced to 0 relators in 12 attempts; group simplification is heuristic, so this is inconclusive, NOT a rejection"
+   }
+  }
+ ]
+}

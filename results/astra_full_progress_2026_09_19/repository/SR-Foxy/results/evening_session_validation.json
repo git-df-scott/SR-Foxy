@@ -1,0 +1,14 @@
+{
+  "status": "PASSED",
+  "counts": {
+    "retained_band_replays": 409,
+    "search_bands": 35930,
+    "rank_rejections": 35521,
+    "wanted_matches": 0,
+    "source_returns": 0,
+    "odd_logs_euler_checked": 8,
+    "odd_mirror_check": 1,
+    "independently_group_checked_links": 1092
+  },
+  "limitations": "Finite search; same-library ribbon/PD replay, independent triangulation Fox presentation and integer determinant checks. Jones Euler and mirror controls do not formally verify the Khovanov implementation. No counterexample."
+}

@@ -1,0 +1,13 @@
+/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+Traceback (most recent call last):
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/SR-Foxy/scripts/render_resumed_figures.py", line 81, in <module>
+    if __name__=='__main__':run()
+                            ~~~^^
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/SR-Foxy/scripts/render_resumed_figures.py", line 48, in run
+    ax=fig.add_axes(rect);draw(ax,pd);ax.set_title(title,fontsize=12,pad=10)
+                          ~~~~^^^^^^^
+  File "/Users/scottg/Documents/Codex/2026-09-12/hey/work/SR-Foxy/scripts/render_resumed_figures.py", line 26, in draw
+    for over,under in crossings:
+        ^^^^^^^^^^
+ValueError: too many values to unpack (expected 2, got 4)

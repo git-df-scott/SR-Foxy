@@ -1,0 +1,21 @@
+{
+  "status": "NO_COUNTEREXAMPLE_TWO_STRUCTURAL_NOGOS",
+  "base_commit": "0eb81a1a15147b2059b9028d0bbc0f4173f0ad33",
+  "new_results": [
+    {
+      "name": "Turaev_H_level",
+      "verdict": "H(ii) proof only needs a smooth pi1-surjective disk after Lemmas 7.2-7.3; therefore it cannot obstruct KDG, already handle-ribbon/homotopy-ribbon",
+      "kind": "primary_source_logical_audit"
+    },
+    {
+      "name": "Suzuki_plain_parallel",
+      "verdict": "Theorem 2.2 is identical for ribbon and boundary links; zero-framed parallels are boundary links, so the condition is automatic on all plain KDG parallels",
+      "kind": "primary_source_plus_elementary_topology"
+    }
+  ],
+  "counterexample": false,
+  "computation_started": false,
+  "reason_no_computation": "Both proposed tests are structurally forced to pass on KDG/plain parallels; computation would not discriminate ribbonness.",
+  "exact_gap": "KDG still needs a global proof that no unlink derivative exists on any Seifert surface, including stabilizations, or another invariant that is genuinely ribbon-only beyond the known handle-ribbon disk.",
+  "next_action": "Seek a stable unlink-derivative obstruction for KDG; colored-Jones work is secondary and only worth resuming after specifying a non-boundary ribbon-preserving multi-component pattern."
+}

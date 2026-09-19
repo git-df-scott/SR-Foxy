@@ -1,0 +1,6 @@
+export/SR-Foxy-history.bundle is okay
+The bundle contains these 2 refs:
+9bc873b6921b42c3f79e73046a3a4f617b66d001 refs/remotes/origin/main
+43b71f03a9332af96d96ed1d53370233a1567768 HEAD
+The bundle records a complete history.
+The bundle uses this hash algorithm: sha1

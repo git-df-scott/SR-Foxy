@@ -1,0 +1,25 @@
+{
+  "scope": "Algebraic q_n family and inserted-generator-5 windings only; no geometric collar identified",
+  "constraint": "k-l=2",
+  "coefficients_ascending_z": [
+    "6*l**2*n + 6*l**2 - 2*l*n**2 + 24*l*n + 14*l - 6*n**2 + 14*n + 12",
+    "-l**2*n**2 + l**2*n + 2*l**2 - 5*l*n**2 - 3*l*n + 2*l - 6*n**2 - 18*n - 4",
+    "10*l**2*n + 10*l**2 - 2*l*n**2 + 36*l*n + 30*l - 6*n**2 + 14*n + 28",
+    "-2*l**2*n**2 + 18*l**2*n + 18*l**2 - 14*l*n**2 + 66*l*n + 46*l - 24*n**2 + 24*n + 36",
+    "-3*l**2*n**2 + 15*l**2*n + 14*l**2 - 19*l*n**2 + 51*l*n + 26*l - 28*n**2 + 4*n + 12",
+    "-2*l**2*n**2 + 2*l**2*n + 2*l**2 - 10*l*n**2 - 2*l*n - 2*l - 12*n**2 - 24*n - 12"
+  ],
+  "groebner_lex_n_l": [
+    "1"
+  ],
+  "no_common_complex_zero": true,
+  "bezout_multipliers": [
+    "6175*l/80464 + 3295*n/40232 + 31459/80464",
+    "1749*l/40232 + 495*n/10058 + 1795/40232",
+    "3291*l/80464 - 1315*n/40232 + 17043/80464",
+    "-1749*l/20116 - 495*n/20116 - 11643/40232",
+    "1749*l/40232 + 3267/40232",
+    "0"
+  ],
+  "bezout_identity": "sum(multiplier_i * coefficient_i) = 1"
+}

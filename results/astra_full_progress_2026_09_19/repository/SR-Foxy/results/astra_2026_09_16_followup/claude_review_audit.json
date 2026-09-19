@@ -1,0 +1,54 @@
+{
+  "status": "INDEPENDENT_CLAUDE_REVIEW_COMPLETED_AND_AUDITED",
+  "raw_response": "claude_response.json",
+  "accepted": [
+    "Seven passing cable examples do not prove universal vacuity.",
+    "Ribbon patterns preserve ribbonness: independently checked Eisermann Proposition 6.13 and Corollary 6.15.",
+    "A three-parallel can be tested using truncated exact Jones coefficients rather than a full polynomial."
+  ],
+  "rejected_or_unverified": [
+    "Proposed HKL(2,13) experiment was already completed, in both advanced and direct modes. Stored results are null, not a new computation.",
+    "Null HKL output does not establish matching twisted polynomials or positive evidence of smooth concordance.",
+    "The suggested equivalence between non-concordance-invariance and usefulness on a fixed slice satellite is not established; the converse is insufficient.",
+    "The proposed Bing-double Sato-Levine/Arf identity is unverified and is not used.",
+    "The finite census correlation proposal is a hypothesis, not a proof that all slice links pass or that a particular GST link can fail."
+  ],
+  "existing_HKL_records": {
+    "results/HKL_AT01_advanced_2_13.json": {
+      "sha256": "2e5fa51f376e505ce75410ac6c30109d81f64acdaaad42a5eeed9c61808f8413",
+      "record": {
+        "knot": "D_{0,1} = K_0 # (-K_1)",
+        "p": 2,
+        "q": 13,
+        "method": "advanced",
+        "ribbon_mode": false,
+        "result": null,
+        "seconds": 0.482,
+        "snappy": "3.3.2",
+        "meaning": "A returned pair is a computational nonsliceness obstruction; null means only no obstruction in this calculation."
+      }
+    },
+    "results/HKL_AT01_direct_2_13.json": {
+      "sha256": "88eed6e033e3a7f78212313530985879ed484192045117efbce07cd460f41b64",
+      "record": {
+        "knot": "D_{0,1} = K_0 # (-K_1)",
+        "p": 2,
+        "q": 13,
+        "method": "direct",
+        "ribbon_mode": false,
+        "result": null,
+        "seconds": 4.782,
+        "snappy": "3.3.2",
+        "meaning": "A returned pair is a computational nonsliceness obstruction; null means only no obstruction in this calculation."
+      }
+    }
+  },
+  "primary_source": {
+    "author": "Michael Eisermann",
+    "title": "The Jones polynomial of ribbon links",
+    "venue": "Geometry & Topology 13 (2009), 623-660",
+    "url": "https://pnp.mathematik.uni-stuttgart.de/igt/eiserm/publications/ribbonlinks.pdf",
+    "checked": "2026-09-16",
+    "supports": "Proposition 6.13, Corollary 6.15; discussion after Example 6.16 leaves boundary-link automaticity open via Question 7.8."
+  }
+}

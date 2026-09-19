@@ -1,0 +1,2951 @@
+{
+ "date": "2026-09-16T22:17:22.383211Z",
+ "range": [
+  13,
+  14
+ ],
+ "controls": {
+  "unlinks": {
+   "O2": [
+    1,
+    1
+   ],
+   "O3": [
+    2,
+    1
+   ]
+  },
+  "whitehead_beta": -1,
+  "L9n18_detV": 9
+ },
+ "scanned": 114874,
+ "lk0": 19603,
+ "testable": 398,
+ "violations": [
+  {
+   "name": "L13n2040",
+   "crossings": 13,
+   "det_V": 89,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n2061",
+   "crossings": 13,
+   "det_V": 117,
+   "comp_dets": [
+    1,
+    27
+   ],
+   "product": 27,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n2150",
+   "crossings": 13,
+   "det_V": 89,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n2360",
+   "crossings": 13,
+   "det_V": 117,
+   "comp_dets": [
+    1,
+    27
+   ],
+   "product": 27,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n2490",
+   "crossings": 13,
+   "det_V": 117,
+   "comp_dets": [
+    1,
+    27
+   ],
+   "product": 27,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n2538",
+   "crossings": 13,
+   "det_V": -163,
+   "comp_dets": [
+    1,
+    45
+   ],
+   "product": 45,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n4518",
+   "crossings": 13,
+   "det_V": -23,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n4524",
+   "crossings": 13,
+   "det_V": 9,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n4999",
+   "crossings": 13,
+   "det_V": -39,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n5076",
+   "crossings": 13,
+   "det_V": 53,
+   "comp_dets": [
+    1,
+    5
+   ],
+   "product": 5,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n5154",
+   "crossings": 13,
+   "det_V": 25,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n5227",
+   "crossings": 13,
+   "det_V": -115,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n5255",
+   "crossings": 13,
+   "det_V": -55,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n5314",
+   "crossings": 13,
+   "det_V": -43,
+   "comp_dets": [
+    1,
+    5
+   ],
+   "product": 5,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n5341",
+   "crossings": 13,
+   "det_V": 81,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": -4,
+   "conway": [
+    0,
+    0,
+    0,
+    -4,
+    0,
+    3,
+    0,
+    1
+   ],
+   "verdict": "not slice: Sato-Levine beta = -4"
+  },
+  {
+   "name": "L13n5365",
+   "crossings": 13,
+   "det_V": 41,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n5427",
+   "crossings": 13,
+   "det_V": -67,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n5444",
+   "crossings": 13,
+   "det_V": 61,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n5538",
+   "crossings": 13,
+   "det_V": 117,
+   "comp_dets": [
+    3,
+    9
+   ],
+   "product": 27,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n5584",
+   "crossings": 13,
+   "det_V": 53,
+   "comp_dets": [
+    1,
+    5
+   ],
+   "product": 5,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n5588",
+   "crossings": 13,
+   "det_V": -43,
+   "comp_dets": [
+    1,
+    5
+   ],
+   "product": 5,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n5630",
+   "crossings": 13,
+   "det_V": -83,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n5631",
+   "crossings": 13,
+   "det_V": 77,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n5633",
+   "crossings": 13,
+   "det_V": 61,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n5636",
+   "crossings": 13,
+   "det_V": -67,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n5686",
+   "crossings": 13,
+   "det_V": 61,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n5772",
+   "crossings": 13,
+   "det_V": 81,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": -4,
+   "conway": [
+    0,
+    0,
+    0,
+    -4,
+    0,
+    3,
+    0,
+    1
+   ],
+   "verdict": "not slice: Sato-Levine beta = -4"
+  },
+  {
+   "name": "L13n5773",
+   "crossings": 13,
+   "det_V": -79,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": -4,
+   "conway": [
+    0,
+    0,
+    0,
+    -4,
+    0,
+    3,
+    0,
+    1
+   ],
+   "verdict": "not slice: Sato-Levine beta = -4"
+  },
+  {
+   "name": "L13n6355",
+   "crossings": 13,
+   "det_V": 61,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n6376",
+   "crossings": 13,
+   "det_V": -51,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n6378",
+   "crossings": 13,
+   "det_V": 45,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L13n6435",
+   "crossings": 13,
+   "det_V": 77,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n435",
+   "crossings": 14,
+   "det_V": 45,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n436",
+   "crossings": 14,
+   "det_V": -43,
+   "comp_dets": [
+    1,
+    5
+   ],
+   "product": 5,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n702",
+   "crossings": 14,
+   "det_V": 69,
+   "comp_dets": [
+    1,
+    27
+   ],
+   "product": 27,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n771",
+   "crossings": 14,
+   "det_V": 69,
+   "comp_dets": [
+    1,
+    27
+   ],
+   "product": 27,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n1619",
+   "crossings": 14,
+   "det_V": -43,
+   "comp_dets": [
+    1,
+    5
+   ],
+   "product": 5,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n1621",
+   "crossings": 14,
+   "det_V": 45,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n6507",
+   "crossings": 14,
+   "det_V": 213,
+   "comp_dets": [
+    1,
+    75
+   ],
+   "product": 75,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n6985",
+   "crossings": 14,
+   "det_V": 213,
+   "comp_dets": [
+    1,
+    75
+   ],
+   "product": 75,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n7191",
+   "crossings": 14,
+   "det_V": 161,
+   "comp_dets": [
+    1,
+    63
+   ],
+   "product": 63,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n7259",
+   "crossings": 14,
+   "det_V": 213,
+   "comp_dets": [
+    1,
+    75
+   ],
+   "product": 75,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n7993",
+   "crossings": 14,
+   "det_V": 161,
+   "comp_dets": [
+    1,
+    63
+   ],
+   "product": 63,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n8002",
+   "crossings": 14,
+   "det_V": 161,
+   "comp_dets": [
+    1,
+    63
+   ],
+   "product": 63,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n8458",
+   "crossings": 14,
+   "det_V": 161,
+   "comp_dets": [
+    1,
+    63
+   ],
+   "product": 63,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n8637",
+   "crossings": 14,
+   "det_V": 213,
+   "comp_dets": [
+    1,
+    75
+   ],
+   "product": 75,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n8692",
+   "crossings": 14,
+   "det_V": 213,
+   "comp_dets": [
+    1,
+    75
+   ],
+   "product": 75,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n8789",
+   "crossings": 14,
+   "det_V": 213,
+   "comp_dets": [
+    1,
+    75
+   ],
+   "product": 75,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n9056",
+   "crossings": 14,
+   "det_V": 213,
+   "comp_dets": [
+    1,
+    75
+   ],
+   "product": 75,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n9059",
+   "crossings": 14,
+   "det_V": 213,
+   "comp_dets": [
+    1,
+    75
+   ],
+   "product": 75,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n9085",
+   "crossings": 14,
+   "det_V": 161,
+   "comp_dets": [
+    1,
+    63
+   ],
+   "product": 63,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n9117",
+   "crossings": 14,
+   "det_V": 161,
+   "comp_dets": [
+    1,
+    63
+   ],
+   "product": 63,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n9123",
+   "crossings": 14,
+   "det_V": 213,
+   "comp_dets": [
+    1,
+    75
+   ],
+   "product": 75,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n9128",
+   "crossings": 14,
+   "det_V": 213,
+   "comp_dets": [
+    1,
+    75
+   ],
+   "product": 75,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n9156",
+   "crossings": 14,
+   "det_V": 161,
+   "comp_dets": [
+    1,
+    63
+   ],
+   "product": 63,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n9177",
+   "crossings": 14,
+   "det_V": 161,
+   "comp_dets": [
+    1,
+    63
+   ],
+   "product": 63,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n9268",
+   "crossings": 14,
+   "det_V": -47,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n9282",
+   "crossings": 14,
+   "det_V": 41,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n9333",
+   "crossings": 14,
+   "det_V": 85,
+   "comp_dets": [
+    1,
+    11
+   ],
+   "product": 11,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n9390",
+   "crossings": 14,
+   "det_V": -71,
+   "comp_dets": [
+    1,
+    9
+   ],
+   "product": 9,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n9415",
+   "crossings": 14,
+   "det_V": -131,
+   "comp_dets": [
+    1,
+    13
+   ],
+   "product": 13,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n9416",
+   "crossings": 14,
+   "det_V": 133,
+   "comp_dets": [
+    1,
+    11
+   ],
+   "product": 11,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n9446",
+   "crossings": 14,
+   "det_V": -71,
+   "comp_dets": [
+    1,
+    9
+   ],
+   "product": 9,
+   "beta": -4,
+   "conway": [
+    0,
+    0,
+    0,
+    -4,
+    0,
+    -1
+   ],
+   "verdict": "not slice: Sato-Levine beta = -4"
+  },
+  {
+   "name": "L14n9752",
+   "crossings": 14,
+   "det_V": 117,
+   "comp_dets": [
+    1,
+    27
+   ],
+   "product": 27,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n9883",
+   "crossings": 14,
+   "det_V": 85,
+   "comp_dets": [
+    1,
+    11
+   ],
+   "product": 11,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n10047",
+   "crossings": 14,
+   "det_V": -47,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": -4,
+   "conway": [
+    0,
+    0,
+    0,
+    -4,
+    0,
+    -1
+   ],
+   "verdict": "not slice: Sato-Levine beta = -4"
+  },
+  {
+   "name": "L14n10048",
+   "crossings": 14,
+   "det_V": 41,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n10052",
+   "crossings": 14,
+   "det_V": 133,
+   "comp_dets": [
+    1,
+    11
+   ],
+   "product": 11,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n10053",
+   "crossings": 14,
+   "det_V": -131,
+   "comp_dets": [
+    1,
+    13
+   ],
+   "product": 13,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n10461",
+   "crossings": 14,
+   "det_V": -119,
+   "comp_dets": [
+    1,
+    25
+   ],
+   "product": 25,
+   "beta": -4,
+   "conway": [
+    0,
+    0,
+    0,
+    -4,
+    0,
+    -1
+   ],
+   "verdict": "not slice: Sato-Levine beta = -4"
+  },
+  {
+   "name": "L14n11214",
+   "crossings": 14,
+   "det_V": -119,
+   "comp_dets": [
+    1,
+    25
+   ],
+   "product": 25,
+   "beta": -4,
+   "conway": [
+    0,
+    0,
+    0,
+    -4,
+    0,
+    -17,
+    0,
+    -20,
+    0,
+    -8,
+    0,
+    -1
+   ],
+   "verdict": "not slice: Sato-Levine beta = -4"
+  },
+  {
+   "name": "L14n11315",
+   "crossings": 14,
+   "det_V": 117,
+   "comp_dets": [
+    1,
+    27
+   ],
+   "product": 27,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n11478",
+   "crossings": 14,
+   "det_V": 129,
+   "comp_dets": [
+    1,
+    15
+   ],
+   "product": 15,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n11479",
+   "crossings": 14,
+   "det_V": -135,
+   "comp_dets": [
+    1,
+    9
+   ],
+   "product": 9,
+   "beta": 4,
+   "conway": [
+    0,
+    0,
+    0,
+    4,
+    0,
+    13,
+    0,
+    15,
+    0,
+    7,
+    0,
+    1
+   ],
+   "verdict": "not slice: Sato-Levine beta = 4"
+  },
+  {
+   "name": "L14n11488",
+   "crossings": 14,
+   "det_V": -135,
+   "comp_dets": [
+    1,
+    9
+   ],
+   "product": 9,
+   "beta": 4,
+   "conway": [
+    0,
+    0,
+    0,
+    4,
+    0,
+    5,
+    0,
+    1
+   ],
+   "verdict": "not slice: Sato-Levine beta = 4"
+  },
+  {
+   "name": "L14n11489",
+   "crossings": 14,
+   "det_V": 129,
+   "comp_dets": [
+    1,
+    15
+   ],
+   "product": 15,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n11685",
+   "crossings": 14,
+   "det_V": 177,
+   "comp_dets": [
+    1,
+    15
+   ],
+   "product": 15,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n11815",
+   "crossings": 14,
+   "det_V": -131,
+   "comp_dets": [
+    1,
+    13
+   ],
+   "product": 13,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n11817",
+   "crossings": 14,
+   "det_V": 177,
+   "comp_dets": [
+    1,
+    15
+   ],
+   "product": 15,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n11855",
+   "crossings": 14,
+   "det_V": -131,
+   "comp_dets": [
+    1,
+    13
+   ],
+   "product": 13,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n12116",
+   "crossings": 14,
+   "det_V": 257,
+   "comp_dets": [
+    1,
+    63
+   ],
+   "product": 63,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n12131",
+   "crossings": 14,
+   "det_V": 117,
+   "comp_dets": [
+    1,
+    27
+   ],
+   "product": 27,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n12612",
+   "crossings": 14,
+   "det_V": 257,
+   "comp_dets": [
+    1,
+    63
+   ],
+   "product": 63,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n23784",
+   "crossings": 14,
+   "det_V": -71,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n24046",
+   "crossings": 14,
+   "det_V": 69,
+   "comp_dets": [
+    1,
+    11
+   ],
+   "product": 11,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n24426",
+   "crossings": 14,
+   "det_V": -7,
+   "comp_dets": [
+    1,
+    9
+   ],
+   "product": 9,
+   "beta": -4,
+   "conway": [
+    0,
+    0,
+    0,
+    -4,
+    0,
+    -1
+   ],
+   "verdict": "not slice: Sato-Levine beta = -4"
+  },
+  {
+   "name": "L14n24427",
+   "crossings": 14,
+   "det_V": 25,
+   "comp_dets": [
+    1,
+    9
+   ],
+   "product": 9,
+   "beta": 4,
+   "conway": [
+    0,
+    0,
+    0,
+    4,
+    0,
+    1
+   ],
+   "verdict": "not slice: Sato-Levine beta = 4"
+  },
+  {
+   "name": "L14n24461",
+   "crossings": 14,
+   "det_V": -67,
+   "comp_dets": [
+    1,
+    13
+   ],
+   "product": 13,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n24652",
+   "crossings": 14,
+   "det_V": 93,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n24914",
+   "crossings": 14,
+   "det_V": 45,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n24991",
+   "crossings": 14,
+   "det_V": 61,
+   "comp_dets": [
+    1,
+    13
+   ],
+   "product": 13,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n24998",
+   "crossings": 14,
+   "det_V": -59,
+   "comp_dets": [
+    1,
+    11
+   ],
+   "product": 11,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n25064",
+   "crossings": 14,
+   "det_V": -43,
+   "comp_dets": [
+    1,
+    11
+   ],
+   "product": 11,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n25100",
+   "crossings": 14,
+   "det_V": -43,
+   "comp_dets": [
+    1,
+    5
+   ],
+   "product": 5,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n25286",
+   "crossings": 14,
+   "det_V": -71,
+   "comp_dets": [
+    1,
+    9
+   ],
+   "product": 9,
+   "beta": -4,
+   "conway": [
+    0,
+    0,
+    0,
+    -4,
+    0,
+    -5,
+    0,
+    -1
+   ],
+   "verdict": "not slice: Sato-Levine beta = -4"
+  },
+  {
+   "name": "L14n26023",
+   "crossings": 14,
+   "det_V": 253,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n26057",
+   "crossings": 14,
+   "det_V": 93,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n26105",
+   "crossings": 14,
+   "det_V": 137,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n26107",
+   "crossings": 14,
+   "det_V": -139,
+   "comp_dets": [
+    1,
+    5
+   ],
+   "product": 5,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n26149",
+   "crossings": 14,
+   "det_V": 109,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n26235",
+   "crossings": 14,
+   "det_V": 21,
+   "comp_dets": [
+    1,
+    11
+   ],
+   "product": 11,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n26301",
+   "crossings": 14,
+   "det_V": -107,
+   "comp_dets": [
+    1,
+    5
+   ],
+   "product": 5,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n26700",
+   "crossings": 14,
+   "det_V": -107,
+   "comp_dets": [
+    1,
+    5
+   ],
+   "product": 5,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n27259",
+   "crossings": 14,
+   "det_V": -35,
+   "comp_dets": [
+    1,
+    13
+   ],
+   "product": 13,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n27263",
+   "crossings": 14,
+   "det_V": 37,
+   "comp_dets": [
+    1,
+    11
+   ],
+   "product": 11,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n27313",
+   "crossings": 14,
+   "det_V": -75,
+   "comp_dets": [
+    1,
+    11
+   ],
+   "product": 11,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n27343",
+   "crossings": 14,
+   "det_V": -143,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": -4,
+   "conway": [
+    0,
+    0,
+    0,
+    -4,
+    0,
+    -5,
+    0,
+    -1
+   ],
+   "verdict": "not slice: Sato-Levine beta = -4"
+  },
+  {
+   "name": "L14n27915",
+   "crossings": 14,
+   "det_V": -91,
+   "comp_dets": [
+    1,
+    11
+   ],
+   "product": 11,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n28398",
+   "crossings": 14,
+   "det_V": -119,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n28715",
+   "crossings": 14,
+   "det_V": 53,
+   "comp_dets": [
+    1,
+    11
+   ],
+   "product": 11,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n28936",
+   "crossings": 14,
+   "det_V": -167,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n29366",
+   "crossings": 14,
+   "det_V": 89,
+   "comp_dets": [
+    1,
+    9
+   ],
+   "product": 9,
+   "beta": 4,
+   "conway": [
+    0,
+    0,
+    0,
+    4,
+    0,
+    -3,
+    0,
+    -1
+   ],
+   "verdict": "not slice: Sato-Levine beta = 4"
+  },
+  {
+   "name": "L14n29787",
+   "crossings": 14,
+   "det_V": -115,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n29939",
+   "crossings": 14,
+   "det_V": 69,
+   "comp_dets": [
+    1,
+    11
+   ],
+   "product": 11,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n30020",
+   "crossings": 14,
+   "det_V": -143,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": 4,
+   "conway": [
+    0,
+    0,
+    0,
+    4,
+    0,
+    5,
+    0,
+    1
+   ],
+   "verdict": "not slice: Sato-Levine beta = 4"
+  },
+  {
+   "name": "L14n30032",
+   "crossings": 14,
+   "det_V": -143,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": 4,
+   "conway": [
+    0,
+    0,
+    0,
+    4,
+    0,
+    -3,
+    0,
+    -1
+   ],
+   "verdict": "not slice: Sato-Levine beta = 4"
+  },
+  {
+   "name": "L14n30054",
+   "crossings": 14,
+   "det_V": -143,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": -4,
+   "conway": [
+    0,
+    0,
+    0,
+    -4,
+    0,
+    -5,
+    0,
+    -1
+   ],
+   "verdict": "not slice: Sato-Levine beta = -4"
+  },
+  {
+   "name": "L14n30108",
+   "crossings": 14,
+   "det_V": -171,
+   "comp_dets": [
+    1,
+    5
+   ],
+   "product": 5,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n30127",
+   "crossings": 14,
+   "det_V": -99,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n30180",
+   "crossings": 14,
+   "det_V": -71,
+   "comp_dets": [
+    1,
+    9
+   ],
+   "product": 9,
+   "beta": -4,
+   "conway": [
+    0,
+    0,
+    0,
+    -4,
+    0,
+    3,
+    0,
+    1
+   ],
+   "verdict": "not slice: Sato-Levine beta = -4"
+  },
+  {
+   "name": "L14n30629",
+   "crossings": 14,
+   "det_V": -103,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n30752",
+   "crossings": 14,
+   "det_V": 89,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n30779",
+   "crossings": 14,
+   "det_V": 53,
+   "comp_dets": [
+    1,
+    5
+   ],
+   "product": 5,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n30780",
+   "crossings": 14,
+   "det_V": -87,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n30781",
+   "crossings": 14,
+   "det_V": -83,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n30782",
+   "crossings": 14,
+   "det_V": 49,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": 12,
+   "conway": [
+    0,
+    0,
+    0,
+    12,
+    0,
+    3
+   ],
+   "verdict": "not slice: Sato-Levine beta = 12"
+  },
+  {
+   "name": "L14n30783",
+   "crossings": 14,
+   "det_V": -43,
+   "comp_dets": [
+    1,
+    5
+   ],
+   "product": 5,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n30784",
+   "crossings": 14,
+   "det_V": 73,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n30785",
+   "crossings": 14,
+   "det_V": -39,
+   "comp_dets": [
+    1,
+    9
+   ],
+   "product": 9,
+   "beta": 12,
+   "conway": [
+    0,
+    0,
+    0,
+    12,
+    0,
+    19,
+    0,
+    8,
+    0,
+    1
+   ],
+   "verdict": "not slice: Sato-Levine beta = 12"
+  },
+  {
+   "name": "L14n30786",
+   "crossings": 14,
+   "det_V": 57,
+   "comp_dets": [
+    1,
+    9
+   ],
+   "product": 9,
+   "beta": -12,
+   "conway": [
+    0,
+    0,
+    0,
+    -12,
+    0,
+    -19,
+    0,
+    -8,
+    0,
+    -1
+   ],
+   "verdict": "not slice: Sato-Levine beta = -12"
+  },
+  {
+   "name": "L14n30788",
+   "crossings": 14,
+   "det_V": 77,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n30789",
+   "crossings": 14,
+   "det_V": -47,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": 12,
+   "conway": [
+    0,
+    0,
+    0,
+    12,
+    0,
+    3
+   ],
+   "verdict": "not slice: Sato-Levine beta = 12"
+  },
+  {
+   "name": "L14n31090",
+   "crossings": 14,
+   "det_V": 257,
+   "comp_dets": [
+    3,
+    21
+   ],
+   "product": 63,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n31168",
+   "crossings": 14,
+   "det_V": -39,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n31181",
+   "crossings": 14,
+   "det_V": -103,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n31231",
+   "crossings": 14,
+   "det_V": 73,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n31232",
+   "crossings": 14,
+   "det_V": -87,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n31255",
+   "crossings": 14,
+   "det_V": 21,
+   "comp_dets": [
+    1,
+    5
+   ],
+   "product": 5,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n31264",
+   "crossings": 14,
+   "det_V": -55,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n31284",
+   "crossings": 14,
+   "det_V": 41,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n31288",
+   "crossings": 14,
+   "det_V": -11,
+   "comp_dets": [
+    1,
+    5
+   ],
+   "product": 5,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n31302",
+   "crossings": 14,
+   "det_V": 25,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n31315",
+   "crossings": 14,
+   "det_V": 57,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n31316",
+   "crossings": 14,
+   "det_V": -71,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n31371",
+   "crossings": 14,
+   "det_V": 89,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n31375",
+   "crossings": 14,
+   "det_V": 117,
+   "comp_dets": [
+    1,
+    5
+   ],
+   "product": 5,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n31376",
+   "crossings": 14,
+   "det_V": -107,
+   "comp_dets": [
+    1,
+    5
+   ],
+   "product": 5,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n31381",
+   "crossings": 14,
+   "det_V": 89,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n31396",
+   "crossings": 14,
+   "det_V": -131,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n31585",
+   "crossings": 14,
+   "det_V": -43,
+   "comp_dets": [
+    1,
+    5
+   ],
+   "product": 5,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n31593",
+   "crossings": 14,
+   "det_V": 73,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n31598",
+   "crossings": 14,
+   "det_V": -115,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n31599",
+   "crossings": 14,
+   "det_V": 109,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n31601",
+   "crossings": 14,
+   "det_V": 77,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n31605",
+   "crossings": 14,
+   "det_V": 81,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": -4,
+   "conway": [
+    0,
+    0,
+    0,
+    -4,
+    0,
+    -1
+   ],
+   "verdict": "not slice: Sato-Levine beta = -4"
+  },
+  {
+   "name": "L14n31606",
+   "crossings": 14,
+   "det_V": -79,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": -4,
+   "conway": [
+    0,
+    0,
+    0,
+    -4,
+    0,
+    -1
+   ],
+   "verdict": "not slice: Sato-Levine beta = -4"
+  },
+  {
+   "name": "L14n31608",
+   "crossings": 14,
+   "det_V": -47,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": -12,
+   "conway": [
+    0,
+    0,
+    0,
+    -12,
+    0,
+    -3
+   ],
+   "verdict": "not slice: Sato-Levine beta = -12"
+  },
+  {
+   "name": "L14n31615",
+   "crossings": 14,
+   "det_V": 125,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n31886",
+   "crossings": 14,
+   "det_V": 61,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n32037",
+   "crossings": 14,
+   "det_V": -115,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n32038",
+   "crossings": 14,
+   "det_V": 109,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n32145",
+   "crossings": 14,
+   "det_V": -143,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": -4,
+   "conway": [
+    0,
+    0,
+    0,
+    -4,
+    0,
+    -5,
+    0,
+    -1
+   ],
+   "verdict": "not slice: Sato-Levine beta = -4"
+  },
+  {
+   "name": "L14n32388",
+   "crossings": 14,
+   "det_V": 137,
+   "comp_dets": [
+    1,
+    7
+   ],
+   "product": 7,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n32416",
+   "crossings": 14,
+   "det_V": -143,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": 4,
+   "conway": [
+    0,
+    0,
+    0,
+    4,
+    0,
+    -3,
+    0,
+    -1
+   ],
+   "verdict": "not slice: Sato-Levine beta = 4"
+  },
+  {
+   "name": "L14n32465",
+   "crossings": 14,
+   "det_V": -143,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": 4,
+   "conway": [
+    0,
+    0,
+    0,
+    4,
+    0,
+    5,
+    0,
+    1
+   ],
+   "verdict": "not slice: Sato-Levine beta = 4"
+  },
+  {
+   "name": "L14n32566",
+   "crossings": 14,
+   "det_V": 77,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n32567",
+   "crossings": 14,
+   "det_V": -83,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n32568",
+   "crossings": 14,
+   "det_V": -111,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": -4,
+   "conway": [
+    0,
+    0,
+    0,
+    -4,
+    0,
+    -9,
+    0,
+    -2
+   ],
+   "verdict": "not slice: Sato-Levine beta = -4"
+  },
+  {
+   "name": "L14n32569",
+   "crossings": 14,
+   "det_V": 113,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": -4,
+   "conway": [
+    0,
+    0,
+    0,
+    -4,
+    0,
+    -9,
+    0,
+    -2
+   ],
+   "verdict": "not slice: Sato-Levine beta = -4"
+  },
+  {
+   "name": "L14n32634",
+   "crossings": 14,
+   "det_V": 125,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n32635",
+   "crossings": 14,
+   "det_V": 109,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n33194",
+   "crossings": 14,
+   "det_V": -143,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": -4,
+   "conway": [
+    0,
+    0,
+    0,
+    -4,
+    0,
+    -9,
+    0,
+    -6,
+    0,
+    -1
+   ],
+   "verdict": "not slice: Sato-Levine beta = -4"
+  },
+  {
+   "name": "L14n33541",
+   "crossings": 14,
+   "det_V": 145,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": -4,
+   "conway": [
+    0,
+    0,
+    0,
+    -4,
+    0,
+    -9,
+    0,
+    -6,
+    0,
+    -1
+   ],
+   "verdict": "not slice: Sato-Levine beta = -4"
+  },
+  {
+   "name": "L14n33870",
+   "crossings": 14,
+   "det_V": -143,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": -4,
+   "conway": [
+    0,
+    0,
+    0,
+    -4,
+    0,
+    -5,
+    0,
+    -1
+   ],
+   "verdict": "not slice: Sato-Levine beta = -4"
+  },
+  {
+   "name": "L14n34012",
+   "crossings": 14,
+   "det_V": 125,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n34021",
+   "crossings": 14,
+   "det_V": -83,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n34422",
+   "crossings": 14,
+   "det_V": 81,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": -4,
+   "conway": [
+    0,
+    0,
+    0,
+    -4,
+    0,
+    -9,
+    0,
+    -6,
+    0,
+    -1
+   ],
+   "verdict": "not slice: Sato-Levine beta = -4"
+  },
+  {
+   "name": "L14n34651",
+   "crossings": 14,
+   "det_V": -79,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": 4,
+   "conway": [
+    0,
+    0,
+    0,
+    4,
+    0,
+    1
+   ],
+   "verdict": "not slice: Sato-Levine beta = 4"
+  },
+  {
+   "name": "L14n34747",
+   "crossings": 14,
+   "det_V": 189,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n34772",
+   "crossings": 14,
+   "det_V": 189,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n34885",
+   "crossings": 14,
+   "det_V": 189,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n34897",
+   "crossings": 14,
+   "det_V": 189,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n36150",
+   "crossings": 14,
+   "det_V": -43,
+   "comp_dets": [
+    1,
+    5
+   ],
+   "product": 5,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n36151",
+   "crossings": 14,
+   "det_V": 53,
+   "comp_dets": [
+    1,
+    5
+   ],
+   "product": 5,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n36378",
+   "crossings": 14,
+   "det_V": 125,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n36691",
+   "crossings": 14,
+   "det_V": -107,
+   "comp_dets": [
+    1,
+    5
+   ],
+   "product": 5,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n37006",
+   "crossings": 14,
+   "det_V": -143,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": 4,
+   "conway": [
+    0,
+    0,
+    0,
+    4,
+    0,
+    1
+   ],
+   "verdict": "not slice: Sato-Levine beta = 4"
+  },
+  {
+   "name": "L14n37092",
+   "crossings": 14,
+   "det_V": -143,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": -4,
+   "conway": [
+    0,
+    0,
+    0,
+    -4,
+    0,
+    -5,
+    0,
+    -1
+   ],
+   "verdict": "not slice: Sato-Levine beta = -4"
+  },
+  {
+   "name": "L14n37097",
+   "crossings": 14,
+   "det_V": 109,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n37100",
+   "crossings": 14,
+   "det_V": -79,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": 4,
+   "conway": [
+    0,
+    0,
+    0,
+    4,
+    0,
+    1
+   ],
+   "verdict": "not slice: Sato-Levine beta = 4"
+  },
+  {
+   "name": "L14n37905",
+   "crossings": 14,
+   "det_V": -147,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n37907",
+   "crossings": 14,
+   "det_V": 141,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n37992",
+   "crossings": 14,
+   "det_V": -99,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n38071",
+   "crossings": 14,
+   "det_V": 93,
+   "comp_dets": [
+    1,
+    3
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n38266",
+   "crossings": 14,
+   "det_V": -143,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": -4,
+   "conway": [
+    0,
+    0,
+    0,
+    -4,
+    0,
+    -9,
+    0,
+    -6,
+    0,
+    -1
+   ],
+   "verdict": "not slice: Sato-Levine beta = -4"
+  },
+  {
+   "name": "L14n38271",
+   "crossings": 14,
+   "det_V": -143,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": -4,
+   "conway": [
+    0,
+    0,
+    0,
+    -4,
+    0,
+    -5,
+    0,
+    -1
+   ],
+   "verdict": "not slice: Sato-Levine beta = -4"
+  },
+  {
+   "name": "L14n38403",
+   "crossings": 14,
+   "det_V": -207,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": -4,
+   "conway": [
+    0,
+    0,
+    0,
+    -4,
+    0,
+    -9,
+    0,
+    -6,
+    0,
+    -1
+   ],
+   "verdict": "not slice: Sato-Levine beta = -4"
+  },
+  {
+   "name": "L14n38932",
+   "crossings": 14,
+   "det_V": -71,
+   "comp_dets": [
+    3,
+    3
+   ],
+   "product": 9,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n38934",
+   "crossings": 14,
+   "det_V": -7,
+   "comp_dets": [
+    3,
+    3
+   ],
+   "product": 9,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n38935",
+   "crossings": 14,
+   "det_V": 25,
+   "comp_dets": [
+    3,
+    3
+   ],
+   "product": 9,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n38979",
+   "crossings": 14,
+   "det_V": 89,
+   "comp_dets": [
+    3,
+    3
+   ],
+   "product": 9,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n39048",
+   "crossings": 14,
+   "det_V": 61,
+   "comp_dets": [
+    3,
+    1
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n39051",
+   "crossings": 14,
+   "det_V": -67,
+   "comp_dets": [
+    3,
+    1
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n39058",
+   "crossings": 14,
+   "det_V": -71,
+   "comp_dets": [
+    3,
+    3
+   ],
+   "product": 9,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n39091",
+   "crossings": 14,
+   "det_V": 141,
+   "comp_dets": [
+    3,
+    1
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n39104",
+   "crossings": 14,
+   "det_V": -99,
+   "comp_dets": [
+    3,
+    1
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n39106",
+   "crossings": 14,
+   "det_V": 93,
+   "comp_dets": [
+    3,
+    1
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n39222",
+   "crossings": 14,
+   "det_V": -119,
+   "comp_dets": [
+    5,
+    5
+   ],
+   "product": 25,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n39252",
+   "crossings": 14,
+   "det_V": 253,
+   "comp_dets": [
+    3,
+    1
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n39282",
+   "crossings": 14,
+   "det_V": -67,
+   "comp_dets": [
+    3,
+    1
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n39323",
+   "crossings": 14,
+   "det_V": -35,
+   "comp_dets": [
+    3,
+    1
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n39896",
+   "crossings": 14,
+   "det_V": -143,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": 4,
+   "conway": [
+    0,
+    0,
+    0,
+    4,
+    0,
+    5,
+    0,
+    1
+   ],
+   "verdict": "not slice: Sato-Levine beta = 4"
+  },
+  {
+   "name": "L14n39962",
+   "crossings": 14,
+   "det_V": 29,
+   "comp_dets": [
+    3,
+    1
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n39970",
+   "crossings": 14,
+   "det_V": -51,
+   "comp_dets": [
+    3,
+    1
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n39971",
+   "crossings": 14,
+   "det_V": 45,
+   "comp_dets": [
+    3,
+    1
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n39981",
+   "crossings": 14,
+   "det_V": 93,
+   "comp_dets": [
+    3,
+    1
+   ],
+   "product": 3,
+   "verdict": "not slice: a component is not slice"
+  },
+  {
+   "name": "L14n39992",
+   "crossings": 14,
+   "det_V": -143,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": -4,
+   "conway": [
+    0,
+    0,
+    0,
+    -4,
+    0,
+    -5,
+    0,
+    -1
+   ],
+   "verdict": "not slice: Sato-Levine beta = -4"
+  },
+  {
+   "name": "L14n39993",
+   "crossings": 14,
+   "det_V": 145,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": -4,
+   "conway": [
+    0,
+    0,
+    0,
+    -4,
+    0,
+    -5,
+    0,
+    -1
+   ],
+   "verdict": "not slice: Sato-Levine beta = -4"
+  },
+  {
+   "name": "L14n40045",
+   "crossings": 14,
+   "det_V": 81,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": 4,
+   "conway": [
+    0,
+    0,
+    0,
+    4,
+    0,
+    -3,
+    0,
+    -1
+   ],
+   "verdict": "not slice: Sato-Levine beta = 4"
+  },
+  {
+   "name": "L14n40047",
+   "crossings": 14,
+   "det_V": 81,
+   "comp_dets": [
+    1,
+    1
+   ],
+   "product": 1,
+   "beta": 4,
+   "conway": [
+    0,
+    0,
+    0,
+    4,
+    0,
+    5,
+    0,
+    1
+   ],
+   "verdict": "not slice: Sato-Levine beta = 4"
+  }
+ ],
+ "candidates": [],
+ "rows": [],
+ "elapsed": 283.9
+}

@@ -1,0 +1,46 @@
+{
+  "name": "18nh00000601",
+  "aliases": ["18nh_00000601 (Burton census CSV)", "K_G (Oliveira-Smith arXiv:2603.23717)", "K (Dunfield-Gong arXiv:2512.21825, Thm 1.12)"],
+  "naming_convention": "Burton c[an][tsh]_k: 18 crossings, non-alternating, hyperbolic, index 601. Not Hoste-Thistlethwaite; not in SnapPy censuses; not in KnotInfo.",
+  "source": {
+    "file": "https://people.smp.uq.edu.au/BenjaminBurton/knots/18n-hyp.csv.bz2",
+    "row": 602,
+    "retrieval": "HTTP Range request on the first ~3 MB, bunzip2, line 602 (bzip2 blocks decompress independently; CSV sorted by index)",
+    "retrieved": "2026-09-11"
+  },
+  "knot_sig": "sabcdbefghijkglmhijknopqreanopqdcrmlflRSuvwT+5bdd",
+  "dt_code_burton": "fpqGmiHCrLNOeJKabd",
+  "pd_code_snappy_0indexed": [[1,31,2,30],[3,0,4,1],[4,24,5,23],[7,15,8,14],[9,17,10,16],[11,7,12,6],[12,33,13,34],[15,9,16,8],[17,11,18,10],[18,25,19,26],[20,27,21,28],[22,31,23,32],[24,0,25,35],[26,19,27,20],[28,21,29,22],[29,3,30,2],[32,13,33,14],[34,5,35,6]],
+  "pd_code_regina_1indexed": [[2,32,3,31],[4,1,5,2],[5,25,6,24],[8,16,9,15],[10,18,11,17],[12,8,13,7],[13,34,14,35],[16,10,17,9],[18,12,19,11],[19,26,20,27],[21,28,22,29],[23,32,24,33],[25,1,26,36],[27,20,28,21],[29,22,30,23],[30,4,31,3],[33,14,34,15],[35,6,36,7]],
+  "signed_dt_snappy": [4,30,-24,12,16,18,-34,8,10,-26,-28,-32,-36,-20,-22,2,-14,-6],
+  "braid_word_7_strands": [-1,-2,-3,-4,-3,-5,4,3,2,1,3,3,3,3,-4,5,-6,5,4,-3,-3,-3,-3,2,3,-4,3,-2,-3,4,-5,4,6,-3],
+  "invariants": {
+    "crossings": 18,
+    "alternating": false,
+    "alexander_polynomial": "t^10 - 2t^9 + t^8 - t^7 + 4t^6 - 7t^5 + 4t^4 - t^3 + t^2 - 2t + 1",
+    "determinant": 25,
+    "seifert_genus": 5,
+    "fibered": true,
+    "tau": 0, "epsilon": 0, "nu": 0,
+    "hfk_total_rank": 25,
+    "hfk_ranks_(M,A)": {"(-5,-5)":1,"(-4,-4)":2,"(-3,-3)":1,"(-2,-2)":1,"(-1,-1)":4,"(0,0)":7,"(1,1)":4,"(2,2)":1,"(3,3)":1,"(4,4)":2,"(5,5)":1},
+    "hyperbolic_volume": 11.9345081499,
+    "exterior_tetrahedra": 14,
+    "verify_hyperbolicity": true,
+    "H1_double_branched_cover": "Z/25",
+    "H1_triple_branched_cover": "(Z/7)^2",
+    "H1_fivefold_branched_cover": "(Z/31)^2"
+  },
+  "status": {
+    "smoothly_slice_standard_B4": "PROVED, Oliveira-Smith arXiv:2603.23717 Cor 1.1.1 (unrefereed preprint)",
+    "handle_ribbon": "PROVED, fibered handle-ribbon disk, same paper Thm 1.2",
+    "ribbon": "UNKNOWN; Dunfield-Gong search to 4 bands failed; Oliveira-Smith Questions 3.3, 3.4",
+    "rbg_link_dt_code": "ycjkdnhQyUtMsaVweFIRCXOBgLJDkP",
+    "rbg_framings": {"r": 1, "b": 0, "g": 0},
+    "zero_friend": "K_B, ribbon (Dunfield-Gong Table 11)"
+  },
+  "verification": {
+    "tool_versions": "snappy 3.3.2, regina 7.4, Python 3.11",
+    "independently_recomputed": "2026-09-11: genus, fiberedness, tau/epsilon/nu, rank, volume, tetrahedra, Alexander polynomial all reproduced from knot_sig in a second run"
+  }
+}

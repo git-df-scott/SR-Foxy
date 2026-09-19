@@ -1,0 +1,45 @@
+pivots 100 rows 575 entries 1398 seconds 0.072
+pivots 200 rows 475 entries 1198 seconds 0.132
+pivots 300 rows 375 entries 998 seconds 0.181
+pivots 400 rows 275 entries 795 seconds 0.219
+pivots 500 rows 175 entries 544 seconds 0.247
+pivots 600 rows 75 entries 299 seconds 0.263
+reduced 3 4 gens [35, 213, 251, 317]
+{
+  "linking_matrix": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "self_writhes": [
+    0,
+    0,
+    -1
+  ],
+  "E_zero": true,
+  "exact_axis_longitude_response": [
+    [
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0"
+    ]
+  ],
+  "filled_alexander_order_monic": "t**8 - 6*t**7 + 19*t**6 - 36*t**5 + 45*t**4 - 36*t**3 + 19*t**2 - 6*t + 1",
+  "target_alexander_match": true,
+  "elapsed_seconds": 1.2191616259999591
+}

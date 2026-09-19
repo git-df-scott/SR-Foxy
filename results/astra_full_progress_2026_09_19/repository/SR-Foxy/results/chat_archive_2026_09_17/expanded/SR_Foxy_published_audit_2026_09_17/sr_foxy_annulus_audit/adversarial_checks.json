@@ -1,0 +1,16 @@
+{
+  "status": "EXPECTED_MUTATIONS_REJECTED",
+  "mutations": [
+    {
+      "test": "replace_v_with_u",
+      "expected_rejection_observed": true,
+      "reason": "normalized marked words"
+    },
+    {
+      "test": "append_a_to_relator",
+      "expected_rejection_observed": true,
+      "reason": "word not in meridian kernel"
+    }
+  ],
+  "optimized_repeat_identical_except_timing": true
+}

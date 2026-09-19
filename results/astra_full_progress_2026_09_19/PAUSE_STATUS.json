@@ -1,0 +1,159 @@
+{
+  "counterexample_established": false,
+  "search_run_id": 35455048082,
+  "search_launch_commit": "042a7dfc6fe61967902e1c4f7174af5f6342862c",
+  "user_pause_request_utc": "2026-09-19T17:41:08Z",
+  "github_terminal_status": "completed",
+  "github_terminal_conclusion": "cancelled",
+  "github_terminal_updated_at": "2026-09-19T17:43:16Z",
+  "watch_automation_id": "6aae1d60002c81918a2f4657a1c867c6",
+  "watch_enabled": false,
+  "requested_search_seconds": 25200,
+  "seven_hours_completed": false,
+  "completed_segments": 2,
+  "completed_search_wall_seconds": 3600.021043032,
+  "completed_search_cpu_seconds": 3579.326956595,
+  "completed_search_attempts": 167163,
+  "partial_segment": 3,
+  "partial_last_heartbeat_utc": "2026-09-19T17:42:41Z",
+  "partial_recorded_search_wall_seconds": 781.7204441629997,
+  "partial_recorded_cpu_seconds": 777.376774861,
+  "total_recorded_search_wall_seconds_through_last_heartbeat": 4381.7414871949995,
+  "total_recorded_cpu_seconds_through_last_heartbeat": 4356.703731456,
+  "aggregate_attempt_counters_through_last_heartbeat": {
+    "DUPLICATE_ENDPOINT": 175572,
+    "NEW_ENDPOINT": 25528,
+    "NO_SAMPLED_BAND": 177,
+    "attempts": 201277
+  },
+  "exact_final_attempt_total": "UNKNOWN: cancellation prevented a final accounting; some readable node records postdate the last heartbeat.",
+  "phase_two_executed": false,
+  "new_search_started_for_packaging": false,
+  "runtime_exclusions": [
+    "installation",
+    "queue time",
+    "preflight",
+    "smoke tests",
+    "archive export and verification"
+  ],
+  "math_scope": "Bounded randomized common-upper movie searches, not a global nonconcordance theorem. No nomination file was found in the preserved checkpoints.",
+  "executed_bounds": {
+    "common_upper_segments": {
+      "1": {
+        "max_crossed_edges": 2,
+        "max_abs_half_twists": 4
+      },
+      "2": {
+        "max_crossed_edges": 3,
+        "max_abs_half_twists": 6
+      },
+      "3_partial": {
+        "max_crossed_edges": 4,
+        "max_abs_half_twists": 8
+      }
+    },
+    "max_birth_fusion_depth": 2,
+    "crossing_cap": 72,
+    "RIII_trials": 48,
+    "parent_pool": "Root or randomized choice among up to 384 smallest eligible recorded diagrams",
+    "targets": [
+      "Abe-Tagami pair",
+      "K7a2/K10n4 pair"
+    ]
+  },
+  "snapshot_commit": "43b71f03a9332af96d96ed1d53370233a1567768",
+  "snapshot_tracked_files": 2287,
+  "later_commit_preserved_in_bundle": "9bc873b6921b42c3f79e73046a3a4f617b66d001",
+  "this_packaging_turn_github_changes": {
+    "stop_workflow_commit": "8a618293173dbeefcfc110c9c980f459a31d71ef",
+    "archive_export_workflow_commit": "43b71f03a9332af96d96ed1d53370233a1567768",
+    "path": ".github/workflows/astra-pause-search-35455048082.yml",
+    "scientific_reports_modified": false,
+    "chat_access_token_used": false
+  },
+  "original_actions_artifacts": [
+    {
+      "artifact_id": 10587951614,
+      "path": "search_run/original_artifacts/astra-seven-hour-preflight-35455048082.zip",
+      "bytes": 124608,
+      "sha256": "8074c73888963ef1f512c86bda3fe37c6b5290eed7b27b7663d5cfdb0f9b0fb3",
+      "zip_crc": "PASS",
+      "members": 13
+    },
+    {
+      "artifact_id": 10589240719,
+      "path": "search_run/original_artifacts/astra-seven-hour-checkpoint-10589240719.zip",
+      "bytes": 20919987,
+      "sha256": "41b015d6114e936a4514573042377e01a3aefa74caa4a89b7479ffd7ed26d0cc",
+      "zip_crc": "PASS",
+      "members": 17
+    },
+    {
+      "artifact_id": 10589621369,
+      "path": "search_run/original_artifacts/astra-seven-hour-final-paused-checkpoint-10589621369.zip",
+      "bytes": 25617704,
+      "sha256": "cf4f075c1a66df3e1d1ae33b6dd717a70e49a735026bee943eb0cdb7b9d570ea",
+      "zip_crc": "PASS",
+      "members": 18
+    }
+  ],
+  "database_checks": {
+    "completed": {
+      "integrity": [
+        "ok"
+      ],
+      "nodes": 21067,
+      "attempt_rows": 25649,
+      "run_rows": 2
+    },
+    "salvaged": {
+      "integrity": [
+        "ok"
+      ],
+      "nodes": 25669,
+      "attempt_rows": 31235,
+      "run_rows": 3
+    }
+  },
+  "salvage_kind": "CONSERVATIVE_READABLE_PREFIX_SALVAGE_NOT_COMPLETE_RECOVERY",
+  "salvaged_additional_nodes_beyond_completed_checkpoint": 4602,
+  "salvaged_attempts_with_missing_child": [
+    31234
+  ],
+  "mathematical_movies_replayed_during_packaging": false,
+  "earlier_library_packages": [
+    {
+      "path": "earlier_saved_packages/original_archives/GST_research_2026-09-19.zip",
+      "bytes": 503142,
+      "sha256": "1129dc331d6e613633683587fa25dc8c5250dc5edc36efddd687c9ac7c3b879a",
+      "members": 66,
+      "zip_crc": "PASS"
+    },
+    {
+      "path": "earlier_saved_packages/historical_provenance/SR_Foxy_Archive_Verification_2026-09-19.json",
+      "bytes": 2831,
+      "sha256": "1fea27a2e1aad91c0edbcab8aa836c99ea25caaf8a756d32f77059274ec42d45"
+    },
+    {
+      "path": "earlier_saved_packages/original_archives/SR_Foxy_Combined_Saved_Work_2026-09-19.zip",
+      "bytes": 2146376,
+      "sha256": "da9dcf293aff640717e5cb3755176cf82e75429165f243919f9b254778846e8f",
+      "members": 134,
+      "zip_crc": "PASS"
+    },
+    {
+      "path": "earlier_saved_packages/historical_provenance/SR_Foxy_START_HERE.md",
+      "bytes": 5494,
+      "sha256": "af21bbc556c71527295e56560d355441cd44c978e32f2d8a09023cf88cce0f0e"
+    },
+    {
+      "path": "earlier_saved_packages/original_archives/SR_Foxy_verified_backup_53f800f.zip",
+      "bytes": 39123196,
+      "sha256": "049b6331d41f13b1dafa4a19b68480870e9150b64fe0c3b7301f32ffe375f8f4",
+      "members": 2039,
+      "zip_crc": "PASS"
+    }
+  ],
+  "previous_session_mounted_files": 15,
+  "coverage_limit": "Includes every file in the frozen source tree and all recoverable artifacts gathered here. It is not a verbatim chat export, a guarantee about unsaved runtime files, or a complete recovery of the interrupted SQLite tail."
+}

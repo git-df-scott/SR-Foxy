@@ -1,0 +1,40 @@
+{
+  "observed_repository": "git-df-scott/SR-Foxy",
+  "main_sha": "5448376b6ef3b2d5551836bd1479200588cd24be",
+  "tree_sha": "e3a9b949d84a5460d4c3838b9f2e20f6af5e6b8a",
+  "main_parent_shas": [
+    "fd15281e0e4c733e41a40c17a601699fd172bf2e",
+    "27136b2be0d7355c0ba5eb4e58437659836f9826"
+  ],
+  "PR9": {
+    "merged": true,
+    "merge_commit": "5448376b6ef3b2d5551836bd1479200588cd24be",
+    "merged_at": "2026-09-17T22:09:38Z",
+    "head_sha": "27136b2be0d7355c0ba5eb4e58437659836f9826"
+  },
+  "observation": "Fetched from the connected GitHub account during the finish-up turn after the user message dated 2026-09-17T22:50:00Z.",
+  "not_claimed": "This archive pass did not itself execute the earlier merge. The merge was observed as already complete.",
+  "new_archive_publication_at_creation": "NOT_PUSHED",
+  "publication_blocker": "Available GitHub actions were read-only. Direct public GitHub HTTPS failed with DNS resolution error. No credential was sent or stored.",
+  "sources": [
+    "https://api.github.com/repos/git-df-scott/SR-Foxy/branches/main",
+    "https://github.com/git-df-scott/SR-Foxy/pull/9"
+  ],
+  "existing_main_checkpoint_directories": [
+    "results/astra_2026_09_17_annulus_gate/",
+    "results/astra_2026_09_17_satellite_plan/",
+    "results/astra_2026_09_17_overnight/pass01_2203/",
+    "results/astra_2026_09_17_overnight/pass02_0410_four_parallel/",
+    "results/astra_2026_09_17_overnight/pass03_2255_ribbon_obstruction_audit/",
+    "results/astra_2026_09_17_overnight/pass04_0515_centered_proof_and_D01/",
+    "results/astra_2026_09_17_overnight/pass05_2357_cross_band_genus_gate/",
+    "results/astra_2026_09_17_overnight/pass06_0055_explicit_unlink_bands/",
+    "results/astra_2026_09_17_overnight/pass07_0123_relative_r3_r2/",
+    "results/astra_2026_09_17_overnight/pass08_0202_whisker_branch_gate/",
+    "results/astra_2026_09_17_afternoon/pass09_product_collar/",
+    "results/opus_2026_09_17/",
+    "results/opus_2026_09_17_1836_trace_cap_gate/",
+    "results/opus_2026_09_17_1912_agol_ren_reframing/"
+  ],
+  "scope_of_directory_check": "The eight overnight directory names were fetched at the observed main SHA. Other paths are in previous verified checkpoints or the merged PR description; this is not a fresh full-tree content audit."
+}

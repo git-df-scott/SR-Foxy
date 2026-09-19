@@ -1,0 +1,8 @@
+{
+  "status": "ALL_ORIGINAL_PAYLOAD_HASHES_MATCH",
+  "payload_files": 2555,
+  "payload_bytes": 388797483,
+  "original_manifest_sha256": "21ed4c4d79a629791d88ea2a87892574b428e9730d00d41acf0f53bc5fd8da92",
+  "search_restarted": false,
+  "counterexample_established": false
+}

@@ -1,0 +1,1 @@
+{"coefficients_x":[0,109,0,339,0,415,0,236,0,51],"order":5,"modulus":null,"crossings":6,"writhe":0,"max_states":2,"max_frontier":4,"seconds":0.000257988}

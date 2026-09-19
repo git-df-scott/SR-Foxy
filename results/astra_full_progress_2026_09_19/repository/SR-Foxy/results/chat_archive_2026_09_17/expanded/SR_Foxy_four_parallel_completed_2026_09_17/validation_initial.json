@@ -1,0 +1,279 @@
+{
+  "status": "ALL_CONTROLS_PASSED",
+  "number_of_checks": 27,
+  "checks": [
+    {
+      "source_control_input_git_blob_sha": "00135706508cf045df4fb19f5a6f6186df156a9a",
+      "matches_remote": true
+    },
+    {
+      "name": "U1",
+      "crossings": 0,
+      "full_state_count": 1,
+      "full_polynomial_in_x": {
+        "-1": -1,
+        "1": -1
+      },
+      "exact_jet_matches": true
+    },
+    {
+      "name": "U2",
+      "crossings": 0,
+      "full_state_count": 1,
+      "full_polynomial_in_x": {
+        "-2": 1,
+        "0": 2,
+        "2": 1
+      },
+      "exact_jet_matches": true
+    },
+    {
+      "name": "U4",
+      "crossings": 0,
+      "full_state_count": 1,
+      "full_polynomial_in_x": {
+        "-4": 1,
+        "-2": 4,
+        "0": 6,
+        "2": 4,
+        "4": 1
+      },
+      "exact_jet_matches": true
+    },
+    {
+      "name": "curl_plus",
+      "crossings": 1,
+      "full_state_count": 2,
+      "full_polynomial_in_x": {
+        "-3": 0,
+        "-1": -1,
+        "1": -1
+      },
+      "exact_jet_matches": true
+    },
+    {
+      "name": "curl_plus",
+      "R1_sign": -1,
+      "invariance": true
+    },
+    {
+      "name": "curl_plus",
+      "R1_sign": 1,
+      "invariance": true
+    },
+    {
+      "name": "hopf",
+      "crossings": 2,
+      "full_state_count": 4,
+      "full_polynomial_in_x": {
+        "0": 1,
+        "2": 1.0,
+        "4": 1.0,
+        "6": 1
+      },
+      "exact_jet_matches": true
+    },
+    {
+      "name": "hopf",
+      "R1_sign": -1,
+      "invariance": true
+    },
+    {
+      "name": "hopf",
+      "R1_sign": 1,
+      "invariance": true
+    },
+    {
+      "name": "trefoil",
+      "crossings": 3,
+      "full_state_count": 8,
+      "full_polynomial_in_x": {
+        "-9": 1,
+        "-7": 0,
+        "-5": -1,
+        "-3": -1,
+        "-1": -1
+      },
+      "exact_jet_matches": true
+    },
+    {
+      "name": "trefoil",
+      "R1_sign": -1,
+      "invariance": true
+    },
+    {
+      "name": "trefoil",
+      "R1_sign": 1,
+      "invariance": true
+    },
+    {
+      "name": "figure8",
+      "crossings": 4,
+      "full_state_count": 16,
+      "full_polynomial_in_x": {
+        "-5": -1,
+        "-3": 0,
+        "-1": 0,
+        "1": 0,
+        "3": 0,
+        "5": -1
+      },
+      "exact_jet_matches": true
+    },
+    {
+      "name": "figure8",
+      "R1_sign": -1,
+      "invariance": true
+    },
+    {
+      "name": "figure8",
+      "R1_sign": 1,
+      "invariance": true
+    },
+    {
+      "name": "ribbon61",
+      "crossings": 8,
+      "full_state_count": 256,
+      "full_polynomial_in_x": {
+        "-11": 0,
+        "-9": -1,
+        "-7": 0,
+        "-5": 0,
+        "-3": 1,
+        "-1": 0,
+        "1": -1,
+        "3": 0,
+        "5": -1
+      },
+      "exact_jet_matches": true
+    },
+    {
+      "name": "ribbon61",
+      "R1_sign": -1,
+      "invariance": true
+    },
+    {
+      "name": "ribbon61",
+      "R1_sign": 1,
+      "invariance": true
+    },
+    {
+      "name": "curl_minus",
+      "crossings": 1,
+      "full_state_count": 2,
+      "full_polynomial_in_x": {
+        "-1": -1,
+        "1": -1,
+        "3": 0
+      },
+      "exact_jet_matches": true
+    },
+    {
+      "name": "curl_minus",
+      "R1_sign": -1,
+      "invariance": true
+    },
+    {
+      "name": "curl_minus",
+      "R1_sign": 1,
+      "invariance": true
+    },
+    {
+      "name": "KDG_4",
+      "planar_rotation_system_euler": 2,
+      "component_diagrams_equal_source": true,
+      "components": 4,
+      "zero_framing_linking_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "ribbon61_4",
+      "planar_rotation_system_euler": 2,
+      "component_diagrams_equal_source": true,
+      "components": 4,
+      "zero_framing_linking_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "ribbon61_3",
+      "planar_rotation_system_euler": 2,
+      "component_diagrams_equal_source": true,
+      "components": 3,
+      "zero_framing_linking_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "negative_control": "Hopf link",
+      "required_h_squared_remainder": "2*x**2 + 2",
+      "obstruction_detected": true
+    },
+    {
+      "target_mod32_different_order_matches_exact": true
+    }
+  ],
+  "exact_engine": "Boost checked 128-bit signed integer; overflow throws, it is never silently truncated",
+  "limitation": "Not a proof assistant; KDG identity and smooth disk remain upstream source dependencies. No independent full 288-crossing polynomial."
+}

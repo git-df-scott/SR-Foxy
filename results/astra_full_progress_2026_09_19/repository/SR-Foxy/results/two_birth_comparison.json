@@ -1,0 +1,968 @@
+{
+  "status": "NUMERICAL_SCREEN_NOT_A_CONCORDANCE_CERTIFICATE",
+  "manifest": "results/two_birth_pilot/manifest.json",
+  "index": "results/AT1_successor_index.json",
+  "checks": [
+    {
+      "parent_index": 24227,
+      "index": 1455,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1632,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1157,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1993,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1160,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 744,
+      "numerical_signature": "VvLLvwPLvvPAQLLwAvPMQMQQzwLLAQAQcdgjlgmvpusupstzBtyHCxCzEDIFDFKEKIJIQRSQOQTPSTUUUolmvfjatmaugvnqaotambmfvgsnrkpgacnoixxibxhbhrrbb_baCb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1956,
+      "numerical_signature": "OLvvvLQwLLzQwvzQMAvvQLQQAQQkbjhnlmjprprosyCtvuDBzBzEBDEEMIJLIILNKMNLNhggagakqaqacjaacfkxmlcvornrbwvvwvvwacwawl_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 424,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1964,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 742,
+      "numerical_signature": "VLvvvMvwwALPMvLAAMQPQMzMMzwzMMQQccikjrktvsuoosuzzsCFAGxyDBGAFEIEILKLNPNOTRQSUUSTUqfvvefaaercgjvmmjxipmcducsbrbabxaxbjeoxjffretwfh_bBGh"
+    },
+    {
+      "parent_index": 24227,
+      "index": 184,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1199,
+      "numerical_signature": "-cebLvvLwvPLvzvQzvPPvAMwAAQQQwAvMzvwLLLPQPPMPQQQQcbafagapanakauaqawaAaxawaGaBataJaFaDaCawazaLaDaIaMaCaFaOaIaGaHaKaLaOaKaNaRaVaQaWa4a6aYaXa7aYa7a2a0a+a-a8a+a-abb5a4aabbbdbcbdb8a+adbcbabbbcbhhgaifaggangalbalxxbgjckkgofjffwrgffhavnpprcxraacwjbowicgimxpxcbiqmev_bBBc"
+    },
+    {
+      "parent_index": 24227,
+      "index": 410,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1154,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 632,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 215,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 205,
+      "numerical_signature": "TvLLvMPwMPMMzvQvLLzPLvMPQPMPMQQdgjglgmokkomoqpruwvzDACAGMLIOFMIKINPLPMROQSSRSoaqqffaqofqqforfonsqldvvbaamlsdaqgvvrffufddsor_bBBc"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1925,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1158,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 714,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1642,
+      "numerical_signature": "1LvvvLzLLwMzLzLMQAvwvQQMAMzzwMPQQQAQccgnomkpmpAwrwCCztDuwFCFJNNDGKNOJMPPWMPYTVRSVZXXZWY000Zqfaqlfataajovtqfftbflalrgggjovnsfeeafuargfgkfnnfooappf_baGb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1612,
+      "numerical_signature": "ZLvLvvLMLvMMAMPvQvzwAzwzQMMQvLQQQQQbdkhnjnqowtxqyvswyAEzIACJNMKJNNRLITLXSRPQTTWWVUYWYXYhfaoiococagagagftttuggfgaahhddddtfaaenbbobsqqtdgvnfw_bBEf"
+    },
+    {
+      "parent_index": 24227,
+      "index": 171,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1630,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 199,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 430,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1928,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1146,
+      "numerical_signature": "0LvvvLPALMAwLMPwAvwQQvLzAQLzwQLQAQPkbinlmhkjrmpoqsxtzuwvyBHAHCBEIHNKONKOMPOTWRVSXUUXYYZZZhjagaofbaxxlgvmoaxtojvtklxbfjcamlxososfaieofrffgithhj_bBab"
+    },
+    {
+      "parent_index": 24227,
+      "index": 643,
+      "numerical_signature": "XLvvMwPLQQLvALwMvzMvwAwAMwQLMLQQQkbhgjilnoolnlnorqsuuxCyFAJGKMLJHOROROSQNTPQTWUVTWVWxxxccxaaaxxxvcvbbxrwxuvrataxllxqegevutstfttjksbonb_bBCd"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1449,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 422,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 237,
+      "numerical_signature": "RvLvAAvLvwwPQwQAPMAAMwvzzQAMQkchigforqmntstuqyzvxzABxxzDAEEDJKLMNOMPPQOPQQjiaatmalbffvvoommgtdtpdgjqvahxpsssolsxaxxppf_bBab"
+    },
+    {
+      "parent_index": 24227,
+      "index": 183,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1646,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1963,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 208,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 207,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1917,
+      "numerical_signature": "ULvLvvLMvAzAAMAvzvMAMvPLAQQAQQQkbdkhnmtnuowxuyzvuvHJEIGOCDPNLPNOIMQSTLTSLSTRQRRhfaoitacscaabaagfvvnnnbacoppitttcxlelicjnjsvvvc_baCb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1616,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 743,
+      "numerical_signature": "ZvLvvLPvvMwPLPwAQLLLAwzwQMALPQAMQQQdljgktovnuxBrCvBsuEEJBIKDOGILHRJLPPPSRTSWVUXRYYVYXWXoagffaiageonfajncomiavataafvboagsggvtuuthpvkforvrrvg_bBCd"
+    },
+    {
+      "parent_index": 24227,
+      "index": 186,
+      "numerical_signature": "UvLvLvLvLALMQQMAvLALzAzQwLQzQQQkdjgtmksvqswxtwsxxtuwBFAGECHFJHJQKOPLOSTPSRPRTRToefajcaxatatuegggkkgqafvkosgmsmaeqvcoumcirrvqnc_bBEf"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1648,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 232,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 169,
+      "numerical_signature": null,
+      "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+    },
+    {
+      "parent_index": 24227,
+      "index": 113,
+      "numerical_signature": null,
+      "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+    },
+    {
+      "parent_index": 24227,
+      "index": 1441,
+      "numerical_signature": "ZvLvvAvvLAPLPPvzvAAPQMPLPAQQzLPQwQQdgjtqrosxywuvqFBCECHDIEIMJMEHKONLPQKKNSTSWRUVWXYXYXYoaaaddiiauannfmlillmditiaxuovsbrgnqjjjeedajorbetuime_bBab"
+    },
+    {
+      "parent_index": 24227,
+      "index": 185,
+      "numerical_signature": null,
+      "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+    },
+    {
+      "parent_index": 24227,
+      "index": 1958,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 114,
+      "numerical_signature": "UvLvLvLvLALMQQMAvLALzAzQwLQzQQQkdjgtmksvqswxtwsxxtuwBFAGECHFJHJQKOPLOSTPSRPRTRToefajcaxatatuegggkkgqafvkosgmsmaeqvcoumcirrvqnc_bBEf"
+    },
+    {
+      "parent_index": 24227,
+      "index": 731,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 730,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1959,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 716,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 264,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1434,
+      "numerical_signature": "+LvvvMzMvvLPzMzzzwvzQPPMvLzzvMMQAQAAMQQQQQcbgjmhnsxovqyuBCtKHNMOANQPNSWP10JYUTUMVU6SVYZXW92423018785975698hggaoiaahgnkfhacaaddiggmkgturiavalllcllxiogjjoqocvgvctuagluvftr_bBab"
+    },
+    {
+      "parent_index": 24227,
+      "index": 255,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 170,
+      "numerical_signature": "UvLvvLAwLQAvzQPzQMAzzPzPLvQPAPQkdlhkmrlnkpnstryytuxywxAAzBDEIFIKKQONQMPOSTSTRTSsagsvabbvebgskddvvotogqhuvoxmwglxmiqgcwgadldhjj_bBEf"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1197,
+      "numerical_signature": "0LvwLLwwLvwvQLwwvLMPQvwLPLLQQQQMQQQkbefgkllmtpqxAvIByDCMzGCNKJMLOVLTSXPXXUURYZTQYYRTWZVWZhahgaatgbbvhahaagccaojwmwohsmasxaphppppgsabscrvbrmcbl_bBab"
+    },
+    {
+      "parent_index": 24227,
+      "index": 710,
+      "numerical_signature": "WLvvvAwLvMLvLMwvPMzQAAAPMvQAQMQQQcifhltosxBpuytzvJIEyJAEAIIFHNEQRSRNMRUNUPVQSTSVUVqfcffaaavegbfbtgahacaiignwbbhbaaaatopatiurbfrbkkk_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1497,
+      "numerical_signature": "0LvvvAwLzLLzvvzvQAvQQvAALQzLQQQQQAQkcifhlkonvyxsJwvDzKNyLLBMOGHSFHWVXOVUMORNPRQYUUTVYZXZZqfcfffaavafbpfgauiiatfcodogaocdqtdtlsltglffovvofvqvll_baCb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1457,
+      "numerical_signature": "BvLvLLLAvLPQzQzAQQQeilljosqmvvpquxvxtywAxAAzzyzcaawouaicxxpgwabuoavaetaqlpf_baDb"
+    },
+    {
+      "parent_index": 24227,
+      "index": 1141,
+      "numerical_signature": "5vLLLLvzPzAzzLAwvQzvPvPMAwwLQPQMQLwQQQQdeejlkqptnvrwAxsCGBFKDMKJOFMOIMRNLNRPXWWZT0XUV3WZ132142144scbsagmpuaagadeotscjdgeahajhetgkkcskrdrrabadokaotkkbkvbbow_bBcB"
+    },
+    {
+      "parent_index": 24229,
+      "index": 1000,
+      "numerical_signature": "RLvLLMvLLLwQMvzAPQALQAvzMPwQQkcehhklnmorspouvwzuAAAxxDCBCCDEKJMOLNMLQPPQQPqlenaqalfvfbgetaalpjjookcgvgkdahgagagbahgbgb_bBab"
+    },
+    {
+      "parent_index": 24229,
+      "index": 775,
+      "numerical_signature": "RLvvvAvLMwQPvwLQzzQQzzvMPMQQQkcgkrlsqqtmrvtzCrxBCFBxFDBEDFLONJMPKQPMNMQOQPtcjmnatltmlanaabaqlmtgcvbnjjqtlgjncmnbgfmkmf_bBba"
+    },
+    {
+      "parent_index": 24229,
+      "index": 1374,
+      "numerical_signature": "YvLLvPzQzQvvvwzPLQzzvzQAQzMQvQLQQQccdjjlihkomlowAtuyFDwDGBLHEONPHIKLKRQSVNURSQWXUWXVWXwracgsjramgxaooocqqcqivddhogaskccgidlpcpqkcjockjoks_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 62,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 1390,
+      "numerical_signature": "4vLLvzLzvPwPQLvvzwLwzQzQAPLzLQMPQLQQQQcdgikhmtqpxoqowyAFyzAIHDOHGOKMMPVRTZSRN0ZUQVUY2X1Y23X12313slanwstpaaigofllehissffwvvwgoglqtmtlpotpngfvjxjcfaaffatvp_bBab"
+    },
+    {
+      "parent_index": 24229,
+      "index": 161,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 61,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 1983,
+      "numerical_signature": "OLvvvAwwzLPvPvLwMPAzQQPQAQQkcklijlptrtsyvuHxxBwBHELIHLIKFDMJGMNGJLKNNtrrnvntxxnfajjallhourbaffifrrcabbdmfotwtk_baCb"
+    },
+    {
+      "parent_index": 24229,
+      "index": 257,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 9,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 1930,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 338,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 1624,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 237,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 82,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 758,
+      "numerical_signature": null,
+      "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+    },
+    {
+      "parent_index": 24229,
+      "index": 449,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 1381,
+      "numerical_signature": "-cdbvLLvvvLLwwzMLQvMzvzvwQPQLwzMPQQAvMAwwPQPQQQQkdaeajauanakatapanawaBazavaEazaFaCayaKaNaIaJaDaPaDaOaUaNaXaRa1aWaSaSaTaXaTaMaYa2a1aRa6a0aWa3a5aZa2a5a7aab2a4a7a+a6a7a+aabbbcb-acbbb-abbcbofcaafqaaoogwagaaoequuhpofgvarmeoncacbpuxfaxuifgofjaoosqnklpiqttmocb_bBeD"
+    },
+    {
+      "parent_index": 24229,
+      "index": 113,
+      "numerical_signature": "NLvLvQPzzLMwzPMAvPQAwvPPAQQbdfihlhlopnnqsrxstyxBzyBCzCDJFGHLIMJKMLMhfcggiolaggfcmxaoweceimpxgoccbfwlomvaogk_bBCd"
+    },
+    {
+      "parent_index": 24229,
+      "index": 21,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 32,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 71,
+      "numerical_signature": null,
+      "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+    },
+    {
+      "parent_index": 24229,
+      "index": 106,
+      "numerical_signature": "SLPvLLwMzwzMPzzzQMLwwPwMLQzPQQcbdchgimlknroptqrtuwzyxxCCFGJIHKIHMLNQOPRQRQPRhggofdagvoxadovsoodgffntlaarfrpfouqqqgceitiwp_bBCd"
+    },
+    {
+      "parent_index": 24229,
+      "index": 155,
+      "numerical_signature": "VLPvLPzwvvQMLvzPALvLwQQzQPvPQMQQcbdchjghltssntpzAuuuyBDCBHEDLHNKILLKOPNRPTQSUUSTUhggoafvaperovfaaeiefwmcvpamgrabonnfuqeqsbogxqbod_bBcB"
+    },
+    {
+      "parent_index": 24229,
+      "index": 215,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 1111,
+      "numerical_signature": null,
+      "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+    },
+    {
+      "parent_index": 24229,
+      "index": 7,
+      "numerical_signature": null,
+      "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+    },
+    {
+      "parent_index": 24229,
+      "index": 229,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 1389,
+      "numerical_signature": "-cabvLvvvALLLAzMPLvPzvMzQALLzLzPzvzPQAPQPQQQQQkdahanamaoatanavalauaqayasaAaCavaDaJaHaKaLaJaAaGaOaFaIaFaWaLaVaMaQaPaUaRaSaZa5a2a8a1a6a6a+aZaYa-a9a4aYa1a2a7a5a-a3a-a6a4a9a7a+a9a+aogvvjafafdauxvavtalaldgxxfropvucuwaugrkrjbnrdvbaaovfvngucpovmwxmx_bBab"
+    },
+    {
+      "parent_index": 24229,
+      "index": 503,
+      "numerical_signature": "VvLvMvLQzLAMLvwvLPQPMwzLQQwwQAQQcdehmohkjomomrutyHBFzyyIAEJDGNJHGPKMOMOQTSURRUTTUofqqaffcqaqqoafcaorccvascagfaetvdosjovhlmhdsvkck_bBba"
+    },
+    {
+      "parent_index": 24229,
+      "index": 453,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 1112,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 1384,
+      "numerical_signature": "-cdbvLvvLLvPLvvzAPwLMQALwLLQwvzQQPLQvzQQvAQPPQQQkdalagamakalaBawaCaEataraCaBawaKaBayaDaxaDaAaAaFaPaKaGaIaVaPaXaUaWaXaNa0aZaOaRa3aYa5aTa6a4aYa0a7aYa1a+a8a5a8a6a9aab-aabbbbb9a-aabcb-acbcboafsccaavagfbvvasccfbcflagkfaraquqottbjetxfautfrfoacvssltpmuumeljvjw_bBba"
+    },
+    {
+      "parent_index": 24229,
+      "index": 116,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 487,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 77,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 349,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 242,
+      "numerical_signature": null,
+      "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+    },
+    {
+      "parent_index": 24229,
+      "index": 1925,
+      "numerical_signature": "QLvLvQLLwLQvLLzwMvPMQLAAAMQQQbdfihhkjonrrpvutBvxHBCzABHJEILKGIJMMLONPPOPhfcggolognpafdigafodmlvfhwsgnsgncsqmolhbbbc_bBDe"
+    },
+    {
+      "parent_index": 24229,
+      "index": 160,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 247,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 757,
+      "numerical_signature": "OLvvvAvLMwQPvwLQzAQQvMzQPPQkcgkrlsqqtmrvtzCrxBwCDBDzDBGEJHGLKMLKMMNNNtcjmnatltmlanaabaqmlqtfsfbafaqqtwfowrnppq_baBb"
+    },
+    {
+      "parent_index": 24229,
+      "index": 216,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 86,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 239,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 67,
+      "numerical_signature": null,
+      "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+    },
+    {
+      "parent_index": 24229,
+      "index": 1631,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 1692,
+      "numerical_signature": "2vLvvLvAQvLvQQLLMQLQMLPvPwPPvwPzQQMQQdhmqlprryuzqsvvtxwEDAGDGFzAIHJOHOPKNMNRVRYW00UXZXZX1101odgacmhuadaadavkboetlatmmgiaoaakaovwvjufvkwaacvxvechiuc_bBcB"
+    },
+    {
+      "parent_index": 24229,
+      "index": 245,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 474,
+      "numerical_signature": null,
+      "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+    },
+    {
+      "parent_index": 24229,
+      "index": 100,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 241,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 95,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 114,
+      "numerical_signature": "QLPvLLwwPzMzAAPvMMvMwwzMQLQQQbdchgimkplroqpturtxzwAxCBDDFGLMHNJMPNOMNOPPhggofiavafmiuingvfmacgkphxrgfmdvtorawcvorpa_bBCd"
+    },
+    {
+      "parent_index": 24229,
+      "index": 6,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 1691,
+      "numerical_signature": "OLvvLLzzAPLwwMQPQPLvvPLAQQQkbiimnnjroppqyuvutywvAwBBAJEHFJHMLNKNLMNLMdebammfaaagoababgduaitbjbngfgcvddaladdigg_bacb"
+    },
+    {
+      "parent_index": 24229,
+      "index": 79,
+      "numerical_signature": null,
+      "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+    },
+    {
+      "parent_index": 24229,
+      "index": 163,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 748,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24229,
+      "index": 913,
+      "numerical_signature": "ULvLvLwMPvPPMwwPQLLvvQQLMAzPMQQkbdhlhnjmmovtoqwtvBwuABDKCLIFKGMLHNOMRLPSQTSQRTThfgaolotvoamofaahaicggmalacjvfmggeqxunfkneobfii_bBab"
+    },
+    {
+      "parent_index": 24229,
+      "index": 1103,
+      "numerical_signature": null,
+      "error": "RuntimeError: SnapPea failed to find the canonical triangulation."
+    },
+    {
+      "parent_index": 24229,
+      "index": 34,
+      "numerical_signature": "yLvLwLLzMzQPMPAPQbdekhlkjospprqstvurtwvxxxhftaoittvannevaluaubtoifr_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 143,
+      "numerical_signature": "PvLLvvzQQALPzwwwMvLLAPQPPPQQcdfgjjokkojnpossvsxzBDGIEFBKJGEJNMMONLKLNOOoafofaffafblaqrlfhqelaaumfmmmoflkfaqnfnuhm_baCb"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1725,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 699,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 673,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1719,
+      "numerical_signature": "SLLvvLzvQAPvAPzvAvAAQALLAMQMQQcbcmgmqlormptrpuuDvGyIEECAJBLFGNPJNKOKNQRRQPRQtsivlauaaojffcmlatarxtlgclgatkjarnvfsnatiattg_bBDe"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1956,
+      "numerical_signature": "VLvvvMMLLvLwzQvwLPMzQQPQzAQvPPQQcbgjhlmkuwxzqpzAvHCAEDzyBIDGMHLKJGNLJORQSTSTRRUUUhggggefaaalnbhigtatlaofrrnvasvnrbakkxgvnqkhfguuw_bBab"
+    },
+    {
+      "parent_index": 24291,
+      "index": 769,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1786,
+      "numerical_signature": "8LvvAPvwzvwAPvwLvzwQLMLzzAAQAAQPwLAQwQQQQbfihjhkqrvrotwFCDMFKFPQREOHRWIOIKJLWMXZX0S2ZYWV350Z0437654767xaavnohgoasftibggaomstaqfhcaauiuubjjvotoakautfopadjwjssvwbbcf_bBab"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1954,
+      "numerical_signature": "VLvvvLQwMLLzwLMQLALQzAMvzQAMzPQQcbjhnlmojprqttvutswACDEyDAFCCEGNIKMKMPQQUSQRTTSUUhggagaakqaawwfcvcteduavkwabnmcavwacpmkkadgmacfkb_baCb"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1987,
+      "numerical_signature": "YLvvvMzvMwLQLwzwzPPwMzwQAPQPMzPPQQcbgjmnjqqusorovAvCzHFCyDGDNMILFMHLRLKQPRSTWVUTWXVXWXhggaikuuaahovoakqhpauvsrbaxvtodfupdcfgbmtamhqckvgbg_baCb"
+    },
+    {
+      "parent_index": 24291,
+      "index": 770,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 773,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 714,
+      "numerical_signature": "5vLvLvvvMvvPzzvAwvwwQMAQLMPMMAPQPQQPQQQdisjsntuHFIGFJNOCMRERTSLWQXOGUEJ0TXLWXVROPZ1SYVUZ032314434jatvioipajalkimmcamfmaahamaaxibhwvsbnkngfochccrvovhlhqunvn_baBb"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1785,
+      "numerical_signature": "1LvAvLvMLwvwLvLQzzPvLwwQMQzMAQMPQQQQccdejiiqkwusCuFDHICyJBKSEDKMGIUMLLXSVVQYYTYR0ZRWWUWV0Z0hvaagccbaaeaimtauscdgiajkaicexujjaossgppfdctivvngnjkoc_bBDe"
+    },
+    {
+      "parent_index": 24291,
+      "index": 783,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1990,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1794,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1756,
+      "numerical_signature": "2LPvvvwwwvvAwzLPLwMzQPvzQwQQALQMQPMQQbcdgjopvnADCDAwHAxFNJIzDCOKPGJOTLORMRSVSQWSVYXZXZ0X1011xvvgafgagahifffanbgaedgwfpamfxlcbkfcbffofigghehahcscbjc_bBab"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1759,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1985,
+      "numerical_signature": "XvLvLvLQvzwMQvzPQQPzzPzwwPAvQQAPQkeimpklnrmnrvquuywwuxxDBADCHGEGHKMLMMPRTUPSQWVVWWUVkashkkcpkopegsvpggvgnplocbutgmbbpfaebvkcckbaxqqqwx_bBab"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1753,
+      "numerical_signature": "1LvvAzvwvvvLLPMPvzAvAMwMAQMMPPQMQQQQcbfihhrtoxAEGwuKAxPJGQRTFJEDOUUHPKVTZMVYZ0SWXUXRXSYYW00xaavogooapqutcapxvfoiaarrcbreuofoidprqadahhxpxccfsscjb_baBb"
+    },
+    {
+      "parent_index": 24291,
+      "index": 683,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1930,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 145,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 723,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1925,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 799,
+      "numerical_signature": "8vLLvAPzvwLAvQPzLALvLzPLzvQLPLQLwAPQQQQQQdgfiihmktpvvuuxzztyECJGKFGLUKQOQNYRS03WT24YZUZ1WY367256475467oiaascafagsssgillsupgucicclifgvooajjaagfaxlevhqoqlnngcjojkrfk_bBdC"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1927,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 731,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 137,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 160,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 146,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1664,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 134,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1628,
+      "numerical_signature": "SvLLwLPQvzvLLMMLvMLAvMMAMQMQQQcdgeighkmmmtrxwyuzEACHEFBDDOKGJHMMQONRMLORQPQRoqfofffxiefoaaabeeekacjvboaqvxxubfkchjbvhjbvl_baBb"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1926,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 778,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1754,
+      "numerical_signature": "9LvzAvLvzPwAPvvzLvQvMwzQLAQAvQMAzPzQwQQQQkbefhkkqkprurovCAKEEOzGPISNEHUMUNMTKVZV0SR1RYU0X358616643575788xxaaxisvgoasfisgaostocauapgxmimxwovotoavwqfubdvscassowfjcqomeo_bBab"
+    },
+    {
+      "parent_index": 24291,
+      "index": 147,
+      "numerical_signature": "PvLLwzvPPQAvLPvvzAAQvPQPMQPQcdfeimlmlplmqpqvuuAwyABFHJHGFELIJMJKMNNLOOOoafaaaqquqqtuflabagfppaewogfolbwqnnmeeesbs_bBDe"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1790,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1609,
+      "numerical_signature": "0vLvvAvAzwvzMMAAAwLvzQLLLQQLAPQMQAQkdijipmnxuwuvwutCtCtHDKAGKPFRPHIHNPTOVNVUWRYXWYTVWXZZZoaavaoaaaccoocoagivauabuwtfierrrwlqbeomlqqoggnsjrnuhu_bBdC"
+    },
+    {
+      "parent_index": 24291,
+      "index": 680,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 677,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 149,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 756,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 789,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1950,
+      "numerical_signature": "ULvLLvMzMzzvwzPAzLPwMQzPPQwQAMQkbdgihmkknqsAvsuCvCxGBzJEGIMOKIJHMLLMLPNQRSTSRTThfgvoixxhgqutxxdfgvangailxuxhgroswwcbngmaeacfoc_bBDe"
+    },
+    {
+      "parent_index": 24291,
+      "index": 684,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 131,
+      "numerical_signature": "PvLLvvzQQALPzwwwMvLLAPQPPPQQcdfgjjokkojnpossvsxzBDGIEFBKJGEJNMMONLKLNOOoafofaffafblaqrlfhqelaaumfmmmoflkfaqnfnuhm_baCb"
+    },
+    {
+      "parent_index": 24291,
+      "index": 666,
+      "numerical_signature": "6vLvAwwvPzwPwzQALzMwzzzPALAAAPvPAMzPQQQkchigkqlnouwtxzryuAAwywyCFEFPLIQJLMKQUTORWX0VX3WZ10452453254jiaavindavbfaajuweubivgrwofppicbvrjgadcvepxkspfrdgqqaeigfko_bBCd"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1644,
+      "numerical_signature": "RvLLwzvPPPLvPvzzzzQPQMLPQwMQQkdfeimlmllmnqvBACwFIHAIFyDBBGLEMLGLPPNPQOQNOQoafaaaqqqqafaqtagflbfijjcnngujtmvmnffnmnqcvh_baEb"
+    },
+    {
+      "parent_index": 24291,
+      "index": 759,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 678,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 707,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 706,
+      "numerical_signature": "3vLvLvvvMvvPzzwzwvMMQPQwzAQLQLQPQPQQQkdisjsutupHIGBJJNOCMFEDFRLKUOGNXMYRTLTWOPZQSXWVV101YZ2212jatvixixtaaljiimmcaffgfahhaaxiaqwvbbbgfohcggsgcpahwlunvn_babb"
+    },
+    {
+      "parent_index": 24291,
+      "index": 108,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 151,
+      "numerical_signature": "NLvAvMLzPwLAPLLwLMvAPPMQQAQbfejhimponroppttxzxDzGFHCBJHJEGFKLIKLMMMxlxvvflhaeenvjuoaaaimaamvfeqxgaxmwcofaax_bBCd"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1659,
+      "numerical_signature": "YvLvvAzzzAMLvAQPPwvvPzAMLMPAQAAAQQccgihjnomqmqtytuxwxwzAICIDJMKQHOSONLMLRMUQRVTWVXWXWXwaawvlivavholobeblvmutnebtuaacdaldjwjfresfavqapacjf_bBDe"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1723,
+      "numerical_signature": "1LvvAzvwvvvLLPMPvzAvAMwMAQMMPPQMQQQQcbfihhrtoxAEGwuKAxPJGQRTFJEDOUUHPKVTZMVYZ0SWXUXRXSYYW00xaavogooapqutcapxvfoiaarrcbreuofoidprqadahhxpxccfsscjb_baBb"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1727,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1992,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1791,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 747,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    },
+    {
+      "parent_index": 24291,
+      "index": 1726,
+      "numerical_signature": "zLvvvAvLPMvQQMPQQkchfmqpslpsnutuovxuywvxvwyyujceaaaoaatbbovbqbanbqgcaf_bBBc"
+    }
+  ],
+  "diagram_matches": [],
+  "numerical_matches": [],
+  "limitations": "Each hit still needs certified peripheral identification and both oriented movie audits. Failed or unsampled cases remain unresolved.",
+  "failed": 12
+}

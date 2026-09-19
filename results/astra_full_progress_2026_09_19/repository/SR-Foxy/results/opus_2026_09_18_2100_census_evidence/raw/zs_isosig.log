@@ -1,0 +1,3 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+volume-matched groups at tol 1e-10: 1589  knots to sign: 3486

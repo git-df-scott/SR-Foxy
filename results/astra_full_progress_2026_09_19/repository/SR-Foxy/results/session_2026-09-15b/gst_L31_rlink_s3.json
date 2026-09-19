@@ -1,0 +1,27 @@
+{
+ "date": "2026-09-16T02:39:15.188339Z",
+ "source_knot": "GST_knot",
+ "source_crossings": 48,
+ "box": {
+  "seed": 31415,
+  "diagrams": 300,
+  "max_twists": 2,
+  "max_band_len": 5,
+  "backtrack": 30
+ },
+ "acceptance": "2 components, linking number 0, both component determinants 9, R-link verdict YES, components (genus 2, fibered) and (genus 6, fibered)",
+ "counts": {
+  "bands": 21665,
+  "two_component": 21636,
+  "linking_zero": 3606,
+  "det_9_9": 0,
+  "rlink_yes": 0,
+  "rlink_unknown": 0,
+  "diagrams_done": 1
+ },
+ "candidates": [],
+ "hits": [],
+ "stop": "finished",
+ "scope": "A hit is L_{3,1} up to the identification being on invariants rather than an isotopy. Sliceness is then inherited from GST section 8, not from this search.",
+ "elapsed_seconds": 3182.5
+}

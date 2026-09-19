@@ -1,0 +1,16 @@
+/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+indexed 128
+indexed 256
+indexed 384
+indexed 512
+indexed 640
+indexed 768
+indexed 896
+indexed 1024
+indexed 1152
+indexed 1280
+indexed 1408
+indexed 1536
+indexed 1664
+complete 1670 failed 185

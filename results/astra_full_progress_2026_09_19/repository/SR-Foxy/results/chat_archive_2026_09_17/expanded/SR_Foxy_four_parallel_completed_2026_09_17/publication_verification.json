@@ -1,0 +1,15 @@
+{
+  "commit": "0eb81a1a15147b2059b9028d0bbc0f4173f0ad33",
+  "branch": "main",
+  "force": false,
+  "all_seven_published_files_match_local": true,
+  "observed_blob_shas": {
+    "README.md": "912839405bf0f93c69d5da3e92a2e57a1f8a380f",
+    "certificate.json": "ff6f6fc6e8a9a1b80ee68e9bbc11481d14700b71",
+    "frontier_jet.cpp": "7b8f9fe19da8bac8f6feeb3b0d2ec038631ec66d",
+    "geometry.py": "31aec889882294544efdcbac7ec7307eec40e808",
+    "reproduce.py": "7cf13ee6473e41a19fcd41480dad9fded141aeb3",
+    "validation.json": "8c8dda18c06b9f1a331ab8a7c9cea78ef5cf7865",
+    "MANIFEST.json": "0815c2700e55a482c17f32f548717c99cf4a38b7"
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "status": "CALIBRATION_INPUT_ERROR_SUPERSEDED_BY_SIGNED_UNIT_TESTS",
+  "reason": "The trefoil expected product was mistakenly +3 instead of signed Jones determinant -3. No mathematical exclusion is justified by that initial flag. Other rows and raw residues are preserved.",
+  "rows": [
+    {
+      "components": 2,
+      "crossings": 2,
+      "jet_mod_32": [
+        31,
+        0,
+        30,
+        0,
+        31,
+        0
+      ],
+      "divisibility_remainder_mod_32": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient_at_i_mod_32": [
+        1,
+        0
+      ],
+      "expected_mod_32": 1,
+      "ribbon_obstructed_mod_32": false,
+      "scope": "Necessary ribbon conditions only; zero residue is inconclusive.",
+      "name": "U2",
+      "full_polynomial_agrees": true
+    },
+    {
+      "components": 3,
+      "crossings": 4,
+      "jet_mod_32": [
+        0,
+        1,
+        0,
+        3,
+        0,
+        3,
+        0,
+        1
+      ],
+      "divisibility_remainder_mod_32": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient_at_i_mod_32": [
+        1,
+        0
+      ],
+      "expected_mod_32": 1,
+      "ribbon_obstructed_mod_32": false,
+      "scope": "Necessary ribbon conditions only; zero residue is inconclusive.",
+      "name": "U3",
+      "full_polynomial_agrees": true
+    },
+    {
+      "components": 1,
+      "crossings": 3,
+      "jet_mod_32": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "divisibility_remainder_mod_32": [
+        0,
+        0
+      ],
+      "quotient_at_i_mod_32": [
+        29,
+        0
+      ],
+      "expected_mod_32": 3,
+      "ribbon_obstructed_mod_32": true,
+      "scope": "Necessary ribbon conditions only; zero residue is inconclusive.",
+      "name": "3_1",
+      "full_polynomial_agrees": true
+    },
+    {
+      "components": 1,
+      "crossings": 4,
+      "jet_mod_32": [
+        0,
+        27,
+        0,
+        27
+      ],
+      "divisibility_remainder_mod_32": [
+        0,
+        0
+      ],
+      "quotient_at_i_mod_32": [
+        5,
+        0
+      ],
+      "expected_mod_32": 5,
+      "ribbon_obstructed_mod_32": false,
+      "scope": "Necessary ribbon conditions only; zero residue is inconclusive.",
+      "name": "4_1",
+      "full_polynomial_agrees": true
+    },
+    {
+      "components": 1,
+      "crossings": 6,
+      "jet_mod_32": [
+        0,
+        23,
+        0,
+        23
+      ],
+      "divisibility_remainder_mod_32": [
+        0,
+        0
+      ],
+      "quotient_at_i_mod_32": [
+        9,
+        0
+      ],
+      "expected_mod_32": 9,
+      "ribbon_obstructed_mod_32": false,
+      "scope": "Necessary ribbon conditions only; zero residue is inconclusive.",
+      "name": "6_1",
+      "full_polynomial_agrees": true
+    },
+    {
+      "components": 2,
+      "crossings": 9,
+      "jet_mod_32": [
+        23,
+        0,
+        14,
+        0,
+        23,
+        0
+      ],
+      "divisibility_remainder_mod_32": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient_at_i_mod_32": [
+        9,
+        0
+      ],
+      "expected_mod_32": 1,
+      "ribbon_obstructed_mod_32": true,
+      "scope": "Necessary ribbon conditions only; zero residue is inconclusive.",
+      "name": "L9n18",
+      "full_polynomial_agrees": true
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "commit": "9bc873b6921b42c3f79e73046a3a4f617b66d001",
+  "parent": "43b71f03a9332af96d96ed1d53370233a1567768",
+  "scope": "One later termination memo captured in the same Git bundle; kept outside the unmodified source snapshot.",
+  "files": [
+    "results/astra_2026_09_19_live_checkpoint_audit/TERMINATION.md"
+  ]
+}

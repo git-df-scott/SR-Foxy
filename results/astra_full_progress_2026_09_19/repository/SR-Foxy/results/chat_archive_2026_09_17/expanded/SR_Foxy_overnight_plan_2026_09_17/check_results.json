@@ -1,0 +1,29 @@
+{
+  "status": "ARITHMETIC_CHECKS_PASS_NO_COUNTEREXAMPLE",
+  "scope": "Proof arithmetic and saved jet normalization only; no new knot or satellite computation.",
+  "checks_passed": 401,
+  "polynomial_identity_fixtures": 384,
+  "scalar_mod32_cases": 2048,
+  "negative_controls": 4,
+  "control_leading_differences": [
+    48,
+    1776
+  ],
+  "reference_ribbon_knot": "connected sum of three copies of 6_1",
+  "reference_signed_determinant": 729,
+  "target_moment_residues": [
+    25,
+    17,
+    9
+  ],
+  "input_sha256": "0b3d8b7da27583671b804f802c11a7221ca4a507a72a40ca517524c6a28f2954",
+  "script_sha256": "d4464f30dcb7b16429f9a9b21e8b5290fcaad3235b435eec182a5484b21ac407",
+  "python": "3.13.5",
+  "seconds": 0.0049464150000062546,
+  "deterministic": true,
+  "unverified_here": [
+    "satellite diagrams and framing",
+    "original Jones evaluation",
+    "independent external review of the transfer proof"
+  ]
+}

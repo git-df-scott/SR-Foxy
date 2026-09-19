@@ -1,0 +1,3809 @@
+{
+  "status": "PASSED_FOR_EVERY_USED_HFK_RESULT",
+  "checks": [
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "gabcadebcfdefvvpd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefghijfklamnolpqbrsmnijsrcdeqpkghox24YuPaJ8ZFECc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "dabcabcva",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdeafghigjklmnoebfjkpqrmnoshicdslrqphR2yLmbZFIZX5d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdeafghijfklmnoebjgkpqlrnoshicdsrmqphB2yMmbZVK1Y5d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdeafghijklfmnoebjklgpqrnoshicdsrqpmhB1KMSaZpMXZ5d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefghijfklamnolpqrsbmnijcsrdeqpkghox24QKPaJ8ZF2Cc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdeafghigjklmndobfjkpqlmrsnhicoesrqphR6yMybRFWZS1d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdeafghijkglmnoebjkfpqlmroshicdsnrqphB6uMmbZpP505d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdeafghigjklmnoebfjkpmqrnoshicdsrqlphR2yMSaZFItZ5d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdeafghijfklmnoebjgklpqrnoshicdsrqpmhB2OMSaZVKLZ5d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefghijkglmnaolpqrsmnbijcsrdeqpfkhox20AKzad95p3Sc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdeafghijcdklmkjnoihpfqrsebnopgqrlmshlRzoPaZF+SCKd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefghijklmnokhgdpqanorqbslmscpefijrNztJtPalZ5p-fc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdeafghijfklmnoebjgkpqlmroshicdsnrqphB6yMmbZVO105d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdeafghigjklmnoebfjkpqlrnoshicdsrmqphR2yMmbZFKZY5d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdeafghijfklmnoebjgkpmqrnoshicdsrqlphB2yMSaZVIvZ5d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdeafghijfklmnoebjgplmqrnoshicdsrqpkhB1yMSaZVHnZ5d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefghijkglamnolpqrsbmnijcsrdeqpfkhox24QKzad9ZF2Sc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefghicjkdilmnamopqrskjblophgqrfesnNItvAMbZ3+bpZc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdeafghijfklmnoebjgkpqrmnoshicdslrqphB2yLmbZVI1X5d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefghijdckalmniopjkblmqrghrsepofsqnBMzMQ4apZst+Td",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdeafghijkglmnoebjkflpqrnoshicdsrqpmhB2KMSaZpLPZ5d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefghijfekldcmnoapqrklsnoqijrsmbghpRPPCPmb-8CwIFc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefghijhklamnolpqbrsmnijsrcdeqpfgkox14Yuzad+ZFEmd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdeafghijfklmndobjgkpqlmrsnhicoesrqphB6yMybRVW1S1d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefghicjkdilmnopamqrskjopblhgqrfesnNItvMMbZ3EgZZc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefghicjkdilmnaopmqrskjboplhgqrfesnNItwQMbZ3+eNZc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefghijhklmnaolpqrsmnbijcsrdeqpfgkox10AKzad+5p3md",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdeafghijkglmndobjkfpqlmrsnhicoesrqphB6uMybRpX5S1d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefghicjkdilmnaolpqrskjbomphgqrfesnNItwAMbZ3+cxZc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdeafghijkglmnoebjkfpqlrnoshicdsrmqphB2uMmbZpL5Y5d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "gabcdbefcdaefNKti",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "dabcabcv-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "gabcdefbafedcvvdd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "habcadefgbcgfedtzb5Zd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefghiajklmfgniopbjkqdersqcpohnmrsl3MzkzYaBktNtFc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefgchijklefmnokjpqihrsbgdlopqrsamnNPsMXvbl9zZ8Gd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefghbijgklmnhaiodpqrfsocnmpqlkresj3zAuMza7uVg1Sc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefghijbkflmnhiopjakqdrseqcponmrslg3LAgvAaBroRzpd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefghiajklmnghibopjkqdersqpocfnmrsl3LvmzXa7ihNZDc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefgahijklgmnbhiopjkqdrseqpocnmrsfl3PPmvza7cDM5nd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefghijbklgmnhiopjakqdrfsqcponmresl3LzgzAa7qnRvVc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefghicjklmnokapqrifnoedjbpqrslmghsxgzYS2a70ZyECc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefghiajklgmnhibodpfqrsocnmpeqlkrsj3vzKMXa74nx0Ac",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefgchijkdglmnopqbrmskjopihqarlfesnNPrzMPbZ8CuZ6c",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefghiajklmfnhiopbjkqdersqcpongmrsl3LzkzYaBjlNtFc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefghijkalmnghiopjkbqdersqcpofnmrsl3vvgzYa7GhZtFc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefgchijklefmnlopkjiqrasgdophqrbsmnNrtwXMbl95CAsd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefghijkcdlminofebpqnrsoapklgsrhmjqNzDAgzaZuoxRTc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefghijdklmnaopqlrsmnbijcsrkefqpghoN2vzKYal84n3zc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefghiajklgmnhibopjkqdersqpocnmfrsl3LzmzPa7inNZDc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_component_screen.json",
+      "key": "tabcdefgahijklgbmnhiopjkqdersqponmcfrsl3PXmzLa7cDMZxc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "gabcdefdcbafevvpp",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "dabcabcva",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghijfklmnomnoapqrlstbuvpqijvucdetskghrx2u5YuPaJ8bYFECc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghijklmnokpgfeqanorstustuqbvlmvcdphijrNAZIRsLaZX5pb+jc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghfghaijklminopqrebmjnstouqrvklcdvuptsNkB2yMmbtGVK1Y5d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghfghaijklmnoipqrebmnojstuqrvklcdvutspNkB1KMSatGpMXZ5d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghijfklmnomnoapqrlstuvbpqijcvudetskghrx2u5QKPaJ8bYF2Cc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghfghaijkljmnopqdrbimnstopuvqklcrevutsNkR6yMyblGFWZS1d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghfghaijklmnjopqrebmnistopurvklcdvqutsNkB6uMmbtGpP505d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghijklmnokhgpeqanorstustuqbvlmvcdpfijrNztJvtLatZ5pb+jc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghfghaijklminopqrebmjnostuqrvklcdvutspNkB2OMSatGVKLZ5d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghijkglmnomnopqarlstuvpqbijcvudetsfkhrx2u1AKzad9b4p3Sc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghijklmnlopkhgqeraopstuvtuvrbmncdqfijsNznnwnLatZN-e4jc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghijklmnokhgdpqanorstustuqbvlmvcpefijrNztJvtPalZ5pb+fc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghfghaijklminopqrebmjnstopurvklcdvqutsNkB6yMmbtGVO105d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghijklmnokhpfeqanorstustuqbvlmvcdgpijrNzZIvtLaZY5pb+rc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghfghaijklminopqrebmjnsptuqrvklcdvutosNkB2yMSatGVIvZ5d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdeafghijcdkljmnihopgqrebmnopfsrklqstuvtuvhlBMtLubZFoZg2da",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghijkglmnlmnoapqrostuvbpqijcvudetsfkhrx2Q4QKzad9aZF2Sc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghicjkdlmnlmniopqaprstuvkjborshgtufevqNIvtvAMbZ3a+bpZc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghfghaijklminopqrebmjnstupqrvklcdvoutsNkB2yLmbtGVI1X5d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghijdckalmniopjkblmqrghrstuvtuvepofsqnBMzMQu5apZst+bSd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghijklmnokpgfeqanorstustuqbvlmvcdphijrNAZIvtLaZX5pb+jc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghfghaijklmnjopqrebmniostuqrvklcdvutspNkB2KMSatGpLPZ5d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghijfekldcmnoapqrklsnoqijrsmbtuvtuvghpRPPCPmvb-8CwIFac",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghijhklmnomnoapqrlstbuvpqijvucdetsfgkrx1u5Yuzad+bYFEmd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghfghaijklminopqdrbmjnstopuvqklcrevutsNkB6yMyblGVW1S1d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghicjkdlmnlmniopqrsaptuvkjrsbohgtufevqNIvtvMMbZ3aEgZZc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghicjkdlmnlmniopqarsptuvkjbrsohgtufevqNIvtwQMbZ3a+eNZc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghijhklmnomnopqarlstuvpqbijcvudetsfgkrx1u1AKzad+b4p3md",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghfghaijklmnjopqdrbmnistopuvqklcrevutshvB6uMyblGpX5S1d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghfghaijklmnjopqdrbmnistopuvqklcrevutsNkB6uMyblGpX5S1d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghicjkdlmnlmniopqarostuvkjbrpshgtufevqNIvtwAMbZ3a+cxZc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdefghfghaijklmnjopqrebmnistouqrvklcdvuptsNkB2uMmbtGpL5Y5d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "jabcdefgahcigfedibhxvf7N3",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "gabcdefbafedcvvdd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "oabcdefghijbkhlmnjakgfelmdcniRKvAg-xHol",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "oabcdeafghijebfklghmnicdjnmlkBAMjfVqn7p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "oabcdeafghijebfklghimncdnmjlkBAMQeVqn+p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "oabcdeafghijebfklgmijncdnmhlkBwMPeVeT8p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "oabcdbefghijaefklgmijncdnmhlkRwMPeFKS8p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "oabcdeafghijebfklghmjncdnimlkBAMPeVin9p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "oabcdefbghijefaklgmijncdnmhlkBwLPepfU8p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "oabcdbefghijaefklghmnicdjnmlkRAMjfFWm7p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "oabcdefbghijefaklghmnicdjnmlkBALjfpro7p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "oabcdefbghijefakhlmijncdnmlgkBwLPcpd28p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "oabcdbefghijaefkhlmijncdnmlgkRwMPcFI08p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "habcabcdefgefgdvvb-bc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "jabcdbefcdaefghighiNKvti-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "gabcabcdefdefvv-a",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "gabcdbcdefaefRub+",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "jabcdeafcdebfghighixKvJq-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "oabcdbefghijaefklghmjncdnimlkRAMPeFOm9p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "oabcdeafghijebfgklmijncdnmlkhBwQPcVe58p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "oabcdefbghijefaklghimncdnmjlkBALQepro+p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "oabcdeafghijebfklmhijncdngmlkBwwPeVcD8p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "mabcdbefghijaefghklicdjlkRAAsFWW+",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "mabcdefbghijefaghklicdjlkBAzsprY+",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "mabcdeafghijebfghkjlcdlikBAAkVir-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "mabcdefghbifjklhaiejkdclglzLz-vOS",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "mabcdefbghijefagkijlcdlkhBwzkpfk-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "mabcdefghdciajeklhibjfklglzww-TcL",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "oabcdefghijbgklmnjahkfelmdcniRKvzg-3Gnl",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "oabcdeafghijebfkhlmijncdnmlgkBwMPcVc18p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "oabcdbefghijaefklghimncdnmjlkRAMQeFWm+p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "mabcdefghiajefghibklcdlkjBvLkpyW-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "mabcdefgahijefgbhklicdjlkBzzsps0+",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "mabcdefghbijkflhaijkedclglPLA-fjU",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "mabcdefgahijefgbhiklcdlkjBzPkpsK-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "mabcdefghbijefghakjlcdlikBzvkpmy-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "mabcdefgahijefgbhkjlcdlikBzzkpku-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "mabcdefghbijefghaiklcdlkjBzLkpuO-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "mabcdefghdcbijeklhaijfklglPww-DIK",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "mabcdefbghijefaghiklcdlkjBAPkprI-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "mabcdefbghijefaghkjlcdlikBAzkpjs-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "mabcdefghbijefghaklicdjlkBzvspu4+",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "mabcdbefghijaefgkijlcdlkhRwAkFKi-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "mabcdefghdcijbeklhijafklglzwv-ndM",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "mabcdefbghijefakhijlcdlgkBwvkpdg-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "nabcadefgbchijkihlmkjmlgfedtPQAb5ddZd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "nabcadefgbchijhklmjimlkgfedtzvvb5JHXd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "mabcdefgahijefgbkijlcdlkhBvzkpgm-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "FabcdefghdgiefihjklmnlmnojkopqrsctuvwxqryzAwvBCutbDEspxABCaDEyzVQYkLPsMYLblpKFi9zZ5id",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "HabcdefghijklminkomhnjolpqrstrupqustcvwxywzABbCDgdvzABaEFCDGxyefGFENzttvvujxztlb1QHhFKJZ5",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "HabcdefghbijklmfgnaiopjkqdersqpochnmrsltuvwxyztwAyzuvAxBCDEFDGBCGEF3QzmzXmvzvvBgZMZDcMtdp",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "HabcdefghijkalgmnhiopjkbqdrseqcponmrsfltuvwxtyzAvuyzAwxBCDEFDGBCGEF3vzgvAmPAvv7GnZzpdCodp",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "HabcdefghbijklgmndoijpqklrestfrqpocnstmuvwxywzABzvuABxyhCDEFDGaCGEFVtLzQYuPzuv7g8mZxc8mdp",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "HabcdefghicjklgmnoibjpqklrestfrqpdonstmuvwxyzvAxBzuAwByhCDEFDGaCGEFVt1yQYmzzuv3kCnZBcQvdp",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "HabcdefghijbklgmnoijcpqklrestfrqpdonstmuvwxyzvABwzuABxyhCDEFDGaCGEFVl1yQYmPzuv3sCoZBcAndp",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "HabcdefghijklmnfgopqibklrdestrchqponstmuvwxyzvAxBzuAwByjCDEFDGaCGEF3Mzjz0mzzvvBkZLtFcQvdp",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "HabcdefghijklmnfghcopqklrdestrqpobinstmuvwxywzABzvuABxyjCDEFDGaCGEF3MjnzXuPzvvDmJNZBc8mdp",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "HabcdefghijkcdlfmnaopqrstpsuqrutkvwxyzABxyzCvwBAChDEgleboFGDEmnGijFNzruvLQnZMntt6YdZ5a5nN",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "FabcdefghijbklmngoijcpqklrefstrqpdohnstmuvwuxyzxyzvwABCDBEaAECDVlZyYIPutvb3swoN7e+j8a",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "FabcdefghdgiefihjklmnlmnojkopqrsctuvwpqxyzAwvBCutbDEsrxABCaDEyzVQsvvPrMYLblpKFG9CZ5id",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "FabcdefghbijklmhndoijpqklrestfrqpocnstgmuvwuxyzxyzvwABCDBEaAECDVtJzQYOQsvb7f6mZxg+j8a",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "FabcdefghijbklmhnoijpdqklrefstrqcpongstmuvwuxyzxyzvwABCDBEaAECDVlZyYuPQsvb7rAoN9e+j8a",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "HabcdefghijklbmnohijpqklcrefstrdqpgonstmuvwxvyzAyuBzAwxBCDEFDGaCGEFVRQmYKrPzvv3bpMN+e8mcp",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "HabcdefghijklbmnohijpqklcrefstrdqpgonstmuvwxyuzwAyBzvAxBCDEFDGaCGEFVRQmYKjzzvv3bpMN+eQvcp",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "HabcdefghijklbmnghojpqklcrefstrdqpionstmuvwxyuzwAyBzvAxBCDEFDGaCGEFVTYmYKjzzvv3eNMN+eQvcp",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "oabcdefghigfedchibjklmanmlkjnxtjvf-5tyi",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "nabcadefgbchijklhmlkjimgfedtzvvb5ty4d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "oabcdefghfedcbghaijklminmlkjnRPuvf-8zyi",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "oabcdefghdihgfeicjaklmjbnlmnkRQAdgpmSxl",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "nabcadefgbhijklmkjihmlcgfedxrvvb9dg+d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "nabcdefghbgfedchijklmiamlkjROwvb-9lma",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "nabcadefcghijklhmlkjimgbfedxPQkb7nm8d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "nabcdefbedcfaghijklhmlkjimglAvvbFVddd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "nabcadcefghijklhmlkjimgfebdxQQQaBpm8d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "vabcdefghijkljimnlknmhobpqrsgdcoapqtsuefurtBwvHUzmpZWu6s5",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "vabcdefghijkljimnlknmhopaqrsgdcopbqtsuefurtBwvrUzmpZWK6u5",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "vabcdefghijkcdlfmhnlebkjingmaopqrpsturqutsoNuztZQktDc-AdJ",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "wabcdeafghcijdklmnompqronrqplkstuvejibhstgfuvhLTQYQycZ32Wy4Za",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "uabcdefghijkilmnkjnmlhaopqrfsdcbtpqrgsetolRQsTwcVAyC0dm",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "vabcdefghijkclefgmnomdlbkjinohapqrpsturqutsNu6mzvvlEr+Zgg",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "sabcdefghicdejkljbihgflkamnompqronrqpxvknvvJh5Ngg",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "vabcdefghijklbefgmnomdclkjinohapqrpsturqutsNu6uzvvn+q+Zgg",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/deeper_diverse_hfk_screen.json",
+      "key": "uabcdefghijklmkjinmlnhaopqrsebtpotcdsfgrqNuvvnvgtIHn-Km",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/fibered_returns.json",
+      "key": "gabcadebcfdefvvpd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/fibered_returns.json",
+      "key": "tabcdefgchijklefmnlopkqihrasgdopjqrbsmnNjtMXMbl950Asd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/fibered_returns.json",
+      "key": "tabcdefgchijklefmnlopkjiqrasgdophqrbsmnNrtwXMbl95CAsd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/fibered_returns.json",
+      "key": "tabcdefgchijklefmnlopqjihrasgdopqkrbsmnNjtQXMbl954Aud",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/fibered_returns.json",
+      "key": "tabcdefgchijkdglmnokjpqihbrslfeopqarsmnNPrMQLbZ8CZ5id",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/fibered_returns.json",
+      "key": "tabcdefgchijklefmnokjpqihrasgdlopqrbsmnNPsMXLbl9zZ6qd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/fibered_returns.json",
+      "key": "tabcdefgchijklefmnlojpqihrsbgdokpqrsamnNjtMXvbl95YCHd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/fibered_returns.json",
+      "key": "tabcdefgchijklefmnlojpqihrasgdokpqrbsmnNjtMXLbl95YArd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/fibered_returns.json",
+      "key": "tabcdefgchijkilbmnopgdhlamnqropsjkefsrqNrPCMnbl9fUmNd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/fibered_returns.json",
+      "key": "tabcdefgchijklefmnlopkjqriasgdopqrhbsmnNrtMXQbl95mByd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/fibered_returns.json",
+      "key": "tabcdefgchijkdglmnokjpqihraslfeopqrbsmnNPrMPLbZ8CZ6qd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/fibered_returns.json",
+      "key": "tabcdefgchijkilmnbopgdhlmnaqropsjkefsrqNrLCLnbl9rooNd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/fibered_returns.json",
+      "key": "tabcdefgchijklefmnlojpqihbrsgdokpqarsmnNjtMYLbl95Yzjd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "gabcadebcfdefvvpd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "tabcdefgchijklefmnlojpqihrasgdokpqrbsmnNjtMXLbl95YArd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "tabcdefgchijkilbmnopgdhlamnqropsjkefsrqNrPCMnbl9fUmNd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "tabcdefgchijkialmnopgdhblmnqropsjkefsrqNrPSMnbl9dEmNd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "tabcdefgchijklefmnlopkqihrasgdopjqrbsmnNjtMXMbl950Asd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "tabcdefgchijklefmnlojpqihrsbgdokpqrsamnNjtMXvbl95YCHd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "tabcdefgchijklefmnlopkjqhbrsgdopqiarsmnNrtMYMbl95Szmd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "tabcdefgchijklefmnlojpqihbrsgdokpqarsmnNjtMYLbl95Yzjd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "tabcdefgchijkilmanopgdhlmbnqropsjkefsrqNrLCMnbl9jonNd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "tabcdefgchijklefmnlkopqihbrsgdjopqarsmnNjtLYLbl95X5id",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "tabcdefghijhklmbnolpqrsmanijcsrdeqpfgkox1zAKzad+uV2md",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "tabcdefgchijklefmnlopkjiqbrsgdophqarsmnNrtwYMbl95Czkd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "tabcdefgchijkdglmnokjpqihbrmsfeopqarlsnNPrMMLbZ8CZ1Oc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "tabcdefgchijkdglmnokjpqihrsblfeopqrsamnNPrMPvbZ8CZ8Gd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "tabcdefgchijkdglmnokjpqihraslfeopqrbsmnNPrMPLbZ8CZ6qd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "gabcdefbafedcvvdd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "oabcdbefghijaefgklmijncdnmlkhRwQPcFK48p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "tabcdefgchijklefmnokjpqihrsbgdlopqrsamnNPsMXvbl9zZ8Gd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "tabcdefghijkglmbnolpqrsmanijcsrdeqpfkhox2zAKzad9uV2Sc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "tabcdefgchijklefmnlopkqihbrsgdopjqarsmnNjtMYMbl950zkd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "oabcdeafghijebfklmhijncdngmlkBwwPeVcD8p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "oabcdeafghijebfkhlmijncdnmlgkBwMPcVc18p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "oabcdbefghijaefklghmnicdjnmlkRAMjfFWm7p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "oabcdeafghijebfklghmjncdnimlkBAMPeVin9p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "oabcdeafghijebfklghimncdnmjlkBAMQeVqn+p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "oabcdeafghijebfklghmnicdjnmlkBAMjfVqn7p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "oabcdefbghijefaklghmnicdjnmlkBALjfpro7p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "tabcdefgchijkdglmnokjpqihramsfeopqrblsnNPrMLLbZ8CZ2Wc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "tabcdefgchijklefmnlopqjihrsbgdopqkrsamnNjtQXwbl954CKd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "tabcdefgchijkdelmnokjpqihbrsgflopqarsmnxPrMYLbJ9CZ5id",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/new_partner_component_screen.json",
+      "key": "tabcdefgchijklefmnlopkqihrsbgdopjqrsamnNjtMXwbl950CId",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "gabcadebcfdefvvpd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefgchijklefmnlopkqihrasgdopjqrbsmnNjtMXMbl950Asd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefgchijkilmanopgdhlmbnqropsjkefsrqNrLCMnbl9jonNd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefgchijklefmnlojpqihrsbgdokpqrsamnNjtMXvbl95YCHd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefgchijklefmnokjpqihrasgdlopqrbsmnNPsMXLbl9zZ6qd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefghijkglmbnolpqrsmanijcsrdeqpfkhox2zAKzad9uV2Sc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefgchijklefmnokjpqihbrsgdlopqarsmnNPsMYLbl9zZ5id",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefgchijkdglmnokjpqihramsfeopqrblsnNPrMLLbZ8CZ2Wc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefgchijklefmnlopqjihrsbgdopqkrsamnNjtQXwbl954CKd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefgchijklefmnlkopqihrasgdjopqrbsmnNjtLXLbl95X6qd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefgchijklefmnlopkjqhrasgdopqirbsmnNrtMXMbl95SAud",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "sabcdeafghijklebfgmnoijpcdqrponmhkrqlBwPMQmVKLZ5N",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "dabcabcva",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefgchijklefmnlkopqihbrsgdjopqarsmnNjtLYLbl95X5id",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefgchijklefmnlopkjiaqrsgdophbqrsmnNrtwYQbl958ygd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "sabcdbefghijklaefmnghopicdqrjponmkrqlRAzMsnFWZS5N",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefgchijklefmnlojpqihrasgdokpqrbsmnNjtMXLbl95YArd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefghijbkflmnhiopjakqdrseqcponmrslg3LAgvAaBroRzpd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefghicjklmnopjbqrifnoedpkaqrslmghsxgPYC2a70Jz2Cc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefgchijklefmnlopqjihbrsgdopqkarsmnNjtQYMbl954zmd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefgchijklefmnlkopqihrsbgdjopqrsamnNjtLXvbl95X8Gd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefgchijkdelmnokjpqihrasgflopqrbsmnxPrMXLbJ9CZ6qd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefgchijkdelmnokjpqihbrsgflopqarsmnxPrMYLbJ9CZ5id",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefgchijklefmnlopkqihrsbgdopjqrsamnNjtMXwbl950CId",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefgchijklefmnlopkjiqbrsgdophqarsmnNrtwYMbl95Czkd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefghijhklmbnolpqrsmanijcsrdeqpfgkox1zAKzad+uV2md",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefghijkcdlfmnaokhpqgleborspqmnsijrNzrmB2att6M3Cc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefgahijklgmnbhiopjkqdrfsqpocnmresl3PPmzza7cDM1Tc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefghiajklmfnhiopbjkqdersqcpongmrsl3LzkzYaBjlNtFc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefgchijkdglmnokjpqihraslfeopqrbsmnNPrMPLbZ8CZ6qd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefghijkcdljmnihopgqebrmnopsarklqfsNvnZQratFM5b7c",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefghbijklgmnhaiopjkqdersqpocnmfrsl3PzmzPa7eTMZDc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefgchijklefmnokjpqihrsbgdlopqrsamnNPsMXvbl9zZ8Gd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefgchijklefmnlopkjiqrasgdophqrbsmnNrtwXMbl95CAsd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/pilot_fibered_components.json",
+      "key": "tabcdefgchijklefmnlopqjihrasgdopqkrbsmnNjtQXMbl954Aud",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_component_screen.json",
+      "key": "gabcadebcfdefvvpd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_component_screen.json",
+      "key": "dabcabcv-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_component_screen.json",
+      "key": "gabcdbefcdaefNKti",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_component_screen.json",
+      "key": "habcadefgbcgfedtzb5Zd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_component_screen.json",
+      "key": "gabcdefbafedcvvdd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_component_screen.json",
+      "key": "iabcdefghbcdafghevvfp8a",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "gabcadebcfdefvvpd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "gabcdefbafedcvvdd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "habcadefgbcgfedtzb5Zd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "tabcdefghicjklefmnokjbpqihrsgdloapqrsmnNLskZPbl3zN5cd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "tabcdefgahijklgmnbhiopjkqdersqpocnmfrsl3PPmzPa7cDMZDc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "tabcdefghiajgklmnhibodpqrseocnmpqlkrsfj3vAuLza7yph2md",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "tabcdefghicjkdglmnokjbpqihlrsfeoapqmrsnNLrkNzbZ2CNZsc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "tabcdefghijhklmbnkopqrsmanijcsrdeqpfgolx1PAKzadELV2md",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "tabcdefgahijkflbmnhiopjkqdrseqponmcrslg3PYmvvaBdEM5hd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "tabcdefghiajklmfgnopibjkqdersqchponmrsl3Mzjz0aBkZLtFc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "tabcdefghijbklmnghiopjakqdersqcpofnmrsl3LvgzYa7qhRtFc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "tabcdefgchijklefmnokjpqihrsbgdlopqrsamnNPsMXvbl9zZ8Gd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "tabcdefghbijgklmnhaiodpqrfsocnmpqlkresj3zAuMza7uVg1Sc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "tabcdefgchijkdelmnopqbrslkjopihqargfsmnxPrPMXbJ9CKZAd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "tabcdefghijklfebmnkoplamqhrjsqcdgporisnNDAgzzaZoxRvSc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "tabcdefghiajgklmnhibodpqersocnmpqlkfrsj3vAuMPa7ypN0Cc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "tabcdefghijklmcdenijopaqmlrskhgfnbqrsopxzLetRbJZrU5hd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "tabcdefgchijkdglmnopqbrmskjopihqarlfesnNPrzMPbZ8CuZ6c",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "tabcdefghijklfebmnkoplamqhrsiqcdgporsjnNDAgvzaZoxRzmd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "gabcdbefcdaefNKti",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "dabcabcv-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "dabcabcva",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": true,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "tabcdeafghigjklmndobfjkpqlmrsnhicoesrqphR6yMybRFWZS1d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "tabcdeafghijfklmndobjgkpqlmrsnhicoesrqphB6yMybRVW1S1d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "tabcdeafghijfklmnoebjgkpqlrnoshicdsrmqphB2yMmbZVK1Y5d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "tabcdefghijfklamnolpqrsbmnijcsrdeqpkghox24QKPaJ8ZF2Cc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "tabcdefghijkglmnaolpqrsmnbijcsrdeqpfkhox20AKzad95p3Sc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "tabcdeafghijfklmnoebjgkpmqrnoshicdsrqlphB2yMSaZVIvZ5d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "tabcdefghijhklamnolpqrsbmnijcsrdeqpfgkox14QKzad+ZF2md",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "tabcdeafghijkglmndobjkfpqlmrsnhicoesrqphB6uMybRpX5S1d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "tabcdefghicjkdilmnaopmqrskjboplhgqrfesnNItwQMbZ3+eNZc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "tabcdeafghijfklmnoebjgkpqlmroshicdsnrqphB6yMmbZVO105d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "kabcdefghiajcdihgfebjNsRaZF+d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_component_screen.json",
+      "key": "iabcdefghbcdafghevvfp8a",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": null
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "gabcdefdcbafevvpp",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "dabcabcva",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "gabcdefbafedcvvdd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "oabcdeafghijebfklghmnicdjnmlkBAMjfVqn7p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "oabcdeafghijebfklgmijncdnmhlkBwMPeVeT8p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "oabcdbefghijaefklghmjncdnimlkRAMPeFOm9p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "oabcdefbghijefaklghmjncdnimlkBALPepjo9p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "oabcdbefghijaefklghmnicdjnmlkRAMjfFWm7p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "oabcdefbghijefaklghmnicdjnmlkBALjfpro7p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "oabcdbefghijaefkhlmijncdnmlgkRwMPcFI08p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "mabcdefbghijefakhijlcdlgkBwvkpdg-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "mabcdefbghijefaghklicdjlkBAzsprY+",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "mabcdefgahijefgbhklicdjlkBzzsps0+",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "oabcdefbghijefaklgmijncdnmhlkBwLPepfU8p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "oabcdeafghijebfkhlmijncdnmlgkBwMPcVc18p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "mabcdefghbijefghakjlcdlikBzvkpmy-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "mabcdefghbifjklhaiejkdclglzLz-vOS",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "mabcdefghbijkflhaijkedclglPLA-fjU",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "mabcdeafghijebfghkjlcdlikBAAkVir-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "nabcadefgbchijhklmjimlkgfedtzvvb5JHXd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "vabcdefghijkilmnkjnmlhopaqrsgdcopbtrsuefutqBQQsTzmpByK5m5",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "vabcdefghijkcdelmfnhomlbkjingoapqrpsturqutsxu5jzvvdFm9Rgg",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "wabcdefghijklmihmlkjgfanopqdrbnstopuvqcrevutsNQQIUzybRhgoCZ0d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "wabcdefghijklmnomlkjonihpbqrsftuvpaqcvudetgsrxuvv2gMbJggE9ltd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "mabcdefgahijefgbhiklcdlkjBzPkpsK-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "mabcdefghbijefghaiklcdlkjBzLkpuO-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "oabcdefghfedcbghaijklminmlkjnRPuvf-8zyi",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "nabcadefgbchijklmihmlkjgfedtPQAb5ZWWd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "nabcdefghbgfedchijklmiamlkjROwvb-9lma",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "nabcadefcghijklhmlkjimgbfedxPQkb7nm8d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "mabcdefbedcfaghijklhglkjilAvvFVdd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "mabcadcefghijklhglkjifebdxQQkBpm8",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "HabcdefghijbklgmnoijpdqklrestfrqcponstmhuvwxywzABzvuABxyCDEFDGaCGEFVl1yQ0OsZuv7sCoZDg4zcp",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "HabcdefghdgiefihjklmnoplmqojkpqnrstuvwcxyrzvABCyxDEbwzuFGtsCDEaAFGBVQYSKPzKXzvlpK1cCT28mM",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "HabcdefghdgiefihjklmnokpmnqjploqrstuvwcxyruzABCyxDaEwvFGztsCDbEFGABVQYYKzzKXAAlpuRbSn3AoX",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "HabcdefghijhklmnoplmpqnoqrstuvwxtuywzsvyxzAbBkCDEFGAaBijcGFdeEDfgCrx1QQ1mzQgzgdEZdTwa5RnZ",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "HabcdefghijklmnokhgdcpqnorstuvwsxyzutxyzvwaABCADEFDBCEFqGlmGpbefijrNztTzRsQQuknZ5hboNWZ+G",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "HabcdefgahijklgmnbhiopjkqdersqpocnmfrstuvwxvyzAyutzAwxlBCDBEFGECDFG3PPmzPQ0mvv7cDMZDaEMWZ",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "HabcdefghijbklmfgnopijakqdersqchponmrstuvwxtyzwAuyzvAxlBCDBEFGECDFG3Mzfz0MmnvvBsZPtFawRWZ",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "HabcdefbghijklmnaghiopjkqdersqpocfnmrstuvwxyuvzAytwzAxlBCDBEFGECDFG3QLmzXMSkvv7bpMZDa5SWZ",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "HabcdefghiajgklmnhopqrstpuvotquvrswxywzABzxyABibCdDEeFGCcnmDElkfFGj3vABMsvfLzk7ypqRbE2jnN",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "HabcdefghijklmnopqkjopqlmnrstruvwustvwcxyzABCDxEaFifBCedDyEbFGzAghGx2wLuvrAmNn7eCoGN9OMvN",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "HabcdefgahijklgbmnhiopjkqdrseqponmcrsfltuvwxyzvuAyzAtwxBCDBEFGECDFG3PXmvvOmTvv7cDM5hdMhWZ",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "FabcdefghijkljkmnomnolpqrpstusqrtucvwxyzABvbCDifzAedBwaCDExyghExwvvvfPYC2a7e8dE2Jz2Cc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "FabcdefgahijklgmnbhiopjkqdrseqpocnmrsfltuvtwxywxyuvzABzCDECABDE3PPmvzuQvvb7cDM5nd-apd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "FabcdefghiajklmfghnopbjkqdersqcponimrsltuvtwxywxyuvzABzCDECABDE3MPkzYuQvvbBmJNtFc-apd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "FabcdefghbijgklmnhopqoprstrstquvwuxyzxvwyzaiAdBCDEeAcnmBClkDEfj3zALAvvuLza7upWp45g2md",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "FabcdefghijklmnokhgpebqnorstustvwxvwxuyzAyBCDBzACDaqElmEcdpfijrNztRvvvvrLatZ5hb-GN7jc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "FabcdefghijklmnokhgdpbqnorstustvwxvwxuyzAyBCDBzACDaqElmEcpefijrNztRvvvvrPalZ5hb-GN7fc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "FabcdefghdehifgijklmklmnojnopqrstuvwcpxvyzaAwxuBCtsDErqbAyBCDEzxvvvLArCMwbBEWpWx6oZfc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "jabcdbefcdaefghighiNKvti-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "gabcdbcdefaefRub+",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "oabcdefghiedihgfcbjklmanmlkjntvnvfHNhyi",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "jabcdeafcdebfghighixKvJq-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "habcabcdefgefgdvvb-bc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "oabcdefghfedchgbijaklmnijnmlkxvjLfddNpp",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "wabcdefghfghaijkljmnopqdrbimnstopuvqklcrevutsNkR6yMyblGFWZS1d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "wabcdefghfghaijklminopqdrbmjnstopuvqklcrevutsNkB6yMyblGVW1S1d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "wabcdefghfghaijklminopqrebmjnstouqrvklcdvuptsNkB2yMmbtGVK1Y5d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "wabcdefghijfklmnomnoapqrlstuvbpqijcvudetskghrx2u5QKPaJ8bYF2Cc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "wabcdefghijkglmnomnopqarlstuvpqbijcvudetsfkhrx2u1AKzad9b4p3Sc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "wabcdefghfghaijklminopqrebmjnsptuqrvklcdvutosNkB2yMSatGVIvZ5d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "EabcdefghiejgklfjhklimnopnopaqrstuqvwxyzmburvAxBCyzDstcdDCBwA3KzPYMnMjldqRf4Ry1C+",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "EabcdefghiejgklfjhklimnopnopaqrstruvwxyzmbquvABwxCDystcdzDCBA3KzPYQoMjvdqRf4h8mB+",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "EabcdefghijklmnokhpfeqanorstuvwxtyzsxuyzvwABCABCqbDlmDcdgpijrNzZITzk1ujZY5pbTgGFK",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "EabcdefghijkglmnomnopqrstuvrwtupqwsvxyazlABCDxybijcDCdeBAfkhzx2uBzsTgzgd9bO1a+ZnR",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "CabcdefghfgijkijkhlmnlmnaopqrstpuvwxebstoyzuvAxBqrcdBwAzyNQQkB6uMmbtWpGpP505d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "wabcdefghijhklmnomnoapqrlstuvbpqijcvudetsfgkrx1u5QKzad+bYF2md",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "CabcdefghfijkijkghlmnlmnaopqrpstuvwxeboytuvzAwxBqrcdBAzsyNsTkR1uMSat4hG-GhZ5d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "wabcdefghfghaijklmnjopqdrbmnistopuvqklcrevutsNkB6uMyblGpX5S1d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "CabcdefghfgijkijkhlmnlmnaopqrstpuvwxebstoyzuvAxBqrcdBwAzyNALkB6uMmbtWpGpP505d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "CabcdefghicjkdlmnlmopqopqnrstrstiuvwaxuyzABkjbxvyhgzAfeBwNIvvvtwAMbZ3a-a+cxZc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "CabcdefghijklmnokhgdpqanorstusvwxvwxtuyzAyzAqbBlmBcpefijrNztJ1kvtPalZ5pHFa+fc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "CabcdefghicjkdlmnlmopqopqnrstrstiuvwaxyvzABkjbxyuhgzAfeBwNIvvvtwQMbZ3a-a+eNZc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "wabcdefghicjkdlmnlmniopqarsptuvkjbrsohgtufevqNIvtwQMbZ3a+eNZc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "wabcdefghfghaijklminopqrebmjnstopurvklcdvqutsNkB6yMmbtGVO105d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "CabcdefghijhklmnomnopqrsqrstuptuavwxlyzABbvwijcBAdezyfgkxx1uvv5QKzad+b8dYF2md",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "tabcdeafghijklmnjopqlmnkopqihrsgedcbrsflBvvzkb-NhEiFc",
+      "status": "INVALID",
+      "error": "HFK Euler polynomial is not normalized at 1",
+      "used_as_eligible": false,
+      "component_status": "UNKNOWN"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "qabcadefgbhijklmnoijkpmnolphcgfedxzvvrb9dE45d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "jabcdbefghcdaihgfeiNslZN-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "sabcdefghijklmnopqklmjopqnarifedcbghrRrvvTs-eE4-N",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json",
+      "key": "pabcadefgbhijklmnoijkhmnolcgfedxrvvv9dE4-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "gabcdefdcbafevvpp",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "dabcabcva",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "gabcdefbafedcvvdd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "oabcdeafghijebfklghmnicdjnmlkBAMjfVqn7p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "oabcdeafghijebfklgmijncdnmhlkBwMPeVeT8p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "oabcdbefghijaefklghmjncdnimlkRAMPeFOm9p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "oabcdefbghijefaklghmjncdnimlkBALPepjo9p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "oabcdbefghijaefklghmnicdjnmlkRAMjfFWm7p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "oabcdefbghijefaklghmnicdjnmlkBALjfpro7p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "oabcdbefghijaefkhlmijncdnmlgkRwMPcFI08p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "mabcdefbghijefakhijlcdlgkBwvkpdg-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "mabcdefbghijefaghklicdjlkBAzsprY+",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "mabcdefgahijefgbhklicdjlkBzzsps0+",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "oabcdefbghijefaklgmijncdnmhlkBwLPepfU8p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "oabcdeafghijebfkhlmijncdnmlgkBwMPcVc18p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "mabcdefghbijefghakjlcdlikBzvkpmy-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "mabcdefghbifjklhaiejkdclglzLz-vOS",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "mabcdefghbijkflhaijkedclglPLA-fjU",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "mabcdeafghijebfghkjlcdlikBAAkVir-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "nabcadefgbchijhklmjimlkgfedtzvvb5JHXd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "vabcdefghijkilmnkjnmlhopaqrsgdcopbtrsuefutqBQQsTzmpByK5m5",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "vabcdefghijkcdelmfnhomlbkjingoapqrpsturqutsxu5jzvvdFm9Rgg",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "wabcdefghijklmihmlkjgfanopqdrbnstopuvqcrevutsNQQIUzybRhgoCZ0d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "wabcdefghijklmnomlkjonihpbqrsftuvpaqcvudetgsrxuvv2gMbJggE9ltd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "mabcdefgahijefgbhiklcdlkjBzPkpsK-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "mabcdefghbijefghaiklcdlkjBzLkpuO-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "oabcdefghfedcbghaijklminmlkjnRPuvf-8zyi",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "nabcadefgbchijklmihmlkjgfedtPQAb5ZWWd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "nabcdefghbgfedchijklmiamlkjROwvb-9lma",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "nabcadefcghijklhmlkjimgbfedxPQkb7nm8d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "mabcdefbedcfaghijklhglkjilAvvFVdd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "mabcadcefghijklhglkjifebdxQQkBpm8",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "HabcdefghijbklgmnoijpdqklrestfrqcponstmhuvwxywzABzvuABxyCDEFDGaCGEFVl1yQ0OsZuv7sCoZDg4zcp",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "HabcdefghdgiefihjklmnoplmqojkpqnrstuvwcxyrzvABCyxDEbwzuFGtsCDEaAFGBVQYSKPzKXzvlpK1cCT28mM",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "HabcdefghdgiefihjklmnokpmnqjploqrstuvwcxyruzABCyxDaEwvFGztsCDbEFGABVQYYKzzKXAAlpuRbSn3AoX",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "HabcdefghijhklmnoplmpqnoqrstuvwxtuywzsvyxzAbBkCDEFGAaBijcGFdeEDfgCrx1QQ1mzQgzgdEZdTwa5RnZ",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "HabcdefghijklmnokhgdcpqnorstuvwsxyzutxyzvwaABCADEFDBCEFqGlmGpbefijrNztTzRsQQuknZ5hboNWZ+G",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "HabcdefgahijklgmnbhiopjkqdersqpocnmfrstuvwxvyzAyutzAwxlBCDBEFGECDFG3PPmzPQ0mvv7cDMZDaEMWZ",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "HabcdefghijbklmfgnopijakqdersqchponmrstuvwxtyzwAuyzvAxlBCDBEFGECDFG3Mzfz0MmnvvBsZPtFawRWZ",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "HabcdefbghijklmnaghiopjkqdersqpocfnmrstuvwxyuvzAytwzAxlBCDBEFGECDFG3QLmzXMSkvv7bpMZDa5SWZ",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "HabcdefghiajgklmnhopqrstpuvotquvrswxywzABzxyABibCdDEeFGCcnmDElkfFGj3vABMsvfLzk7ypqRbE2jnN",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "HabcdefghijklmnopqkjopqlmnrstruvwustvwcxyzABCDxEaFifBCedDyEbFGzAghGx2wLuvrAmNn7eCoGN9OMvN",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "HabcdefgahijklgbmnhiopjkqdrseqponmcrsfltuvwxyzvuAyzAtwxBCDBEFGECDFG3PXmvvOmTvv7cDM5hdMhWZ",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "FabcdefghijkljkmnomnolpqrpstusqrtucvwxyzABvbCDifzAedBwaCDExyghExwvvvfPYC2a7e8dE2Jz2Cc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "FabcdefgahijklgmnbhiopjkqdrseqpocnmrsfltuvtwxywxyuvzABzCDECABDE3PPmvzuQvvb7cDM5nd-apd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "FabcdefghiajklmfghnopbjkqdersqcponimrsltuvtwxywxyuvzABzCDECABDE3MPkzYuQvvbBmJNtFc-apd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "FabcdefghbijgklmnhopqoprstrstquvwuxyzxvwyzaiAdBCDEeAcnmBClkDEfj3zALAvvuLza7upWp45g2md",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "FabcdefghijklmnokhgpebqnorstustvwxvwxuyzAyBCDBzACDaqElmEcdpfijrNztRvvvvrLatZ5hb-GN7jc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "FabcdefghijklmnokhgdpbqnorstustvwxvwxuyzAyBCDBzACDaqElmEcpefijrNztRvvvvrPalZ5hb-GN7fc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "FabcdefghdehifgijklmklmnojnopqrstuvwcpxvyzaAwxuBCtsDErqbAyBCDEzxvvvLArCMwbBEWpWx6oZfc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "jabcdbefcdaefghighiNKvti-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "gabcdbcdefaefRub+",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "oabcdefghiedihgfcbjklmanmlkjntvnvfHNhyi",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "jabcdeafcdebfghighixKvJq-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "habcabcdefgefgdvvb-bc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "oabcdefghfedchgbijaklmnijnmlkxvjLfddNpp",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "wabcdefghfghaijkljmnopqdrbimnstopuvqklcrevutsNkR6yMyblGFWZS1d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "wabcdefghfghaijklminopqdrbmjnstopuvqklcrevutsNkB6yMyblGVW1S1d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "wabcdefghfghaijklminopqrebmjnstouqrvklcdvuptsNkB2yMmbtGVK1Y5d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "wabcdefghijfklmnomnoapqrlstuvbpqijcvudetskghrx2u5QKPaJ8bYF2Cc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "wabcdefghijkglmnomnopqarlstuvpqbijcvudetsfkhrx2u1AKzad9b4p3Sc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "wabcdefghfghaijklminopqrebmjnsptuqrvklcdvutosNkB2yMSatGVIvZ5d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "EabcdefghiejgklfjhklimnopnopaqrstuqvwxyzmburvAxBCyzDstcdDCBwA3KzPYMnMjldqRf4Ry1C+",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "EabcdefghiejgklfjhklimnopnopaqrstruvwxyzmbquvABwxCDystcdzDCBA3KzPYQoMjvdqRf4h8mB+",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "EabcdefghijklmnokhpfeqanorstuvwxtyzsxuyzvwABCABCqbDlmDcdgpijrNzZITzk1ujZY5pbTgGFK",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "EabcdefghijkglmnomnopqrstuvrwtupqwsvxyazlABCDxybijcDCdeBAfkhzx2uBzsTgzgd9bO1a+ZnR",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "CabcdefghfgijkijkhlmnlmnaopqrstpuvwxebstoyzuvAxBqrcdBwAzyNQQkB6uMmbtWpGpP505d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "wabcdefghijhklmnomnoapqrlstuvbpqijcvudetsfgkrx1u5QKzad+bYF2md",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "CabcdefghfijkijkghlmnlmnaopqrpstuvwxeboytuvzAwxBqrcdBAzsyNsTkR1uMSat4hG-GhZ5d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "wabcdefghfghaijklmnjopqdrbmnistopuvqklcrevutsNkB6uMyblGpX5S1d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "CabcdefghfgijkijkhlmnlmnaopqrstpuvwxebstoyzuvAxBqrcdBwAzyNALkB6uMmbtWpGpP505d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "CabcdefghicjkdlmnlmopqopqnrstrstiuvwaxuyzABkjbxvyhgzAfeBwNIvvvtwAMbZ3a-a+cxZc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "CabcdefghijklmnokhgdpqanorstusvwxvwxtuyzAyzAqbBlmBcpefijrNztJ1kvtPalZ5pHFa+fc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "CabcdefghicjkdlmnlmopqopqnrstrstiuvwaxyvzABkjbxyuhgzAfeBwNIvvvtwQMbZ3a-a+eNZc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "wabcdefghicjkdlmnlmniopqarsptuvkjbrsohgtufevqNIvtwQMbZ3a+eNZc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "wabcdefghfghaijklminopqrebmjnstopurvklcdvqutsNkB6yMmbtGVO105d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "CabcdefghijhklmnomnopqrsqrstuptuavwxlyzABbvwijcBAdezyfgkxx1uvv5QKzad+b8dYF2md",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "qabcadefgbhijklmnoijkpmnolphcgfedxzvvrb9dE45d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "jabcdbefghcdaihgfeiNslZN-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "sabcdefghijklmnopqklmjopqnarifedcbghrRrvvTs-eE4-N",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json",
+      "key": "pabcadefgbhijklmnoijkhmnolcgfedxrvvv9dE4-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_hfk_screen.json",
+      "key": "gabcdefdcbafevvpp",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_hfk_screen.json",
+      "key": "dabcabcva",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_hfk_screen.json",
+      "key": "gabcdefbafedcvvdd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_hfk_screen.json",
+      "key": "oabcdefbghijefakhlmijncdnmlgkBwLPcpd28p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_hfk_screen.json",
+      "key": "oabcdeafghijebfklghmjncdnimlkBAMPeVin9p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_hfk_screen.json",
+      "key": "vabcdefghiajkhgflbjmnkopqrstuqputsrocdelinmxHTzvfzJlF7Wq0",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_hfk_screen.json",
+      "key": "nabcdefghiajkflhibjkmdemclg3LMuaBjsEd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_hfk_screen.json",
+      "key": "oabcdbefghijaefgklmijncdnmlkhRwQPcFK48p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_hfk_screen.json",
+      "key": "nabcdefghfedchgbijaklmjimlkRQsvbbdJNd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_hfk_screen.json",
+      "key": "habcabcdefgefgdvvb-bc",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_hfk_screen.json",
+      "key": "oabcdefghfedchgbijaklmnijnmlkxvjLfddNpp",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_hfk_screen.json",
+      "key": "mabcdefgahijefgbhiklcdlkjBzPkpsK-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_hfk_screen.json",
+      "key": "mabcdefbghijefaghklicdjlkBAzsprY+",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_hfk_screen.json",
+      "key": "oabcdbefghijaefklghimncdnmjlkRAMQeFWm+p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_hfk_screen.json",
+      "key": "nabcadcefghijklmihmlkjgfebdxsvTaBFy4d",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_hfk_screen.json",
+      "key": "jabcdbefcdaefghighiNKvti-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_hfk_screen.json",
+      "key": "nabcadefgbchijklmihmlkjgfedtPQAb5ZWWd",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_hfk_screen.json",
+      "key": "mabcdeafghijebfkhijlcdlgkBwwkVcf-",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_hfk_screen.json",
+      "key": "oabcdeafghijebfklghmnicdjnmlkBAMjfVqn7p",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_hfk_screen.json",
+      "key": "HabcdefghijklmnokhgpebqnorstuvwsxuyztxvyzwABCADEFDBCEFaqGlmGcdpfijrNztRzZuvvujtZ5hbAn45EI",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_hfk_screen.json",
+      "key": "EabcdefghijfklmnomnopqrstuqrvtwpsvuwaxyzlABCDbxyijcDCdeBAkghzx2u1mzUkzkJ8bSwG8NnN",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    },
+    {
+      "source": "results/astra_2026_09_16/three_factor_hfk_screen.json",
+      "key": "pabcadefgbhijklmnhijolmnkocgfedxPQQu9dp8+",
+      "status": "PASSED",
+      "error": null,
+      "used_as_eligible": false,
+      "component_status": "CHECKED"
+    }
+  ],
+  "source_sha256": {
+    "results/astra_2026_09_16/deeper_diverse_component_screen.json": "e1ba44bc0c3ca50f00850978b610d5e5d785b8d0d1f9c1ff86343bc5fdda48d8",
+    "results/astra_2026_09_16/deeper_diverse_hfk_screen.json": "b4e8dfc6e86b33702400ab6850540b93d6c9c15c12f4bc1c7d0dae2738decc32",
+    "results/astra_2026_09_16/fibered_returns.json": "e0f363eed3fa36f832a56e8ee90f7a02956019aad1cd6ce2a4c529cd2d320d79",
+    "results/astra_2026_09_16/new_partner_component_screen.json": "534478e838c6f5ea42cfb239c15c3f447fb6e0e575698ed2380b17fb117066b3",
+    "results/astra_2026_09_16/pilot_fibered_components.json": "b400c2742dbcb8b1ce8520e1d31e15f8454e07efb5c1cf28d2c568ec26310165",
+    "results/astra_2026_09_16/three_factor_component_screen.json": "cf3a77d59bd9ef3023c5eb4b40362950138155565789f2313f28cdbbcc112ed5",
+    "results/astra_2026_09_16/three_factor_continuation_component_screen.json": "bda82f57204a7e64c2d4f70d9434f5518a9840b3b9350e8ad098cc70b4621f3b",
+    "results/astra_2026_09_16/three_factor_continuation_hfk_diagnostic.json": "2688ec0291abfbeac1a1e5df0664043d9ca9652e25fd4a2a2146bc5f14d9c452",
+    "results/astra_2026_09_16/three_factor_continuation_hfk_screen.json": "4dd01dce3050e3b71b43c512f4a6566e7afbe15430f7c5f90add37b0e4987992",
+    "results/astra_2026_09_16/three_factor_hfk_screen.json": "b255ad0fb5edda55e87e445766ecb09f0a921853bb13ab8887e2ba9a55781591"
+  }
+}

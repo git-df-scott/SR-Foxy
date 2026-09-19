@@ -1,0 +1,8 @@
+/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+unknot_to_stevedore SAT SAT
+trefoil_to_trefoil_sum_stevedore SAT SAT
+unknot_to_mirror_stevedore SAT SAT
+stevedore_to_unknot UNSAT_UNIVERSAL_KERNEL UNSAT
+trefoil_to_unknot UNSAT_UNIVERSAL_KERNEL UNSAT
+equal_rank_incompatible_differential UNSAT_UNIVERSAL_KERNEL UNSAT

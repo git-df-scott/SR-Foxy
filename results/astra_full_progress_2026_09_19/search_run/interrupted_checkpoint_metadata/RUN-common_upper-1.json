@@ -1,0 +1,37 @@
+{
+  "counterexample_established": false,
+  "counts": {
+    "DUPLICATE_ENDPOINT": 78510,
+    "NEW_ENDPOINT": 10305,
+    "NO_SAMPLED_BAND": 40,
+    "attempts": 88855
+  },
+  "current_cpu_seconds": 1789.511606257,
+  "current_search_seconds": 1800.016701387,
+  "measured_completed_segment_seconds": 1800.016701387,
+  "phase": "common_upper",
+  "runs": [
+    {
+      "cpu_seconds": 1789.511606257,
+      "finished": "2026-09-19T16:59:34Z",
+      "phase": "common_upper",
+      "seconds": 1800.016701387,
+      "segment": 1,
+      "started": "2026-09-19T16:29:34Z",
+      "status": "BOUNDED_SEGMENT_COMPLETE_NO_NOMINATION",
+      "summary": {
+        "DUPLICATE_ENDPOINT": 78510,
+        "NEW_ENDPOINT": 10305,
+        "NO_SAMPLED_BAND": 40,
+        "attempts": 88855
+      }
+    }
+  ],
+  "scope": "Randomized bounded movie search, not an exhaustive search or an impossibility proof. Nominations need independent topology and nonribbon-hypothesis audits.",
+  "segment": 1,
+  "source_commit": "042a7dfc6fe61967902e1c4f7174af5f6342862c",
+  "started": "2026-09-19T16:29:34Z",
+  "status": "BOUNDED_SEGMENT_COMPLETE_NO_NOMINATION",
+  "updated": "2026-09-19T16:59:34Z",
+  "workflow_run_id": "35455048082"
+}

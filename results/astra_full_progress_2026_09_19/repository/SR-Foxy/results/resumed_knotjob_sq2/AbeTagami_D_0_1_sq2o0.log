@@ -1,0 +1,10 @@
+Exception in thread "Thread-1" java.lang.OutOfMemoryError: Java heap space
+	at knotjob.homology.oddkhov.OddStableComplex.createCone(OddStableComplex.java:183)
+	at knotjob.homology.oddkhov.OddStableComplex.getNewObjects(OddStableComplex.java:164)
+	at knotjob.homology.oddkhov.OddStableComplex.modifyComplex(OddStableComplex.java:142)
+	at knotjob.stabletype.sinv.SqTwoOddInvariant.getComplex(SqTwoOddInvariant.java:110)
+	at knotjob.stabletype.sinv.SqTwoOddInvariant.calculateSqTwo(SqTwoOddInvariant.java:92)
+	at knotjob.stabletype.sinv.SqTwoOddInvariant.theSqTwoInvariant(SqTwoOddInvariant.java:88)
+	at knotjob.stabletype.sinv.SqTwoOddInvariant.calculate(SqTwoOddInvariant.java:78)
+	at knotjob.stabletype.sinv.SqTwoOddCalculator.performCalculation(SqTwoOddCalculator.java:88)
+	at knotjob.Calculator.run(Calculator.java:56)

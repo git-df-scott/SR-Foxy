@@ -1,0 +1,15 @@
+/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/sympy/polys/polytools.py:6282: SymPyDeprecationWarning:
+
+Ordered comparisons with modular integers are deprecated.
+
+            Use e.g. int(a) < int(b) instead of a < b.
+
+See https://docs.sympy.org/latest/explanation/active-deprecations.html#modularinteger-compare
+for details.
+
+This has been deprecated since SymPy version 1.13. It
+will be removed in a future version of SymPy.
+
+  return sorted(factors, key=key)
+Existing applicability result recomputed and matched.
+{"prime_spec": [[10, [0, 20]], [20, [0, 10]]], "rows": [{"p": 5, "q": 2, "factor": "x**4 + x**3 + x**2 + x + 1", "factor_degree": 4, "multiplicities_K0_minusK1_minusK2": [1, 1, 1], "D01_multiplicity": 2, "D02_multiplicity": 2}, {"p": 4, "q": 3, "factor": "x**2 + 1", "factor_degree": 2, "multiplicities_K0_minusK1_minusK2": [1, 1, 1], "D01_multiplicity": 2, "D02_multiplicity": 2}, {"p": 8, "q": 3, "factor": "x**2 + 1", "factor_degree": 2, "multiplicities_K0_minusK1_minusK2": [1, 1, 1], "D01_multiplicity": 2, "D02_multiplicity": 2}, {"p": 16, "q": 3, "factor": "x**2 + 1", "factor_degree": 2, "multiplicities_K0_minusK1_minusK2": [1, 1, 1], "D01_multiplicity": 2, "D02_multiplicity": 2}, {"p": 3, "q": 7, "factor": "x + 3", "factor_degree": 1, "multiplicities_K0_minusK1_minusK2": [1, 1, 1], "D01_multiplicity": 2, "D02_multiplicity": 2}, {"p": 9, "q": 7, "factor": "x + 3", "factor_degree": 1, "multiplicities_K0_minusK1_minusK2": [1, 1, 1], "D01_multiplicity": 2, "D02_multiplicity": 2}, {"p": 3, "q": 7, "factor": "x - 2", "factor_degree": 1, "multiplicities_K0_minusK1_minusK2": [1, 1, 1], "D01_multiplicity": 2, "D02_multiplicity": 2}, {"p": 9, "q": 7, "factor": "x - 2", "factor_degree": 1, "multiplicities_K0_minusK1_minusK2": [1, 1, 1], "D01_multiplicity": 2, "D02_multiplicity": 2}, {"p": 8, "q": 7, "factor": "x**2 + 3*x + 1", "factor_degree": 2, "multiplicities_K0_minusK1_minusK2": [1, 1, 1], "D01_multiplicity": 2, "D02_multiplicity": 2}, {"p": 16, "q": 7, "factor": "x**2 + 3*x + 1", "factor_degree": 2, "multiplicities_K0_minusK1_minusK2": [1, 1, 1], "D01_multiplicity": 2, "D02_multiplicity": 2}, {"p": 2, "q": 13, "factor": "x + 1", "factor_degree": 1, "multiplicities_K0_minusK1_minusK2": [1, 1, 1], "D01_multiplicity": 2, "D02_multiplicity": 2}, {"p": 4, "q": 13, "factor": "x + 1", "factor_degree": 1, "multiplicities_K0_minusK1_minusK2": [1, 1, 1], "D01_multiplicity": 2, "D02_multiplicity": 2}, {"p": 8, "q": 13, "factor": "x + 1", "factor_degree": 1, "multiplicities_K0_minusK1_minusK2": [1, 1, 1], "D01_multiplicity": 2, "D02_multiplicity": 2}, {"p": 9, "q": 19, "factor": "x - 5", "factor_degree": 1, "multiplicities_K0_minusK1_minusK2": [1, 1, 1], "D01_multiplicity": 2, "D02_multiplicity": 2}, {"p": 9, "q": 19, "factor": "x - 4", "factor_degree": 1, "multiplicities_K0_minusK1_minusK2": [1, 1, 1], "D01_multiplicity": 2, "D02_multiplicity": 2}], "all_D01_D02_factors_skipped_by_basic": true, "meaning": "Exact applicability audit. Basic HKL skips these repeated factors; this is not a sliceness obstruction."}

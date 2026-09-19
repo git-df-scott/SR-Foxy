@@ -1,0 +1,33 @@
+{
+  "repository_read_scope": [
+    "main head",
+    "LOW_WRAPPING_LEMMA.md",
+    "FOUR_STRAND_GATE.md",
+    "mounted pass02 portable engine/cabler/evaluator/certificate"
+  ],
+  "primary_sources_read": [
+    "Eisermann selected theorem statements, definition 6.12/proposition6.13, example6.16, section7.1",
+    "Morton-Strickland sections1-2, page87 and92 images",
+    "Livingston survey section2.1 and Fox-Milnor discussion",
+    "Jimenez Pascual PDF introduction; prior annular skein audit",
+    "du Preez-Silva-Yu-Gong report title/abstract and Theorem5.10 page18 image"
+  ],
+  "not_read": [
+    "Entire repository",
+    "Unpushed Opus current work",
+    "Large band frontier archives",
+    "Independent full KDG polynomial"
+  ],
+  "computation": [
+    "Exact rational kernel/EGF checks through n20",
+    "New connected-sum two/three-parallel direct controls",
+    "Failed connected-sum four-parallel allocation, no value"
+  ],
+  "limits": [
+    "New global proof independently unreviewed",
+    "No probability of a CE inferred",
+    "No new CE certificate",
+    "No claim of publication novelty",
+    "No remote push in this response"
+  ]
+}

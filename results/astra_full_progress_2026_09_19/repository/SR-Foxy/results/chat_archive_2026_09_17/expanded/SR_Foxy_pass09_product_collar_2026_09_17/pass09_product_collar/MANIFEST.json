@@ -1,0 +1,38 @@
+{
+  "README.md": {
+    "sha256": "490bd68865df706d51afe70e2d9e386cae87d633ab0eb7c043603cd739cf655b",
+    "bytes": 7815
+  },
+  "certificate.json": {
+    "sha256": "a35eebbc4ec7a98a801e949ad3be1a2c9b414f5a6d04b29ea6d45add9c296867",
+    "bytes": 4468
+  },
+  "check_saved_proof.py": {
+    "sha256": "53171695d1ee7f4fd6d541fd5d8d2f36ef3258b4d660deb39921eb0715fd732f",
+    "bytes": 3760
+  },
+  "diagram_core.py": {
+    "sha256": "cf9012abcbc9d79b76aed7741d6a14cff99437706b245a007286aea35f1fc62a",
+    "bytes": 10330
+  },
+  "verify_product_collar.py": {
+    "sha256": "8600bf524f852130da11667ffeee0ff259306509f4b1eeb497475540cc901d97",
+    "bytes": 9526
+  },
+  "RESULTS.json": {
+    "sha256": "5df99bab6f8785d8778ab99fa5726b56b4476badd7633ee4bfd7af7b59e6dca0",
+    "bytes": 14281
+  },
+  "saved_proof_check.json": {
+    "sha256": "fd66cd23e1f322440d9a65eac779381ee5d3dc86df6f6043704b8cf7918b860b",
+    "bytes": 244
+  },
+  "EXECUTION.json": {
+    "sha256": "13785b236ad5d3ade543554d13dfe2f4a52c8c546825eb8ac5cd2bcaef6762df",
+    "bytes": 401
+  },
+  "inputs/check_whisker_branch_gate.py": {
+    "sha256": "e238970f021bd029dabdc40dd6a0ce4efb93b455de6c177078a46613d8447aa1",
+    "bytes": 15948
+  }
+}

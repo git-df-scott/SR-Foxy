@@ -1,0 +1,31 @@
+name: Checkpointed Astra search segment
+description: Run one bounded computation segment, then preserve cumulative evidence even on failure.
+inputs:
+  phase:
+    required: true
+    description: common_upper or stabilized_disks
+  segment:
+    required: true
+    description: Integer segment index
+runs:
+  using: composite
+  steps:
+    - name: Run 1800 seconds of bounded movie search
+      id: compute
+      shell: bash
+      env:
+        SEARCH_PHASE: ${{ inputs.phase }}
+        SEARCH_SEGMENT: ${{ inputs.segment }}
+        PYTHONUNBUFFERED: '1'
+        PYTHONHASHSEED: '0'
+      run: python research_jobs/astra_seven_hour_20260919/runner.py --out evidence --phase "$SEARCH_PHASE" --segment "$SEARCH_SEGMENT" --seconds 1800
+    - name: Preserve cumulative checkpoint
+      if: always() && steps.compute.outcome != 'skipped'
+      uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+      with:
+        name: astra-seven-hour-checkpoint
+        path: evidence/
+        overwrite: true
+        retention-days: 7
+        if-no-files-found: error
+        compression-level: 6

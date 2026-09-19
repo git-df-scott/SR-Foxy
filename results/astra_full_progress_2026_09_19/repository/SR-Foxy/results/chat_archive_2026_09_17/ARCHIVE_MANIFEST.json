@@ -1,0 +1,2805 @@
+{
+  "version": 1,
+  "scope": "all 24 recovered attachment paths plus all 207 ZIP members and new handoff/index/tools",
+  "source_count": 24,
+  "original_zip_count": 10,
+  "extracted_member_count": 207,
+  "manifest_excludes_itself": true,
+  "new_payload_publication_at_creation": "NOT_PUSHED",
+  "files": [
+    {
+      "path": "CODEX_GPT_HANDOFF.md",
+      "bytes": 9124,
+      "sha256": "04cca8cffbf30a9681cb560b6245dbc931fb9fc2c0bca0d4bac5bf30759b701e",
+      "git_blob_sha1": "4864bd9cdf57f8282481f5436a33bb66bd7ace46",
+      "kind": "new_handoff",
+      "provenance": {}
+    },
+    {
+      "path": "CONVERSATION_LEDGER.md",
+      "bytes": 8592,
+      "sha256": "844db4ac82fd564c94490a90a37f8c0deefe69b2cbd626cfe759990345ccac8d",
+      "git_blob_sha1": "a8a3c357f4b4ca8f92ac514594251aac5207d30e",
+      "kind": "new_index",
+      "provenance": {
+        "basis": "Conversation summary, not verbatim export"
+      }
+    },
+    {
+      "path": "CORRECTION_REGISTER.md",
+      "bytes": 6303,
+      "sha256": "27b4803165e68c906c7ac5571812d4091ba3802ee3e3b1dbcca9fd2f235f4b7e",
+      "git_blob_sha1": "0092280da4a88343fd73080e8764a43acbeea324",
+      "kind": "new_index",
+      "provenance": {
+        "basis": "Preserved conversation and reports"
+      }
+    },
+    {
+      "path": "README.md",
+      "bytes": 4331,
+      "sha256": "47471a83c9c2ddf9e54a4c0dfac25b5e09bcc31774f4276573dd991832a5fbce",
+      "git_blob_sha1": "803b43414997d8f7b54739b921deb4b80ab240f1",
+      "kind": "new_index",
+      "provenance": {}
+    },
+    {
+      "path": "REPOSITORY_STATE.json",
+      "bytes": 2278,
+      "sha256": "3e05f547619d8993cba91a14ad6b92a2e81fa9922bb6bfab465996bf88c0301b",
+      "git_blob_sha1": "60647b86b4bb30e426f49dbc7fe47993fdc9c679",
+      "kind": "new_index",
+      "provenance": {
+        "basis": "Live GitHub read"
+      }
+    },
+    {
+      "path": "SOURCE_INVENTORY.json",
+      "bytes": 82728,
+      "sha256": "cc0146271003b12d01d262286308d6e6267a2f45103b0080b920be5be27aa7ad",
+      "git_blob_sha1": "ecbaced22219d442485bf19dfee6289d4b0b82fa",
+      "kind": "new_inventory",
+      "provenance": {}
+    },
+    {
+      "path": "attachments/SR_Foxy_Opus_prompt_2026_09_17.md",
+      "bytes": 9503,
+      "sha256": "a821b102892d22dafa3bc663b01759a5ecca3c63935192a6d57f1fbb8daf1cce",
+      "git_blob_sha1": "850f80f5e90b24ef8a9299e4b811c7e2f34950a1",
+      "kind": "original_attachment",
+      "provenance": {
+        "mounted_path": "SR_Foxy_Opus_prompt_2026_09_17.md"
+      }
+    },
+    {
+      "path": "attachments/SR_Foxy_annulus_audit_2026_09_16.zip",
+      "bytes": 26217,
+      "sha256": "b7e78ee70452da7fb5e7dce69ad7dc7de2d1474cb0fb4ae35aa3f00e17b0a1da",
+      "git_blob_sha1": "e3f73e48d6b04a4e6b60c320f4fa7c33f0391f57",
+      "kind": "original_attachment",
+      "provenance": {
+        "mounted_path": "SR_Foxy_annulus_audit_2026_09_16.zip"
+      }
+    },
+    {
+      "path": "attachments/SR_Foxy_four_parallel_completed_2026_09_17.zip",
+      "bytes": 67825,
+      "sha256": "f068019ed831cd35c22a327db9f6898a4b2de8113ffcf05d3ba41c1ca982fbef",
+      "git_blob_sha1": "2d2a05334aa424a4ad3d721f785a2a6a765b4099",
+      "kind": "original_attachment",
+      "provenance": {
+        "mounted_path": "SR_Foxy_four_parallel_completed_2026_09_17.zip"
+      }
+    },
+    {
+      "path": "attachments/SR_Foxy_general_transfer_audit_2026_09_17.zip",
+      "bytes": 78427,
+      "sha256": "c9eb3f2860b04f7192d00838202149f1329736255b7d3b3ff3825581d2b64dbf",
+      "git_blob_sha1": "fad0250bbfed707f2a3343d4ea0dcadb9378198a",
+      "kind": "original_attachment",
+      "provenance": {
+        "mounted_path": "SR_Foxy_general_transfer_audit_2026_09_17.zip"
+      }
+    },
+    {
+      "path": "attachments/SR_Foxy_morning_audit_2026_09_17.md",
+      "bytes": 3491,
+      "sha256": "ada18b82a353e0818ec7c587f237cb7cf6c35cd042093e8563d283fca2060580",
+      "git_blob_sha1": "7ba2929506b128a22b136c055cc5350bc2f6b26c",
+      "kind": "original_attachment",
+      "provenance": {
+        "mounted_path": "SR_Foxy_morning_audit_2026_09_17.md"
+      }
+    },
+    {
+      "path": "attachments/SR_Foxy_overnight_plan_2026_09_17.zip",
+      "bytes": 15639,
+      "sha256": "dd7c2d5a64590c2a6e9cab23337672bcd9c886a57b41ebc40d679a2e80a2737b",
+      "git_blob_sha1": "f897f878c6672b7fa1dc5b9ef1a07960230b3015",
+      "kind": "original_attachment",
+      "provenance": {
+        "mounted_path": "SR_Foxy_overnight_plan_2026_09_17.zip"
+      }
+    },
+    {
+      "path": "attachments/SR_Foxy_pass03_additions.patch",
+      "bytes": 95607,
+      "sha256": "c06aa2fa67559e66e7a6c8b10b5f48526a678af6f65d4b78fa9b16fe254ff0cb",
+      "git_blob_sha1": "5ae50635fe2894e8452945850d84529dbacbe63b",
+      "kind": "original_attachment",
+      "provenance": {
+        "mounted_path": "SR_Foxy_pass03_additions.patch"
+      }
+    },
+    {
+      "path": "attachments/SR_Foxy_pass04_centered_marked_additions.patch",
+      "bytes": 216389,
+      "sha256": "a21045ed0563b0bf10823aff09295bb84f6670cb56d101ba63919111ca8468bd",
+      "git_blob_sha1": "9225b69bdc75a962317dcbf1e6b2a4a4a6cd720c",
+      "kind": "original_attachment",
+      "provenance": {
+        "mounted_path": "SR_Foxy_pass04_centered_marked_additions.patch"
+      }
+    },
+    {
+      "path": "attachments/SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+      "bytes": 155843,
+      "sha256": "81ae568688c66c5963cac7c69b7b6570560e5d48ff95f009bbf1a721d1da6d55",
+      "git_blob_sha1": "019cce5a0f6a5d82b1975f1be397174536112eef",
+      "kind": "original_attachment",
+      "provenance": {
+        "mounted_path": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip"
+      }
+    },
+    {
+      "path": "attachments/SR_Foxy_pass07_relative_r3_r2_2026_09_17.zip",
+      "bytes": 12045,
+      "sha256": "240a3a36bd70a6005040a692925f65ac6675db594d797caefb177ad42c30f7f1",
+      "git_blob_sha1": "be92a9731eeeb98630b7407f5c873884201196c2",
+      "kind": "original_attachment",
+      "provenance": {
+        "mounted_path": "SR_Foxy_pass07_relative_r3_r2_2026_09_17.zip"
+      }
+    },
+    {
+      "path": "attachments/SR_Foxy_pass08_whisker_branch_gate_2026_09_17.zip",
+      "bytes": 27216,
+      "sha256": "aea9550340cd5b68923103ba89de7e7c76eedc1f7c05b849c086201d22d7a70d",
+      "git_blob_sha1": "7a3cc841f4968ab4b444e12d30946f73e4ff8f15",
+      "kind": "original_attachment",
+      "provenance": {
+        "mounted_path": "SR_Foxy_pass08_whisker_branch_gate_2026_09_17.zip"
+      }
+    },
+    {
+      "path": "attachments/SR_Foxy_pass09_product_collar_2026_09_17.zip",
+      "bytes": 23982,
+      "sha256": "5f4c1238ea59d69f81a47f1be74ffca716a1c82920bf3d6fda91c37aac70eba2",
+      "git_blob_sha1": "b15ff632350d6355f2e2109843cc19dbf996d6d0",
+      "kind": "original_attachment",
+      "provenance": {
+        "mounted_path": "SR_Foxy_pass09_product_collar_2026_09_17.zip"
+      }
+    },
+    {
+      "path": "attachments/SR_Foxy_progress_and_Codex_handoff_2026_09_17.zip",
+      "bytes": 11970,
+      "sha256": "98107f99ec17fb64d71abcf97f5bb7d72115b2786789c48cf016faccfb8a48c1",
+      "git_blob_sha1": "10c9b10eb1a1ce920183c2262c719f2f6b3a0faf",
+      "kind": "original_attachment",
+      "provenance": {
+        "mounted_path": "SR_Foxy_progress_and_Codex_handoff_2026_09_17.zip"
+      }
+    },
+    {
+      "path": "attachments/SR_Foxy_published_audit_2026_09_17.zip",
+      "bytes": 45595,
+      "sha256": "da80d9e28086757f3c5f703fe08bf1a992b5329c6271f5634fa9a15d7297a487",
+      "git_blob_sha1": "246f1bc7f8df694af3266416958d7077e521594b",
+      "kind": "original_attachment",
+      "provenance": {
+        "mounted_path": "SR_Foxy_published_audit_2026_09_17.zip"
+      }
+    },
+    {
+      "path": "attachments/UNSENT_SR_Foxy_Opus_morning_handoff.txt",
+      "bytes": 4692,
+      "sha256": "71bde9fce6fa5b9d7555fa4fdec2f2ada7740aa85e61f8383bb593c7c5d466c2",
+      "git_blob_sha1": "a6e8b0365948c4e8522ab01f993f4a9e64aae0ed",
+      "kind": "original_attachment",
+      "provenance": {
+        "mounted_path": "UNSENT_SR_Foxy_Opus_morning_handoff.txt"
+      }
+    },
+    {
+      "path": "attachments/sr_foxy_audit_2026_09_16/OPUS_AUDIT_NOTE.txt",
+      "bytes": 2164,
+      "sha256": "3b8aaf14cc6d60421929d993f235f41f0315648f2027f2e784ee983fa3a59a59",
+      "git_blob_sha1": "36a0442f179ce4225273fa52cbe4bb481585f87e",
+      "kind": "original_attachment",
+      "provenance": {
+        "mounted_path": "sr_foxy_audit_2026_09_16/OPUS_AUDIT_NOTE.txt"
+      }
+    },
+    {
+      "path": "attachments/sr_foxy_audit_2026_09_16/REPORT.md",
+      "bytes": 18175,
+      "sha256": "855d07e1f94a7e6323291c62854dda8eff72eab3e4af0fddae35bd09178a47aa",
+      "git_blob_sha1": "630d7eb260e6a34024ea6536a504b573ba7d2bec",
+      "kind": "original_attachment",
+      "provenance": {
+        "mounted_path": "sr_foxy_audit_2026_09_16/REPORT.md"
+      }
+    },
+    {
+      "path": "attachments/sr_foxy_codex_handoff_2026_09_17/CODEX_HANDOFF.md",
+      "bytes": 11138,
+      "sha256": "98a17cbb97b9aeeabd29257827f1ae632743ffaa0ba10fb2aeedd26765641d3a",
+      "git_blob_sha1": "7263f37d9098d0cfe1b1b2beb6fb9cb67ff243c7",
+      "kind": "original_attachment",
+      "provenance": {
+        "mounted_path": "sr_foxy_codex_handoff_2026_09_17/CODEX_HANDOFF.md"
+      }
+    },
+    {
+      "path": "attachments/sr_foxy_codex_handoff_2026_09_17/PROGRESS_REPORT.md",
+      "bytes": 13498,
+      "sha256": "30c443243e0cce29da7b6f9668c75c6aa15148bbfcf166161151b92c18d627c6",
+      "git_blob_sha1": "a2248f5805d956d399e9a11bb5025f3ced11acbc",
+      "kind": "original_attachment",
+      "provenance": {
+        "mounted_path": "sr_foxy_codex_handoff_2026_09_17/PROGRESS_REPORT.md"
+      }
+    },
+    {
+      "path": "attachments/sr_foxy_pass03/PROPOSED_TRANSFER_THEOREM.md",
+      "bytes": 22868,
+      "sha256": "77df80d6269759fc1cf626a263e11e7e2b2a1d3c18fde05c1cb57139037ade36",
+      "git_blob_sha1": "4383f1183dc7e2a8f5d70e3c11f2a5a4d9bd05eb",
+      "kind": "original_attachment",
+      "provenance": {
+        "mounted_path": "sr_foxy_pass03/PROPOSED_TRANSFER_THEOREM.md"
+      }
+    },
+    {
+      "path": "attachments/sr_foxy_pass04_0515_audit/D01_JONES_GATE.md",
+      "bytes": 6189,
+      "sha256": "c7577617d44b7fad02cb013b6d91cfc16e2c1aa0dce7e5e4d52a5fbacddb65d2",
+      "git_blob_sha1": "7a23f04e120c8cb991d14af6c1a5cede8f13611f",
+      "kind": "original_attachment",
+      "provenance": {
+        "mounted_path": "sr_foxy_pass04_0515_audit/D01_JONES_GATE.md"
+      }
+    },
+    {
+      "path": "attachments/sr_foxy_pass04_0515_audit/DIRECT_PD_CERTIFICATE.md",
+      "bytes": 5438,
+      "sha256": "09a5ef337823c7eb06541604db858cb67cfe4114d24d1d25ae0a914b288e1e98",
+      "git_blob_sha1": "d5f18e0df5be03aea797b29bb90afd64c45d7dc0",
+      "kind": "original_attachment",
+      "provenance": {
+        "mounted_path": "sr_foxy_pass04_0515_audit/DIRECT_PD_CERTIFICATE.md"
+      }
+    },
+    {
+      "path": "attachments/sr_foxy_pass04_0515_audit/MOMENT_CORRECTION.md",
+      "bytes": 4237,
+      "sha256": "581538478a4f870ce21e4fd7133360cb83087e9c23fe802e5a0e7b77364d5a9e",
+      "git_blob_sha1": "feba98e0371cb175e55efd8142fccca65e2a7fe8",
+      "kind": "original_attachment",
+      "provenance": {
+        "mounted_path": "sr_foxy_pass04_0515_audit/MOMENT_CORRECTION.md"
+      }
+    },
+    {
+      "path": "attachments/sr_foxy_pass09_product_map/README.md",
+      "bytes": 7815,
+      "sha256": "490bd68865df706d51afe70e2d9e386cae87d633ab0eb7c043603cd739cf655b",
+      "git_blob_sha1": "d3706ea0aa6867c13aae53002f3437800b44a732",
+      "kind": "original_attachment",
+      "provenance": {
+        "mounted_path": "sr_foxy_pass09_product_map/README.md"
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_annulus_audit_2026_09_16/sr_foxy_annulus_audit/ARTIFACT_MANIFEST.json",
+      "bytes": 1618,
+      "sha256": "598ee9c1e7e988fe4b6fcef7efc8215cbe3a48effe8eb8b99c8a57093cad0efa",
+      "git_blob_sha1": "9a7bce7e9bdf963892bd807768fb483856b4a6ac",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_annulus_audit_2026_09_16.zip",
+        "zip_member": "sr_foxy_annulus_audit/ARTIFACT_MANIFEST.json",
+        "CRC32": 722969278
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_annulus_audit_2026_09_16/sr_foxy_annulus_audit/OPUS_AUDIT_NOTE.txt",
+      "bytes": 2164,
+      "sha256": "3b8aaf14cc6d60421929d993f235f41f0315648f2027f2e784ee983fa3a59a59",
+      "git_blob_sha1": "36a0442f179ce4225273fa52cbe4bb481585f87e",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_annulus_audit_2026_09_16.zip",
+        "zip_member": "sr_foxy_annulus_audit/OPUS_AUDIT_NOTE.txt",
+        "CRC32": 2839225346
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_annulus_audit_2026_09_16/sr_foxy_annulus_audit/REPORT.md",
+      "bytes": 18175,
+      "sha256": "855d07e1f94a7e6323291c62854dda8eff72eab3e4af0fddae35bd09178a47aa",
+      "git_blob_sha1": "630d7eb260e6a34024ea6536a504b573ba7d2bec",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_annulus_audit_2026_09_16.zip",
+        "zip_member": "sr_foxy_annulus_audit/REPORT.md",
+        "CRC32": 3471453520
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_annulus_audit_2026_09_16/sr_foxy_annulus_audit/adversarial/append_a_to_relator.json",
+      "bytes": 870,
+      "sha256": "c814361afd12de6d4df2be545aafe4b14d3b6fc71e2116801b2a1119720d958e",
+      "git_blob_sha1": "fd8241ad796236ba48a0a4a3e981b2ca45c601cf",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_annulus_audit_2026_09_16.zip",
+        "zip_member": "sr_foxy_annulus_audit/adversarial/append_a_to_relator.json",
+        "CRC32": 3911285802
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_annulus_audit_2026_09_16/sr_foxy_annulus_audit/adversarial/replace_v_with_u.json",
+      "bytes": 853,
+      "sha256": "34eb7cf422731018ef026babf75ce4d12354f083ea04306818d0c2f22127c995",
+      "git_blob_sha1": "714ee57d4921edca05bb9bc29175814005323b20",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_annulus_audit_2026_09_16.zip",
+        "zip_member": "sr_foxy_annulus_audit/adversarial/replace_v_with_u.json",
+        "CRC32": 1017410370
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_annulus_audit_2026_09_16/sr_foxy_annulus_audit/adversarial_checks.json",
+      "bytes": 390,
+      "sha256": "369e3d7a44b3cc31cde90451301af801f03f2cab3778cf8d5585cb9b50983708",
+      "git_blob_sha1": "3496b1eb33fde8966e935ef611d1574662642db2",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_annulus_audit_2026_09_16.zip",
+        "zip_member": "sr_foxy_annulus_audit/adversarial_checks.json",
+        "CRC32": 2897521635
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_annulus_audit_2026_09_16/sr_foxy_annulus_audit/bounded_replay.json",
+      "bytes": 7673,
+      "sha256": "0a742bf57ffd98fac6ecd66c703130993e52bc1c459d0e3a1d7d775d3168041a",
+      "git_blob_sha1": "46ec3be445010e7d50c49469edbe65aa9b7317b4",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_annulus_audit_2026_09_16.zip",
+        "zip_member": "sr_foxy_annulus_audit/bounded_replay.json",
+        "CRC32": 2851893719
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_annulus_audit_2026_09_16/sr_foxy_annulus_audit/coverage.json",
+      "bytes": 3671,
+      "sha256": "1a5f6db461975d0f3e69ee2eee8fa25db5ed12fbeb7e39f5e2e0ecd1388efed5",
+      "git_blob_sha1": "7924f4d5b2c37cf1ce33a8e911dce83904e573b9",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_annulus_audit_2026_09_16.zip",
+        "zip_member": "sr_foxy_annulus_audit/coverage.json",
+        "CRC32": 2658336745
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_annulus_audit_2026_09_16/sr_foxy_annulus_audit/inputs.json",
+      "bytes": 844,
+      "sha256": "cb0fc5c7cc134345f5d21b39d6055f0c341d1239d61e1bce31d5b277140e77bf",
+      "git_blob_sha1": "9fa6bdd6e501c8aff7a07d53f117920f863bca32",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_annulus_audit_2026_09_16.zip",
+        "zip_member": "sr_foxy_annulus_audit/inputs.json",
+        "CRC32": 3367989806
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_annulus_audit_2026_09_16/sr_foxy_annulus_audit/repeat_stdout.json",
+      "bytes": 158,
+      "sha256": "33865a9959f6a3eb45cb401f8c986f10b4fe015dbfdadaab3bc6106db6901468",
+      "git_blob_sha1": "b733a4654c615cc12313271af3928ddd72b376ca",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_annulus_audit_2026_09_16.zip",
+        "zip_member": "sr_foxy_annulus_audit/repeat_stdout.json",
+        "CRC32": 4013800197
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_annulus_audit_2026_09_16/sr_foxy_annulus_audit/verification_repeat_optimized.json",
+      "bytes": 6653,
+      "sha256": "2ab33dc9fcab1dfb8e0b0a19fc6205cccf1b98de1d18bb7565a2e54ecddc0112",
+      "git_blob_sha1": "3c7025b06794f1058e842b368ddc3370c5cb2e0a",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_annulus_audit_2026_09_16.zip",
+        "zip_member": "sr_foxy_annulus_audit/verification_repeat_optimized.json",
+        "CRC32": 2010289926
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_annulus_audit_2026_09_16/sr_foxy_annulus_audit/verification_results.json",
+      "bytes": 6653,
+      "sha256": "57781dfcfbdf6deb4dc49d5a8ed83d09e70961d24f732045b5c6a45fbe2068a9",
+      "git_blob_sha1": "465effbe236d3130218d49cd3a92c39bcd95332d",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_annulus_audit_2026_09_16.zip",
+        "zip_member": "sr_foxy_annulus_audit/verification_results.json",
+        "CRC32": 2068291152
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_annulus_audit_2026_09_16/sr_foxy_annulus_audit/verify_annulus_gate.py",
+      "bytes": 15136,
+      "sha256": "77ce89596af112b04add7a2b7d098c721d0017e86915f4f3b13354e379a5453c",
+      "git_blob_sha1": "9fa8c98184d1e2e2bba12bc7344e04f37e38c250",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_annulus_audit_2026_09_16.zip",
+        "zip_member": "sr_foxy_annulus_audit/verify_annulus_gate.py",
+        "CRC32": 3829948305
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_1.exact.json",
+      "bytes": 727,
+      "sha256": "8a1c336266e7158f43370998adedf5ff3b2b5c4d64b606729f049773f298d192",
+      "git_blob_sha1": "4bdc9c4cc51abaf65aaae011aee58955c050cf1b",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "KDG_1.exact.json",
+        "CRC32": 3696250082
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_1.exact.log",
+      "bytes": 95,
+      "sha256": "1ff933c26be8f2ac1d7ad481e684d19cf71b8f33327b4fa84360ec2a1c6a44b2",
+      "git_blob_sha1": "0f2a92f6f2639560956874ea1f7c715bb7f4f74e",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "KDG_1.exact.log",
+        "CRC32": 308601708
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_1.input.txt",
+      "bytes": 247,
+      "sha256": "d246184d59009b551a8f7dd9aa151c2731459fb387404a7ac65a2237381afffb",
+      "git_blob_sha1": "2efea63b74e7fbf76ad97531c524d05e2f732fb1",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "KDG_1.input.txt",
+        "CRC32": 2688872221
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_1.json",
+      "bytes": 2244,
+      "sha256": "abd7e5cd730e229bbdfaa1c5c7a352c2caff026fd6eaf34ea6a34ab6a1cdd3d8",
+      "git_blob_sha1": "29cf1359db19585d38fce061b62f99d3ab270ed5",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "KDG_1.json",
+        "CRC32": 75743995
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_4.exact.interruption.json",
+      "bytes": 306,
+      "sha256": "b6de0537503031935c41f1a5f4c855d6d481726cbc6873ff9bea277082d18168",
+      "git_blob_sha1": "8064a7f0d97c3dc90e81b7305c355bf3b19d8a74",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "KDG_4.exact.interruption.json",
+        "CRC32": 2565718574
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_4.exact.log",
+      "bytes": 750,
+      "sha256": "70105b924e7350e351474a2b7373c0ad5e3a81ffc7149ba8c5bb289cb2428cfa",
+      "git_blob_sha1": "58157eefe27abbf9ee2e8ea9bba1b31a278519d2",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "KDG_4.exact.log",
+        "CRC32": 2460505754
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_4.input.txt",
+      "bytes": 5438,
+      "sha256": "f1a7e5f9ac2b1deaf84d867ac6c3e6bddee5fb8c3593ba0871a826119b152943",
+      "git_blob_sha1": "2443ad3d10cff60d4a73d8f6fb328bc74399e06f",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "KDG_4.input.txt",
+        "CRC32": 3833964795
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_4.json",
+      "bytes": 19782,
+      "sha256": "0ecfc4fffba9158a6a95f2cf4fda24d6511c0c988d641e23c699aea728a324be",
+      "git_blob_sha1": "2722a7a855e991d730c04857859e91f15119d71e",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "KDG_4.json",
+        "CRC32": 2752119084
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_4.mod32.json",
+      "bytes": 802,
+      "sha256": "ad993d03ebe306b3d3be0fc09fd62619b688dc6a07ea3f01a4e5a571eda3e990",
+      "git_blob_sha1": "eaf7d8c62dc4cd40602e6e656a72342a90cdb1ac",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "KDG_4.mod32.json",
+        "CRC32": 1474069572
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_4.mod32.log",
+      "bytes": 893,
+      "sha256": "34db1f689ac72c6f74d1983bc53454c639ce92b90014bdf2d075fad24932b85c",
+      "git_blob_sha1": "d421cc0c0785a7df660f3e3958d711e7e99dccb0",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "KDG_4.mod32.log",
+        "CRC32": 310459649
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_4_planar.json",
+      "bytes": 19828,
+      "sha256": "7baa537c8a69da6aab5d3120530af93bec236978164e51af8c8e8de09f78b7af",
+      "git_blob_sha1": "d7aa8a8db2ec4729d688983a013d5c1148e59667",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "KDG_4_planar.json",
+        "CRC32": 757205696
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_4_reverse.exact.json",
+      "bytes": 861,
+      "sha256": "53d12d7d4150b434a894e812e5f5dd24578903e49411f8ce90ef7f37e72b9acd",
+      "git_blob_sha1": "11fa3acad46f008e197305bfa74b11384f3dee7c",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "KDG_4_reverse.exact.json",
+        "CRC32": 3234558859
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_4_reverse.exact.log",
+      "bytes": 887,
+      "sha256": "43cda8a9a018cf1115d4741f55806b95d21cc7fcc68ec02d68a505d2cba918ac",
+      "git_blob_sha1": "037a0d9f33df6804a584497d291f9c365328a4e5",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "KDG_4_reverse.exact.log",
+        "CRC32": 2081356210
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_4_reverse.input.txt",
+      "bytes": 5438,
+      "sha256": "2c8d1be29ce02d1b90d6b96e07582f3454c5ebe7d1f76363a9773bf56afdbf92",
+      "git_blob_sha1": "6100700a9250e54560e0a51f82ca14bfd7a08aef",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "KDG_4_reverse.input.txt",
+        "CRC32": 3478828827
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/KDG_4_reverse.json",
+      "bytes": 19835,
+      "sha256": "66cf1240180ed5703fcef5f1bbd3775301dae293e9dac5956f6ffd7eb781c2d1",
+      "git_blob_sha1": "e4b2ee8908070a50d73879c4e0c30363fbf6c888",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "KDG_4_reverse.json",
+        "CRC32": 1038292684
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/frontier_jet.cpp",
+      "bytes": 5850,
+      "sha256": "87427c37138b467bedadc17665ef72ff7588d9078d033a7364cf0f7053a9461a",
+      "git_blob_sha1": "7b8f9fe19da8bac8f6feeb3b0d2ec038631ec66d",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "frontier_jet.cpp",
+        "CRC32": 292807096
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/frontier_jet_initial.cpp",
+      "bytes": 5655,
+      "sha256": "ba0e449a4e8f13d07a790e71bb3e64509c2746814e18d43f67581715e7f015cc",
+      "git_blob_sha1": "6c95524fe5dc72b7033e9e9105ee8a969d05e393",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "frontier_jet_initial.cpp",
+        "CRC32": 3649528653
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/geometry.py",
+      "bytes": 6527,
+      "sha256": "2bebeaa028ebb8ea539b7cc023c9a6c0b1da4e39b64c29e6ffd5d88c28217bc0",
+      "git_blob_sha1": "31aec889882294544efdcbac7ec7307eec40e808",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "geometry.py",
+        "CRC32": 2314926523
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/make_publication.py",
+      "bytes": 2263,
+      "sha256": "b1a79c1575beefb4d4d11e3897e2bf46523ceffe76837caa9774e77c67cc724a",
+      "git_blob_sha1": "57de941a0f03ba55273a1bd17b16a4dfd680d173",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "make_publication.py",
+        "CRC32": 4243136224
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/prepare.py",
+      "bytes": 2577,
+      "sha256": "6f159b7b12ea68b13107f06e5b74c66a3e7b33d11d2c7364c7647203b24068de",
+      "git_blob_sha1": "0be4307403e9131e18079d5e48f9379e1833ebec",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "prepare.py",
+        "CRC32": 1713027108
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/publication/MANIFEST.json",
+      "bytes": 1144,
+      "sha256": "ed3a1d9806b9013a705f8ef5a4bf261d541d6c08cc362a380018a2bfc260c62c",
+      "git_blob_sha1": "0815c2700e55a482c17f32f548717c99cf4a38b7",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "publication/MANIFEST.json",
+        "CRC32": 3432238625
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/publication/README.md",
+      "bytes": 5764,
+      "sha256": "995eb2fba9a476463bf105ea153da3809531c5e2b9a56db179be488afb9251f4",
+      "git_blob_sha1": "912839405bf0f93c69d5da3e92a2e57a1f8a380f",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "publication/README.md",
+        "CRC32": 3353824039
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/publication/certificate.json",
+      "bytes": 8617,
+      "sha256": "aec2248dd4dd011f901188b40337c263c51b3d012081b87fe831610f480bbd80",
+      "git_blob_sha1": "ff6f6fc6e8a9a1b80ee68e9bbc11481d14700b71",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "publication/certificate.json",
+        "CRC32": 3853628517
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/publication/frontier_jet.cpp",
+      "bytes": 5850,
+      "sha256": "87427c37138b467bedadc17665ef72ff7588d9078d033a7364cf0f7053a9461a",
+      "git_blob_sha1": "7b8f9fe19da8bac8f6feeb3b0d2ec038631ec66d",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "publication/frontier_jet.cpp",
+        "CRC32": 292807096
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/publication/geometry.py",
+      "bytes": 6527,
+      "sha256": "2bebeaa028ebb8ea539b7cc023c9a6c0b1da4e39b64c29e6ffd5d88c28217bc0",
+      "git_blob_sha1": "31aec889882294544efdcbac7ec7307eec40e808",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "publication/geometry.py",
+        "CRC32": 2314926523
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/publication/reproduce.py",
+      "bytes": 4235,
+      "sha256": "be1537bedbb5d2e7240ff8e8da289d6fec6baa05eb8b254301b109be820c0a7a",
+      "git_blob_sha1": "7cf13ee6473e41a19fcd41480dad9fded141aeb3",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "publication/reproduce.py",
+        "CRC32": 2464884337
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/publication/validation.json",
+      "bytes": 5146,
+      "sha256": "3b563a78bbbf408ae7899a095b7dc586204fb0fdc9e511b5772ffa9b6c53bc36",
+      "git_blob_sha1": "8c8dda18c06b9f1a331ab8a7c9cea78ef5cf7865",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "publication/validation.json",
+        "CRC32": 2157321762
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/publication_controls/manifest.json",
+      "bytes": 2368,
+      "sha256": "8b34c052e2d3c36c5ea7d1a5cc177c334607f5705cf6d8f23c2be76c05d09ced",
+      "git_blob_sha1": "9b6655fae07dee7c213519569f10234b6fbcd779",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "publication_controls/manifest.json",
+        "CRC32": 1964555779
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/publication_controls/ribbon61_3.input.txt",
+      "bytes": 1487,
+      "sha256": "a5b9846b8c3ff99276c0a36d91fc0d714ac188ba26cf75c15ac04e58b8fd7791",
+      "git_blob_sha1": "a9727a0d731124a353d24bb44fa5813932d8cac4",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "publication_controls/ribbon61_3.input.txt",
+        "CRC32": 1253247738
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/publication_controls/ribbon61_3.log",
+      "bytes": 296,
+      "sha256": "9023168d6ec1c44d725223c4cc1c11ce704b7deb471a2b15d7cc5256abe6ec54",
+      "git_blob_sha1": "ca2d30e236e8d428a7685d529f6a3b9afb8c92cd",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "publication_controls/ribbon61_3.log",
+        "CRC32": 4218310059
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/publication_controls/ribbon61_4.input.txt",
+      "bytes": 2878,
+      "sha256": "24f2b1b2fb666817e8387fecac918806b6e8993de0a3aec12575f01a1498a325",
+      "git_blob_sha1": "7a182b184675c0bc64fc151d76f4bd2f1cbee303",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "publication_controls/ribbon61_4.input.txt",
+        "CRC32": 1178274619
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/publication_controls/ribbon61_4.log",
+      "bytes": 499,
+      "sha256": "2631950f5f758fa39625a8dc2b8ca722bd17ae29928cb27e40e0dccbf058ddc6",
+      "git_blob_sha1": "e51e5e847fb937f74713995876e27a25a56e4f1b",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "publication_controls/ribbon61_4.log",
+        "CRC32": 308597260
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/publication_verification.json",
+      "bytes": 632,
+      "sha256": "5a6d4f95c9ce60e0c823e1d054253be19424fffb787adcc5ef60ff8c7b8c893d",
+      "git_blob_sha1": "4858b95dca5387b02a8ca3a1d59de62e03bc3999",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "publication_verification.json",
+        "CRC32": 3704210304
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_1.exact.json",
+      "bytes": 727,
+      "sha256": "1bb1ea97b4f0308bd5bcd6ed8f62d17f28a927800c9d9a1fe1312b3612be2c9c",
+      "git_blob_sha1": "a5b42e52c92dfdc8834ce562a091e3c9218b9a83",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "ribbon61_1.exact.json",
+        "CRC32": 2430508343
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_1.exact.log",
+      "bytes": 47,
+      "sha256": "29609e411ce03f5d455d103b03bbc06e53ba237e8402299188648d7a67d96e50",
+      "git_blob_sha1": "4462896445658670331105c247be0ce329729ff9",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "ribbon61_1.exact.log",
+        "CRC32": 2927557167
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_1.input.txt",
+      "bytes": 127,
+      "sha256": "a035f06b7fb0076c2d0bb29796efb31bd02b14f16fd1869174d86f8d58a83e12",
+      "git_blob_sha1": "fc632f5c8e245dcb323e947c0f948fbf63245541",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "ribbon61_1.input.txt",
+        "CRC32": 2192409006
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_1.json",
+      "bytes": 1353,
+      "sha256": "c275bf3111c1bf244bceb1cfe70b2294ef102cc39606644aeead5b4bb4bd5134",
+      "git_blob_sha1": "73672e0a15a8c2d917e4b88d91acbd54d43bd339",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "ribbon61_1.json",
+        "CRC32": 1450276647
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_3.exact.json",
+      "bytes": 822,
+      "sha256": "c742ce6694ab7f8545a4d7f76ef06dc05c31c2e39311e6b098fa45230fb6fd15",
+      "git_blob_sha1": "15ab5f6d1b5c0961e965c84c594c1e2f85d19f08",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "ribbon61_3.exact.json",
+        "CRC32": 1753979914
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_3.exact.log",
+      "bytes": 296,
+      "sha256": "bc8af48197eb6f632aaf90542d319f730c72178a467ab32ebef40bf001346a77",
+      "git_blob_sha1": "007cc27f2969ccbe8511770c203e79a355bbb229",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "ribbon61_3.exact.log",
+        "CRC32": 2362353049
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_3.input.txt",
+      "bytes": 1487,
+      "sha256": "a5b9846b8c3ff99276c0a36d91fc0d714ac188ba26cf75c15ac04e58b8fd7791",
+      "git_blob_sha1": "a9727a0d731124a353d24bb44fa5813932d8cac4",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "ribbon61_3.input.txt",
+        "CRC32": 1253247738
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_3.json",
+      "bytes": 6427,
+      "sha256": "e1ef14ef52fd6b290786e85e63f595ba1ce6662eea045eaad62b50c8c2c9f55c",
+      "git_blob_sha1": "814b08987a3a0acb3f015b0dd91da85168c175bc",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "ribbon61_3.json",
+        "CRC32": 1690716588
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_4.exact.json",
+      "bytes": 853,
+      "sha256": "662c5e0771a7e0bed0b4603d3f676cb50b19559698407cb76b3750c00e9b9932",
+      "git_blob_sha1": "df7dc2c88f161b052c0128a2631e0cb38ddc388e",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "ribbon61_4.exact.json",
+        "CRC32": 237274041
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_4.exact.log",
+      "bytes": 498,
+      "sha256": "f140c4d2dcbeaf3cda5280e69ebace11f22cbbd47998e748fad525212e67f454",
+      "git_blob_sha1": "7442d50f5b3ea17d0afee8ca507d8ca007c49ac3",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "ribbon61_4.exact.log",
+        "CRC32": 4054585575
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_4.input.txt",
+      "bytes": 2878,
+      "sha256": "24f2b1b2fb666817e8387fecac918806b6e8993de0a3aec12575f01a1498a325",
+      "git_blob_sha1": "7a182b184675c0bc64fc151d76f4bd2f1cbee303",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "ribbon61_4.input.txt",
+        "CRC32": 1178274619
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_4.json",
+      "bytes": 11050,
+      "sha256": "878e3ccd63eb295e7f7ea2b441affbf04b59b85c68447c41aaf620a1d95dbbbb",
+      "git_blob_sha1": "9173628e96c617819f86d74ddd22e6a1869c20b8",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "ribbon61_4.json",
+        "CRC32": 3819148394
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_4.mod32.json",
+      "bytes": 809,
+      "sha256": "7fd45a78c6fbf8cb26ed8e307190bca535a4224421545882bc974453c3a1bc30",
+      "git_blob_sha1": "b8c673d55bc78189a5f7b7e4c5da8eac704d162a",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "ribbon61_4.mod32.json",
+        "CRC32": 3189387399
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/ribbon61_4.mod32.log",
+      "bytes": 499,
+      "sha256": "461e9082af781c5c939a838fbc237bcdedf3dd2d0708637fd2ce13e710fa75eb",
+      "git_blob_sha1": "acf179fe0d129e3dfd5c5d4217c2d2bc7613221f",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "ribbon61_4.mod32.log",
+        "CRC32": 3597001262
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/run.py",
+      "bytes": 2396,
+      "sha256": "4d2d351659ec7fcb54ffd361bc5f98186ea5f9e2220055067fdb5f8dd6eb5705",
+      "git_blob_sha1": "2b33115d2dcaf7b0976865fd85688de7c7113063",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "run.py",
+        "CRC32": 2758325316
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/source_pd.json",
+      "bytes": 5446,
+      "sha256": "e67ad435cb22d8843c3e5430fada345873209f110c14063839aeb45b3488f26c",
+      "git_blob_sha1": "276c1c7d33d3e04661486162766e5f691b91c9f8",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "source_pd.json",
+        "CRC32": 653907463
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/validate.py",
+      "bytes": 6654,
+      "sha256": "0f0a2cab90886f95f6f2b41b31ec07d101dd0b8bd4cf5452505af0464fbd0e41",
+      "git_blob_sha1": "1813523b3843140fdb3b4d889027e370522deda0",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "validate.py",
+        "CRC32": 360610313
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/validate_initial.py",
+      "bytes": 6643,
+      "sha256": "cddd724e84fde7fd47e7d79520829a0288c1235106870b5782c6e6ddeac6f1ee",
+      "git_blob_sha1": "a7ae0eea06d8734f7879d8817f29dd215fbbe70c",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "validate_initial.py",
+        "CRC32": 3446530693
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/validation.json",
+      "bytes": 5146,
+      "sha256": "3b563a78bbbf408ae7899a095b7dc586204fb0fdc9e511b5772ffa9b6c53bc36",
+      "git_blob_sha1": "8c8dda18c06b9f1a331ab8a7c9cea78ef5cf7865",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "validation.json",
+        "CRC32": 2157321762
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_four_parallel_completed_2026_09_17/validation_initial.json",
+      "bytes": 5150,
+      "sha256": "cdc2d2eefaf4d9eb005ae08367d3e50268a1b48818401f13d24d5b1386ad221e",
+      "git_blob_sha1": "f9c8eb405cb2729cf6940498641722807f3b1f91",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_four_parallel_completed_2026_09_17.zip",
+        "zip_member": "validation_initial.json",
+        "CRC32": 1088894018
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/PATCH_VALIDATION.json",
+      "bytes": 907,
+      "sha256": "4e325e9cab2b92d1f15bf29aa79ae19e2f8790bc7c52595f7343da9806b2fb72",
+      "git_blob_sha1": "0d2a8e5bb5ca61a9fa137ea11997f84f85597dd9",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+        "zip_member": "PATCH_VALIDATION.json",
+        "CRC32": 1120532994
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/README_OFFLINE.txt",
+      "bytes": 888,
+      "sha256": "3d84411abb58f36073da93df5bf1e355ad7d47bcb3cc2142c649fc691987b840",
+      "git_blob_sha1": "6d065e7443b9199aebc3b992f99cda860142df35",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+        "zip_member": "README_OFFLINE.txt",
+        "CRC32": 2833081163
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/SR_Foxy_pass03_additions.patch",
+      "bytes": 95607,
+      "sha256": "c06aa2fa67559e66e7a6c8b10b5f48526a678af6f65d4b78fa9b16fe254ff0cb",
+      "git_blob_sha1": "5ae50635fe2894e8452945850d84529dbacbe63b",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+        "zip_member": "SR_Foxy_pass03_additions.patch",
+        "CRC32": 2446096533
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/dependencies/pass02/MANIFEST.json",
+      "bytes": 1144,
+      "sha256": "ed3a1d9806b9013a705f8ef5a4bf261d541d6c08cc362a380018a2bfc260c62c",
+      "git_blob_sha1": "0815c2700e55a482c17f32f548717c99cf4a38b7",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+        "zip_member": "dependencies/pass02/MANIFEST.json",
+        "CRC32": 3432238625
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/dependencies/pass02/certificate.json",
+      "bytes": 8617,
+      "sha256": "aec2248dd4dd011f901188b40337c263c51b3d012081b87fe831610f480bbd80",
+      "git_blob_sha1": "ff6f6fc6e8a9a1b80ee68e9bbc11481d14700b71",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+        "zip_member": "dependencies/pass02/certificate.json",
+        "CRC32": 3853628517
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/dependencies/pass02/frontier_jet.cpp",
+      "bytes": 5850,
+      "sha256": "87427c37138b467bedadc17665ef72ff7588d9078d033a7364cf0f7053a9461a",
+      "git_blob_sha1": "7b8f9fe19da8bac8f6feeb3b0d2ec038631ec66d",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+        "zip_member": "dependencies/pass02/frontier_jet.cpp",
+        "CRC32": 292807096
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/dependencies/pass02/geometry.py",
+      "bytes": 6527,
+      "sha256": "2bebeaa028ebb8ea539b7cc023c9a6c0b1da4e39b64c29e6ffd5d88c28217bc0",
+      "git_blob_sha1": "31aec889882294544efdcbac7ec7307eec40e808",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+        "zip_member": "dependencies/pass02/geometry.py",
+        "CRC32": 2314926523
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/dependencies/pass02/reproduce.py",
+      "bytes": 4235,
+      "sha256": "be1537bedbb5d2e7240ff8e8da289d6fec6baa05eb8b254301b109be820c0a7a",
+      "git_blob_sha1": "7cf13ee6473e41a19fcd41480dad9fded141aeb3",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+        "zip_member": "dependencies/pass02/reproduce.py",
+        "CRC32": 2464884337
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/exploratory/explore_cabling_transfer.py",
+      "bytes": 735,
+      "sha256": "eab1be6b1986ca83dc029bf877f1f2909ef3d0c58ef3aee52912d80bc1b717c3",
+      "git_blob_sha1": "05687478d5bd6ecbb66da3afa7a57e97ddc890d3",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+        "zip_member": "exploratory/explore_cabling_transfer.py",
+        "CRC32": 2820937926
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/exploratory/leading_laws.py",
+      "bytes": 522,
+      "sha256": "d7a8b7d7fd6f621e7434d81e5ac0e2cc3c0616395a986b6b30ddcc972cbf9399",
+      "git_blob_sha1": "5b75fb4206427e05fc8be43340e510974f95e069",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+        "zip_member": "exploratory/leading_laws.py",
+        "CRC32": 787015152
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/CHECKPOINT.json",
+      "bytes": 1432,
+      "sha256": "bc4f3583db8f4a66c7bc6a7b85d3a18dc1ab1e56761440421029eb437220a3c7",
+      "git_blob_sha1": "871b75ac3ba7c736c783f266ce05e05ee55743c1",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+        "zip_member": "new_results/CHECKPOINT.json",
+        "CRC32": 1521789166
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/MANIFEST.json",
+      "bytes": 3135,
+      "sha256": "2e1d5f135f688c42436155bb57a502418a167729f1f87aadd19d782a3a51e17b",
+      "git_blob_sha1": "0aead40f8860cdce4532e15dc16642f6b8c59636",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+        "zip_member": "new_results/MANIFEST.json",
+        "CRC32": 2788742906
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/OPUS_REVIEW.md",
+      "bytes": 4140,
+      "sha256": "dc2fb4ce76f04644ba61e8e62bf86165ee77c4254a99ee75602c7e2ffb49faa8",
+      "git_blob_sha1": "ec290283dc4c2cb9fadb7baf9450a4567ea5e37d",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+        "zip_member": "new_results/OPUS_REVIEW.md",
+        "CRC32": 944531928
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/PROPOSED_TRANSFER_THEOREM.md",
+      "bytes": 22868,
+      "sha256": "77df80d6269759fc1cf626a263e11e7e2b2a1d3c18fde05c1cb57139037ade36",
+      "git_blob_sha1": "4383f1183dc7e2a8f5d70e3c11f2a5a4d9bd05eb",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+        "zip_member": "new_results/PROPOSED_TRANSFER_THEOREM.md",
+        "CRC32": 127840292
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/README.md",
+      "bytes": 5082,
+      "sha256": "d3f65c6d0ce82986d9d1cac5a5b2e0fccd7c079849361c64a1df9e19b8b5d8ee",
+      "git_blob_sha1": "bf0d15be38bc20833f6e59006fbb033c0ede758f",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+        "zip_member": "new_results/README.md",
+        "CRC32": 4041874806
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/algebra_results.json",
+      "bytes": 6894,
+      "sha256": "3e380deb7861bfa66b94dadfd4a3f545857bad6d83febf57944c2be3e3f5d8e7",
+      "git_blob_sha1": "932d8ecb519c22588b160b0348a1f5fde01c27bb",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+        "zip_member": "new_results/algebra_results.json",
+        "CRC32": 3510260334
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/check_connected_sum_controls.py",
+      "bytes": 5494,
+      "sha256": "e7cca295aaddbfb752a9911bd1f975fa6bf6cc5f31698c3b31beed173a795b21",
+      "git_blob_sha1": "141252a23e399d15a5e9a733728e9d7e8f00e65a",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+        "zip_member": "new_results/check_connected_sum_controls.py",
+        "CRC32": 3517598445
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/check_general_transfer.py",
+      "bytes": 9530,
+      "sha256": "195f7fff301a4c8a0deda8685770e2ad5aae025aa604b2e3ada3a6b3f6cf16c3",
+      "git_blob_sha1": "7bc03d716173a6e2e086d73a700471a2a470af23",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+        "zip_member": "new_results/check_general_transfer.py",
+        "CRC32": 190417565
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/coverage.json",
+      "bytes": 1144,
+      "sha256": "1224ccd6869a32f43f9e52e89b634f796729b196502bf61104a144e5574acf0d",
+      "git_blob_sha1": "f8b48c8e8e1ef4bf1fa4adba45b7e234b1ac4cd1",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+        "zip_member": "new_results/coverage.json",
+        "CRC32": 3816616781
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/direct_controls/manifest.json",
+      "bytes": 14205,
+      "sha256": "3c7a39fc79dc629e85a25d2bd3012036277a5f35fd82311f326dadedaba43778",
+      "git_blob_sha1": "988c21744f02e36a9e621a056dc3399a6a14414c",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+        "zip_member": "new_results/direct_controls/manifest.json",
+        "CRC32": 2592155803
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/direct_controls/ribbon61_sum_61_parallel_2.input.txt",
+      "bytes": 1297,
+      "sha256": "ed03f2f925aefa066b5c46a8500d7823cae96d34c6da6b2380cb9218b8edfa6d",
+      "git_blob_sha1": "514745a23fe16e09ebc64fbbcf980308709fb697",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+        "zip_member": "new_results/direct_controls/ribbon61_sum_61_parallel_2.input.txt",
+        "CRC32": 4019169636
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/direct_controls/ribbon61_sum_61_parallel_2.log",
+      "bytes": 243,
+      "sha256": "e9a5b8a98c2a5e358a7b6b2730d2790ce170db3bb51151c672e03ede6c81efc8",
+      "git_blob_sha1": "4ef6dbe8d3841df0e3a0365261d273f0b12db45d",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+        "zip_member": "new_results/direct_controls/ribbon61_sum_61_parallel_2.log",
+        "CRC32": 823380406
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/direct_controls/ribbon61_sum_61_parallel_3.input.txt",
+      "bytes": 3278,
+      "sha256": "93c61aa0790395f31cf545c3fd1414264ff730199249878827116b570caccd68",
+      "git_blob_sha1": "9da4195b1fbc29787ee17e97b53eee3d3e9dca18",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+        "zip_member": "new_results/direct_controls/ribbon61_sum_61_parallel_3.input.txt",
+        "CRC32": 4161852846
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/direct_controls/ribbon61_sum_61_parallel_3.log",
+      "bytes": 585,
+      "sha256": "f9fde5c6f6654da812c51090a1ce7a1b5ec992a51ab5db575fb78a731523573f",
+      "git_blob_sha1": "cbe79b38cee3f165f9d4048acf6a657de261a585",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+        "zip_member": "new_results/direct_controls/ribbon61_sum_61_parallel_3.log",
+        "CRC32": 3922123750
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/direct_controls/ribbon61_sum_61_parallel_4.input.txt",
+      "bytes": 6078,
+      "sha256": "3cdef6c94dbb3b3b2cccdebdd31ab7ff6cd18f4533d41ce1e50afc9c72091968",
+      "git_blob_sha1": "0dda4bc979a5f3b92c62f825db90722e452d074e",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+        "zip_member": "new_results/direct_controls/ribbon61_sum_61_parallel_4.input.txt",
+        "CRC32": 1987936475
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_general_transfer_audit_2026_09_17/new_results/direct_controls/ribbon61_sum_61_parallel_4.log",
+      "bytes": 215,
+      "sha256": "7de1d590eec9a4e33521b0ccd2879bf002eb092499193b30a2116316ba510c7a",
+      "git_blob_sha1": "3b46b3c2ace7ce72c2a95af06b94b61f79f43921",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_general_transfer_audit_2026_09_17.zip",
+        "zip_member": "new_results/direct_controls/ribbon61_sum_61_parallel_4.log",
+        "CRC32": 695429902
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_overnight_plan_2026_09_17/ARTIFACT_MANIFEST.json",
+      "bytes": 1159,
+      "sha256": "039304098e905022d578f32a5652cc365b676742208043ec8700a257f540bb54",
+      "git_blob_sha1": "c4d96402913196263211099b199b47b93ebf5390",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_overnight_plan_2026_09_17.zip",
+        "zip_member": "ARTIFACT_MANIFEST.json",
+        "CRC32": 4250342014
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_overnight_plan_2026_09_17/FOUR_STRAND_GATE.md",
+      "bytes": 2934,
+      "sha256": "cf6617473dddc2d90454c706a23dc22bdd37403d87eaadca130d59835c0a37f4",
+      "git_blob_sha1": "9babcd32c2f3379ca59d3a56a110251179ffc166",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_overnight_plan_2026_09_17.zip",
+        "zip_member": "FOUR_STRAND_GATE.md",
+        "CRC32": 1160770403
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_overnight_plan_2026_09_17/LOW_WRAPPING_LEMMA.md",
+      "bytes": 11701,
+      "sha256": "890d36ca4847a320a2f3afe04f5599ad9de69f1908199f47ed13938bc625d16a",
+      "git_blob_sha1": "062580ea85d0e9af6fd226d0acfa155834b3aee5",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_overnight_plan_2026_09_17.zip",
+        "zip_member": "LOW_WRAPPING_LEMMA.md",
+        "CRC32": 3107048724
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_overnight_plan_2026_09_17/PUBLICATION_CHECK.json",
+      "bytes": 1340,
+      "sha256": "b4fd2468856a0b9311026cdb46a0cb40c699487a5eaa934cec2d8d8935fea744",
+      "git_blob_sha1": "b44064f827ab961595b2d58944c842d5895a84ff",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_overnight_plan_2026_09_17.zip",
+        "zip_member": "PUBLICATION_CHECK.json",
+        "CRC32": 217854220
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_overnight_plan_2026_09_17/README.md",
+      "bytes": 5351,
+      "sha256": "e277c01b1b8985f9b1ab1c4d73e0c4f25cc6a42a924f94928bd99a907238dfb8",
+      "git_blob_sha1": "646d8dcf99c18ae982a7e00cb2b6b7206ad3c112",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_overnight_plan_2026_09_17.zip",
+        "zip_member": "README.md",
+        "CRC32": 2378966022
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_overnight_plan_2026_09_17/check_results.json",
+      "bytes": 912,
+      "sha256": "9b0d44401c3d526dea11e112ad9c4caa7ea9ecf2c0a5b8a154adc5264f824700",
+      "git_blob_sha1": "f1b5f2b44b21c901892fe0320b3fbbb9d3a77bd8",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_overnight_plan_2026_09_17.zip",
+        "zip_member": "check_results.json",
+        "CRC32": 2090113976
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_overnight_plan_2026_09_17/check_transfer.py",
+      "bytes": 7023,
+      "sha256": "d4464f30dcb7b16429f9a9b21e8b5290fcaad3235b435eec182a5484b21ac407",
+      "git_blob_sha1": "edbb87b4ad5ea654bf15a1c4643e4739db73577c",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_overnight_plan_2026_09_17.zip",
+        "zip_member": "check_transfer.py",
+        "CRC32": 1098806543
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_overnight_plan_2026_09_17/inputs.json",
+      "bytes": 1224,
+      "sha256": "0b3d8b7da27583671b804f802c11a7221ca4a507a72a40ca517524c6a28f2954",
+      "git_blob_sha1": "d205c028194904375c99b2a3818cd5af34b3d172",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_overnight_plan_2026_09_17.zip",
+        "zip_member": "inputs.json",
+        "CRC32": 3473958678
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_overnight_plan_2026_09_17/optimized_recheck.json",
+      "bytes": 911,
+      "sha256": "c67379566a1f719a1f68265de5f2adb156cefd230d8ea1c86538ee42e545e979",
+      "git_blob_sha1": "94b48ace1325b388d1f7518af001b878210a7b49",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_overnight_plan_2026_09_17.zip",
+        "zip_member": "optimized_recheck.json",
+        "CRC32": 2931778873
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/SR_Foxy_pass04_centered_marked_additions.patch",
+      "bytes": 216389,
+      "sha256": "a21045ed0563b0bf10823aff09295bb84f6670cb56d101ba63919111ca8468bd",
+      "git_blob_sha1": "9225b69bdc75a962317dcbf1e6b2a4a4a6cd720c",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "SR_Foxy_pass04_centered_marked_additions.patch",
+        "CRC32": 728508316
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/CHECKPOINT.json",
+      "bytes": 1796,
+      "sha256": "87f05fc2d3e244189a4fd92302af8e69014778a4ac3c2fdcb1457af4bcbb08d0",
+      "git_blob_sha1": "055aa14d6f7e0bf5c7d5c40c7556449e3e8d22d5",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/CHECKPOINT.json",
+        "CRC32": 566129964
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/CORRECTED_TRANSFER_WORKING_COPY.md",
+      "bytes": 23386,
+      "sha256": "63a266c2f6444c9735e041a7b4d4128895b001f2307915bb965a13ecb2bd7d2b",
+      "git_blob_sha1": "3d748a2026a3d9022dd774a37d58ddd798458904",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/CORRECTED_TRANSFER_WORKING_COPY.md",
+        "CRC32": 108016846
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/D01_JONES_GATE.md",
+      "bytes": 6189,
+      "sha256": "c7577617d44b7fad02cb013b6d91cfc16e2c1aa0dce7e5e4d52a5fbacddb65d2",
+      "git_blob_sha1": "7a23f04e120c8cb991d14af6c1a5cede8f13611f",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/D01_JONES_GATE.md",
+        "CRC32": 1909542786
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/DIRECT_PD_CERTIFICATE.md",
+      "bytes": 5438,
+      "sha256": "09a5ef337823c7eb06541604db858cb67cfe4114d24d1d25ae0a914b288e1e98",
+      "git_blob_sha1": "d5f18e0df5be03aea797b29bb90afd64c45d7dc0",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/DIRECT_PD_CERTIFICATE.md",
+        "CRC32": 3995156642
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/MANIFEST.json",
+      "bytes": 12127,
+      "sha256": "5327023ec26182d79c2b9b04209ba7ed5ffc87d3e928b552ddce322647452755",
+      "git_blob_sha1": "5c3fee23fe33795310f13c1beb529e76421bcc37",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/MANIFEST.json",
+        "CRC32": 515992297
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/MATRIX_ASSIGNMENT.md",
+      "bytes": 996,
+      "sha256": "7b101db0201a4f5f0a88f9caeadecfd9a8d38f81dc23f57889d681a2fead4d6d",
+      "git_blob_sha1": "812cc1795299802db76a0e8f53a267a2874bfe2c",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/MATRIX_ASSIGNMENT.md",
+        "CRC32": 2932879655
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/MOMENT_CORRECTION.md",
+      "bytes": 4237,
+      "sha256": "581538478a4f870ce21e4fd7133360cb83087e9c23fe802e5a0e7b77364d5a9e",
+      "git_blob_sha1": "feba98e0371cb175e55efd8142fccca65e2a7fe8",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/MOMENT_CORRECTION.md",
+        "CRC32": 176456227
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/OPUS_HANDOFF.md",
+      "bytes": 2766,
+      "sha256": "533362a006aa8a104f3e605ddd10ed76363903b59264692a054ff3c39270dc5f",
+      "git_blob_sha1": "54d211f713fc8e8becf787ce366c15c420f47239",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/OPUS_HANDOFF.md",
+        "CRC32": 2159687257
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/README.md",
+      "bytes": 5376,
+      "sha256": "ff34a4b5eb849299b75f733e321ed75ae76b1299e32fc64627225e1d04d670d0",
+      "git_blob_sha1": "d6712f5c07a451257cd1c68cf48f95e61cda1a1f",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/README.md",
+        "CRC32": 834334917
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/SOURCES.md",
+      "bytes": 4367,
+      "sha256": "3b08cc4206d2c5ef937ec4de8eeb2a899e484fa2c49f9324f68f2873f39645fe",
+      "git_blob_sha1": "83907b1611dd30021e21279e1a72602a281bdee8",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/SOURCES.md",
+        "CRC32": 2600371314
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/centered_moment_results.json",
+      "bytes": 1468,
+      "sha256": "fa4649158805323e0ffe880c14e232a54be47ad36f2c5ad939f3bf76135187f9",
+      "git_blob_sha1": "d56097531b958d68388813f74138b12bdf86e586",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/centered_moment_results.json",
+        "CRC32": 3265675757
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/check_centered_moments.py",
+      "bytes": 4585,
+      "sha256": "7b19c7673bcb093e85b5de266e9725c44577daade2bd99df413b296cb61dd01b",
+      "git_blob_sha1": "85344d08c21920901f5278029fa659626ec8db4a",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/check_centered_moments.py",
+        "CRC32": 3186380103
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/check_d01_gates.py",
+      "bytes": 3962,
+      "sha256": "518f792900822c4a419817ad7a5031d668210ff1bc481b68a637534fa2aa4e3b",
+      "git_blob_sha1": "8e2ca03fe2006b26d4ff790a86862a1f4fd62036",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/check_d01_gates.py",
+        "CRC32": 2683314009
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/check_marked_pd_certificate.py",
+      "bytes": 8456,
+      "sha256": "c0847f9f2424cc2aeea7c252a051e5be06353ad5ee2d2a2299713b7969e252ef",
+      "git_blob_sha1": "4fdef1c4c64ae7c268b82ed57aa45603e56df205",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/check_marked_pd_certificate.py",
+        "CRC32": 2603608227
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/coverage.json",
+      "bytes": 1247,
+      "sha256": "2d76ff2327f0e906bdecbf2919ce94e44805857fc791d54e1bd693293d8e1540",
+      "git_blob_sha1": "cf3c4a82df6c13a81f6787dfac980711d520db4b",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/coverage.json",
+        "CRC32": 1703467664
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/d01_gates.json",
+      "bytes": 2065,
+      "sha256": "76dc19d4a1e5c45dfca1221de95fdef060d59fbd808deb9102498f9109cab8d5",
+      "git_blob_sha1": "50e1b61a4b272050ef60518c6b5688fe54a64c00",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/d01_gates.json",
+        "CRC32": 1583011046
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/D01_p2_direct/input.txt",
+      "bytes": 1918,
+      "sha256": "28e6efe7f849aacaa12791f5984eee7bc9184c15711c25441954f7df6ce88a0a",
+      "git_blob_sha1": "0a2281957eb1a7b32bfecf5244173aa93fe38748",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/D01_p2_direct/input.txt",
+        "CRC32": 3388829378
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/D01_p2_direct/result.json",
+      "bytes": 2201,
+      "sha256": "e70f8aff0b2e45f3ee673923461de87b406d4e74e71a31685832547c56032506",
+      "git_blob_sha1": "74dd4123aadf00eae6cbe1961d0dfd9943fcf703",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/D01_p2_direct/result.json",
+        "CRC32": 4014861255
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/D01_p2_direct/stderr.log",
+      "bytes": 340,
+      "sha256": "f5502a4998aeb96687d4bf927862e4b2b9995c04475458ca3a0ab1f09f41a4e5",
+      "git_blob_sha1": "00ad4fdc26622d6aac88bd8ab06a10845af034dd",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/D01_p2_direct/stderr.log",
+        "CRC32": 3186991814
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/D01_p2_direct/stdout.txt",
+      "bytes": 168,
+      "sha256": "e415b1e1a72f513bafb6213991b9f6f869a89fbdcfffcd1854cd9e2726f9b26a",
+      "git_blob_sha1": "818c414e4f8408d7f2a422c7bc0f11736d6d38e9",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/D01_p2_direct/stdout.txt",
+        "CRC32": 3819792776
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K0_p1_signed_control/input.txt",
+      "bytes": 70,
+      "sha256": "c32b925d11efff95ca01ab038fbb84afa554096e71c4d674dbeff0913258d31f",
+      "git_blob_sha1": "a18c676e2c4303f3e9e1814cf98f5842fdcf51c9",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/K0_p1_signed_control/input.txt",
+        "CRC32": 1448968713
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K0_p1_signed_control/result.json",
+      "bytes": 1071,
+      "sha256": "f25bb16ed3f8eb752fe101414233151a6185a6efeaa118f4caf4f9422218975d",
+      "git_blob_sha1": "6a4e8f7234d5b08200d9c94d8ea13e2d46513a3d",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/K0_p1_signed_control/result.json",
+        "CRC32": 1320875902
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K0_p1_signed_control/stderr.log",
+      "bytes": 45,
+      "sha256": "24c454da9b34757d8a65caf40564198f2ef19e63c58f305700c62e18858529c1",
+      "git_blob_sha1": "b76cb3eb3f41b5e564af358cccffae1a8799d139",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/K0_p1_signed_control/stderr.log",
+        "CRC32": 449925159
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K0_p1_signed_control/stdout.txt",
+      "bytes": 154,
+      "sha256": "4403d7de7f083bcb0fe6e061b9dd3c4e4b6ecfd744336f18c94d6c3779dbd652",
+      "git_blob_sha1": "59627c4a1ea52779c509e63d0103b334b0c8d1ae",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/K0_p1_signed_control/stdout.txt",
+        "CRC32": 1175687294
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K0_p2_control/input.txt",
+      "bytes": 337,
+      "sha256": "5773b0b2192457640241a3fcb612068feaf89fd58a80005c82fd0fdd8fdcc2c5",
+      "git_blob_sha1": "40f7373befdaba6eb1c40a8331609799750a0878",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/K0_p2_control/input.txt",
+        "CRC32": 2891474063
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K0_p2_control/result.json",
+      "bytes": 1295,
+      "sha256": "ae4dbf3aa2893f43dac194dfbb71a3cf116a967ccada380d66aaea5969586c01",
+      "git_blob_sha1": "902e85edd62b00b37e2ac05eecab986be1e21eb9",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/K0_p2_control/result.json",
+        "CRC32": 2788520452
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K0_p2_control/stderr.log",
+      "bytes": 97,
+      "sha256": "d0ecf2322952559c668612d7190684a707b4e7f5471f0c615423eeb3f1f3f454",
+      "git_blob_sha1": "9fac00d6de17f1fd473ba87487b9d198e02a17f2",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/K0_p2_control/stderr.log",
+        "CRC32": 3346320696
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K0_p2_control/stdout.txt",
+      "bytes": 160,
+      "sha256": "655588fd9a4b763439182145fb5224f1f25eeb6cc6137f3e04bd99b21c037b3f",
+      "git_blob_sha1": "f6e8922168fb861218fefb45c4e388df7bf7dd07",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/K0_p2_control/stdout.txt",
+        "CRC32": 4201504538
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K0_p3_new/input.txt",
+      "bytes": 803,
+      "sha256": "c13a0913fbae36e8ed2443eece7b794f73d8c0a96fb6041a63572139c0e38f79",
+      "git_blob_sha1": "bb1c28a11d8323e0889227e9d84f891b08b1d36f",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/K0_p3_new/input.txt",
+        "CRC32": 4056202306
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K0_p3_new/result.json",
+      "bytes": 1662,
+      "sha256": "7cb62029f4718a6e472c5509a381b328cdd33ebd9f69e5ec06f4ffc4f509a012",
+      "git_blob_sha1": "b1b3bf2c5a1a0b219af9804758b3272944f2f15d",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/K0_p3_new/result.json",
+        "CRC32": 307394789
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K0_p3_new/stderr.log",
+      "bytes": 195,
+      "sha256": "4b362f509424b3830de844a7111bace04e9ebae9eda9e0a7b127f8306b9cdd46",
+      "git_blob_sha1": "e6fc02cbc19fc0354738ede3f0a67c06e62465da",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/K0_p3_new/stderr.log",
+        "CRC32": 443900157
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K0_p3_new/stdout.txt",
+      "bytes": 165,
+      "sha256": "ea35ab484da2948bbdc6d69df13034cecd20f32dbf0cbb32253429dcc4e5b63f",
+      "git_blob_sha1": "fc77445cd3e8166feab03511740a161006c38071",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/K0_p3_new/stdout.txt",
+        "CRC32": 283589056
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K1_p1_signed_control/input.txt",
+      "bytes": 307,
+      "sha256": "e189fd9676a4a6e9767a74117a3c9e033a89614cef874dacd46623cd6a0f1ae9",
+      "git_blob_sha1": "5ad20badb0040010afea75586f5e386a14b5d8e5",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/K1_p1_signed_control/input.txt",
+        "CRC32": 960563773
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K1_p1_signed_control/result.json",
+      "bytes": 1238,
+      "sha256": "0139942843287fed0f5ca175d749198664b9a5ac5788dd56f223f6df8187f0a8",
+      "git_blob_sha1": "70037b60049bfe0af2a184caa175473f14416cc1",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/K1_p1_signed_control/result.json",
+        "CRC32": 3254387459
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K1_p1_signed_control/stderr.log",
+      "bytes": 96,
+      "sha256": "677e66998752b8f482c094c6ef1347d7f36531c97691f7bd3f7e1536c1fe3f96",
+      "git_blob_sha1": "d344974480a41cf8d9fd2a945caa884c76d29c85",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/K1_p1_signed_control/stderr.log",
+        "CRC32": 4226510769
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K1_p1_signed_control/stdout.txt",
+      "bytes": 163,
+      "sha256": "90cb32ee6010382fd8672b96074a0864b08ab5d4f7a81d750bcb0ccb08b6fb8e",
+      "git_blob_sha1": "20f30a0061c8b9560dc057f1e333d3f5c70f5412",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/K1_p1_signed_control/stdout.txt",
+        "CRC32": 2098383527
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K1_p2_new/input.txt",
+      "bytes": 1449,
+      "sha256": "453064666f2b3a031d7421d57f2ad90fba15df8af99fa1b447c3bc1e9c95f11a",
+      "git_blob_sha1": "8f33ce105da4779a62713a10805e26a126c74845",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/K1_p2_new/input.txt",
+        "CRC32": 3226984020
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K1_p2_new/result.json",
+      "bytes": 1940,
+      "sha256": "374cb8cb97017b5b59a291a1149ae4076bdfef948f3cd3ccfd0976cf00473d12",
+      "git_blob_sha1": "daff1374f923fdc9c6680b3bce9aaad3e7ca596e",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/K1_p2_new/result.json",
+        "CRC32": 3677989270
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K1_p2_new/stderr.log",
+      "bytes": 290,
+      "sha256": "c06581ea89ab4961b434a40a5b832b6dde51984500307b9eb9e836f5da167d44",
+      "git_blob_sha1": "c1e31cf086f44f759048078c325256c22d8f8335",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/K1_p2_new/stderr.log",
+        "CRC32": 1273259879
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K1_p2_new/stdout.txt",
+      "bytes": 165,
+      "sha256": "937ac09aee52465905d756a3dd82ee4dccc6c08fa45c80f419a9881b3a534b85",
+      "git_blob_sha1": "3552c047e3ea632c800630ef77ac6f67a8d5f8fb",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/K1_p2_new/stdout.txt",
+        "CRC32": 1083905206
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K1_p3_new/input.txt",
+      "bytes": 3638,
+      "sha256": "1f1ee66344e65196e1f72460c0067a15d925b21f922903e92a5443076c322107",
+      "git_blob_sha1": "2a18210d5c66621ee3b7862bd614e473f4b3e2de",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/K1_p3_new/input.txt",
+        "CRC32": 3665021466
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K1_p3_new/result.json",
+      "bytes": 3215,
+      "sha256": "817e735998dbf8c6909d928a8cd0e4c6270b70715e65663d5f23dc81f0237612",
+      "git_blob_sha1": "f57621789330da0888b395616c1eb2a215d8bc79",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/K1_p3_new/result.json",
+        "CRC32": 164032194
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K1_p3_new/stderr.log",
+      "bytes": 630,
+      "sha256": "c3a3a60b13987e6186d204de8cf479f0de9e5653feeff5c52a5781744159bed4",
+      "git_blob_sha1": "1f89d376a36dc8b0f8dcf33099c607e544cd5978",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/K1_p3_new/stderr.log",
+        "CRC32": 36965524
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/direct/K1_p3_new/stdout.txt",
+      "bytes": 179,
+      "sha256": "0f8add2831f7dc08ec20426201915e6c3df7734c71ff6f1995c18c5be10c4c14",
+      "git_blob_sha1": "378229175a291a8384fe2426e7e6d0393beeb9b3",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/direct/K1_p3_new/stdout.txt",
+        "CRC32": 1395213343
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/environment.json",
+      "bytes": 446,
+      "sha256": "b0ad533fba1faef9ef316de5d48aaa49a7027189eac3e1457cfaafea0e564d97",
+      "git_blob_sha1": "0eefc431ecce0837c1aa4a56812bcc3159dc7488",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/environment.json",
+        "CRC32": 1057344541
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/inputs.json",
+      "bytes": 3762,
+      "sha256": "942e0845d43a228966734dbea02089e6bde38e8272fc0d608cde5f1226d05a47",
+      "git_blob_sha1": "e4fd601bc6fd32c45569eb27ab33da9fa3d589b0",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/inputs.json",
+        "CRC32": 1554742429
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/marked_pd.json",
+      "bytes": 692,
+      "sha256": "09efb428eef5b53eed9d1f3cc7e2664326f1ab80d349d9f2598e522ef1a6f00a",
+      "git_blob_sha1": "abea643b1a750944ffca855e4b163da3815eca80",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/marked_pd.json",
+        "CRC32": 1247334916
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/marked_pd_certificate.json",
+      "bytes": 6520,
+      "sha256": "c9131e3e4b83dc2b228a577116d24987cf2767ffa7862958e1c51cd5734f3d32",
+      "git_blob_sha1": "848947585194a6a294dd320b75156556c8d884a1",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/marked_pd_certificate.json",
+        "CRC32": 1160681970
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/marked_pd_certificate.py",
+      "bytes": 9013,
+      "sha256": "d98267d86ae54ebbcce8e7e0d26d7f7754b9dc583092c3b0dac1ef766c2026af",
+      "git_blob_sha1": "8ba8bfd9492bcb5db135165e80a75b74048c05a4",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/marked_pd_certificate.py",
+        "CRC32": 3452028985
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/marked_pd_replay.json",
+      "bytes": 2504,
+      "sha256": "54b7e26589d82f22f6fc13ccbe3adbeb696a1f8323b2ee9b69cdef06bd24713a",
+      "git_blob_sha1": "183c12334568e78c33db1e26deb12c6047b5a555",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/marked_pd_replay.json",
+        "CRC32": 2905898859
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/marked_pd_replay_optimized.json",
+      "bytes": 2504,
+      "sha256": "54b7e26589d82f22f6fc13ccbe3adbeb696a1f8323b2ee9b69cdef06bd24713a",
+      "git_blob_sha1": "183c12334568e78c33db1e26deb12c6047b5a555",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/marked_pd_replay_optimized.json",
+        "CRC32": 2905898859
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/optimized_replay.log",
+      "bytes": 2504,
+      "sha256": "54b7e26589d82f22f6fc13ccbe3adbeb696a1f8323b2ee9b69cdef06bd24713a",
+      "git_blob_sha1": "183c12334568e78c33db1e26deb12c6047b5a555",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/optimized_replay.log",
+        "CRC32": 2905898859
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/run_summand_jets.py",
+      "bytes": 4097,
+      "sha256": "a6de8bdef1c2f142258089cd8d613aed87301593079fc3395bf1d4460c8f1402",
+      "git_blob_sha1": "a755f3b9d2fd41d8163e185a2f2063fb7683e760",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/run_summand_jets.py",
+        "CRC32": 3646355823
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/upstream/dependencies/pass02/frontier_jet.cpp",
+      "bytes": 5850,
+      "sha256": "87427c37138b467bedadc17665ef72ff7588d9078d033a7364cf0f7053a9461a",
+      "git_blob_sha1": "7b8f9fe19da8bac8f6feeb3b0d2ec038631ec66d",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/upstream/dependencies/pass02/frontier_jet.cpp",
+        "CRC32": 292807096
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/upstream/dependencies/pass02/geometry.py",
+      "bytes": 6527,
+      "sha256": "2bebeaa028ebb8ea539b7cc023c9a6c0b1da4e39b64c29e6ffd5d88c28217bc0",
+      "git_blob_sha1": "31aec889882294544efdcbac7ec7307eec40e808",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/upstream/dependencies/pass02/geometry.py",
+        "CRC32": 2314926523
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/upstream/new_results/check_general_transfer.py",
+      "bytes": 9530,
+      "sha256": "195f7fff301a4c8a0deda8685770e2ad5aae025aa604b2e3ada3a6b3f6cf16c3",
+      "git_blob_sha1": "7bc03d716173a6e2e086d73a700471a2a470af23",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/upstream/new_results/check_general_transfer.py",
+        "CRC32": 190417565
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass04_centered_marked_audit_2026_09_17/pass04_0515_centered_and_marked_audit/upstream/proposed_transfer_original.md",
+      "bytes": 22868,
+      "sha256": "77df80d6269759fc1cf626a263e11e7e2b2a1d3c18fde05c1cb57139037ade36",
+      "git_blob_sha1": "4383f1183dc7e2a8f5d70e3c11f2a5a4d9bd05eb",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass04_centered_marked_audit_2026_09_17.zip",
+        "zip_member": "pass04_0515_centered_and_marked_audit/upstream/proposed_transfer_original.md",
+        "CRC32": 127840292
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass07_relative_r3_r2_2026_09_17/sr_foxy_pass07_0123_relative_r3_r2/MANIFEST.json",
+      "bytes": 729,
+      "sha256": "a228572c14fe57a3ae9d4980cb2fbc5125506923b3142c0397bbd06026b3f7c9",
+      "git_blob_sha1": "972712c52a359b56813e08f86fde989165fa88ab",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass07_relative_r3_r2_2026_09_17.zip",
+        "zip_member": "sr_foxy_pass07_0123_relative_r3_r2/MANIFEST.json",
+        "CRC32": 703916826
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass07_relative_r3_r2_2026_09_17/sr_foxy_pass07_0123_relative_r3_r2/README.md",
+      "bytes": 4856,
+      "sha256": "fdfe1d7506378f9726366487268d5918ea94e6698475510a20432e88656df589",
+      "git_blob_sha1": "62d40f37050042502d85ce637d899a1cf820e142",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass07_relative_r3_r2_2026_09_17.zip",
+        "zip_member": "sr_foxy_pass07_0123_relative_r3_r2/README.md",
+        "CRC32": 609585747
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass07_relative_r3_r2_2026_09_17/sr_foxy_pass07_0123_relative_r3_r2/RESULTS.json",
+      "bytes": 2758,
+      "sha256": "7a78c303d609f5479678377bb7eaee36785db9ca35442969c31a790942321358",
+      "git_blob_sha1": "6fc3f113792da05baa0712c6083d9ed3b7ddc834",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass07_relative_r3_r2_2026_09_17.zip",
+        "zip_member": "sr_foxy_pass07_0123_relative_r3_r2/RESULTS.json",
+        "CRC32": 2044155918
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass07_relative_r3_r2_2026_09_17/sr_foxy_pass07_0123_relative_r3_r2/SOURCES.md",
+      "bytes": 961,
+      "sha256": "6656927e30796a9c9b71a425c8ce467bf8b622b15e5d64a59f9a495b614d65d1",
+      "git_blob_sha1": "ad7860f08d00799a5ff8dc2c238c23843b7de825",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass07_relative_r3_r2_2026_09_17.zip",
+        "zip_member": "sr_foxy_pass07_0123_relative_r3_r2/SOURCES.md",
+        "CRC32": 370612760
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass07_relative_r3_r2_2026_09_17/sr_foxy_pass07_0123_relative_r3_r2/check_relative_r3_r2.py",
+      "bytes": 12564,
+      "sha256": "c5442e3e9a060f842c0a62786117f9f5a19d2aebbf8559e5e4f9af3360cfcd7d",
+      "git_blob_sha1": "172dd336600769f247f37ecf49664048799ffe66",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass07_relative_r3_r2_2026_09_17.zip",
+        "zip_member": "sr_foxy_pass07_0123_relative_r3_r2/check_relative_r3_r2.py",
+        "CRC32": 2101032372
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass07_relative_r3_r2_2026_09_17/sr_foxy_pass07_0123_relative_r3_r2/results.txt",
+      "bytes": 3153,
+      "sha256": "8548d06f1e113df85ea65a1bfa97b27d76f1ca64262290a035b77d4acc54cce6",
+      "git_blob_sha1": "7f47b5631f217f30f44073783b2ac5af64578833",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass07_relative_r3_r2_2026_09_17.zip",
+        "zip_member": "sr_foxy_pass07_0123_relative_r3_r2/results.txt",
+        "CRC32": 1843894563
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass08_whisker_branch_gate_2026_09_17/sr_foxy_pass08_0202_whisker_branch_gate/README.md",
+      "bytes": 4751,
+      "sha256": "195813826bc1117a3aee8f4655fde04a3e75858f2c99f98e707551cc63c2d861",
+      "git_blob_sha1": "107455e9045083476695a9e895c1cf9275e142e4",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass08_whisker_branch_gate_2026_09_17.zip",
+        "zip_member": "sr_foxy_pass08_0202_whisker_branch_gate/README.md",
+        "CRC32": 1745058986
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass08_whisker_branch_gate_2026_09_17/sr_foxy_pass08_0202_whisker_branch_gate/RESULTS.json",
+      "bytes": 3269,
+      "sha256": "14d67e0f2ca9638eb43616a2f5af21ac78a6b9feb0f97575389e18b2c51c3f7b",
+      "git_blob_sha1": "6c685e07aa88feab2e2e08a25f9087572df58af4",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass08_whisker_branch_gate_2026_09_17.zip",
+        "zip_member": "sr_foxy_pass08_0202_whisker_branch_gate/RESULTS.json",
+        "CRC32": 3175871832
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass08_whisker_branch_gate_2026_09_17/sr_foxy_pass08_0202_whisker_branch_gate/SOURCES.md",
+      "bytes": 1239,
+      "sha256": "0a1510524081b2b8dd460d7c1f4407869810d959371eb55daa3fa2f8cf981f43",
+      "git_blob_sha1": "b0aca26d061009b8c546ac905680ac326f911aa6",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass08_whisker_branch_gate_2026_09_17.zip",
+        "zip_member": "sr_foxy_pass08_0202_whisker_branch_gate/SOURCES.md",
+        "CRC32": 2821491467
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass08_whisker_branch_gate_2026_09_17/sr_foxy_pass08_0202_whisker_branch_gate/__pycache__/check_whisker_branch_gate.cpython-313.pyc",
+      "bytes": 27445,
+      "sha256": "bf953d9abcb8da8504bb3c71aec63d70fd54c7ea88879763f4baa286c4afb97d",
+      "git_blob_sha1": "50eacbb435cc0bdea99941897719ed161ba5ff77",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass08_whisker_branch_gate_2026_09_17.zip",
+        "zip_member": "sr_foxy_pass08_0202_whisker_branch_gate/__pycache__/check_whisker_branch_gate.cpython-313.pyc",
+        "CRC32": 1620751360
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass08_whisker_branch_gate_2026_09_17/sr_foxy_pass08_0202_whisker_branch_gate/check_whisker_branch_gate.py",
+      "bytes": 15948,
+      "sha256": "e238970f021bd029dabdc40dd6a0ce4efb93b455de6c177078a46613d8447aa1",
+      "git_blob_sha1": "8aeb62801a9880d040d62fcb9d12fec1cf12bee6",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass08_whisker_branch_gate_2026_09_17.zip",
+        "zip_member": "sr_foxy_pass08_0202_whisker_branch_gate/check_whisker_branch_gate.py",
+        "CRC32": 3923988650
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass08_whisker_branch_gate_2026_09_17/sr_foxy_pass08_0202_whisker_branch_gate/run.txt",
+      "bytes": 3534,
+      "sha256": "0fc4a5a30c9e8cb6d78d3bf0f64860e4e8a0889db6be6a8d5d57577ee2003947",
+      "git_blob_sha1": "bd93a44e441c392d5c98385dd687ad89fd8e64c0",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass08_whisker_branch_gate_2026_09_17.zip",
+        "zip_member": "sr_foxy_pass08_0202_whisker_branch_gate/run.txt",
+        "CRC32": 845347146
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/EXECUTION.json",
+      "bytes": 401,
+      "sha256": "13785b236ad5d3ade543554d13dfe2f4a52c8c546825eb8ac5cd2bcaef6762df",
+      "git_blob_sha1": "afee513e7294650c3719727898e1c7257befc9a1",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass09_product_collar_2026_09_17.zip",
+        "zip_member": "pass09_product_collar/EXECUTION.json",
+        "CRC32": 4128612386
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/MANIFEST.json",
+      "bytes": 1188,
+      "sha256": "1a1c32e0b27590f856675931d9dcd7846264435fb1b88dc1b71d7a26d31c6e64",
+      "git_blob_sha1": "178cf0edaf2519f08040dbc7d5f0530ea671770a",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass09_product_collar_2026_09_17.zip",
+        "zip_member": "pass09_product_collar/MANIFEST.json",
+        "CRC32": 3025019564
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/README.md",
+      "bytes": 7815,
+      "sha256": "490bd68865df706d51afe70e2d9e386cae87d633ab0eb7c043603cd739cf655b",
+      "git_blob_sha1": "d3706ea0aa6867c13aae53002f3437800b44a732",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass09_product_collar_2026_09_17.zip",
+        "zip_member": "pass09_product_collar/README.md",
+        "CRC32": 1531516489
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/RESULTS.json",
+      "bytes": 14281,
+      "sha256": "5df99bab6f8785d8778ab99fa5726b56b4476badd7633ee4bfd7af7b59e6dca0",
+      "git_blob_sha1": "529b738721621f42668e98f7f40b6be696a4b63a",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass09_product_collar_2026_09_17.zip",
+        "zip_member": "pass09_product_collar/RESULTS.json",
+        "CRC32": 549532926
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/certificate.json",
+      "bytes": 4468,
+      "sha256": "a35eebbc4ec7a98a801e949ad3be1a2c9b414f5a6d04b29ea6d45add9c296867",
+      "git_blob_sha1": "a626789ed364fe4ac3b493bf690beada25b5075d",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass09_product_collar_2026_09_17.zip",
+        "zip_member": "pass09_product_collar/certificate.json",
+        "CRC32": 2667521003
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/check_saved_proof.py",
+      "bytes": 3760,
+      "sha256": "53171695d1ee7f4fd6d541fd5d8d2f36ef3258b4d660deb39921eb0715fd732f",
+      "git_blob_sha1": "e711fda598b510fc53216604a6d5121ecbb92e1b",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass09_product_collar_2026_09_17.zip",
+        "zip_member": "pass09_product_collar/check_saved_proof.py",
+        "CRC32": 3686836257
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/diagram_core.py",
+      "bytes": 10330,
+      "sha256": "cf9012abcbc9d79b76aed7741d6a14cff99437706b245a007286aea35f1fc62a",
+      "git_blob_sha1": "66cc09e760cbfbb6a41cc725972fb86e8af49cc3",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass09_product_collar_2026_09_17.zip",
+        "zip_member": "pass09_product_collar/diagram_core.py",
+        "CRC32": 3367667538
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/inputs/check_whisker_branch_gate.py",
+      "bytes": 15948,
+      "sha256": "e238970f021bd029dabdc40dd6a0ce4efb93b455de6c177078a46613d8447aa1",
+      "git_blob_sha1": "8aeb62801a9880d040d62fcb9d12fec1cf12bee6",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass09_product_collar_2026_09_17.zip",
+        "zip_member": "pass09_product_collar/inputs/check_whisker_branch_gate.py",
+        "CRC32": 3923988650
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/saved_proof_check.json",
+      "bytes": 244,
+      "sha256": "fd66cd23e1f322440d9a65eac779381ee5d3dc86df6f6043704b8cf7918b860b",
+      "git_blob_sha1": "1c3a6ff063d8b35fbb4f46fbc48bcaa52a0a7959",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass09_product_collar_2026_09_17.zip",
+        "zip_member": "pass09_product_collar/saved_proof_check.json",
+        "CRC32": 1423592066
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/verify_product_collar.py",
+      "bytes": 9526,
+      "sha256": "8600bf524f852130da11667ffeee0ff259306509f4b1eeb497475540cc901d97",
+      "git_blob_sha1": "8b44f57649843f45b04d9908200ccca6008170a3",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_pass09_product_collar_2026_09_17.zip",
+        "zip_member": "pass09_product_collar/verify_product_collar.py",
+        "CRC32": 330274456
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_progress_and_Codex_handoff_2026_09_17/CODEX_HANDOFF.md",
+      "bytes": 11138,
+      "sha256": "98a17cbb97b9aeeabd29257827f1ae632743ffaa0ba10fb2aeedd26765641d3a",
+      "git_blob_sha1": "7263f37d9098d0cfe1b1b2beb6fb9cb67ff243c7",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_progress_and_Codex_handoff_2026_09_17.zip",
+        "zip_member": "CODEX_HANDOFF.md",
+        "CRC32": 2640468333
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_progress_and_Codex_handoff_2026_09_17/MANIFEST.json",
+      "bytes": 265,
+      "sha256": "e5630addd893865b16b021e9e2869459bc662ec3a82c6caad8470129b6c58b02",
+      "git_blob_sha1": "b14d5ab1dc515f932f3060af0315b42129e9a4c4",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_progress_and_Codex_handoff_2026_09_17.zip",
+        "zip_member": "MANIFEST.json",
+        "CRC32": 932769758
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_progress_and_Codex_handoff_2026_09_17/PROGRESS_REPORT.md",
+      "bytes": 13498,
+      "sha256": "30c443243e0cce29da7b6f9668c75c6aa15148bbfcf166161151b92c18d627c6",
+      "git_blob_sha1": "a2248f5805d956d399e9a11bb5025f3ced11acbc",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_progress_and_Codex_handoff_2026_09_17.zip",
+        "zip_member": "PROGRESS_REPORT.md",
+        "CRC32": 1107725804
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/ARTIFACT_MANIFEST.json",
+      "bytes": 1618,
+      "sha256": "598ee9c1e7e988fe4b6fcef7efc8215cbe3a48effe8eb8b99c8a57093cad0efa",
+      "git_blob_sha1": "9a7bce7e9bdf963892bd807768fb483856b4a6ac",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+        "zip_member": "sr_foxy_annulus_audit/ARTIFACT_MANIFEST.json",
+        "CRC32": 722969278
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/FRAMING_ADDENDUM.md",
+      "bytes": 5899,
+      "sha256": "8e10f9172620a53b5f0ee5f44c1b7842910ca0303f14f4510574acaeb47cfebc",
+      "git_blob_sha1": "525120051bea35b56828c1278468c579d5ba9c66",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+        "zip_member": "sr_foxy_annulus_audit/FRAMING_ADDENDUM.md",
+        "CRC32": 1031441984
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/OPUS_AUDIT_NOTE.txt",
+      "bytes": 2164,
+      "sha256": "3b8aaf14cc6d60421929d993f235f41f0315648f2027f2e784ee983fa3a59a59",
+      "git_blob_sha1": "36a0442f179ce4225273fa52cbe4bb481585f87e",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+        "zip_member": "sr_foxy_annulus_audit/OPUS_AUDIT_NOTE.txt",
+        "CRC32": 2839225346
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/OPUS_PROMPT.md",
+      "bytes": 9503,
+      "sha256": "a821b102892d22dafa3bc663b01759a5ecca3c63935192a6d57f1fbb8daf1cce",
+      "git_blob_sha1": "850f80f5e90b24ef8a9299e4b811c7e2f34950a1",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+        "zip_member": "sr_foxy_annulus_audit/OPUS_PROMPT.md",
+        "CRC32": 2109359516
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/PUBLICATION_MANIFEST.json",
+      "bytes": 2150,
+      "sha256": "c05f4a9a72843f1d2abddc3ce5830ab14a2abcab1efb4c6b6b1dd5fc3a064e15",
+      "git_blob_sha1": "ddabf8bae60a7136038a252cd2e6e1373b96389c",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+        "zip_member": "sr_foxy_annulus_audit/PUBLICATION_MANIFEST.json",
+        "CRC32": 2340655527
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/PUBLICATION_RECHECK.json",
+      "bytes": 1350,
+      "sha256": "0b7e9a1738a742545c4e100cddccefcd603c921084d379f811cfa260ad138be3",
+      "git_blob_sha1": "1a686f83ad99f4c82887fea0c3ab912336308389",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+        "zip_member": "sr_foxy_annulus_audit/PUBLICATION_RECHECK.json",
+        "CRC32": 2036811467
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/README.md",
+      "bytes": 4156,
+      "sha256": "7e8c6fd9360cd05ddf3749f3a6bb00b57fb513a4900d9cc10458217d250c841f",
+      "git_blob_sha1": "8c88b39e75531ce429b2d6a8fd8cd5047feadff4",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+        "zip_member": "sr_foxy_annulus_audit/README.md",
+        "CRC32": 3879286843
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/REMOTE_VERIFICATION.json",
+      "bytes": 1329,
+      "sha256": "0db6a811e118fef02531265c4e1179a3aed5d0dc085501a188588dc4a2b35f91",
+      "git_blob_sha1": "0dfcd83dd7a019ede69b8797e6eac265d27381a3",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+        "zip_member": "sr_foxy_annulus_audit/REMOTE_VERIFICATION.json",
+        "CRC32": 1031342865
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/REPORT.md",
+      "bytes": 18175,
+      "sha256": "855d07e1f94a7e6323291c62854dda8eff72eab3e4af0fddae35bd09178a47aa",
+      "git_blob_sha1": "630d7eb260e6a34024ea6536a504b573ba7d2bec",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+        "zip_member": "sr_foxy_annulus_audit/REPORT.md",
+        "CRC32": 3471453520
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/adversarial/append_a_to_relator.json",
+      "bytes": 870,
+      "sha256": "c814361afd12de6d4df2be545aafe4b14d3b6fc71e2116801b2a1119720d958e",
+      "git_blob_sha1": "fd8241ad796236ba48a0a4a3e981b2ca45c601cf",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+        "zip_member": "sr_foxy_annulus_audit/adversarial/append_a_to_relator.json",
+        "CRC32": 3911285802
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/adversarial/replace_v_with_u.json",
+      "bytes": 853,
+      "sha256": "34eb7cf422731018ef026babf75ce4d12354f083ea04306818d0c2f22127c995",
+      "git_blob_sha1": "714ee57d4921edca05bb9bc29175814005323b20",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+        "zip_member": "sr_foxy_annulus_audit/adversarial/replace_v_with_u.json",
+        "CRC32": 1017410370
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/adversarial_checks.json",
+      "bytes": 390,
+      "sha256": "369e3d7a44b3cc31cde90451301af801f03f2cab3778cf8d5585cb9b50983708",
+      "git_blob_sha1": "3496b1eb33fde8966e935ef611d1574662642db2",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+        "zip_member": "sr_foxy_annulus_audit/adversarial_checks.json",
+        "CRC32": 2897521635
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/bounded_replay.json",
+      "bytes": 7673,
+      "sha256": "0a742bf57ffd98fac6ecd66c703130993e52bc1c459d0e3a1d7d775d3168041a",
+      "git_blob_sha1": "46ec3be445010e7d50c49469edbe65aa9b7317b4",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+        "zip_member": "sr_foxy_annulus_audit/bounded_replay.json",
+        "CRC32": 2851893719
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/coverage.json",
+      "bytes": 3671,
+      "sha256": "1a5f6db461975d0f3e69ee2eee8fa25db5ed12fbeb7e39f5e2e0ecd1388efed5",
+      "git_blob_sha1": "7924f4d5b2c37cf1ce33a8e911dce83904e573b9",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+        "zip_member": "sr_foxy_annulus_audit/coverage.json",
+        "CRC32": 2658336745
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/framing_results.json",
+      "bytes": 2273,
+      "sha256": "a81bc31797c531b2e0605b1b6c06b95c1a5184f54ee1c7947dacdb6207be5719",
+      "git_blob_sha1": "967ccf5fe14b445a196123ce7089af8daea82fe8",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+        "zip_member": "sr_foxy_annulus_audit/framing_results.json",
+        "CRC32": 2970368620
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/inputs.json",
+      "bytes": 844,
+      "sha256": "cb0fc5c7cc134345f5d21b39d6055f0c341d1239d61e1bce31d5b277140e77bf",
+      "git_blob_sha1": "9fa6bdd6e501c8aff7a07d53f117920f863bca32",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+        "zip_member": "sr_foxy_annulus_audit/inputs.json",
+        "CRC32": 3367989806
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/publish_recheck.json",
+      "bytes": 6653,
+      "sha256": "f7d198eecdd53be4c384fa8f183e8ed466d40a7d60c40f6b7afb6a1f7cfd5bb4",
+      "git_blob_sha1": "c37dbee363741257d87b609390209c30bc8f5145",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+        "zip_member": "sr_foxy_annulus_audit/publish_recheck.json",
+        "CRC32": 2294021074
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/publish_recheck_optimized.json",
+      "bytes": 6653,
+      "sha256": "a7b6e3c344d31a8f3d92a2d965855f2f2d91d208e7f7c0d8601eaf7c6de9cf2e",
+      "git_blob_sha1": "43fe2d8a4c54387d9ee53d64161ac1b9a259e216",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+        "zip_member": "sr_foxy_annulus_audit/publish_recheck_optimized.json",
+        "CRC32": 288544960
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/repeat_stdout.json",
+      "bytes": 158,
+      "sha256": "33865a9959f6a3eb45cb401f8c986f10b4fe015dbfdadaab3bc6106db6901468",
+      "git_blob_sha1": "b733a4654c615cc12313271af3928ddd72b376ca",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+        "zip_member": "sr_foxy_annulus_audit/repeat_stdout.json",
+        "CRC32": 4013800197
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/verification_repeat_optimized.json",
+      "bytes": 6653,
+      "sha256": "2ab33dc9fcab1dfb8e0b0a19fc6205cccf1b98de1d18bb7565a2e54ecddc0112",
+      "git_blob_sha1": "3c7025b06794f1058e842b368ddc3370c5cb2e0a",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+        "zip_member": "sr_foxy_annulus_audit/verification_repeat_optimized.json",
+        "CRC32": 2010289926
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/verification_results.json",
+      "bytes": 6653,
+      "sha256": "57781dfcfbdf6deb4dc49d5a8ed83d09e70961d24f732045b5c6a45fbe2068a9",
+      "git_blob_sha1": "465effbe236d3130218d49cd3a92c39bcd95332d",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+        "zip_member": "sr_foxy_annulus_audit/verification_results.json",
+        "CRC32": 2068291152
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/verify_annulus_gate.py",
+      "bytes": 15136,
+      "sha256": "77ce89596af112b04add7a2b7d098c721d0017e86915f4f3b13354e379a5453c",
+      "git_blob_sha1": "9fa8c98184d1e2e2bba12bc7344e04f37e38c250",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+        "zip_member": "sr_foxy_annulus_audit/verify_annulus_gate.py",
+        "CRC32": 3829948305
+      }
+    },
+    {
+      "path": "expanded/SR_Foxy_published_audit_2026_09_17/sr_foxy_annulus_audit/verify_framing_gate.py",
+      "bytes": 3899,
+      "sha256": "df338bd693d7a0eb6aca22fe43abe4a9e1676fa2bb0129c61f4141920f86b008",
+      "git_blob_sha1": "1a0b0b4fc03f364c2bbdf1c49c80b22b592ca441",
+      "kind": "zip_member",
+      "provenance": {
+        "attachment": "SR_Foxy_published_audit_2026_09_17.zip",
+        "zip_member": "sr_foxy_annulus_audit/verify_framing_gate.py",
+        "CRC32": 3826369882
+      }
+    },
+    {
+      "path": "publish_main.py",
+      "bytes": 8202,
+      "sha256": "03f94abd4ef2c5b6d6db121879e617a91ea894b18e6f53dcc21f1a112ddad7f3",
+      "git_blob_sha1": "a068fdef40eac3da125392aa031bc4cebc8db05e",
+      "kind": "new_archival_tool",
+      "provenance": {}
+    },
+    {
+      "path": "verify_archive.py",
+      "bytes": 4292,
+      "sha256": "059a97b33aa1d55c05c73c11e9ca9bca407adec79adfc6507d031ecb033aee13",
+      "git_blob_sha1": "4a93f987a6230640c41a2959aa9cde4dffc0746a",
+      "kind": "new_archival_tool",
+      "provenance": {}
+    }
+  ]
+}

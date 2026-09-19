@@ -1,0 +1,162 @@
+{
+ "corollary": "A nontrivial fibered knot with irreducible Alexander polynomial is <=_h-minimal.",
+ "status": "PROVED modulo the external inputs below; arithmetic gates COMPUTATIONALLY VERIFIED",
+ "external_inputs_not_verified_here": [
+  "Theorem F (this repo, opus_2026_09_18_0005), resting on Sun arXiv:2604.20785 Thm 1.1 -- UNREFEREED",
+  "Agol-Ren Thm 1.7 (Casson-Gordon) and the compression genus lemma",
+  "Friedl-Powell: Delta_J | Delta_K for ribbon concordance",
+  "Agol-Ren Cor 1.14(1): at most one <=_h-minimal fibered knot per concordance class, if slice-ribbon holds",
+  "Fox-Milnor"
+ ],
+ "not_a_new_target": "scripts/zero_surgery_pair_search.py already operates on this population via Miyazaki Thm 5.5. Corollary Q is a second route with different weak points, not a new search space.",
+ "knots": {
+  "K_0 (=6_3)": {
+   "fibered": true,
+   "genus": 2,
+   "deg_delta": 4,
+   "irreducible": true,
+   "monic": true,
+   "fox_milnor_factorisation_found": false,
+   "witness": null,
+   "corollary_Q_applies": true
+  },
+  "K_1": {
+   "fibered": true,
+   "genus": 2,
+   "deg_delta": 4,
+   "irreducible": true,
+   "monic": true,
+   "fox_milnor_factorisation_found": false,
+   "witness": null,
+   "corollary_Q_applies": true
+  },
+  "K_2": {
+   "fibered": true,
+   "genus": 2,
+   "deg_delta": 4,
+   "irreducible": true,
+   "monic": true,
+   "fox_milnor_factorisation_found": false,
+   "witness": null,
+   "corollary_Q_applies": true
+  },
+  "K_3": {
+   "fibered": true,
+   "genus": 2,
+   "deg_delta": 4,
+   "irreducible": true,
+   "monic": true,
+   "fox_milnor_factorisation_found": false,
+   "witness": null,
+   "corollary_Q_applies": true
+  }
+ },
+ "checks": [
+  {
+   "name": "K_0 (=6_3): fibered, and deg Delta = 2g (4 = 2*2)",
+   "pass": true
+  },
+  {
+   "name": "K_0 (=6_3): Delta monic (forced for fibered)",
+   "pass": true
+  },
+  {
+   "name": "K_0 (=6_3): NO f with Delta = +-t^k f(t)f(1/t) (exhaustive, deg f <= 3, |coeff| <= 8)",
+   "pass": true
+  },
+  {
+   "name": "K_0 (=6_3): Delta irreducible over Z",
+   "pass": true
+  },
+  {
+   "name": "K_0 (=6_3): nontrivial (g >= 1), so deg Delta >= 2",
+   "pass": true
+  },
+  {
+   "name": "K_0 (=6_3): Corollary Q applies => K is <=_h-minimal",
+   "pass": true
+  },
+  {
+   "name": "K_1: fibered, and deg Delta = 2g (4 = 2*2)",
+   "pass": true
+  },
+  {
+   "name": "K_1: Delta monic (forced for fibered)",
+   "pass": true
+  },
+  {
+   "name": "K_1: NO f with Delta = +-t^k f(t)f(1/t) (exhaustive, deg f <= 3, |coeff| <= 8)",
+   "pass": true
+  },
+  {
+   "name": "K_1: Delta irreducible over Z",
+   "pass": true
+  },
+  {
+   "name": "K_1: nontrivial (g >= 1), so deg Delta >= 2",
+   "pass": true
+  },
+  {
+   "name": "K_1: Corollary Q applies => K is <=_h-minimal",
+   "pass": true
+  },
+  {
+   "name": "K_2: fibered, and deg Delta = 2g (4 = 2*2)",
+   "pass": true
+  },
+  {
+   "name": "K_2: Delta monic (forced for fibered)",
+   "pass": true
+  },
+  {
+   "name": "K_2: NO f with Delta = +-t^k f(t)f(1/t) (exhaustive, deg f <= 3, |coeff| <= 8)",
+   "pass": true
+  },
+  {
+   "name": "K_2: Delta irreducible over Z",
+   "pass": true
+  },
+  {
+   "name": "K_2: nontrivial (g >= 1), so deg Delta >= 2",
+   "pass": true
+  },
+  {
+   "name": "K_2: Corollary Q applies => K is <=_h-minimal",
+   "pass": true
+  },
+  {
+   "name": "K_3: fibered, and deg Delta = 2g (4 = 2*2)",
+   "pass": true
+  },
+  {
+   "name": "K_3: Delta monic (forced for fibered)",
+   "pass": true
+  },
+  {
+   "name": "K_3: NO f with Delta = +-t^k f(t)f(1/t) (exhaustive, deg f <= 3, |coeff| <= 8)",
+   "pass": true
+  },
+  {
+   "name": "K_3: Delta irreducible over Z",
+   "pass": true
+  },
+  {
+   "name": "K_3: nontrivial (g >= 1), so deg Delta >= 2",
+   "pass": true
+  },
+  {
+   "name": "K_3: Corollary Q applies => K is <=_h-minimal",
+   "pass": true
+  },
+  {
+   "name": "'degree 2g' is automatic for every fibered knot tested",
+   "pass": true
+  },
+  {
+   "name": "'not slice' is automatic: irreducible Delta of degree >= 2 is never a Fox-Milnor norm",
+   "pass": true
+  }
+ ],
+ "passed": 26,
+ "total": 26
+}

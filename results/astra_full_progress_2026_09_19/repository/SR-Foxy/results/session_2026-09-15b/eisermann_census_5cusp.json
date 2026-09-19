@@ -1,0 +1,120 @@
+{
+ "date": "2026-09-16T02:42:53.541934Z",
+ "census": "HTLinkExteriors(cusps=5)",
+ "range": [
+  0,
+  1101
+ ],
+ "census_size": 1101,
+ "screens": [
+  "all pairwise linking numbers zero",
+  "every component a slice knot (signature 0, |det| a square, Fox-Milnor)",
+  "1 <= null V(L) < n-1: at least 1 as slice requires, less than n-1 as ribbon forbids"
+ ],
+ "counts": {
+  "examined": 1101,
+  "lk_zero": 3,
+  "components_slice": 3,
+  "null_V_1": 1,
+  "shortlist": 1
+ },
+ "shortlist": [
+  {
+   "name": "L14n64050",
+   "components": 5,
+   "crossings": 14,
+   "null_V": 2,
+   "ribbon_requires_null_V": 4,
+   "det_V": "None",
+   "pd_code": [
+    [
+     5,
+     1,
+     6,
+     0
+    ],
+    [
+     1,
+     21,
+     2,
+     20
+    ],
+    [
+     9,
+     2,
+     10,
+     3
+    ],
+    [
+     3,
+     24,
+     0,
+     25
+    ],
+    [
+     4,
+     13,
+     5,
+     14
+    ],
+    [
+     6,
+     18,
+     7,
+     17
+    ],
+    [
+     26,
+     7,
+     27,
+     8
+    ],
+    [
+     8,
+     19,
+     9,
+     16
+    ],
+    [
+     10,
+     12,
+     11,
+     15
+    ],
+    [
+     22,
+     4,
+     23,
+     11
+    ],
+    [
+     12,
+     21,
+     13,
+     22
+    ],
+    [
+     14,
+     24,
+     15,
+     23
+    ],
+    [
+     16,
+     25,
+     17,
+     26
+    ],
+    [
+     18,
+     20,
+     19,
+     27
+    ]
+   ],
+   "verdict": "NOT RIBBON by Eisermann Theorem 1; passes the cheap slice screens; sliceness NOT established"
+  }
+ ],
+ "stop": "finished",
+ "elapsed_seconds": 11.0
+}

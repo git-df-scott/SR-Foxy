@@ -1,0 +1,38 @@
+{
+  "status": "PUBLICATION_REVALIDATION_PASSED",
+  "date_utc": "2026-09-17",
+  "archive_manifest_files_verified": 12,
+  "named_checks_each_run": 44,
+  "arithmetic_controls_each_run": 4681,
+  "runs": [
+    {
+      "seconds": 0.24812833800000078,
+      "only_difference_from_original": [
+        "seconds"
+      ],
+      "sha256": "f7d198eecdd53be4c384fa8f183e8ed466d40a7d60c40f6b7afb6a1f7cfd5bb4",
+      "raw_file_in_companion_archive": "publish_recheck.json"
+    },
+    {
+      "seconds": 0.24779305999999934,
+      "only_difference_from_original": [
+        "seconds"
+      ],
+      "sha256": "a7b6e3c344d31a8f3d92a2d965855f2f2d91d208e7f7c0d8601eaf7c6de9cf2e",
+      "raw_file_in_companion_archive": "publish_recheck_optimized.json"
+    }
+  ],
+  "mutations_rejected": [
+    "replace_v_with_u",
+    "append_a_to_relator"
+  ],
+  "direct_https": "DNS resolution failed; authorized GitHub connector used; supplied token not used or stored",
+  "no_new_branch": true,
+  "mac_checkout_accessed": false,
+  "published_core_result": "verification_results.json; replay results agree in every field except seconds",
+  "additional_reading_this_turn": [
+    "Complete data/knots/AbeTagami_marked_product_scaffold.json at b7ae727",
+    "Park arXiv:1512.00401v1 sections 2-3; no new figure claim",
+    "Current remote main and publication directory metadata"
+  ]
+}

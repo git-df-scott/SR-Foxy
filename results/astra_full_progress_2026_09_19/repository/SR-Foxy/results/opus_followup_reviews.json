@@ -1,0 +1,20 @@
+[
+  {
+    "review": "chain_filter",
+    "models": [
+      "claude-haiku-4-5-20251001",
+      "claude-opus-5"
+    ],
+    "reported_cost_usd": 0.313649,
+    "status": "success"
+  },
+  {
+    "review": "mixed_lift",
+    "models": [
+      "claude-haiku-4-5-20251001",
+      "claude-opus-5"
+    ],
+    "reported_cost_usd": 0.8811994999999999,
+    "status": "success"
+  }
+]

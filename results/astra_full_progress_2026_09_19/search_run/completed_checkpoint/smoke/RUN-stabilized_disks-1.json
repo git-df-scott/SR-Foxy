@@ -1,0 +1,51 @@
+{
+  "counterexample_established": false,
+  "counts": {
+    "NEW_ENDPOINT": 2,
+    "NONSQUARE_COMPONENT_DETERMINANT": 32,
+    "NONZERO_LINKING": 111,
+    "attempts": 145
+  },
+  "current_cpu_seconds": 4.999833628,
+  "current_search_seconds": 5.005647252999992,
+  "measured_completed_segment_seconds": 10.007971866999995,
+  "phase": "stabilized_disks",
+  "runs": [
+    {
+      "cpu_seconds": 4.887066708,
+      "finished": "2026-09-19T16:28:55Z",
+      "phase": "common_upper",
+      "seconds": 5.002324614000003,
+      "segment": 1,
+      "started": "2026-09-19T16:28:50Z",
+      "status": "BOUNDED_SEGMENT_COMPLETE_NO_NOMINATION",
+      "summary": {
+        "DUPLICATE_ENDPOINT": 238,
+        "NEW_ENDPOINT": 115,
+        "attempts": 353
+      }
+    },
+    {
+      "cpu_seconds": 4.999833628,
+      "finished": "2026-09-19T16:29:00Z",
+      "phase": "stabilized_disks",
+      "seconds": 5.005647252999992,
+      "segment": 1,
+      "started": "2026-09-19T16:28:55Z",
+      "status": "BOUNDED_SEGMENT_COMPLETE_NO_NOMINATION",
+      "summary": {
+        "NEW_ENDPOINT": 2,
+        "NONSQUARE_COMPONENT_DETERMINANT": 32,
+        "NONZERO_LINKING": 111,
+        "attempts": 145
+      }
+    }
+  ],
+  "scope": "Randomized bounded movie search, not an exhaustive search or an impossibility proof. Nominations need independent topology and nonribbon-hypothesis audits.",
+  "segment": 1,
+  "source_commit": "042a7dfc6fe61967902e1c4f7174af5f6342862c",
+  "started": "2026-09-19T16:28:55Z",
+  "status": "BOUNDED_SEGMENT_COMPLETE_NO_NOMINATION",
+  "updated": "2026-09-19T16:29:00Z",
+  "workflow_run_id": "35455048082"
+}

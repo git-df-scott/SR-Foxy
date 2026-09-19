@@ -1,0 +1,5 @@
+step=16 boundary=14 states=26 seconds=8.144e-05
+step=32 boundary=20 states=560 seconds=0.00147632
+step=48 boundary=26 states=17097 seconds=0.0578009
+step=64 boundary=32 states=1956974 seconds=15.5371
+std::bad_alloc

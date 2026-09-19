@@ -1,0 +1,81 @@
+{
+  "status": "NO_EXTORTION_ORDER_DISTINCTION",
+  "method": "KnotJob -kx0, -kx2, -kx3; each isolated with 60 second timeout. All exited zero.",
+  "jar_sha256": "b63daf5f689660a276ed37bbca3393cb26fe62e097427cdd599647b874304718",
+  "input_directory": "results/nonfibered_khovanov_filter",
+  "runs": [
+    {
+      "name": "J25533",
+      "characteristic": 0,
+      "printed_extortion_order": 1,
+      "log": "results/nonfibered_extortion/J25533_0.log"
+    },
+    {
+      "name": "J25533",
+      "characteristic": 2,
+      "printed_extortion_order": 1,
+      "log": "results/nonfibered_extortion/J25533_2.log"
+    },
+    {
+      "name": "J25533",
+      "characteristic": 3,
+      "printed_extortion_order": 1,
+      "log": "results/nonfibered_extortion/J25533_3.log"
+    },
+    {
+      "name": "J25541",
+      "characteristic": 0,
+      "printed_extortion_order": 1,
+      "log": "results/nonfibered_extortion/J25541_0.log"
+    },
+    {
+      "name": "J25541",
+      "characteristic": 2,
+      "printed_extortion_order": 1,
+      "log": "results/nonfibered_extortion/J25541_2.log"
+    },
+    {
+      "name": "J25541",
+      "characteristic": 3,
+      "printed_extortion_order": 1,
+      "log": "results/nonfibered_extortion/J25541_3.log"
+    },
+    {
+      "name": "K0",
+      "characteristic": 0,
+      "printed_extortion_order": 1,
+      "log": "results/nonfibered_extortion/K0_0.log"
+    },
+    {
+      "name": "K0",
+      "characteristic": 2,
+      "printed_extortion_order": 1,
+      "log": "results/nonfibered_extortion/K0_2.log"
+    },
+    {
+      "name": "K0",
+      "characteristic": 3,
+      "printed_extortion_order": 1,
+      "log": "results/nonfibered_extortion/K0_3.log"
+    },
+    {
+      "name": "K1",
+      "characteristic": 0,
+      "printed_extortion_order": 1,
+      "log": "results/nonfibered_extortion/K1_0.log"
+    },
+    {
+      "name": "K1",
+      "characteristic": 2,
+      "printed_extortion_order": 1,
+      "log": "results/nonfibered_extortion/K1_2.log"
+    },
+    {
+      "name": "K1",
+      "characteristic": 3,
+      "printed_extortion_order": 1,
+      "log": "results/nonfibered_extortion/K1_3.log"
+    }
+  ],
+  "scope": "Order values do not certify equality of full deformed complexes. Sarkar original Lee theorem requires characteristic not two."
+}

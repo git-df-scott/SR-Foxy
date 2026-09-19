@@ -1,0 +1,65 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+census size: 59937
+  2000/59937  18s  kept=512
+  4000/59937  41s  kept=1079
+  6000/59937  72s  kept=1419
+  8000/59937  107s  kept=1886
+  10000/59937  128s  kept=2551
+  12000/59937  150s  kept=3269
+  14000/59937  195s  kept=3892
+  16000/59937  254s  kept=4404
+  18000/59937  318s  kept=4881
+  20000/59937  382s  kept=5364
+  22000/59937  440s  kept=5698
+  24000/59937  500s  kept=6112
+  26000/59937  559s  kept=6499
+  28000/59937  626s  kept=6913
+  30000/59937  691s  kept=7280
+  32000/59937  752s  kept=7565
+  34000/59937  795s  kept=8226
+  36000/59937  836s  kept=8978
+  38000/59937  877s  kept=9590
+  40000/59937  917s  kept=10217
+  42000/59937  959s  kept=10991
+  44000/59937  1001s  kept=11773
+  46000/59937  1046s  kept=12465
+  48000/59937  1086s  kept=13083
+  50000/59937  1130s  kept=13822
+  52000/59937  1177s  kept=14545
+  54000/59937  1221s  kept=15144
+  56000/59937  1271s  kept=15821
+  58000/59937  1322s  kept=16456
+fibered knots with irreducible Delta: 16970  (1374s)
+Alexander polynomials shared by more than one such knot: 2925
+CANDIDATE PAIRS (shared irreducible Delta, matching tau/nu/epsilon): 35612
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K12a61', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K13n147', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K13n171', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K13n395', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K13n599', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K13n696', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K13n1213', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K13n1247', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K13n1433', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K13n2980', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K13n3425', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K14n1769', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K14n1834', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K14n2511', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K14n2864', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K14n3242', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K14n3629', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K14n4072', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K14n4129', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K14n10233', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K14n10541', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K14n10600', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K14n10611', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K14n13054', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K14n13375', 'rank_a': 179, 'rank_b': 195, 'same_hfk': False}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K14n13601', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K14n14374', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K14n16569', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K14n16920', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}
+    {'delta': [-1, 7, -21, 38, -45, 38, -21, 7, -1], 'genus': 4, 'tau': 1, 'nu': 1, 'eps': 1, 'a': 'K11a284', 'b': 'K14n17300', 'rank_a': 179, 'rank_b': 179, 'same_hfk': True}

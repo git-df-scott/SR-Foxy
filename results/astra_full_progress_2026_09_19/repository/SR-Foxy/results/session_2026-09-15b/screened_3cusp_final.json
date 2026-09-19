@@ -1,0 +1,5969 @@
+{
+ "date": "2026-09-16T01:23:30.199810Z",
+ "source": "results/session_2026-09-15b/eisermann_census_3cusp.json",
+ "meaning": "every entry is PROVED not ribbon by Eisermann Theorem 1. survivors[] are those not yet excluded from being slice; a survivor is a target, not a counterexample.",
+ "rows": [
+  {
+   "components": 3,
+   "crossings": 9,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "beta": 1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 1 != 0"
+   ],
+   "name": "L9n27",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 11,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 7,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      1
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 7,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      1
+     ],
+     "beta": 1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 1 != 0"
+   ],
+   "name": "L11n396",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 11,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 7,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      2
+     ],
+     "beta": 2
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 7,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      2
+     ],
+     "beta": 2
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 2 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 2 != 0"
+   ],
+   "name": "L11n406",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 11,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    1
+   ],
+   "mu_bar_123_squared": 4,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "mu-bar(123)^2 = 4 != 0"
+   ],
+   "name": "L11n436",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 12,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 8,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      -1
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 8,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      -1
+     ],
+     "beta": 1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 1 != 0"
+   ],
+   "name": "L12n1847",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 12,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    }
+   ],
+   "slice_ruled_out": false,
+   "reasons": [],
+   "name": "L12n1933",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2,
+   "pd_code": [
+    [
+     7,
+     1,
+     8,
+     0
+    ],
+    [
+     1,
+     20,
+     2,
+     21
+    ],
+    [
+     2,
+     14,
+     3,
+     13
+    ],
+    [
+     10,
+     3,
+     11,
+     4
+    ],
+    [
+     4,
+     15,
+     5,
+     16
+    ],
+    [
+     5,
+     19,
+     0,
+     18
+    ],
+    [
+     19,
+     6,
+     20,
+     7
+    ],
+    [
+     21,
+     9,
+     22,
+     8
+    ],
+    [
+     12,
+     9,
+     13,
+     10
+    ],
+    [
+     14,
+     6,
+     15,
+     11
+    ],
+    [
+     16,
+     23,
+     17,
+     12
+    ],
+    [
+     22,
+     17,
+     23,
+     18
+    ]
+   ]
+  },
+  {
+   "components": 3,
+   "crossings": 13,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 9,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      4,
+      0,
+      4
+     ],
+     "beta": 4
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 4 != 0"
+   ],
+   "name": "L13n8294",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 13,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 9,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -4
+     ],
+     "beta": -4
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = -1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = -4 != 0"
+   ],
+   "name": "L13n8382",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 13,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    1
+   ],
+   "mu_bar_123_squared": 4,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "beta": 1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "mu-bar(123)^2 = 4 != 0",
+    "sublink (0, 1) has Sato-Levine beta = -1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 1 != 0"
+   ],
+   "name": "L13n8396",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 13,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    1
+   ],
+   "mu_bar_123_squared": 4,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 7,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      2
+     ],
+     "beta": 2
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "mu-bar(123)^2 = 4 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 2 != 0"
+   ],
+   "name": "L13n8458",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 13,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    1
+   ],
+   "mu_bar_123_squared": 4,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "mu-bar(123)^2 = 4 != 0",
+    "sublink (0, 1) has Sato-Levine beta = -1 != 0"
+   ],
+   "name": "L13n8469",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 13,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    1
+   ],
+   "mu_bar_123_squared": 4,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "mu-bar(123)^2 = 4 != 0",
+    "sublink (0, 1) has Sato-Levine beta = -1 != 0"
+   ],
+   "name": "L13n8474",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 13,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 9,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      2
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 9,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      2
+     ],
+     "beta": 1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 1 != 0"
+   ],
+   "name": "L13n9073",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 13,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 9,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      3
+     ],
+     "beta": 2
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 9,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      3
+     ],
+     "beta": 2
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 2 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 2 != 0"
+   ],
+   "name": "L13n9193",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 13,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 9,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      3
+     ],
+     "beta": 3
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 9,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      3
+     ],
+     "beta": 3
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 3 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 3 != 0"
+   ],
+   "name": "L13n9270",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 13,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    1
+   ],
+   "mu_bar_123_squared": 4,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "mu-bar(123)^2 = 4 != 0"
+   ],
+   "name": "L13n9662",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      -2
+     ],
+     "beta": 1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (1, 2) has Sato-Levine beta = 1 != 0"
+   ],
+   "name": "L14n45824",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1,
+      0,
+      2
+     ],
+     "beta": -1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (1, 2) has Sato-Levine beta = -1 != 0"
+   ],
+   "name": "L14n45834",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 9,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      4,
+      0,
+      4
+     ],
+     "beta": 4
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (1, 2) has Sato-Levine beta = 4 != 0"
+   ],
+   "name": "L14n47161",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -4,
+      0,
+      -1
+     ],
+     "beta": -4
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (1, 2) has Sato-Levine beta = -4 != 0"
+   ],
+   "name": "L14n47195",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      4,
+      0,
+      1
+     ],
+     "beta": 4
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (1, 2) has Sato-Levine beta = 4 != 0"
+   ],
+   "name": "L14n47241",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      -2
+     ],
+     "beta": 1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 1 != 0"
+   ],
+   "name": "L14n47748",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      2
+     ],
+     "beta": 1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 1 != 0"
+   ],
+   "name": "L14n47755",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -4,
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 9,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -3,
+      0,
+      1
+     ],
+     "beta": -3
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = -3 != 0"
+   ],
+   "name": "L14n47771",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    1
+   ],
+   "mu_bar_123_squared": 4,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      4,
+      0,
+      1
+     ],
+     "beta": 4
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "mu-bar(123)^2 = 4 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 4 != 0"
+   ],
+   "name": "L14n47781",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    1
+   ],
+   "mu_bar_123_squared": 4,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      4,
+      0,
+      1
+     ],
+     "beta": 4
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "mu-bar(123)^2 = 4 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 4 != 0"
+   ],
+   "name": "L14n47782",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -4,
+      0,
+      -1
+     ],
+     "beta": -4
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (1, 2) has Sato-Levine beta = -4 != 0"
+   ],
+   "name": "L14n47785",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      4,
+      0,
+      1
+     ],
+     "beta": 4
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 4 != 0"
+   ],
+   "name": "L14n47791",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      4,
+      0,
+      1
+     ],
+     "beta": 4
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 4 != 0"
+   ],
+   "name": "L14n47792",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -4,
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -4,
+      0,
+      -1
+     ],
+     "beta": -4
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = -4 != 0"
+   ],
+   "name": "L14n47794",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      4,
+      0,
+      1
+     ],
+     "beta": 4
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 4 != 0"
+   ],
+   "name": "L14n47797",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -4,
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 1 != 0"
+   ],
+   "name": "L14n47800",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -4,
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 1 != 0"
+   ],
+   "name": "L14n47801",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    1
+   ],
+   "mu_bar_123_squared": 4,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      1
+     ],
+     "beta": 2
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "mu-bar(123)^2 = 4 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 2 != 0"
+   ],
+   "name": "L14n47827",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": 0
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 1 != 0"
+   ],
+   "name": "L14n47832",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1,
+      0,
+      2
+     ],
+     "beta": -1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = -1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = -1 != 0"
+   ],
+   "name": "L14n48076",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1,
+      0,
+      2
+     ],
+     "beta": -1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = -1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = -1 != 0"
+   ],
+   "name": "L14n48085",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1,
+      0,
+      -2
+     ],
+     "beta": -1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = -1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = -1 != 0"
+   ],
+   "name": "L14n48096",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1,
+      0,
+      -2
+     ],
+     "beta": -1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = -1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = -1 != 0"
+   ],
+   "name": "L14n48105",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -4,
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      4,
+      0,
+      1
+     ],
+     "beta": 4
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = -1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 4 != 0"
+   ],
+   "name": "L14n48166",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    5,
+    0
+   ],
+   "mu_bar_123_squared": 4,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -4,
+      0,
+      -1
+     ],
+     "beta": -4
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "mu-bar(123)^2 = 4 != 0",
+    "sublink (0, 1) has Sato-Levine beta = -1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = -4 != 0"
+   ],
+   "name": "L14n48168",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    5,
+    0
+   ],
+   "mu_bar_123_squared": 4,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -4,
+      0,
+      -1
+     ],
+     "beta": -4
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "mu-bar(123)^2 = 4 != 0",
+    "sublink (0, 1) has Sato-Levine beta = -1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = -4 != 0"
+   ],
+   "name": "L14n48169",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -4,
+      0,
+      -1
+     ],
+     "beta": -4
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = -1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = -4 != 0"
+   ],
+   "name": "L14n48174",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 9,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1,
+      0,
+      -1
+     ],
+     "beta": -1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = -1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = -1 != 0"
+   ],
+   "name": "L14n48185",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = -1 != 0"
+   ],
+   "name": "L14n48324",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    1
+   ],
+   "mu_bar_123_squared": 4,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      -2
+     ],
+     "beta": 0
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "mu-bar(123)^2 = 4 != 0"
+   ],
+   "name": "L14n48333",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    1
+   ],
+   "mu_bar_123_squared": 4,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 9,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      1
+     ],
+     "beta": 1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "mu-bar(123)^2 = 4 != 0",
+    "sublink (0, 1) has Sato-Levine beta = -1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 1 != 0"
+   ],
+   "name": "L14n48368",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1,
+      0,
+      2
+     ],
+     "beta": -1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (1, 2) has Sato-Levine beta = -1 != 0"
+   ],
+   "name": "L14n48391",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      -2
+     ],
+     "beta": 1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (1, 2) has Sato-Levine beta = 1 != 0"
+   ],
+   "name": "L14n48397",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 9,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -4
+     ],
+     "beta": -4
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (1, 2) has Sato-Levine beta = -4 != 0"
+   ],
+   "name": "L14n48403",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 9,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -5,
+      0,
+      -2
+     ],
+     "beta": -5
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = -1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = -5 != 0"
+   ],
+   "name": "L14n48404",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": 0
+    }
+   ],
+   "slice_ruled_out": false,
+   "reasons": [],
+   "name": "L14n48413",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2,
+   "pd_code": [
+    [
+     5,
+     1,
+     6,
+     0
+    ],
+    [
+     1,
+     5,
+     2,
+     4
+    ],
+    [
+     11,
+     2,
+     12,
+     3
+    ],
+    [
+     3,
+     12,
+     0,
+     13
+    ],
+    [
+     6,
+     16,
+     7,
+     15
+    ],
+    [
+     26,
+     8,
+     27,
+     7
+    ],
+    [
+     8,
+     20,
+     9,
+     19
+    ],
+    [
+     24,
+     9,
+     25,
+     10
+    ],
+    [
+     10,
+     23,
+     11,
+     24
+    ],
+    [
+     13,
+     18,
+     14,
+     19
+    ],
+    [
+     27,
+     14,
+     18,
+     15
+    ],
+    [
+     16,
+     22,
+     17,
+     21
+    ],
+    [
+     22,
+     4,
+     23,
+     17
+    ],
+    [
+     20,
+     26,
+     21,
+     25
+    ]
+   ]
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = -1 != 0"
+   ],
+   "name": "L14n48418",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -4,
+      0,
+      -1
+     ],
+     "beta": -4
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = -1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = -4 != 0"
+   ],
+   "name": "L14n48449",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -4,
+      0,
+      -1
+     ],
+     "beta": -4
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = -1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = -4 != 0"
+   ],
+   "name": "L14n48450",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -4,
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      4,
+      0,
+      1
+     ],
+     "beta": 4
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (1, 2) has Sato-Levine beta = 4 != 0"
+   ],
+   "name": "L14n48454",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -4,
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      4,
+      0,
+      1
+     ],
+     "beta": 4
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (1, 2) has Sato-Levine beta = 4 != 0"
+   ],
+   "name": "L14n48455",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    1
+   ],
+   "mu_bar_123_squared": 4,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      4,
+      0,
+      1
+     ],
+     "beta": 4
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "mu-bar(123)^2 = 4 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 4 != 0"
+   ],
+   "name": "L14n48789",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      4,
+      0,
+      1
+     ],
+     "beta": 4
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 4 != 0"
+   ],
+   "name": "L14n48793",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -4,
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 1 != 0"
+   ],
+   "name": "L14n48795",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -4,
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 9,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -3,
+      0,
+      -3
+     ],
+     "beta": -3
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = -3 != 0"
+   ],
+   "name": "L14n48798",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    5,
+    0
+   ],
+   "mu_bar_123_squared": 4,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -4,
+      0,
+      -1
+     ],
+     "beta": -4
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "mu-bar(123)^2 = 4 != 0",
+    "sublink (0, 1) has Sato-Levine beta = -1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = -4 != 0"
+   ],
+   "name": "L14n49099",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -4,
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 7,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -2
+     ],
+     "beta": -2
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      1
+     ],
+     "beta": 2
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = -2 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 2 != 0"
+   ],
+   "name": "L14n50034",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -4,
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      1
+     ],
+     "beta": 2
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (1, 2) has Sato-Levine beta = 2 != 0"
+   ],
+   "name": "L14n50866",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -4,
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 7,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      2
+     ],
+     "beta": 2
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (1, 2) has Sato-Levine beta = 2 != 0"
+   ],
+   "name": "L14n50867",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      -2
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "beta": 1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 1 != 0"
+   ],
+   "name": "L14n51499",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "beta": 1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 1 != 0"
+   ],
+   "name": "L14n51516",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -2
+     ],
+     "beta": -2
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -2
+     ],
+     "beta": -2
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = -2 != 0",
+    "sublink (1, 2) has Sato-Levine beta = -2 != 0"
+   ],
+   "name": "L14n51538",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      -1
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      -1
+     ],
+     "beta": 1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 1 != 0"
+   ],
+   "name": "L14n51806",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 7,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      1
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": 0
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 1 != 0"
+   ],
+   "name": "L14n51997",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      1
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      1
+     ],
+     "beta": 1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 1 != 0"
+   ],
+   "name": "L14n52142",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      -1
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      -1
+     ],
+     "beta": 1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 1 != 0"
+   ],
+   "name": "L14n52153",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      -2
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      -2
+     ],
+     "beta": 1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 1 != 0"
+   ],
+   "name": "L14n52170",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+     ],
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -2
+     ],
+     "beta": -2
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (1, 2) has Sato-Levine beta = -2 != 0"
+   ],
+   "name": "L14n52190",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+     ],
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -2
+     ],
+     "beta": -2
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (1, 2) has Sato-Levine beta = -2 != 0"
+   ],
+   "name": "L14n52304",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 9,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     "beta": 0
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = -1 != 0"
+   ],
+   "name": "L14n52389",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": 0
+    }
+   ],
+   "slice_ruled_out": false,
+   "reasons": [],
+   "name": "L14n52589",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2,
+   "pd_code": [
+    [
+     5,
+     1,
+     6,
+     0
+    ],
+    [
+     1,
+     12,
+     2,
+     13
+    ],
+    [
+     9,
+     2,
+     10,
+     3
+    ],
+    [
+     3,
+     23,
+     0,
+     22
+    ],
+    [
+     4,
+     25,
+     5,
+     26
+    ],
+    [
+     13,
+     7,
+     14,
+     6
+    ],
+    [
+     16,
+     7,
+     17,
+     8
+    ],
+    [
+     8,
+     17,
+     9,
+     18
+    ],
+    [
+     10,
+     24,
+     11,
+     27
+    ],
+    [
+     24,
+     12,
+     25,
+     11
+    ],
+    [
+     14,
+     20,
+     15,
+     19
+    ],
+    [
+     20,
+     16,
+     21,
+     15
+    ],
+    [
+     18,
+     22,
+     19,
+     21
+    ],
+    [
+     26,
+     23,
+     27,
+     4
+    ]
+   ]
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      1
+     ],
+     "beta": 2
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      1
+     ],
+     "beta": 2
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 2 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 2 != 0"
+   ],
+   "name": "L14n52600",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      -2
+     ],
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      -2
+     ],
+     "beta": 0
+    }
+   ],
+   "slice_ruled_out": false,
+   "reasons": [],
+   "name": "L14n52605",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2,
+   "pd_code": [
+    [
+     5,
+     1,
+     6,
+     0
+    ],
+    [
+     1,
+     12,
+     2,
+     13
+    ],
+    [
+     9,
+     2,
+     10,
+     3
+    ],
+    [
+     3,
+     23,
+     0,
+     22
+    ],
+    [
+     4,
+     25,
+     5,
+     26
+    ],
+    [
+     13,
+     7,
+     14,
+     6
+    ],
+    [
+     7,
+     18,
+     8,
+     19
+    ],
+    [
+     17,
+     8,
+     18,
+     9
+    ],
+    [
+     10,
+     24,
+     11,
+     27
+    ],
+    [
+     24,
+     12,
+     25,
+     11
+    ],
+    [
+     21,
+     15,
+     22,
+     14
+    ],
+    [
+     15,
+     21,
+     16,
+     20
+    ],
+    [
+     19,
+     17,
+     20,
+     16
+    ],
+    [
+     26,
+     23,
+     27,
+     4
+    ]
+   ]
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": 0
+    }
+   ],
+   "slice_ruled_out": false,
+   "reasons": [],
+   "name": "L14n52619",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2,
+   "pd_code": [
+    [
+     5,
+     1,
+     6,
+     0
+    ],
+    [
+     1,
+     14,
+     2,
+     15
+    ],
+    [
+     9,
+     2,
+     10,
+     3
+    ],
+    [
+     3,
+     21,
+     0,
+     20
+    ],
+    [
+     4,
+     25,
+     5,
+     26
+    ],
+    [
+     15,
+     7,
+     16,
+     6
+    ],
+    [
+     7,
+     18,
+     8,
+     19
+    ],
+    [
+     17,
+     8,
+     18,
+     9
+    ],
+    [
+     10,
+     24,
+     11,
+     27
+    ],
+    [
+     22,
+     11,
+     23,
+     12
+    ],
+    [
+     12,
+     23,
+     13,
+     4
+    ],
+    [
+     24,
+     14,
+     25,
+     13
+    ],
+    [
+     19,
+     17,
+     20,
+     16
+    ],
+    [
+     26,
+     21,
+     27,
+     22
+    ]
+   ]
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0
+     ],
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      -2
+     ],
+     "beta": 1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (1, 2) has Sato-Levine beta = 1 != 0"
+   ],
+   "name": "L14n52846",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0
+     ],
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1,
+      0,
+      -2
+     ],
+     "beta": -1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (1, 2) has Sato-Levine beta = -1 != 0"
+   ],
+   "name": "L14n52933",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1,
+      0,
+      -2
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1,
+      0,
+      -2
+     ],
+     "beta": -1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = -1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = -1 != 0"
+   ],
+   "name": "L14n53118",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      -2
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      -2
+     ],
+     "beta": 1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 1 != 0"
+   ],
+   "name": "L14n53126",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0
+     ],
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1,
+      0,
+      2
+     ],
+     "beta": -1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (1, 2) has Sato-Levine beta = -1 != 0"
+   ],
+   "name": "L14n53128",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      2
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      2
+     ],
+     "beta": 1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = 1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 1 != 0"
+   ],
+   "name": "L14n53149",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0
+     ],
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 10,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1,
+      0,
+      -2
+     ],
+     "beta": -1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (1, 2) has Sato-Levine beta = -1 != 0"
+   ],
+   "name": "L14n53151",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    }
+   ],
+   "slice_ruled_out": false,
+   "reasons": [],
+   "name": "L14n54478",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2,
+   "pd_code": [
+    [
+     7,
+     1,
+     8,
+     0
+    ],
+    [
+     1,
+     22,
+     2,
+     23
+    ],
+    [
+     2,
+     14,
+     3,
+     13
+    ],
+    [
+     10,
+     3,
+     11,
+     4
+    ],
+    [
+     4,
+     15,
+     5,
+     16
+    ],
+    [
+     5,
+     21,
+     0,
+     20
+    ],
+    [
+     21,
+     6,
+     22,
+     7
+    ],
+    [
+     23,
+     9,
+     24,
+     8
+    ],
+    [
+     12,
+     9,
+     13,
+     10
+    ],
+    [
+     14,
+     6,
+     15,
+     11
+    ],
+    [
+     16,
+     27,
+     17,
+     12
+    ],
+    [
+     26,
+     17,
+     27,
+     18
+    ],
+    [
+     18,
+     25,
+     19,
+     26
+    ],
+    [
+     24,
+     19,
+     25,
+     20
+    ]
+   ]
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -4,
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 2) has Sato-Levine beta = -1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = -1 != 0"
+   ],
+   "name": "L14n58511",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "split_trivial": true,
+     "beta": 0
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 2) has Sato-Levine beta = -1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = -1 != 0"
+   ],
+   "name": "L14n58627",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = -1 != 0",
+    "sublink (0, 2) has Sato-Levine beta = -1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = -1 != 0"
+   ],
+   "name": "L14n58704",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -4,
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "beta": 1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = -1 != 0",
+    "sublink (0, 2) has Sato-Levine beta = 1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 1 != 0"
+   ],
+   "name": "L14n58706",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "beta": 1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = -1 != 0",
+    "sublink (0, 2) has Sato-Levine beta = 1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = 1 != 0"
+   ],
+   "name": "L14n58716",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "beta": 1
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "split_trivial": true,
+     "beta": 0
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = -1 != 0",
+    "sublink (0, 2) has Sato-Levine beta = 1 != 0"
+   ],
+   "name": "L14n58759",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  },
+  {
+   "components": 3,
+   "crossings": 14,
+   "conway": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0
+   ],
+   "mu_bar_123_squared": 0,
+   "two_component_sublinks": [
+    {
+     "pair": [
+      0,
+      1
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      0,
+      2
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    },
+    {
+     "pair": [
+      1,
+      2
+     ],
+     "crossings": 5,
+     "linking_number": 0,
+     "conway": [
+      0,
+      0,
+      0,
+      -1
+     ],
+     "beta": -1
+    }
+   ],
+   "slice_ruled_out": true,
+   "reasons": [
+    "sublink (0, 1) has Sato-Levine beta = -1 != 0",
+    "sublink (0, 2) has Sato-Levine beta = -1 != 0",
+    "sublink (1, 2) has Sato-Levine beta = -1 != 0"
+   ],
+   "name": "L14n58760",
+   "null_V": 1,
+   "ribbon_requires_null_V": 2
+  }
+ ],
+ "survivors": [
+  "L12n1933",
+  "L14n48413",
+  "L14n52589",
+  "L14n52605",
+  "L14n52619",
+  "L14n54478"
+ ],
+ "summary": {
+  "screened": 95,
+  "survivors": 6
+ }
+}

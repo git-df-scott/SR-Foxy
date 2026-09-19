@@ -1,0 +1,54 @@
+{
+  "counterexample_established": false,
+  "input": "Epoch AI GST_START_PD, 48 crossings; original-GST identification source-attributed, not independently Kirby-replayed",
+  "source_file_sha256": "cf28760f331644a4286baa2262a27a59d8c0ec6f02768e6329f236dd0559bf21",
+  "canonical_pd_sha256": "0401ed932c126d58b272c5ecc7e8f29d2bd719072c8eb2ac9f6ec43030c77f24",
+  "new_session_results": {
+    "seifert_genus_computed": 10,
+    "fibered_computed": false,
+    "hfk_rank_F2": 189,
+    "hfk_rank_F3": 189,
+    "top_Alexander_grading": 10,
+    "top_Alexander_rank": 2,
+    "determinant": 1,
+    "Alexander_breadth": 16,
+    "rational_Blanchfield_metabolizers": 2,
+    "reciprocal_factor_resultant": 1849,
+    "distinct_face_band_prefixes_certified_nonslice": 164,
+    "L3_T1_prefixes_certified_nonslice": 1698,
+    "L4_T2_generated_band_specs": 15794,
+    "L4_T2_prefixes_certified_nonslice": 15744,
+    "L4_T2_self_return_moves_certified": 50,
+    "L4_R3_moves_per_self_return": {
+      "2": 41,
+      "3": 8,
+      "4": 1
+    }
+  },
+  "do_not_infer": [
+    "Global non-ribbonness",
+    "Exactly two slice disks or derivatives",
+    "All geometric bands covered by the bounded generator",
+    "The 50 self-return prefixes are impossible ribbon prefixes",
+    "An independent Kirby identification with original GST Figure 2"
+  ],
+  "all_L4_records_replayed": true,
+  "all_50_movies_replayed": true,
+  "python": "3.13.5",
+  "versions": {
+    "sympy": "1.14.0",
+    "spherogram": "2.4.1",
+    "snappy": "3.3.2",
+    "regina": "7.4.1",
+    "knot_floer_homology": "1.2.2"
+  },
+  "repo_head_observed": "e5491286f233d4edcf6603ecba44cf24fbab2341",
+  "pushed": false,
+  "environment_artifact": {
+    "repo": "git-df-scott/SR-Foxy",
+    "workflow_run": 35417723921,
+    "artifact_id": 10576048198,
+    "artifact_sha256": "4005e0748b255c671ab1c158ff43668b5edc9eba10df969cbf197283fb0de0b8",
+    "note": "Existing repository build, downloaded and installed here; not created by this research turn."
+  }
+}

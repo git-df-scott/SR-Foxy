@@ -1,0 +1,70 @@
+{
+  "scope": "This turn, not a claim to have audited the full repository.",
+  "repository_reads": [
+    {
+      "path": "research/35_mixed_axes_response_and_winding_gate.md",
+      "coverage": "full via GitHub at source main"
+    },
+    {
+      "path": "results/chat_archive_2026_09_17/expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/diagram_core.py",
+      "coverage": "lines 1-330 via GitHub; relevant scaffold/band/orientation primitives"
+    },
+    {
+      "path": "results/astra_one_commutator_2026_09_18/",
+      "coverage": "prior generated archive extracted unchanged; algebraic inputs, checker and certificate read programmatically"
+    }
+  ],
+  "provided_context_read": [
+    "research/37,38,40,41,42,46,47 as supplied in the conversation/retrieval context; not all re-fetched in this turn"
+  ],
+  "new_generated_data_inspected_programmatically": [
+    "All polygon coordinates/crossings",
+    "Every surface triangle and vertex link",
+    "Every full Wirtinger relator and preferred longitude",
+    "All 670 recorded Fox pivots",
+    "All 375 auxiliary Tietze moves",
+    "All five filled maximal minors",
+    "Conditional free-subgroup graph"
+  ],
+  "not_done": [
+    "Whole-repo scan",
+    "Independent Floer implementation",
+    "New census search",
+    "Paper figure-to-scaffold identification",
+    "Complete filled-group simplification",
+    "Actual 4D annulus movie"
+  ],
+  "sources_checked": [
+    {
+      "authors": "Michael Freedman; Martin Scharlemann",
+      "title": "Dehn's Lemma for Immersed Loops",
+      "version": "arXiv:1704.05507v2, 15 September 2017",
+      "location": "Theorem 1, consequence (1), first page",
+      "url": "https://arxiv.org/html/1704.05507v2",
+      "claim": "Nullhomotopic simple boundary curve bounds a proper embedded disk.",
+      "access": "HTML and parsed PDF; PDF screenshot attempt failed."
+    },
+    {
+      "authors": "JungHwan Park",
+      "title": "A Construction of Slice Knots via Annulus Modifications",
+      "version": "arXiv:1512.00401, originally 2015",
+      "location": "Definition 3.1; Theorem 3.3",
+      "url": "https://arxiv.org/html/1512.00401",
+      "claim": "Standard-annulus hypotheses are needed for standard-B4 sliceness conclusion.",
+      "access": "HTML checked."
+    },
+    {
+      "authors": "Rob Schneiderman",
+      "title": "Algebraic linking numbers of knots in 3-manifolds",
+      "version": "AGT 3 (2003), 921-968",
+      "location": "Proposition 4.1.2 and annulus discussion",
+      "url": "https://msp.org/agt/2003/3-2/agt-v3-n2-p10-p.pdf",
+      "claim": "Primary Whitney pairing is not a clean Whitney-disk/embedding certificate.",
+      "access": "Parsed material checked; screenshot attempt failed."
+    }
+  ],
+  "historical_source_not_obtained": [
+    "Stallings, Topology of finite graphs (1983): bibliographic identification only; direct elementary proof used.",
+    "Papakyriakopoulos original: archive access failed; Dehn lemma verified in the Freedman\u2013Scharlemann primary paper instead."
+  ]
+}

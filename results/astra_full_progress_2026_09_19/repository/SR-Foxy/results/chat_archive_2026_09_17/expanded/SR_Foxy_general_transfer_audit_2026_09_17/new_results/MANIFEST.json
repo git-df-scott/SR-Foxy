@@ -1,0 +1,77 @@
+{
+  "CHECKPOINT.json": {
+    "bytes": 1432,
+    "sha256": "bc4f3583db8f4a66c7bc6a7b85d3a18dc1ab1e56761440421029eb437220a3c7",
+    "git_blob_sha": "871b75ac3ba7c736c783f266ce05e05ee55743c1"
+  },
+  "OPUS_REVIEW.md": {
+    "bytes": 4140,
+    "sha256": "dc2fb4ce76f04644ba61e8e62bf86165ee77c4254a99ee75602c7e2ffb49faa8",
+    "git_blob_sha": "ec290283dc4c2cb9fadb7baf9450a4567ea5e37d"
+  },
+  "PROPOSED_TRANSFER_THEOREM.md": {
+    "bytes": 22868,
+    "sha256": "77df80d6269759fc1cf626a263e11e7e2b2a1d3c18fde05c1cb57139037ade36",
+    "git_blob_sha": "4383f1183dc7e2a8f5d70e3c11f2a5a4d9bd05eb"
+  },
+  "README.md": {
+    "bytes": 5082,
+    "sha256": "d3f65c6d0ce82986d9d1cac5a5b2e0fccd7c079849361c64a1df9e19b8b5d8ee",
+    "git_blob_sha": "bf0d15be38bc20833f6e59006fbb033c0ede758f"
+  },
+  "algebra_results.json": {
+    "bytes": 6894,
+    "sha256": "3e380deb7861bfa66b94dadfd4a3f545857bad6d83febf57944c2be3e3f5d8e7",
+    "git_blob_sha": "932d8ecb519c22588b160b0348a1f5fde01c27bb"
+  },
+  "check_connected_sum_controls.py": {
+    "bytes": 5494,
+    "sha256": "e7cca295aaddbfb752a9911bd1f975fa6bf6cc5f31698c3b31beed173a795b21",
+    "git_blob_sha": "141252a23e399d15a5e9a733728e9d7e8f00e65a"
+  },
+  "check_general_transfer.py": {
+    "bytes": 9530,
+    "sha256": "195f7fff301a4c8a0deda8685770e2ad5aae025aa604b2e3ada3a6b3f6cf16c3",
+    "git_blob_sha": "7bc03d716173a6e2e086d73a700471a2a470af23"
+  },
+  "coverage.json": {
+    "bytes": 1144,
+    "sha256": "1224ccd6869a32f43f9e52e89b634f796729b196502bf61104a144e5574acf0d",
+    "git_blob_sha": "f8b48c8e8e1ef4bf1fa4adba45b7e234b1ac4cd1"
+  },
+  "direct_controls/manifest.json": {
+    "bytes": 14205,
+    "sha256": "3c7a39fc79dc629e85a25d2bd3012036277a5f35fd82311f326dadedaba43778",
+    "git_blob_sha": "988c21744f02e36a9e621a056dc3399a6a14414c"
+  },
+  "direct_controls/ribbon61_sum_61_parallel_2.input.txt": {
+    "bytes": 1297,
+    "sha256": "ed03f2f925aefa066b5c46a8500d7823cae96d34c6da6b2380cb9218b8edfa6d",
+    "git_blob_sha": "514745a23fe16e09ebc64fbbcf980308709fb697"
+  },
+  "direct_controls/ribbon61_sum_61_parallel_2.log": {
+    "bytes": 243,
+    "sha256": "e9a5b8a98c2a5e358a7b6b2730d2790ce170db3bb51151c672e03ede6c81efc8",
+    "git_blob_sha": "4ef6dbe8d3841df0e3a0365261d273f0b12db45d"
+  },
+  "direct_controls/ribbon61_sum_61_parallel_3.input.txt": {
+    "bytes": 3278,
+    "sha256": "93c61aa0790395f31cf545c3fd1414264ff730199249878827116b570caccd68",
+    "git_blob_sha": "9da4195b1fbc29787ee17e97b53eee3d3e9dca18"
+  },
+  "direct_controls/ribbon61_sum_61_parallel_3.log": {
+    "bytes": 585,
+    "sha256": "f9fde5c6f6654da812c51090a1ce7a1b5ec992a51ab5db575fb78a731523573f",
+    "git_blob_sha": "cbe79b38cee3f165f9d4048acf6a657de261a585"
+  },
+  "direct_controls/ribbon61_sum_61_parallel_4.input.txt": {
+    "bytes": 6078,
+    "sha256": "3cdef6c94dbb3b3b2cccdebdd31ab7ff6cd18f4533d41ce1e50afc9c72091968",
+    "git_blob_sha": "0dda4bc979a5f3b92c62f825db90722e452d074e"
+  },
+  "direct_controls/ribbon61_sum_61_parallel_4.log": {
+    "bytes": 215,
+    "sha256": "7de1d590eec9a4e33521b0ccd2879bf002eb092499193b30a2116316ba510c7a",
+    "git_blob_sha": "3b46b3c2ace7ce72c2a95af06b94b61f79f43921"
+  }
+}

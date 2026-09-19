@@ -1,0 +1,11 @@
+{
+  "knot": "D_{0,1} = K_0 # (-K_1)",
+  "p": 8,
+  "q": 13,
+  "method": "advanced",
+  "ribbon_mode": false,
+  "result": null,
+  "seconds": 3.821,
+  "snappy": "3.3.2",
+  "meaning": "A returned pair is a computational nonsliceness obstruction; null means only no obstruction in this calculation."
+}

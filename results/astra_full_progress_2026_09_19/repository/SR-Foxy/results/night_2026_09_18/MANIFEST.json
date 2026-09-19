@@ -1,0 +1,268 @@
+{
+  "recorded_at_utc": "2026-09-18T20:39:29.798002+00:00",
+  "base_commit": "91732d46ad7f88098386ea4cc42016ac1a8f3100",
+  "branch": "main",
+  "counterexample": false,
+  "input_files": [
+    {
+      "path": "results/astra_2026_09_17_collar_boundary_audit/check_surgery_alexander.py",
+      "bytes": 3516,
+      "sha256": "952afd00b9d7554de2f8a3ef87141a26bbe0095c43aa1f97292ca0f26780778f"
+    },
+    {
+      "path": "results/astra_2026_09_17_collar_boundary_audit/CERTIFICATE.json",
+      "bytes": 8602,
+      "sha256": "6969cd957ce3a1ba023ade673ca4aa13611e97ad0b5da9f5078fa28c9662c420"
+    },
+    {
+      "path": "results/chat_archive_2026_09_17/expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/diagram_core.py",
+      "bytes": 10330,
+      "sha256": "cf9012abcbc9d79b76aed7741d6a14cff99437706b245a007286aea35f1fc62a"
+    },
+    {
+      "path": "data/knots/AbeTagami_marked_product_scaffold.json",
+      "bytes": 4859,
+      "sha256": "d01c4a33c3533de068d0ba6c6c1f1e8e980c16ce57d0e274f263e7fc75dcc4d3"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "results/night_2026_09_18/README.md",
+      "bytes": 8444,
+      "sha256": "945718231f2b978391e874acdf0cd9975dfa2d75845607f6feff394d6baec348"
+    },
+    {
+      "path": "results/night_2026_09_18/algebra_review.md",
+      "bytes": 3368,
+      "sha256": "a0e1f45d9f4930ba743a031cffbf7ea8f7a8e44206717755e91b769fed8609a1"
+    },
+    {
+      "path": "results/night_2026_09_18/axis_module.jsonl",
+      "bytes": 1813,
+      "sha256": "7b36aea0323b8264aaa6025d3a449553ee320d162cf274cef870ba8f5e085969"
+    },
+    {
+      "path": "results/night_2026_09_18/axis_module.py",
+      "bytes": 3474,
+      "sha256": "cb90fcb38b7ed8d130032fb886364d082c4d558c625360833b020792f21973ee"
+    },
+    {
+      "path": "results/night_2026_09_18/axis_module_verified.jsonl",
+      "bytes": 1813,
+      "sha256": "7b36aea0323b8264aaa6025d3a449553ee320d162cf274cef870ba8f5e085969"
+    },
+    {
+      "path": "results/night_2026_09_18/axis_segments.jsonl",
+      "bytes": 2482,
+      "sha256": "9c6b53d743008587db572f1c07e8b207752e03006ca73d1c5e20f2d03f524887"
+    },
+    {
+      "path": "results/night_2026_09_18/axis_segments.py",
+      "bytes": 828,
+      "sha256": "0f2dbeaa142420b30eae3338adf707866a38cce02409478aa91896b4c6c07379"
+    },
+    {
+      "path": "results/night_2026_09_18/bezout_check.json",
+      "bytes": 147,
+      "sha256": "1f1c8945050d74875ccd8d5e6e6ace334e68aa7d7c09dad84136674dfe256318"
+    },
+    {
+      "path": "results/night_2026_09_18/check_bezout.py",
+      "bytes": 2114,
+      "sha256": "3ed0de2a0e1e9a5043e8f608a2751a84a786b820f1b1a4705520fac5584b0748"
+    },
+    {
+      "path": "results/night_2026_09_18/framing_arithmetic_corrected.json",
+      "bytes": 2270,
+      "sha256": "258176d1524487227296dd4d448f53fe999bf080e2d0ec4b0d1b261d495a3cc8"
+    },
+    {
+      "path": "results/night_2026_09_18/inherited_collar_recheck.json",
+      "bytes": 8602,
+      "sha256": "0f33ffec9c057d9313edbfc361b7e7bf2f554b1462ed15a03be622eb8ca3e488"
+    },
+    {
+      "path": "results/night_2026_09_18/literature.md",
+      "bytes": 7775,
+      "sha256": "c0df06b6e03a2864e4be1d3e3b87be93203f2e370afbcd317bff6e5873b19796"
+    },
+    {
+      "path": "results/night_2026_09_18/longitude_response.json",
+      "bytes": 367,
+      "sha256": "024d4346c9bfce026975f2b2c7228d7fdf15685ea80162ad8b42161a22de3932"
+    },
+    {
+      "path": "results/night_2026_09_18/miyazaki_algebra_corrected.json",
+      "bytes": 8865,
+      "sha256": "f1faeed9fa4e63adf321c6427d895b609ebcaa0431b9f348e4dc2f1ee6d95f38"
+    },
+    {
+      "path": "results/night_2026_09_18/new_upstream_review.md",
+      "bytes": 5221,
+      "sha256": "cfe03525a6b7e6272bfad09776ad79a8a57872ded1ec0aff41db50fd618df6aa"
+    },
+    {
+      "path": "results/night_2026_09_18/repair_0110_response.jsonl",
+      "bytes": 539,
+      "sha256": "b6e826881c639978239e4742f3b1a9df9a6bf3ce657bb0f0a4b098fe275b90c0"
+    },
+    {
+      "path": "results/night_2026_09_18/repair_0110_response.py",
+      "bytes": 3014,
+      "sha256": "1a037a0f3c05760e0005fb2693f92509faf05647100289a727e1661a4c39d25e"
+    },
+    {
+      "path": "results/night_2026_09_18/response_exploratory.jsonl",
+      "bytes": 2894,
+      "sha256": "3c6c2cb99b6e0d8e61a6eb7e974e319c1696aa8430582037a2cb062302c83126"
+    },
+    {
+      "path": "results/night_2026_09_18/response_matrix.py",
+      "bytes": 1442,
+      "sha256": "561d4951f18da0a987839666878225b6296ebf81174a23abc35ccd855e1b6813"
+    },
+    {
+      "path": "results/night_2026_09_18/source_check.md",
+      "bytes": 4412,
+      "sha256": "0457c944bfc332c9f2c8c45c097581a9e83ffcaf449846bb0ff4b13997393473"
+    },
+    {
+      "path": "results/night_2026_09_18/surgery_response.jsonl",
+      "bytes": 3101,
+      "sha256": "890fe0e06d9d54fad9911b198bb0e09aa0a5e97590f71d762702177c6d6bdf3f"
+    },
+    {
+      "path": "results/night_2026_09_18/surgery_response.py",
+      "bytes": 2262,
+      "sha256": "c3d837916b3d8b24f1586a3c5f0b076b58f01965221d41b41fc3da7cc50f649f"
+    },
+    {
+      "path": "results/night_2026_09_18/winding_collar.json",
+      "bytes": 1069,
+      "sha256": "8c7142e1779bbccdf6a965c44afa3ec5f617f8528e04e8f6100ac28385d6542a"
+    },
+    {
+      "path": "results/night_2026_09_18/winding_collar.py",
+      "bytes": 1747,
+      "sha256": "5a33c11dd53994adf1089f1d1acb74202d57170109162f5d2259589044ec1aac"
+    },
+    {
+      "path": "results/night_2026_09_18/winding_trace.json",
+      "bytes": 1127,
+      "sha256": "18233e4dd8995ed109819b89cb2122eb522e39724b02ce7c749468f5c6714acb"
+    },
+    {
+      "path": "results/night_2026_09_18/winding_trace.py",
+      "bytes": 2151,
+      "sha256": "e590cee5e7c3fa8ea20adb88fe35d2cb34b8d75a92936e471a30744ef178b8e8"
+    },
+    {
+      "path": "research/35_mixed_axes_response_and_winding_gate.md",
+      "bytes": 12175,
+      "sha256": "843616083b1a804c9900ec2422757d8f9a2855a37987ef34607840bd0560b4f8"
+    },
+    {
+      "path": "research/36_audit_of_framing_and_miyazaki_closures.md",
+      "bytes": 7573,
+      "sha256": "20597653db697e00f89c3353bd9415664633652cfb2eb6a5c232fc69762fbac9"
+    },
+    {
+      "path": "research/34_searchlight_and_the_general_stabilization.md",
+      "bytes": 22825,
+      "sha256": "f817bc9a177001cd3ef772aa31aa56f2f4f1517a84ae7fa9ff3154c25042aec7"
+    },
+    {
+      "path": "PLAN_CE_2026_09_18.md",
+      "bytes": 10108,
+      "sha256": "40cc5f68503d86e0affd77e81fcb89df11085ad6561c42cabad44537dd13627b"
+    },
+    {
+      "path": "results/opus_2026_09_18_2200_delta_r_nogo/check_delta_r_nogo.py",
+      "bytes": 4838,
+      "sha256": "75bc6ca499728dfe8a41679e4f170a5114f7a32ab8a32a0a3ef8128dcb897d85"
+    },
+    {
+      "path": "results/opus_2026_09_18_2300_framing_dichotomy/check_framing_dichotomy.py",
+      "bytes": 4312,
+      "sha256": "4c41ead73f7c81aa0f9777e1ceff0089e74da678bcf777d4f6b0d5c964ef402c"
+    },
+    {
+      "path": "results/night_2026_09_18/check_word_correction.py",
+      "bytes": 1531,
+      "sha256": "92e7199c69c85e6422f542a8af537ea16608aebc246e89e296d4efe8069bed96"
+    },
+    {
+      "path": "results/night_2026_09_18/word_correction_check.json",
+      "bytes": 158,
+      "sha256": "b741cefa8c11c79564a468ee14ec13e7bb075fb32dff8ff111a9f7da0f0fc9d6"
+    },
+    {
+      "path": "results/night_2026_09_18/collar_module.json",
+      "bytes": 2174,
+      "sha256": "71d97274177445a0ee831869b6bfe6aa5872bf01b7641ba987be3130f6621c75"
+    },
+    {
+      "path": "results/night_2026_09_18/word_correction.py",
+      "bytes": 3085,
+      "sha256": "e3e44d1c8e841cc1594cf0923ef359c3713f2e862d59697568ef245ff75e99a7"
+    },
+    {
+      "path": "results/night_2026_09_18/isotropic_review.md",
+      "bytes": 4795,
+      "sha256": "433db131d34fd8859562efdfa87ac0b7f0b666a893a0594a302e28b61bfa1562"
+    },
+    {
+      "path": "results/night_2026_09_18/word_correction.json",
+      "bytes": 3644,
+      "sha256": "d0aa7f52c62e7fda2b185cab06e77b2d6000c393674ed85c4a242e0894af68ba"
+    },
+    {
+      "path": "results/night_2026_09_18/collar_module.py",
+      "bytes": 4090,
+      "sha256": "65cf1bcf7378d741bea0e512335eedff7a94544b4b8b349aa2c4b6ec2ea3f36c"
+    },
+    {
+      "path": "research/37_two_isotropic_lines_and_the_collar_map.md",
+      "bytes": 10279,
+      "sha256": "bc671d192aab1c991b8055b33c4a395610315c788c098c381439cc3b0a1e5ff5"
+    },
+    {
+      "path": "research/03_candidate_families.md",
+      "bytes": 54125,
+      "sha256": "a8876d41d52218af61ef91612262736f011f3503d8242e3356fe269d4147cb7f"
+    }
+  ],
+  "checks": {
+    "symbolic_surgery_all_maximal_minors": "PASS",
+    "longitude_response_relation_check": "PASS",
+    "boundary_module_relator_and_coordinate_checks": "PASS",
+    "independent_Bezout_identity_and_two_mutations": "PASS",
+    "final_winding_producer_matches_saved_certificate": "PASS",
+    "old_new_boundary_module_outputs_identical": "PASS",
+    "inherited_all_integer_collar_checker": "PASS",
+    "preparation_package_16_regressions": "NOT RUN: missing package",
+    "0110_direct_Fox_order_matches_target": "PASS; reproduces prior result",
+    "0110_longitude_response_zero": "PASS",
+    "corrected_framing_arithmetic": "11/11",
+    "corrected_Miyazaki_algebra": "84/84",
+    "all_integer_quartic_irreducibility": "Written proof independently reviewed; not a finite-search claim",
+    "saved_collar_module_map": "PASS: source and mapped boundary relators, native and repaired coordinates",
+    "native_pairing_form": "PASS: exact Hermitian and congruence identities",
+    "module_preserving_word_correction": "PASS: zero boundary F-class and exact free-word conjugacy",
+    "independent_word_replay": "PASS, including two mutation rejections",
+    "fixed_based_lower_connector_realization": "REJECTED by nonzero exact trace difference; not a universal geometric exclusion"
+  },
+  "limitations": [
+    "Shared archived PD/Fox extractor across both surgery computations",
+    "No geometric identification of any q_n collar",
+    "No newly embedded annulus or standard B4 disk",
+    "No independent figure-to-PD verification",
+    "Census recovery reviewed, not rerun",
+    "Corrected word has no marked surgery diagram, controlled Laurent response, or embedded annulus"
+  ],
+  "integration_base_commit": "5ef25e25e3c7a52c3428b5a14d0c457ce8f12063",
+  "novelty_correction": "The opposite-twist all-r formula was already in local_band_no_go at 375a839. New work is two-variable response, boundary module/winding-word checks, and closure audits.",
+  "integration_note": "Preserves upstream 5ef25e2 census-script repairs; those repairs were not independently audited in this pass.",
+  "continuation_base_commit": "3b51c50c2c8e2630ebf1d6c9f5a6ebbf555da411",
+  "continuation_recorded_at_utc": "2026-09-18T20:51:52.032753+00:00"
+}

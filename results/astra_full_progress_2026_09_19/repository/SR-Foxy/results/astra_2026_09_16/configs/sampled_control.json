@@ -1,0 +1,1 @@
+{"parameters": {"seed": 20260918, "seconds": 30, "rss_limit_mib": 1536, "twists": 8, "length": 12, "paths": "mixed_sample", "attempts": 100000, "ribbon_cache": false, "recognize_terminal": true}, "jobs": [{"label": "sampled_control_6_1", "prefix": [[[6, 11, 7, 0], [0, 5, 1, 6], [10, 2, 11, 1], [2, 10, 3, 9], [8, 4, 9, 3], [4, 8, 5, 7]]]}]}

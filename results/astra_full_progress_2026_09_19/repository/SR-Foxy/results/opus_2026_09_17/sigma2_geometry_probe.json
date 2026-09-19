@@ -1,0 +1,86 @@
+{
+ "controls": [
+  {
+   "H1": "Z_3",
+   "Haken": false,
+   "hyperbolic_numerically": false,
+   "hyperbolic_solution": null,
+   "irreducible": true,
+   "label": "control 3_1",
+   "regina_isoSig": "cMcabbgaj",
+   "regina_standard_recognition": "L(3,1)",
+   "regina_tetrahedra": 2,
+   "seconds": 0.1
+  },
+  {
+   "H1": "Z_5",
+   "Haken": false,
+   "hyperbolic_numerically": false,
+   "hyperbolic_solution": null,
+   "irreducible": true,
+   "label": "control 4_1",
+   "regina_isoSig": "bkaajn",
+   "regina_standard_recognition": "L(5,2)",
+   "regina_tetrahedra": 1,
+   "seconds": 0.2
+  },
+  {
+   "H1": "Z_13",
+   "Haken": false,
+   "hyperbolic_numerically": false,
+   "hyperbolic_solution": null,
+   "irreducible": true,
+   "label": "control 6_3",
+   "regina_isoSig": "dLQbcbchxwn",
+   "regina_standard_recognition": "L(13,5)",
+   "regina_tetrahedra": 3,
+   "seconds": 0.2
+  }
+ ],
+ "regina": "7.4",
+ "snappy": "3.3.2",
+ "targets": [
+  {
+   "H1": "Z_13",
+   "Haken": false,
+   "hyperbolic_numerically": false,
+   "hyperbolic_solution": null,
+   "irreducible": true,
+   "label": "K_0 (= 6_3)",
+   "regina_isoSig": "dLQbcbchxwn",
+   "regina_standard_recognition": "L(13,5)",
+   "regina_tetrahedra": 3,
+   "seconds": 0.2
+  },
+  {
+   "H1": "Z_13",
+   "Haken": false,
+   "hyperbolic_numerically": true,
+   "hyperbolic_solution": {
+    "attempt": 0,
+    "census_identify": [],
+    "tetrahedra": 13,
+    "volume": 7.281326351748624
+   },
+   "irreducible": true,
+   "label": "K_1",
+   "regina_isoSig": "tvLvLLAzPzQQQkehkhglpmksnqrosprsqrgligsglwklpalagbokog",
+   "regina_standard_recognition": null,
+   "regina_tetrahedra": 19,
+   "seconds": 25.3
+  }
+ ],
+ "targets_not_attempted": [
+  {
+   "label": "K_2",
+   "reason": "not requested; K_2 timed out at 50 min on 2026-09-17 and is a resource failure, not a result"
+  }
+ ],
+ "targets_requested": [
+  "K_0",
+  "K_1"
+ ],
+ "tries_regina": 40,
+ "tries_snappy": 400,
+ "verdict": "Sigma_2(K_0) = L(13,5) is recognized exactly, as in research/21. Sigma_2(K_1) admits a positively oriented hyperbolic solution on an explicit triangulation. Numerical, not verified: interval arithmetic needs Sage. If hyperbolic they are not Seifert fibered, which removes the Ozsvath-Szabo plumbing algorithm as a route to their d-invariants and hence to the research/21 section 3 gate."
+}

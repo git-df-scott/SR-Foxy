@@ -1,0 +1,561 @@
+{
+ "name": "MP_KG(-2,0,0,-1,2,-1)",
+ "pd_code": [
+  [
+   59,
+   1,
+   60,
+   0
+  ],
+  [
+   1,
+   59,
+   2,
+   58
+  ],
+  [
+   2,
+   53,
+   3,
+   54
+  ],
+  [
+   3,
+   15,
+   4,
+   14
+  ],
+  [
+   15,
+   5,
+   16,
+   4
+  ],
+  [
+   52,
+   5,
+   53,
+   6
+  ],
+  [
+   27,
+   7,
+   28,
+   6
+  ],
+  [
+   7,
+   69,
+   8,
+   68
+  ],
+  [
+   8,
+   39,
+   9,
+   40
+  ],
+  [
+   9,
+   25,
+   10,
+   24
+  ],
+  [
+   65,
+   11,
+   66,
+   10
+  ],
+  [
+   42,
+   11,
+   43,
+   12
+  ],
+  [
+   12,
+   45,
+   13,
+   46
+  ],
+  [
+   30,
+   13,
+   31,
+   14
+  ],
+  [
+   16,
+   29,
+   17,
+   30
+  ],
+  [
+   50,
+   17,
+   51,
+   18
+  ],
+  [
+   18,
+   49,
+   19,
+   50
+  ],
+  [
+   48,
+   19,
+   49,
+   20
+  ],
+  [
+   20,
+   47,
+   21,
+   48
+  ],
+  [
+   21,
+   47,
+   22,
+   46
+  ],
+  [
+   41,
+   23,
+   42,
+   22
+  ],
+  [
+   66,
+   23,
+   67,
+   24
+  ],
+  [
+   25,
+   39,
+   26,
+   38
+  ],
+  [
+   26,
+   69,
+   27,
+   70
+  ],
+  [
+   51,
+   29,
+   52,
+   28
+  ],
+  [
+   31,
+   55,
+   32,
+   54
+  ],
+  [
+   32,
+   57,
+   33,
+   58
+  ],
+  [
+   60,
+   33,
+   61,
+   34
+  ],
+  [
+   73,
+   35,
+   0,
+   34
+  ],
+  [
+   35,
+   73,
+   36,
+   72
+  ],
+  [
+   71,
+   37,
+   72,
+   36
+  ],
+  [
+   37,
+   71,
+   38,
+   70
+  ],
+  [
+   67,
+   41,
+   68,
+   40
+  ],
+  [
+   43,
+   65,
+   44,
+   64
+  ],
+  [
+   63,
+   45,
+   64,
+   44
+  ],
+  [
+   55,
+   63,
+   56,
+   62
+  ],
+  [
+   61,
+   57,
+   62,
+   56
+  ]
+ ],
+ "pd_code_convention": "SnapPy/spherogram 0-indexed PD code (Link.PD_code(KnotTheory=False))",
+ "source": "DT-code formula from the Mathematica notebook DTcodes.nb accompanying Manolescu-Piccirillo, 'From zero surgeries to candidates for exotic definite four-manifolds' (arXiv:2102.04391), http://web.stanford.edu/~cm5/RBG/DTcodes.nb . The notebook's g/gg + KG/KB definitions were auto-transpiled to Python (mma.py/mp_auto.py). Paper parameters (a,b,c,d,e,f) correspond to the notebook call KX(a,-b,-c,-d,-e,-f); this convention was fixed by reproducing the volume and total HFK rank of all 22 knots listed in http://web.stanford.edu/~cm5/RBG/PromisingKnots.txt (exact agreement in all 44 numbers). DT -> PD via spherogram.DTcodec.",
+ "verification": {
+  "is_a_knot_(1_component)": true,
+  "DT_code_is_valid_permutation_of_even_numbers": true,
+  "DT_code": [
+   60,
+   -54,
+   16,
+   28,
+   -40,
+   66,
+   -46,
+   4,
+   -30,
+   -50,
+   -48,
+   42,
+   10,
+   -70,
+   52,
+   -14,
+   -58,
+   74,
+   72,
+   26,
+   68,
+   -12,
+   64,
+   22,
+   -20,
+   -18,
+   -6,
+   32,
+   62,
+   2,
+   -34,
+   56,
+   44,
+   -24,
+   8,
+   38,
+   36
+  ],
+  "pipeline_validation": "same code path reproduces volume+HFK total rank of all 22 knots in PromisingKnots.txt exactly",
+  "pair_0_surgery": {
+   "homology": [
+    "Z",
+    "Z"
+   ],
+   "is_isometric_to": true,
+   "exteriors_isometric (KB vs KG)": false
+  },
+  "r_equals_a_plus_b": -2,
+  "trace_claim": "a+b=r=-2 != 0; 0-surgeries are homeomorphic by the RBG construction"
+ },
+ "invariants": {
+  "crossings_in_generated_diagram": 37,
+  "crossings_after_global_simplify": 30,
+  "alexander_polynomial": "+4*t^-2 -20*t^-1 +33*t^0 -20*t^1 +4*t^2",
+  "alexander_coeffs_by_degree": {
+   "-2": 4,
+   "-1": -20,
+   "0": 33,
+   "1": -20,
+   "2": 4
+  },
+  "HFK": {
+   "seifert_genus": 2,
+   "fibered": false,
+   "tau": 0,
+   "nu": 0,
+   "epsilon": 0,
+   "L_space_knot": false,
+   "total_rank": 113,
+   "ranks_(alex,maslov)": {
+    "(-2, -4)": 1,
+    "(-2, -3)": 1,
+    "(-2, -2)": 4,
+    "(-1, -3)": 4,
+    "(-1, -2)": 4,
+    "(-1, -1)": 20,
+    "(0, -2)": 6,
+    "(0, -1)": 6,
+    "(0, 0)": 33,
+    "(1, -1)": 4,
+    "(1, 0)": 4,
+    "(1, 1)": 20,
+    "(2, 0)": 1,
+    "(2, 1)": 1,
+    "(2, 2)": 4
+   }
+  },
+  "exterior": {
+   "solution_type": "all tetrahedra positively oriented",
+   "volume": 19.383722816081672,
+   "hyperbolic": true
+  },
+  "exterior_homology": "Z",
+  "snappy_identify": []
+ },
+ "paper_parameters": {
+  "a": -2,
+  "b": 0,
+  "c": 0,
+  "d": -1,
+  "e": 2,
+  "f": -1
+ },
+ "notebook_call": "KG(-2,0,0,1,-2,1)",
+ "pd_code_snappy_0indexed": [
+  [
+   59,
+   1,
+   60,
+   0
+  ],
+  [
+   1,
+   59,
+   2,
+   58
+  ],
+  [
+   2,
+   53,
+   3,
+   54
+  ],
+  [
+   3,
+   15,
+   4,
+   14
+  ],
+  [
+   15,
+   5,
+   16,
+   4
+  ],
+  [
+   52,
+   5,
+   53,
+   6
+  ],
+  [
+   27,
+   7,
+   28,
+   6
+  ],
+  [
+   7,
+   69,
+   8,
+   68
+  ],
+  [
+   8,
+   39,
+   9,
+   40
+  ],
+  [
+   9,
+   25,
+   10,
+   24
+  ],
+  [
+   65,
+   11,
+   66,
+   10
+  ],
+  [
+   42,
+   11,
+   43,
+   12
+  ],
+  [
+   12,
+   45,
+   13,
+   46
+  ],
+  [
+   30,
+   13,
+   31,
+   14
+  ],
+  [
+   16,
+   29,
+   17,
+   30
+  ],
+  [
+   50,
+   17,
+   51,
+   18
+  ],
+  [
+   18,
+   49,
+   19,
+   50
+  ],
+  [
+   48,
+   19,
+   49,
+   20
+  ],
+  [
+   20,
+   47,
+   21,
+   48
+  ],
+  [
+   21,
+   47,
+   22,
+   46
+  ],
+  [
+   41,
+   23,
+   42,
+   22
+  ],
+  [
+   66,
+   23,
+   67,
+   24
+  ],
+  [
+   25,
+   39,
+   26,
+   38
+  ],
+  [
+   26,
+   69,
+   27,
+   70
+  ],
+  [
+   51,
+   29,
+   52,
+   28
+  ],
+  [
+   31,
+   55,
+   32,
+   54
+  ],
+  [
+   32,
+   57,
+   33,
+   58
+  ],
+  [
+   60,
+   33,
+   61,
+   34
+  ],
+  [
+   73,
+   35,
+   0,
+   34
+  ],
+  [
+   35,
+   73,
+   36,
+   72
+  ],
+  [
+   71,
+   37,
+   72,
+   36
+  ],
+  [
+   37,
+   71,
+   38,
+   70
+  ],
+  [
+   67,
+   41,
+   68,
+   40
+  ],
+  [
+   43,
+   65,
+   44,
+   64
+  ],
+  [
+   63,
+   45,
+   64,
+   44
+  ],
+  [
+   55,
+   63,
+   56,
+   62
+  ],
+  [
+   61,
+   57,
+   62,
+   56
+  ]
+ ]
+}

@@ -1,0 +1,23 @@
+/Users/scottg/Documents/Codex/2026-09-12/hey/work/knot-venv/lib/python3.14/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+    Looking at (2, 3) ...
+        dim H_1(cover; F_q) = 2 with rep. structure [(1, 2)]
+        rep V_0 of dim 1, multiplicity 2, generator matrix [(2)]
+             (1, 0)  True
+             (1, 1)  True
+             (1, 2)  True
+             (0, 1)  True
+            strongly obstructed
+            Have delta(V_0) = 2 and sum of delta(V_i)'s is now 2
+
+    Looking at (2, 3) ...
+        Homology: [ 3, 3 ]
+        Candidate metabolizers: 4
+        Considing cyclic quotients up to size 3^1
+            Looking at Z/3^1 with 4 remaining
+                Now with 3 remaining
+                Now with 2 remaining
+                Now with 1 remaining
+                Now with 0 remaining
+
+{"construction": "T23_21 # -T23_23 # T25_23 # -T25_21", "advanced": [2, 3], "direct": [2, 3], "control_K12n813": [2, 3], "p": 2, "q": 3, "ribbon_mode": false, "seconds": 29.946, "snappy": "3.3.2", "conclusion": "This explicit member is obstructed from topological sliceness. No conclusion about the whole Hom-Park family; no claim of literature priority."}

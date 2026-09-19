@@ -1,0 +1,15 @@
+{
+  "case_indices": [
+    0,
+    1
+  ],
+  "directed_face_checks": [
+    24,
+    48
+  ],
+  "simplex_maps": "PASS",
+  "orientation_preserving": true,
+  "input_and_stage_hashes": "PASS",
+  "mutations_rejected": 4,
+  "scope": "Final face-gluing isomorphisms only; preceding moves and cusp matrices remain kernel-trusted"
+}

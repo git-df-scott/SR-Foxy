@@ -1,0 +1,1237 @@
+{
+  "all_checks_pass": true,
+  "checks": [
+    {
+      "name": "unknot independent state histogram",
+      "pass": true
+    },
+    {
+      "name": "positive_RI independent state histogram",
+      "pass": true
+    },
+    {
+      "name": "negative_RI independent state histogram",
+      "pass": true
+    },
+    {
+      "name": "negative_trefoil independent state histogram",
+      "pass": true
+    },
+    {
+      "name": "figure_eight independent state histogram",
+      "pass": true
+    },
+    {
+      "name": "unknot normalized polynomial is 1",
+      "pass": true
+    },
+    {
+      "name": "positive_RI normalized polynomial is 1",
+      "pass": true
+    },
+    {
+      "name": "negative_RI normalized polynomial is 1",
+      "pass": true
+    },
+    {
+      "name": "positive RI bracket and writhe",
+      "pass": true
+    },
+    {
+      "name": "negative RI bracket and writhe",
+      "pass": true
+    },
+    {
+      "name": "negative trefoil conventional Jones",
+      "pass": true
+    },
+    {
+      "name": "figure eight conventional Jones",
+      "pass": true
+    },
+    {
+      "name": "unknot explicit mirrored PD",
+      "pass": true
+    },
+    {
+      "name": "positive_RI explicit mirrored PD",
+      "pass": true
+    },
+    {
+      "name": "negative_RI explicit mirrored PD",
+      "pass": true
+    },
+    {
+      "name": "negative_trefoil explicit mirrored PD",
+      "pass": true
+    },
+    {
+      "name": "figure_eight explicit mirrored PD",
+      "pass": true
+    },
+    {
+      "name": "K0 V(1)=1",
+      "pass": true
+    },
+    {
+      "name": "K0 derivative V prime(1)=0",
+      "pass": true
+    },
+    {
+      "name": "K0 |V(-1)|=13 determinant control",
+      "pass": true
+    },
+    {
+      "name": "K1 V(1)=1",
+      "pass": true
+    },
+    {
+      "name": "K1 derivative V prime(1)=0",
+      "pass": true
+    },
+    {
+      "name": "K1 |V(-1)|=13 determinant control",
+      "pass": true
+    },
+    {
+      "name": "K0 independent Python histogram",
+      "pass": true
+    },
+    {
+      "name": "K0 distinct from K1",
+      "pass": true
+    },
+    {
+      "name": "K0 distinct from mirror K1",
+      "pass": true
+    },
+    {
+      "name": "K1 distinct from its mirror",
+      "pass": true
+    },
+    {
+      "name": "modular witness K0 vs K1",
+      "pass": true
+    },
+    {
+      "name": "modular witness K0 vs mirror K1",
+      "pass": true
+    }
+  ],
+  "inputs": {
+    "K0": {
+      "relative_source": "data/knots/AbeTagami_K_0_K_-1__6_3.json",
+      "sha256": "1c9916334ea4bc7616be3eb4b225140d8f44a6aa701e4fc083413242fca665c4",
+      "pd_code": [
+        [
+          8,
+          11,
+          9,
+          0
+        ],
+        [
+          0,
+          4,
+          1,
+          3
+        ],
+        [
+          6,
+          2,
+          7,
+          1
+        ],
+        [
+          2,
+          8,
+          3,
+          7
+        ],
+        [
+          4,
+          9,
+          5,
+          10
+        ],
+        [
+          10,
+          5,
+          11,
+          6
+        ]
+      ]
+    },
+    "K1": {
+      "relative_source": "data/knots/AbeTagami_K_1.json",
+      "sha256": "431379bc23a2dd019bdfb629adbac8130f3d7c301007cf268934e086d590ca5d",
+      "pd_code": [
+        [
+          5,
+          11,
+          6,
+          10
+        ],
+        [
+          13,
+          34,
+          14,
+          35
+        ],
+        [
+          35,
+          14,
+          36,
+          15
+        ],
+        [
+          33,
+          21,
+          34,
+          20
+        ],
+        [
+          37,
+          22,
+          0,
+          23
+        ],
+        [
+          8,
+          21,
+          9,
+          22
+        ],
+        [
+          4,
+          27,
+          5,
+          28
+        ],
+        [
+          2,
+          31,
+          3,
+          32
+        ],
+        [
+          32,
+          1,
+          33,
+          2
+        ],
+        [
+          9,
+          1,
+          10,
+          0
+        ],
+        [
+          23,
+          6,
+          24,
+          7
+        ],
+        [
+          36,
+          8,
+          37,
+          7
+        ],
+        [
+          25,
+          17,
+          26,
+          16
+        ],
+        [
+          19,
+          31,
+          20,
+          30
+        ],
+        [
+          15,
+          12,
+          16,
+          13
+        ],
+        [
+          17,
+          27,
+          18,
+          26
+        ],
+        [
+          24,
+          11,
+          25,
+          12
+        ],
+        [
+          29,
+          19,
+          30,
+          18
+        ],
+        [
+          28,
+          3,
+          29,
+          4
+        ]
+      ]
+    }
+  },
+  "controls": {
+    "unknot": {
+      "pd": [],
+      "crossings": 0,
+      "states": 1,
+      "components": 1,
+      "writhe": 0,
+      "bracket_A": {
+        "0": 1
+      },
+      "normalized_A": {
+        "0": 1
+      },
+      "Jones_t": {
+        "0": 1
+      },
+      "at_A2_mod_1000000007": 1,
+      "mirror_at_A2_mod_1000000007": 1,
+      "state_histogram": [
+        [
+          0,
+          1,
+          1
+        ]
+      ]
+    },
+    "positive_RI": {
+      "pd": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "crossings": 1,
+      "states": 2,
+      "components": 1,
+      "writhe": 1,
+      "bracket_A": {
+        "3": -1
+      },
+      "normalized_A": {
+        "0": 1
+      },
+      "Jones_t": {
+        "0": 1
+      },
+      "at_A2_mod_1000000007": 1,
+      "mirror_at_A2_mod_1000000007": 1,
+      "state_histogram": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    "negative_RI": {
+      "pd": [
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      "crossings": 1,
+      "states": 2,
+      "components": 1,
+      "writhe": -1,
+      "bracket_A": {
+        "-3": -1
+      },
+      "normalized_A": {
+        "0": 1
+      },
+      "Jones_t": {
+        "0": 1
+      },
+      "at_A2_mod_1000000007": 1,
+      "mirror_at_A2_mod_1000000007": 1,
+      "state_histogram": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          1
+        ]
+      ]
+    },
+    "negative_trefoil": {
+      "pd": [
+        [
+          0,
+          3,
+          1,
+          4
+        ],
+        [
+          2,
+          5,
+          3,
+          0
+        ],
+        [
+          4,
+          1,
+          5,
+          2
+        ]
+      ],
+      "crossings": 3,
+      "states": 8,
+      "components": 1,
+      "writhe": -3,
+      "bracket_A": {
+        "-5": -1,
+        "3": -1,
+        "7": 1
+      },
+      "normalized_A": {
+        "4": 1,
+        "12": 1,
+        "16": -1
+      },
+      "Jones_t": {
+        "-4": -1,
+        "-3": 1,
+        "-1": 1
+      },
+      "at_A2_mod_1000000007": 999938583,
+      "mirror_at_A2_mod_1000000007": 844833380,
+      "state_histogram": [
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          1
+        ]
+      ]
+    },
+    "figure_eight": {
+      "pd": [
+        [
+          7,
+          2,
+          0,
+          3
+        ],
+        [
+          1,
+          5,
+          2,
+          4
+        ],
+        [
+          5,
+          1,
+          6,
+          0
+        ],
+        [
+          3,
+          6,
+          4,
+          7
+        ]
+      ],
+      "crossings": 4,
+      "states": 16,
+      "components": 1,
+      "writhe": 0,
+      "bracket_A": {
+        "-8": 1,
+        "-4": -1,
+        "0": 1,
+        "4": -1,
+        "8": 1
+      },
+      "normalized_A": {
+        "-8": 1,
+        "-4": -1,
+        "0": 1,
+        "4": -1,
+        "8": 1
+      },
+      "Jones_t": {
+        "-2": 1,
+        "-1": -1,
+        "0": 1,
+        "1": -1,
+        "2": 1
+      },
+      "at_A2_mod_1000000007": 722656496,
+      "mirror_at_A2_mod_1000000007": 722656496,
+      "state_histogram": [
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          2,
+          1,
+          5
+        ],
+        [
+          2,
+          3,
+          1
+        ],
+        [
+          3,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          1
+        ]
+      ]
+    }
+  },
+  "results": {
+    "K0": {
+      "pd": [
+        [
+          8,
+          11,
+          9,
+          0
+        ],
+        [
+          0,
+          4,
+          1,
+          3
+        ],
+        [
+          6,
+          2,
+          7,
+          1
+        ],
+        [
+          2,
+          8,
+          3,
+          7
+        ],
+        [
+          4,
+          9,
+          5,
+          10
+        ],
+        [
+          10,
+          5,
+          11,
+          6
+        ]
+      ],
+      "crossings": 6,
+      "states": 64,
+      "components": 1,
+      "writhe": 0,
+      "bracket_A": {
+        "-12": -1,
+        "-8": 2,
+        "-4": -2,
+        "0": 3,
+        "4": -2,
+        "8": 2,
+        "12": -1
+      },
+      "normalized_A": {
+        "-12": -1,
+        "-8": 2,
+        "-4": -2,
+        "0": 3,
+        "4": -2,
+        "8": 2,
+        "12": -1
+      },
+      "Jones_t": {
+        "-3": -1,
+        "-2": 2,
+        "-1": -2,
+        "0": 3,
+        "1": -2,
+        "2": 2,
+        "3": -1
+      },
+      "at_A2_mod_1000000007": 677486626,
+      "mirror_at_A2_mod_1000000007": 677486626,
+      "state_histogram": [
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          1,
+          3,
+          6
+        ],
+        [
+          2,
+          2,
+          14
+        ],
+        [
+          2,
+          4,
+          1
+        ],
+        [
+          3,
+          1,
+          13
+        ],
+        [
+          3,
+          3,
+          7
+        ],
+        [
+          4,
+          2,
+          14
+        ],
+        [
+          4,
+          4,
+          1
+        ],
+        [
+          5,
+          3,
+          6
+        ],
+        [
+          6,
+          4,
+          1
+        ]
+      ]
+    },
+    "K1": {
+      "pd": [
+        [
+          5,
+          11,
+          6,
+          10
+        ],
+        [
+          13,
+          34,
+          14,
+          35
+        ],
+        [
+          35,
+          14,
+          36,
+          15
+        ],
+        [
+          33,
+          21,
+          34,
+          20
+        ],
+        [
+          37,
+          22,
+          0,
+          23
+        ],
+        [
+          8,
+          21,
+          9,
+          22
+        ],
+        [
+          4,
+          27,
+          5,
+          28
+        ],
+        [
+          2,
+          31,
+          3,
+          32
+        ],
+        [
+          32,
+          1,
+          33,
+          2
+        ],
+        [
+          9,
+          1,
+          10,
+          0
+        ],
+        [
+          23,
+          6,
+          24,
+          7
+        ],
+        [
+          36,
+          8,
+          37,
+          7
+        ],
+        [
+          25,
+          17,
+          26,
+          16
+        ],
+        [
+          19,
+          31,
+          20,
+          30
+        ],
+        [
+          15,
+          12,
+          16,
+          13
+        ],
+        [
+          17,
+          27,
+          18,
+          26
+        ],
+        [
+          24,
+          11,
+          25,
+          12
+        ],
+        [
+          29,
+          19,
+          30,
+          18
+        ],
+        [
+          28,
+          3,
+          29,
+          4
+        ]
+      ],
+      "crossings": 19,
+      "states": 524288,
+      "components": 1,
+      "writhe": -3,
+      "bracket_A": {
+        "-29": -1,
+        "-25": 1,
+        "-17": -1,
+        "-13": 2,
+        "-9": -2,
+        "-5": 2,
+        "-1": -2,
+        "3": 1,
+        "7": -1,
+        "15": -1,
+        "19": 1,
+        "23": -1,
+        "27": 1
+      },
+      "normalized_A": {
+        "-20": 1,
+        "-16": -1,
+        "-8": 1,
+        "-4": -2,
+        "0": 2,
+        "4": -2,
+        "8": 2,
+        "12": -1,
+        "16": 1,
+        "24": 1,
+        "28": -1,
+        "32": 1,
+        "36": -1
+      },
+      "Jones_t": {
+        "-9": -1,
+        "-8": 1,
+        "-7": -1,
+        "-6": 1,
+        "-4": 1,
+        "-3": -1,
+        "-2": 2,
+        "-1": -2,
+        "0": 2,
+        "1": -2,
+        "2": 1,
+        "4": -1,
+        "5": 1
+      },
+      "at_A2_mod_1000000007": 466405112,
+      "mirror_at_A2_mod_1000000007": 946929546,
+      "state_histogram": [
+        [
+          0,
+          5,
+          1
+        ],
+        [
+          1,
+          4,
+          19
+        ],
+        [
+          2,
+          3,
+          129
+        ],
+        [
+          2,
+          5,
+          42
+        ],
+        [
+          3,
+          2,
+          367
+        ],
+        [
+          3,
+          4,
+          543
+        ],
+        [
+          3,
+          6,
+          59
+        ],
+        [
+          4,
+          1,
+          364
+        ],
+        [
+          4,
+          3,
+          2355
+        ],
+        [
+          4,
+          5,
+          1106
+        ],
+        [
+          4,
+          7,
+          51
+        ],
+        [
+          5,
+          2,
+          3872
+        ],
+        [
+          5,
+          4,
+          6420
+        ],
+        [
+          5,
+          6,
+          1309
+        ],
+        [
+          5,
+          8,
+          27
+        ],
+        [
+          6,
+          1,
+          1874
+        ],
+        [
+          6,
+          3,
+          14578
+        ],
+        [
+          6,
+          5,
+          9720
+        ],
+        [
+          6,
+          7,
+          952
+        ],
+        [
+          6,
+          9,
+          8
+        ],
+        [
+          7,
+          2,
+          12681
+        ],
+        [
+          7,
+          4,
+          28302
+        ],
+        [
+          7,
+          6,
+          8981
+        ],
+        [
+          7,
+          8,
+          423
+        ],
+        [
+          7,
+          10,
+          1
+        ],
+        [
+          8,
+          1,
+          3219
+        ],
+        [
+          8,
+          3,
+          34466
+        ],
+        [
+          8,
+          5,
+          32563
+        ],
+        [
+          8,
+          7,
+          5225
+        ],
+        [
+          8,
+          9,
+          109
+        ],
+        [
+          9,
+          2,
+          16087
+        ],
+        [
+          9,
+          4,
+          50760
+        ],
+        [
+          9,
+          6,
+          23601
+        ],
+        [
+          9,
+          8,
+          1915
+        ],
+        [
+          9,
+          10,
+          15
+        ],
+        [
+          10,
+          1,
+          2120
+        ],
+        [
+          10,
+          3,
+          33303
+        ],
+        [
+          10,
+          5,
+          45445
+        ],
+        [
+          10,
+          7,
+          11072
+        ],
+        [
+          10,
+          9,
+          437
+        ],
+        [
+          10,
+          11,
+          1
+        ],
+        [
+          11,
+          2,
+          7950
+        ],
+        [
+          11,
+          4,
+          38026
+        ],
+        [
+          11,
+          6,
+          26147
+        ],
+        [
+          11,
+          8,
+          3399
+        ],
+        [
+          11,
+          10,
+          60
+        ],
+        [
+          12,
+          1,
+          424
+        ],
+        [
+          12,
+          3,
+          12567
+        ],
+        [
+          12,
+          5,
+          26775
+        ],
+        [
+          12,
+          7,
+          9944
+        ],
+        [
+          12,
+          9,
+          674
+        ],
+        [
+          12,
+          11,
+          4
+        ],
+        [
+          13,
+          2,
+          1156
+        ],
+        [
+          13,
+          4,
+          11127
+        ],
+        [
+          13,
+          6,
+          12267
+        ],
+        [
+          13,
+          8,
+          2503
+        ],
+        [
+          13,
+          10,
+          79
+        ],
+        [
+          14,
+          3,
+          1370
+        ],
+        [
+          14,
+          5,
+          6139
+        ],
+        [
+          14,
+          7,
+          3718
+        ],
+        [
+          14,
+          9,
+          397
+        ],
+        [
+          14,
+          11,
+          4
+        ],
+        [
+          15,
+          4,
+          923
+        ],
+        [
+          15,
+          6,
+          2194
+        ],
+        [
+          15,
+          8,
+          725
+        ],
+        [
+          15,
+          10,
+          34
+        ],
+        [
+          16,
+          5,
+          385
+        ],
+        [
+          16,
+          7,
+          501
+        ],
+        [
+          16,
+          9,
+          82
+        ],
+        [
+          16,
+          11,
+          1
+        ],
+        [
+          17,
+          6,
+          100
+        ],
+        [
+          17,
+          8,
+          67
+        ],
+        [
+          17,
+          10,
+          4
+        ],
+        [
+          18,
+          7,
+          15
+        ],
+        [
+          18,
+          9,
+          4
+        ],
+        [
+          19,
+          8,
+          1
+        ]
+      ]
+    }
+  },
+  "elapsed_seconds": 0.7576495830435306,
+  "compile_command": [
+    "cc",
+    "-std=c11",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "/Users/scottg/Documents/ChatGPT/SR Foxy/work/research-2026-09-16/results/night_2026_09_18_jones/state_histogram.c",
+    "-o",
+    "/Users/scottg/Documents/ChatGPT/SR Foxy/work/research-2026-09-16/results/night_2026_09_18_jones/state_histogram"
+  ],
+  "run_utc": "2026-09-18T22:38:56.779615+00:00",
+  "python_version": "3.14.6",
+  "compiler_version": "Apple clang version 21.0.0 (clang-2100.1.1.101)",
+  "source_sha256": {
+    "check_jones.py": "c0b199f65324fd6c3f7c11a0d06578fdae9ea228a34d4eabe97ef8dc71099cfe",
+    "state_histogram.c": "d0cc6028cfed92349719623ac663268a91bf44fd81c65e5f6cefa60fdf52bdd8"
+  },
+  "conventions": "A smoothing (0,1)(2,3); B smoothing (0,3)(1,2); delta=-A^2-A^-2; F=(-A^3)^(-w)<D>; t=A^-4",
+  "limits": "C rejects >20 crossings; 15 CPU seconds / 20 wall seconds per state sum; only stored K0/K1 plus <=6-crossing controls.",
+  "scope": "Exact Jones polynomials of stored PD diagrams. Does not identify those PDs with paper figures, establish sliceness, or establish concordance."
+}

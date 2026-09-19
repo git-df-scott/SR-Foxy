@@ -1,0 +1,86 @@
+{
+  "source_commit": "19cddf9f527f8d3487943b98bba2c7f355629426",
+  "date": "2026-09-18",
+  "repository_reads": [
+    {
+      "path": "research/46_paired_clasps_and_the_primary_annulus_obstruction.md",
+      "coverage": "FULL"
+    },
+    {
+      "path": "research/47_cyclic_annulus_gate_from_exact_boundary_linking.md",
+      "coverage": "FULL"
+    },
+    {
+      "path": "research/42_surface_realization_with_exact_linking.md",
+      "coverage": "FULL"
+    },
+    {
+      "path": "research/40_explicit_boundary_commutators_and_mapped_surface.md",
+      "coverage": "FULL"
+    },
+    {
+      "path": "research/38_geometry_free_audit_and_integral_word_repair.md",
+      "coverage": "FULL"
+    },
+    {
+      "path": "PLAN_CE_2026_09_18.md",
+      "coverage": "FULL; historical claims marked corrected by its own header, not accepted as blanket exclusions"
+    },
+    {
+      "path": "HANDOFF_2026_09_18_EXACT_IDENTIFICATION_AND_ANNULUS.md",
+      "coverage": "FULL"
+    },
+    {
+      "path": "OPUS_TASK_2026_09_18_CAPPED_CLASPER.md",
+      "coverage": "FULL"
+    },
+    {
+      "path": "results/astra_2026_09_17_collar_boundary_audit/CERTIFICATE.json",
+      "coverage": "PARTIAL overall; all source relators, boundary relations, generator words and propagation data used here inspected; final explanatory metadata truncated. Blob SHA separately verified."
+    },
+    {
+      "path": "results/night_2026_09_18/word_correction.json",
+      "coverage": "FULL after an initial selected-range read"
+    },
+    {
+      "path": "results/astra_2026_09_17_collar_boundary_audit/check_symbolic.py",
+      "coverage": "LINES 1\u2013170; relation convention checked"
+    }
+  ],
+  "metadata_reads": [
+    "Branch list at start: only main at source commit",
+    "Recent commit metadata",
+    "Root tree and research directory listings"
+  ],
+  "not_claimed": [
+    "Complete repository audit",
+    "Fresh reading of research/44 or /45 beyond handoff summaries",
+    "Independent knot Floer, Jones, annulus-embedding, or knot-identification computation",
+    "Review or recomputation of entire large knot/band-search datasets"
+  ],
+  "programmatic_inputs": [
+    "All selected eighteen boundary relators",
+    "All nine source relators",
+    "All eighteen q0 generator words",
+    "Full original 104-letter correction",
+    "Existing 26-letter correction",
+    "All generated finite proof steps and representation matrices"
+  ],
+  "environment": {
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5",
+    "node": "v22.16.0",
+    "mac_checkout_accessed": false,
+    "computation": "One lightweight computation at a time; no substantial parallel jobs"
+  },
+  "mutations": {
+    "repository_files": [],
+    "remote_actions": [],
+    "branches_created": []
+  },
+  "limitations": [
+    "Inputs are selected transcribed fields from cited pinned repository outputs, not byte-identical whole-file downloads.",
+    "Prepared local-checkout field comparison was not executed on the user Mac.",
+    "PDF visual screenshots failed; parsed text only was used."
+  ]
+}

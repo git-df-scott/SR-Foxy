@@ -1,0 +1,57 @@
+{
+  "status": "PASSED",
+  "counts": {
+    "forward_movies": 7,
+    "raw_reverse_bands": 1403,
+    "whole_link_Jones": 1331,
+    "zero_linking_normalizations": 1092,
+    "recognized_K0_and_unknot_components": 156,
+    "first_fission_replays": 61,
+    "Seifert_Jones_HFK_determinants": 43,
+    "component_Kh_logs": 8,
+    "ancestry_retained": 2,
+    "ancestry_excluded": 59
+  },
+  "limitations": [
+    "Replay and exact invariants do not certify a concordance.",
+    "Jones equality does not recognize knot types or split links.",
+    "Ancestry exclusions concern pure-fission continuations of the specified links."
+  ],
+  "positive_and_nonsplit_negative_controls": true,
+  "signed_linking_regression_reproduced": true,
+  "sha256": {
+    "results/component_guided_K0_to_K1.json": "4ad8e6ffd0603b5a83ba605cda65fdc31810b8e332f6607274e35c52c038bfa1",
+    "results/normalized_component_neighborhoods.json": "7dbb1ae35b6bf5a8e017890a9f5162f0619fa0f58e20fd5172ac8340c16a863a",
+    "results/guided_second_fission_25533.json": "4936b664cbaabf754e4b0f311ca604bc35dd076e475109f0795cbcd5606aa606",
+    "results/fission_ancestry_25533.json": "e3acea6ec7e2fe8608fd27054d94719010ee84327512e87be1e3c143b4fb310b",
+    "results/component_guided_K1_to_K0.json": "01636a52a917bf74d2ce4f9fc5f071f1040907595e838b1035efb37a014b4575",
+    "results/fission_twist_orientation_regression.json": "bb6f21ed6e0957239f7860c3ff6a60b3350cde6b6bb5c3dc743f51933e6cfcc3",
+    "results/fission_ancestry_Kh/C1.log": "5ce9ecade3416cef5de0f97ac03878d42b4dba39cf49cd9674ad4b0005ad92c1",
+    "results/fission_ancestry_Kh/C0.log": "e1029ae93c02cab5ce6cedfc4a3755954d2310d84a76a265c661dbb336aa77c0",
+    "results/fission_ancestry_Kh/C2.log": "7962540a2c51fa29cc4d379c5f665a6233fd6c32c945c50cdec769deebbf4def",
+    "results/fission_ancestry_Kh/C3.log": "fa9cdc1b7f4899a72b0578fec12dcc41ad8a403f9015c4d9ae874c8183f7c5e7",
+    "results/fission_ancestry_Kh/C7.log": "3de4571139cfd299d973147e90027b5f07c887b9c548aacc0468c338da674b53",
+    "results/fission_ancestry_Kh/C6.log": "7f37a498d2d378c796978678e35465826d98f7e8aeb2e6ad961a309ee909f635",
+    "results/fission_ancestry_Kh/C4.log": "ea79084a3a98f42cbdea5696370b16eaf154292dff7b9b96de7e577583c5b69a",
+    "results/fission_ancestry_Kh/C5.log": "559146aadba5c91cde905bc7aa12271c48005d62edef978cc15b0a68d61591e2",
+    "results/fission_ancestry_Kh/C0.txt": "722b9a1ff88f2e6933e03bb6552438ad75db4011a0dc2d23198fb278c52a8095",
+    "results/fission_ancestry_Kh/C2.txt": "209095fbf74d426020048562ca7d87a0dc9ac0f5127ba751f0f2d75fe49b9f3c",
+    "results/fission_ancestry_Kh/C6.txt": "6fd10876e8977220c36c23760905903fae461a052d07446fae85a48c02e9aa9d",
+    "results/fission_ancestry_Kh/C7.txt": "32b2156f17b2a513a2fc32cdb16e80549d12a870cca15e103c1cb3a69478f22a",
+    "results/fission_ancestry_Kh/manifest.json": "192126a8ed797c4b1d0388edc34e4347721d9fa011a011e21e798223b34bec05",
+    "results/fission_ancestry_Kh/C4.txt": "29d90a7bd0277e543398f8e98e9e6140b4629f74ea8c85731b5444ff75ed2e54",
+    "scripts/component_guided_bands.py": "2b64bcaf3fb7c243c587ba49242789cc2db6a12fff8dc002d848304a7cd9b8e8",
+    "scripts/normalize_fission_twists.py": "ff41e853d9682b8efa0a2e32a1af0ace0718e3bc08947e7ea7a333f39b894ce1",
+    "scripts/fission_ancestry_audit.py": "3bda71501fd22ae00abdac19d1b8893fd114f2b715c9fdd03abbf456a1c961d9",
+    "scripts/fission_ancestry_khovanov.py": "6e6c620e25dbdb49bd293c8ebd6523d5995d3d2fc1f4daa60ecb1d97f6320972",
+    "scripts/guided_second_fission.py": "3b4d5a6309f455ac789e1296d9c1615c75c49a751000652f70aa4e6ec19e5af9",
+    "scripts/check_component_session.py": "d1430e1a208b2d71f7ab3cb81eb536841a4a1af9401590cf50c8f9bf2deea85d",
+    "research/17_fission_ancestry_and_linking.md": "e1946f7a75733edc7781d45014dbf16dc9c328113b490e9cb261997c08c593af",
+    "README.md": "a16ffa42911370ecb77afb5da5dee74945415c55f5df0d0b442b338c37a41a68",
+    "HANDOFF.md": "43a1121e1f27e60079b0b58e2cf2e1b02d95268392c8fe5d9ab0d4777e38c111"
+  },
+  "documentation_hash_refresh": "2026-09-14 UTC: HANDOFF documentation hash refreshed only; prior computational checks were not rerun.",
+  "prior_documentation_hash_refreshes": [
+    "2026-09-13 evening: README/HANDOFF refreshed for research/19 and Teichner frontier. Only documentation hashes refreshed; the earlier computations were not rerun."
+  ]
+}

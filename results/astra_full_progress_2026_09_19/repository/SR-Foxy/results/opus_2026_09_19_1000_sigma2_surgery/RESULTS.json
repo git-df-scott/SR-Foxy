@@ -1,0 +1,85 @@
+{
+ "Sigma_2(K_1)": {
+  "label": "Sigma_2(K_1)",
+  "isosig": "Sigma_2(K_1)",
+  "volume": 7.281326351748627,
+  "homology": "Z/13",
+  "drillings": [
+   {
+    "curve": 0,
+    "cusps": 2,
+    "volume": 8.505165893908696,
+    "homology": "Z"
+   },
+   {
+    "curve": 1,
+    "cusps": 2,
+    "volume": 9.254010073316019,
+    "homology": "Z"
+   },
+   {
+    "curve": 2,
+    "cusps": 2,
+    "volume": 10.204499959446222,
+    "homology": "Z"
+   },
+   {
+    "curve": 3,
+    "cusps": 2,
+    "volume": 10.221557093952718,
+    "homology": "Z"
+   },
+   {
+    "curve": 4,
+    "cusps": 2,
+    "volume": 10.221557093952715,
+    "homology": "Z"
+   },
+   {
+    "curve": 5,
+    "cusps": 2,
+    "volume": 10.47100309768984,
+    "homology": "Z"
+   },
+   {
+    "curve": 6,
+    "cusps": 2,
+    "volume": 10.471003097689843,
+    "homology": "Z"
+   },
+   {
+    "curve": 7,
+    "cusps": 2,
+    "volume": 10.552636946505462,
+    "homology": "Z"
+   }
+  ],
+  "knot_exterior_found": null,
+  "n_dual_curves": 122
+ },
+ "CONTROL S^3_13/1(4_1)": {
+  "label": "CONTROL S^3_13/1(4_1)",
+  "isosig": "CONTROL S^3_13/1(4_1)",
+  "volume": 1.8446682308154332,
+  "homology": "Z/13",
+  "drillings": [
+   {
+    "curve": 0,
+    "cusps": 2,
+    "volume": 3.5075035595058384,
+    "homology": "Z/13 + Z"
+   },
+   {
+    "curve": 1,
+    "cusps": 2,
+    "volume": 3.5781947802266956,
+    "homology": "Z/13 + Z"
+   }
+  ],
+  "knot_exterior_found": null,
+  "n_dual_curves": 2
+ },
+ "control_found_knot_exterior": false,
+ "meaning": "If control_found_knot_exterior is False the sweep has decided NOTHING: the method failed on a manifold that is known to be surgery on the unknot. Only with the control passing does a negative on Sigma_2(K_1) mean that no drilled curve among those tried exhibits it as surgery on a knot in S^3 -- and even then that is a bounded search, not a theorem.",
+ "counterexample": false
+}

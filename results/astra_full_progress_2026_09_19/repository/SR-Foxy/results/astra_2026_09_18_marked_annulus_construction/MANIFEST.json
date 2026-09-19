@@ -1,0 +1,102 @@
+{
+  "research_date": "2026-09-18",
+  "base_commit": "ceb83c2c86c4b538599f95b62812587d2fa3c6fe",
+  "files": {
+    "GEOMETRY.md": {
+      "bytes": 8244,
+      "sha256": "93d335e8bf10600cca1fc6c7ab821fcc115a037af088935cb2419cdf8217b0dd"
+    },
+    "ONE_HANDLE_UPDATE.md": {
+      "bytes": 2529,
+      "sha256": "58874419c1d020a65d1101c6c637504db63edcd6871445b14c00c0dc8aa2e92c"
+    },
+    "PROVENANCE.md": {
+      "bytes": 4264,
+      "sha256": "b3013bb307886321bc7e2345a60ec4c458fa15e007c0a116110298b3a101531a"
+    },
+    "README.md": {
+      "bytes": 4673,
+      "sha256": "01d67a6560cf3bd888f13ef8645ad822fe86724419dcde5f468d6450a1eee7b1"
+    },
+    "REPLAY.json": {
+      "bytes": 828,
+      "sha256": "90cb55ae914e2f5ea44ccc27f60c31205927d92972e0d70d08c70945b35df579"
+    },
+    "STABILIZER.md": {
+      "bytes": 7586,
+      "sha256": "9c2d1e2d8db47e203170001350b7850981c3537f1b2a213add7af1d396da2da2"
+    },
+    "build_factor_identification.py": {
+      "bytes": 4737,
+      "sha256": "0d05c8b8bd88682468bae1f53cd38b2afbb3a84b491b4fdb7378176c427040dd"
+    },
+    "build_stabilizer.py": {
+      "bytes": 5860,
+      "sha256": "34a9be5a47d44817a559e3554a916170f904b05aa80a7b270056a99b3a955d0b"
+    },
+    "build_surface_attempt.py": {
+      "bytes": 3307,
+      "sha256": "0770b2b043181f428195a256066818c71643fff3b39ec80c8d6b5c0e6131afa6"
+    },
+    "build_transport.py": {
+      "bytes": 8846,
+      "sha256": "65e7715b27d4301c63632f78267c50ccfcbc17ee510aa21b0f7044ef810c1c83"
+    },
+    "check_factor_identification.py": {
+      "bytes": 3243,
+      "sha256": "647e0859005b43e580312ff07d9d0716613edf951f2ae1b860deae8cecd6636a"
+    },
+    "check_saved.py": {
+      "bytes": 8210,
+      "sha256": "851ace95df047bdbebae940215ff684622c5b3e30c3aa4e8cc2b26141b017eb5"
+    },
+    "connect_one_handle.py": {
+      "bytes": 4270,
+      "sha256": "6cbb8e7eb0dd0412a2162926a4ce3809f3cb6a5d3ec3fd3c37b42d53253076ef"
+    },
+    "factor_identification/certificate.json": {
+      "bytes": 22198,
+      "sha256": "e5141ec6f237b314407a7b0ab5c39d54bc2225df66dae46481298871f4478f91"
+    },
+    "factor_identification/factor_pd_exterior.tri": {
+      "bytes": 3376,
+      "sha256": "bafd920dbd90f12743bf9523885c56c98b0f6dd751ce0244ec91285333b07f8a"
+    },
+    "factor_identification/factor_retriangulated.tri": {
+      "bytes": 3670,
+      "sha256": "703c349756c2328d9563b462e708b7055ed11ce992c6603e7daf1efe68577980"
+    },
+    "factor_identification/mirror_K1_pd_exterior.tri": {
+      "bytes": 3376,
+      "sha256": "25c58bea07aa95b1ae6d3201466543b8dad6dc60737304e9cdb072ef009a33e4"
+    },
+    "factor_identification/mirror_K1_retriangulated.tri": {
+      "bytes": 3670,
+      "sha256": "3811db0c215967527f143578b24650b3824c67037445415f9f4bcdfdaed0c2bf"
+    },
+    "one_handle_connection.json": {
+      "bytes": 2897,
+      "sha256": "caf9d571834b2570c16e2dd371cbb514fd4c0a0bc09db5986d874efdc6e1f5de"
+    },
+    "stabilizer.json": {
+      "bytes": 123331,
+      "sha256": "4d167ffe5e202066a24db8f67db9366b1972977e9c4588e8a601acd4ee74b4ce"
+    },
+    "surface_attempt.json": {
+      "bytes": 2410,
+      "sha256": "608365325bb35aa5b06fde05873e8fdf849eb6bdc68e760529b455a608b5c294"
+    },
+    "transport.json": {
+      "bytes": 40900,
+      "sha256": "26b13cbd83172e6134603581804d34ae5585804b5f24e4eb03325d236576dadd"
+    }
+  },
+  "reused_dependencies": {
+    "results/night_2026_09_18_followup/geometry_free_audit.json": "6fe1b369a7a08fe023d50adb7b3c49c61615307e2caabe0ee32651f8d1437f45",
+    "results/night_2026_09_18_followup/theorem_audit.md": "24467107293f48bc9ed1cf0eb4c870b8831a0422196be7c7dd3f2f94992a46a4",
+    "results/night_2026_09_18_jones/RESULTS.json": "c9deeaef9f163fe8e528c2f0d65b036ff6473aae04dccb1f43e5701479461fa7",
+    "results/night_2026_09_18_jones/inputs.json": "6a1e54a2e8ecc902555d9d3989b830c0d0a7c0f3c8d90539f943a98b3e1dfaef",
+    "research/42_surface_realization_with_exact_linking.md": "217c66e9b661253e47232b4ec10feef4fe96344fe88709435711ace7e9093480",
+    "research/44_positive_combinatorial_K1_identification.md": "f3da08a2d18b3894564da327b30016c3492a7f07a4ea80ec6642ec0f329bf22c"
+  }
+}

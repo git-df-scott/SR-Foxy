@@ -1,0 +1,166 @@
+{
+  "status": "NO_COUNTEREXAMPLE_FOUND",
+  "base_commit": "fa16f84a6e5b51b33d62aa0399cc3491d7820054",
+  "date": "2026-09-16",
+  "target": "Abe-Tagami D01 = K0 # (-K1), seeking a ribbon stabilization D01 # J with J ribbon",
+  "success_requires": [
+    "Check oriented root knot identity",
+    "Independently verify complete disk movie in standard B4, expanding any cache match",
+    "Apply global nonribbon theorem to the original D01 with all hypotheses verified"
+  ],
+  "searches": {
+    "frontier_pilot": {
+      "jobs": 12,
+      "statuses": {
+        "COMPLETE_NO_CERTIFICATE": 7,
+        "TIMEOUT_UNKNOWN": 5
+      },
+      "generated": 22834,
+      "saved_moves": 1028,
+      "hits": 0
+    },
+    "new_partner_pilot": {
+      "jobs": 4,
+      "statuses": {
+        "TIMEOUT_UNKNOWN": 4
+      },
+      "generated": 11596,
+      "saved_moves": 336,
+      "hits": 0
+    },
+    "three_factor_sample": {
+      "jobs": 4,
+      "statuses": {
+        "TIMEOUT_UNKNOWN": 4
+      },
+      "generated": 1849,
+      "saved_moves": 224,
+      "hits": 0
+    },
+    "three_factor_continuations": {
+      "jobs": 22,
+      "statuses": {
+        "COMPLETE_NO_CERTIFICATE": 16,
+        "HARD_TIMEOUT_UNKNOWN": 1,
+        "TIMEOUT_UNKNOWN": 5
+      },
+      "generated": 36619,
+      "saved_moves": 3052,
+      "hits": 0
+    },
+    "deeper_diverse_pilot": {
+      "jobs": 16,
+      "statuses": {
+        "COMPLETE_NO_CERTIFICATE": 2,
+        "TIMEOUT_UNKNOWN": 14
+      },
+      "generated": 65667,
+      "saved_moves": 4549,
+      "hits": 0
+    }
+  },
+  "certified_counterexample": false,
+  "generated_total": 138565,
+  "validation": {
+    "regression_tests": 17,
+    "regression_log": "regressions_release2.log",
+    "last_batch_raw_band_replays": 4549,
+    "last_batch_rank_obstructed": 4222,
+    "last_batch_additional_fibered_component_obstructed": 19,
+    "last_batch_HFK_additional_obstructed": 0,
+    "last_batch_retained_unknown": 308,
+    "inconsistent_HFK_components": 1,
+    "consistency_failure_evidence": "three_factor_continuation_hfk_diagnostic.json",
+    "HFK_guard_added_to_shared_worker": true,
+    "positive_ribbon_controls": "One- and two-band certificates recovered and replayed using same library; not independent disk verification.",
+    "component_s": {
+      "runs": 42,
+      "fields": [
+        "Q",
+        "F2"
+      ],
+      "noncontrol_components": 19,
+      "all_noncontrol_values": 0,
+      "manifest": "component_s/manifest.json"
+    },
+    "last_batch_HFK_unknown_components": 0,
+    "saved_HFK_checks": 474
+  },
+  "limits": [
+    "Finite sampled/bounded search; no statement of exhaustive knot or band coverage.",
+    "Timeouts, failed consistency checks, and unrecognized triangulations remain unknown.",
+    "Raw band replay does not independently verify simplification isotopies or oriented root identification.",
+    "Historical search hashes differ when implementation changed; reruns must use a fresh output directory.",
+    "Numerical census nominations are not verified knot identifications.",
+    "No original-target sliceness obstruction or disk was found."
+  ],
+  "sources": [
+    {
+      "title": "Fibered knots with the same 0-surgery and the slice-ribbon conjecture",
+      "authors": [
+        "Tetsuya Abe",
+        "Keiji Tagami"
+      ],
+      "repository": "arXiv:1502.01102",
+      "url": "https://arxiv.org/html/1502.01102",
+      "claim": "Corollary 4.3 nonribbon criterion for distinct eligible fibered knots",
+      "checked": "2026-09-16"
+    },
+    {
+      "title": "Homology and derived series of groups",
+      "authors": [
+        "Tim D. Cochran",
+        "Shelly Harvey"
+      ],
+      "venue": "Geometry & Topology 9 (2005), 2159-2191",
+      "url": "https://math.rice.edu/~shelly/publications/Stallings.pdf",
+      "claim": "Corollary 3.3 and following discussion: Alexander module rank is a link concordance invariant",
+      "checked": "2026-09-16"
+    },
+    {
+      "title": "A refinement of Rasmussen\u2019s s-invariant",
+      "authors": [
+        "Robert Lipshitz",
+        "Sucharit Sarkar"
+      ],
+      "repository": "arXiv:1206.3532",
+      "url": "https://arxiv.org/html/1206.3532",
+      "claim": "Corollary 2.8: field-valued ordinary s/2 is a concordance homomorphism",
+      "checked": "2026-09-16"
+    }
+  ],
+  "next_experiment": {
+    "config": "configs/deeper_survivors.json",
+    "jobs": 307,
+    "status": "PREPARED_NOT_RUN",
+    "command": "python scripts/bounded_ribbon_search.py results/astra_2026_09_16/configs/deeper_survivors.json results/astra_2026_09_16/deeper_survivors",
+    "priority": "Inspect surviving geometry and diversify or extend paths before repeating the same bounded searches."
+  },
+  "script_sha256": {
+    "scripts/identify_frontier_components.py": "c01ae4874ab7cc6a78b5352927abbe3d0784288c6699914d39570eb4fd5c3f17",
+    "scripts/hfk_worker.py": "d30a20d90df1d6819780031387c45154583b8428df33249d10826f86130b1850",
+    "scripts/audit_frontier_fibered_returns.py": "6c249bb738189aef18d262056f37de6602eb547b1c024834e6af0fdab65656a5",
+    "scripts/verify_fibered_factor_polynomials.py": "83099383d317621fd23094a15762541db7c2120f768e60358990717a124443df",
+    "scripts/teichner_frontier_resumable.py": "1a91cbebc383a2248c8439ed6519bf2a0e862cdb9f01533ba139140492f40ace",
+    "scripts/mixed_stabilization_bands.py": "1532a522c279a40c13b8384b81320c5c9b682573d87eab6b9ae504c3a1df08ea",
+    "scripts/sagefree_slice_filter.py": "c047051c7cf140c73588817a62e3f08f2e2f3999a67374b17fdd9944e30aa071",
+    "scripts/recognize_branched_cover.py": "fa51da24dbe74025297e4b61e72ed4f2eeef5a4ffec219db0817702db07cc75d",
+    "scripts/screen_component_hfk.py": "774d741e2404cbae94c25d3c450d81ed6e04642f4f667133620c940f66761c5b",
+    "scripts/bounded_ribbon_search.py": "9ffabac4878524b8735b7316e42cff514d165ec55e1d3d2ca63d027278a59b3c",
+    "scripts/screen_bounded_frontier.py": "937e21454cb5d07fd82d681dd3a3001f0db05838ba448ad7e0303d4a131c84da",
+    "scripts/knotjob_individual.py": "8e0bae8e449d01689e95ae651e17d4180659f93ea8071fd3d19e2e32101e6f99"
+  },
+  "prior_next_queue": {
+    "config": "configs/next_continuations.json",
+    "jobs": 121,
+    "subset_executed": 16,
+    "subset_config": "configs/deeper_diverse_pilot.json",
+    "other_jobs_not_run": 105
+  },
+  "usage_meter": {
+    "baseline_used_percent": 49,
+    "latest_observed_used_percent": 56,
+    "requested_max_additional_percentage_points": 12,
+    "qualification": "Shared rounded account meter; this is observed movement, not exact per-task attribution."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "packages": {
+    "sympy": "1.14.0",
+    "numpy": "2.3.5",
+    "networkx": "3.6.1",
+    "shapely": "2.1.2",
+    "matplotlib": "3.10.8"
+  },
+  "node": "v22.16.0",
+  "resource_policy": "One substantial calculation at a time. Actual geometry is the frozen integer model; route planning used floats.",
+  "Mac_checkout_accessed": false,
+  "branch_created": false,
+  "remote_mutations": []
+}

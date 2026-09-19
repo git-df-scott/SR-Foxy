@@ -1,0 +1,182 @@
+{
+  "input_names": [
+    "K7a2",
+    "K10n4"
+  ],
+  "input_pds": [
+    [
+      [
+        2,
+        0,
+        3,
+        13
+      ],
+      [
+        0,
+        6,
+        1,
+        5
+      ],
+      [
+        6,
+        2,
+        7,
+        1
+      ],
+      [
+        10,
+        4,
+        11,
+        3
+      ],
+      [
+        4,
+        10,
+        5,
+        9
+      ],
+      [
+        12,
+        7,
+        13,
+        8
+      ],
+      [
+        8,
+        11,
+        9,
+        12
+      ]
+    ],
+    [
+      [
+        2,
+        0,
+        3,
+        19
+      ],
+      [
+        0,
+        6,
+        1,
+        5
+      ],
+      [
+        6,
+        2,
+        7,
+        1
+      ],
+      [
+        10,
+        3,
+        11,
+        4
+      ],
+      [
+        4,
+        11,
+        5,
+        12
+      ],
+      [
+        7,
+        13,
+        8,
+        12
+      ],
+      [
+        15,
+        9,
+        16,
+        8
+      ],
+      [
+        9,
+        17,
+        10,
+        16
+      ],
+      [
+        13,
+        19,
+        14,
+        18
+      ],
+      [
+        17,
+        15,
+        18,
+        14
+      ]
+    ]
+  ],
+  "box": {
+    "max_crossed_edges": 2,
+    "max_abs_half_twists": 4,
+    "R3_simplification_steps": 24,
+    "seed": 20260919,
+    "max_anchors_per_input": null,
+    "reflection_allowed_in_matching": false,
+    "component_reversal_allowed": true,
+    "rotation_allowed": true
+  },
+  "counts": [
+    {
+      "input": "K7a2",
+      "birth_placements_completed": 28,
+      "fusion_bands": 74952,
+      "exact_diagrams": 3216,
+      "duplicates": 71736,
+      "birth_anchor_darts": [
+        20,
+        10,
+        3,
+        19,
+        2,
+        23,
+        1,
+        13,
+        5,
+        14,
+        0,
+        7,
+        6,
+        12
+      ]
+    },
+    {
+      "input": "K10n4",
+      "birth_placements_completed": 40,
+      "fusion_bands": 136584,
+      "exact_diagrams": 4782,
+      "duplicates": 131802,
+      "birth_anchor_darts": [
+        12,
+        25,
+        14,
+        7,
+        22,
+        34,
+        35,
+        0,
+        29,
+        5,
+        3,
+        19,
+        1,
+        15,
+        21,
+        6,
+        2,
+        26,
+        24,
+        10
+      ]
+    }
+  ],
+  "matches": [],
+  "scope": "Search for a common upper knot, not directly for a ribbon disk. Exact diagram matches are candidates for independently replayed concordance certificates. A finite negative search gives no nonconcordance conclusion.",
+  "status": "BOUNDED_COMMON_UPPER_SEARCH_FINISHED_NO_MATCH",
+  "seconds": 181.9211537379997
+}

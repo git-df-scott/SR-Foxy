@@ -1,0 +1,133 @@
+{
+ "date": "2026-09-16T01:05:17.062933Z",
+ "what": "Eisermann null V and det V without Sage, validated against the values already recorded in research/22 section 3.2",
+ "rows": [
+  {
+   "link": "unlink O^2",
+   "components": 2,
+   "null_V": 1,
+   "thm1_satisfied": true,
+   "det_V": 1,
+   "component_determinants": [
+    1,
+    1
+   ],
+   "product_mod_32": 1,
+   "det_V_mod_32": 1,
+   "thm2_satisfied": true,
+   "as_expected": true
+  },
+  {
+   "link": "unlink O^3",
+   "components": 3,
+   "null_V": 2,
+   "thm1_satisfied": true,
+   "det_V": 1,
+   "component_determinants": [
+    1,
+    1,
+    1
+   ],
+   "product_mod_32": 1,
+   "det_V_mod_32": 1,
+   "thm2_satisfied": true,
+   "as_expected": true
+  },
+  {
+   "link": "unlink O^4",
+   "components": 4,
+   "null_V": 3,
+   "thm1_satisfied": true,
+   "det_V": 1,
+   "component_determinants": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "product_mod_32": 1,
+   "det_V_mod_32": 1,
+   "thm2_satisfied": true,
+   "as_expected": true
+  },
+  {
+   "link": "L2a1",
+   "components": 2,
+   "null_V": 0,
+   "thm1_satisfied": false,
+   "det_V": null,
+   "as_expected": true
+  },
+  {
+   "link": "L5a1",
+   "components": 2,
+   "null_V": 0,
+   "thm1_satisfied": false,
+   "det_V": null,
+   "as_expected": true
+  },
+  {
+   "link": "L6a1",
+   "components": 2,
+   "null_V": 0,
+   "thm1_satisfied": false,
+   "det_V": null,
+   "as_expected": true
+  },
+  {
+   "link": "L6a5",
+   "components": 3,
+   "null_V": 0,
+   "thm1_satisfied": false,
+   "det_V": null,
+   "as_expected": true
+  },
+  {
+   "link": "L7a1",
+   "components": 2,
+   "null_V": 0,
+   "thm1_satisfied": false,
+   "det_V": null,
+   "as_expected": true
+  },
+  {
+   "link": "L8a21",
+   "components": 4,
+   "null_V": 0,
+   "thm1_satisfied": false,
+   "det_V": null,
+   "as_expected": true
+  },
+  {
+   "link": "L9n18",
+   "components": 2,
+   "null_V": 1,
+   "thm1_satisfied": true,
+   "det_V": 9,
+   "component_determinants": [
+    1,
+    1
+   ],
+   "product_mod_32": 1,
+   "det_V_mod_32": 9,
+   "thm2_satisfied": false,
+   "as_expected": true
+  },
+  {
+   "link": "L9n19",
+   "components": 2,
+   "null_V": 1,
+   "thm1_satisfied": true,
+   "det_V": -7,
+   "component_determinants": [
+    1,
+    1
+   ],
+   "product_mod_32": 1,
+   "det_V_mod_32": 25,
+   "thm2_satisfied": false,
+   "as_expected": true
+  }
+ ],
+ "all_as_expected": true
+}

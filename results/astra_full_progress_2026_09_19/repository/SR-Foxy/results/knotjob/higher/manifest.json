@@ -1,0 +1,73 @@
+{
+  "status": "KNOTJOB_COMPUTATIONAL_CHECK",
+  "input": "results/knotjob/inputs.txt",
+  "flags": [
+    "-sq2e",
+    "-sq2o0",
+    "-sq2o1",
+    "-sgr",
+    "-sbls15",
+    "-nf"
+  ],
+  "jar_sha256": "b63daf5f689660a276ed37bbca3393cb26fe62e097427cdd599647b874304718",
+  "java_version": "openjdk version \"25.0.4.1\" 2026-08-18 LTS\nOpenJDK Runtime Environment Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS)\nOpenJDK 64-Bit Server VM Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS, mixed mode, sharing)\n",
+  "source": "https://www.maths.dur.ac.uk/users/dirk.schuetz/knotjob.html",
+  "timeout_per_knot_seconds": 120,
+  "profile": "higher",
+  "runs": [
+    {
+      "name": "positive_trefoil",
+      "input": "results/knotjob/higher/positive_trefoil.txt",
+      "exit_code": 0,
+      "status": "finished",
+      "seconds": 0.369,
+      "log": "results/knotjob/higher/positive_trefoil.log"
+    },
+    {
+      "name": "negative_trefoil",
+      "input": "results/knotjob/higher/negative_trefoil.txt",
+      "exit_code": 0,
+      "status": "finished",
+      "seconds": 0.389,
+      "log": "results/knotjob/higher/negative_trefoil.log"
+    },
+    {
+      "name": "ribbon_6_1",
+      "input": "results/knotjob/higher/ribbon_6_1.txt",
+      "exit_code": 0,
+      "status": "finished",
+      "seconds": 0.391,
+      "log": "results/knotjob/higher/ribbon_6_1.log"
+    },
+    {
+      "name": "figure_eight",
+      "input": "results/knotjob/higher/figure_eight.txt",
+      "exit_code": 0,
+      "status": "finished",
+      "seconds": 0.379,
+      "log": "results/knotjob/higher/figure_eight.log"
+    },
+    {
+      "name": "AbeTagami_K_0_K_-1__6_3",
+      "input": "results/knotjob/higher/AbeTagami_K_0_K_-1__6_3.txt",
+      "exit_code": 0,
+      "status": "finished",
+      "seconds": 0.409,
+      "log": "results/knotjob/higher/AbeTagami_K_0_K_-1__6_3.log"
+    },
+    {
+      "name": "AbeTagami_K_1",
+      "input": "results/knotjob/higher/AbeTagami_K_1.txt",
+      "status": "inconclusive_timeout",
+      "seconds": 120.304,
+      "log": "results/knotjob/higher/AbeTagami_K_1.log"
+    },
+    {
+      "name": "AbeTagami_D_0_1",
+      "input": "results/knotjob/higher/AbeTagami_D_0_1.txt",
+      "status": "inconclusive_timeout",
+      "seconds": 120.298,
+      "log": "results/knotjob/higher/AbeTagami_D_0_1.log"
+    }
+  ]
+}

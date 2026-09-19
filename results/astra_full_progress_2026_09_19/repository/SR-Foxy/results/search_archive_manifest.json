@@ -1,0 +1,941 @@
+{
+  "files": [
+    {
+      "path": "results/fusion_AT0_detours.jsonl.gz",
+      "uncompressed_bytes": 32797333,
+      "compressed_bytes": 813789,
+      "uncompressed_sha256": "61402dc0305bcb049d004a812178223731f8bcf6feb5c280fb371b5e7a239c12",
+      "compressed_sha256": "a62cec24b8bf6a3e7d5567ad898eedb55718631877254988897d899026c41c2b",
+      "header": {
+        "type": "header",
+        "source_pd": [
+          [
+            8,
+            11,
+            9,
+            0
+          ],
+          [
+            0,
+            4,
+            1,
+            3
+          ],
+          [
+            6,
+            2,
+            7,
+            1
+          ],
+          [
+            2,
+            8,
+            3,
+            7
+          ],
+          [
+            4,
+            9,
+            5,
+            10
+          ],
+          [
+            10,
+            5,
+            11,
+            6
+          ]
+        ],
+        "max_length": 9,
+        "max_twists": 3,
+        "max_moves": 40000,
+        "seconds_limit": 150.0,
+        "detour_attempts": 16,
+        "seed": 20260912,
+        "per_face_moves": 3000,
+        "snappy": "3.3.2",
+        "regina": "7.4",
+        "status": "EXPLORATORY_NOT_A_SLICE_CERTIFICATE"
+      },
+      "last_record": {
+        "type": "summary",
+        "moves": 24000,
+        "unique_diagrams": 6073,
+        "replay_failures": 0,
+        "stop_reason": "enumeration_finished",
+        "seconds": 42.298,
+        "meaning": "Bounded successor enumeration; no non-ribbonness or sliceness conclusion."
+      }
+    },
+    {
+      "path": "results/fusion_AT0_pilot.jsonl.gz",
+      "uncompressed_bytes": 2951003,
+      "compressed_bytes": 125061,
+      "uncompressed_sha256": "6305b51788c5b0342077dc723d4d58c38684690d7bfe4766a8f13d29d7133dbb",
+      "compressed_sha256": "f1593690a63e28089576e567569ca13374085f2df450472cc7c074ea09cf30ec",
+      "header": {
+        "type": "header",
+        "source_pd": [
+          [
+            8,
+            11,
+            9,
+            0
+          ],
+          [
+            0,
+            4,
+            1,
+            3
+          ],
+          [
+            6,
+            2,
+            7,
+            1
+          ],
+          [
+            2,
+            8,
+            3,
+            7
+          ],
+          [
+            4,
+            9,
+            5,
+            10
+          ],
+          [
+            10,
+            5,
+            11,
+            6
+          ]
+        ],
+        "max_length": 5,
+        "max_twists": 2,
+        "max_moves": 5000,
+        "seconds_limit": 90.0,
+        "snappy": "3.3.2",
+        "regina": "7.4",
+        "status": "EXPLORATORY_NOT_A_SLICE_CERTIFICATE"
+      },
+      "last_record": {
+        "type": "summary",
+        "moves": 3760,
+        "unique_diagrams": 1,
+        "replay_failures": 0,
+        "stop_reason": "enumeration_finished",
+        "seconds": 2.57,
+        "meaning": "Bounded successor enumeration; no non-ribbonness or sliceness conclusion."
+      }
+    },
+    {
+      "path": "results/fusion_AT0_threaded.jsonl.gz",
+      "uncompressed_bytes": 37453090,
+      "compressed_bytes": 1467976,
+      "uncompressed_sha256": "9db150781f180216630b015a4edb02e851c9e97d96785376cd6d644e778a12eb",
+      "compressed_sha256": "6429f253a0cb74e5fffb7f95f9c05a9edee29fa9c5573fd30fb68cdd0bc5ba97",
+      "header": {
+        "type": "header",
+        "source_pd": [
+          [
+            8,
+            11,
+            9,
+            0
+          ],
+          [
+            0,
+            4,
+            1,
+            3
+          ],
+          [
+            6,
+            2,
+            7,
+            1
+          ],
+          [
+            2,
+            8,
+            3,
+            7
+          ],
+          [
+            4,
+            9,
+            5,
+            10
+          ],
+          [
+            10,
+            5,
+            11,
+            6
+          ]
+        ],
+        "max_length": 6,
+        "max_twists": 2,
+        "max_moves": 50000,
+        "seconds_limit": 180.0,
+        "snappy": "3.3.2",
+        "regina": "7.4",
+        "status": "EXPLORATORY_NOT_A_SLICE_CERTIFICATE"
+      },
+      "last_record": {
+        "type": "summary",
+        "moves": 32272,
+        "unique_diagrams": 3413,
+        "replay_failures": 0,
+        "stop_reason": "enumeration_finished",
+        "seconds": 49.078,
+        "meaning": "Bounded successor enumeration; no non-ribbonness or sliceness conclusion."
+      }
+    },
+    {
+      "path": "results/fusion_AT0_two_kink.jsonl.gz",
+      "uncompressed_bytes": 9537915,
+      "compressed_bytes": 365858,
+      "uncompressed_sha256": "22679a9f613b2fdc2796c0ba8b94b29980863c515697eec361be31d16c5c8bfd",
+      "compressed_sha256": "7eaf676451e97e4b014feab648e42c1c21a9be9a30615a900b05727e711a3604",
+      "header": {
+        "type": "header",
+        "source_pd": [
+          [
+            8,
+            11,
+            9,
+            0
+          ],
+          [
+            0,
+            4,
+            1,
+            3
+          ],
+          [
+            6,
+            2,
+            7,
+            1
+          ],
+          [
+            2,
+            8,
+            3,
+            7
+          ],
+          [
+            4,
+            9,
+            5,
+            10
+          ],
+          [
+            10,
+            5,
+            11,
+            6
+          ]
+        ],
+        "max_length": 5,
+        "max_twists": 2,
+        "max_moves": 20000,
+        "seconds_limit": 120.0,
+        "snappy": "3.3.2",
+        "regina": "7.4",
+        "status": "EXPLORATORY_NOT_A_SLICE_CERTIFICATE"
+      },
+      "last_record": {
+        "type": "summary",
+        "moves": 11520,
+        "unique_diagrams": 1,
+        "replay_failures": 0,
+        "stop_reason": "enumeration_finished",
+        "seconds": 9.149,
+        "meaning": "Bounded successor enumeration; no non-ribbonness or sliceness conclusion."
+      }
+    },
+    {
+      "path": "results/fusion_AT0_wider.jsonl.gz",
+      "uncompressed_bytes": 47567644,
+      "compressed_bytes": 1170524,
+      "uncompressed_sha256": "1360e0dfee891eb175605ebc5dc77a59d6d7f390d51644e00e03bfdb510f676a",
+      "compressed_sha256": "489df29a3534c47269ace3bd185d39c77fb65aad0aad475a31d3613553497ab5",
+      "header": {
+        "type": "header",
+        "source_pd": [
+          [
+            8,
+            11,
+            9,
+            0
+          ],
+          [
+            0,
+            4,
+            1,
+            3
+          ],
+          [
+            6,
+            2,
+            7,
+            1
+          ],
+          [
+            2,
+            8,
+            3,
+            7
+          ],
+          [
+            4,
+            9,
+            5,
+            10
+          ],
+          [
+            10,
+            5,
+            11,
+            6
+          ]
+        ],
+        "max_length": 10,
+        "max_twists": 5,
+        "max_moves": 32000,
+        "seconds_limit": 150.0,
+        "detour_attempts": 24,
+        "seed": 20260913,
+        "per_face_moves": 4000,
+        "snappy": "3.3.2",
+        "regina": "7.4",
+        "status": "EXPLORATORY_NOT_A_SLICE_CERTIFICATE"
+      },
+      "last_record": {
+        "type": "summary",
+        "moves": 32000,
+        "unique_diagrams": 12832,
+        "replay_failures": 0,
+        "stop_reason": "move_cap",
+        "seconds": 45.912,
+        "meaning": "Bounded successor enumeration; no non-ribbonness or sliceness conclusion."
+      }
+    },
+    {
+      "path": "results/fusion_AT1_pilot.jsonl.gz",
+      "uncompressed_bytes": 7693163,
+      "compressed_bytes": 322026,
+      "uncompressed_sha256": "52ab5915eb351356fcb369ae6005e7bc7d658126ba6a6c886712f952299202e5",
+      "compressed_sha256": "ba45f17fa77297d00491c2ffbff96b1e27500f901492217eee7a90af84910220",
+      "header": {
+        "type": "header",
+        "source_pd": [
+          [
+            5,
+            11,
+            6,
+            10
+          ],
+          [
+            13,
+            34,
+            14,
+            35
+          ],
+          [
+            35,
+            14,
+            36,
+            15
+          ],
+          [
+            33,
+            21,
+            34,
+            20
+          ],
+          [
+            37,
+            22,
+            0,
+            23
+          ],
+          [
+            8,
+            21,
+            9,
+            22
+          ],
+          [
+            4,
+            27,
+            5,
+            28
+          ],
+          [
+            2,
+            31,
+            3,
+            32
+          ],
+          [
+            32,
+            1,
+            33,
+            2
+          ],
+          [
+            9,
+            1,
+            10,
+            0
+          ],
+          [
+            23,
+            6,
+            24,
+            7
+          ],
+          [
+            36,
+            8,
+            37,
+            7
+          ],
+          [
+            25,
+            17,
+            26,
+            16
+          ],
+          [
+            19,
+            31,
+            20,
+            30
+          ],
+          [
+            15,
+            12,
+            16,
+            13
+          ],
+          [
+            17,
+            27,
+            18,
+            26
+          ],
+          [
+            24,
+            11,
+            25,
+            12
+          ],
+          [
+            29,
+            19,
+            30,
+            18
+          ],
+          [
+            28,
+            3,
+            29,
+            4
+          ]
+        ],
+        "max_length": 5,
+        "max_twists": 2,
+        "max_moves": 5000,
+        "seconds_limit": 90.0,
+        "snappy": "3.3.2",
+        "regina": "7.4",
+        "status": "EXPLORATORY_NOT_A_SLICE_CERTIFICATE"
+      },
+      "last_record": {
+        "type": "summary",
+        "moves": 5000,
+        "unique_diagrams": 1,
+        "replay_failures": 0,
+        "stop_reason": "move_cap",
+        "seconds": 8.002,
+        "meaning": "Bounded successor enumeration; no non-ribbonness or sliceness conclusion."
+      }
+    },
+    {
+      "path": "results/fusion_AT1_threaded.jsonl.gz",
+      "uncompressed_bytes": 107533751,
+      "compressed_bytes": 3501930,
+      "uncompressed_sha256": "7d6c60adcd521a8645e4c7ace2adb59b6c24b3435f23583743073f675b478535",
+      "compressed_sha256": "0637b72686c8d392e8c8f15eaac52df1f902b35f4611e2e5fef1600967403e71",
+      "header": {
+        "type": "header",
+        "source_pd": [
+          [
+            5,
+            11,
+            6,
+            10
+          ],
+          [
+            13,
+            34,
+            14,
+            35
+          ],
+          [
+            35,
+            14,
+            36,
+            15
+          ],
+          [
+            33,
+            21,
+            34,
+            20
+          ],
+          [
+            37,
+            22,
+            0,
+            23
+          ],
+          [
+            8,
+            21,
+            9,
+            22
+          ],
+          [
+            4,
+            27,
+            5,
+            28
+          ],
+          [
+            2,
+            31,
+            3,
+            32
+          ],
+          [
+            32,
+            1,
+            33,
+            2
+          ],
+          [
+            9,
+            1,
+            10,
+            0
+          ],
+          [
+            23,
+            6,
+            24,
+            7
+          ],
+          [
+            36,
+            8,
+            37,
+            7
+          ],
+          [
+            25,
+            17,
+            26,
+            16
+          ],
+          [
+            19,
+            31,
+            20,
+            30
+          ],
+          [
+            15,
+            12,
+            16,
+            13
+          ],
+          [
+            17,
+            27,
+            18,
+            26
+          ],
+          [
+            24,
+            11,
+            25,
+            12
+          ],
+          [
+            29,
+            19,
+            30,
+            18
+          ],
+          [
+            28,
+            3,
+            29,
+            4
+          ]
+        ],
+        "max_length": 6,
+        "max_twists": 2,
+        "max_moves": 50000,
+        "seconds_limit": 180.0,
+        "snappy": "3.3.2",
+        "regina": "7.4",
+        "status": "EXPLORATORY_NOT_A_SLICE_CERTIFICATE"
+      },
+      "last_record": {
+        "type": "summary",
+        "moves": 50000,
+        "unique_diagrams": 3397,
+        "replay_failures": 0,
+        "stop_reason": "move_cap",
+        "seconds": 132.894,
+        "meaning": "Bounded successor enumeration; no non-ribbonness or sliceness conclusion."
+      }
+    },
+    {
+      "path": "results/fusion_AT1_two_kink.jsonl.gz",
+      "uncompressed_bytes": 31548146,
+      "compressed_bytes": 1220932,
+      "uncompressed_sha256": "389bb9474d1ebe4c390a15191a09713d313aec1863a11089ad9b32b356fe867c",
+      "compressed_sha256": "1ef149f656d8988887c1d7115ecdaba7260dc6d6bddf907639bec676510e3680",
+      "header": {
+        "type": "header",
+        "source_pd": [
+          [
+            5,
+            11,
+            6,
+            10
+          ],
+          [
+            13,
+            34,
+            14,
+            35
+          ],
+          [
+            35,
+            14,
+            36,
+            15
+          ],
+          [
+            33,
+            21,
+            34,
+            20
+          ],
+          [
+            37,
+            22,
+            0,
+            23
+          ],
+          [
+            8,
+            21,
+            9,
+            22
+          ],
+          [
+            4,
+            27,
+            5,
+            28
+          ],
+          [
+            2,
+            31,
+            3,
+            32
+          ],
+          [
+            32,
+            1,
+            33,
+            2
+          ],
+          [
+            9,
+            1,
+            10,
+            0
+          ],
+          [
+            23,
+            6,
+            24,
+            7
+          ],
+          [
+            36,
+            8,
+            37,
+            7
+          ],
+          [
+            25,
+            17,
+            26,
+            16
+          ],
+          [
+            19,
+            31,
+            20,
+            30
+          ],
+          [
+            15,
+            12,
+            16,
+            13
+          ],
+          [
+            17,
+            27,
+            18,
+            26
+          ],
+          [
+            24,
+            11,
+            25,
+            12
+          ],
+          [
+            29,
+            19,
+            30,
+            18
+          ],
+          [
+            28,
+            3,
+            29,
+            4
+          ]
+        ],
+        "max_length": 5,
+        "max_twists": 2,
+        "max_moves": 20000,
+        "seconds_limit": 120.0,
+        "snappy": "3.3.2",
+        "regina": "7.4",
+        "status": "EXPLORATORY_NOT_A_SLICE_CERTIFICATE"
+      },
+      "last_record": {
+        "type": "summary",
+        "moves": 20000,
+        "unique_diagrams": 1,
+        "replay_failures": 0,
+        "stop_reason": "move_cap",
+        "seconds": 34.877,
+        "meaning": "Bounded successor enumeration; no non-ribbonness or sliceness conclusion."
+      }
+    },
+    {
+      "path": "results/fusion_trefoil_pilot.jsonl.gz",
+      "uncompressed_bytes": 670381,
+      "compressed_bytes": 27654,
+      "uncompressed_sha256": "6530a8ac1dafbf643700fed6d11684a7a175b9aeae360dcee1f50696fb4c4744",
+      "compressed_sha256": "fc19a6510aa9306807bf2e340d33dbc34f5ce6797b4cf782607b9f0c3e5d4fab",
+      "header": {
+        "type": "header",
+        "source_pd": [
+          [
+            5,
+            2,
+            0,
+            3
+          ],
+          [
+            3,
+            0,
+            4,
+            1
+          ],
+          [
+            1,
+            4,
+            2,
+            5
+          ]
+        ],
+        "max_length": 5,
+        "max_twists": 2,
+        "max_moves": 3000,
+        "seconds_limit": 60.0,
+        "snappy": "3.3.2",
+        "regina": "7.4",
+        "status": "EXPLORATORY_NOT_A_SLICE_CERTIFICATE"
+      },
+      "last_record": {
+        "type": "summary",
+        "moves": 1080,
+        "unique_diagrams": 1,
+        "replay_failures": 0,
+        "stop_reason": "enumeration_finished",
+        "seconds": 0.535,
+        "meaning": "Bounded successor enumeration; no non-ribbonness or sliceness conclusion."
+      }
+    },
+    {
+      "path": "results/fusion_trefoil_smoke.jsonl.gz",
+      "uncompressed_bytes": 27842,
+      "compressed_bytes": 1811,
+      "uncompressed_sha256": "227150adaa7678878950c8d801f30fb30549c236611f6385e261ad66544790ff",
+      "compressed_sha256": "de0871d82e7a0244a9923c2b496ead1237a422e1c89ae0024de9981b721213fa",
+      "header": {
+        "type": "header",
+        "source_pd": [
+          [
+            5,
+            2,
+            0,
+            3
+          ],
+          [
+            3,
+            0,
+            4,
+            1
+          ],
+          [
+            1,
+            4,
+            2,
+            5
+          ]
+        ],
+        "max_length": 3,
+        "max_twists": 2,
+        "max_moves": 50,
+        "seconds_limit": 30.0,
+        "snappy": "3.3.2",
+        "regina": "7.4",
+        "status": "EXPLORATORY_NOT_A_SLICE_CERTIFICATE"
+      },
+      "last_record": {
+        "type": "summary",
+        "moves": 50,
+        "unique_diagrams": 1,
+        "replay_failures": 0,
+        "stop_reason": "move_cap",
+        "seconds": 0.02,
+        "meaning": "Bounded successor enumeration; no non-ribbonness or sliceness conclusion."
+      }
+    },
+    {
+      "path": "results/fusion_trefoil_threaded.jsonl.gz",
+      "uncompressed_bytes": 6883428,
+      "compressed_bytes": 291918,
+      "uncompressed_sha256": "6b951f29abb134d7000ffe9ce7d68eb77dba93e3885d4aae19d3f1a4eb415a09",
+      "compressed_sha256": "ba0a39276eb46167da6cfbfd4201d0c54437afbdf188290e07bb39d8a0029572",
+      "header": {
+        "type": "header",
+        "source_pd": [
+          [
+            5,
+            2,
+            0,
+            3
+          ],
+          [
+            3,
+            0,
+            4,
+            1
+          ],
+          [
+            1,
+            4,
+            2,
+            5
+          ]
+        ],
+        "max_length": 5,
+        "max_twists": 2,
+        "max_moves": 10000,
+        "seconds_limit": 120.0,
+        "snappy": "3.3.2",
+        "regina": "7.4",
+        "status": "EXPLORATORY_NOT_A_SLICE_CERTIFICATE"
+      },
+      "last_record": {
+        "type": "summary",
+        "moves": 7591,
+        "unique_diagrams": 430,
+        "replay_failures": 0,
+        "stop_reason": "enumeration_finished",
+        "seconds": 6.279,
+        "meaning": "Bounded successor enumeration; no non-ribbonness or sliceness conclusion."
+      }
+    },
+    {
+      "path": "results/fusion_trefoil_two_kink.jsonl.gz",
+      "uncompressed_bytes": 2213832,
+      "compressed_bytes": 84111,
+      "uncompressed_sha256": "56db926e2df6b8462aa518c62109ca686b795e277ae21ecb7eaba636967cd8ff",
+      "compressed_sha256": "59be477505dc547f413df5ee731354289b9cb738ae7a0141bbf0539d44533768",
+      "header": {
+        "type": "header",
+        "source_pd": [
+          [
+            5,
+            2,
+            0,
+            3
+          ],
+          [
+            3,
+            0,
+            4,
+            1
+          ],
+          [
+            1,
+            4,
+            2,
+            5
+          ]
+        ],
+        "max_length": 5,
+        "max_twists": 2,
+        "max_moves": 5000,
+        "seconds_limit": 60.0,
+        "snappy": "3.3.2",
+        "regina": "7.4",
+        "status": "EXPLORATORY_NOT_A_SLICE_CERTIFICATE"
+      },
+      "last_record": {
+        "type": "summary",
+        "moves": 3360,
+        "unique_diagrams": 1,
+        "replay_failures": 0,
+        "stop_reason": "enumeration_finished",
+        "seconds": 1.91,
+        "meaning": "Bounded successor enumeration; no non-ribbonness or sliceness conclusion."
+      }
+    }
+  ],
+  "meaning": "Lossless gzip; original uncompressed files also preserved outside the repository. Pilot logs document failed early generator designs; final scripts reproduce corrected runs."
+}

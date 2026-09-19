@@ -1,0 +1,195 @@
+{
+  "status": "PASS",
+  "counts": {
+    "R2": 484,
+    "R3": 413,
+    "R1": 208,
+    "verified_movies": 114,
+    "distinct_R3_bracket_checks": 381
+  },
+  "negative_controls": {
+    "R1_illegal_locus_rejected": true,
+    "R2_illegal_locus_rejected": true
+  },
+  "parallel_edge_witnesses_independent_bracket": [
+    {
+      "face_path": [
+        3,
+        2,
+        5,
+        6,
+        7
+      ],
+      "cases": [
+        {
+          "top": [
+            5,
+            21,
+            22,
+            23
+          ],
+          "bracket_component_determinants": [
+            3,
+            3
+          ],
+          "all_crossings_before_simplification": [
+            3,
+            4
+          ]
+        },
+        {
+          "top": [
+            16,
+            21,
+            22,
+            23
+          ],
+          "bracket_component_determinants": [
+            1,
+            9
+          ],
+          "all_crossings_before_simplification": [
+            7,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "face_path": [
+        3,
+        2,
+        7,
+        6,
+        5
+      ],
+      "cases": [
+        {
+          "top": [
+            5,
+            17,
+            18,
+            15
+          ],
+          "bracket_component_determinants": [
+            1,
+            9
+          ],
+          "all_crossings_before_simplification": [
+            7,
+            0
+          ]
+        },
+        {
+          "top": [
+            16,
+            17,
+            18,
+            15
+          ],
+          "bracket_component_determinants": [
+            3,
+            3
+          ],
+          "all_crossings_before_simplification": [
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "face_path": [
+        3,
+        2,
+        5,
+        6,
+        7
+      ],
+      "cases": [
+        {
+          "top": [
+            5,
+            21,
+            22,
+            23
+          ],
+          "bracket_component_determinants": [
+            3,
+            3
+          ],
+          "all_crossings_before_simplification": [
+            3,
+            4
+          ]
+        },
+        {
+          "top": [
+            16,
+            21,
+            22,
+            23
+          ],
+          "bracket_component_determinants": [
+            1,
+            9
+          ],
+          "all_crossings_before_simplification": [
+            7,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "face_path": [
+        3,
+        2,
+        7,
+        6,
+        5
+      ],
+      "cases": [
+        {
+          "top": [
+            5,
+            17,
+            18,
+            15
+          ],
+          "bracket_component_determinants": [
+            1,
+            9
+          ],
+          "all_crossings_before_simplification": [
+            7,
+            0
+          ]
+        },
+        {
+          "top": [
+            16,
+            17,
+            18,
+            15
+          ],
+          "bracket_component_determinants": [
+            3,
+            3
+          ],
+          "all_crossings_before_simplification": [
+            3,
+            4
+          ]
+        }
+      ]
+    }
+  ],
+  "seconds": 2.786481545999777,
+  "shared_dependencies": [
+    "Band replay uses producer add_band",
+    "R3 locus and template share producer; polynomial evaluation is independent",
+    "Sublink extraction is shared"
+  ],
+  "scope": "Exact saved calibration movie replay and independent determinant comparison; not a new target ribbon certificate."
+}

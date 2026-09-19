@@ -1,0 +1,26 @@
+{
+  "status": "BOUNDED_ENDPOINT_NOMINATION_ONLY",
+  "input_targets": "results/coupled_small_targets.json",
+  "length": 10,
+  "twists": 2,
+  "path": "shortest",
+  "simplification": "basic",
+  "include_fibered": true,
+  "max_moves_per_target": 50000,
+  "seconds_per_target": 90.0,
+  "runs": [
+    {
+      "source_index": 10187,
+      "crossings": 26,
+      "bands_tested": 7130,
+      "detected_split_unknot_deaths": 11,
+      "unique_predecessor_diagrams": 1,
+      "K1_HFK_matches": 0,
+      "numerical_hits": [],
+      "inconclusive_HFK": [],
+      "inconclusive_identifications": [],
+      "stop": "enumeration_finished",
+      "seconds": 4.574
+    }
+  ]
+}

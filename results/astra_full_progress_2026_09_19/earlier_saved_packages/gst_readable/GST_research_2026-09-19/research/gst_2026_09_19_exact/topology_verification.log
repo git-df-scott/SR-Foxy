@@ -1,0 +1,33 @@
+{
+  "python": "3.13.5",
+  "versions": {
+    "sympy": "1.14.0",
+    "spherogram": "2.4.1",
+    "snappy": "3.3.2",
+    "regina": "7.4.1",
+    "knot_floer_homology": "1.2.2"
+  },
+  "hfk_total_rank": 189,
+  "genus": 10,
+  "fibered": false,
+  "top_Alexander_ranks": {
+    "13": 1,
+    "14": 1
+  },
+  "euler_equals_exact_Alexander": true,
+  "conjugation_symmetry": true,
+  "mirror_duality": true,
+  "prime3_ranks_agree": true,
+  "renumbered_PD_ranks_agree": true,
+  "uv0_differential_squared_zero": true,
+  "uv0_generators": 189,
+  "vertical_differential_rank": 94,
+  "horizontal_differential_rank": 94,
+  "vertical_homology_dimension": 1,
+  "horizontal_homology_dimension": 1,
+  "independent_face_band_enumeration_count": 164,
+  "exact_Regina_signature_multisets_agree": true,
+  "independent_Seifert_matrix_size": 74,
+  "Seifert_Alexander_agrees": true,
+  "elapsed_seconds": 6.016124248504639
+}

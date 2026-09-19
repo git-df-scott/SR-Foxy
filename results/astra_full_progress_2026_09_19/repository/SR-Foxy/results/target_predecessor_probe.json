@@ -1,0 +1,45 @@
+{
+  "status": "BOUNDED_ENDPOINT_NOMINATION_ONLY",
+  "input_targets": "results/fusion_AT0_wider_targets.json",
+  "length": 6,
+  "twists": 2,
+  "path": "shortest",
+  "simplification": "basic",
+  "max_moves_per_target": 5000,
+  "seconds_per_target": 30,
+  "runs": [
+    {
+      "source_index": 24227,
+      "crossings": 23,
+      "bands_tested": 5000,
+      "detected_split_unknot_deaths": 16,
+      "unique_predecessor_diagrams": 1,
+      "K1_HFK_matches": 0,
+      "numerical_hits": [],
+      "stop": "move_cap",
+      "seconds": 2.175
+    },
+    {
+      "source_index": 24229,
+      "crossings": 23,
+      "bands_tested": 5000,
+      "detected_split_unknot_deaths": 16,
+      "unique_predecessor_diagrams": 1,
+      "K1_HFK_matches": 0,
+      "numerical_hits": [],
+      "stop": "move_cap",
+      "seconds": 2.455
+    },
+    {
+      "source_index": 24291,
+      "crossings": 23,
+      "bands_tested": 5000,
+      "detected_split_unknot_deaths": 16,
+      "unique_predecessor_diagrams": 1,
+      "K1_HFK_matches": 0,
+      "numerical_hits": [],
+      "stop": "move_cap",
+      "seconds": 2.257
+    }
+  ]
+}

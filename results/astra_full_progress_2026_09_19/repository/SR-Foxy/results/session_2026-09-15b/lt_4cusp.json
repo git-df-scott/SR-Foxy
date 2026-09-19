@@ -1,0 +1,53 @@
+{
+ "date": "2026-09-16T01:26:26.006489Z",
+ "source": "results/session_2026-09-15b/screened_4cusp.json",
+ "test": "Levine-Tristram signature vanishes for slice links at every prime-power root of unity",
+ "rows": [
+  {
+   "name": "L10n107",
+   "crossings": 10,
+   "nonzero_signatures": {},
+   "max_abs_signature": 0,
+   "slice_ruled_out": false
+  },
+  {
+   "name": "L14n59991",
+   "crossings": 14,
+   "nonzero_signatures": {},
+   "max_abs_signature": 0,
+   "slice_ruled_out": false
+  },
+  {
+   "name": "L14n62224",
+   "crossings": 14,
+   "nonzero_signatures": {},
+   "max_abs_signature": 0,
+   "slice_ruled_out": false
+  },
+  {
+   "name": "L14n62566",
+   "crossings": 14,
+   "nonzero_signatures": {},
+   "max_abs_signature": 0,
+   "slice_ruled_out": false
+  },
+  {
+   "name": "L14n63195",
+   "crossings": 14,
+   "nonzero_signatures": {},
+   "max_abs_signature": 0,
+   "slice_ruled_out": false
+  }
+ ],
+ "still_live": [
+  "L10n107",
+  "L14n59991",
+  "L14n62224",
+  "L14n62566",
+  "L14n63195"
+ ],
+ "summary": {
+  "screened": 5,
+  "still_live": 5
+ }
+}

@@ -1,0 +1,8 @@
+{
+  "status": "TIMEOUT_UNKNOWN",
+  "requested_internal_cap_seconds": 90,
+  "container_execution_cap_milliseconds": 100000,
+  "result": "No group reduction or peripheral output returned before external timeout. No mathematical exclusion.",
+  "input_presentation": "framed_fox_boundary.json relators plus mu_a lambda_a and mu_b_inverse lambda_b",
+  "reason": "Full free-word Tietze elimination did not complete within the available bound."
+}

@@ -1,0 +1,8402 @@
+{
+  "scope": "One orientable untwisted band with core lying within one complementary face of this fixed planar diagram; duplicate edge reconnections collapsed. No Reidemeister changes, added crossings, self-crossings, or extra bands.",
+  "total": 164,
+  "records": [
+    {
+      "face": 0,
+      "edge_labels": [
+        83,
+        95
+      ],
+      "attachment_darts": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          5,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "component_crossings": [
+        1,
+        37
+      ],
+      "component_determinants": [
+        1,
+        53
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 1,
+      "edge_labels": [
+        71,
+        83
+      ],
+      "attachment_darts": [
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "component_crossings": [
+        37,
+        1
+      ],
+      "component_determinants": [
+        53,
+        1
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 2,
+      "edge_labels": [
+        74,
+        84
+      ],
+      "attachment_darts": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "component_crossings": [
+        0,
+        38
+      ],
+      "component_determinants": [
+        1,
+        53
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 2,
+      "edge_labels": [
+        70,
+        84
+      ],
+      "attachment_darts": [
+        [
+          0,
+          2
+        ],
+        [
+          31,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          0,
+          2
+        ],
+        [
+          31,
+          3
+        ]
+      ],
+      "component_crossings": [
+        1,
+        35
+      ],
+      "component_determinants": [
+        1,
+        107
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 2,
+      "edge_labels": [
+        84,
+        94
+      ],
+      "attachment_darts": [
+        [
+          0,
+          2
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          0,
+          2
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "component_crossings": [
+        38,
+        0
+      ],
+      "component_determinants": [
+        53,
+        1
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 2,
+      "edge_labels": [
+        70,
+        74
+      ],
+      "attachment_darts": [
+        [
+          3,
+          2
+        ],
+        [
+          31,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          3,
+          2
+        ],
+        [
+          31,
+          3
+        ]
+      ],
+      "component_crossings": [
+        44,
+        0
+      ],
+      "component_determinants": [
+        11,
+        1
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 2,
+      "edge_labels": [
+        74,
+        94
+      ],
+      "attachment_darts": [
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "component_crossings": [
+        1,
+        29
+      ],
+      "component_determinants": [
+        1,
+        5
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 2,
+      "edge_labels": [
+        29,
+        43
+      ],
+      "attachment_darts": [
+        [
+          32,
+          0
+        ],
+        [
+          16,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          16,
+          2
+        ],
+        [
+          31,
+          2
+        ]
+      ],
+      "component_crossings": [
+        34,
+        0
+      ],
+      "component_determinants": [
+        113,
+        1
+      ],
+      "linking_number": 3
+    },
+    {
+      "face": 2,
+      "edge_labels": [
+        70,
+        94
+      ],
+      "attachment_darts": [
+        [
+          31,
+          3
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          31,
+          3
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "component_crossings": [
+        4,
+        28
+      ],
+      "component_determinants": [
+        3,
+        5
+      ],
+      "linking_number": 0
+    },
+    {
+      "face": 3,
+      "edge_labels": [
+        73,
+        95
+      ],
+      "attachment_darts": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "component_crossings": [
+        3,
+        29
+      ],
+      "component_determinants": [
+        3,
+        5
+      ],
+      "linking_number": 0
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        64,
+        92
+      ],
+      "attachment_darts": [
+        [
+          1,
+          0
+        ],
+        [
+          45,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          45,
+          3
+        ],
+        [
+          29,
+          2
+        ]
+      ],
+      "component_crossings": [
+        4,
+        24
+      ],
+      "component_determinants": [
+        3,
+        31
+      ],
+      "linking_number": 0
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        56,
+        92
+      ],
+      "attachment_darts": [
+        [
+          1,
+          0
+        ],
+        [
+          29,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          45,
+          3
+        ],
+        [
+          28,
+          2
+        ]
+      ],
+      "component_crossings": [
+        5,
+        17
+      ],
+      "component_determinants": [
+        3,
+        15
+      ],
+      "linking_number": -1
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        62,
+        92
+      ],
+      "attachment_darts": [
+        [
+          1,
+          0
+        ],
+        [
+          28,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          45,
+          3
+        ],
+        [
+          27,
+          2
+        ]
+      ],
+      "component_crossings": [
+        4,
+        22
+      ],
+      "component_determinants": [
+        3,
+        5
+      ],
+      "linking_number": -1
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        48,
+        92
+      ],
+      "attachment_darts": [
+        [
+          1,
+          0
+        ],
+        [
+          27,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          45,
+          3
+        ],
+        [
+          17,
+          2
+        ]
+      ],
+      "component_crossings": [
+        8,
+        12
+      ],
+      "component_determinants": [
+        9,
+        13
+      ],
+      "linking_number": 0
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        32,
+        92
+      ],
+      "attachment_darts": [
+        [
+          1,
+          0
+        ],
+        [
+          17,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          45,
+          3
+        ],
+        [
+          11,
+          2
+        ]
+      ],
+      "component_crossings": [
+        19,
+        7
+      ],
+      "component_determinants": [
+        13,
+        1
+      ],
+      "linking_number": -4
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        92,
+        96
+      ],
+      "attachment_darts": [
+        [
+          1,
+          0
+        ],
+        [
+          11,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          45,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "component_crossings": [
+        44,
+        0
+      ],
+      "component_determinants": [
+        11,
+        1
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        72,
+        92
+      ],
+      "attachment_darts": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          45,
+          3
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "component_crossings": [
+        1,
+        29
+      ],
+      "component_determinants": [
+        1,
+        5
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        82,
+        92
+      ],
+      "attachment_darts": [
+        [
+          1,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          45,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "component_crossings": [
+        0,
+        38
+      ],
+      "component_determinants": [
+        1,
+        53
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        56,
+        64
+      ],
+      "attachment_darts": [
+        [
+          45,
+          0
+        ],
+        [
+          29,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          29,
+          2
+        ],
+        [
+          28,
+          2
+        ]
+      ],
+      "component_crossings": [
+        41,
+        1
+      ],
+      "component_determinants": [
+        25,
+        1
+      ],
+      "linking_number": -1
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        62,
+        64
+      ],
+      "attachment_darts": [
+        [
+          45,
+          0
+        ],
+        [
+          28,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          29,
+          2
+        ],
+        [
+          27,
+          2
+        ]
+      ],
+      "component_crossings": [
+        46,
+        0
+      ],
+      "component_determinants": [
+        5,
+        1
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        48,
+        64
+      ],
+      "attachment_darts": [
+        [
+          45,
+          0
+        ],
+        [
+          27,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          29,
+          2
+        ],
+        [
+          17,
+          2
+        ]
+      ],
+      "component_crossings": [
+        36,
+        4
+      ],
+      "component_determinants": [
+        3,
+        3
+      ],
+      "linking_number": 0
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        32,
+        64
+      ],
+      "attachment_darts": [
+        [
+          45,
+          0
+        ],
+        [
+          17,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          29,
+          2
+        ],
+        [
+          11,
+          2
+        ]
+      ],
+      "component_crossings": [
+        25,
+        9
+      ],
+      "component_determinants": [
+        5,
+        7
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        64,
+        96
+      ],
+      "attachment_darts": [
+        [
+          45,
+          0
+        ],
+        [
+          11,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          29,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "component_crossings": [
+        8,
+        24
+      ],
+      "component_determinants": [
+        3,
+        31
+      ],
+      "linking_number": -2
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        64,
+        72
+      ],
+      "attachment_darts": [
+        [
+          45,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          29,
+          2
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "component_crossings": [
+        40,
+        0
+      ],
+      "component_determinants": [
+        25,
+        1
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        64,
+        82
+      ],
+      "attachment_darts": [
+        [
+          45,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          29,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "component_crossings": [
+        31,
+        1
+      ],
+      "component_determinants": [
+        37,
+        1
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        56,
+        62
+      ],
+      "attachment_darts": [
+        [
+          29,
+          3
+        ],
+        [
+          28,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          28,
+          2
+        ],
+        [
+          27,
+          2
+        ]
+      ],
+      "component_crossings": [
+        42,
+        0
+      ],
+      "component_determinants": [
+        25,
+        1
+      ],
+      "linking_number": -1
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        48,
+        56
+      ],
+      "attachment_darts": [
+        [
+          29,
+          3
+        ],
+        [
+          27,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          28,
+          2
+        ],
+        [
+          17,
+          2
+        ]
+      ],
+      "component_crossings": [
+        41,
+        1
+      ],
+      "component_determinants": [
+        25,
+        1
+      ],
+      "linking_number": -1
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        32,
+        56
+      ],
+      "attachment_darts": [
+        [
+          29,
+          3
+        ],
+        [
+          17,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          28,
+          2
+        ],
+        [
+          11,
+          2
+        ]
+      ],
+      "component_crossings": [
+        28,
+        4
+      ],
+      "component_determinants": [
+        9,
+        5
+      ],
+      "linking_number": 3
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        56,
+        96
+      ],
+      "attachment_darts": [
+        [
+          29,
+          3
+        ],
+        [
+          11,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          28,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "component_crossings": [
+        9,
+        17
+      ],
+      "component_determinants": [
+        3,
+        15
+      ],
+      "linking_number": -3
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        56,
+        72
+      ],
+      "attachment_darts": [
+        [
+          29,
+          3
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          28,
+          2
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "component_crossings": [
+        33,
+        1
+      ],
+      "component_determinants": [
+        17,
+        1
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        56,
+        82
+      ],
+      "attachment_darts": [
+        [
+          29,
+          3
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          28,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "component_crossings": [
+        24,
+        2
+      ],
+      "component_determinants": [
+        55,
+        1
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        48,
+        62
+      ],
+      "attachment_darts": [
+        [
+          28,
+          3
+        ],
+        [
+          27,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          27,
+          2
+        ],
+        [
+          17,
+          2
+        ]
+      ],
+      "component_crossings": [
+        36,
+        2
+      ],
+      "component_determinants": [
+        3,
+        1
+      ],
+      "linking_number": -1
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        32,
+        62
+      ],
+      "attachment_darts": [
+        [
+          28,
+          3
+        ],
+        [
+          17,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          27,
+          2
+        ],
+        [
+          11,
+          2
+        ]
+      ],
+      "component_crossings": [
+        25,
+        7
+      ],
+      "component_determinants": [
+        5,
+        9
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        62,
+        96
+      ],
+      "attachment_darts": [
+        [
+          28,
+          3
+        ],
+        [
+          11,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          27,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "component_crossings": [
+        8,
+        22
+      ],
+      "component_determinants": [
+        3,
+        5
+      ],
+      "linking_number": -3
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        62,
+        72
+      ],
+      "attachment_darts": [
+        [
+          28,
+          3
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          27,
+          2
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "component_crossings": [
+        38,
+        0
+      ],
+      "component_determinants": [
+        3,
+        1
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        62,
+        82
+      ],
+      "attachment_darts": [
+        [
+          28,
+          3
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          27,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "component_crossings": [
+        29,
+        1
+      ],
+      "component_determinants": [
+        23,
+        1
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        32,
+        48
+      ],
+      "attachment_darts": [
+        [
+          27,
+          3
+        ],
+        [
+          17,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          17,
+          2
+        ],
+        [
+          11,
+          2
+        ]
+      ],
+      "component_crossings": [
+        33,
+        1
+      ],
+      "component_determinants": [
+        33,
+        1
+      ],
+      "linking_number": 6
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        48,
+        96
+      ],
+      "attachment_darts": [
+        [
+          27,
+          3
+        ],
+        [
+          11,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          17,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "component_crossings": [
+        12,
+        12
+      ],
+      "component_determinants": [
+        9,
+        13
+      ],
+      "linking_number": -2
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        48,
+        72
+      ],
+      "attachment_darts": [
+        [
+          27,
+          3
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          17,
+          2
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "component_crossings": [
+        28,
+        4
+      ],
+      "component_determinants": [
+        11,
+        3
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        48,
+        82
+      ],
+      "attachment_darts": [
+        [
+          27,
+          3
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          17,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "component_crossings": [
+        19,
+        5
+      ],
+      "component_determinants": [
+        7,
+        3
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        32,
+        96
+      ],
+      "attachment_darts": [
+        [
+          17,
+          3
+        ],
+        [
+          11,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          11,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "component_crossings": [
+        23,
+        7
+      ],
+      "component_determinants": [
+        15,
+        1
+      ],
+      "linking_number": -6
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        32,
+        72
+      ],
+      "attachment_darts": [
+        [
+          17,
+          3
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          11,
+          2
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "component_crossings": [
+        19,
+        11
+      ],
+      "component_determinants": [
+        7,
+        1
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        32,
+        82
+      ],
+      "attachment_darts": [
+        [
+          17,
+          3
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          11,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "component_crossings": [
+        12,
+        14
+      ],
+      "component_determinants": [
+        3,
+        5
+      ],
+      "linking_number": 0
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        72,
+        96
+      ],
+      "attachment_darts": [
+        [
+          11,
+          3
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "component_crossings": [
+        4,
+        28
+      ],
+      "component_determinants": [
+        3,
+        5
+      ],
+      "linking_number": 0
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        82,
+        96
+      ],
+      "attachment_darts": [
+        [
+          11,
+          3
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "component_crossings": [
+        1,
+        35
+      ],
+      "component_determinants": [
+        1,
+        107
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 4,
+      "edge_labels": [
+        72,
+        82
+      ],
+      "attachment_darts": [
+        [
+          2,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          5,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "component_crossings": [
+        38,
+        0
+      ],
+      "component_determinants": [
+        53,
+        1
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 5,
+      "edge_labels": [
+        65,
+        81
+      ],
+      "attachment_darts": [
+        [
+          1,
+          1
+        ],
+        [
+          44,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          44,
+          3
+        ],
+        [
+          45,
+          2
+        ]
+      ],
+      "component_crossings": [
+        33,
+        1
+      ],
+      "component_determinants": [
+        43,
+        1
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 6,
+      "edge_labels": [
+        81,
+        93
+      ],
+      "attachment_darts": [
+        [
+          1,
+          2
+        ],
+        [
+          44,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          1,
+          2
+        ],
+        [
+          44,
+          3
+        ]
+      ],
+      "component_crossings": [
+        1,
+        37
+      ],
+      "component_determinants": [
+        1,
+        53
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 6,
+      "edge_labels": [
+        42,
+        70
+      ],
+      "attachment_darts": [
+        [
+          4,
+          1
+        ],
+        [
+          31,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          31,
+          3
+        ],
+        [
+          47,
+          3
+        ]
+      ],
+      "component_crossings": [
+        25,
+        5
+      ],
+      "component_determinants": [
+        23,
+        3
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 6,
+      "edge_labels": [
+        66,
+        70
+      ],
+      "attachment_darts": [
+        [
+          4,
+          1
+        ],
+        [
+          47,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          31,
+          3
+        ],
+        [
+          44,
+          2
+        ]
+      ],
+      "component_crossings": [
+        44,
+        0
+      ],
+      "component_determinants": [
+        37,
+        1
+      ],
+      "linking_number": 0
+    },
+    {
+      "face": 6,
+      "edge_labels": [
+        42,
+        66
+      ],
+      "attachment_darts": [
+        [
+          31,
+          0
+        ],
+        [
+          47,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          47,
+          3
+        ],
+        [
+          44,
+          2
+        ]
+      ],
+      "component_crossings": [
+        28,
+        4
+      ],
+      "component_determinants": [
+        15,
+        3
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 7,
+      "edge_labels": [
+        71,
+        93
+      ],
+      "attachment_darts": [
+        [
+          5,
+          1
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          4,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "component_crossings": [
+        3,
+        29
+      ],
+      "component_determinants": [
+        3,
+        5
+      ],
+      "linking_number": 0
+    },
+    {
+      "face": 8,
+      "edge_labels": [
+        31,
+        85
+      ],
+      "attachment_darts": [
+        [
+          11,
+          0
+        ],
+        [
+          38,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          38,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "component_crossings": [
+        16,
+        10
+      ],
+      "component_determinants": [
+        19,
+        3
+      ],
+      "linking_number": -1
+    },
+    {
+      "face": 8,
+      "edge_labels": [
+        31,
+        73
+      ],
+      "attachment_darts": [
+        [
+          11,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          38,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "component_crossings": [
+        17,
+        11
+      ],
+      "component_determinants": [
+        7,
+        1
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 8,
+      "edge_labels": [
+        73,
+        85
+      ],
+      "attachment_darts": [
+        [
+          38,
+          3
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "component_crossings": [
+        1,
+        37
+      ],
+      "component_determinants": [
+        1,
+        53
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 9,
+      "edge_labels": [
+        30,
+        74
+      ],
+      "attachment_darts": [
+        [
+          38,
+          0
+        ],
+        [
+          32,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          32,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "component_crossings": [
+        15,
+        11
+      ],
+      "component_determinants": [
+        7,
+        1
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 10,
+      "edge_labels": [
+        2,
+        60
+      ],
+      "attachment_darts": [
+        [
+          6,
+          0
+        ],
+        [
+          25,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          15,
+          2
+        ],
+        [
+          24,
+          1
+        ]
+      ],
+      "component_crossings": [
+        8,
+        18
+      ],
+      "component_determinants": [
+        3,
+        31
+      ],
+      "linking_number": -3
+    },
+    {
+      "face": 10,
+      "edge_labels": [
+        33,
+        47
+      ],
+      "attachment_darts": [
+        [
+          15,
+          3
+        ],
+        [
+          17,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          15,
+          3
+        ],
+        [
+          17,
+          1
+        ]
+      ],
+      "component_crossings": [
+        34,
+        0
+      ],
+      "component_determinants": [
+        33,
+        1
+      ],
+      "linking_number": 6
+    },
+    {
+      "face": 10,
+      "edge_labels": [
+        23,
+        47
+      ],
+      "attachment_darts": [
+        [
+          15,
+          3
+        ],
+        [
+          24,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          15,
+          3
+        ],
+        [
+          24,
+          2
+        ]
+      ],
+      "component_crossings": [
+        25,
+        1
+      ],
+      "component_determinants": [
+        39,
+        1
+      ],
+      "linking_number": 4
+    },
+    {
+      "face": 10,
+      "edge_labels": [
+        9,
+        47
+      ],
+      "attachment_darts": [
+        [
+          15,
+          3
+        ],
+        [
+          9,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          15,
+          3
+        ],
+        [
+          9,
+          2
+        ]
+      ],
+      "component_crossings": [
+        12,
+        2
+      ],
+      "component_determinants": [
+        9,
+        1
+      ],
+      "linking_number": 3
+    },
+    {
+      "face": 10,
+      "edge_labels": [
+        23,
+        33
+      ],
+      "attachment_darts": [
+        [
+          17,
+          1
+        ],
+        [
+          24,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          17,
+          1
+        ],
+        [
+          24,
+          2
+        ]
+      ],
+      "component_crossings": [
+        38,
+        0
+      ],
+      "component_determinants": [
+        9,
+        1
+      ],
+      "linking_number": -3
+    },
+    {
+      "face": 10,
+      "edge_labels": [
+        9,
+        33
+      ],
+      "attachment_darts": [
+        [
+          17,
+          1
+        ],
+        [
+          9,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          17,
+          1
+        ],
+        [
+          9,
+          2
+        ]
+      ],
+      "component_crossings": [
+        25,
+        1
+      ],
+      "component_determinants": [
+        37,
+        1
+      ],
+      "linking_number": 10
+    },
+    {
+      "face": 10,
+      "edge_labels": [
+        9,
+        23
+      ],
+      "attachment_darts": [
+        [
+          24,
+          2
+        ],
+        [
+          9,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          24,
+          2
+        ],
+        [
+          9,
+          2
+        ]
+      ],
+      "component_crossings": [
+        34,
+        0
+      ],
+      "component_determinants": [
+        123,
+        1
+      ],
+      "linking_number": 6
+    },
+    {
+      "face": 11,
+      "edge_labels": [
+        10,
+        46
+      ],
+      "attachment_darts": [
+        [
+          6,
+          1
+        ],
+        [
+          43,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          6,
+          1
+        ],
+        [
+          43,
+          3
+        ]
+      ],
+      "component_crossings": [
+        14,
+        2
+      ],
+      "component_determinants": [
+        9,
+        1
+      ],
+      "linking_number": -3
+    },
+    {
+      "face": 11,
+      "edge_labels": [
+        2,
+        10
+      ],
+      "attachment_darts": [
+        [
+          6,
+          1
+        ],
+        [
+          15,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          6,
+          1
+        ],
+        [
+          15,
+          2
+        ]
+      ],
+      "component_crossings": [
+        41,
+        1
+      ],
+      "component_determinants": [
+        13,
+        1
+      ],
+      "linking_number": 0
+    },
+    {
+      "face": 11,
+      "edge_labels": [
+        2,
+        46
+      ],
+      "attachment_darts": [
+        [
+          43,
+          3
+        ],
+        [
+          15,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          43,
+          3
+        ],
+        [
+          15,
+          2
+        ]
+      ],
+      "component_crossings": [
+        13,
+        9
+      ],
+      "component_determinants": [
+        9,
+        9
+      ],
+      "linking_number": -3,
+      "component_alexander_coefficients": [
+        [
+          1,
+          -2,
+          2,
+          0,
+          -1,
+          0,
+          2,
+          -2,
+          1
+        ],
+        [
+          -2,
+          5,
+          -2
+        ]
+      ],
+      "resulting_pd": [
+        [
+          83,
+          94,
+          84,
+          95
+        ],
+        [
+          92,
+          81,
+          93,
+          82
+        ],
+        [
+          72,
+          95,
+          73,
+          96
+        ],
+        [
+          73,
+          84,
+          74,
+          85
+        ],
+        [
+          93,
+          70,
+          94,
+          71
+        ],
+        [
+          82,
+          71,
+          83,
+          72
+        ],
+        [
+          2,
+          10,
+          3,
+          9
+        ],
+        [
+          17,
+          5,
+          18,
+          4
+        ],
+        [
+          7,
+          19,
+          8,
+          18
+        ],
+        [
+          8,
+          23,
+          9,
+          24
+        ],
+        [
+          3,
+          25,
+          4,
+          24
+        ],
+        [
+          31,
+          1,
+          32,
+          96
+        ],
+        [
+          27,
+          12,
+          28,
+          13
+        ],
+        [
+          38,
+          5,
+          39,
+          6
+        ],
+        [
+          6,
+          37,
+          7,
+          38
+        ],
+        [
+          1,
+          46,
+          46,
+          47
+        ],
+        [
+          28,
+          44,
+          29,
+          43
+        ],
+        [
+          47,
+          33,
+          48,
+          32
+        ],
+        [
+          51,
+          21,
+          52,
+          20
+        ],
+        [
+          21,
+          53,
+          22,
+          52
+        ],
+        [
+          34,
+          53,
+          35,
+          54
+        ],
+        [
+          50,
+          35,
+          51,
+          36
+        ],
+        [
+          54,
+          50,
+          55,
+          49
+        ],
+        [
+          58,
+          20,
+          59,
+          19
+        ],
+        [
+          22,
+          60,
+          23,
+          59
+        ],
+        [
+          33,
+          60,
+          34,
+          61
+        ],
+        [
+          57,
+          36,
+          58,
+          37
+        ],
+        [
+          61,
+          49,
+          62,
+          48
+        ],
+        [
+          55,
+          63,
+          56,
+          62
+        ],
+        [
+          63,
+          57,
+          64,
+          56
+        ],
+        [
+          13,
+          69,
+          14,
+          68
+        ],
+        [
+          42,
+          69,
+          43,
+          70
+        ],
+        [
+          29,
+          75,
+          30,
+          74
+        ],
+        [
+          76,
+          12,
+          77,
+          11
+        ],
+        [
+          15,
+          79,
+          16,
+          78
+        ],
+        [
+          77,
+          27,
+          78,
+          26
+        ],
+        [
+          40,
+          79,
+          41,
+          80
+        ],
+        [
+          75,
+          44,
+          76,
+          45
+        ],
+        [
+          30,
+          86,
+          31,
+          85
+        ],
+        [
+          87,
+          11,
+          88,
+          10
+        ],
+        [
+          16,
+          90,
+          17,
+          89
+        ],
+        [
+          88,
+          26,
+          89,
+          25
+        ],
+        [
+          39,
+          90,
+          40,
+          91
+        ],
+        [
+          86,
+          45,
+          87,
+          2
+        ],
+        [
+          65,
+          80,
+          66,
+          81
+        ],
+        [
+          64,
+          91,
+          65,
+          92
+        ],
+        [
+          67,
+          15,
+          68,
+          14
+        ],
+        [
+          66,
+          41,
+          67,
+          42
+        ]
+      ]
+    },
+    {
+      "face": 12,
+      "edge_labels": [
+        3,
+        25
+      ],
+      "attachment_darts": [
+        [
+          6,
+          2
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          6,
+          2
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "component_crossings": [
+        30,
+        4
+      ],
+      "component_determinants": [
+        13,
+        1
+      ],
+      "linking_number": 4
+    },
+    {
+      "face": 12,
+      "edge_labels": [
+        10,
+        88
+      ],
+      "attachment_darts": [
+        [
+          41,
+          0
+        ],
+        [
+          39,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          39,
+          2
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "component_crossings": [
+        31,
+        1
+      ],
+      "component_determinants": [
+        5,
+        1
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 13,
+      "edge_labels": [
+        3,
+        9
+      ],
+      "attachment_darts": [
+        [
+          6,
+          3
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          9,
+          2
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "component_crossings": [
+        42,
+        0
+      ],
+      "component_determinants": [
+        13,
+        1
+      ],
+      "linking_number": 0
+    },
+    {
+      "face": 14,
+      "edge_labels": [
+        17,
+        89
+      ],
+      "attachment_darts": [
+        [
+          7,
+          0
+        ],
+        [
+          40,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          40,
+          2
+        ],
+        [
+          41,
+          2
+        ]
+      ],
+      "component_crossings": [
+        26,
+        2
+      ],
+      "component_determinants": [
+        1,
+        1
+      ],
+      "linking_number": 1,
+      "component_alexander_coefficients": [
+        [
+          -1,
+          3,
+          -2,
+          -4,
+          10,
+          -6,
+          -7,
+          15,
+          -7,
+          -6,
+          10,
+          -4,
+          -2,
+          3,
+          -1
+        ],
+        [
+          1
+        ]
+      ],
+      "resulting_pd": [
+        [
+          83,
+          94,
+          84,
+          95
+        ],
+        [
+          92,
+          81,
+          93,
+          82
+        ],
+        [
+          72,
+          95,
+          73,
+          96
+        ],
+        [
+          73,
+          84,
+          74,
+          85
+        ],
+        [
+          93,
+          70,
+          94,
+          71
+        ],
+        [
+          82,
+          71,
+          83,
+          72
+        ],
+        [
+          2,
+          10,
+          3,
+          9
+        ],
+        [
+          17,
+          5,
+          18,
+          4
+        ],
+        [
+          7,
+          19,
+          8,
+          18
+        ],
+        [
+          8,
+          23,
+          9,
+          24
+        ],
+        [
+          3,
+          25,
+          4,
+          24
+        ],
+        [
+          31,
+          1,
+          32,
+          96
+        ],
+        [
+          27,
+          12,
+          28,
+          13
+        ],
+        [
+          38,
+          5,
+          39,
+          6
+        ],
+        [
+          6,
+          37,
+          7,
+          38
+        ],
+        [
+          1,
+          46,
+          2,
+          47
+        ],
+        [
+          28,
+          44,
+          29,
+          43
+        ],
+        [
+          47,
+          33,
+          48,
+          32
+        ],
+        [
+          51,
+          21,
+          52,
+          20
+        ],
+        [
+          21,
+          53,
+          22,
+          52
+        ],
+        [
+          34,
+          53,
+          35,
+          54
+        ],
+        [
+          50,
+          35,
+          51,
+          36
+        ],
+        [
+          54,
+          50,
+          55,
+          49
+        ],
+        [
+          58,
+          20,
+          59,
+          19
+        ],
+        [
+          22,
+          60,
+          23,
+          59
+        ],
+        [
+          33,
+          60,
+          34,
+          61
+        ],
+        [
+          57,
+          36,
+          58,
+          37
+        ],
+        [
+          61,
+          49,
+          62,
+          48
+        ],
+        [
+          55,
+          63,
+          56,
+          62
+        ],
+        [
+          63,
+          57,
+          64,
+          56
+        ],
+        [
+          13,
+          69,
+          14,
+          68
+        ],
+        [
+          42,
+          69,
+          43,
+          70
+        ],
+        [
+          29,
+          75,
+          30,
+          74
+        ],
+        [
+          76,
+          12,
+          77,
+          11
+        ],
+        [
+          15,
+          79,
+          16,
+          78
+        ],
+        [
+          77,
+          27,
+          78,
+          26
+        ],
+        [
+          40,
+          79,
+          41,
+          80
+        ],
+        [
+          75,
+          44,
+          76,
+          45
+        ],
+        [
+          30,
+          86,
+          31,
+          85
+        ],
+        [
+          87,
+          11,
+          88,
+          10
+        ],
+        [
+          16,
+          90,
+          89,
+          89
+        ],
+        [
+          88,
+          26,
+          17,
+          25
+        ],
+        [
+          39,
+          90,
+          40,
+          91
+        ],
+        [
+          86,
+          45,
+          87,
+          46
+        ],
+        [
+          65,
+          80,
+          66,
+          81
+        ],
+        [
+          64,
+          91,
+          65,
+          92
+        ],
+        [
+          67,
+          15,
+          68,
+          14
+        ],
+        [
+          66,
+          41,
+          67,
+          42
+        ]
+      ]
+    },
+    {
+      "face": 14,
+      "edge_labels": [
+        17,
+        25
+      ],
+      "attachment_darts": [
+        [
+          7,
+          0
+        ],
+        [
+          41,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          40,
+          2
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "component_crossings": [
+        40,
+        0
+      ],
+      "component_determinants": [
+        99,
+        1
+      ],
+      "linking_number": -3
+    },
+    {
+      "face": 14,
+      "edge_labels": [
+        25,
+        89
+      ],
+      "attachment_darts": [
+        [
+          40,
+          3
+        ],
+        [
+          41,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          41,
+          2
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "component_crossings": [
+        22,
+        6
+      ],
+      "component_determinants": [
+        5,
+        3
+      ],
+      "linking_number": 0
+    },
+    {
+      "face": 15,
+      "edge_labels": [
+        5,
+        39
+      ],
+      "attachment_darts": [
+        [
+          7,
+          1
+        ],
+        [
+          13,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          7,
+          1
+        ],
+        [
+          13,
+          2
+        ]
+      ],
+      "component_crossings": [
+        19,
+        5
+      ],
+      "component_determinants": [
+        15,
+        1
+      ],
+      "linking_number": 8
+    },
+    {
+      "face": 15,
+      "edge_labels": [
+        5,
+        17
+      ],
+      "attachment_darts": [
+        [
+          7,
+          1
+        ],
+        [
+          40,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          7,
+          1
+        ],
+        [
+          40,
+          2
+        ]
+      ],
+      "component_crossings": [
+        36,
+        0
+      ],
+      "component_determinants": [
+        41,
+        1
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 15,
+      "edge_labels": [
+        17,
+        39
+      ],
+      "attachment_darts": [
+        [
+          13,
+          2
+        ],
+        [
+          40,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          13,
+          2
+        ],
+        [
+          40,
+          2
+        ]
+      ],
+      "component_crossings": [
+        26,
+        0
+      ],
+      "component_determinants": [
+        9,
+        1
+      ],
+      "linking_number": -3
+    },
+    {
+      "face": 16,
+      "edge_labels": [
+        18,
+        38
+      ],
+      "attachment_darts": [
+        [
+          7,
+          2
+        ],
+        [
+          14,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          7,
+          2
+        ],
+        [
+          14,
+          3
+        ]
+      ],
+      "component_crossings": [
+        28,
+        0
+      ],
+      "component_determinants": [
+        9,
+        1
+      ],
+      "linking_number": 3
+    },
+    {
+      "face": 16,
+      "edge_labels": [
+        5,
+        7
+      ],
+      "attachment_darts": [
+        [
+          8,
+          0
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          14,
+          2
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "component_crossings": [
+        46,
+        0
+      ],
+      "component_determinants": [
+        1,
+        1
+      ],
+      "linking_number": 1,
+      "component_alexander_coefficients": [
+        [
+          -1,
+          4,
+          -4,
+          -7,
+          21,
+          -13,
+          -22,
+          48,
+          -25,
+          -32,
+          63,
+          -32,
+          -25,
+          48,
+          -22,
+          -13,
+          21,
+          -7,
+          -4,
+          4,
+          -1
+        ],
+        [
+          1
+        ]
+      ],
+      "resulting_pd": [
+        [
+          83,
+          94,
+          84,
+          95
+        ],
+        [
+          92,
+          81,
+          93,
+          82
+        ],
+        [
+          72,
+          95,
+          73,
+          96
+        ],
+        [
+          73,
+          84,
+          74,
+          85
+        ],
+        [
+          93,
+          70,
+          94,
+          71
+        ],
+        [
+          82,
+          71,
+          83,
+          72
+        ],
+        [
+          2,
+          10,
+          3,
+          9
+        ],
+        [
+          17,
+          7,
+          18,
+          4
+        ],
+        [
+          7,
+          19,
+          8,
+          18
+        ],
+        [
+          8,
+          23,
+          9,
+          24
+        ],
+        [
+          3,
+          25,
+          4,
+          24
+        ],
+        [
+          31,
+          1,
+          32,
+          96
+        ],
+        [
+          27,
+          12,
+          28,
+          13
+        ],
+        [
+          38,
+          5,
+          39,
+          6
+        ],
+        [
+          6,
+          37,
+          5,
+          38
+        ],
+        [
+          1,
+          46,
+          2,
+          47
+        ],
+        [
+          28,
+          44,
+          29,
+          43
+        ],
+        [
+          47,
+          33,
+          48,
+          32
+        ],
+        [
+          51,
+          21,
+          52,
+          20
+        ],
+        [
+          21,
+          53,
+          22,
+          52
+        ],
+        [
+          34,
+          53,
+          35,
+          54
+        ],
+        [
+          50,
+          35,
+          51,
+          36
+        ],
+        [
+          54,
+          50,
+          55,
+          49
+        ],
+        [
+          58,
+          20,
+          59,
+          19
+        ],
+        [
+          22,
+          60,
+          23,
+          59
+        ],
+        [
+          33,
+          60,
+          34,
+          61
+        ],
+        [
+          57,
+          36,
+          58,
+          37
+        ],
+        [
+          61,
+          49,
+          62,
+          48
+        ],
+        [
+          55,
+          63,
+          56,
+          62
+        ],
+        [
+          63,
+          57,
+          64,
+          56
+        ],
+        [
+          13,
+          69,
+          14,
+          68
+        ],
+        [
+          42,
+          69,
+          43,
+          70
+        ],
+        [
+          29,
+          75,
+          30,
+          74
+        ],
+        [
+          76,
+          12,
+          77,
+          11
+        ],
+        [
+          15,
+          79,
+          16,
+          78
+        ],
+        [
+          77,
+          27,
+          78,
+          26
+        ],
+        [
+          40,
+          79,
+          41,
+          80
+        ],
+        [
+          75,
+          44,
+          76,
+          45
+        ],
+        [
+          30,
+          86,
+          31,
+          85
+        ],
+        [
+          87,
+          11,
+          88,
+          10
+        ],
+        [
+          16,
+          90,
+          17,
+          89
+        ],
+        [
+          88,
+          26,
+          89,
+          25
+        ],
+        [
+          39,
+          90,
+          40,
+          91
+        ],
+        [
+          86,
+          45,
+          87,
+          46
+        ],
+        [
+          65,
+          80,
+          66,
+          81
+        ],
+        [
+          64,
+          91,
+          65,
+          92
+        ],
+        [
+          67,
+          15,
+          68,
+          14
+        ],
+        [
+          66,
+          41,
+          67,
+          42
+        ]
+      ]
+    },
+    {
+      "face": 17,
+      "edge_labels": [
+        4,
+        24
+      ],
+      "attachment_darts": [
+        [
+          7,
+          3
+        ],
+        [
+          10,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          10,
+          2
+        ],
+        [
+          9,
+          3
+        ]
+      ],
+      "component_crossings": [
+        31,
+        3
+      ],
+      "component_determinants": [
+        13,
+        1
+      ],
+      "linking_number": 4
+    },
+    {
+      "face": 17,
+      "edge_labels": [
+        4,
+        8
+      ],
+      "attachment_darts": [
+        [
+          7,
+          3
+        ],
+        [
+          9,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          10,
+          2
+        ],
+        [
+          8,
+          2
+        ]
+      ],
+      "component_crossings": [
+        44,
+        0
+      ],
+      "component_determinants": [
+        13,
+        1
+      ],
+      "linking_number": 0
+    },
+    {
+      "face": 17,
+      "edge_labels": [
+        4,
+        18
+      ],
+      "attachment_darts": [
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          10,
+          2
+        ],
+        [
+          7,
+          2
+        ]
+      ],
+      "component_crossings": [
+        35,
+        1
+      ],
+      "component_determinants": [
+        41,
+        1
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 17,
+      "edge_labels": [
+        8,
+        24
+      ],
+      "attachment_darts": [
+        [
+          10,
+          3
+        ],
+        [
+          9,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          9,
+          3
+        ],
+        [
+          8,
+          2
+        ]
+      ],
+      "component_crossings": [
+        33,
+        1
+      ],
+      "component_determinants": [
+        123,
+        1
+      ],
+      "linking_number": 6
+    },
+    {
+      "face": 17,
+      "edge_labels": [
+        18,
+        24
+      ],
+      "attachment_darts": [
+        [
+          10,
+          3
+        ],
+        [
+          8,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          9,
+          3
+        ],
+        [
+          7,
+          2
+        ]
+      ],
+      "component_crossings": [
+        42,
+        0
+      ],
+      "component_determinants": [
+        53,
+        1
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 17,
+      "edge_labels": [
+        8,
+        18
+      ],
+      "attachment_darts": [
+        [
+          9,
+          0
+        ],
+        [
+          8,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          8,
+          2
+        ],
+        [
+          7,
+          2
+        ]
+      ],
+      "component_crossings": [
+        38,
+        0
+      ],
+      "component_determinants": [
+        7,
+        1
+      ],
+      "linking_number": 3
+    },
+    {
+      "face": 18,
+      "edge_labels": [
+        19,
+        37
+      ],
+      "attachment_darts": [
+        [
+          8,
+          1
+        ],
+        [
+          26,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          8,
+          1
+        ],
+        [
+          26,
+          3
+        ]
+      ],
+      "component_crossings": [
+        30,
+        0
+      ],
+      "component_determinants": [
+        9,
+        1
+      ],
+      "linking_number": -3
+    },
+    {
+      "face": 18,
+      "edge_labels": [
+        7,
+        19
+      ],
+      "attachment_darts": [
+        [
+          8,
+          1
+        ],
+        [
+          14,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          8,
+          1
+        ],
+        [
+          14,
+          2
+        ]
+      ],
+      "component_crossings": [
+        37,
+        1
+      ],
+      "component_determinants": [
+        7,
+        1
+      ],
+      "linking_number": 3
+    },
+    {
+      "face": 18,
+      "edge_labels": [
+        7,
+        37
+      ],
+      "attachment_darts": [
+        [
+          26,
+          3
+        ],
+        [
+          14,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          26,
+          3
+        ],
+        [
+          14,
+          2
+        ]
+      ],
+      "component_crossings": [
+        21,
+        3
+      ],
+      "component_determinants": [
+        15,
+        1
+      ],
+      "linking_number": 8
+    },
+    {
+      "face": 19,
+      "edge_labels": [
+        23,
+        59
+      ],
+      "attachment_darts": [
+        [
+          9,
+          1
+        ],
+        [
+          24,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          24,
+          2
+        ],
+        [
+          23,
+          2
+        ]
+      ],
+      "component_crossings": [
+        18,
+        6
+      ],
+      "component_determinants": [
+        13,
+        5
+      ],
+      "linking_number": 0
+    },
+    {
+      "face": 19,
+      "edge_labels": [
+        19,
+        23
+      ],
+      "attachment_darts": [
+        [
+          9,
+          1
+        ],
+        [
+          23,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          24,
+          2
+        ],
+        [
+          8,
+          1
+        ]
+      ],
+      "component_crossings": [
+        44,
+        0
+      ],
+      "component_determinants": [
+        53,
+        1
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 19,
+      "edge_labels": [
+        19,
+        59
+      ],
+      "attachment_darts": [
+        [
+          24,
+          3
+        ],
+        [
+          23,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          23,
+          2
+        ],
+        [
+          8,
+          1
+        ]
+      ],
+      "component_crossings": [
+        17,
+        9
+      ],
+      "component_determinants": [
+        13,
+        11
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 20,
+      "edge_labels": [
+        1,
+        31
+      ],
+      "attachment_darts": [
+        [
+          11,
+          1
+        ],
+        [
+          38,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          11,
+          1
+        ],
+        [
+          38,
+          2
+        ]
+      ],
+      "component_crossings": [
+        24,
+        6
+      ],
+      "component_determinants": [
+        15,
+        1
+      ],
+      "linking_number": -6
+    },
+    {
+      "face": 20,
+      "edge_labels": [
+        46,
+        86
+      ],
+      "attachment_darts": [
+        [
+          15,
+          1
+        ],
+        [
+          43,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          43,
+          3
+        ],
+        [
+          38,
+          1
+        ]
+      ],
+      "component_crossings": [
+        7,
+        15
+      ],
+      "component_determinants": [
+        9,
+        3
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 21,
+      "edge_labels": [
+        1,
+        47
+      ],
+      "attachment_darts": [
+        [
+          17,
+          0
+        ],
+        [
+          15,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          15,
+          3
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "component_crossings": [
+        12,
+        10
+      ],
+      "component_determinants": [
+        9,
+        9
+      ],
+      "linking_number": -3,
+      "component_alexander_coefficients": [
+        [
+          1,
+          -2,
+          2,
+          0,
+          -1,
+          0,
+          2,
+          -2,
+          1
+        ],
+        [
+          -2,
+          5,
+          -2
+        ]
+      ],
+      "resulting_pd": [
+        [
+          83,
+          94,
+          84,
+          95
+        ],
+        [
+          92,
+          81,
+          93,
+          82
+        ],
+        [
+          72,
+          95,
+          73,
+          96
+        ],
+        [
+          73,
+          84,
+          74,
+          85
+        ],
+        [
+          93,
+          70,
+          94,
+          71
+        ],
+        [
+          82,
+          71,
+          83,
+          72
+        ],
+        [
+          2,
+          10,
+          3,
+          9
+        ],
+        [
+          17,
+          5,
+          18,
+          4
+        ],
+        [
+          7,
+          19,
+          8,
+          18
+        ],
+        [
+          8,
+          23,
+          9,
+          24
+        ],
+        [
+          3,
+          25,
+          4,
+          24
+        ],
+        [
+          31,
+          47,
+          32,
+          96
+        ],
+        [
+          27,
+          12,
+          28,
+          13
+        ],
+        [
+          38,
+          5,
+          39,
+          6
+        ],
+        [
+          6,
+          37,
+          7,
+          38
+        ],
+        [
+          1,
+          46,
+          2,
+          1
+        ],
+        [
+          28,
+          44,
+          29,
+          43
+        ],
+        [
+          47,
+          33,
+          48,
+          32
+        ],
+        [
+          51,
+          21,
+          52,
+          20
+        ],
+        [
+          21,
+          53,
+          22,
+          52
+        ],
+        [
+          34,
+          53,
+          35,
+          54
+        ],
+        [
+          50,
+          35,
+          51,
+          36
+        ],
+        [
+          54,
+          50,
+          55,
+          49
+        ],
+        [
+          58,
+          20,
+          59,
+          19
+        ],
+        [
+          22,
+          60,
+          23,
+          59
+        ],
+        [
+          33,
+          60,
+          34,
+          61
+        ],
+        [
+          57,
+          36,
+          58,
+          37
+        ],
+        [
+          61,
+          49,
+          62,
+          48
+        ],
+        [
+          55,
+          63,
+          56,
+          62
+        ],
+        [
+          63,
+          57,
+          64,
+          56
+        ],
+        [
+          13,
+          69,
+          14,
+          68
+        ],
+        [
+          42,
+          69,
+          43,
+          70
+        ],
+        [
+          29,
+          75,
+          30,
+          74
+        ],
+        [
+          76,
+          12,
+          77,
+          11
+        ],
+        [
+          15,
+          79,
+          16,
+          78
+        ],
+        [
+          77,
+          27,
+          78,
+          26
+        ],
+        [
+          40,
+          79,
+          41,
+          80
+        ],
+        [
+          75,
+          44,
+          76,
+          45
+        ],
+        [
+          30,
+          86,
+          31,
+          85
+        ],
+        [
+          87,
+          11,
+          88,
+          10
+        ],
+        [
+          16,
+          90,
+          17,
+          89
+        ],
+        [
+          88,
+          26,
+          89,
+          25
+        ],
+        [
+          39,
+          90,
+          40,
+          91
+        ],
+        [
+          86,
+          45,
+          87,
+          46
+        ],
+        [
+          65,
+          80,
+          66,
+          81
+        ],
+        [
+          64,
+          91,
+          65,
+          92
+        ],
+        [
+          67,
+          15,
+          68,
+          14
+        ],
+        [
+          66,
+          41,
+          67,
+          42
+        ]
+      ]
+    },
+    {
+      "face": 22,
+      "edge_labels": [
+        15,
+        27
+      ],
+      "attachment_darts": [
+        [
+          12,
+          0
+        ],
+        [
+          34,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          35,
+          1
+        ],
+        [
+          46,
+          1
+        ]
+      ],
+      "component_crossings": [
+        36,
+        0
+      ],
+      "component_determinants": [
+        11,
+        1
+      ],
+      "linking_number": -5
+    },
+    {
+      "face": 22,
+      "edge_labels": [
+        13,
+        27
+      ],
+      "attachment_darts": [
+        [
+          12,
+          0
+        ],
+        [
+          30,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          35,
+          1
+        ],
+        [
+          12,
+          3
+        ]
+      ],
+      "component_crossings": [
+        34,
+        0
+      ],
+      "component_determinants": [
+        123,
+        1
+      ],
+      "linking_number": -6
+    },
+    {
+      "face": 22,
+      "edge_labels": [
+        68,
+        78
+      ],
+      "attachment_darts": [
+        [
+          35,
+          2
+        ],
+        [
+          46,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          35,
+          2
+        ],
+        [
+          46,
+          2
+        ]
+      ],
+      "component_crossings": [
+        38,
+        0
+      ],
+      "component_determinants": [
+        53,
+        1
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 22,
+      "edge_labels": [
+        13,
+        15
+      ],
+      "attachment_darts": [
+        [
+          34,
+          0
+        ],
+        [
+          30,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          46,
+          1
+        ],
+        [
+          12,
+          3
+        ]
+      ],
+      "component_crossings": [
+        46,
+        0
+      ],
+      "component_determinants": [
+        3,
+        1
+      ],
+      "linking_number": -1
+    },
+    {
+      "face": 23,
+      "edge_labels": [
+        27,
+        77
+      ],
+      "attachment_darts": [
+        [
+          33,
+          2
+        ],
+        [
+          35,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          33,
+          2
+        ],
+        [
+          35,
+          1
+        ]
+      ],
+      "component_crossings": [
+        12,
+        14
+      ],
+      "component_determinants": [
+        7,
+        1
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 24,
+      "edge_labels": [
+        28,
+        44
+      ],
+      "attachment_darts": [
+        [
+          12,
+          2
+        ],
+        [
+          16,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          12,
+          2
+        ],
+        [
+          16,
+          1
+        ]
+      ],
+      "component_crossings": [
+        33,
+        1
+      ],
+      "component_determinants": [
+        113,
+        1
+      ],
+      "linking_number": 3
+    },
+    {
+      "face": 24,
+      "edge_labels": [
+        28,
+        76
+      ],
+      "attachment_darts": [
+        [
+          12,
+          2
+        ],
+        [
+          37,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          12,
+          2
+        ],
+        [
+          37,
+          2
+        ]
+      ],
+      "component_crossings": [
+        14,
+        14
+      ],
+      "component_determinants": [
+        7,
+        1
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 24,
+      "edge_labels": [
+        12,
+        28
+      ],
+      "attachment_darts": [
+        [
+          12,
+          2
+        ],
+        [
+          33,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          12,
+          2
+        ],
+        [
+          33,
+          1
+        ]
+      ],
+      "component_crossings": [
+        33,
+        1
+      ],
+      "component_determinants": [
+        123,
+        1
+      ],
+      "linking_number": -6
+    },
+    {
+      "face": 24,
+      "edge_labels": [
+        44,
+        76
+      ],
+      "attachment_darts": [
+        [
+          16,
+          1
+        ],
+        [
+          37,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          16,
+          1
+        ],
+        [
+          37,
+          2
+        ]
+      ],
+      "component_crossings": [
+        21,
+        5
+      ],
+      "component_determinants": [
+        31,
+        3
+      ],
+      "linking_number": 3
+    },
+    {
+      "face": 24,
+      "edge_labels": [
+        12,
+        44
+      ],
+      "attachment_darts": [
+        [
+          16,
+          1
+        ],
+        [
+          33,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          16,
+          1
+        ],
+        [
+          33,
+          1
+        ]
+      ],
+      "component_crossings": [
+        18,
+        2
+      ],
+      "component_determinants": [
+        9,
+        1
+      ],
+      "linking_number": -3
+    },
+    {
+      "face": 24,
+      "edge_labels": [
+        12,
+        76
+      ],
+      "attachment_darts": [
+        [
+          37,
+          2
+        ],
+        [
+          33,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          37,
+          2
+        ],
+        [
+          33,
+          1
+        ]
+      ],
+      "component_crossings": [
+        5,
+        21
+      ],
+      "component_determinants": [
+        1,
+        7
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 25,
+      "edge_labels": [
+        13,
+        69
+      ],
+      "attachment_darts": [
+        [
+          12,
+          3
+        ],
+        [
+          30,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          12,
+          3
+        ],
+        [
+          30,
+          1
+        ]
+      ],
+      "component_crossings": [
+        9,
+        17
+      ],
+      "component_determinants": [
+        3,
+        5
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 25,
+      "edge_labels": [
+        13,
+        43
+      ],
+      "attachment_darts": [
+        [
+          12,
+          3
+        ],
+        [
+          31,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          12,
+          3
+        ],
+        [
+          31,
+          2
+        ]
+      ],
+      "component_crossings": [
+        18,
+        0
+      ],
+      "component_determinants": [
+        9,
+        1
+      ],
+      "linking_number": -3
+    },
+    {
+      "face": 25,
+      "edge_labels": [
+        43,
+        69
+      ],
+      "attachment_darts": [
+        [
+          30,
+          1
+        ],
+        [
+          31,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          30,
+          1
+        ],
+        [
+          31,
+          2
+        ]
+      ],
+      "component_crossings": [
+        26,
+        4
+      ],
+      "component_determinants": [
+        23,
+        3
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 26,
+      "edge_labels": [
+        6,
+        38
+      ],
+      "attachment_darts": [
+        [
+          13,
+          0
+        ],
+        [
+          14,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          14,
+          3
+        ],
+        [
+          13,
+          3
+        ]
+      ],
+      "component_crossings": [
+        20,
+        4
+      ],
+      "component_determinants": [
+        15,
+        1
+      ],
+      "linking_number": 8
+    },
+    {
+      "face": 27,
+      "edge_labels": [
+        6,
+        64
+      ],
+      "attachment_darts": [
+        [
+          13,
+          3
+        ],
+        [
+          29,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          13,
+          3
+        ],
+        [
+          29,
+          2
+        ]
+      ],
+      "component_crossings": [
+        8,
+        18
+      ],
+      "component_determinants": [
+        3,
+        3
+      ],
+      "linking_number": 3
+    },
+    {
+      "face": 27,
+      "edge_labels": [
+        37,
+        57
+      ],
+      "attachment_darts": [
+        [
+          14,
+          1
+        ],
+        [
+          26,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          26,
+          3
+        ],
+        [
+          29,
+          1
+        ]
+      ],
+      "component_crossings": [
+        29,
+        1
+      ],
+      "component_determinants": [
+        29,
+        1
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 27,
+      "edge_labels": [
+        37,
+        91
+      ],
+      "attachment_darts": [
+        [
+          14,
+          1
+        ],
+        [
+          45,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          26,
+          3
+        ],
+        [
+          42,
+          3
+        ]
+      ],
+      "component_crossings": [
+        13,
+        7
+      ],
+      "component_determinants": [
+        9,
+        1
+      ],
+      "linking_number": -2
+    },
+    {
+      "face": 27,
+      "edge_labels": [
+        37,
+        39
+      ],
+      "attachment_darts": [
+        [
+          14,
+          1
+        ],
+        [
+          42,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          26,
+          3
+        ],
+        [
+          13,
+          2
+        ]
+      ],
+      "component_crossings": [
+        46,
+        0
+      ],
+      "component_determinants": [
+        1,
+        1
+      ],
+      "linking_number": 1,
+      "component_alexander_coefficients": [
+        [
+          -1,
+          4,
+          -4,
+          -7,
+          21,
+          -13,
+          -22,
+          48,
+          -25,
+          -32,
+          63,
+          -32,
+          -25,
+          48,
+          -22,
+          -13,
+          21,
+          -7,
+          -4,
+          4,
+          -1
+        ],
+        [
+          1
+        ]
+      ],
+      "resulting_pd": [
+        [
+          83,
+          94,
+          84,
+          95
+        ],
+        [
+          92,
+          81,
+          93,
+          82
+        ],
+        [
+          72,
+          95,
+          73,
+          96
+        ],
+        [
+          73,
+          84,
+          74,
+          85
+        ],
+        [
+          93,
+          70,
+          94,
+          71
+        ],
+        [
+          82,
+          71,
+          83,
+          72
+        ],
+        [
+          2,
+          10,
+          3,
+          9
+        ],
+        [
+          17,
+          5,
+          18,
+          4
+        ],
+        [
+          7,
+          19,
+          8,
+          18
+        ],
+        [
+          8,
+          23,
+          9,
+          24
+        ],
+        [
+          3,
+          25,
+          4,
+          24
+        ],
+        [
+          31,
+          1,
+          32,
+          96
+        ],
+        [
+          27,
+          12,
+          28,
+          13
+        ],
+        [
+          38,
+          5,
+          37,
+          6
+        ],
+        [
+          6,
+          37,
+          7,
+          38
+        ],
+        [
+          1,
+          46,
+          2,
+          47
+        ],
+        [
+          28,
+          44,
+          29,
+          43
+        ],
+        [
+          47,
+          33,
+          48,
+          32
+        ],
+        [
+          51,
+          21,
+          52,
+          20
+        ],
+        [
+          21,
+          53,
+          22,
+          52
+        ],
+        [
+          34,
+          53,
+          35,
+          54
+        ],
+        [
+          50,
+          35,
+          51,
+          36
+        ],
+        [
+          54,
+          50,
+          55,
+          49
+        ],
+        [
+          58,
+          20,
+          59,
+          19
+        ],
+        [
+          22,
+          60,
+          23,
+          59
+        ],
+        [
+          33,
+          60,
+          34,
+          61
+        ],
+        [
+          57,
+          36,
+          58,
+          39
+        ],
+        [
+          61,
+          49,
+          62,
+          48
+        ],
+        [
+          55,
+          63,
+          56,
+          62
+        ],
+        [
+          63,
+          57,
+          64,
+          56
+        ],
+        [
+          13,
+          69,
+          14,
+          68
+        ],
+        [
+          42,
+          69,
+          43,
+          70
+        ],
+        [
+          29,
+          75,
+          30,
+          74
+        ],
+        [
+          76,
+          12,
+          77,
+          11
+        ],
+        [
+          15,
+          79,
+          16,
+          78
+        ],
+        [
+          77,
+          27,
+          78,
+          26
+        ],
+        [
+          40,
+          79,
+          41,
+          80
+        ],
+        [
+          75,
+          44,
+          76,
+          45
+        ],
+        [
+          30,
+          86,
+          31,
+          85
+        ],
+        [
+          87,
+          11,
+          88,
+          10
+        ],
+        [
+          16,
+          90,
+          17,
+          89
+        ],
+        [
+          88,
+          26,
+          89,
+          25
+        ],
+        [
+          39,
+          90,
+          40,
+          91
+        ],
+        [
+          86,
+          45,
+          87,
+          46
+        ],
+        [
+          65,
+          80,
+          66,
+          81
+        ],
+        [
+          64,
+          91,
+          65,
+          92
+        ],
+        [
+          67,
+          15,
+          68,
+          14
+        ],
+        [
+          66,
+          41,
+          67,
+          42
+        ]
+      ]
+    },
+    {
+      "face": 27,
+      "edge_labels": [
+        57,
+        91
+      ],
+      "attachment_darts": [
+        [
+          26,
+          0
+        ],
+        [
+          45,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          29,
+          1
+        ],
+        [
+          42,
+          3
+        ]
+      ],
+      "component_crossings": [
+        3,
+        17
+      ],
+      "component_determinants": [
+        3,
+        15
+      ],
+      "linking_number": -1
+    },
+    {
+      "face": 27,
+      "edge_labels": [
+        39,
+        57
+      ],
+      "attachment_darts": [
+        [
+          26,
+          0
+        ],
+        [
+          42,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          29,
+          1
+        ],
+        [
+          13,
+          2
+        ]
+      ],
+      "component_crossings": [
+        31,
+        1
+      ],
+      "component_determinants": [
+        23,
+        1
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 27,
+      "edge_labels": [
+        39,
+        91
+      ],
+      "attachment_darts": [
+        [
+          45,
+          1
+        ],
+        [
+          42,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          42,
+          3
+        ],
+        [
+          13,
+          2
+        ]
+      ],
+      "component_crossings": [
+        13,
+        9
+      ],
+      "component_determinants": [
+        9,
+        9
+      ],
+      "linking_number": -3,
+      "component_alexander_coefficients": [
+        [
+          1,
+          -2,
+          2,
+          0,
+          -1,
+          0,
+          2,
+          -2,
+          1
+        ],
+        [
+          -2,
+          5,
+          -2
+        ]
+      ],
+      "resulting_pd": [
+        [
+          83,
+          94,
+          84,
+          95
+        ],
+        [
+          92,
+          81,
+          93,
+          82
+        ],
+        [
+          72,
+          95,
+          73,
+          96
+        ],
+        [
+          73,
+          84,
+          74,
+          85
+        ],
+        [
+          93,
+          70,
+          94,
+          71
+        ],
+        [
+          82,
+          71,
+          83,
+          72
+        ],
+        [
+          2,
+          10,
+          3,
+          9
+        ],
+        [
+          17,
+          5,
+          18,
+          4
+        ],
+        [
+          7,
+          19,
+          8,
+          18
+        ],
+        [
+          8,
+          23,
+          9,
+          24
+        ],
+        [
+          3,
+          25,
+          4,
+          24
+        ],
+        [
+          31,
+          1,
+          32,
+          96
+        ],
+        [
+          27,
+          12,
+          28,
+          13
+        ],
+        [
+          38,
+          5,
+          91,
+          6
+        ],
+        [
+          6,
+          37,
+          7,
+          38
+        ],
+        [
+          1,
+          46,
+          2,
+          47
+        ],
+        [
+          28,
+          44,
+          29,
+          43
+        ],
+        [
+          47,
+          33,
+          48,
+          32
+        ],
+        [
+          51,
+          21,
+          52,
+          20
+        ],
+        [
+          21,
+          53,
+          22,
+          52
+        ],
+        [
+          34,
+          53,
+          35,
+          54
+        ],
+        [
+          50,
+          35,
+          51,
+          36
+        ],
+        [
+          54,
+          50,
+          55,
+          49
+        ],
+        [
+          58,
+          20,
+          59,
+          19
+        ],
+        [
+          22,
+          60,
+          23,
+          59
+        ],
+        [
+          33,
+          60,
+          34,
+          61
+        ],
+        [
+          57,
+          36,
+          58,
+          37
+        ],
+        [
+          61,
+          49,
+          62,
+          48
+        ],
+        [
+          55,
+          63,
+          56,
+          62
+        ],
+        [
+          63,
+          57,
+          64,
+          56
+        ],
+        [
+          13,
+          69,
+          14,
+          68
+        ],
+        [
+          42,
+          69,
+          43,
+          70
+        ],
+        [
+          29,
+          75,
+          30,
+          74
+        ],
+        [
+          76,
+          12,
+          77,
+          11
+        ],
+        [
+          15,
+          79,
+          16,
+          78
+        ],
+        [
+          77,
+          27,
+          78,
+          26
+        ],
+        [
+          40,
+          79,
+          41,
+          80
+        ],
+        [
+          75,
+          44,
+          76,
+          45
+        ],
+        [
+          30,
+          86,
+          31,
+          85
+        ],
+        [
+          87,
+          11,
+          88,
+          10
+        ],
+        [
+          16,
+          90,
+          17,
+          89
+        ],
+        [
+          88,
+          26,
+          89,
+          25
+        ],
+        [
+          39,
+          90,
+          40,
+          39
+        ],
+        [
+          86,
+          45,
+          87,
+          46
+        ],
+        [
+          65,
+          80,
+          66,
+          81
+        ],
+        [
+          64,
+          91,
+          65,
+          92
+        ],
+        [
+          67,
+          15,
+          68,
+          14
+        ],
+        [
+          66,
+          41,
+          67,
+          42
+        ]
+      ]
+    },
+    {
+      "face": 28,
+      "edge_labels": [
+        29,
+        75
+      ],
+      "attachment_darts": [
+        [
+          16,
+          2
+        ],
+        [
+          32,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          16,
+          2
+        ],
+        [
+          32,
+          1
+        ]
+      ],
+      "component_crossings": [
+        14,
+        12
+      ],
+      "component_determinants": [
+        7,
+        1
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 29,
+      "edge_labels": [
+        33,
+        61
+      ],
+      "attachment_darts": [
+        [
+          27,
+          0
+        ],
+        [
+          25,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          25,
+          3
+        ],
+        [
+          17,
+          1
+        ]
+      ],
+      "component_crossings": [
+        25,
+        5
+      ],
+      "component_determinants": [
+        5,
+        1
+      ],
+      "linking_number": 0
+    },
+    {
+      "face": 30,
+      "edge_labels": [
+        36,
+        58
+      ],
+      "attachment_darts": [
+        [
+          21,
+          3
+        ],
+        [
+          26,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          21,
+          3
+        ],
+        [
+          26,
+          2
+        ]
+      ],
+      "component_crossings": [
+        28,
+        2
+      ],
+      "component_determinants": [
+        29,
+        1
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 30,
+      "edge_labels": [
+        20,
+        36
+      ],
+      "attachment_darts": [
+        [
+          21,
+          3
+        ],
+        [
+          23,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          21,
+          3
+        ],
+        [
+          23,
+          1
+        ]
+      ],
+      "component_crossings": [
+        32,
+        0
+      ],
+      "component_determinants": [
+        9,
+        1
+      ],
+      "linking_number": -3
+    },
+    {
+      "face": 30,
+      "edge_labels": [
+        20,
+        58
+      ],
+      "attachment_darts": [
+        [
+          26,
+          2
+        ],
+        [
+          23,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          26,
+          2
+        ],
+        [
+          23,
+          1
+        ]
+      ],
+      "component_crossings": [
+        18,
+        8
+      ],
+      "component_determinants": [
+        13,
+        11
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 31,
+      "edge_labels": [
+        21,
+        53
+      ],
+      "attachment_darts": [
+        [
+          18,
+          1
+        ],
+        [
+          19,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          18,
+          1
+        ],
+        [
+          19,
+          1
+        ]
+      ],
+      "component_crossings": [
+        20,
+        4
+      ],
+      "component_determinants": [
+        39,
+        1
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 31,
+      "edge_labels": [
+        21,
+        35
+      ],
+      "attachment_darts": [
+        [
+          18,
+          1
+        ],
+        [
+          20,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          18,
+          1
+        ],
+        [
+          20,
+          2
+        ]
+      ],
+      "component_crossings": [
+        34,
+        0
+      ],
+      "component_determinants": [
+        9,
+        1
+      ],
+      "linking_number": -3
+    },
+    {
+      "face": 31,
+      "edge_labels": [
+        21,
+        51
+      ],
+      "attachment_darts": [
+        [
+          18,
+          1
+        ],
+        [
+          21,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          18,
+          1
+        ],
+        [
+          21,
+          2
+        ]
+      ],
+      "component_crossings": [
+        21,
+        3
+      ],
+      "component_determinants": [
+        39,
+        1
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 31,
+      "edge_labels": [
+        35,
+        53
+      ],
+      "attachment_darts": [
+        [
+          19,
+          1
+        ],
+        [
+          20,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          19,
+          1
+        ],
+        [
+          20,
+          2
+        ]
+      ],
+      "component_crossings": [
+        31,
+        1
+      ],
+      "component_determinants": [
+        9,
+        1
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 31,
+      "edge_labels": [
+        51,
+        53
+      ],
+      "attachment_darts": [
+        [
+          19,
+          1
+        ],
+        [
+          21,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          19,
+          1
+        ],
+        [
+          21,
+          2
+        ]
+      ],
+      "component_crossings": [
+        46,
+        0
+      ],
+      "component_determinants": [
+        57,
+        1
+      ],
+      "linking_number": -1
+    },
+    {
+      "face": 31,
+      "edge_labels": [
+        35,
+        51
+      ],
+      "attachment_darts": [
+        [
+          20,
+          2
+        ],
+        [
+          21,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          20,
+          2
+        ],
+        [
+          21,
+          2
+        ]
+      ],
+      "component_crossings": [
+        33,
+        1
+      ],
+      "component_determinants": [
+        63,
+        1
+      ],
+      "linking_number": 3
+    },
+    {
+      "face": 33,
+      "edge_labels": [
+        20,
+        22
+      ],
+      "attachment_darts": [
+        [
+          18,
+          3
+        ],
+        [
+          24,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          23,
+          1
+        ],
+        [
+          19,
+          2
+        ]
+      ],
+      "component_crossings": [
+        46,
+        0
+      ],
+      "component_determinants": [
+        57,
+        1
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 33,
+      "edge_labels": [
+        20,
+        52
+      ],
+      "attachment_darts": [
+        [
+          18,
+          3
+        ],
+        [
+          19,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          23,
+          1
+        ],
+        [
+          18,
+          2
+        ]
+      ],
+      "component_crossings": [
+        20,
+        4
+      ],
+      "component_determinants": [
+        39,
+        1
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 33,
+      "edge_labels": [
+        22,
+        52
+      ],
+      "attachment_darts": [
+        [
+          24,
+          0
+        ],
+        [
+          19,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          19,
+          2
+        ],
+        [
+          18,
+          2
+        ]
+      ],
+      "component_crossings": [
+        21,
+        3
+      ],
+      "component_determinants": [
+        39,
+        1
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 34,
+      "edge_labels": [
+        22,
+        60
+      ],
+      "attachment_darts": [
+        [
+          19,
+          2
+        ],
+        [
+          24,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          19,
+          2
+        ],
+        [
+          24,
+          1
+        ]
+      ],
+      "component_crossings": [
+        17,
+        7
+      ],
+      "component_determinants": [
+        13,
+        5
+      ],
+      "linking_number": 0
+    },
+    {
+      "face": 34,
+      "edge_labels": [
+        22,
+        34
+      ],
+      "attachment_darts": [
+        [
+          19,
+          2
+        ],
+        [
+          25,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          19,
+          2
+        ],
+        [
+          25,
+          2
+        ]
+      ],
+      "component_crossings": [
+        36,
+        0
+      ],
+      "component_determinants": [
+        9,
+        1
+      ],
+      "linking_number": -3
+    },
+    {
+      "face": 34,
+      "edge_labels": [
+        34,
+        60
+      ],
+      "attachment_darts": [
+        [
+          24,
+          1
+        ],
+        [
+          25,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          24,
+          1
+        ],
+        [
+          25,
+          2
+        ]
+      ],
+      "component_crossings": [
+        26,
+        4
+      ],
+      "component_determinants": [
+        5,
+        1
+      ],
+      "linking_number": 0
+    },
+    {
+      "face": 35,
+      "edge_labels": [
+        34,
+        54
+      ],
+      "attachment_darts": [
+        [
+          20,
+          0
+        ],
+        [
+          22,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          25,
+          2
+        ],
+        [
+          20,
+          3
+        ]
+      ],
+      "component_crossings": [
+        30,
+        2
+      ],
+      "component_determinants": [
+        9,
+        1
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 35,
+      "edge_labels": [
+        49,
+        61
+      ],
+      "attachment_darts": [
+        [
+          25,
+          3
+        ],
+        [
+          27,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          25,
+          3
+        ],
+        [
+          27,
+          1
+        ]
+      ],
+      "component_crossings": [
+        37,
+        1
+      ],
+      "component_determinants": [
+        3,
+        1
+      ],
+      "linking_number": -1
+    },
+    {
+      "face": 36,
+      "edge_labels": [
+        50,
+        54
+      ],
+      "attachment_darts": [
+        [
+          20,
+          3
+        ],
+        [
+          22,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          20,
+          3
+        ],
+        [
+          22,
+          1
+        ]
+      ],
+      "component_crossings": [
+        44,
+        0
+      ],
+      "component_determinants": [
+        59,
+        1
+      ],
+      "linking_number": 0
+    },
+    {
+      "face": 37,
+      "edge_labels": [
+        36,
+        50
+      ],
+      "attachment_darts": [
+        [
+          21,
+          0
+        ],
+        [
+          26,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          22,
+          1
+        ],
+        [
+          21,
+          3
+        ]
+      ],
+      "component_crossings": [
+        34,
+        0
+      ],
+      "component_determinants": [
+        63,
+        1
+      ],
+      "linking_number": 3
+    },
+    {
+      "face": 37,
+      "edge_labels": [
+        55,
+        63
+      ],
+      "attachment_darts": [
+        [
+          22,
+          2
+        ],
+        [
+          28,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          22,
+          2
+        ],
+        [
+          28,
+          1
+        ]
+      ],
+      "component_crossings": [
+        41,
+        1
+      ],
+      "component_determinants": [
+        25,
+        1
+      ],
+      "linking_number": -1
+    },
+    {
+      "face": 37,
+      "edge_labels": [
+        55,
+        57
+      ],
+      "attachment_darts": [
+        [
+          22,
+          2
+        ],
+        [
+          29,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          22,
+          2
+        ],
+        [
+          29,
+          1
+        ]
+      ],
+      "component_crossings": [
+        46,
+        0
+      ],
+      "component_determinants": [
+        5,
+        1
+      ],
+      "linking_number": -1
+    },
+    {
+      "face": 37,
+      "edge_labels": [
+        57,
+        63
+      ],
+      "attachment_darts": [
+        [
+          28,
+          1
+        ],
+        [
+          29,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          28,
+          1
+        ],
+        [
+          29,
+          1
+        ]
+      ],
+      "component_crossings": [
+        42,
+        0
+      ],
+      "component_determinants": [
+        25,
+        1
+      ],
+      "linking_number": -1
+    },
+    {
+      "face": 38,
+      "edge_labels": [
+        49,
+        55
+      ],
+      "attachment_darts": [
+        [
+          22,
+          3
+        ],
+        [
+          28,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          27,
+          1
+        ],
+        [
+          22,
+          2
+        ]
+      ],
+      "component_crossings": [
+        43,
+        1
+      ],
+      "component_determinants": [
+        59,
+        1
+      ],
+      "linking_number": 0
+    },
+    {
+      "face": 40,
+      "edge_labels": [
+        14,
+        42
+      ],
+      "attachment_darts": [
+        [
+          30,
+          2
+        ],
+        [
+          47,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          30,
+          2
+        ],
+        [
+          47,
+          3
+        ]
+      ],
+      "component_crossings": [
+        20,
+        0
+      ],
+      "component_determinants": [
+        9,
+        1
+      ],
+      "linking_number": -3
+    },
+    {
+      "face": 40,
+      "edge_labels": [
+        67,
+        69
+      ],
+      "attachment_darts": [
+        [
+          46,
+          0
+        ],
+        [
+          31,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          47,
+          2
+        ],
+        [
+          30,
+          1
+        ]
+      ],
+      "component_crossings": [
+        46,
+        0
+      ],
+      "component_determinants": [
+        3,
+        1
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 41,
+      "edge_labels": [
+        14,
+        68
+      ],
+      "attachment_darts": [
+        [
+          30,
+          3
+        ],
+        [
+          46,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          46,
+          2
+        ],
+        [
+          30,
+          2
+        ]
+      ],
+      "component_crossings": [
+        10,
+        16
+      ],
+      "component_determinants": [
+        3,
+        5
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 42,
+      "edge_labels": [
+        30,
+        86
+      ],
+      "attachment_darts": [
+        [
+          32,
+          2
+        ],
+        [
+          38,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          32,
+          2
+        ],
+        [
+          38,
+          1
+        ]
+      ],
+      "component_crossings": [
+        17,
+        9
+      ],
+      "component_determinants": [
+        19,
+        3
+      ],
+      "linking_number": -1
+    },
+    {
+      "face": 42,
+      "edge_labels": [
+        45,
+        75
+      ],
+      "attachment_darts": [
+        [
+          43,
+          1
+        ],
+        [
+          37,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          37,
+          3
+        ],
+        [
+          32,
+          1
+        ]
+      ],
+      "component_crossings": [
+        22,
+        4
+      ],
+      "component_determinants": [
+        31,
+        3
+      ],
+      "linking_number": 3
+    },
+    {
+      "face": 43,
+      "edge_labels": [
+        45,
+        87
+      ],
+      "attachment_darts": [
+        [
+          37,
+          3
+        ],
+        [
+          43,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          37,
+          3
+        ],
+        [
+          43,
+          2
+        ]
+      ],
+      "component_crossings": [
+        8,
+        14
+      ],
+      "component_determinants": [
+        9,
+        3
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 43,
+      "edge_labels": [
+        11,
+        45
+      ],
+      "attachment_darts": [
+        [
+          37,
+          3
+        ],
+        [
+          39,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          37,
+          3
+        ],
+        [
+          39,
+          1
+        ]
+      ],
+      "component_crossings": [
+        16,
+        2
+      ],
+      "component_determinants": [
+        9,
+        1
+      ],
+      "linking_number": -3
+    },
+    {
+      "face": 43,
+      "edge_labels": [
+        11,
+        87
+      ],
+      "attachment_darts": [
+        [
+          43,
+          2
+        ],
+        [
+          39,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          43,
+          2
+        ],
+        [
+          39,
+          1
+        ]
+      ],
+      "component_crossings": [
+        30,
+        2
+      ],
+      "component_determinants": [
+        5,
+        1
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 44,
+      "edge_labels": [
+        11,
+        77
+      ],
+      "attachment_darts": [
+        [
+          33,
+          3
+        ],
+        [
+          35,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          39,
+          1
+        ],
+        [
+          33,
+          2
+        ]
+      ],
+      "component_crossings": [
+        4,
+        22
+      ],
+      "component_determinants": [
+        1,
+        7
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 44,
+      "edge_labels": [
+        26,
+        88
+      ],
+      "attachment_darts": [
+        [
+          39,
+          2
+        ],
+        [
+          41,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          39,
+          2
+        ],
+        [
+          41,
+          1
+        ]
+      ],
+      "component_crossings": [
+        21,
+        7
+      ],
+      "component_determinants": [
+        5,
+        3
+      ],
+      "linking_number": 0
+    },
+    {
+      "face": 45,
+      "edge_labels": [
+        41,
+        79
+      ],
+      "attachment_darts": [
+        [
+          34,
+          1
+        ],
+        [
+          36,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          34,
+          1
+        ],
+        [
+          36,
+          2
+        ]
+      ],
+      "component_crossings": [
+        17,
+        7
+      ],
+      "component_determinants": [
+        1,
+        9
+      ],
+      "linking_number": 0
+    },
+    {
+      "face": 45,
+      "edge_labels": [
+        67,
+        79
+      ],
+      "attachment_darts": [
+        [
+          34,
+          1
+        ],
+        [
+          47,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          34,
+          1
+        ],
+        [
+          47,
+          2
+        ]
+      ],
+      "component_crossings": [
+        36,
+        0
+      ],
+      "component_determinants": [
+        97,
+        1
+      ],
+      "linking_number": 0
+    },
+    {
+      "face": 45,
+      "edge_labels": [
+        15,
+        79
+      ],
+      "attachment_darts": [
+        [
+          34,
+          1
+        ],
+        [
+          46,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          34,
+          1
+        ],
+        [
+          46,
+          1
+        ]
+      ],
+      "component_crossings": [
+        4,
+        20
+      ],
+      "component_determinants": [
+        1,
+        19
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 45,
+      "edge_labels": [
+        41,
+        67
+      ],
+      "attachment_darts": [
+        [
+          36,
+          2
+        ],
+        [
+          47,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          36,
+          2
+        ],
+        [
+          47,
+          2
+        ]
+      ],
+      "component_crossings": [
+        27,
+        5
+      ],
+      "component_determinants": [
+        15,
+        3
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 45,
+      "edge_labels": [
+        15,
+        41
+      ],
+      "attachment_darts": [
+        [
+          36,
+          2
+        ],
+        [
+          46,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          36,
+          2
+        ],
+        [
+          46,
+          1
+        ]
+      ],
+      "component_crossings": [
+        22,
+        0
+      ],
+      "component_determinants": [
+        9,
+        1
+      ],
+      "linking_number": -3
+    },
+    {
+      "face": 45,
+      "edge_labels": [
+        15,
+        67
+      ],
+      "attachment_darts": [
+        [
+          47,
+          2
+        ],
+        [
+          46,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          47,
+          2
+        ],
+        [
+          46,
+          1
+        ]
+      ],
+      "component_crossings": [
+        11,
+        15
+      ],
+      "component_determinants": [
+        3,
+        5
+      ],
+      "linking_number": 1
+    },
+    {
+      "face": 46,
+      "edge_labels": [
+        16,
+        90
+      ],
+      "attachment_darts": [
+        [
+          34,
+          2
+        ],
+        [
+          40,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          34,
+          2
+        ],
+        [
+          40,
+          1
+        ]
+      ],
+      "component_crossings": [
+        27,
+        1
+      ],
+      "component_determinants": [
+        1,
+        1
+      ],
+      "linking_number": 1,
+      "component_alexander_coefficients": [
+        [
+          -1,
+          3,
+          -2,
+          -4,
+          10,
+          -6,
+          -7,
+          15,
+          -7,
+          -6,
+          10,
+          -4,
+          -2,
+          3,
+          -1
+        ],
+        [
+          1
+        ]
+      ],
+      "resulting_pd": [
+        [
+          83,
+          94,
+          84,
+          95
+        ],
+        [
+          92,
+          81,
+          93,
+          82
+        ],
+        [
+          72,
+          95,
+          73,
+          96
+        ],
+        [
+          73,
+          84,
+          74,
+          85
+        ],
+        [
+          93,
+          70,
+          94,
+          71
+        ],
+        [
+          82,
+          71,
+          83,
+          72
+        ],
+        [
+          2,
+          10,
+          3,
+          9
+        ],
+        [
+          17,
+          5,
+          18,
+          4
+        ],
+        [
+          7,
+          19,
+          8,
+          18
+        ],
+        [
+          8,
+          23,
+          9,
+          24
+        ],
+        [
+          3,
+          25,
+          4,
+          24
+        ],
+        [
+          31,
+          1,
+          32,
+          96
+        ],
+        [
+          27,
+          12,
+          28,
+          13
+        ],
+        [
+          38,
+          5,
+          39,
+          6
+        ],
+        [
+          6,
+          37,
+          7,
+          38
+        ],
+        [
+          1,
+          46,
+          2,
+          47
+        ],
+        [
+          28,
+          44,
+          29,
+          43
+        ],
+        [
+          47,
+          33,
+          48,
+          32
+        ],
+        [
+          51,
+          21,
+          52,
+          20
+        ],
+        [
+          21,
+          53,
+          22,
+          52
+        ],
+        [
+          34,
+          53,
+          35,
+          54
+        ],
+        [
+          50,
+          35,
+          51,
+          36
+        ],
+        [
+          54,
+          50,
+          55,
+          49
+        ],
+        [
+          58,
+          20,
+          59,
+          19
+        ],
+        [
+          22,
+          60,
+          23,
+          59
+        ],
+        [
+          33,
+          60,
+          34,
+          61
+        ],
+        [
+          57,
+          36,
+          58,
+          37
+        ],
+        [
+          61,
+          49,
+          62,
+          48
+        ],
+        [
+          55,
+          63,
+          56,
+          62
+        ],
+        [
+          63,
+          57,
+          64,
+          56
+        ],
+        [
+          13,
+          69,
+          14,
+          68
+        ],
+        [
+          42,
+          69,
+          43,
+          70
+        ],
+        [
+          29,
+          75,
+          30,
+          74
+        ],
+        [
+          76,
+          12,
+          77,
+          11
+        ],
+        [
+          15,
+          79,
+          90,
+          78
+        ],
+        [
+          77,
+          27,
+          78,
+          26
+        ],
+        [
+          40,
+          79,
+          41,
+          80
+        ],
+        [
+          75,
+          44,
+          76,
+          45
+        ],
+        [
+          30,
+          86,
+          31,
+          85
+        ],
+        [
+          87,
+          11,
+          88,
+          10
+        ],
+        [
+          16,
+          16,
+          17,
+          89
+        ],
+        [
+          88,
+          26,
+          89,
+          25
+        ],
+        [
+          39,
+          90,
+          40,
+          91
+        ],
+        [
+          86,
+          45,
+          87,
+          46
+        ],
+        [
+          65,
+          80,
+          66,
+          81
+        ],
+        [
+          64,
+          91,
+          65,
+          92
+        ],
+        [
+          67,
+          15,
+          68,
+          14
+        ],
+        [
+          66,
+          41,
+          67,
+          42
+        ]
+      ]
+    },
+    {
+      "face": 46,
+      "edge_labels": [
+        16,
+        40
+      ],
+      "attachment_darts": [
+        [
+          34,
+          2
+        ],
+        [
+          42,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          34,
+          2
+        ],
+        [
+          42,
+          2
+        ]
+      ],
+      "component_crossings": [
+        24,
+        0
+      ],
+      "component_determinants": [
+        9,
+        1
+      ],
+      "linking_number": -3
+    },
+    {
+      "face": 46,
+      "edge_labels": [
+        40,
+        90
+      ],
+      "attachment_darts": [
+        [
+          40,
+          1
+        ],
+        [
+          42,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          40,
+          1
+        ],
+        [
+          42,
+          2
+        ]
+      ],
+      "component_crossings": [
+        12,
+        10
+      ],
+      "component_determinants": [
+        9,
+        9
+      ],
+      "linking_number": -3,
+      "component_alexander_coefficients": [
+        [
+          1,
+          -2,
+          2,
+          0,
+          -1,
+          0,
+          2,
+          -2,
+          1
+        ],
+        [
+          -2,
+          5,
+          -2
+        ]
+      ],
+      "resulting_pd": [
+        [
+          83,
+          94,
+          84,
+          95
+        ],
+        [
+          92,
+          81,
+          93,
+          82
+        ],
+        [
+          72,
+          95,
+          73,
+          96
+        ],
+        [
+          73,
+          84,
+          74,
+          85
+        ],
+        [
+          93,
+          70,
+          94,
+          71
+        ],
+        [
+          82,
+          71,
+          83,
+          72
+        ],
+        [
+          2,
+          10,
+          3,
+          9
+        ],
+        [
+          17,
+          5,
+          18,
+          4
+        ],
+        [
+          7,
+          19,
+          8,
+          18
+        ],
+        [
+          8,
+          23,
+          9,
+          24
+        ],
+        [
+          3,
+          25,
+          4,
+          24
+        ],
+        [
+          31,
+          1,
+          32,
+          96
+        ],
+        [
+          27,
+          12,
+          28,
+          13
+        ],
+        [
+          38,
+          5,
+          39,
+          6
+        ],
+        [
+          6,
+          37,
+          7,
+          38
+        ],
+        [
+          1,
+          46,
+          2,
+          47
+        ],
+        [
+          28,
+          44,
+          29,
+          43
+        ],
+        [
+          47,
+          33,
+          48,
+          32
+        ],
+        [
+          51,
+          21,
+          52,
+          20
+        ],
+        [
+          21,
+          53,
+          22,
+          52
+        ],
+        [
+          34,
+          53,
+          35,
+          54
+        ],
+        [
+          50,
+          35,
+          51,
+          36
+        ],
+        [
+          54,
+          50,
+          55,
+          49
+        ],
+        [
+          58,
+          20,
+          59,
+          19
+        ],
+        [
+          22,
+          60,
+          23,
+          59
+        ],
+        [
+          33,
+          60,
+          34,
+          61
+        ],
+        [
+          57,
+          36,
+          58,
+          37
+        ],
+        [
+          61,
+          49,
+          62,
+          48
+        ],
+        [
+          55,
+          63,
+          56,
+          62
+        ],
+        [
+          63,
+          57,
+          64,
+          56
+        ],
+        [
+          13,
+          69,
+          14,
+          68
+        ],
+        [
+          42,
+          69,
+          43,
+          70
+        ],
+        [
+          29,
+          75,
+          30,
+          74
+        ],
+        [
+          76,
+          12,
+          77,
+          11
+        ],
+        [
+          15,
+          79,
+          16,
+          78
+        ],
+        [
+          77,
+          27,
+          78,
+          26
+        ],
+        [
+          40,
+          79,
+          41,
+          80
+        ],
+        [
+          75,
+          44,
+          76,
+          45
+        ],
+        [
+          30,
+          86,
+          31,
+          85
+        ],
+        [
+          87,
+          11,
+          88,
+          10
+        ],
+        [
+          16,
+          40,
+          17,
+          89
+        ],
+        [
+          88,
+          26,
+          89,
+          25
+        ],
+        [
+          39,
+          90,
+          90,
+          91
+        ],
+        [
+          86,
+          45,
+          87,
+          46
+        ],
+        [
+          65,
+          80,
+          66,
+          81
+        ],
+        [
+          64,
+          91,
+          65,
+          92
+        ],
+        [
+          67,
+          15,
+          68,
+          14
+        ],
+        [
+          66,
+          41,
+          67,
+          42
+        ]
+      ]
+    },
+    {
+      "face": 47,
+      "edge_labels": [
+        26,
+        78
+      ],
+      "attachment_darts": [
+        [
+          34,
+          3
+        ],
+        [
+          35,
+          3
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          35,
+          2
+        ],
+        [
+          41,
+          1
+        ]
+      ],
+      "component_crossings": [
+        11,
+        15
+      ],
+      "component_determinants": [
+        7,
+        1
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 47,
+      "edge_labels": [
+        16,
+        78
+      ],
+      "attachment_darts": [
+        [
+          34,
+          3
+        ],
+        [
+          40,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          35,
+          2
+        ],
+        [
+          34,
+          2
+        ]
+      ],
+      "component_crossings": [
+        5,
+        19
+      ],
+      "component_determinants": [
+        1,
+        19
+      ],
+      "linking_number": 2
+    },
+    {
+      "face": 47,
+      "edge_labels": [
+        16,
+        26
+      ],
+      "attachment_darts": [
+        [
+          35,
+          3
+        ],
+        [
+          40,
+          0
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          41,
+          1
+        ],
+        [
+          34,
+          2
+        ]
+      ],
+      "component_crossings": [
+        38,
+        0
+      ],
+      "component_determinants": [
+        85,
+        1
+      ],
+      "linking_number": -4
+    },
+    {
+      "face": 48,
+      "edge_labels": [
+        40,
+        80
+      ],
+      "attachment_darts": [
+        [
+          36,
+          0
+        ],
+        [
+          44,
+          1
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          42,
+          2
+        ],
+        [
+          36,
+          3
+        ]
+      ],
+      "component_crossings": [
+        16,
+        8
+      ],
+      "component_determinants": [
+        1,
+        9
+      ],
+      "linking_number": 0
+    },
+    {
+      "face": 48,
+      "edge_labels": [
+        65,
+        91
+      ],
+      "attachment_darts": [
+        [
+          42,
+          3
+        ],
+        [
+          45,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          42,
+          3
+        ],
+        [
+          45,
+          2
+        ]
+      ],
+      "component_crossings": [
+        3,
+        25
+      ],
+      "component_determinants": [
+        3,
+        31
+      ],
+      "linking_number": 0
+    },
+    {
+      "face": 49,
+      "edge_labels": [
+        66,
+        80
+      ],
+      "attachment_darts": [
+        [
+          36,
+          3
+        ],
+        [
+          44,
+          2
+        ]
+      ],
+      "swapped_incoming_darts": [
+        [
+          36,
+          3
+        ],
+        [
+          44,
+          2
+        ]
+      ],
+      "component_crossings": [
+        34,
+        0
+      ],
+      "component_determinants": [
+        43,
+        1
+      ],
+      "linking_number": 1
+    }
+  ]
+}

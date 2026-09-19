@@ -1,0 +1,43 @@
+{
+  "all_checks_passed": true,
+  "runs": [
+    {
+      "seed": 0,
+      "prime": 5,
+      "traces": [
+        1,
+        4
+      ],
+      "orders": [
+        6,
+        3
+      ],
+      "image_group_order": 120,
+      "ambient_group_order": 120,
+      "original_relators_checked": 11,
+      "peripheral_pair_conjugators": [
+        [
+          0,
+          1,
+          4,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          2,
+          4
+        ]
+      ],
+      "conjugacy_and_inverse_excluded": true,
+      "conjugate_positive_control": true
+    }
+  ],
+  "limitation": "Algebra independently checked; source link/group extraction shares SnapPy."
+}

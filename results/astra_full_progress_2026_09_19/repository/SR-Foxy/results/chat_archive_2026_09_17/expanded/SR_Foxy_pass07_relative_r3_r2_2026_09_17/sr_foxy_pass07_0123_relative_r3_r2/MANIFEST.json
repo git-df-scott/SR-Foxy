@@ -1,0 +1,25 @@
+{
+  "status": "PASS07_READY_TO_PUBLISH",
+  "files": {
+    "README.md": {
+      "sha256": "fdfe1d7506378f9726366487268d5918ea94e6698475510a20432e88656df589",
+      "bytes": 4856
+    },
+    "RESULTS.json": {
+      "sha256": "7a78c303d609f5479678377bb7eaee36785db9ca35442969c31a790942321358",
+      "bytes": 2758
+    },
+    "SOURCES.md": {
+      "sha256": "6656927e30796a9c9b71a425c8ce467bf8b622b15e5d64a59f9a495b614d65d1",
+      "bytes": 961
+    },
+    "check_relative_r3_r2.py": {
+      "sha256": "c5442e3e9a060f842c0a62786117f9f5a19d2aebbf8559e5e4f9af3360cfcd7d",
+      "bytes": 12564
+    },
+    "results.txt": {
+      "sha256": "8548d06f1e113df85ea65a1bfa97b27d76f1ca64262290a035b77d4acc54cce6",
+      "bytes": 3153
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "status": "CENTERED_IDENTITY_CONTROLS_PASS_ORIGINAL_FORMULA_REJECTED",
+  "counterexample_found": false,
+  "max_degree": 48,
+  "checks_by_family": {
+    "centered_moment": 625,
+    "basis_functional": 625,
+    "closed_coefficients_vs_recurrence": 5525,
+    "chebyshev_inverse_identity": 49,
+    "reflection_identity": 196,
+    "out_of_range_zero": 576,
+    "reject_uncentered_identity": 6
+  },
+  "checks_passed": 7602,
+  "explicit_original_failures": [
+    {
+      "n": 1,
+      "actual_L_r_power": 1,
+      "incorrect_claim": 2,
+      "correct_L_centered_power": 2
+    },
+    {
+      "n": 2,
+      "actual_L_r_power": -4,
+      "incorrect_claim": -8,
+      "correct_L_centered_power": -8
+    },
+    {
+      "n": 3,
+      "actual_L_r_power": -25,
+      "incorrect_claim": -48,
+      "correct_L_centered_power": -48
+    },
+    {
+      "n": 4,
+      "actual_L_r_power": 208,
+      "incorrect_claim": 384,
+      "correct_L_centered_power": 384
+    },
+    {
+      "n": 5,
+      "actual_L_r_power": 2158,
+      "incorrect_claim": 3840,
+      "correct_L_centered_power": 3840
+    },
+    {
+      "n": 6,
+      "actual_L_r_power": -26752,
+      "incorrect_claim": -46080,
+      "correct_L_centered_power": -46080
+    }
+  ],
+  "script_sha256": "7b19c7673bcb093e85b5de266e9725c44577daade2bd99df413b296cb61dd01b",
+  "seconds": 0.7982615460000488,
+  "scope": "Finite exact arithmetic controls. The all-n proof is separate. No knots, slice disks, or diagrams are enumerated."
+}

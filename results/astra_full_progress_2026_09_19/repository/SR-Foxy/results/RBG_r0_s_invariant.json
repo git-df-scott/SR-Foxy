@@ -1,0 +1,100 @@
+{
+ "status": "RASMUSSEN_S_INVARIANT_SWEEP_ALL_ZERO",
+ "date": "2026-09-15T03:29:13.240899+00:00",
+ "why_this_matters": "s_F(K) != 0 is the obstruction Nakamura used to kill Manolescu-Piccirillo's five topologically slice knots (arXiv:2203.14270, J. Topology 2023), and, via Dunfield-Gong Theorem 5.10, 25 further RBG knots. research/03 records it as obstructing both K_B and K_G. It has NEVER been computed for any RBG knot in this repository: KnotJob was previously run only on Abe-Tagami knots.",
+ "result": {
+  "MP_KB(0,0,0,-1,2,1)": {
+   "crossings": 27,
+   "s_Q": 0,
+   "s_F2": 0,
+   "s_F3": 0
+  },
+  "MP_KG(0,0,0,-1,2,1)": {
+   "crossings": 24,
+   "s_Q": 0,
+   "s_F2": 0,
+   "s_F3": 0
+  },
+  "MP_KB(0,0,0,1,2,-1)": {
+   "crossings": 21,
+   "s_Q": 0,
+   "note": "the other r=0 pair, inside the DG census; never tested before"
+  },
+  "MP_KG(0,0,0,1,2,-1)": {
+   "crossings": 19,
+   "s_Q": 0,
+   "note": "the other r=0 pair, inside the DG census; never tested before"
+  }
+ },
+ "reading": "All four knots of both r=0 super-special pairs have s = 0. The strongest known killer of RBG candidates does not fire on any of them. Both audits pass and the nonzero control fires, so the pipeline is discriminating rather than uniformly returning zero.",
+ "controls": {
+  "positive_trefoil": {
+   "s_Q": 2,
+   "expected": 2,
+   "note": "non-slice, obstruction fires"
+  },
+  "ribbon_6_1": {
+   "s_Q": 0,
+   "expected": 0,
+   "note": "ribbon, hence slice, hence s=0"
+  },
+  "why_two_sided": "A control that only confirms s=0 would be worthless here, since s=0 is the outcome being hunted. The trefoil confirms the pipeline can return a nonzero answer."
+ },
+ "method": {
+  "tool": "KnotJob (Dirk Schuetz), Java 8 build KnotJob_j8_mag.zip",
+  "source": "https://www.maths.dur.ac.uk/users/dirk.schuetz/knotjob.html",
+  "jar_sha256": "6f77a1584ac622c43db8d1465ee1c176a84affa02f646ad97f922ff5cbe2890d",
+  "flags": [
+   "-s0",
+   "-s2",
+   "-s3",
+   "-nf"
+  ],
+  "pd_conversion": "snappy 0-indexed PD codes were simplified with simplify('global') and shifted to the 1-indexed X[a,b,c,d] form KnotJob expects. The two controls were taken verbatim from the repository's own results/knotjob/inputs.txt, so a conversion error would have shown up as a wrong control value.",
+  "note": "The main KnotJob.jar is compiled for Java 23 (class file 67) and will not run on this container's Java 21; the j8 build does."
+ },
+ "consequence_for_this_session": "The 72 one-band and 637 two-band survivors recorded for this pair were searched on a target that is not obstructed by the invariant that killed its siblings. The lane is live, not dead.",
+ "limitation": "s = 0 is a necessary condition for sliceness, not sufficient, and says nothing about ribbonness. Nakamura's full argument is not reproduced here; only the invariant his obstruction tests.",
+ "audits": {
+  "purpose": "Two knots whose s is forced by facts the repository already asserts. If either came back nonzero it would mean a stored diagram or the PD conversion is wrong, not that the mathematics changed.",
+  "18nh00000601 (K_DG)": {
+   "s_Q": 0,
+   "required": 0,
+   "why": "certified smoothly slice in standard B^4 (Oliveira-Smith), so s must vanish",
+   "verdict": "PASS. First independent corroboration in this repository of the primary Tier-A candidate's sliceness by an invariant computed here rather than cited."
+  },
+  "K_B_0friend": {
+   "s_Q": 0,
+   "required": 0,
+   "why": "a verified ribbon disk exists for it, so it is slice and s must vanish",
+   "verdict": "PASS"
+  },
+  "positive_trefoil": {
+   "s_Q": 2,
+   "required": 2,
+   "verdict": "PASS, and this is the control that shows the pipeline can return a nonzero value"
+  }
+ },
+ "abe_tagami_extension": {
+  "purpose": "scripts/run_knotjob.py explicitly excluded the 41- and 47-crossing K_2 and D_0_2 inputs from its bounded pass, preserving them \"for the larger follow-up session\". This is that follow-up, partially.",
+  "AbeTagami_K_2": {
+   "crossings": 41,
+   "s_Q": 0,
+   "status": "computed"
+  },
+  "AbeTagami_D_0_2": {
+   "crossings": 47,
+   "s_Q": null,
+   "status": "NOT COMPUTED",
+   "reason": "KnotJob died silently producing no output, twice, at -Xmx3g and -Xmx5g with four band searches also resident on a 15 GB container. Khovanov homology at 47 crossings needs more memory than was free. This is a resource failure, not a result: nothing is known about s(D_0_2) from here."
+  },
+  "AbeTagami_D_1_2": {
+   "crossings": 60,
+   "s_Q": null,
+   "status": "NOT ATTEMPTED",
+   "reason": "60 crossings; D_0_2 at 47 already exceeded available memory."
+  },
+  "control": "positive trefoil returned s = 2 in the same batch as K_2",
+  "what_it_would_have_settled": "s(D_0_2) != 0 would prove D_0_2 not slice, hence K_0 not concordant to K_2, killing that pair. s = 0 would leave it live. Neither is established."
+ }
+}

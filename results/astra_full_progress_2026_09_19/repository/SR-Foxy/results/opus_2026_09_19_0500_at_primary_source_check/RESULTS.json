@@ -1,0 +1,110 @@
+{
+ "source": "arXiv:1502.01102, Math. Res. Lett. 23 (2016) 303-323",
+ "stated_delta": "t**4 - 3*t**3 + 5*t**2 - 3*t + 1",
+ "knots": {
+  "K_0 (=6_3)": {
+   "crossings": 6,
+   "delta": "t**4 - 3*t**3 + 5*t**2 - 3*t + 1",
+   "fibered": true,
+   "seifert_genus": 2,
+   "matches_stated_delta": true,
+   "delta_irreducible_over_Z": true
+  },
+  "K_1": {
+   "crossings": 19,
+   "delta": "t**4 - 3*t**3 + 5*t**2 - 3*t + 1",
+   "fibered": true,
+   "seifert_genus": 2,
+   "matches_stated_delta": true,
+   "delta_irreducible_over_Z": true
+  },
+  "K_2": {
+   "crossings": 41,
+   "delta": "t**4 - 3*t**3 + 5*t**2 - 3*t + 1",
+   "fibered": true,
+   "seifert_genus": 2,
+   "matches_stated_delta": true,
+   "delta_irreducible_over_Z": true
+  },
+  "K_3": {
+   "crossings": 71,
+   "delta": "t**4 - 3*t**3 + 5*t**2 - 3*t + 1",
+   "fibered": true,
+   "seifert_genus": 2,
+   "matches_stated_delta": true,
+   "delta_irreducible_over_Z": true
+  }
+ },
+ "checks": [
+  {
+   "name": "K_0 (=6_3): Delta equals the polynomial stated in arXiv:1502.01102",
+   "pass": true
+  },
+  {
+   "name": "K_0 (=6_3): Delta irreducible over Z (paper calls it irreducible)",
+   "pass": true
+  },
+  {
+   "name": "K_0 (=6_3): fibered (paper: 6_3 fibered, Gabai for the twists)",
+   "pass": true
+  },
+  {
+   "name": "K_0 (=6_3): Seifert genus 2, consistent with deg Delta = 4",
+   "pass": true
+  },
+  {
+   "name": "K_1: Delta equals the polynomial stated in arXiv:1502.01102",
+   "pass": true
+  },
+  {
+   "name": "K_1: Delta irreducible over Z (paper calls it irreducible)",
+   "pass": true
+  },
+  {
+   "name": "K_1: fibered (paper: 6_3 fibered, Gabai for the twists)",
+   "pass": true
+  },
+  {
+   "name": "K_1: Seifert genus 2, consistent with deg Delta = 4",
+   "pass": true
+  },
+  {
+   "name": "K_2: Delta equals the polynomial stated in arXiv:1502.01102",
+   "pass": true
+  },
+  {
+   "name": "K_2: Delta irreducible over Z (paper calls it irreducible)",
+   "pass": true
+  },
+  {
+   "name": "K_2: fibered (paper: 6_3 fibered, Gabai for the twists)",
+   "pass": true
+  },
+  {
+   "name": "K_2: Seifert genus 2, consistent with deg Delta = 4",
+   "pass": true
+  },
+  {
+   "name": "K_3: Delta equals the polynomial stated in arXiv:1502.01102",
+   "pass": true
+  },
+  {
+   "name": "K_3: Delta irreducible over Z (paper calls it irreducible)",
+   "pass": true
+  },
+  {
+   "name": "K_3: fibered (paper: 6_3 fibered, Gabai for the twists)",
+   "pass": true
+  },
+  {
+   "name": "K_3: Seifert genus 2, consistent with deg Delta = 4",
+   "pass": true
+  },
+  {
+   "name": "all stored K_n share one Alexander polynomial",
+   "pass": true
+  }
+ ],
+ "passed": 17,
+ "total": 17
+}

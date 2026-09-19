@@ -1,0 +1,16 @@
+{
+  "geometry.py": {
+    "source_path": "results/astra_2026_09_17_overnight/pass02_0410_four_parallel/geometry.py",
+    "source_commit": "0eb81a1a15147b2059b9028d0bbc0f4173f0ad33",
+    "git_blob_sha_verified_locally": "31aec889882294544efdcbac7ec7307eec40e808",
+    "sha256": "2bebeaa028ebb8ea539b7cc023c9a6c0b1da4e39b64c29e6ffd5d88c28217bc0",
+    "unchanged": true
+  },
+  "frontier_jet.cpp": {
+    "source_path": "results/astra_2026_09_17_overnight/pass02_0410_four_parallel/frontier_jet.cpp",
+    "source_commit": "0eb81a1a15147b2059b9028d0bbc0f4173f0ad33",
+    "git_blob_sha_verified_locally": "7b8f9fe19da8bac8f6feeb3b0d2ec038631ec66d",
+    "sha256": "87427c37138b467bedadc17665ef72ff7588d9078d033a7364cf0f7053a9461a",
+    "unchanged": true
+  }
+}

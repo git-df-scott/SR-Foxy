@@ -1,0 +1,26 @@
+{
+  "status": "PATCH_VALIDATED_LOCALLY_NOT_PUSHED",
+  "files_match": 16,
+  "file_paths": [
+    "CHECKPOINT.json",
+    "MANIFEST.json",
+    "OPUS_REVIEW.md",
+    "PROPOSED_TRANSFER_THEOREM.md",
+    "README.md",
+    "algebra_results.json",
+    "check_connected_sum_controls.py",
+    "check_general_transfer.py",
+    "coverage.json",
+    "direct_controls/manifest.json",
+    "direct_controls/ribbon61_sum_61_parallel_2.input.txt",
+    "direct_controls/ribbon61_sum_61_parallel_2.log",
+    "direct_controls/ribbon61_sum_61_parallel_3.input.txt",
+    "direct_controls/ribbon61_sum_61_parallel_3.log",
+    "direct_controls/ribbon61_sum_61_parallel_4.input.txt",
+    "direct_controls/ribbon61_sum_61_parallel_4.log"
+  ],
+  "rejects_existing_paths": true,
+  "patch_sha256": "c06aa2fa67559e66e7a6c8b10b5f48526a678af6f65d4b78fa9b16fe254ff0cb",
+  "no_git_repository_or_branch_created": true,
+  "remote_commit": null
+}

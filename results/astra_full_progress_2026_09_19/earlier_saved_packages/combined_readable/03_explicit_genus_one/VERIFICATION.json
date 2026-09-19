@@ -1,0 +1,199 @@
+{
+  "status": "NO_COUNTEREXAMPLE_FOUND",
+  "source_main": "ceb83c2c86c4b538599f95b62812587d2fa3c6fe",
+  "new_result": "Explicit embedded marked genus-one correction surface; auxiliary unlink and exact framed surgery polynomial certified.",
+  "surface": {
+    "vertices": 499,
+    "edges": 1005,
+    "faces": 504,
+    "euler_characteristic": -2,
+    "boundary_components": 2,
+    "boundary_valence_two": true,
+    "combinatorial_manifold": true,
+    "orientable": true,
+    "degenerate_faces": [],
+    "tested_candidate_pairs": 2134,
+    "bad_triangle_pairs": [],
+    "complete": true,
+    "seconds": 0.14630432700005258,
+    "bad_vertex_links": [],
+    "boundary_polygons_match": true,
+    "R_a_surface_candidate_pairs": 980,
+    "R_a_intersections": [],
+    "complete_surface_valid": true
+  },
+  "surface_face_connected": true,
+  "actual_marked_handles": {
+    "A": [
+      4,
+      -3,
+      -3,
+      1
+    ],
+    "B": [
+      4,
+      -9,
+      -1,
+      3,
+      -1,
+      8,
+      -5,
+      -8,
+      1,
+      1
+    ]
+  },
+  "surgery": {
+    "preferred_slopes": [
+      [
+        1,
+        1
+      ],
+      [
+        -1,
+        1
+      ]
+    ],
+    "ambient_three_manifold": "S3, by the exact auxiliary peripheral certificate and Dehn lemma",
+    "projection_crossings": 675,
+    "minimal_crossing_claim": false,
+    "longitude_response": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    "alexander_coefficients_ascending": [
+      1,
+      -6,
+      19,
+      -36,
+      45,
+      -36,
+      19,
+      -6,
+      1
+    ],
+    "determinant": 169,
+    "identified_as_D01": false,
+    "global_nonribbon_proof": false,
+    "smooth_slice_disk_standard_B4": false,
+    "naive_two_handle_trace_form": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        -1
+      ]
+    ],
+    "naive_trace_is_B4": false
+  },
+  "parameter_extension": "Same Alexander polynomial d^2 for all integer slopes (1,x),(1,y), proved from all maximal minors.",
+  "independent_checks": {
+    "arithmetic": {
+      "status": "PASS",
+      "checks": 16,
+      "passed": [
+        "all 675 projected crossings and Gauss ordering independently reconstructed",
+        "actual axes read the intended a and [A,B]b boundary words",
+        "full meridians, Wirtinger relators and zero-framed longitudes rebuilt",
+        "initial integer Laurent Fox derivatives independently match",
+        "all 670 unit pivots and reduced longitude rows replay exactly",
+        "rational meridian solution and exact E=0 verified by polynomial multiplication",
+        "all five filled maximal minors are 0,0,-t^-4 d^2,t^-2 d^2,-t^-3 d^2",
+        "all-parameter minors certified by determinant multiaffinity and four exact coefficient-determining evaluations",
+        "auxiliary group and preferred longitudes reconstructed directly from the polygon sublink",
+        "auxiliary exact Tietze replay kills both preferred longitudes; free group rank two",
+        "positive Hopf peripheral control has nontrivial opposite meridians",
+        "unlink peripheral control",
+        "incorrect b-prime zero-framing is rejected",
+        "corrupted null longitude is rejected",
+        "corrupted Alexander polynomial is rejected",
+        "corrupted unit-pivot sign is rejected"
+      ],
+      "polygon_crossings": 675,
+      "fox_unit_pivots": 670,
+      "auxiliary_tietze_moves": 375,
+      "exact_target_coefficients_ascending": [
+        1,
+        -6,
+        19,
+        -36,
+        45,
+        -36,
+        19,
+        -6,
+        1
+      ],
+      "scope": "Independent arithmetic and polygon-projection replay. Does not construct a slice disk or identify the surgery knot as D01."
+    },
+    "geometry": {
+      "status": "PASS",
+      "algorithm": "independent rational segment-clipping enumeration",
+      "surface_triangle_pairs": 2134,
+      "surface_bad_pairs": [],
+      "R_a_candidate_pairs": 980,
+      "R_a_hits": [],
+      "controls": {
+        "parallel_disjoint": true,
+        "shared_edge_allowed": true,
+        "coplanar_overlap_rejected": true,
+        "transverse_intersection_rejected": true,
+        "adjacent_vertex_allowed": true,
+        "degenerate_duplicate_face_rejected": true
+      },
+      "seconds": 0.5197560609999528,
+      "scope": "Checks intersections of the saved integer PL mesh and R,a curves; no 4D annulus asserted."
+    },
+    "conditional_group": {
+      "status": "PASS",
+      "graph": {
+        "V": 16,
+        "E": 18,
+        "rank": 3,
+        "rounds": 29
+      },
+      "controls": {
+        "free_rank_three": true,
+        "dependent_triple_rank_two": true,
+        "repeated_word_rank_one": true,
+        "null_word_rank_zero": true
+      },
+      "source_relators_checked": 9,
+      "words_checked": [
+        "A",
+        "B",
+        "b",
+        "a",
+        "delta"
+      ],
+      "conditional_result": "The map F(A,B,b) -> source group determined by saved q0 is injective. A corresponding actual correction surface has no compressing disk IF q0 is its geometric disk-exterior inclusion. This does not exclude a different modifying annulus between a and b_prime."
+    }
+  },
+  "unresolved": [
+    "Actual q0 marked disk-exterior identification",
+    "Ordinary diagram or exact knot identification of the filled boundary",
+    "Global nonribbon proof for the actual filled knot",
+    "Embedded standard modifying annulus disjoint from the slice disk"
+  ],
+  "failures": [
+    "Initial strip self-intersections; archived and corrected.",
+    "Initial planar orientation mismatch; archived and corrected.",
+    "Independent auxiliary replay needed identity substitution on unused free generators; failed loudly then corrected.",
+    "Full filled-group reduction timed out: unknown, not an exclusion.",
+    "Initial plot saving hit a filesystem permission issue; corrected."
+  ],
+  "mutations": {
+    "new_branch": false,
+    "repo_writes": false,
+    "Mac_checkout_accessed": false
+  },
+  "next_action": "Recover an explicit marked auxiliary unlink isotopy or spanning disks and transport R through the two Rolfsen twists to identify the actual filled knot.",
+  "subgroup_optimized_mode_rejected": true
+}

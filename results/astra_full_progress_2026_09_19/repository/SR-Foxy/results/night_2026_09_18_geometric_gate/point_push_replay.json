@@ -1,0 +1,9 @@
+{
+  "all_six_calibrated_commutators": "PASS",
+  "independent_Laurent_jet_replay": "PASS",
+  "inverse_and_braid_relation_controls": "PASS",
+  "meridian_jacobians": "identity in all six cases",
+  "longitude_defects": "nonzero +/- (2-t-t^-1) in all six cases",
+  "ordinary_specialization": "0 at t=1",
+  "false_zero_longitude_claim_rejected": true
+}

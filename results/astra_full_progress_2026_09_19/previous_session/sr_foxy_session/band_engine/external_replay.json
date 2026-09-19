@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "packages": {
+    "snappy": "3.3.2",
+    "spherogram": "2.4.1",
+    "regina": "7.4"
+  },
+  "total_exact_banded_map_matches": 1307,
+  "cases": [
+    {
+      "target": "trefoil",
+      "exact_banded_rotation_system_matches": 105
+    },
+    {
+      "target": "stevedore",
+      "exact_banded_rotation_system_matches": 702
+    },
+    {
+      "target": "square_knot",
+      "exact_banded_rotation_system_matches": 200
+    },
+    {
+      "target": "D01",
+      "exact_banded_rotation_system_matches": 150
+    },
+    {
+      "target": "D01_stevedore",
+      "exact_banded_rotation_system_matches": 150
+    }
+  ],
+  "independent_knot_floer": {
+    "stevedore": {
+      "L_space_knot": false,
+      "epsilon": 0,
+      "fibered": false,
+      "modulus": 2,
+      "nu": 0,
+      "seifert_genus": 1,
+      "tau": 0,
+      "total_rank": 9,
+      "ranks": {
+        "(-1, -1)": 2,
+        "(0, 0)": 5,
+        "(1, 1)": 2
+      }
+    },
+    "D01": {
+      "L_space_knot": false,
+      "epsilon": 0,
+      "fibered": true,
+      "modulus": 2,
+      "nu": 0,
+      "seifert_genus": 4,
+      "tau": 0,
+      "total_rank": 169,
+      "ranks": {
+        "(-4, -2)": 1,
+        "(-3, -3)": 1,
+        "(-3, -1)": 5,
+        "(-2, -2)": 6,
+        "(-2, 0)": 13,
+        "(-1, -1)": 15,
+        "(-1, 1)": 21,
+        "(0, 0)": 21,
+        "(0, 2)": 24,
+        "(1, 1)": 15,
+        "(1, 3)": 21,
+        "(2, 2)": 6,
+        "(2, 4)": 13,
+        "(3, 3)": 1,
+        "(3, 5)": 5,
+        "(4, 6)": 1
+      }
+    }
+  },
+  "regina_bracket": [
+    {
+      "crossings": 6,
+      "direct_equal": true,
+      "mirror_convention_equal": false
+    },
+    {
+      "crossings": 6,
+      "direct_equal": true,
+      "mirror_convention_equal": true
+    },
+    {
+      "crossings": 11,
+      "direct_equal": true,
+      "mirror_convention_equal": false
+    }
+  ],
+  "seconds": 6.094634692999534,
+  "scope": "Independent package agreement for all tested literal band placements; no target unlink found or implied."
+}

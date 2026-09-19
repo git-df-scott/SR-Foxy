@@ -1,0 +1,76 @@
+{
+  "status": "NO_COUNTEREXAMPLE",
+  "new_result": "The original boundary correction delta has commutator length one in G-prime.",
+  "source_commit": "19cddf9f527f8d3487943b98bba2c7f355629426",
+  "A": [
+    4,
+    -3,
+    -3,
+    1
+  ],
+  "B": [
+    4,
+    -9,
+    -1,
+    3,
+    -1,
+    8,
+    -5,
+    -8,
+    1,
+    1
+  ],
+  "commutator_convention": "A B A^-1 B^-1",
+  "meridional_exponents": [
+    0,
+    0
+  ],
+  "previous_explicit_commutator_count": 13,
+  "new_explicit_commutator_count": 1,
+  "identity": "delta=[A,B] in the supplied 18-generator boundary presentation",
+  "lower_bound": {
+    "prime": 11,
+    "delta_matrix": [
+      [
+        1,
+        10
+      ],
+      [
+        3,
+        9
+      ]
+    ],
+    "reason": "A nonidentity image in an exact representation of all eighteen relators"
+  },
+  "verification": {
+    "python_certificate_generated": true,
+    "javascript_independent_replay": true,
+    "original_104_letter_word_checked": true,
+    "tietze_steps": 7,
+    "schreier_rules": 4,
+    "finite_representations_checked": 5,
+    "corruption_controls_rejected": 8,
+    "optimized_python_identical": true,
+    "geometric_q0_identification": false,
+    "optional_checkout_comparison_run": false
+  },
+  "bounded_search": {
+    "domain": "Algebraic cut decompositions of the 42-letter representative",
+    "cuts_checked": 12104,
+    "knot_or_band_search": false,
+    "no_global_search_completeness_claim": true
+  },
+  "new_geometric_recipe": {
+    "genus": 1,
+    "boundary_components": 2,
+    "euler_characteristic": -2,
+    "actual_PD_or_embedded_annulus_constructed": false
+  },
+  "failures": [
+    "Direct shortlex rewrite did not establish the identity; finite Tietze/Schreier proof did.",
+    "Four requested PDF screenshots failed with cache misses.",
+    "Alternate arXiv HTML fetch failed."
+  ],
+  "next_action": "Realize the complete repair using the single marked handle pair A,B and check the framed surgery boundary before Whitney-disk work.",
+  "remote_changes": []
+}

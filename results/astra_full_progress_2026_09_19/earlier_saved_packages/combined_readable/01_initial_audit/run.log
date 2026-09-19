@@ -1,0 +1,395 @@
+{
+  "status": "ALL_CHECKS_PASS",
+  "counterexample_found": false,
+  "generated_utc": "2026-09-18T19:50:18.728769+00:00",
+  "python": "3.13.5",
+  "platform": "Linux",
+  "dependencies": "Python standard library only",
+  "checks": [
+    {
+      "name": "volume_rounding_boundary_misses_pair",
+      "status": "PASS",
+      "kind": "SYNTHETIC_REGRESSION",
+      "evidence": {
+        "a": "1.000000499999",
+        "b": "1.000000500001",
+        "difference_exact": "1/500000000000",
+        "tolerance_exact": "1/1000000",
+        "legacy_bins": [
+          1000000,
+          1000001
+        ],
+        "conclusion": "Same-bucket grouping is not a lossless tolerance-neighbor filter."
+      }
+    },
+    {
+      "name": "volume_intervals_allow_identical_true_value",
+      "status": "PASS",
+      "kind": "SYNTHETIC_REGRESSION",
+      "evidence": {
+        "interval_a": [
+          "500000249999/500000000000",
+          "2000001/2000000"
+        ],
+        "interval_b": [
+          "2000001/2000000",
+          "500000250001/500000000000"
+        ],
+        "shared_exact_value": "2000001/2000000",
+        "actual_manifolds": false
+      }
+    },
+    {
+      "name": "disjoint_interval_negative_control",
+      "status": "PASS",
+      "kind": "SYNTHETIC_REGRESSION",
+      "evidence": {
+        "intervals": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "name": "rounded_spectrum_difference_is_not_certified_separation",
+      "status": "PASS",
+      "kind": "SYNTHETIC_REGRESSION",
+      "evidence": {
+        "legacy_fingerprint_a": [
+          0.7,
+          0.125
+        ],
+        "legacy_fingerprint_b": [
+          0.700001,
+          0.125
+        ],
+        "shared_possible_exact_length": "1400001/2000000",
+        "actual_geodesics": false
+      }
+    },
+    {
+      "name": "legacy_false_prevents_hp_retry",
+      "status": "PASS",
+      "kind": "SYNTHETIC_REGRESSION",
+      "evidence": {
+        "returned": false,
+        "attempts": [
+          {
+            "hp": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "conservative_retry_retains_hp_positive",
+      "status": "PASS",
+      "kind": "SYNTHETIC_REGRESSION",
+      "evidence": {
+        "verdict": "ISOMETRIC_TRUE_RETURN",
+        "attempts": [
+          {
+            "hp": false,
+            "retry": 0,
+            "returned": false
+          },
+          {
+            "hp": false,
+            "retry": 1,
+            "returned": false
+          },
+          {
+            "hp": false,
+            "retry": 2,
+            "returned": false
+          },
+          {
+            "hp": false,
+            "retry": 3,
+            "returned": false
+          },
+          {
+            "hp": false,
+            "retry": 4,
+            "returned": false
+          },
+          {
+            "hp": false,
+            "retry": 5,
+            "returned": false
+          },
+          {
+            "hp": true,
+            "retry": 0,
+            "returned": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "conservative_always_false_control",
+      "status": "PASS",
+      "kind": "SYNTHETIC_REGRESSION",
+      "evidence": {
+        "verdict": "UNKNOWN",
+        "attempt_count": 12
+      }
+    },
+    {
+      "name": "conservative_exception_control",
+      "status": "PASS",
+      "kind": "SYNTHETIC_REGRESSION",
+      "evidence": {
+        "verdict": "UNKNOWN",
+        "attempt_count": 12
+      }
+    },
+    {
+      "name": "conservative_always_true_control",
+      "status": "PASS",
+      "kind": "SYNTHETIC_REGRESSION",
+      "evidence": {
+        "verdict": "ISOMETRIC_TRUE_RETURN",
+        "attempt_count": 1
+      }
+    },
+    {
+      "name": "saving_first_three_can_drop_compared_witness",
+      "status": "PASS",
+      "kind": "SYNTHETIC_REGRESSION",
+      "evidence": {
+        "compared_a": [
+          [
+            0.01,
+            0.0
+          ],
+          [
+            0.02,
+            0.0
+          ],
+          [
+            0.03,
+            0.0
+          ],
+          [
+            0.04,
+            0.0
+          ],
+          [
+            0.05,
+            0.0
+          ],
+          [
+            0.06,
+            0.0
+          ],
+          [
+            0.07,
+            0.0
+          ],
+          [
+            0.08,
+            0.0
+          ]
+        ],
+        "compared_b": [
+          [
+            0.01,
+            0.0
+          ],
+          [
+            0.02,
+            0.0
+          ],
+          [
+            0.03,
+            0.0
+          ],
+          [
+            0.04,
+            0.0
+          ],
+          [
+            0.05,
+            0.0
+          ],
+          [
+            0.065,
+            0.0
+          ],
+          [
+            0.07,
+            0.0
+          ],
+          [
+            0.08,
+            0.0
+          ]
+        ],
+        "saved_a": [
+          [
+            0.01,
+            0.0
+          ],
+          [
+            0.02,
+            0.0
+          ],
+          [
+            0.03,
+            0.0
+          ]
+        ],
+        "saved_b": [
+          [
+            0.01,
+            0.0
+          ],
+          [
+            0.02,
+            0.0
+          ],
+          [
+            0.03,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "all_first_4000_is_not_all",
+      "status": "PASS",
+      "kind": "SYNTHETIC_REGRESSION",
+      "evidence": {
+        "records": 4001,
+        "saved": 4000
+      }
+    },
+    {
+      "name": "existing_annulus_finite_group_certificate_reproduced",
+      "status": "PASS",
+      "kind": "REPRODUCTION_OF_EXISTING_ALGEBRA",
+      "evidence": {
+        "presentation_relator": "aabbbaBAABabbbaabABBBAb",
+        "axis_words": [
+          "BabA",
+          "BBABabbbaBABabbbaBAA"
+        ],
+        "a": [
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "b": [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "relator_image": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "axis_images": [
+          [
+            [
+              2,
+              2
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          [
+            [
+              4,
+              3
+            ],
+            [
+              3,
+              0
+            ]
+          ]
+        ],
+        "traces_mod_5": [
+          1,
+          4
+        ]
+      }
+    },
+    {
+      "name": "exhaustive_SL2F5_no_conjugator_v",
+      "status": "PASS",
+      "kind": "REPRODUCTION_OF_EXISTING_ALGEBRA",
+      "evidence": {
+        "matrices_examined": 120,
+        "conjugators": []
+      }
+    },
+    {
+      "name": "exhaustive_SL2F5_no_conjugator_inverse_v",
+      "status": "PASS",
+      "kind": "REPRODUCTION_OF_EXISTING_ALGEBRA",
+      "evidence": {
+        "matrices_examined": 120,
+        "conjugators": []
+      }
+    },
+    {
+      "name": "SL2F5_positive_conjugacy_control",
+      "status": "PASS",
+      "kind": "EXACT_CONTROL",
+      "evidence": {
+        "known_conjugator": [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "SL2F5_tamper_rejection_control",
+      "status": "PASS",
+      "kind": "EXACT_CONTROL",
+      "evidence": {
+        "tampered_relator": "aabbbaBAABabbbaabABBBAba"
+      }
+    }
+  ],
+  "check_count": 16,
+  "limits": [
+    "No SnapPy calculation was run.",
+    "No actual census pair was demonstrated to be misclassified.",
+    "No sweep JSONL or live process state was retrieved from the remote /tmp directory.",
+    "Finite-group words were copied from the cited research note, not independently extracted from a diagram.",
+    "The exact finite-group result only excludes the specified axis annulus in the specified product-disk exterior.",
+    "No new slice disk, concordance, or global nonribbon obstruction was found."
+  ]
+}
+
