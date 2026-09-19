@@ -221,3 +221,64 @@ Both are the trap `HANDOFF_2026_09_18_OPUS.md` §6 already documents verbatim �
 
 Having read that warning earlier in the same session did not stop me making the
 mistake twice. Explicit PIDs from a prior `ps`, never a pattern.
+
+## 10. The diagram floor, and why the tool had to change
+
+`K7a2 # -K10n4 # 6_1` holds at **23 crossings over 60 shaken seeds** — no seed
+beat the canonical diagram. That is exactly `7 + 10 + 6`, so crossing number is
+additive here and the floor is structural, not a simplifier weakness. There is
+no diagram trick to make this lane cheaper.
+
+Combined with §8, the position is: the cheapest target in the whole lane sits at
+a 23-crossing floor; a 2-band search on it exceeds 420 s even with the cheap
+filter; and there are ~48,000 targets (35,472 surviving pairs, most with two
+orientations). **Exhaustive band search cannot sample this lane at any useful
+rate, and that is a tooling limit rather than a compute limit.**
+
+The measured failure mode is specific: exhausting a box is expensive, while a
+hit — when one exists — is found fast. That is precisely the problem a
+stochastic searcher solves, and one exists.
+
+## 11. GHMR's random walker now runs here (first time)
+
+<https://github.com/ruehlef/ribbon> — the Bayesian-optimised random walker of
+Gukov-Halverson-Manolescu-Ruehle. `ASTRA_BRIEF_2026_09_19.md` §7 lists running it
+against our candidates as item 1, "cheap and has never been done here".
+
+It ships a prebuilt `rw.cpython-311-x86_64-linux-gnu.so`, matching this
+container's Python and platform exactly. The only obstacle was `ribbon.visualizer`
+importing `tkinter`, which is absent (and `apt-get install python3-tk` installs it
+for 3.12, not the 3.11 we run). The visualizer only draws the band picture and is
+never used by the search, so it is satisfied by a stub `tkinter` package on
+`PYTHONPATH`.
+
+**Controls, both directions, run before anything was counted:**
+
+| control | expected | got |
+|---|---|---|
+| `K6a3` (= `6_1`, ribbon) | finds bands | **found** |
+| `K3a1` (trefoil, not slice) | fails | **failed, 3000 tries** |
+| `K4a1` (figure-8, not slice) | fails | **failed, 3000 tries** |
+
+So the walker fires positive on a ribbon knot and does **not** fire on non-slice
+knots in this container.
+
+### The 90 targets (`rw_targets_pd.txt`, `rw_targets_meta.json`)
+
+**(a) The flagship AT lane, all ten partners at once** — `D_{0,1} # J` for
+`J` in `6_1, 8_8, 9_41, 9_46, 10_3, 8_9, 8_20, 9_27, 10_22, 10_87`. This includes
+the three fibered partners restored by `ERRATA_2026-09-16.md` E16-1 and the two
+(`10_22`, `10_87`) that container reclamation killed and that were never rerun.
+Exhaustive search spent 4.21 h and 7.96 h on two of these boxes; the walker has
+never been pointed at any of them.
+
+**(b) 80 wild Miyazaki targets** — the cheapest Levine-Tristram survivors, in
+each surviving mirror orientation.
+
+`D_{0,1}` and every wild `D` are certified **not ribbon**, so a verified ribbon
+certificate for any of these 90 is a counterexample outright.
+
+**A walker hit would be a candidate, not a result.** It must be replayed through
+`spherogram.links.bands.search.verify_ribbon_to_unknot` before it is anything at
+all — this repository's standing rule, and the walker's band sequence is exactly
+the replayable movie that rule asks for.

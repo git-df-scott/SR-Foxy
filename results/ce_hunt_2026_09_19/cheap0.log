@@ -1,1 +1,2 @@
 # source: levine-tristram survivors; targets [0:300] of this slice; budget 420.0s; box {'bands': 2, 'len': 3, 'twists': 2, 'paths': 'shortest', 'filter': 'cheap'}
+[  420.1s] timeout   K7a2 J # (-J') K10n4 # 6_1  420.1s  (hits=0 completed=0 timeout=1 err=0)
