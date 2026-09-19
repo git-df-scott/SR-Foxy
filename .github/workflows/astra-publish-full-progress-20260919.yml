@@ -1,0 +1,110 @@
+name: Publish complete Astra saved progress 2026-09-19
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/astra-publish-full-progress-20260919.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: astra-saved-progress-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.16.0'
+      - name: Validate repaired transfer before downloading inputs
+        run: |
+          mkdir -p /tmp/astra-publication/artifacts /tmp/astra-publication/work
+          python - <<'PY'
+          import importlib.util,json,pathlib
+          root=pathlib.Path('research_jobs/astra_publish_saved_progress_20260919')
+          spec=importlib.util.spec_from_file_location('restore',root/'restore_progress.py')
+          mod=importlib.util.module_from_spec(spec);spec.loader.exec_module(mod)
+          plan=mod.decode_plan(root)
+          pathlib.Path('/tmp/astra-publication/plan.json').write_text(json.dumps(plan))
+          print('Verified complete transfer: '+str(len(plan['files']))+' restoration entries, '+str(len(plan['literals']))+' literals')
+          PY
+      - name: Download only existing evidence artifacts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          for artifact in 10589107655 10589621369 10587951614; do
+            gh api "repos/$GITHUB_REPOSITORY/actions/artifacts/$artifact/zip" > "/tmp/astra-publication/artifacts/$artifact.zip"
+          done
+          python - <<'PY'
+          import hashlib,json,pathlib,zipfile
+          root=pathlib.Path('/tmp/astra-publication');p=json.loads((root/'plan.json').read_text())
+          for key,meta in p['artifacts'].items():
+              f=root/'artifacts'/(key+'.zip')
+              if hashlib.sha256(f.read_bytes()).hexdigest()!=meta['sha256']:raise RuntimeError('Artifact digest mismatch: '+key)
+          with zipfile.ZipFile(root/'artifacts/10589107655.zip') as z:
+              (root/'history.bundle').write_bytes(z.read('SR-Foxy-history.bundle'))
+          PY
+          git clone --bare /tmp/astra-publication/history.bundle /tmp/astra-publication/history.git
+      - name: Restore all files and require the original complete manifest digest
+        run: |
+          set -euo pipefail
+          python research_jobs/astra_publish_saved_progress_20260919/restore_progress.py \
+            --plan /tmp/astra-publication/plan.json \
+            --repo /tmp/astra-publication/history.git \
+            --artifacts /tmp/astra-publication/artifacts \
+            --out results/astra_full_progress_2026_09_19 \
+            --work /tmp/astra-publication/work \
+            | tee /tmp/astra-publication/work/RESTORE.log
+          cp /tmp/astra-publication/work/RESTORATION_VERIFIED.json results/astra_full_progress_2026_09_19/PUBLICATION_VERIFICATION.json
+      - name: Commit only verified saved-progress files, without modifying existing science
+        run: |
+          set -euo pipefail
+          git add -f -- results/astra_full_progress_2026_09_19
+          if ! git diff --cached --quiet; then
+            git -c user.name='git-df-scott' -c user.email='282750673+git-df-scott@users.noreply.github.com' commit -m 'Publish all 2555 verified saved-progress payload files, intact checkpoints and recovery limits'
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
+          git rev-parse HEAD | tee /tmp/astra-publication/work/PUBLISHED_COMMIT.txt
+      - name: Verify every payload from committed Git objects and remote branch
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib,json,pathlib,subprocess
+          root='results/astra_full_progress_2026_09_19/'
+          git=lambda *args:subprocess.check_output(['git',*args])
+          raw=git('show','HEAD:'+root+'MANIFEST.json')
+          if hashlib.sha256(raw).hexdigest()!='21ed4c4d79a629791d88ea2a87892574b428e9730d00d41acf0f53bc5fd8da92':raise RuntimeError('Committed manifest mismatch')
+          m=json.loads(raw)
+          for e in m['files']:
+              data=git('show','HEAD:'+root+e['path'])
+              if len(data)!=e['bytes'] or hashlib.sha256(data).hexdigest()!=e['sha256']:raise RuntimeError('Committed content mismatch: '+e['path'])
+          commit=git('rev-parse','HEAD').decode().strip()
+          git('fetch','origin','main')
+          subprocess.run(['git','merge-base','--is-ancestor',commit,'origin/main'],check=True)
+          report={'status':'PUBLISHED_AND_REMOTE_ANCESTRY_VERIFIED','commit':commit,'repository_path':root,'payload_files_verified':len(m['files']),'payload_bytes_verified':sum(e['bytes'] for e in m['files']),'search_restarted':False,'original_manifest_sha256':hashlib.sha256(raw).hexdigest(),'scope':'Every payload byte matches the full progress ZIP. Existing research claims were not changed. This is publication verification, not a mathematical result.'}
+          pathlib.Path('/tmp/astra-publication/work/REMOTE_VERIFICATION.json').write_text(json.dumps(report,indent=2)+'\n')
+          print(json.dumps(report,indent=2))
+          with open(__import__('os').environ['GITHUB_STEP_SUMMARY'],'a') as f:f.write('## Full saved-progress publication\n\n```json\n'+json.dumps(report,indent=2)+'\n```\n')
+          PY
+      - name: Preserve publication verification
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: astra-full-publication-verification
+          path: |
+            /tmp/astra-publication/work/*.json
+            /tmp/astra-publication/work/*.txt
+            /tmp/astra-publication/work/*.log
+          retention-days: 7
+          if-no-files-found: warn
