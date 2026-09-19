@@ -1,0 +1,4 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+K_0   euler(stored HFK)=[1, -3, 5, -3, 1]  burau(independent)=[1, -3, 5, -3, 1]  MATCH=True | symmetry_viol=0 | support=[-2,2] g=2 | top_rank=1 fibered=True
+K_1   euler(stored HFK)=[1, -3, 5, -3, 1]  burau(independent)=[1, -3, 5, -3, 1]  MATCH=True | symmetry_viol=0 | support=[-2,2] g=2 | top_rank=1 fibered=True
