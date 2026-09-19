@@ -1,22 +1,32 @@
-# Walker status snapshot — 2026-09-19T02:52:11.239803Z
+# Walker status snapshot — 2026-09-19T02:55:02.608333Z
 
 **Hits: 0. No counterexample.**
 
-| log | targets exhausted | hits |
-|---|---|---|
-| `pass1_00.log` | 7 | 0 |
-| `pass1_01.log` | 30 | 0 |
-| `pass1_02.log` | 25 | 0 |
-| `weights_startheavy_AT.log` | 6 | 0 |
+| log | weights | exhausted | hits | complete |
+|---|---|---|---|---|
+| `pass1_00.log` | | 11 | 0 | running |
+| `pass1_01.log` | | 31 | 0 | yes |
+| `pass1_02.log` | | 29 | 0 | yes |
+| `pass2_crossheavy_02.log` | | 0 | 0 | running |
+| `pass2_twistheavy_01.log` | | 3 | 0 | running |
+| `weights_startheavy_AT.log` | | 9 | 0 | running |
 
-Totals: **68 exhausted at 400 tries, 0 hits**, over 90 distinct targets plus a
-weight-varied re-run of the ten AT targets.
+**Totals: 83 targets exhausted, 0 hits.**
 
-An exhausted target means the walker found no bands within its try budget. Per
-README section 13 that is **weak** evidence of non-ribbonness and **no** evidence
-about sliceness: GHMR's own programs failed on `L_{1,1}` and `L_{2,1}`, both known
-ribbon. Only a hit counts, and a hit needs `verify_ribbon_to_unknot` first.
+Pass 1 (`[1,17,1,1,3]`, GHMR default, 400 tries) is **complete on shards 01 and
+02** — 31/31 and 29/29, `Succeeded 0 times` on both. Shard 00 carries the ten
+`D_{0,1} # J` targets at 31-35 crossings and is slower.
 
-See `research/51_why_infection_cannot_make_a_wild_pair.md` for why the search is
-a lottery rather than a construction, and for the retraction of the
-`deg Delta = 2g` fiberedness inference in README section 12.
+Pass 2 runs the same targets at different points in the walker's action-weight
+space rather than deeper at one setting, since GHMR tuned the default on
+synthetic `Sym`/`Unsym` knots and these are composite genus-5+ targets:
+twist-heavy `[3,10,2,2,9]` on shard 01, crossing-heavy `[2,12,6,6,3]` on shard
+02, start-heavy `[4,17,1,1,3]` on the AT ten.
+
+An exhausted target means no bands within the try budget. Per README §13 that is
+**weak** evidence about ribbonness and **none** about sliceness — GHMR's own
+programs failed on `L_{1,1}` and `L_{2,1}`, both known ribbon. Only a hit counts,
+and a hit needs `verify_ribbon_to_unknot` first.
+
+Why this is a lottery and not a construction:
+`research/51_why_infection_cannot_make_a_wild_pair.md`.
