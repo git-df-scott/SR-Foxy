@@ -342,3 +342,41 @@ Worth stating plainly: the tell was visible in the output — `deg = 5` for a kn
 recorded at `genus 2` is impossible for a real Alexander polynomial, since
 `deg Delta = 2g` for a fibered knot. The inconsistency was in the same table as
 the alarming result.
+
+## 13. Walker pass 1, and the depth/breadth mistake made a third time
+
+The first walker launch used `--max-tries 20000`. After 10 minutes **not one of
+the 90 targets had finished** — the same depth-before-breadth error as §7, now in
+a third tool. Relaunched at `--max-tries 400 --max-steps 80`, targets started
+completing within a minute.
+
+`pass1_*.log`. Every target gets a shot before any target gets a second one.
+
+**Run `A` was stopped** at 1 h 24 min, still `runs: 0`, heartbeat only — **no
+coverage of its box, and it is not a result.** Its core went to a weight-varied
+walker on the ten AT targets, which searches the same objects by a method that
+actually completes.
+
+### The untried dial: the walker's own weights
+
+`--weights '[start, attach, over, under, twist]'`, default `'[1.,17.,1.,1.,3.]'`.
+GHMR Bayesian-optimised that on **their** Sym/Unsym synthetic ribbon knots.
+Our targets are a different distribution entirely — connected sums of fibered
+knots, composite, genus 5 and up — and nothing says their optimum transfers.
+This is the same kind of untouched dial as `paths`/`max_twists`/diagram choice in
+`UNFINISHED` §6, one tool along.
+
+`weights_startheavy_AT.log`: `'[4.,17.,1.,1.,3.]'` with `--max-bands 8` on the ten
+`D_{0,1} # J`. Four times the weight on starting a new band, because a genus-5+
+target plausibly needs more bands than the default 5 allows.
+
+### What a walker negative is worth: very little
+
+GHMR report their own programs **failed to find bands for `L_{1,1}` and `L_{2,1}`,
+both of which are known to be ribbon** (`research/05` §adversarial memo calls this
+"the single most important calibration fact in the entire memo"). A walker
+failure is therefore weak evidence of non-ribbonness and **no evidence at all**
+about sliceness. Only a hit means anything here — and a hit still needs
+`verify_ribbon_to_unknot` before it is a result.
+
+**Status: 9 targets exhausted at 400 tries, 0 hits.**
