@@ -1,0 +1,200 @@
+name: Astra seven-hour movie search 2026-09-19
+
+# A deliberate, separate START.json commit launches the first run.
+# Ordinary scientific edits and workflow edits do not launch another search.
+on:
+  push:
+    branches: [main]
+    paths: ['research_jobs/astra_seven_hour_20260919/START.json']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+concurrency:
+  group: astra-seven-hour-movie-search-20260919
+  cancel-in-progress: false
+
+env:
+  PYTHONUNBUFFERED: '1'
+  PYTHONHASHSEED: '0'
+
+jobs:
+  validate:
+    name: Mathematical controls and short end-to-end tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install pinned topology environment
+        run: |
+          python -m pip install -r research_jobs/astra_seven_hour_20260919/requirements.txt
+          mkdir -p evidence/source evidence/smoke
+          cp research_jobs/astra_seven_hour_20260919/* evidence/source/
+          python -m pip freeze > evidence/environment.txt
+      - name: Verify frozen diagram fields against this checkout
+        run: |
+          python - <<'PY'
+          import json,pathlib
+          p=pathlib.Path('research_jobs/astra_seven_hour_20260919')
+          x=json.loads((p/'INPUTS.json').read_text())
+          for field,name in [('D01','AbeTagami_D_0_1.json'),('K1','AbeTagami_K_1.json')]:
+              source=json.loads((pathlib.Path('data/knots')/name).read_text())
+              if x[field] != source['pd_code']:
+                  raise RuntimeError('CONTROL FAILURE: frozen diagram differs from checkout: '+name)
+          PY
+      - name: Run mathematical controls
+        run: python research_jobs/astra_seven_hour_20260919/runner.py --out evidence --controls
+      - name: Smoke test both computation phases without counting them toward seven hours
+        run: |
+          cp evidence/CONTROLS.json evidence/smoke/CONTROLS.json
+          python research_jobs/astra_seven_hour_20260919/runner.py --out evidence/smoke --phase common_upper --segment 1 --seconds 5
+          python research_jobs/astra_seven_hour_20260919/runner.py --out evidence/smoke --phase stabilized_disks --segment 1 --seconds 5
+      - name: Publish preflight evidence even on failure
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: astra-seven-hour-preflight
+          path: evidence/
+          retention-days: 7
+          if-no-files-found: warn
+
+  phase_one:
+    name: Phase 1 - 3.5 hours of common-upper movie search
+    needs: validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 260
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install pinned topology environment
+        run: python -m pip install -r research_jobs/astra_seven_hour_20260919/requirements.txt
+      - uses: actions/download-artifact@v4
+        with:
+          name: astra-seven-hour-preflight
+          path: evidence
+      - name: Common-upper segment 1 of 7
+        uses: ./research_jobs/astra_seven_hour_20260919
+        with:
+          phase: common_upper
+          segment: '1'
+      - name: Common-upper segment 2 of 7
+        uses: ./research_jobs/astra_seven_hour_20260919
+        with:
+          phase: common_upper
+          segment: '2'
+      - name: Common-upper segment 3 of 7
+        uses: ./research_jobs/astra_seven_hour_20260919
+        with:
+          phase: common_upper
+          segment: '3'
+      - name: Common-upper segment 4 of 7
+        uses: ./research_jobs/astra_seven_hour_20260919
+        with:
+          phase: common_upper
+          segment: '4'
+      - name: Common-upper segment 5 of 7
+        uses: ./research_jobs/astra_seven_hour_20260919
+        with:
+          phase: common_upper
+          segment: '5'
+      - name: Common-upper segment 6 of 7
+        uses: ./research_jobs/astra_seven_hour_20260919
+        with:
+          phase: common_upper
+          segment: '6'
+      - name: Common-upper segment 7 of 7
+        uses: ./research_jobs/astra_seven_hour_20260919
+        with:
+          phase: common_upper
+          segment: '7'
+
+  phase_two:
+    name: Phase 2 - 3.5 hours of stabilized disk-movie search
+    needs: phase_one
+    runs-on: ubuntu-latest
+    timeout-minutes: 260
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install pinned topology environment
+        run: python -m pip install -r research_jobs/astra_seven_hour_20260919/requirements.txt
+      - uses: actions/download-artifact@v4
+        with:
+          name: astra-seven-hour-checkpoint
+          path: evidence
+      - name: Stabilized-disk segment 1 of 7
+        uses: ./research_jobs/astra_seven_hour_20260919
+        with:
+          phase: stabilized_disks
+          segment: '1'
+      - name: Stabilized-disk segment 2 of 7
+        uses: ./research_jobs/astra_seven_hour_20260919
+        with:
+          phase: stabilized_disks
+          segment: '2'
+      - name: Stabilized-disk segment 3 of 7
+        uses: ./research_jobs/astra_seven_hour_20260919
+        with:
+          phase: stabilized_disks
+          segment: '3'
+      - name: Stabilized-disk segment 4 of 7
+        uses: ./research_jobs/astra_seven_hour_20260919
+        with:
+          phase: stabilized_disks
+          segment: '4'
+      - name: Stabilized-disk segment 5 of 7
+        uses: ./research_jobs/astra_seven_hour_20260919
+        with:
+          phase: stabilized_disks
+          segment: '5'
+      - name: Stabilized-disk segment 6 of 7
+        uses: ./research_jobs/astra_seven_hour_20260919
+        with:
+          phase: stabilized_disks
+          segment: '6'
+      - name: Stabilized-disk segment 7 of 7
+        uses: ./research_jobs/astra_seven_hour_20260919
+        with:
+          phase: stabilized_disks
+          segment: '7'
+      - name: Report measured computation time, never assumed completion
+        run: |
+          python - <<'PY'
+          import json,pathlib,sqlite3
+          p=pathlib.Path('evidence')
+          c=sqlite3.connect(p/'evidence.sqlite')
+          rows=c.execute('SELECT phase,segment,status,seconds,cpu_seconds FROM runs ORDER BY id').fetchall()
+          expected={(phase,i) for phase in ['common_upper','stabilized_disks'] for i in range(1,8)}
+          finished={(r[0],r[1]) for r in rows if r[2]=='BOUNDED_SEGMENT_COMPLETE_NO_NOMINATION'}
+          measured=sum(r[3] or 0 for r in rows)
+          answer={'counterexample_established':False,'requested_search_seconds':25200,'measured_search_seconds':measured,'measured_cpu_seconds':sum(r[4] or 0 for r in rows),'both_phases_complete':finished==expected,'seven_hours_recorded':finished==expected and measured>=25200,'scope':'Bounded randomized searches only. A negative search is not a nonconcordance or nonribbonness theorem. UNKNOWN computations remain UNKNOWN.'}
+          (p/'FINAL.json').write_text(json.dumps(answer,indent=2)+'\n')
+          print(json.dumps(answer,indent=2))
+          with open(__import__('os').environ['GITHUB_STEP_SUMMARY'],'a') as s:
+              s.write('## Measured search result\n\n```json\n'+json.dumps(answer,indent=2)+'\n```\n')
+          PY
+      - name: Publish final cumulative evidence
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: astra-seven-hour-checkpoint
+          path: evidence/
+          overwrite: true
+          retention-days: 7
+          if-no-files-found: error
+          compression-level: 6
