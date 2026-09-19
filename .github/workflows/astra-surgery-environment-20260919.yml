@@ -1,0 +1,35 @@
+name: Astra surgery environment 2026-09-19
+on:
+  push:
+    paths:
+      - '.github/workflows/astra-surgery-environment-20260919.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  wheelhouse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Fetch topology packages for reproducible offline calculation
+        run: |
+          mkdir -p wheelhouse
+          python -m pip download --only-binary=:all: --dest wheelhouse snappy==3.3.2 regina==7.4
+          python -m pip install --no-index --find-links wheelhouse snappy==3.3.2 regina==7.4
+          python - <<'PY'
+          import json, pathlib, hashlib, sys
+          import snappy, regina
+          p=pathlib.Path('wheelhouse')
+          record={'purpose':'Offline surgery-boundary reconstruction for the supplied explicit genus-one link; no counterexample claim','python':sys.version,'snappy':snappy.__version__,'regina':regina.versionString(),'files':{f.name:hashlib.sha256(f.read_bytes()).hexdigest() for f in p.iterdir() if f.is_file()}}
+          (p/'MANIFEST.json').write_text(json.dumps(record,indent=2))
+          print(json.dumps(record,indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: astra-topology-wheelhouse-20260919
+          path: wheelhouse/
+          retention-days: 7
+          if-no-files-found: error
