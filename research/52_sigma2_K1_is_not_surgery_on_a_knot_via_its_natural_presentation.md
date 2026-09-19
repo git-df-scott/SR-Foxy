@@ -87,3 +87,40 @@ Goeritz forms were indefinite, `research/21` §4), or bordered Floer.
 That remains the single highest-value computation on this board: it is decisive
 in one direction and would be the campaign's first positive evidence in the
 other.
+
+---
+
+## 6. The full drilling sweep: still no knot-surgery description
+
+`scripts/sigma2_knot_surgery_sweep.py` -> `results/opus_2026_09_19_1000_sigma2_surgery/sweep*.jsonl`.
+
+§3 closed one curve. This sweeps every drillable geodesic of `Σ₂(K₁)`.
+
+| | |
+|---|---|
+| dual curves reported by SnapPy | 122 |
+| **actually drillable** (`drill()` accepts `range(28)`) | **28** |
+| drilled complements with `H₁ = Z` | **26** (20 distinct by volume, 8.505 to 11.709) |
+| slopes tested per complement | all `(a,b)`, `|a|,|b| <= 20` |
+| **knot-exterior drillings found** | **0** |
+
+Raising `max_segments` to 20, 30 and 40 does not enlarge the drillable set: it
+stays at 28, so 28 is a SnapPy cap here, not a search parameter I can turn up.
+**The 122 figure is the wrong denominator** — the first run of this sweep
+recorded 94 `IndexError`s, and reading "0 of 122" off it would have overstated
+the coverage more than four-fold.
+
+**Control passes** on every run: `meridian_slope` recovers `(-1,0)` on the
+exteriors of `4_1`, `3_1`, `6_3`, `5_2`.
+
+### Statement of the negative, with its bounds
+
+> No drillable geodesic of `Σ₂(K₁)` exhibits it as Dehn surgery on a knot in
+> `S³`, over 28 drilled curves and slopes to `|a|,|b| <= 20`.
+
+Bounded, not a theorem: SnapPy's drillable set is not every simple closed curve,
+and a knot-surgery description could use a curve outside it or a slope outside
+the box. But it does mean **the rational-surgery route to the d-invariants of
+`Σ₂(K₁)` has been tried properly and does not open**, and the next person should
+spend their time on a negative-definite filling or on bordered Floer rather than
+re-running this.
