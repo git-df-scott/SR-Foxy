@@ -1,0 +1,65 @@
+name: Astra complete handoff export 2026-09-19
+
+# Archival export only. Does not launch a mathematical search or modify results.
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/astra-full-handoff-export-20260919.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: astra-full-handoff-export-20260919
+  cancel-in-progress: false
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Read the pinned research revision with its reachable history
+        uses: actions/checkout@v4
+        with:
+          ref: '8481d993ee7763c17a49637112a77673f91c5cb7'
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Export exact source, Git history, and byte manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p export
+          git archive --format=tar.gz --prefix=SR-Foxy/ HEAD > export/SR-Foxy-source-8481d99.tar.gz
+          git bundle create export/SR-Foxy-history-8481d99.bundle HEAD
+          git bundle verify export/SR-Foxy-history-8481d99.bundle > export/BUNDLE_VERIFICATION.txt 2>&1
+          git log --format='%H%x09%aI%x09%an%x09%s' HEAD > export/COMMIT_HISTORY.tsv
+          python - <<'PY'
+          import datetime, hashlib, json, pathlib, subprocess
+          def git(*args):
+              return subprocess.check_output(['git', *args])
+          files = []
+          for entry in git('ls-tree', '-rz', 'HEAD').split(b'\0'):
+              if not entry:
+                  continue
+              header, raw_path = entry.split(b'\t', 1)
+              mode, kind, oid = header.decode().split()
+              path = raw_path.decode('utf-8')
+              if kind != 'blob':
+                  raise RuntimeError('Non-blob tracked entry requires separate export: ' + path)
+              if pathlib.PurePosixPath(path).suffix.lower() in {'.ttf', '.otf', '.woff', '.woff2'}:
+                  raise RuntimeError('Do not include font distributions in this handoff: ' + path)
+              data = git('cat-file', 'blob', oid)
+              files.append({'path':path, 'mode':mode, 'git_blob_sha1':oid, 'bytes':len(data), 'sha256':hashlib.sha256(data).hexdigest()})
+          report = {'repository':'git-df-scott/SR-Foxy', 'source_commit':git('rev-parse','HEAD').decode().strip(), 'source_tree':git('rev-parse','HEAD^{tree}').decode().strip(), 'export_workflow_commit':__import__('os').environ['GITHUB_SHA'], 'created_at_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(), 'scope':'Exact tracked source at the pinned commit plus all Git history reachable from it; no credentials, local untracked files, external dependency wheels, or future Actions output.', 'mathematical_tests_rerun':False, 'file_count':len(files), 'files':files}
+          root = pathlib.Path('export')
+          (root/'SOURCE_MANIFEST.json').write_text(json.dumps(report, indent=2)+'\n')
+          sums = {p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(root.iterdir()) if p.is_file()}
+          (root/'SHA256SUMS.json').write_text(json.dumps(sums, indent=2)+'\n')
+          print(json.dumps({k:v for k,v in report.items() if k!='files'}, indent=2))
+          PY
+      - name: Save the complete archive without publishing research claims
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: sr-foxy-complete-handoff-8481d99
+          path: export/
+          retention-days: 7
+          if-no-files-found: error
+          compression-level: 0
