@@ -1,0 +1,68 @@
+{
+  "scope": "Three saved research packages attached in this conversation; not a full repository export or transcript.",
+  "checks_performed": "ZIP CRC, saved byte counts and SHA-256 lists where present, byte-for-byte copied archive members. Mathematical calculations were not rerun during packaging.",
+  "packages": [
+    {
+      "source_archive": "SR_Foxy_Tonight_Handoff_2026-09-18.zip",
+      "source_archive_sha256": "8804955147fd8197b10e2c0d05834cf30cc0b9cdbf1bc55c0fefe4e02886af4b",
+      "source_archive_bytes": 23472,
+      "file_count": 9,
+      "crc_check": "PASS",
+      "saved_hash_list": "CHECKSUMS.sha256: SHA-256",
+      "saved_hash_entries_verified": 8,
+      "expanded_directory": "01_initial_audit",
+      "copied_without_altering_member_bytes": true,
+      "reports_and_readmes": [
+        "AUDIT.md",
+        "README.md",
+        "TONIGHT_HANDOFF.md"
+      ]
+    },
+    {
+      "source_archive": "SR_Foxy_One_Commutator_2026-09-18.zip",
+      "source_archive_sha256": "d8fa1840759797398394672498eeede38dd3e4105c36635a70ad9e6495c40929",
+      "source_archive_bytes": 38689,
+      "file_count": 27,
+      "crc_check": "PASS",
+      "saved_hash_list": "MANIFEST.json: bytes and SHA-256",
+      "saved_hash_entries_verified": 26,
+      "expanded_directory": "02_one_commutator",
+      "copied_without_altering_member_bytes": true,
+      "reports_and_readmes": [
+        "README.md",
+        "REPORT.md"
+      ]
+    },
+    {
+      "source_archive": "SR_Foxy_Explicit_Genus_One_2026-09-18.zip",
+      "source_archive_sha256": "be6902e6b689d89c679faa017352d7da6e846b6eea3b043cd4351d59d55a5524",
+      "source_archive_bytes": 1021436,
+      "file_count": 92,
+      "crc_check": "PASS",
+      "saved_hash_list": "MANIFEST.json: bytes and SHA-256",
+      "saved_hash_entries_verified": 91,
+      "expanded_directory": "03_explicit_genus_one",
+      "copied_without_altering_member_bytes": true,
+      "reports_and_readmes": [
+        "README.md",
+        "REPORT.md",
+        "prior/astra_one_commutator_2026_09_18/README.md",
+        "prior/astra_one_commutator_2026_09_18/REPORT.md"
+      ]
+    }
+  ],
+  "prior_package_comparison": {
+    "source_file_count": 27,
+    "identical_nested_files": 26,
+    "not_nested_in_genus_one_archive": [
+      "astra_one_commutator_2026_09_18/MANIFEST.json"
+    ],
+    "interpretation": "All 26 files listed by the original one-commutator manifest are copied unchanged in the genus-one prior directory. The separate original one-commutator MANIFEST.json is absent from that nested copy; it is included in 02_one_commutator and the original ZIP here."
+  },
+  "exclusions": [
+    "Full GitHub repository and Git history",
+    "Later GitHub Actions outputs and checkpoints",
+    "Full conversation transcript",
+    "Transient or unsaved runtime files not in these source packages"
+  ]
+}

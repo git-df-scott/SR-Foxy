@@ -1,0 +1,15 @@
+{
+  "correction": {
+    "status": "COMPLETE",
+    "remaining_generators": [
+      159
+    ],
+    "remaining_relators": [],
+    "steps": 159,
+    "cyclic_group": true
+  },
+  "base_aux": {
+    "status": "CROSSING_FREE",
+    "components": 2
+  }
+}

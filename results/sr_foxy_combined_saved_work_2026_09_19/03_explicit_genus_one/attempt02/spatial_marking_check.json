@@ -1,0 +1,139 @@
+{
+  "handle_checks": {
+    "A": {
+      "geometric_undercrossing_word": [
+        4,
+        -3,
+        -3,
+        1
+      ],
+      "expected": [
+        4,
+        -3,
+        -3,
+        1
+      ],
+      "matches": true,
+      "crossing_records": [
+        [
+          28,
+          166,
+          1,
+          4
+        ],
+        [
+          42,
+          174,
+          -1,
+          3
+        ],
+        [
+          26,
+          174,
+          -1,
+          3
+        ],
+        [
+          3,
+          186,
+          1,
+          1
+        ]
+      ]
+    },
+    "B": {
+      "geometric_undercrossing_word": [
+        4,
+        -9,
+        -1,
+        3,
+        -1,
+        8,
+        -5,
+        -8,
+        1,
+        1
+      ],
+      "expected": [
+        4,
+        -9,
+        -1,
+        3,
+        -1,
+        8,
+        -5,
+        -8,
+        1,
+        1
+      ],
+      "matches": true,
+      "crossing_records": [
+        [
+          132,
+          166,
+          1,
+          4
+        ],
+        [
+          96,
+          142,
+          -1,
+          9
+        ],
+        [
+          100,
+          186,
+          -1,
+          1
+        ],
+        [
+          111,
+          174,
+          1,
+          3
+        ],
+        [
+          76,
+          186,
+          -1,
+          1
+        ],
+        [
+          115,
+          129,
+          1,
+          8
+        ],
+        [
+          34,
+          122,
+          -1,
+          5
+        ],
+        [
+          80,
+          129,
+          -1,
+          8
+        ],
+        [
+          72,
+          186,
+          1,
+          1
+        ],
+        [
+          6,
+          186,
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  "handle_words_match": true,
+  "base_curve_surface_candidate_pairs": 392,
+  "base_curve_surface_hits": [],
+  "surface_disjoint_from_base": true,
+  "source_commit": "ceb83c2c86c4b538599f95b62812587d2fa3c6fe"
+}

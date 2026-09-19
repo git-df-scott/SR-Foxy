@@ -1,0 +1,137 @@
+{
+  "accessed": "2026-09-18",
+  "sources": [
+    {
+      "id": "AT",
+      "authors": [
+        "Tetsuya Abe",
+        "Keiji Tagami"
+      ],
+      "title": "Fibered knots with the same 0-surgery and the slice-ribbon conjecture",
+      "date": "First submitted February 2015; inspected arXiv v5, 8 September 2016",
+      "url": "https://arxiv.org/pdf/1502.01102",
+      "locations": [
+        "Section 2",
+        "Theorem 4.1 (restatement of Miyazaki Theorem 5.5)",
+        "Corollary 4.3",
+        "Figures 1, 4 and 5"
+      ],
+      "claim_used": "Distinct fibered knots with irreducible Alexander polynomials give a nonribbon difference; the paper applies this to its 6_3 annulus-twist pair.",
+      "limits": "Application to repository PDs still requires exact correspondence. Does not imply concordance from common 0-surgery."
+    },
+    {
+      "id": "MIY",
+      "authors": [
+        "K. Miyazaki"
+      ],
+      "title": "Nonsimple, ribbon fibered knots",
+      "date": "1994, Transactions of the American Mathematical Society 341",
+      "url": "https://www.ams.org/tran/1994-341-01/S0002-9947-1994-1176509-4/S0002-9947-1994-1176509-4.pdf",
+      "locations": [
+        "Theorem 5.5, as reproduced in Abe-Tagami Appendix A"
+      ],
+      "claim_used": "Prime fibered summands satisfying the individual minimality or nonunit norm-factor exclusion hypotheses must pair appropriately in a homotopically ribbon sum.",
+      "limits": "Direct original retrieval failed. Do not claim the original proof was read."
+    },
+    {
+      "id": "PARK",
+      "authors": [
+        "JungHwan Park"
+      ],
+      "title": "A construction of slice knots via annulus modifications",
+      "date": "arXiv first submission 1 December 2015; retrieved PDF internally dated 29 October 2021",
+      "url": "https://arxiv.org/pdf/1512.00401",
+      "locations": [
+        "Definition 2.1",
+        "Definition 3.1 / Section 3 l-standard condition",
+        "Theorem 3.3 (also announced as Theorem 3.1 in the introduction)",
+        "Figures 6 and 7"
+      ],
+      "claim_used": "A modifying annulus must be disjoint from the chosen disk and satisfy the standard-annulus hypotheses for the standard-B4 conclusion; l-nice alone yields a weaker exotic-ball conclusion.",
+      "limits": "No target annulus meeting the hypotheses was constructed. Figure 7 screenshot inspected; the attempted screenshot of the following page failed."
+    },
+    {
+      "id": "DG",
+      "authors": [
+        "Nathan M. Dunfield",
+        "Sherry Gong"
+      ],
+      "title": "Ribbon concordances and slice obstructions: experiments and examples",
+      "date": "December 2025 preprint, arXiv:2512.21825",
+      "url": "https://arxiv.org/pdf/2512.21825",
+      "locations": [
+        "Section 2.6, printed page 19",
+        "Section 2.10"
+      ],
+      "claim_used": "Ribbon certificates for J and K#J imply K slice; the paper also states the converse existence characterization, citing Teichner Lemma 2.5.",
+      "limits": "The easy cancellation implication was reasoned directly. Original Teichner lecture-note proof was not separately retrieved. No finite bound on a successful partner is supplied."
+    },
+    {
+      "id": "OS",
+      "authors": [
+        "Trevor Oliveira-Smith"
+      ],
+      "title": "A Dunfield-Gong 4-Sphere is Standard",
+      "date": "Preprint first submitted 24 March 2026, arXiv:2603.23717",
+      "url": "https://arxiv.org/html/2603.23717v1",
+      "locations": [
+        "Theorem 1.1",
+        "Corollary 1.1.1",
+        "Theorem 1.2"
+      ],
+      "claim_used": "The preprint supplies standard-B4 sliceness for 18nh00000601 and separately discusses handle-ribbonness.",
+      "limits": "The named knot and theorem statement were checked; the full Kirby proof and identification of the stored target PD were not independently certified. Retrieved rendering also displayed a later internal date; no dating inference was made from that inconsistency."
+    },
+    {
+      "id": "EIS",
+      "authors": [
+        "Michael Eisermann"
+      ],
+      "title": "The Jones polynomial of ribbon links",
+      "date": "Geometry & Topology 13 (2009), 623-660; first arXiv submission 15 February 2008",
+      "url": "https://pnp.mathematik.uni-stuttgart.de/igt/eiserm/publications/ribbonlinks.pdf",
+      "locations": [
+        "Definition 6.12",
+        "Proposition 6.13",
+        "Corollaries 6.9 and 6.15",
+        "Questions 7.1 and 7.8"
+      ],
+      "claim_used": "A ribbon pattern means its zero-framed unknot satellite is ribbon. Applying such a pattern to a ribbon companion yields a ribbon link; the Jones nullity and mod-32 criteria are necessary.",
+      "limits": "No claim that a non-concordance invariant must distinguish any fixed slice knot. Questions in this paper are not asserted to remain unresolved today, and passing cable examples do not prove universal vacuity."
+    },
+    {
+      "id": "MZ",
+      "authors": [
+        "Maggie Miller",
+        "Alexander Zupan"
+      ],
+      "title": "Equivalent characterizations of handle-ribbon knots",
+      "date": "22 May 2020, arXiv:2005.11243v1",
+      "url": "https://arxiv.org/pdf/2005.11243",
+      "locations": [
+        "Introduction derivative definition",
+        "Proposition 1.1",
+        "Theorem 1.3"
+      ],
+      "claim_used": "Ribbonness is equivalent to existence of an unlink derivative on some Seifert surface; handle-ribbonness corresponds instead to an R-link derivative.",
+      "limits": "No minimal-genus or single-fiber restriction in the ribbon characterization; a finite derivative search is not a global nonribbon theorem."
+    },
+    {
+      "id": "SNAPPY",
+      "authors": [
+        "SnapPy developers"
+      ],
+      "title": "Manifold: the main class \u2014 SnapPy 3.3.2 documentation",
+      "date": "Retrieved 18 September 2026",
+      "url": "https://snappy.computop.org/manifold.html",
+      "locations": [
+        "is_isometric_to",
+        "length_spectrum",
+        "length_spectrum_alt_gen",
+        "solution_type"
+      ],
+      "claim_used": "True from is_isometric_to is rigorous; False may reflect numerical errors. Certified spectrum comparison needs the appropriate verified machinery and completeness controls.",
+      "limits": "No SnapPy integration test was executed in this environment. Closed-manifold positive orientation and required markings need separate tracking."
+    }
+  ]
+}

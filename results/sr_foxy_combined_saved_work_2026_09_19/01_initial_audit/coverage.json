@@ -1,0 +1,178 @@
+{
+  "repository": "git-df-scott/SR-Foxy",
+  "observed_main": "debd272ad3dc4e61bff643cfdcc544aa2e3912d1",
+  "observed_opus_branch_head": "5a4b38abffc43c6bb6cc4f15da5316c5424a4428",
+  "mac_checkout_accessed": false,
+  "repository_modified": false,
+  "branch_created": false,
+  "committed": false,
+  "pushed": false,
+  "environment": "Linux; Python standard library tests only; SnapPy/Spherogram/Regina unavailable.",
+  "files": [
+    {
+      "path": "UNFINISHED.md",
+      "ref": "debd272ad3dc4e61bff643cfdcc544aa2e3912d1",
+      "read_coverage": "FULL_RETURNED_TEXT",
+      "detail": "UNFINISHED was completed by an additional requested range 160-450.",
+      "url": "https://github.com/git-df-scott/SR-Foxy/blob/debd272ad3dc4e61bff643cfdcc544aa2e3912d1/UNFINISHED.md"
+    },
+    {
+      "path": "ERRATA_2026-09-16.md",
+      "ref": "debd272ad3dc4e61bff643cfdcc544aa2e3912d1",
+      "read_coverage": "FULL_RETURNED_TEXT",
+      "detail": "",
+      "url": "https://github.com/git-df-scott/SR-Foxy/blob/debd272ad3dc4e61bff643cfdcc544aa2e3912d1/ERRATA_2026-09-16.md"
+    },
+    {
+      "path": "CANDIDATE_LEDGER.md",
+      "ref": "debd272ad3dc4e61bff643cfdcc544aa2e3912d1",
+      "read_coverage": "FULL_RETURNED_TEXT",
+      "detail": "",
+      "url": "https://github.com/git-df-scott/SR-Foxy/blob/debd272ad3dc4e61bff643cfdcc544aa2e3912d1/CANDIDATE_LEDGER.md"
+    },
+    {
+      "path": "OBSTRUCTION_MATRIX.md",
+      "ref": "debd272ad3dc4e61bff643cfdcc544aa2e3912d1",
+      "read_coverage": "FULL_RETURNED_TEXT",
+      "detail": "",
+      "url": "https://github.com/git-df-scott/SR-Foxy/blob/debd272ad3dc4e61bff643cfdcc544aa2e3912d1/OBSTRUCTION_MATRIX.md"
+    },
+    {
+      "path": "results/astra_2026_09_16/summary.json",
+      "ref": "debd272ad3dc4e61bff643cfdcc544aa2e3912d1",
+      "read_coverage": "FULL_RETURNED_TEXT",
+      "detail": "",
+      "url": "https://github.com/git-df-scott/SR-Foxy/blob/debd272ad3dc4e61bff643cfdcc544aa2e3912d1/results/astra_2026_09_16/summary.json"
+    },
+    {
+      "path": "results/astra_2026_09_16_followup/summary.json",
+      "ref": "debd272ad3dc4e61bff643cfdcc544aa2e3912d1",
+      "read_coverage": "FULL_RETURNED_TEXT",
+      "detail": "",
+      "url": "https://github.com/git-df-scott/SR-Foxy/blob/debd272ad3dc4e61bff643cfdcc544aa2e3912d1/results/astra_2026_09_16_followup/summary.json"
+    },
+    {
+      "path": "results/astra_2026_09_16_followup/claude_review_audit.json",
+      "ref": "debd272ad3dc4e61bff643cfdcc544aa2e3912d1",
+      "read_coverage": "FULL_RETURNED_TEXT",
+      "detail": "",
+      "url": "https://github.com/git-df-scott/SR-Foxy/blob/debd272ad3dc4e61bff643cfdcc544aa2e3912d1/results/astra_2026_09_16_followup/claude_review_audit.json"
+    },
+    {
+      "path": "results/astra_2026_09_16_followup/claude_response.json",
+      "ref": "debd272ad3dc4e61bff643cfdcc544aa2e3912d1",
+      "read_coverage": "FULL_RETURNED_TEXT",
+      "detail": "",
+      "url": "https://github.com/git-df-scott/SR-Foxy/blob/debd272ad3dc4e61bff643cfdcc544aa2e3912d1/results/astra_2026_09_16_followup/claude_response.json"
+    },
+    {
+      "path": "scripts/miyazaki_pair_sweep.py",
+      "ref": "5a4b38abffc43c6bb6cc4f15da5316c5424a4428",
+      "read_coverage": "FULL_RETURNED_TEXT",
+      "detail": "Reviewed source; NOT run with SnapPy or the actual census.",
+      "url": "https://github.com/git-df-scott/SR-Foxy/blob/5a4b38abffc43c6bb6cc4f15da5316c5424a4428/scripts/miyazaki_pair_sweep.py"
+    },
+    {
+      "path": "scripts/zero_surgery_pair_search.py",
+      "ref": "5a4b38abffc43c6bb6cc4f15da5316c5424a4428",
+      "read_coverage": "FULL_RETURNED_TEXT",
+      "detail": "Reviewed source; NOT run with SnapPy or the actual census.",
+      "url": "https://github.com/git-df-scott/SR-Foxy/blob/5a4b38abffc43c6bb6cc4f15da5316c5424a4428/scripts/zero_surgery_pair_search.py"
+    },
+    {
+      "path": "scripts/zero_surgery_confirm.py",
+      "ref": "5a4b38abffc43c6bb6cc4f15da5316c5424a4428",
+      "read_coverage": "FULL_RETURNED_TEXT",
+      "detail": "Reviewed source; NOT run with SnapPy or the actual census.",
+      "url": "https://github.com/git-df-scott/SR-Foxy/blob/5a4b38abffc43c6bb6cc4f15da5316c5424a4428/scripts/zero_surgery_confirm.py"
+    },
+    {
+      "path": "research/12_coupled_movie_audit.md",
+      "ref": "debd272ad3dc4e61bff643cfdcc544aa2e3912d1",
+      "read_coverage": "FULL_RETURNED_TEXT",
+      "detail": "Read claims and limits; historical computations not all rerun.",
+      "url": "https://github.com/git-df-scott/SR-Foxy/blob/debd272ad3dc4e61bff643cfdcc544aa2e3912d1/research/12_coupled_movie_audit.md"
+    },
+    {
+      "path": "research/15_infection_target_compatibility.md",
+      "ref": "debd272ad3dc4e61bff643cfdcc544aa2e3912d1",
+      "read_coverage": "FULL_RETURNED_TEXT",
+      "detail": "Read claims and limits; historical computations not all rerun.",
+      "url": "https://github.com/git-df-scott/SR-Foxy/blob/debd272ad3dc4e61bff643cfdcc544aa2e3912d1/research/15_infection_target_compatibility.md"
+    },
+    {
+      "path": "research/20_next_construction_plan.md",
+      "ref": "debd272ad3dc4e61bff643cfdcc544aa2e3912d1",
+      "read_coverage": "FULL_RETURNED_TEXT",
+      "detail": "Read claims and limits; historical computations not all rerun.",
+      "url": "https://github.com/git-df-scott/SR-Foxy/blob/debd272ad3dc4e61bff643cfdcc544aa2e3912d1/research/20_next_construction_plan.md"
+    },
+    {
+      "path": "research/14_marked_annulus_audit.md",
+      "ref": "debd272ad3dc4e61bff643cfdcc544aa2e3912d1",
+      "read_coverage": "SUBSTANTIVE_SECTIONS_READ_TAIL_TRUNCATED",
+      "detail": "Sections 1-6 and most source list returned. Last source-list tail truncated. Displayed finite-group arithmetic independently reproduced; PD extraction not repeated.",
+      "url": "https://github.com/git-df-scott/SR-Foxy/blob/debd272ad3dc4e61bff643cfdcc544aa2e3912d1/research/14_marked_annulus_audit.md"
+    },
+    {
+      "path": "research/33_one_stabilization_and_the_forced_collapse.md",
+      "ref": "debd272ad3dc4e61bff643cfdcc544aa2e3912d1",
+      "read_coverage": "PARTIAL",
+      "detail": "Requested lines 1-190: Sections 1 and 2 and beginning of 3. Later sections not read.",
+      "url": "https://github.com/git-df-scott/SR-Foxy/blob/debd272ad3dc4e61bff643cfdcc544aa2e3912d1/research/33_one_stabilization_and_the_forced_collapse.md"
+    },
+    {
+      "path": "research/34_searchlight_and_the_general_stabilization.md",
+      "ref": "debd272ad3dc4e61bff643cfdcc544aa2e3912d1",
+      "read_coverage": "PARTIAL",
+      "detail": "Requested lines 1-180: Sections 1-4 and beginning of 5. Later lifted-surgery work not read.",
+      "url": "https://github.com/git-df-scott/SR-Foxy/blob/debd272ad3dc4e61bff643cfdcc544aa2e3912d1/research/34_searchlight_and_the_general_stabilization.md"
+    },
+    {
+      "path": "data/knots/AbeTagami_CONSTRUCTION.md",
+      "ref": "debd272ad3dc4e61bff643cfdcc544aa2e3912d1",
+      "read_coverage": "CONSTRUCTION_CARD_READ",
+      "detail": "Requested lines 1-180; returned through final cusp-order paragraph and PD. Build scripts not run. Figure-to-PD identification not independently certified.",
+      "url": "https://github.com/git-df-scott/SR-Foxy/blob/debd272ad3dc4e61bff643cfdcc544aa2e3912d1/data/knots/AbeTagami_CONSTRUCTION.md"
+    },
+    {
+      "path": "results/astra_2026_09_18_dual_path_frontier/README.md",
+      "ref": "debd272ad3dc4e61bff643cfdcc544aa2e3912d1",
+      "read_coverage": "FULL_PATCH_READ",
+      "detail": "Read addition in latest commit diff, including full report and stated coverage. No claim of re-running its calculations.",
+      "url": "https://github.com/git-df-scott/SR-Foxy/blob/debd272ad3dc4e61bff643cfdcc544aa2e3912d1/results/astra_2026_09_18_dual_path_frontier/README.md"
+    },
+    {
+      "path": "results/astra_2026_09_18_dual_path_frontier/VERIFICATION.json",
+      "ref": "debd272ad3dc4e61bff643cfdcc544aa2e3912d1",
+      "read_coverage": "FULL_PATCH_READ",
+      "detail": "Read addition in latest commit diff; summary arithmetic/report only.",
+      "url": "https://github.com/git-df-scott/SR-Foxy/blob/debd272ad3dc4e61bff643cfdcc544aa2e3912d1/results/astra_2026_09_18_dual_path_frontier/VERIFICATION.json"
+    },
+    {
+      "path": "results/astra_2026_09_18_dual_path_frontier/EXPANDED_RESULTS.json",
+      "ref": "debd272ad3dc4e61bff643cfdcc544aa2e3912d1",
+      "read_coverage": "NOT_READ",
+      "detail": "Filename and summary known; raw dataset not retrieved or audited programmatically in this preparation.",
+      "url": "https://github.com/git-df-scott/SR-Foxy/blob/debd272ad3dc4e61bff643cfdcc544aa2e3912d1/results/astra_2026_09_18_dual_path_frontier/EXPANDED_RESULTS.json"
+    },
+    {
+      "path": "results/astra_2026_09_18_dual_path_frontier/SHORT_RESULTS.json",
+      "ref": "debd272ad3dc4e61bff643cfdcc544aa2e3912d1",
+      "read_coverage": "NOT_READ",
+      "detail": "Filename and summary known; raw dataset not retrieved or audited programmatically in this preparation.",
+      "url": "https://github.com/git-df-scott/SR-Foxy/blob/debd272ad3dc4e61bff643cfdcc544aa2e3912d1/results/astra_2026_09_18_dual_path_frontier/SHORT_RESULTS.json"
+    }
+  ],
+  "not_covered": [
+    "Entire repository was not read. Directory listings are metadata, not content coverage.",
+    "Census raw 59,937-knot HFK outputs, volume JSONL, final confirmation results and live process state under remote /tmp/claude-0 were not recovered.",
+    "No complete generated geometric frontier was programmatically re-audited.",
+    "Newer main commits were inspected selectively, not all implementation and proof details independently checked.",
+    "Original Miyazaki full paper was not obtained; the Abe-Tagami restatement and application were read.",
+    "The KDG preprint theorem and named knot were checked, not every Kirby move or the repository PD correspondence."
+  ],
+  "executed": [
+    "audit_regressions.py: 16 checks passed; numerical inputs synthetic; finite-group calculation reproduces an existing displayed certificate."
+  ]
+}

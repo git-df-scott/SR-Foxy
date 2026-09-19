@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "checks": 16,
+  "passed": [
+    "all 675 projected crossings and Gauss ordering independently reconstructed",
+    "actual axes read the intended a and [A,B]b boundary words",
+    "full meridians, Wirtinger relators and zero-framed longitudes rebuilt",
+    "initial integer Laurent Fox derivatives independently match",
+    "all 670 unit pivots and reduced longitude rows replay exactly",
+    "rational meridian solution and exact E=0 verified by polynomial multiplication",
+    "all five filled maximal minors are 0,0,-t^-4 d^2,t^-2 d^2,-t^-3 d^2",
+    "all-parameter minors certified by determinant multiaffinity and four exact coefficient-determining evaluations",
+    "auxiliary group and preferred longitudes reconstructed directly from the polygon sublink",
+    "auxiliary exact Tietze replay kills both preferred longitudes; free group rank two",
+    "positive Hopf peripheral control has nontrivial opposite meridians",
+    "unlink peripheral control",
+    "incorrect b-prime zero-framing is rejected",
+    "corrupted null longitude is rejected",
+    "corrupted Alexander polynomial is rejected",
+    "corrupted unit-pivot sign is rejected"
+  ],
+  "polygon_crossings": 675,
+  "fox_unit_pivots": 670,
+  "auxiliary_tietze_moves": 375,
+  "exact_target_coefficients_ascending": [
+    1,
+    -6,
+    19,
+    -36,
+    45,
+    -36,
+    19,
+    -6,
+    1
+  ],
+  "scope": "Independent arithmetic and polygon-projection replay. Does not construct a slice disk or identify the surgery knot as D01."
+}
