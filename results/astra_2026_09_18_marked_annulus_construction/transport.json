@@ -1,0 +1,3195 @@
+{
+  "scope": "Marked transport for the explicitly completed zero-turn product model in GEOMETRY.md; no immersed-annulus movie or embedded modifying annulus",
+  "inputs": [
+    {
+      "path": "data/knots/AbeTagami_marked_product_scaffold.json",
+      "sha256": "d01c4a33c3533de068d0ba6c6c1f1e8e980c16ce57d0e274f263e7fc75dcc4d3"
+    },
+    {
+      "path": "results/chat_archive_2026_09_17/expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/RESULTS.json",
+      "sha256": "5df99bab6f8785d8778ab99fa5726b56b4476badd7633ee4bfd7af7b59e6dca0"
+    },
+    {
+      "path": "results/chat_archive_2026_09_17/expanded/SR_Foxy_pass09_product_collar_2026_09_17/pass09_product_collar/diagram_core.py",
+      "sha256": "cf9012abcbc9d79b76aed7741d6a14cff99437706b245a007286aea35f1fc62a"
+    },
+    {
+      "path": "results/astra_2026_09_17_collar_boundary_audit/CERTIFICATE.json",
+      "sha256": "6969cd957ce3a1ba023ade673ca4aa13611e97ad0b5da9f5078fa28c9662c420"
+    },
+    {
+      "path": "results/night_2026_09_18/word_correction.json",
+      "sha256": "d0aa7f52c62e7fda2b185cab06e77b2d6000c393674ed85c4a242e0894af68ba"
+    },
+    {
+      "path": "results/night_2026_09_18_surface/surface_certificate.json",
+      "sha256": "30c3bbe7084e6cf697447b414c6734091f5379fb9f2f4d700358e361ad1a7e15"
+    }
+  ],
+  "seams": [
+    [
+      0,
+      2,
+      [
+        27,
+        3
+      ]
+    ],
+    [
+      1,
+      1,
+      [
+        28,
+        2
+      ]
+    ]
+  ],
+  "mirror_port_map": [
+    {
+      "upper": [
+        0,
+        0
+      ],
+      "lower": [
+        27,
+        1
+      ]
+    },
+    {
+      "upper": [
+        0,
+        1
+      ],
+      "lower": [
+        27,
+        2
+      ]
+    },
+    {
+      "upper": [
+        0,
+        2
+      ],
+      "lower": [
+        27,
+        3
+      ]
+    },
+    {
+      "upper": [
+        0,
+        3
+      ],
+      "lower": [
+        27,
+        0
+      ]
+    },
+    {
+      "upper": [
+        1,
+        0
+      ],
+      "lower": [
+        28,
+        1
+      ]
+    },
+    {
+      "upper": [
+        1,
+        1
+      ],
+      "lower": [
+        28,
+        2
+      ]
+    },
+    {
+      "upper": [
+        1,
+        2
+      ],
+      "lower": [
+        28,
+        3
+      ]
+    },
+    {
+      "upper": [
+        1,
+        3
+      ],
+      "lower": [
+        28,
+        0
+      ]
+    },
+    {
+      "upper": [
+        2,
+        0
+      ],
+      "lower": [
+        29,
+        1
+      ]
+    },
+    {
+      "upper": [
+        2,
+        1
+      ],
+      "lower": [
+        29,
+        2
+      ]
+    },
+    {
+      "upper": [
+        2,
+        2
+      ],
+      "lower": [
+        29,
+        3
+      ]
+    },
+    {
+      "upper": [
+        2,
+        3
+      ],
+      "lower": [
+        29,
+        0
+      ]
+    },
+    {
+      "upper": [
+        3,
+        0
+      ],
+      "lower": [
+        30,
+        3
+      ]
+    },
+    {
+      "upper": [
+        3,
+        1
+      ],
+      "lower": [
+        30,
+        0
+      ]
+    },
+    {
+      "upper": [
+        3,
+        2
+      ],
+      "lower": [
+        30,
+        1
+      ]
+    },
+    {
+      "upper": [
+        3,
+        3
+      ],
+      "lower": [
+        30,
+        2
+      ]
+    },
+    {
+      "upper": [
+        4,
+        0
+      ],
+      "lower": [
+        31,
+        3
+      ]
+    },
+    {
+      "upper": [
+        4,
+        1
+      ],
+      "lower": [
+        31,
+        0
+      ]
+    },
+    {
+      "upper": [
+        4,
+        2
+      ],
+      "lower": [
+        31,
+        1
+      ]
+    },
+    {
+      "upper": [
+        4,
+        3
+      ],
+      "lower": [
+        31,
+        2
+      ]
+    },
+    {
+      "upper": [
+        5,
+        0
+      ],
+      "lower": [
+        32,
+        3
+      ]
+    },
+    {
+      "upper": [
+        5,
+        1
+      ],
+      "lower": [
+        32,
+        0
+      ]
+    },
+    {
+      "upper": [
+        5,
+        2
+      ],
+      "lower": [
+        32,
+        1
+      ]
+    },
+    {
+      "upper": [
+        5,
+        3
+      ],
+      "lower": [
+        32,
+        2
+      ]
+    },
+    {
+      "upper": [
+        6,
+        0
+      ],
+      "lower": [
+        33,
+        1
+      ]
+    },
+    {
+      "upper": [
+        6,
+        1
+      ],
+      "lower": [
+        33,
+        2
+      ]
+    },
+    {
+      "upper": [
+        6,
+        2
+      ],
+      "lower": [
+        33,
+        3
+      ]
+    },
+    {
+      "upper": [
+        6,
+        3
+      ],
+      "lower": [
+        33,
+        0
+      ]
+    },
+    {
+      "upper": [
+        7,
+        0
+      ],
+      "lower": [
+        34,
+        1
+      ]
+    },
+    {
+      "upper": [
+        7,
+        1
+      ],
+      "lower": [
+        34,
+        2
+      ]
+    },
+    {
+      "upper": [
+        7,
+        2
+      ],
+      "lower": [
+        34,
+        3
+      ]
+    },
+    {
+      "upper": [
+        7,
+        3
+      ],
+      "lower": [
+        34,
+        0
+      ]
+    },
+    {
+      "upper": [
+        8,
+        0
+      ],
+      "lower": [
+        35,
+        1
+      ]
+    },
+    {
+      "upper": [
+        8,
+        1
+      ],
+      "lower": [
+        35,
+        2
+      ]
+    },
+    {
+      "upper": [
+        8,
+        2
+      ],
+      "lower": [
+        35,
+        3
+      ]
+    },
+    {
+      "upper": [
+        8,
+        3
+      ],
+      "lower": [
+        35,
+        0
+      ]
+    },
+    {
+      "upper": [
+        9,
+        0
+      ],
+      "lower": [
+        36,
+        3
+      ]
+    },
+    {
+      "upper": [
+        9,
+        1
+      ],
+      "lower": [
+        36,
+        0
+      ]
+    },
+    {
+      "upper": [
+        9,
+        2
+      ],
+      "lower": [
+        36,
+        1
+      ]
+    },
+    {
+      "upper": [
+        9,
+        3
+      ],
+      "lower": [
+        36,
+        2
+      ]
+    },
+    {
+      "upper": [
+        10,
+        0
+      ],
+      "lower": [
+        37,
+        3
+      ]
+    },
+    {
+      "upper": [
+        10,
+        1
+      ],
+      "lower": [
+        37,
+        0
+      ]
+    },
+    {
+      "upper": [
+        10,
+        2
+      ],
+      "lower": [
+        37,
+        1
+      ]
+    },
+    {
+      "upper": [
+        10,
+        3
+      ],
+      "lower": [
+        37,
+        2
+      ]
+    },
+    {
+      "upper": [
+        11,
+        0
+      ],
+      "lower": [
+        38,
+        1
+      ]
+    },
+    {
+      "upper": [
+        11,
+        1
+      ],
+      "lower": [
+        38,
+        2
+      ]
+    },
+    {
+      "upper": [
+        11,
+        2
+      ],
+      "lower": [
+        38,
+        3
+      ]
+    },
+    {
+      "upper": [
+        11,
+        3
+      ],
+      "lower": [
+        38,
+        0
+      ]
+    },
+    {
+      "upper": [
+        12,
+        0
+      ],
+      "lower": [
+        39,
+        3
+      ]
+    },
+    {
+      "upper": [
+        12,
+        1
+      ],
+      "lower": [
+        39,
+        0
+      ]
+    },
+    {
+      "upper": [
+        12,
+        2
+      ],
+      "lower": [
+        39,
+        1
+      ]
+    },
+    {
+      "upper": [
+        12,
+        3
+      ],
+      "lower": [
+        39,
+        2
+      ]
+    },
+    {
+      "upper": [
+        13,
+        0
+      ],
+      "lower": [
+        40,
+        1
+      ]
+    },
+    {
+      "upper": [
+        13,
+        1
+      ],
+      "lower": [
+        40,
+        2
+      ]
+    },
+    {
+      "upper": [
+        13,
+        2
+      ],
+      "lower": [
+        40,
+        3
+      ]
+    },
+    {
+      "upper": [
+        13,
+        3
+      ],
+      "lower": [
+        40,
+        0
+      ]
+    },
+    {
+      "upper": [
+        14,
+        0
+      ],
+      "lower": [
+        41,
+        3
+      ]
+    },
+    {
+      "upper": [
+        14,
+        1
+      ],
+      "lower": [
+        41,
+        0
+      ]
+    },
+    {
+      "upper": [
+        14,
+        2
+      ],
+      "lower": [
+        41,
+        1
+      ]
+    },
+    {
+      "upper": [
+        14,
+        3
+      ],
+      "lower": [
+        41,
+        2
+      ]
+    },
+    {
+      "upper": [
+        15,
+        0
+      ],
+      "lower": [
+        42,
+        1
+      ]
+    },
+    {
+      "upper": [
+        15,
+        1
+      ],
+      "lower": [
+        42,
+        2
+      ]
+    },
+    {
+      "upper": [
+        15,
+        2
+      ],
+      "lower": [
+        42,
+        3
+      ]
+    },
+    {
+      "upper": [
+        15,
+        3
+      ],
+      "lower": [
+        42,
+        0
+      ]
+    },
+    {
+      "upper": [
+        16,
+        0
+      ],
+      "lower": [
+        43,
+        1
+      ]
+    },
+    {
+      "upper": [
+        16,
+        1
+      ],
+      "lower": [
+        43,
+        2
+      ]
+    },
+    {
+      "upper": [
+        16,
+        2
+      ],
+      "lower": [
+        43,
+        3
+      ]
+    },
+    {
+      "upper": [
+        16,
+        3
+      ],
+      "lower": [
+        43,
+        0
+      ]
+    },
+    {
+      "upper": [
+        17,
+        0
+      ],
+      "lower": [
+        44,
+        3
+      ]
+    },
+    {
+      "upper": [
+        17,
+        1
+      ],
+      "lower": [
+        44,
+        0
+      ]
+    },
+    {
+      "upper": [
+        17,
+        2
+      ],
+      "lower": [
+        44,
+        1
+      ]
+    },
+    {
+      "upper": [
+        17,
+        3
+      ],
+      "lower": [
+        44,
+        2
+      ]
+    },
+    {
+      "upper": [
+        18,
+        0
+      ],
+      "lower": [
+        45,
+        3
+      ]
+    },
+    {
+      "upper": [
+        18,
+        1
+      ],
+      "lower": [
+        45,
+        0
+      ]
+    },
+    {
+      "upper": [
+        18,
+        2
+      ],
+      "lower": [
+        45,
+        1
+      ]
+    },
+    {
+      "upper": [
+        18,
+        3
+      ],
+      "lower": [
+        45,
+        2
+      ]
+    },
+    {
+      "upper": [
+        19,
+        0
+      ],
+      "lower": [
+        46,
+        1
+      ]
+    },
+    {
+      "upper": [
+        19,
+        1
+      ],
+      "lower": [
+        46,
+        2
+      ]
+    },
+    {
+      "upper": [
+        19,
+        2
+      ],
+      "lower": [
+        46,
+        3
+      ]
+    },
+    {
+      "upper": [
+        19,
+        3
+      ],
+      "lower": [
+        46,
+        0
+      ]
+    },
+    {
+      "upper": [
+        20,
+        0
+      ],
+      "lower": [
+        47,
+        1
+      ]
+    },
+    {
+      "upper": [
+        20,
+        1
+      ],
+      "lower": [
+        47,
+        2
+      ]
+    },
+    {
+      "upper": [
+        20,
+        2
+      ],
+      "lower": [
+        47,
+        3
+      ]
+    },
+    {
+      "upper": [
+        20,
+        3
+      ],
+      "lower": [
+        47,
+        0
+      ]
+    },
+    {
+      "upper": [
+        21,
+        0
+      ],
+      "lower": [
+        48,
+        3
+      ]
+    },
+    {
+      "upper": [
+        21,
+        1
+      ],
+      "lower": [
+        48,
+        0
+      ]
+    },
+    {
+      "upper": [
+        21,
+        2
+      ],
+      "lower": [
+        48,
+        1
+      ]
+    },
+    {
+      "upper": [
+        21,
+        3
+      ],
+      "lower": [
+        48,
+        2
+      ]
+    },
+    {
+      "upper": [
+        22,
+        0
+      ],
+      "lower": [
+        49,
+        3
+      ]
+    },
+    {
+      "upper": [
+        22,
+        1
+      ],
+      "lower": [
+        49,
+        0
+      ]
+    },
+    {
+      "upper": [
+        22,
+        2
+      ],
+      "lower": [
+        49,
+        1
+      ]
+    },
+    {
+      "upper": [
+        22,
+        3
+      ],
+      "lower": [
+        49,
+        2
+      ]
+    },
+    {
+      "upper": [
+        23,
+        0
+      ],
+      "lower": [
+        50,
+        1
+      ]
+    },
+    {
+      "upper": [
+        23,
+        1
+      ],
+      "lower": [
+        50,
+        2
+      ]
+    },
+    {
+      "upper": [
+        23,
+        2
+      ],
+      "lower": [
+        50,
+        3
+      ]
+    },
+    {
+      "upper": [
+        23,
+        3
+      ],
+      "lower": [
+        50,
+        0
+      ]
+    },
+    {
+      "upper": [
+        24,
+        0
+      ],
+      "lower": [
+        51,
+        3
+      ]
+    },
+    {
+      "upper": [
+        24,
+        1
+      ],
+      "lower": [
+        51,
+        0
+      ]
+    },
+    {
+      "upper": [
+        24,
+        2
+      ],
+      "lower": [
+        51,
+        1
+      ]
+    },
+    {
+      "upper": [
+        24,
+        3
+      ],
+      "lower": [
+        51,
+        2
+      ]
+    },
+    {
+      "upper": [
+        25,
+        0
+      ],
+      "lower": [
+        52,
+        1
+      ]
+    },
+    {
+      "upper": [
+        25,
+        1
+      ],
+      "lower": [
+        52,
+        2
+      ]
+    },
+    {
+      "upper": [
+        25,
+        2
+      ],
+      "lower": [
+        52,
+        3
+      ]
+    },
+    {
+      "upper": [
+        25,
+        3
+      ],
+      "lower": [
+        52,
+        0
+      ]
+    },
+    {
+      "upper": [
+        26,
+        0
+      ],
+      "lower": [
+        53,
+        1
+      ]
+    },
+    {
+      "upper": [
+        26,
+        1
+      ],
+      "lower": [
+        53,
+        2
+      ]
+    },
+    {
+      "upper": [
+        26,
+        2
+      ],
+      "lower": [
+        53,
+        3
+      ]
+    },
+    {
+      "upper": [
+        26,
+        3
+      ],
+      "lower": [
+        53,
+        0
+      ]
+    }
+  ],
+  "source_faces": [
+    [
+      [
+        0,
+        0
+      ],
+      [
+        13,
+        3
+      ],
+      [
+        24,
+        2
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        14,
+        0
+      ],
+      [
+        13,
+        2
+      ]
+    ],
+    [
+      [
+        0,
+        2
+      ],
+      [
+        12,
+        3
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        3
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        12,
+        2
+      ]
+    ],
+    [
+      [
+        1,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        23,
+        2
+      ],
+      [
+        14,
+        3
+      ]
+    ],
+    [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    [
+      [
+        2,
+        0
+      ],
+      [
+        16,
+        3
+      ],
+      [
+        22,
+        2
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    [
+      [
+        2,
+        1
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        18,
+        0
+      ],
+      [
+        16,
+        2
+      ]
+    ],
+    [
+      [
+        3,
+        0
+      ],
+      [
+        22,
+        3
+      ],
+      [
+        23,
+        1
+      ],
+      [
+        4,
+        0
+      ]
+    ],
+    [
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    [
+      [
+        5,
+        0
+      ],
+      [
+        24,
+        3
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    [
+      [
+        5,
+        3
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        25,
+        2
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        11,
+        0
+      ],
+      [
+        12,
+        1
+      ]
+    ],
+    [
+      [
+        6,
+        0
+      ],
+      [
+        24,
+        0
+      ],
+      [
+        23,
+        0
+      ],
+      [
+        22,
+        0
+      ],
+      [
+        21,
+        3
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    [
+      [
+        6,
+        3
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        25,
+        1
+      ]
+    ],
+    [
+      [
+        7,
+        0
+      ],
+      [
+        21,
+        0
+      ],
+      [
+        8,
+        1
+      ]
+    ],
+    [
+      [
+        7,
+        3
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        20,
+        1
+      ],
+      [
+        25,
+        0
+      ]
+    ],
+    [
+      [
+        8,
+        0
+      ],
+      [
+        21,
+        1
+      ],
+      [
+        15,
+        0
+      ],
+      [
+        17,
+        2
+      ],
+      [
+        26,
+        0
+      ],
+      [
+        9,
+        0
+      ]
+    ],
+    [
+      [
+        8,
+        3
+      ],
+      [
+        9,
+        1
+      ],
+      [
+        20,
+        0
+      ]
+    ],
+    [
+      [
+        9,
+        2
+      ],
+      [
+        10,
+        1
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        20,
+        3
+      ]
+    ],
+    [
+      [
+        9,
+        3
+      ],
+      [
+        26,
+        1
+      ],
+      [
+        10,
+        0
+      ]
+    ],
+    [
+      [
+        10,
+        2
+      ],
+      [
+        11,
+        3
+      ],
+      [
+        19,
+        3
+      ]
+    ],
+    [
+      [
+        10,
+        3
+      ],
+      [
+        26,
+        2
+      ],
+      [
+        18,
+        3
+      ],
+      [
+        11,
+        2
+      ]
+    ],
+    [
+      [
+        13,
+        0
+      ],
+      [
+        14,
+        2
+      ],
+      [
+        23,
+        3
+      ],
+      [
+        24,
+        1
+      ]
+    ],
+    [
+      [
+        13,
+        1
+      ],
+      [
+        14,
+        1
+      ]
+    ],
+    [
+      [
+        15,
+        1
+      ],
+      [
+        17,
+        1
+      ]
+    ],
+    [
+      [
+        15,
+        2
+      ],
+      [
+        16,
+        1
+      ],
+      [
+        18,
+        1
+      ],
+      [
+        17,
+        0
+      ]
+    ],
+    [
+      [
+        15,
+        3
+      ],
+      [
+        21,
+        2
+      ],
+      [
+        22,
+        1
+      ],
+      [
+        16,
+        0
+      ]
+    ],
+    [
+      [
+        17,
+        3
+      ],
+      [
+        18,
+        2
+      ],
+      [
+        26,
+        3
+      ]
+    ],
+    [
+      [
+        19,
+        1
+      ],
+      [
+        25,
+        3
+      ],
+      [
+        20,
+        2
+      ]
+    ]
+  ],
+  "neck_faces": [
+    {
+      "upper_saved_sector": [
+        0,
+        2
+      ],
+      "double_face": [
+        [
+          0,
+          2
+        ],
+        [
+          12,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          28,
+          2
+        ],
+        [
+          41,
+          3
+        ],
+        [
+          40,
+          3
+        ],
+        [
+          27,
+          2
+        ]
+      ],
+      "lower_pullback_source_sectors": [
+        [
+          1,
+          1
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "side_exchange_checked": true
+    },
+    {
+      "upper_saved_sector": [
+        0,
+        1
+      ],
+      "double_face": [
+        [
+          0,
+          1
+        ],
+        [
+          27,
+          3
+        ],
+        [
+          39,
+          2
+        ],
+        [
+          29,
+          3
+        ],
+        [
+          28,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          13,
+          2
+        ]
+      ],
+      "lower_pullback_source_sectors": [
+        [
+          0,
+          2
+        ],
+        [
+          12,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "side_exchange_checked": true
+    }
+  ],
+  "collar": {
+    "source_region0": "y>0",
+    "forward_rotation": "R_theta(y,z)=(y cos(theta)-z sin(theta), y sin(theta)+z cos(theta))",
+    "theta": "pi*chi(s), chi constant near 0 and 1",
+    "above_whisker_pullback": "(r sin(theta),r cos(theta))",
+    "gluing_identity": "S_y R_pi = S_z",
+    "opposite_rotation_control": "Same endpoint maps; above pullback uses region6 and gives q1."
+  },
+  "band_routes": [
+    {
+      "band": {
+        "along_top": [
+          [
+            15,
+            2
+          ],
+          [
+            16,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            41,
+            0
+          ]
+        ],
+        "arc_is_under": [
+          false,
+          true
+        ],
+        "twist": 0,
+        "compressed_spec": "a40a423e_0_0"
+      },
+      "segments": [
+        {
+          "from": [
+            15,
+            2
+          ],
+          "to": [
+            16,
+            2
+          ],
+          "face_cycle": [
+            [
+              15,
+              2
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              17,
+              0
+            ]
+          ],
+          "crosses_neck": false,
+          "target_neck_side": null
+        },
+        {
+          "from": [
+            16,
+            2
+          ],
+          "to": [
+            2,
+            2
+          ],
+          "face_cycle": [
+            [
+              2,
+              1
+            ],
+            [
+              12,
+              0
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              18,
+              0
+            ],
+            [
+              16,
+              2
+            ]
+          ],
+          "crosses_neck": false,
+          "target_neck_side": null
+        },
+        {
+          "from": [
+            2,
+            2
+          ],
+          "to": [
+            41,
+            0
+          ],
+          "face_cycle": [
+            [
+              0,
+              2
+            ],
+            [
+              12,
+              3
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              28,
+              2
+            ],
+            [
+              41,
+              3
+            ],
+            [
+              40,
+              3
+            ],
+            [
+              27,
+              2
+            ]
+          ],
+          "crosses_neck": true,
+          "target_neck_side": "plus_y"
+        }
+      ],
+      "ribbon_transport": "Both core and material normal field pull back by D(Phi^-1); no reset to a straight product ribbon."
+    },
+    {
+      "band": {
+        "along_top": [
+          [
+            13,
+            2
+          ],
+          [
+            27,
+            0
+          ],
+          [
+            32,
+            2
+          ],
+          [
+            52,
+            0
+          ]
+        ],
+        "arc_is_under": [
+          true,
+          false
+        ],
+        "twist": 0,
+        "compressed_spec": "d0826c36_0_0"
+      },
+      "segments": [
+        {
+          "from": [
+            13,
+            2
+          ],
+          "to": [
+            27,
+            0
+          ],
+          "face_cycle": [
+            [
+              0,
+              1
+            ],
+            [
+              27,
+              3
+            ],
+            [
+              39,
+              2
+            ],
+            [
+              29,
+              3
+            ],
+            [
+              28,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              14,
+              0
+            ],
+            [
+              13,
+              2
+            ]
+          ],
+          "crosses_neck": true,
+          "target_neck_side": "minus_y"
+        },
+        {
+          "from": [
+            27,
+            0
+          ],
+          "to": [
+            32,
+            2
+          ],
+          "face_cycle": [
+            [
+              27,
+              0
+            ],
+            [
+              32,
+              1
+            ],
+            [
+              39,
+              1
+            ]
+          ],
+          "crosses_neck": false,
+          "target_neck_side": null
+        },
+        {
+          "from": [
+            32,
+            2
+          ],
+          "to": [
+            52,
+            0
+          ],
+          "face_cycle": [
+            [
+              32,
+              2
+            ],
+            [
+              33,
+              3
+            ],
+            [
+              52,
+              3
+            ],
+            [
+              46,
+              3
+            ],
+            [
+              38,
+              1
+            ],
+            [
+              39,
+              0
+            ]
+          ],
+          "crosses_neck": false,
+          "target_neck_side": null
+        }
+      ],
+      "ribbon_transport": "Both core and material normal field pull back by D(Phi^-1); no reset to a straight product ribbon."
+    }
+  ],
+  "boundary_meridian_images": {
+    "13": [
+      5,
+      6,
+      -5
+    ],
+    "16": [
+      6,
+      -5,
+      8,
+      5,
+      -6,
+      -8,
+      5,
+      -6,
+      8
+    ],
+    "12": [
+      5,
+      6,
+      -5,
+      8,
+      5,
+      -6,
+      -5
+    ],
+    "18": [
+      -8,
+      5,
+      6,
+      -5,
+      8
+    ],
+    "14": [
+      6,
+      -5,
+      8,
+      5,
+      -6,
+      -8,
+      5,
+      6,
+      -5,
+      8,
+      5,
+      -6,
+      -5,
+      6,
+      -5,
+      -8,
+      5,
+      -6,
+      5,
+      6,
+      -5,
+      8,
+      5,
+      -6,
+      5,
+      6,
+      -5,
+      -8,
+      5,
+      -6,
+      -5,
+      8,
+      6,
+      -5,
+      -8,
+      5,
+      -6
+    ],
+    "15": [
+      6,
+      -5,
+      8,
+      5,
+      -6
+    ],
+    "11": [
+      8
+    ],
+    "17": [
+      5
+    ],
+    "10": [
+      6,
+      -5,
+      8,
+      5,
+      -6,
+      5,
+      6,
+      -5,
+      -8,
+      5,
+      -6
+    ],
+    "5": [
+      6,
+      -5,
+      8,
+      5,
+      -6
+    ],
+    "9": [
+      6,
+      -5,
+      8,
+      5,
+      6,
+      -5,
+      -8,
+      5,
+      -6
+    ],
+    "1": [
+      6,
+      -5,
+      8,
+      5,
+      -6,
+      5,
+      6,
+      -5,
+      -8,
+      5,
+      -6
+    ],
+    "4": [
+      6
+    ],
+    "3": [
+      5
+    ],
+    "8": [
+      8
+    ],
+    "6": [
+      6,
+      -5,
+      8,
+      6,
+      -5,
+      8,
+      5,
+      -6,
+      -8,
+      5,
+      -6
+    ],
+    "2": [
+      -5,
+      8,
+      5
+    ],
+    "7": [
+      6,
+      -5,
+      8,
+      5,
+      -6,
+      -5,
+      6,
+      -5,
+      8,
+      5,
+      -6,
+      5,
+      6,
+      -5,
+      -8,
+      5,
+      -6
+    ]
+  },
+  "axes": [
+    {
+      "component": 1,
+      "steps": [
+        {
+          "port": [
+            6,
+            1
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            25,
+            2
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            20,
+            2
+          ],
+          "boundary_letters": [
+            4
+          ],
+          "source_word": [
+            6
+          ]
+        },
+        {
+          "port": [
+            9,
+            2
+          ],
+          "boundary_letters": [
+            -1
+          ],
+          "source_word": [
+            6,
+            -5,
+            8,
+            5,
+            -6,
+            -5,
+            6,
+            -5,
+            -8,
+            5,
+            -6
+          ]
+        },
+        {
+          "port": [
+            26,
+            1
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            18,
+            3
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            56,
+            1
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            54,
+            1
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            16,
+            2
+          ],
+          "boundary_letters": [
+            3
+          ],
+          "source_word": [
+            5
+          ]
+        },
+        {
+          "port": [
+            22,
+            2
+          ],
+          "boundary_letters": [
+            -4
+          ],
+          "source_word": [
+            -6
+          ]
+        },
+        {
+          "port": [
+            23,
+            1
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            14,
+            3
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            60,
+            3
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            61,
+            0
+          ],
+          "boundary_letters": [
+            11
+          ],
+          "source_word": [
+            8
+          ]
+        },
+        {
+          "port": [
+            46,
+            3
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            37,
+            1
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            53,
+            3
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            44,
+            2
+          ],
+          "boundary_letters": [
+            14
+          ],
+          "source_word": [
+            6,
+            -5,
+            8,
+            5,
+            -6,
+            -8,
+            5,
+            6,
+            -5,
+            8,
+            5,
+            -6,
+            -5,
+            6,
+            -5,
+            -8,
+            5,
+            -6,
+            5,
+            6,
+            -5,
+            8,
+            5,
+            -6,
+            5,
+            6,
+            -5,
+            -8,
+            5,
+            -6,
+            -5,
+            8,
+            6,
+            -5,
+            -8,
+            5,
+            -6
+          ]
+        },
+        {
+          "port": [
+            42,
+            3
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            48,
+            1
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            34,
+            2
+          ],
+          "boundary_letters": [
+            -15
+          ],
+          "source_word": [
+            6,
+            -5,
+            -8,
+            5,
+            -6
+          ]
+        },
+        {
+          "port": [
+            52,
+            2
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            59,
+            2
+          ],
+          "boundary_letters": [
+            -11
+          ],
+          "source_word": [
+            -8
+          ]
+        },
+        {
+          "port": [
+            58,
+            1
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            13,
+            2
+          ],
+          "boundary_letters": [
+            1
+          ],
+          "source_word": [
+            6,
+            -5,
+            8,
+            5,
+            -6,
+            5,
+            6,
+            -5,
+            -8,
+            5,
+            -6
+          ]
+        },
+        {
+          "port": [
+            24,
+            2
+          ],
+          "boundary_letters": [
+            -9
+          ],
+          "source_word": [
+            6,
+            -5,
+            8,
+            5,
+            -6,
+            -5,
+            -8,
+            5,
+            -6
+          ]
+        }
+      ],
+      "boundary_word": [
+        4,
+        -1,
+        3,
+        -4,
+        11,
+        14,
+        -15,
+        -11,
+        1,
+        -9
+      ],
+      "source_image": [
+        6,
+        6,
+        -5,
+        8,
+        5,
+        -6,
+        -5,
+        6,
+        -5,
+        -8,
+        5,
+        -6,
+        5,
+        -6,
+        8,
+        6,
+        -5,
+        8,
+        5,
+        -6,
+        -8,
+        5,
+        6,
+        -5,
+        8,
+        5,
+        -6,
+        -5,
+        6,
+        -5,
+        -8,
+        5,
+        -6,
+        5,
+        6,
+        -5,
+        8,
+        5,
+        -6,
+        5,
+        6,
+        -5,
+        -8,
+        5,
+        -6,
+        -5,
+        8,
+        6,
+        -5,
+        -8,
+        -8,
+        5,
+        -6,
+        -8,
+        6,
+        -5,
+        8,
+        5,
+        -6,
+        -8,
+        5,
+        -6
+      ],
+      "self_crossings": []
+    },
+    {
+      "component": 2,
+      "steps": [
+        {
+          "port": [
+            7,
+            1
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            25,
+            1
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            19,
+            2
+          ],
+          "boundary_letters": [
+            4
+          ],
+          "source_word": [
+            6
+          ]
+        },
+        {
+          "port": [
+            10,
+            2
+          ],
+          "boundary_letters": [
+            -1
+          ],
+          "source_word": [
+            6,
+            -5,
+            8,
+            5,
+            -6,
+            -5,
+            6,
+            -5,
+            -8,
+            5,
+            -6
+          ]
+        },
+        {
+          "port": [
+            26,
+            2
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            17,
+            3
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            56,
+            0
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            57,
+            3
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            40,
+            3
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            51,
+            1
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            33,
+            2
+          ],
+          "boundary_letters": [
+            -15
+          ],
+          "source_word": [
+            6,
+            -5,
+            -8,
+            5,
+            -6
+          ]
+        },
+        {
+          "port": [
+            52,
+            3
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            47,
+            3
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            36,
+            1
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            53,
+            2
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            45,
+            2
+          ],
+          "boundary_letters": [
+            14
+          ],
+          "source_word": [
+            6,
+            -5,
+            8,
+            5,
+            -6,
+            -8,
+            5,
+            6,
+            -5,
+            8,
+            5,
+            -6,
+            -5,
+            6,
+            -5,
+            -8,
+            5,
+            -6,
+            5,
+            6,
+            -5,
+            8,
+            5,
+            -6,
+            5,
+            6,
+            -5,
+            -8,
+            5,
+            -6,
+            -5,
+            8,
+            6,
+            -5,
+            -8,
+            5,
+            -6
+          ]
+        },
+        {
+          "port": [
+            43,
+            3
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            49,
+            1
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            50,
+            2
+          ],
+          "boundary_letters": [
+            -13
+          ],
+          "source_word": [
+            5,
+            -6,
+            -5
+          ]
+        },
+        {
+          "port": [
+            41,
+            2
+          ],
+          "boundary_letters": [
+            17
+          ],
+          "source_word": [
+            5
+          ]
+        },
+        {
+          "port": [
+            55,
+            1
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            54,
+            2
+          ],
+          "boundary_letters": [],
+          "source_word": []
+        },
+        {
+          "port": [
+            15,
+            2
+          ],
+          "boundary_letters": [
+            3
+          ],
+          "source_word": [
+            5
+          ]
+        },
+        {
+          "port": [
+            21,
+            2
+          ],
+          "boundary_letters": [
+            -4
+          ],
+          "source_word": [
+            -6
+          ]
+        }
+      ],
+      "boundary_word": [
+        4,
+        -1,
+        -15,
+        14,
+        -13,
+        17,
+        3,
+        -4
+      ],
+      "source_image": [
+        6,
+        6,
+        -5,
+        8,
+        5,
+        -6,
+        -5,
+        6,
+        -5,
+        -8,
+        5,
+        -6,
+        -8,
+        5,
+        6,
+        -5,
+        8,
+        5,
+        -6,
+        -5,
+        6,
+        -5,
+        -8,
+        5,
+        -6,
+        5,
+        6,
+        -5,
+        8,
+        5,
+        -6,
+        5,
+        6,
+        -5,
+        -8,
+        5,
+        -6,
+        -5,
+        8,
+        6,
+        -5,
+        -8,
+        5,
+        -6,
+        5,
+        -6,
+        5,
+        -6
+      ],
+      "self_crossings": []
+    }
+  ],
+  "word_repair": {
+    "corrected_boundary_word": [
+      4,
+      -3,
+      -8,
+      3,
+      4,
+      -3,
+      8,
+      3,
+      -4,
+      -3,
+      4,
+      -3,
+      -8,
+      3,
+      -4,
+      3,
+      -4,
+      8,
+      4,
+      -3,
+      8,
+      3,
+      -4,
+      -8,
+      3,
+      4,
+      -3,
+      8,
+      3,
+      -4,
+      -3,
+      4,
+      -3,
+      -8,
+      3,
+      -4,
+      3,
+      4,
+      -3,
+      8,
+      3,
+      -4,
+      3,
+      4,
+      -3,
+      -8,
+      3,
+      -4,
+      -3,
+      8,
+      4,
+      -3,
+      -8,
+      -8,
+      3,
+      -4,
+      -8,
+      4,
+      -3,
+      8,
+      4,
+      -3,
+      8,
+      3,
+      -4,
+      -8,
+      3,
+      4,
+      -3,
+      8,
+      3,
+      -4,
+      -3,
+      4,
+      -3,
+      -8,
+      3,
+      -4,
+      -3,
+      4,
+      -3,
+      8,
+      3,
+      -4,
+      3,
+      4,
+      -3,
+      -8,
+      3,
+      -4,
+      -3,
+      8,
+      4,
+      -3,
+      8,
+      3,
+      -4,
+      3,
+      4,
+      -3,
+      -8,
+      3,
+      -4,
+      -1,
+      -15,
+      14,
+      -13,
+      17,
+      3,
+      -4
+    ],
+    "source_image": [
+      6,
+      -5,
+      -8,
+      5,
+      6,
+      -5,
+      8,
+      5,
+      -6,
+      -5,
+      6,
+      -5,
+      -8,
+      5,
+      -6,
+      5,
+      -6,
+      8,
+      6,
+      -5,
+      8,
+      5,
+      -6,
+      -8,
+      5,
+      6,
+      -5,
+      8,
+      5,
+      -6,
+      -5,
+      6,
+      -5,
+      -8,
+      5,
+      -6,
+      5,
+      6,
+      -5,
+      8,
+      5,
+      -6,
+      5,
+      6,
+      -5,
+      -8,
+      5,
+      -6,
+      -5,
+      8,
+      6,
+      -5,
+      -8,
+      -8,
+      5,
+      -6,
+      -8,
+      6,
+      -5,
+      8,
+      5,
+      -6,
+      5,
+      -6
+    ],
+    "conjugating_meridian": [
+      6,
+      -5,
+      8,
+      5,
+      -6
+    ],
+    "geometric_representative": "Research42 existence surface only; no new marked PD asserted"
+  },
+  "compression_test": {
+    "field": 17,
+    "z": 1,
+    "all_source_relators_pass": true,
+    "factor_index_one_based": 10,
+    "loops": [
+      {
+        "handle": "left_boundary_word",
+        "boundary_word": [
+          -3,
+          4
+        ],
+        "source_word": [
+          -5,
+          6
+        ],
+        "matrix_mod17": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "trace_mod17": 3,
+        "conclusion": "This particular loop cannot bound even a disk map in W."
+      },
+      {
+        "handle": "right_boundary_word",
+        "boundary_word": [
+          -1,
+          3
+        ],
+        "source_word": [
+          6,
+          -5,
+          8,
+          5,
+          -6,
+          -5,
+          6,
+          -5,
+          -8,
+          5,
+          -6,
+          5
+        ],
+        "matrix_mod17": [
+          1,
+          16,
+          16,
+          2
+        ],
+        "trace_mod17": 3,
+        "conclusion": "This particular loop cannot bound even a disk map in W."
+      }
+    ]
+  }
+}

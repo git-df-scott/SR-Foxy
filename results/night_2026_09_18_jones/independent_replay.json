@@ -1,0 +1,10 @@
+{
+  "source_hashes": "PASS",
+  "input_hashes": "PASS",
+  "fresh_compiled_replay": [
+    "K0",
+    "K1"
+  ],
+  "full_histograms_and_polynomials": "PASS",
+  "original_controls_passed": 29
+}
