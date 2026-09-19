@@ -1,7 +1,7 @@
 {
-  "run_id": 35417684004,
-  "source_commit": "d1d0ddad0a846f8511978f4e5c33b7b8432df750",
-  "status": "failure",
+  "run_id": 35417723921,
+  "source_commit": "b87baaf335eced0b5967e247c771a84d73d75853",
+  "status": "STARTED",
   "artifact_id": "",
   "scope": "Topology environment bootstrap only; no mathematical result."
 }
