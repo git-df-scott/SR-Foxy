@@ -1,0 +1,82 @@
+{
+  "source": "Dunfield-Gong, doi:10.7910/DVN/YBDTBT, plausibly_slice_V1.zip",
+  "source_md5": "7f6dc1df595ba1b4dbb1a9b338798b0b",
+  "files": [
+    "zero_friends.csv",
+    "more_zero_friends.csv"
+  ],
+  "controls_pass": true,
+  "controls": [
+    {
+      "control": "3_1  (fibered, irreducible)",
+      "poly": "t^2-t+1",
+      "degree": 2,
+      "monic": true,
+      "irreducible": true,
+      "expected": [
+        true,
+        true
+      ],
+      "pass_": true
+    },
+    {
+      "control": "6_3  (fibered, irreducible; K_0 of AT)",
+      "poly": "t^4-3*t^3+5*t^2-3*t+1",
+      "degree": 4,
+      "monic": true,
+      "irreducible": true,
+      "expected": [
+        true,
+        true
+      ],
+      "pass_": true
+    },
+    {
+      "control": "6_1  (ribbon; Fox-Milnor norm)",
+      "poly": "2*t^2-5*t+2",
+      "degree": 2,
+      "monic": false,
+      "irreducible": false,
+      "expected": [
+        false,
+        false
+      ],
+      "pass_": true
+    },
+    {
+      "control": "square knot 3_1#-3_1 (norm)",
+      "poly": "t^4-2*t^3+3*t^2-2*t+1",
+      "degree": 4,
+      "monic": true,
+      "irreducible": false,
+      "expected": [
+        true,
+        false
+      ],
+      "pass_": true
+    },
+    {
+      "control": "unknot",
+      "poly": "1",
+      "degree": 0,
+      "monic": true,
+      "irreducible": false,
+      "expected": [
+        true,
+        false
+      ],
+      "pass_": true
+    }
+  ],
+  "stats": {
+    "alex_nontrivial": 149781,
+    "alex_trivial": 8393,
+    "monic": 82401,
+    "monic_reducible": 82401,
+    "not_monic": 67380,
+    "rows": 158174
+  },
+  "wild_miyazaki_candidates": [],
+  "verdict": "NO wild Miyazaki pair exists in the DG 0-friend collection. This is forced by Fox-Milnor (see the Proposition in this file's docstring), and the data agrees. It is a THEOREM, not a failed search.",
+  "counterexample_to_slice_ribbon": false
+}
