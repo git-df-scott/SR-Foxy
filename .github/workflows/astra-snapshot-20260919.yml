@@ -1,0 +1,53 @@
+name: Astra research snapshot 2026-09-19
+
+# One-shot research setup. Only changes to this file trigger another export.
+# No repository write permissions, secrets, arbitrary inputs, or research claims.
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/astra-snapshot-20260919.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Export pinned public repository without git credentials
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p export/source export/wheels
+          git init source
+          git -C source remote add origin https://github.com/git-df-scott/SR-Foxy.git
+          git -C source fetch --depth 1 origin 53f800feb98faf177b4cb89c5204bb0fcbb4fa3b
+          test "$(git -C source rev-parse FETCH_HEAD)" = 53f800feb98faf177b4cb89c5204bb0fcbb4fa3b
+          git -C source archive --format=tar.gz --prefix=SR-Foxy/ FETCH_HEAD > export/source/SR-Foxy-53f800f.tar.gz
+          printf '%s\n' 53f800feb98faf177b4cb89c5204bb0fcbb4fa3b > export/source/SNAPSHOT.txt
+          (cd export/source && sha256sum SR-Foxy-53f800f.tar.gz > SHA256SUMS)
+      - name: Publish pinned source snapshot
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: sr-foxy-source-53f800f
+          path: export/source/
+          retention-days: 3
+          if-no-files-found: error
+      - name: Download topology wheels for offline CPython 3.13 research
+        shell: bash
+        run: |
+          set -uo pipefail
+          for package in 'snappy==3.3.2' 'spherogram' 'snappy_manifolds' 'snappy_15_knots' 'knot-floer-homology' 'FXrays' 'plink' 'regina==7.4.1'; do
+            python -m pip download --dest export/wheels --no-deps --only-binary=:all: --platform manylinux_2_17_x86_64 --platform manylinux2014_x86_64 --platform manylinux_2_28_x86_64 --python-version 313 --implementation cp --abi cp313 "$package" || printf 'UNAVAILABLE: %s\n' "$package" >> export/wheels/UNAVAILABLE.txt
+          done
+          (cd export/wheels && sha256sum *.whl > SHA256SUMS)
+      - name: Publish offline topology wheels
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: sr-foxy-topology-wheels-cp313
+          path: export/wheels/
+          retention-days: 3
+          if-no-files-found: error
+          compression-level: 0
