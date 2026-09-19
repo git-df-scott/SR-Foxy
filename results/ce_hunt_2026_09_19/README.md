@@ -282,3 +282,63 @@ certificate for any of these 90 is a counterexample outright.
 `spherogram.links.bands.search.verify_ribbon_to_unknot` before it is anything at
 all — this repository's standing rule, and the walker's band sequence is exactly
 the replayable movie that rule asks for.
+
+## 12. Manual verification of the live run
+
+Done by hand against the running processes and files, not from a summary.
+
+**Processes.** Three walker shards plus run `A` (`D_{0,1} # 6_1`, `paths=simple`,
+now past 75 min). Memory 3 GB of 15 GB, disk 9.9 GB of 252 GB — both far from
+the ~11.8 GB pressure point that has taken down containers here before.
+
+**The walker is really searching our knots.** Its logs were empty apart from the
+`plink` tkinter warning, which looks like a dead run. It is not: at `verbose 1`
+the walker prints only when a knot finishes, and 20,000 tries on a 31-crossing
+knot is long. Re-run by hand at `verbose 2` on the first target it prints the
+full 31-crossing PD code, attaches bands, tracks `<Link: 2 comp; 31 cross>` down
+to `30 cross`, and rejects candidates with `Band does not preserve orientation`.
+It is working.
+
+**Target integrity: 90/90.** `rw_targets_meta.json` and `rw_targets_pd.txt` are
+aligned row for row; every PD code rebuilds in spherogram with the recorded
+crossing number and exactly one component. The three shards reassemble byte
+identical to `targets.txt` with **zero** duplicated lines, so coverage has no gap
+and no overlap.
+
+**All ten AT targets have `sigma = 0`**, recomputed here — the necessary
+condition for a slice candidate holds on each.
+
+**Miyazaki hypothesis, independently recomputed.** For the six cheapest queued
+wild pairs, from Seifert matrices rather than the stored census field:
+
+| J | J' | distinct | `Delta` equal | `Delta` irreducible | `deg Delta` |
+|---|---|---|---|---|---|
+| K7a2 | K10n4 | yes | yes | yes | 4 |
+| K7a1 | K11n28 | yes | yes | yes | 4 |
+| K8a15 | K10n32 | yes | yes | yes | 6 |
+| K8a14 | K11n53 | yes | yes | yes | 6 |
+| K8a15 | K11n58 | yes | yes | yes | 6 |
+| K9a19 | K10n11 | yes | yes | yes | 6 |
+
+`deg Delta = 2 * genus` in every row, which re-confirms fiberedness
+independently. So Miyazaki Thm 5.5 does apply to these `D`, and each really is
+certified not ribbon.
+
+### A false alarm, and what caused it
+
+The first pass of that table reported **`Delta` equal = False and irreducible =
+False on every pair**, which would have meant the whole queue was built on a
+broken hypothesis. It was **my check that was wrong, not the data.**
+
+`Link.seifert_matrix()` returns a Seifert matrix from Seifert's algorithm on the
+given *diagram*, whose surface need not be minimal genus. So
+`det(V - tV^T)` is `Delta` only **up to a unit `+-t^k`** of `Z[t^+-1]`. I compared
+raw coefficient lists without stripping that unit: hence `deg = 5` for a genus-2
+knot (a stray factor of `t`), hence "not equal", and hence "reducible", since
+`t * f(t)` factors trivially. Stripping the sign and the `t^k`, and allowing the
+reversal, every row is clean.
+
+Worth stating plainly: the tell was visible in the output — `deg = 5` for a knot
+recorded at `genus 2` is impossible for a real Alexander polynomial, since
+`deg Delta = 2g` for a fibered knot. The inconsistency was in the same table as
+the alarming result.
