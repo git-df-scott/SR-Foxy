@@ -1,0 +1,35 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+=== Sigma_2(K_1) ===
+  [   0.0s] Sigma_2(K_1) curve 0: cusps=2 H1=Z S3_slope=None
+  [   0.0s] Sigma_2(K_1) curve 1: cusps=2 H1=Z S3_slope=None
+  [   0.0s] Sigma_2(K_1) curve 2: cusps=2 H1=Z S3_slope=None
+  [   0.0s] Sigma_2(K_1) curve 3: cusps=2 H1=Z S3_slope=None
+  [   0.0s] Sigma_2(K_1) curve 4: cusps=2 H1=Z S3_slope=None
+  [   0.0s] Sigma_2(K_1) curve 5: cusps=2 H1=Z S3_slope=None
+  [   0.0s] Sigma_2(K_1) curve 6: cusps=2 H1=Z S3_slope=None
+  [   0.0s] Sigma_2(K_1) curve 7: cusps=2 H1=Z S3_slope=None
+=== CONTROL S^3_13/1(4_1) ===
+  [   0.0s] CONTROL S^3_13/1(4_1) curve 0: cusps=2 H1=Z/13 + Z S3_slope=None
+  [   0.0s] CONTROL S^3_13/1(4_1) curve 1: cusps=2 H1=Z/13 + Z S3_slope=None
+{
+ "Sigma_2(K_1)": {
+  "label": "Sigma_2(K_1)",
+  "isosig": "Sigma_2(K_1)",
+  "volume": 7.281326351748627,
+  "homology": "Z/13",
+  "knot_exterior_found": null,
+  "n_dual_curves": 122
+ },
+ "CONTROL S^3_13/1(4_1)": {
+  "label": "CONTROL S^3_13/1(4_1)",
+  "isosig": "CONTROL S^3_13/1(4_1)",
+  "volume": 1.8446682308154332,
+  "homology": "Z/13",
+  "knot_exterior_found": null,
+  "n_dual_curves": 2
+ },
+ "control_found_knot_exterior": false,
+ "meaning": "If control_found_knot_exterior is False the sweep has decided NOTHING: the method failed on a manifold that is known to be surgery on the unknot. Only with the control passing does a negative on Sigma_2(K_1) mean that no drilled curve among those tried exhibits it as surgery on a knot in S^3 -- and even then that is a bounded search, not a theorem.",
+ "counterexample": false
+}
