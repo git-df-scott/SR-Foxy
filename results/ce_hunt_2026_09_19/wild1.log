@@ -1,0 +1,4 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+# pairs available: 35612; running [12:24]  box={'max_bands': 2, 'max_band_len': 4, 'max_twists': 2, 'paths': 'shortest', 'J_list': ['6_1']}
+[    0.0s] CONTROL partner 6_1 verified=True

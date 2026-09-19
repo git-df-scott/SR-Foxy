@@ -1,0 +1,452 @@
+[
+ {
+  "kind": "AT",
+  "target": "D_{0,1} # 6_1",
+  "cr": 31
+ },
+ {
+  "kind": "AT",
+  "target": "D_{0,1} # 8_8",
+  "cr": 33
+ },
+ {
+  "kind": "AT",
+  "target": "D_{0,1} # 9_41",
+  "cr": 34
+ },
+ {
+  "kind": "AT",
+  "target": "D_{0,1} # 9_46",
+  "cr": 34
+ },
+ {
+  "kind": "AT",
+  "target": "D_{0,1} # 10_3",
+  "cr": 35
+ },
+ {
+  "kind": "AT",
+  "target": "D_{0,1} # 8_9",
+  "cr": 33
+ },
+ {
+  "kind": "AT",
+  "target": "D_{0,1} # 8_20",
+  "cr": 33
+ },
+ {
+  "kind": "AT",
+  "target": "D_{0,1} # 9_27",
+  "cr": 34
+ },
+ {
+  "kind": "AT",
+  "target": "D_{0,1} # 10_22",
+  "cr": 35
+ },
+ {
+  "kind": "AT",
+  "target": "D_{0,1} # 10_87",
+  "cr": 35
+ },
+ {
+  "kind": "wild",
+  "target": "K7a2 J # (-J') K10n4 # 6_1",
+  "cr": 23
+ },
+ {
+  "kind": "wild",
+  "target": "K7a1 J # (-J') K11n28 # 6_1",
+  "cr": 24
+ },
+ {
+  "kind": "wild",
+  "target": "K7a1 J # J' K11n28 # 6_1",
+  "cr": 24
+ },
+ {
+  "kind": "wild",
+  "target": "K8a15 J # (-J') K10n32 # 6_1",
+  "cr": 24
+ },
+ {
+  "kind": "wild",
+  "target": "K8a14 J # (-J') K11n53 # 6_1",
+  "cr": 25
+ },
+ {
+  "kind": "wild",
+  "target": "K8a14 J # J' K11n53 # 6_1",
+  "cr": 25
+ },
+ {
+  "kind": "wild",
+  "target": "K8a15 J # (-J') K11n58 # 6_1",
+  "cr": 25
+ },
+ {
+  "kind": "wild",
+  "target": "K9a19 J # (-J') K10n11 # 6_1",
+  "cr": 25
+ },
+ {
+  "kind": "wild",
+  "target": "K10n9 J # (-J') K10n16 # 6_1",
+  "cr": 26
+ },
+ {
+  "kind": "wild",
+  "target": "K8a5 J # (-J') K12n13 # 6_1",
+  "cr": 26
+ },
+ {
+  "kind": "wild",
+  "target": "K8a5 J # J' K12n13 # 6_1",
+  "cr": 26
+ },
+ {
+  "kind": "wild",
+  "target": "K9a1 J # (-J') K11n130 # 6_1",
+  "cr": 26
+ },
+ {
+  "kind": "wild",
+  "target": "K9a1 J # J' K11n130 # 6_1",
+  "cr": 26
+ },
+ {
+  "kind": "wild",
+  "target": "K9a11 J # (-J') K11n55 # 6_1",
+  "cr": 26
+ },
+ {
+  "kind": "wild",
+  "target": "K9a11 J # J' K11n55 # 6_1",
+  "cr": 26
+ },
+ {
+  "kind": "wild",
+  "target": "K9a13 J # (-J') K11n11 # 6_1",
+  "cr": 26
+ },
+ {
+  "kind": "wild",
+  "target": "K9a13 J # (-J') K11n112 # 6_1",
+  "cr": 26
+ },
+ {
+  "kind": "wild",
+  "target": "K9a13 J # (-J') K11n22 # 6_1",
+  "cr": 26
+ },
+ {
+  "kind": "wild",
+  "target": "K9a2 J # (-J') K11n128 # 6_1",
+  "cr": 26
+ },
+ {
+  "kind": "wild",
+  "target": "K9a28 J # (-J') K11n119 # 6_1",
+  "cr": 26
+ },
+ {
+  "kind": "wild",
+  "target": "K9a28 J # J' K11n119 # 6_1",
+  "cr": 26
+ },
+ {
+  "kind": "wild",
+  "target": "K9a28 J # (-J') K11n32 # 6_1",
+  "cr": 26
+ },
+ {
+  "kind": "wild",
+  "target": "K9a28 J # J' K11n32 # 6_1",
+  "cr": 26
+ },
+ {
+  "kind": "wild",
+  "target": "K9n6 J # (-J') K11n1 # 6_1",
+  "cr": 26
+ },
+ {
+  "kind": "wild",
+  "target": "K10a10 J # (-J') K11n156 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K10a10 J # J' K11n156 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K10a10 J # (-J') K11n179 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K10a10 J # J' K11n179 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K10a120 J # (-J') K11a33 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K10a120 J # (-J') K11a7 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K10a120 J # (-J') K11a82 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K10a32 J # (-J') K11n154 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K10a35 J # (-J') K11n5 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K10a72 J # (-J') K11n163 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K10a88 J # (-J') K11a257 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K10a88 J # J' K11a257 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K10n32 J # (-J') K11n58 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K10n33 J # (-J') K11n118 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K10n8 J # (-J') K11n129 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K8a14 J # (-J') K13n493 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K8a14 J # J' K13n493 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K8a15 J # (-J') K13n1774 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K8a15 J # (-J') K13n2537 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K8a8 J # (-J') K13n3589 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K9a1 J # (-J') K12n271 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K9a1 J # J' K12n271 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K9a11 J # (-J') K12n162 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K9a11 J # J' K12n162 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K9a11 J # (-J') K12n315 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K9a11 J # J' K12n315 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K9a13 J # (-J') K12n719 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K9a14 J # (-J') K12n285 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K9a19 J # (-J') K12n303 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K9a2 J # (-J') K12n142 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K9a28 J # (-J') K12n152 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K9a28 J # J' K12n152 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K9a28 J # (-J') K12n35 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K9a28 J # J' K12n35 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K9n3 J # (-J') K12n179 # 6_1",
+  "cr": 27
+ },
+ {
+  "kind": "wild",
+  "target": "K10a10 J # (-J') K12n300 # 6_1",
+  "cr": 28
+ },
+ {
+  "kind": "wild",
+  "target": "K10a10 J # J' K12n300 # 6_1",
+  "cr": 28
+ },
+ {
+  "kind": "wild",
+  "target": "K10a10 J # (-J') K12n463 # 6_1",
+  "cr": 28
+ },
+ {
+  "kind": "wild",
+  "target": "K10a10 J # J' K12n463 # 6_1",
+  "cr": 28
+ },
+ {
+  "kind": "wild",
+  "target": "K10a11 J # (-J') K12n431 # 6_1",
+  "cr": 28
+ },
+ {
+  "kind": "wild",
+  "target": "K10a11 J # J' K12n431 # 6_1",
+  "cr": 28
+ },
+ {
+  "kind": "wild",
+  "target": "K10a11 J # (-J') K12n586 # 6_1",
+  "cr": 28
+ },
+ {
+  "kind": "wild",
+  "target": "K10a11 J # J' K12n586 # 6_1",
+  "cr": 28
+ },
+ {
+  "kind": "wild",
+  "target": "K10a21 J # (-J') K12n505 # 6_1",
+  "cr": 28
+ },
+ {
+  "kind": "wild",
+  "target": "K10a22 J # (-J') K12n396 # 6_1",
+  "cr": 28
+ },
+ {
+  "kind": "wild",
+  "target": "K10a25 J # (-J') K12n14 # 6_1",
+  "cr": 28
+ },
+ {
+  "kind": "wild",
+  "target": "K10a25 J # J' K12n14 # 6_1",
+  "cr": 28
+ },
+ {
+  "kind": "wild",
+  "target": "K10a25 J # (-J') K12n298 # 6_1",
+  "cr": 28
+ },
+ {
+  "kind": "wild",
+  "target": "K10a25 J # J' K12n298 # 6_1",
+  "cr": 28
+ },
+ {
+  "kind": "wild",
+  "target": "K10a3 J # (-J') K12n272 # 6_1",
+  "cr": 28
+ },
+ {
+  "kind": "wild",
+  "target": "K10a32 J # (-J') K12n70 # 6_1",
+  "cr": 28
+ },
+ {
+  "kind": "wild",
+  "target": "K10a38 J # (-J') K12n5 # 6_1",
+  "cr": 28
+ },
+ {
+  "kind": "wild",
+  "target": "K10a52 J # (-J') K12n3 # 6_1",
+  "cr": 28
+ },
+ {
+  "kind": "wild",
+  "target": "K10a52 J # J' K12n3 # 6_1",
+  "cr": 28
+ },
+ {
+  "kind": "wild",
+  "target": "K10a52 J # (-J') K12n385 # 6_1",
+  "cr": 28
+ },
+ {
+  "kind": "wild",
+  "target": "K10a52 J # J' K12n385 # 6_1",
+  "cr": 28
+ }
+]

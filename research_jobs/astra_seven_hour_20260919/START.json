@@ -1,0 +1,13 @@
+{
+  "authorization": "Scott explicitly requested the seven-hour search and GitHub publication, and renewed that request on 2026-09-19 at 16:08:04 UTC.",
+  "requested_search_seconds": 25200,
+  "phases": ["common_upper", "stabilized_disks"],
+  "segments_per_phase": 7,
+  "seconds_per_segment": 1800,
+  "stop_on_control_failure": true,
+  "stop_on_unaudited_nomination": true,
+  "automatic_restart_authorized": false,
+  "chat_access_token_used": false,
+  "scientific_claims_modified": false,
+  "purpose": "Initial authorized execution, not a claim that seven hours have already run or that a counterexample exists."
+}

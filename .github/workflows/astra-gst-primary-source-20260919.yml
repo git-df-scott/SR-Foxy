@@ -1,0 +1,29 @@
+name: Astra GST primary vector source 2026-09-19
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/astra-gst-primary-source-20260919.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  primary-source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Fetch the pinned public primary paper and figure source
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p primary
+          curl --fail --location --retry 2 --max-time 90 'https://arxiv.org/e-print/1103.1601v1' -o primary/1103.1601v1-source.tar
+          curl --fail --location --retry 2 --max-time 90 'https://arxiv.org/pdf/1103.1601v1' -o primary/1103.1601v1.pdf
+          printf '%s\n' 'Public primary source only. No repository checkout or mutation.' 'https://arxiv.org/e-print/1103.1601v1' 'https://arxiv.org/pdf/1103.1601v1' > primary/PROVENANCE.txt
+          (cd primary && sha256sum 1103.1601v1* > SHA256SUMS)
+      - name: Export original bytes for diagram verification
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: astra-gst-primary-1103-1601v1
+          path: primary/
+          retention-days: 7
+          if-no-files-found: error
