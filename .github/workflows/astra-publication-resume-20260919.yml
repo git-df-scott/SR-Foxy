@@ -1,0 +1,92 @@
+name: Astra saved-progress publication recovery 2026-09-19
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/astra-publication-resume-20260919.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: astra-saved-progress-publication
+  cancel-in-progress: false
+jobs:
+  preserve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Preserve transfer bytes for checksum-based recovery
+        run: |
+          mkdir -p publication-recovery
+          cp -r research_jobs/astra_publish_saved_progress_20260919/transfer publication-recovery/
+          git rev-parse HEAD > publication-recovery/SOURCE_COMMIT.txt
+          python - <<'PY'
+          import base64,hashlib,json,lzma,pathlib
+          root=pathlib.Path('publication-recovery'); files=sorted((root/'transfer').glob('plan-*.b64'))
+          record={'files':[{'name':p.name,'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in files]}
+          try:
+              raw=base64.b64decode(''.join(p.read_text().strip() for p in files),validate=True)
+              (root/'partial-plan.xz').write_bytes(raw)
+              dec=lzma.LZMADecompressor(); text=bytearray()
+              try:
+                  for start in range(0,len(raw),1024):text.extend(dec.decompress(raw[start:start+1024]))
+                  record['xz_eof']=dec.eof
+              except Exception as e:record['xz_error']=str(e)
+              (root/'partial-plan.txt').write_bytes(text)
+              record['decoded_bytes']=len(text)
+              record['start']=text[:2000].decode(errors='replace');record['end']=text[-1000:].decode(errors='replace')
+              try:
+                  obj=json.loads(text);record['json_type']=type(obj).__name__;record['keys']=list(obj)[:20] if isinstance(obj,dict) else None
+              except Exception as e:record['json_error']=str(e)
+          except Exception as e:record['transfer_error']=str(e)
+          (root/'DIAGNOSTIC.json').write_text(json.dumps(record,indent=2)+'\n')
+          print(json.dumps(record,indent=2))
+          PY
+      - name: Preserve the already-finished search checkpoint in Git
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          dest=results/astra_saved_progress_2026_09_19/search_run
+          mkdir -p "$dest"
+          gh api "repos/$GITHUB_REPOSITORY/actions/artifacts/10589621369/zip" > /tmp/terminal.zip
+          echo 'cf4f075c1a66df3e1d1ae33b6dd717a70e49a735026bee943eb0cdb7b9d570ea  /tmp/terminal.zip' | sha256sum --check
+          export DEST="$dest"
+          python - <<'PY'
+          import os,pathlib,shutil,zipfile
+          dest=pathlib.Path(os.environ['DEST']); target=dest/'terminal_checkpoint_original.zip'
+          data=pathlib.Path('/tmp/terminal.zip').read_bytes()
+          if target.exists() and target.read_bytes()!=data:raise RuntimeError('Refusing to overwrite different checkpoint bytes')
+          with zipfile.ZipFile('/tmp/terminal.zip') as z:
+              if z.testzip() is not None:raise RuntimeError('ZIP CRC failure')
+          target.write_bytes(data)
+          note=dest/'README.md'
+          text='''# Preserved cancelled-run checkpoint
+
+          Run 35455048082 was cancelled at Scott's request on 19 September 2026. This publication job does not restart it.
+
+          `terminal_checkpoint_original.zip` is the exact GitHub artifact 10589621369, verified by its advertised SHA-256: cf4f075c1a66df3e1d1ae33b6dd717a70e49a735026bee943eb0cdb7b9d570ea.
+
+          The ZIP is intact but its cancellation-time SQLite database was reported malformed in the saved audit. Preserve these original bytes for recovery; do not treat this database as a validated final checkpoint. Earlier intact checkpoints and local recovery files remain separate publication work. No seven-hour completion or counterexample is claimed.
+          '''
+          if not note.exists():note.write_text(text)
+          PY
+          git add -- "$dest"
+          if ! git diff --cached --quiet; then
+            git -c user.name='git-df-scott' -c user.email='282750673+git-df-scott@users.noreply.github.com' commit -m 'Preserve exact paused-search artifact and its corruption warning'
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
+          git rev-parse HEAD > publication-recovery/PUBLISHED_COMMIT.txt
+      - name: Export verified publication diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: astra-publication-recovery
+          path: publication-recovery/
+          retention-days: 7
+          if-no-files-found: error
