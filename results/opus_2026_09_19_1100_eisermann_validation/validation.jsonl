@@ -1,0 +1,73 @@
+{"name": "ribbon_2_12_4118336d", "crossings": 12, "components": 2, "null_V": 1, "det_V": -63, "component_dets": [1, 1], "product": 1, "det_V_mod32": 1, "product_mod32": 1, "thm1_pass": true, "thm2_pass": true, "knotted_components": false}
+{"name": "ribbon_2_12_2522b6b3", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_c532d28f", "crossings": 14, "components": 2, "null_V": 1, "det_V": -191, "component_dets": [1, 1], "product": 1, "det_V_mod32": 1, "product_mod32": 1, "thm1_pass": true, "thm2_pass": true, "knotted_components": false}
+{"name": "ribbon_2_14_65f6cebc", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_10_7ecd0dc0", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_be8fa555", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_13_5d43499e", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_10_dc42cb6a", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_473214b5", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_12_c8af5edd", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_b82beeeb", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_12_82049773", "crossings": 12, "components": 2, "null_V": 1, "det_V": -63, "component_dets": [1, 1], "product": 1, "det_V_mod32": 1, "product_mod32": 1, "thm1_pass": true, "thm2_pass": true, "knotted_components": false}
+{"name": "ribbon_2_14_4f2694ff", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_a045cb3a", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_69184733", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_12_ddcc6d65", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_13_82f84b7d", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_13_f650d14f", "crossings": 13, "components": 2, "null_V": 1, "det_V": -119, "component_dets": [9, 1], "product": 9, "det_V_mod32": 9, "product_mod32": 9, "thm1_pass": true, "thm2_pass": true, "knotted_components": true}
+{"name": "ribbon_2_14_b789f3af", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_0eb4c90d", "crossings": 14, "components": 2, "null_V": 1, "det_V": -191, "component_dets": [1, 1], "product": 1, "det_V_mod32": 1, "product_mod32": 1, "thm1_pass": true, "thm2_pass": true, "knotted_components": false}
+{"name": "ribbon_2_14_c0b9a7c6", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_13_cd58ecfd", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_12_b3176713", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_12_c69640fc", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_699ce1bc", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_b5cb68a0", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_13_2b1abc12", "crossings": 13, "components": 2, "null_V": 1, "det_V": -119, "component_dets": [1, 9], "product": 9, "det_V_mod32": 9, "product_mod32": 9, "thm1_pass": true, "thm2_pass": true, "knotted_components": true}
+{"name": "ribbon_2_14_1bc82087", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_9a9f0595", "crossings": 14, "components": 2, "null_V": 1, "det_V": -191, "component_dets": [1, 1], "product": 1, "det_V_mod32": 1, "product_mod32": 1, "thm1_pass": true, "thm2_pass": true, "knotted_components": false}
+{"name": "ribbon_2_13_fc552163", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_fcf6571a", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_12_a41971f0", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_c6d975d5", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_2f853e82", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_13_e1b3f674", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_1f6a7d1e", "crossings": 14, "components": 2, "null_V": 1, "det_V": -191, "component_dets": [1, 1], "product": 1, "det_V_mod32": 1, "product_mod32": 1, "thm1_pass": true, "thm2_pass": true, "knotted_components": false}
+{"name": "ribbon_2_12_f96042d9", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_bc3e184a", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_9816b611", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_25fbc17e", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_a48329e2", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_69b4ddc2", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_6df01394", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_19779d66", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_5ae54a40", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_2349a189", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_5f88dfaa", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_993f5048", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_964201ff", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_03c33d52", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_34a1a2a4", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_13_95cfb058", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_c23ba356", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_13_3ed9a8ef", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_11f4d7b1", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_efb17b22", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_8ac3d8b2", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_e19560e1", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_5228cef5", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_12_318a1895", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_3150c2d2", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_b5ffdf10", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_98e5d346", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_c3608c49", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_d4baebb8", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_698f7d85", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_c8b14190", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_a03da83c", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_13_5a6ca7d0", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_5778e55e", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_faa25e47", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_00eb3cdd", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}
+{"name": "ribbon_2_14_2f4cee3e", "error": "UnboundLocalError: cannot access local variable 'start' where it is not associated with a value"}

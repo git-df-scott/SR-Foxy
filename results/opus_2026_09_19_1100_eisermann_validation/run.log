@@ -1,0 +1,10 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+RibbonLinks census: 12184 certified ribbon links; sampling up to 3000 with <= 14 crossings
+[    0.2s] 25 links | Thm1 5 pass / 0 fail | Thm2 5 pass / 0 fail | 20 errors
+[    0.7s] 50 links | Thm1 8 pass / 0 fail | Thm2 8 pass / 0 fail | 42 errors
+# residue distribution det(K_1)...det(K_n) mod 32: {1: 6, 9: 2}
+# links with KNOTTED components (product != 1 mod 32): 2; of these Thm2 passes on 2
+# links at the GST residue 17 mod 32: 0
+# FINAL: 73 links | Theorem 1: 8 pass, 0 FAIL | Theorem 2: 8 pass, 0 FAIL | 65 errors
+# pipeline is TRUSTWORTHY for the GST test
