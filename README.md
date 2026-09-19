@@ -1,35 +1,42 @@
 # Slice–Ribbon counterexample research
 
-**No counterexample found.** Start with the [current handoff](HANDOFF.md), which as of 14 September 2026 covers the whole board: every branch is folded into `main` and there are no unmerged branches. Then the [evening construction and obstruction audit](research/19_link_concordance_completion_gate.md).
+**No counterexample found.** Start with the [19 September night handoff](HANDOFF_2026_09_19_OPUS_NIGHT.md), the current state of the whole board. It supersedes the 14 September [`HANDOFF.md`](HANDOFF.md), which is kept for history. Read the retractions in its §4 before relying on anything from earlier sessions.
 
-Strategy, if you want the shape of the problem before the computations: [why every route-B construction is circular and where the Teichner lane runs out](research/24_why_route_b_is_circular.md), and [why route B can only succeed by refuting a stronger conjecture](research/22_where_a_counterexample_can_come_from.md).
+## Where things stand
 
-The direct construction target is a verified ribbon certificate for **D01 # J**, with a separately verified ribbon partner J. That proves D01 slice; its existing nonribbonness argument would then give a counterexample. New partners 9_41 and 9_46 were tested with full saved move sequences. Component obstructions reduce the intermediate searches to two paths; one matches the unoriented factors of **D01 # mirror(6_1)**, exposing a missing partner orientation in the old search. Their bounded continuation saves **96 unknown paths**, with no ribbon certificate. See the audit for exact coverage and failures.
+Three lanes closed on 19 September, all for a related reason — the certificates this repository can apply only reach **fibered** knots:
 
-All 1,092 earlier component matches have independently checked Alexander-module rank zero, obstructing link concordance to a split knot/unknot pair. The new completion lemma explains why this prevents annular completion of a fixed connected planar prefix. A separate audit excludes 32 of 61 older first-stage links by this test. It does not obstruct every possible concordance of K0 and K1.
+- **DG 0-friend mining** is closed by a theorem: Fox–Milnor makes the wild-pair population disjoint from every plausibly-slice census, at any crossing number (0 of 158,174 rows have irreducible `Delta`). See [`research/50`](research/50_the_dg_dataset_is_here_and_the_0_friend_lane_is_closed.md).
+- **Infection as a construction** is closed: it fails whenever the infection curve lies on the fiber, which is the real obstruction (not "genus grows," which was wrong and is retracted). See [`research/51`](research/51_why_infection_cannot_make_a_wild_pair.md).
+- **Surgery to `d(Sigma_2(K_1))`** is closed over all 28 drillable geodesics. See [`research/52`](research/52_sigma2_K1_is_not_surgery_on_a_knot_via_its_natural_presentation.md).
 
-The graded even Khovanov test still excludes 46 of 48 nonfibered K0 upper targets. J25533 and J25541 survive even and newly applied rational odd Kh tests. Eight odd Kh inputs pass independent Jones/Euler checks; a mirror control passes. Bounded face-return band searches found no opposite-source match.
+## GST knots — current status
 
-The stored Abe–Tagami difference has a nonribbonness argument; its smooth sliceness remains unknown. The [marked-annulus audit](research/14_marked_annulus_audit.md) and [infection compatibility audit](research/15_infection_target_compatibility.md) record obstructions to specific earlier constructions. They are not global sliceness obstructions. The explicit Hom–Park member is already obstructed from sliceness.
+`B_{3,1}` (GST's slice-but-maybe-not-ribbon knot) is now the **third** independent shortlist killed by the same fibered-only wall: genus 10, **not fibered**, `deg Delta = 16 < 2g`, `det = 1`. Neither Miyazaki Thm 5.5 nor Hom–Park Thm 1.1 reaches it, and Eisermann's Theorem 2 degenerates to `det = 1 (mod 8)`, which it trivially satisfies. See [`research/53`](research/53_the_gst_lane_has_a_known_answer_calibration.md).
 
-Branched double covers now separate the Abe-Tagami family: Sigma_2(K_0) = L(13,5) while Sigma_2(K_1) has non-cyclic pi_1. This is the first invariant here that tells K_0 and K_1 apart, and it is **not** a concordance obstruction. It does open a finite falsifiable [d-invariant gate](research/21_branched_double_covers.md), whose other half needs Heegaard Floer for a closed hyperbolic QHS^3 -- no tool in the recorded environment does this.
+That leaves the **link** `L_{3,1}` as the only live GST route, pre-registered as a single congruence: if `L_{3,1}` is ribbon, `det V(L_{3,1}) = 17 (mod 32)`; a different residue would make it slice and not ribbon — the first such object of any kind. Progress on that route:
 
-The Teichner lane is the only constructive one, and its cost roughly doubles per two crossings of the sum: 4.21 h at 31, 7.96 h at 33, over 12 h at 35. `D_{0,1} # 6_1` and `# 8_8` are complete with no certificate. `D_{0,1}` will not shrink below 25 crossings, so 31 is the hard floor. The lane runs out of tractable partners within a handful of runs.
+- The Eisermann pipeline itself is now validated against ground truth: **599/599** SnapPy `RibbonLinks` pass both theorems with 0 tool failures, 134 of them at exactly the residue 17 mod 32 that `L_{3,1}` is tested against. See [`results/opus_2026_09_19_1100_eisermann_validation`](results/opus_2026_09_19_1100_eisermann_validation/README.md).
+- The **in-family calibration** `research/53` actually asks for — build `L_{1,1}` (must give 9), then `L_{2,1}` (must give 17, the disputed residue, on a known-ribbon object) — is still **unattempted**. Only after both pass is tracing `L_{3,1}` itself (currently blocked on recovering it from a raster figure rather than a combinatorial description) worth the risk of a false positive.
+- A large-scale exact search over the GST 48-crossing diagram itself (band-prefix exclusion to length 4, 15,794 band specs, all replayed) found no ribbon movie to an unknot; see [`research/gst_2026_09_19_exact/REPORT.md`](research/gst_2026_09_19_exact/REPORT.md).
+- A separate seven-hour bounded movie search (common-upper and stabilized-disk searches over Abe–Tagami/K7a2-K10n4 targets) was launched via [`.github/workflows/astra-seven-hour-movie-search-20260919.yml`](.github/workflows/astra-seven-hour-movie-search-20260919.yml); see [`research_jobs/astra_seven_hour_20260919`](research_jobs/astra_seven_hour_20260919/README.md) for scope. Its evidence is a GitHub Actions artifact, not yet reflected in this repository — check the workflow run for outcome before assuming it finished or found anything.
 
-**`max_band_len` saturates**, at 6 on `D_{0,1} # 6_1`, so every historical run recorded at "length <= 8" or "length <= 10" explored nothing beyond length 6. Three dials are genuinely untouched and are what "wider" should mean from here: `paths='simple'` (about 75x the band set), `max_twists` (pinned at 2 in every run this campaign has done), and diagram choice. See [the saturation measurement](results/band_generator_saturation.json) and [what is still open](UNFINISHED.md).
+## The one real advance today
 
-Rasmussen's `s` -- the obstruction that killed Manolescu-Piccirillo's five topologically slice knots -- is **zero on all four knots of both r = 0 pairs**, with a two-sided control. It had never been computed for any RBG knot here. That is survival, not evidence.
+Risk 1/2 of the mixed-lift review is now closed independently for `K_0`, `K_1`: the graded Euler characteristic of the stored HFK bigradings equals `Delta` computed with no Floer code and no Seifert surface (reduced Burau, 9/9 controls), at `[1,-3,5,-3,1]` for both. Not closed: the lift to a homogeneous minimal complex, and `K_2`/`K_3`.
 
-The unmined r = 0 RBG pair K(0,0,0,-1,2,1) has now been searched to two bands at length 5: 333 and 304 survivors, no unknot. Its frontier **grows** with band count, unlike K_DG, which is why the lane has real input.
+## Older but still-standing results
 
-The link lane's test is now pre-registered as a single congruence: if GST's slice link `L_{3,1}` is ribbon then `det V(L_{3,1}) = 17 (mod 32)`. A different residue would make it slice and not ribbon -- the first such object of any kind. It is gated on reading GST Figure 1: the construction is a picture, not a combinatorial description, and three attempts to recover the link as a band fission of the GST knot were all rejected.
+- The **Abe–Tagami** difference has a nonribbonness argument; smooth sliceness is unknown. See the [marked-annulus audit](research/14_marked_annulus_audit.md) and [infection compatibility audit](research/15_infection_target_compatibility.md).
+- Branched double covers separate `K_0`, `K_1` (`Sigma_2(K_0) = L(13,5)`, `Sigma_2(K_1)` non-cyclic `pi_1`) — not a concordance obstruction, but opens a [d-invariant gate](research/21_branched_double_covers.md).
+- The **Teichner lane** (`D_{0,1} # J`) has run out of tractable partners; cost roughly doubles per two crossings of the sum, and `max_band_len` saturates at 6. See [the saturation measurement](results/band_generator_saturation.json) and [what's still open](UNFINISHED.md). A broader Miyazaki-pair search over 35,612 wild pairs (`results/ce_hunt_2026_09_19`) is running with 0 hits so far — weak evidence at best, since GHMR's own walker also fails on known-ribbon `L_{1,1}`/`L_{2,1}`.
+- Rasmussen's `s` is zero on all four knots of both `r = 0` RBG pairs — survival, not evidence.
+- The **link census lane is closed**: of 34,590+7,463+1,101 tabulated hyperbolic links to 14 crossings, 115 are certified non-ribbon by Eisermann Theorem 1, and all 115 are provably not slice ([session record](SESSION_2026-09-15b.md) §14-17).
 
-A published claim was **retracted**: `Link.simplify('global')` deletes split unknot components, which inverted a screen whose intended pass is "split knot plus unknot". Nothing is eliminated; see [the audit](research/23_prefix_annulus_lemma_audit.md).
+## Saved/archived work
+
+`results/astra_genus_one_2026_09_18/`, `results/astra_one_commutator_2026_09_18/`, and `results/sr_foxy_combined_saved_work_2026_09_19/` are an explicit-construction side investigation (spatial models, mesh/group verification, a marked genus-one surface) preserved from earlier sessions, including original zips for recoverability. They record no counterexample and are not part of the GST/Teichner/RBG lanes above.
+
+`graph-reconstruction/` is a self-contained side project on the Kelly–Ulam conjecture, unrelated to slice–ribbon. No counterexample there either.
 
 See [reproduction instructions](REPRODUCE_2026-09-12.md), [exact Floer-filter diagram](figures/common-successor-filter.png), and [an actual search move](figures/fusion-example.png). All development stays on `main`.
-
-The **link lane is now closed over the tabulated census**: of 34,590 three-, 7,463 four- and 1,101 five-component hyperbolic links to 14 crossings, 115 are certified non-ribbon by Eisermann's Theorem 1 and **all 115 are provably not slice** ([session record](SESSION_2026-09-15b.md) sections 14-17). The toolchain that did it runs without Sage -- Jones, Eisermann `null V`/`det V`, the R-link property, Milnor invariants to length n, Levine-Tristram -- each with controls. Two latent faults were fixed on the way: `min_len_bands` rejects a shaken diagram unless crossing labels are renormalized, and `Link.determinant()` is Sage-only, which had made every fission script vacuous here. One coverage claim was **retracted** for that second reason; see section 18.
-
-`graph-reconstruction/` is a self-contained side project on the Kelly-Ulam conjecture, unrelated to slice-ribbon. No counterexample there either.
-
-New: [minimum-genus target bounds](research/10_low_genus_targets.md), [involutive algebra audit](research/11_involutive_local_equivalence.md), [coupled movies and corrected torsion](research/12_coupled_movie_audit.md), and [explicit linking/character audit](research/13_fox_goeritz_hkl.md).
