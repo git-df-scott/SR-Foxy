@@ -380,3 +380,33 @@ about sliceness. Only a hit means anything here — and a hit still needs
 `verify_ribbon_to_unknot` before it is a result.
 
 **Status: 9 targets exhausted at 400 tries, 0 hits.**
+
+## 14. Pass 1 complete on shard 01
+
+`pass1_01.log`: **31/31 targets, 0 hits**, `Succeeded 0 times`. First complete
+walker sweep of a shard.
+
+Caveat on its own summary block: the walker prints the full PD code of every
+failed knot, so the `Failed 31 times for: [...]` line is thousands of characters
+of diagram data, not 31 names. Read the counts, not the block.
+
+**Pass 2, `pass2_twistheavy_01.log`** — same 31 targets, deliberately different
+point in the dial space rather than more of the same:
+
+| | pass 1 | pass 2 |
+|---|---|---|
+| weights `[start, attach, over, under, twist]` | `[1,17,1,1,3]` (GHMR default) | `[3,10,2,2,9]` |
+| max tries | 400 | 1200 |
+| max steps | 80 | 140 |
+| max bands | 5 | 8 |
+
+Three times the weight on starting a band and three times on twisting, against a
+much lower weight on plain attachment. The reasoning is in §13: GHMR tuned the
+default on synthetic `Sym`/`Unsym` ribbon knots, and a composite genus-5+ target
+is a different distribution. For a lottery, spread across the dial beats depth at
+one setting — the same lesson as §7 and §13, applied before making the mistake
+rather than after.
+
+**Running total: 70 targets exhausted, 0 hits.** Nothing here is coverage: per
+§13, a walker failure is weak evidence about ribbonness and none about
+sliceness.
