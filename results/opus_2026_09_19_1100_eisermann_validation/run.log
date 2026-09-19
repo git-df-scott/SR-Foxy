@@ -1,10 +1,31 @@
 /usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
   warnings.warn('Plink failed to import tkinter, GUI will not be available')
-RibbonLinks census: 12184 certified ribbon links; sampling up to 3000 with <= 14 crossings
-[    0.2s] 25 links | Thm1 5 pass / 0 fail | Thm2 5 pass / 0 fail | 20 errors
-[    0.7s] 50 links | Thm1 8 pass / 0 fail | Thm2 8 pass / 0 fail | 42 errors
-# residue distribution det(K_1)...det(K_n) mod 32: {1: 6, 9: 2}
-# links with KNOTTED components (product != 1 mod 32): 2; of these Thm2 passes on 2
-# links at the GST residue 17 mod 32: 0
-# FINAL: 73 links | Theorem 1: 8 pass, 0 FAIL | Theorem 2: 8 pass, 0 FAIL | 65 errors
-# pipeline is TRUSTWORTHY for the GST test
+RibbonLinks census: 12184 certified ribbon links; sampling up to 2000 with <= 16 crossings
+[    0.3s] 25 links | Thm1 25 pass / 0 fail | Thm2 25 pass / 0 fail | 0 errors
+[    0.5s] 50 links | Thm1 50 pass / 0 fail | Thm2 50 pass / 0 fail | 0 errors
+[    0.7s] 75 links | Thm1 75 pass / 0 fail | Thm2 75 pass / 0 fail | 0 errors
+[    1.1s] 100 links | Thm1 100 pass / 0 fail | Thm2 100 pass / 0 fail | 0 errors
+[    1.4s] 125 links | Thm1 125 pass / 0 fail | Thm2 125 pass / 0 fail | 0 errors
+[    1.7s] 150 links | Thm1 150 pass / 0 fail | Thm2 150 pass / 0 fail | 0 errors
+[    2.1s] 175 links | Thm1 175 pass / 0 fail | Thm2 175 pass / 0 fail | 0 errors
+[    2.6s] 200 links | Thm1 200 pass / 0 fail | Thm2 200 pass / 0 fail | 0 errors
+[    3.1s] 225 links | Thm1 225 pass / 0 fail | Thm2 225 pass / 0 fail | 0 errors
+[    3.7s] 250 links | Thm1 250 pass / 0 fail | Thm2 250 pass / 0 fail | 0 errors
+[    4.3s] 275 links | Thm1 275 pass / 0 fail | Thm2 275 pass / 0 fail | 0 errors
+[    4.8s] 300 links | Thm1 300 pass / 0 fail | Thm2 300 pass / 0 fail | 0 errors
+[    5.5s] 325 links | Thm1 325 pass / 0 fail | Thm2 325 pass / 0 fail | 0 errors
+[    6.3s] 350 links | Thm1 350 pass / 0 fail | Thm2 350 pass / 0 fail | 0 errors
+[    7.8s] 375 links | Thm1 375 pass / 0 fail | Thm2 375 pass / 0 fail | 0 errors
+[    8.5s] 400 links | Thm1 400 pass / 0 fail | Thm2 400 pass / 0 fail | 0 errors
+[    9.9s] 425 links | Thm1 425 pass / 0 fail | Thm2 425 pass / 0 fail | 0 errors
+[   11.5s] 450 links | Thm1 450 pass / 0 fail | Thm2 450 pass / 0 fail | 0 errors
+[   12.9s] 475 links | Thm1 475 pass / 0 fail | Thm2 475 pass / 0 fail | 0 errors
+[   14.9s] 500 links | Thm1 500 pass / 0 fail | Thm2 500 pass / 0 fail | 0 errors
+[   16.6s] 525 links | Thm1 525 pass / 0 fail | Thm2 525 pass / 0 fail | 0 errors
+[   18.8s] 550 links | Thm1 550 pass / 0 fail | Thm2 550 pass / 0 fail | 0 errors
+[   21.6s] 575 links | Thm1 575 pass / 0 fail | Thm2 575 pass / 0 fail | 0 errors
+# residue distribution det(K_1)...det(K_n) mod 32: {1: 190, 25: 133, 9: 164, 17: 134}
+# links with KNOTTED components (product != 1 mod 32): 431; of these Thm2 passes on 431
+# links at the GST residue 17 mod 32: 134
+# FINAL: 599 links | Theorem 1: 599 pass, 0 FAIL | Theorem 2: 599 pass, 0 FAIL | 0 errors
+# pipeline validated on a usable sample INCLUDING knotted components; sound for the GST test

@@ -46,6 +46,14 @@ def component_determinants_sagefree(L):
     out = []
     for i in range(len(L.link_components)):
         K = L.sublink([i])
+        # A component that survives as a 0-crossing diagram is an unknot,
+        # det 1.  Passing it to the Seifert-matrix routine raises
+        # UnboundLocalError('start') from inside spherogram -- that single
+        # case accounted for 65 of 73 failures in the first run of this
+        # script, and is not a property of the links.
+        if len(K.crossings) == 0:
+            out.append(1)
+            continue
         _sig, det = _sff.signature_and_det(K)
         out.append(abs(int(det)))
     return out

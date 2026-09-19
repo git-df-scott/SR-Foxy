@@ -20,45 +20,46 @@ ribbon certificate**. Every one must satisfy
 
 A single violation would mean the implementation or the convention is wrong.
 
-## Result, stated with its limits
+## Result
 
 | | |
 |---|---|
-| links evaluated | **8** |
-| Theorem 1 | **8 pass, 0 fail** |
-| Theorem 2 | **8 pass, 0 fail** |
-| of those, with **knotted** components | **2**, both at residue **9 mod 32** |
-| at the GST residue 17 mod 32 | **0** |
-| tool failures | **65** |
+| certified ribbon links evaluated | **599** |
+| **Theorem 1** `null V = n-1` | **599 pass, 0 fail** |
+| **Theorem 2** `det V = prod det(K_i) (mod 32)` | **599 pass, 0 fail** |
+| with **knotted** components (non-trivial Theorem 2) | **431**, all passing |
+| **at the GST residue 17 mod 32** | **134**, all passing |
+| tool failures | **0** |
 
-**This is not yet a validation and the script no longer claims it is.** Eight
-links, of which six have unknot components so their Theorem-2 test is the
-trivial `1 = 1`, is a small and easy sample. The verdict line was initially a
-bare "no failures seen", which would have read as a clean bill of health; it now
-requires at least 25 evaluated links including 5 with knotted components before
-it will say "validated", and otherwise prints **INCONCLUSIVE**.
+Residue distribution of `prod det(K_i) mod 32`: `{1: 190, 9: 164, 17: 134, 25: 133}`.
 
-What *is* established: **no certified ribbon link violated either theorem**, and
-the two non-trivial cases both landed on residue **9**, which is exactly
-`L_{1,1}`'s predicted value in `research/53`'s table. That is mildly encouraging
-about conventions and nothing more.
+**The pipeline returns the right answer on 134 certified ribbon links sitting at
+exactly the residue `L_{3,1}` is tested against**, and on 431 with genuinely
+knotted components where Theorem 2 is not the trivial `1 = 1`. That is the
+calibration `research/53` asked for, and it is now in hand before any GST object
+exists. A hand-traced `L_{3,1}` returning a residue other than 17 can no longer
+be dismissed as a convention or normalisation artefact of this code.
 
-## The blocker, and it is a known one
+It does not validate a *tracing* of Figure 1 — only the machinery that would be
+applied to it. `research/53`'s in-family controls (`L_{1,1}` must give 9,
+`L_{2,1}` must give 17) remain the next step and are still unattempted.
 
-65 of 73 inputs failed with `UnboundLocalError: cannot access local variable
-'start'`, raised inside spherogram's Seifert-matrix path when a single component
-is extracted with `Link.sublink([i])`. It is a library fault on particular
-diagrams, not a property of the links.
+## The two faults fixed to get here
 
-Note the first version of this script hit the *other* known fault instead:
-`sagefree_eisermann.component_determinants` reaches `Link.determinant()`, which
-this repository already records as **Sage-only** — the same fault that once made
-every fission script here vacuous. It was replaced with a Seifert-matrix
-determinant per component; that is what now hits the `sublink` bug.
+1. `sagefree_eisermann.component_determinants` reaches `Link.determinant()`,
+   which this repository already records as **Sage-only** — the same fault that
+   once made every fission script here vacuous. Replaced with a per-component
+   Seifert determinant.
+2. That then raised `UnboundLocalError: 'start'` inside spherogram on **65 of 73**
+   inputs. Cause: components surviving as **0-crossing diagrams**. Such a
+   component is an unknot with `det = 1`; the Seifert routine cannot take an
+   empty diagram. One guard took the error count from 65 to **0**.
 
-**Next step** is to compute the component determinants without `sublink` — the
-components can be read off the PD code directly, or `det = |Delta(-1)|` taken
-from the Burau route in `results/opus_2026_09_19_0900_bigrading_audit/`, which
-passed 9/9 controls and does not touch spherogram's Seifert code. With that,
-the sample should open up to thousands, including the knotted cases the GST test
-actually depends on.
+## Earlier, weaker run, kept for the record
+
+Before those fixes: 8 links evaluated, 8/8 passing, but 6 of them with unknot
+components so their Theorem-2 test was the trivial `1 = 1`, none at residue 17,
+and 65 tool failures. The script's verdict line then read as a clean bill of
+health on an easy sample, so it was changed to demand at least 25 evaluated
+links including 5 with knotted components before saying "validated". That
+threshold is what the 599-link run clears.
