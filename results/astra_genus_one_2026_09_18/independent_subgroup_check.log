@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "graph": {
+    "V": 16,
+    "E": 18,
+    "rank": 3,
+    "rounds": 29
+  },
+  "controls": {
+    "free_rank_three": true,
+    "dependent_triple_rank_two": true,
+    "repeated_word_rank_one": true,
+    "null_word_rank_zero": true
+  },
+  "source_relators_checked": 9,
+  "words_checked": [
+    "A",
+    "B",
+    "b",
+    "a",
+    "delta"
+  ],
+  "conditional_result": "The map F(A,B,b) -> source group determined by saved q0 is injective. A corresponding actual correction surface has no compressing disk IF q0 is its geometric disk-exterior inclusion. This does not exclude a different modifying annulus between a and b_prime."
+}

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/mnt/data/astra_genus_one_2026_09_18/check_subgroup_independent.py", line 6, in <module>
+    if not __debug__: raise RuntimeError("Assertions must be enabled for the subgroup checker")
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Assertions must be enabled for the subgroup checker
