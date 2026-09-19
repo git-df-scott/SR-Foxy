@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-18",
+  "base_commit": "4ae1344c8dbe815a6d7024e1dc02c5b459764ce0",
+  "files": {
+    "CHECKS.json": {
+      "sha256": "e1255cab6ce1e2e1a7926daa7452cbf62ce23138ff46b674646dd63d742584d1",
+      "bytes": 20696
+    },
+    "FIBERED_STABILIZER_OBSTRUCTION.md": {
+      "sha256": "bcc0b955e0a46425f1cde4479bc7a454aeef1ee438cf1b3987d824abf1ed1d6c",
+      "bytes": 6438
+    },
+    "MIXED_HANDLE.md": {
+      "sha256": "5ffcc819e40f45e56a3cd969b8dfda1043a79ba68a4ee06691d2403fcb7fed08",
+      "bytes": 5832
+    },
+    "README.md": {
+      "sha256": "e21ff32ccea01f8b818380a984a4c5739b54e7653a222c666a0ec543c226ffe9",
+      "bytes": 3413
+    },
+    "REPLAY.json": {
+      "sha256": "234e9d385eb791b01b732d071773b79a0b1a97ce5f60b84e174b386afbe8934e",
+      "bytes": 1579
+    },
+    "SOURCES.md": {
+      "sha256": "29d120dceb0ba4248d8b56aef4efc42c2233287675749c4f2bf28cc9df0d132f",
+      "bytes": 2870
+    },
+    "build_checks.py": {
+      "sha256": "99a6c71097eb815d3ea55b7b41edce549579010dd4dcb8878bfe9b5b2854ce1e",
+      "bytes": 6467
+    },
+    "check_saved.py": {
+      "sha256": "650a588bb8f7011457e85ce50c81d8dc69671f35c18bba761e6e7ade31e4dbe3",
+      "bytes": 5943
+    },
+    "diagram_probe.json": {
+      "sha256": "6a31b3e0098031b72584b1c318165783c70ce7e1c51a6275e977ac737027f51b",
+      "bytes": 43248
+    },
+    "diagram_probe.py": {
+      "sha256": "39d1f32050a02b357336e0b9e61afda88d3756412b57a485f4da25a9ea977e2b",
+      "bytes": 2863
+    }
+  },
+  "dependencies": {
+    "results/astra_2026_09_18_marked_annulus_construction/factor_identification/certificate.json": "e5141ec6f237b314407a7b0ab5c39d54bc2225df66dae46481298871f4478f91",
+    "results/astra_2026_09_18_marked_annulus_construction/stabilizer.json": "4d167ffe5e202066a24db8f67db9366b1972977e9c4588e8a601acd4ee74b4ce",
+    "results/astra_2026_09_17_collar_boundary_audit/CERTIFICATE.json": "6969cd957ce3a1ba023ade673ca4aa13611e97ad0b5da9f5078fa28c9662c420",
+    "data/knots/AbeTagami_K_0_K_-1__6_3.json": "1c9916334ea4bc7616be3eb4b225140d8f44a6aa701e4fc083413242fca665c4",
+    "data/knots/AbeTagami_K_1.json": "431379bc23a2dd019bdfb629adbac8130f3d7c301007cf268934e086d590ca5d",
+    "data/knots/AbeTagami_D_0_1.json": "f433a4c9b65eab762207ea215f6110aaecd86aba1d65604c57e3011fc215ef1d",
+    "research/42_surface_realization_with_exact_linking.md": "217c66e9b661253e47232b4ec10feef4fe96344fe88709435711ace7e9093480"
+  }
+}

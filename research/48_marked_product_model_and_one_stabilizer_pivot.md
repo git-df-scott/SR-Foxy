@@ -2,6 +2,11 @@
 
 18 September 2026. Continuation of research/44--47. No counterexample.
 
+**Later update:** research/49 excludes ribbonness of the fixed D01#J using
+Agol–Ren's decomposition theorem. The unknown status below records this
+earlier checkpoint. Research/49 also identifies A with reversed native c2
+and locates the protected-axis meridian that their group equality forgets.
+
 The complete construction and finite artifacts are in
 `results/astra_2026_09_18_marked_annulus_construction/`.
 

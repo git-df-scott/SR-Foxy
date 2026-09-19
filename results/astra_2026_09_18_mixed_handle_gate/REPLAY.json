@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "input_hashes": "PASS",
+  "polynomial_coprimality": "PASS",
+  "irreducibility_mod2": "PASS",
+  "planar_rotation_system_faces": 60,
+  "direct_group_identity": {
+    "relation_index_zero_based": 7,
+    "crossing": 11,
+    "relator": [
+      1,
+      4,
+      -1,
+      -3
+    ],
+    "reduced_c2_times_A": [
+      4,
+      -1,
+      -3,
+      1
+    ],
+    "reason": "Cyclic permutation of the actual Wirtinger relator"
+  },
+  "protected_axis_underpass": [
+    {
+      "under_port": [
+        26,
+        2
+      ],
+      "over_meridian_at": [
+        26,
+        1
+      ],
+      "sign": 1
+    }
+  ],
+  "c2_geometric_word_in_doubly_marked_exterior": [
+    {
+      "over_meridian_at": [
+        19,
+        1
+      ],
+      "component": "R",
+      "exponent": 1
+    },
+    {
+      "over_meridian_at": [
+        10,
+        1
+      ],
+      "component": "R",
+      "exponent": -1
+    },
+    {
+      "over_meridian_at": [
+        26,
+        1
+      ],
+      "component": "a",
+      "exponent": 1
+    },
+    {
+      "over_meridian_at": [
+        15,
+        1
+      ],
+      "component": "R",
+      "exponent": 1
+    },
+    {
+      "over_meridian_at": [
+        21,
+        1
+      ],
+      "component": "R",
+      "exponent": -1
+    }
+  ],
+  "protected_axis_meridional_exponent": 1,
+  "lk_c2_a": 1,
+  "source_certificate_sha256": "6969cd957ce3a1ba023ade673ca4aa13611e97ad0b5da9f5078fa28c9662c420",
+  "negative_controls_rejected": 2,
+  "limits": "Geometric/theorem arguments are stated separately. No actual mixed compression disk or complete annulus movie."
+}
