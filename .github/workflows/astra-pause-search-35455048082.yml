@@ -1,4 +1,4 @@
-name: Pause Astra search 35455048082 at Scott's request
+name: Pause and archive Astra search 35455048082 at Scott's request
 
 on:
   push:
@@ -8,12 +8,14 @@ on:
 
 permissions:
   contents: read
-  actions: write
 
 jobs:
   stop_requested_search:
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    permissions:
+      actions: write
+      contents: read
     steps:
       - name: Cancel only the explicitly paused search run
         env:
@@ -27,8 +29,66 @@ jobs:
           echo "Target run $run_id is $status"
           if [ "$status" != completed ]; then
             gh api --method POST "repos/$GH_REPO/actions/runs/$run_id/cancel"
-            echo 'Cancellation requested. Existing search cancellation handlers and always-upload steps may preserve a partial checkpoint.'
           else
             echo 'Target run is already terminal; no cancellation needed.'
           fi
           echo 'No search restarted. No scientific claims modified. User requested pause on 2026-09-19.'
+
+  archive_repository:
+    name: Archive only - no scientific computation
+    needs: stop_requested_search
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      actions: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Export source snapshot and complete fetched Git history
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p export
+          git archive --format=tar --prefix=SR-Foxy/ "$GITHUB_SHA" | gzip -n > export/SR-Foxy-source.tar.gz
+          git bundle create export/SR-Foxy-history.bundle --all
+          git bundle verify export/SR-Foxy-history.bundle > export/GIT_BUNDLE_VERIFY.txt 2>&1
+          git show-ref > export/GIT_REFS.txt
+          git log --all --date=iso-strict --format='%H%x09%aI%x09%s' > export/GIT_HISTORY.tsv
+          python - <<'PY'
+          import hashlib,json,os,pathlib,subprocess
+          files=[]
+          for record in subprocess.check_output(['git','ls-tree','-rz','--full-tree',os.environ['GITHUB_SHA']]).split(b'\0'):
+              if not record: continue
+              fields,name=record.split(b'\t',1)
+              mode,kind,oid=fields.decode().split()
+              name=os.fsdecode(name)
+              raw=subprocess.check_output(['git','cat-file','blob',oid]) if kind=='blob' else b''
+              files.append({'path':name,'mode':mode,'type':kind,'git_blob_sha1':oid,'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()})
+          pathlib.Path('export/SNAPSHOT.json').write_text(json.dumps({'repository':os.environ['GITHUB_REPOSITORY'],'commit':os.environ['GITHUB_SHA'],'purpose':'Full progress archive after user-requested pause; no research search launched','tracked_entries':len(files),'files':files},indent=2)+'\n')
+          PY
+      - name: Preserve search metadata and downloadable job logs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh api "repos/$GH_REPO/actions/runs/35455048082" > export/SEARCH_RUN_METADATA.json
+          gh api "repos/$GH_REPO/actions/runs/35455048082/jobs?per_page=100" > export/SEARCH_JOBS_METADATA.json
+          gh api "repos/$GH_REPO/actions/runs/35455048082/artifacts" > export/SEARCH_ARTIFACTS_METADATA.json
+          if ! gh api "repos/$GH_REPO/actions/runs/35455048082/logs" > export/SEARCH_RUN_LOGS.zip; then
+            rm -f export/SEARCH_RUN_LOGS.zip
+            echo 'Run-log download unavailable; metadata and source export are intact.' > export/LOG_DOWNLOAD_UNAVAILABLE.txt
+          fi
+          sha256sum export/* > export/EXPORT_SHA256SUMS.txt
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: astra-full-progress-repository-export-20260919
+          path: export/
+          retention-days: 7
+          if-no-files-found: error
+          compression-level: 0
