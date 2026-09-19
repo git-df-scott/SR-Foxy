@@ -1,0 +1,19 @@
+{
+  "status": "PUBLISHED_AND_REMOTE_ANCESTRY_VERIFIED",
+  "commit": "6e6153c55cb7d1581535f37f0fc3d6730f82c85b",
+  "repository_path": "results/astra_full_progress_2026_09_19/",
+  "payload_files_verified": 2555,
+  "payload_bytes_verified": 388797483,
+  "search_restarted": false,
+  "original_manifest_sha256": "21ed4c4d79a629791d88ea2a87892574b428e9730d00d41acf0f53bc5fd8da92",
+  "scope": "Every payload byte matches the full progress ZIP. Existing research claims were not changed. This is publication verification, not a mathematical result.",
+  "verification_workflow_run": 35471117227,
+  "verification_workflow_conclusion": "success",
+  "verification_artifact_id": 10592268736,
+  "verification_artifact_sha256": "16ce03a7b7f17011c09b5ebe617b061184a5352375679f699a186139dbeeab2f",
+  "original_full_zip_sha256": "0a817feddb11cfd8b77cdfdc972406677493f3c0b91bda1a6f371d57ea69c9e8",
+  "local_archive_members_compared": 2557,
+  "local_archive_member_mismatches": 0,
+  "chat_access_token_used": false,
+  "new_branch_created": false
+}
