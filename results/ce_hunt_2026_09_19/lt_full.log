@@ -1,0 +1,82 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+[
+ {
+  "control": "slice 6_1: sigma_omega == 0",
+  "passed": true
+ },
+ {
+  "control": "slice 8_8: sigma_omega == 0",
+  "passed": true
+ },
+ {
+  "control": "slice 9_46: sigma_omega == 0",
+  "passed": true
+ },
+ {
+  "control": "slice 10_3: sigma_omega == 0",
+  "passed": true
+ },
+ {
+  "control": "slice 6_1: sigma_omega == 0",
+  "passed": true
+ },
+ {
+  "control": "ribbon square knot: sigma_omega == 0",
+  "passed": true
+ },
+ {
+  "control": "trefoil: sigma_omega != 0 somewhere",
+  "passed": true,
+  "values": [
+   -2,
+   0
+  ]
+ },
+ {
+  "control": "omega=-1 matches Murasugi on 3_1",
+  "passed": true,
+  "lt": -2,
+  "repo": -2
+ },
+ {
+  "control": "omega=-1 matches Murasugi on 4_1",
+  "passed": true,
+  "lt": 0,
+  "repo": 0
+ },
+ {
+  "control": "omega=-1 matches Murasugi on 6_1",
+  "passed": true,
+  "lt": 0,
+  "repo": 0
+ },
+ {
+  "control": "omega=-1 matches Murasugi on 5_2",
+  "passed": true,
+  "lt": 2,
+  "repo": 2
+ }
+]
+controls pass
+
+  0/35612  killed=0  0s
+  2000/35612  killed=9  24s
+  4000/35612  killed=14  43s
+  6000/35612  killed=28  61s
+  8000/35612  killed=28  77s
+  10000/35612  killed=48  90s
+  12000/35612  killed=53  98s
+  14000/35612  killed=57  105s
+  16000/35612  killed=58  114s
+  18000/35612  killed=58  128s
+  20000/35612  killed=61  136s
+  22000/35612  killed=68  144s
+  24000/35612  killed=76  152s
+  26000/35612  killed=82  160s
+  28000/35612  killed=97  165s
+  30000/35612  killed=103  169s
+  32000/35612  killed=119  174s
+  34000/35612  killed=128  177s
+
+pairs in 35612  KILLED 140  surviving 35472  errors 0  182s

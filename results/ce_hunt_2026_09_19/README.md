@@ -111,3 +111,66 @@ about sweeping the 35,612 should be discounted accordingly.
 
 Empty `wild_shard*.jsonl` means no target has finished yet, not that targets
 failed.
+
+---
+
+## 6. Levine-Tristram filter (`scripts/wild_pair_lt_filter.py`)
+
+`lt_filter_full.json`. **Controls pass.** 232 roots of unity at prime-power
+orders up to 31.
+
+`sigma_omega` is a **concordance invariant** vanishing on slice knots, so
+`J ~ J'` forces `sigma_omega(J) = sigma_omega(J')` wherever both are defined.
+A mismatching `omega` therefore **proves** the pair non-concordant, hence proves
+`D = J # (-J')` not slice. That is an obstruction, not a heuristic — unlike
+`Delta`, `tau`, `nu`, `eps` and genus, which agree across this list by
+construction or coarseness.
+
+| | |
+|---|---|
+| pairs in | 35,612 |
+| **proved non-concordant** | **140** |
+| surviving (undecided) | 35,472 |
+| Seifert-matrix failures | 0 |
+
+**Honest accounting of what the machinery bought.** Of the 140 kills, **127
+would have fallen to the ordinary signature at `omega = -1` alone**; only **13**
+needed `omega != -1`. So the full Levine-Tristram apparatus added 13 pairs over
+a plain signature check.
+
+The more useful half of that number is the other one: **127 pairs in the
+published 35,612 fail the ordinary knot signature**, which means the existing
+pair filter (`Delta`, `tau`, `nu`, `eps`, genus — `HANDOFF` §4) never applied the
+most classical slice obstruction there is. Those 127 were never candidates.
+
+### Mirror orientation, which the earlier target list got wrong
+
+A census entry names a knot only **up to mirror** (a knot and its mirror share
+an exterior and one census entry), so both `D = J # (-J')` and `D = J # J'` are
+legitimate Miyazaki targets and both must be tested. Levine-Tristram resolves
+this for free, since `sigma_omega(mirror K) = -sigma_omega(K)`:
+
+| surviving orientations | pairs |
+|---|---|
+| `J # (-J')` only | 21,723 |
+| both | 12,790 |
+| **`J # J'` only** | **959** |
+
+`scripts/wild_pair_teichner_hunt.py` builds `J # (-J')` unconditionally, so for
+those **959 pairs it was searching the wrong knot**.
+
+## 7. Time-boxed breadth probe (`scripts/wild_pair_breadth_probe.py`)
+
+The depth-first shards of §1 ran 30 minutes and completed **zero** targets, which
+is what the §4 cost measurement predicted. They were stopped.
+
+A ribbon disk, when one exists, is usually found fast — this repository's own
+calibration found `K_B`'s in 0.87 s, and DG report most disks at <= 2 bands.
+What is expensive is *exhausting* a box to prove absence, and absence is not what
+this lane wants: a counterexample needs one hit. So the probe spends a fixed
+budget per target in a subprocess (the search is a C call that ignores
+`SIGALRM`, so an external timeout is the only way to bound it) and moves on.
+
+**Labelling.** `timeout` is **not** coverage of its box and supports no
+conclusion — not that `D` is non-slice, not that the box is empty. Only
+`completed` rows are coverage; only `certificate_verified` is a result.
