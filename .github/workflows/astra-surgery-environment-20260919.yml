@@ -35,12 +35,12 @@ jobs:
       - name: Fetch topology packages
         run: |
           mkdir -p wheelhouse
-          python -m pip download --only-binary=:all: --dest wheelhouse snappy==3.3.2 regina==7.4
-          python -m pip install --no-index --find-links wheelhouse snappy==3.3.2 regina==7.4
+          python -m pip download --only-binary=:all: --dest wheelhouse snappy==3.3.2 regina==7.4.1 gmpy2
+          python -m pip install --no-index --find-links wheelhouse snappy==3.3.2 regina==7.4.1 gmpy2
           python - <<'PY'
-          import json,pathlib,hashlib,sys,snappy,regina
+          import json,pathlib,hashlib,sys,snappy,regina,gmpy2
           p=pathlib.Path('wheelhouse')
-          r={'python':sys.version,'snappy':snappy.__version__,'regina':regina.versionString(),'files':{f.name:hashlib.sha256(f.read_bytes()).hexdigest() for f in p.iterdir() if f.is_file()}}
+          r={'python':sys.version,'snappy':snappy.__version__,'regina':regina.versionString(),'gmpy2':gmpy2.version(),'files':{f.name:hashlib.sha256(f.read_bytes()).hexdigest() for f in p.iterdir() if f.is_file()}}
           (p/'MANIFEST.json').write_text(json.dumps(r,indent=2))
           PY
       - uses: actions/upload-artifact@v4
