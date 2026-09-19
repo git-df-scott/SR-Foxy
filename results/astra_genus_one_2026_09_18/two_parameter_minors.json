@@ -1,0 +1,62 @@
+{
+  "status": "SYMBOLIC_ALL_INTEGER_PARAMETERS",
+  "slopes": {
+    "a": "(1,x)",
+    "b_prime": "(1,y)"
+  },
+  "minors": [
+    {
+      "rows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "minor": "0",
+      "quotient_by_d_squared": "0"
+    },
+    {
+      "rows": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "minor": "0",
+      "quotient_by_d_squared": "0"
+    },
+    {
+      "rows": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "minor": "(t**4 - 3*t**3 + 5*t**2 - 3*t + 1)**2/t**4",
+      "quotient_by_d_squared": "t**(-4)"
+    },
+    {
+      "rows": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "minor": "-(t**4 - 3*t**3 + 5*t**2 - 3*t + 1)**2/t**2",
+      "quotient_by_d_squared": "-1/t**2"
+    },
+    {
+      "rows": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "minor": "(t**4 - 3*t**3 + 5*t**2 - 3*t + 1)**2/t**3",
+      "quotient_by_d_squared": "t**(-3)"
+    }
+  ],
+  "consequence": "All maximal minors are 0 or a Laurent unit times d^2, independent of x,y; hence the monic Alexander polynomial is d^2 for every integer pair x,y.",
+  "seconds": 0.050333151999893744,
+  "geometric_scope": "Auxiliary unlink makes these 1/x,1/y fillings have ambient S3; this does not imply sliceness or identify the resulting knot."
+}
