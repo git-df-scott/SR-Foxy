@@ -35,9 +35,21 @@ import json, os, sys
 sys.path.insert(0, %r)
 import snappy, sagefree_slice_filter as sff
 import spherogram.links.bands.search as _bs
+# PROBE_FILTER: 'full'  = sagefree_slice_filter.could_be_strongly_slice
+#                         (linking numbers + Seifert signature + Fox-Milnor)
+#               'cheap' = linking numbers only.
+# Both are NECESSARY conditions for a link to be strongly slice, so both can
+# only reject links the real filter would also reject -- neither can lose a
+# ribbon disk.  'cheap' is ~48x faster here because 'full' builds a Seifert
+# matrix for every candidate band, via an isotopy to a braid.
+_MODE = os.environ.get('PROBE_FILTER', 'cheap')
 def _f(l):
-    try: return sff.could_be_strongly_slice(l)
-    except Exception: return True
+    try:
+        if _MODE == 'cheap':
+            return sff.linking_nums_all_zero(l)
+        return sff.could_be_strongly_slice(l)
+    except Exception:
+        return True
 _bs.could_be_strongly_slice = _f
 from spherogram.links.bands.search import ribbon_concordant_links, verify_ribbon_to_unknot
 A, B, mirror_B, J0, nb, ml, tw = json.loads(sys.argv[1])
@@ -102,7 +114,8 @@ def main():
             done.add((r['A'], r['B'], r['orientation'], r['J0'],
                       r['box']['bands'], r['box']['len'], r['box']['twists']))
 
-    box = dict(bands=nb, len=ml, twists=tw, paths='shortest')
+    box = dict(bands=nb, len=ml, twists=tw, paths='shortest',
+               filter=os.environ.get('PROBE_FILTER', 'cheap'))
     print(f'# source: {src}; targets [{start}:{start+n}] of this slice; '
           f'budget {budget}s; box {box}', flush=True)
     fh = open(out, 'a')

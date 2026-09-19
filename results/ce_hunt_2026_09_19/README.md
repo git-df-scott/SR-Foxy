@@ -174,3 +174,50 @@ budget per target in a subprocess (the search is a C call that ignores
 **Labelling.** `timeout` is **not** coverage of its box and supports no
 conclusion — not that `D` is non-slice, not that the box is empty. Only
 `completed` rows are coverage; only `certificate_verified` is a result.
+
+## 8. The real bottleneck: the slice filter, not the crossing number
+
+The first breadth probe returned **15 timeouts out of 15** at 2 bands / len 4
+with a 120 s budget — zero completions, which is zero information. Diagnosing
+that, on `K7a2 # -K10n4 # 6_1` (23 crossings), 1 band at len 2:
+
+| filter | time | endpoints |
+|---|---|---|
+| `sagefree_slice_filter.could_be_strongly_slice` (the default here) | **> 110 s**, did not finish | — |
+| none (`filter_for_plausibly_slice=False`) | **8.3 s** | 460 |
+| **linking numbers only** | **2.3 s** | **111** |
+
+Two things ruled out on the way: `use_ribbon_link_cache=False` changed nothing,
+and the crossing count was never the driver.
+
+The cost is `could_be_strongly_slice` building a **Seifert matrix for every
+candidate band**, via spherogram's isotopy-to-a-braid. The linking-number test
+alone is ~48x faster **and still prunes 460 endpoints to 111**, because most
+bands produce a link with nonzero linking number.
+
+**Soundness.** Linking numbers all zero is a *necessary* condition for a link to
+be strongly slice — it is condition 1 of `sagefree_slice_filter`'s own cost-ordered
+list. A weaker filter keeps more links, so it can only make the search larger and
+slower; it can never lose a ribbon disk. Same failure direction as the existing
+`_safe_filter` patch. `PROBE_FILTER=cheap|full` selects it.
+
+This does not make 2-band searches cheap — the frontier still squares at the
+second band, and every endpoint is composite, so the isometry-based endpoint
+deduplication is working in the case this repository already documents as
+SnapPy's slow one. It improves the constant factor, it does not change the shape.
+
+## 9. Two self-inflicted errors, recorded
+
+Both are the trap `HANDOFF_2026_09_18_OPUS.md` §6 already documents verbatim —
+*"`pkill -f <script>` killed its own parent (exit 144) ... Use `ps aux | grep
+"[p]ython3"` and kill by PID."*
+
+1. `pkill -f "breadth2"` matched the shell running it **and the Monitor watching
+   the logs**, whose command string contained the same word. Exit 144, monitor
+   dead.
+2. `ps ... | grep "[p]ython3 -c  import json" | xargs kill` matched its own
+   shell for the same reason, killing both probe parents and orphaning their
+   worker subprocesses, which then had to be reaped by hand.
+
+Having read that warning earlier in the same session did not stop me making the
+mistake twice. Explicit PIDs from a prior `ps`, never a pattern.

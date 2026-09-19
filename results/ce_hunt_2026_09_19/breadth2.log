@@ -1,1 +1,6 @@
 # source: levine-tristram survivors; targets [800:1200] of this slice; budget 120.0s; box {'bands': 2, 'len': 4, 'twists': 2, 'paths': 'shortest'}
+[  120.1s] timeout   K11a289 J # (-J') K13n3218 # 6_1  120.1s  (hits=0 completed=0 timeout=1 err=0)
+[  240.2s] timeout   K11a289 J # J' K13n3218 # 6_1  120.1s  (hits=0 completed=0 timeout=2 err=0)
+[  360.4s] timeout   K11a289 J # (-J') K13n3563 # 6_1  120.1s  (hits=0 completed=0 timeout=3 err=0)
+[  480.5s] timeout   K11a289 J # J' K13n3563 # 6_1  120.1s  (hits=0 completed=0 timeout=4 err=0)
+[  600.6s] timeout   K11a289 J # (-J') K13n4430 # 6_1  120.1s  (hits=0 completed=0 timeout=5 err=0)
