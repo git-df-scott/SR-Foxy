@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "algorithm": "independent rational segment-clipping enumeration",
+  "surface_triangle_pairs": 2134,
+  "surface_bad_pairs": [],
+  "R_a_candidate_pairs": 980,
+  "R_a_hits": [],
+  "controls": {
+    "parallel_disjoint": true,
+    "shared_edge_allowed": true,
+    "coplanar_overlap_rejected": true,
+    "transverse_intersection_rejected": true,
+    "adjacent_vertex_allowed": true,
+    "degenerate_duplicate_face_rejected": true
+  },
+  "seconds": 0.5140800760000275,
+  "scope": "Checks intersections of the saved integer PL mesh and R,a curves; no 4D annulus asserted."
+}

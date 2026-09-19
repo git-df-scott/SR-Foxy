@@ -1,0 +1,42 @@
+[
+  {
+    "check": "one_commutator",
+    "command": [
+      "node",
+      "check_independent.mjs"
+    ],
+    "exit_code": 0,
+    "status": "PASS",
+    "seconds": 0.08920625199993992
+  },
+  {
+    "check": "genus_one_mesh",
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "check_mesh_independent.py"
+    ],
+    "exit_code": 0,
+    "status": "PASS",
+    "seconds": 1.363441271000056
+  },
+  {
+    "check": "genus_one_subgroup",
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "check_subgroup_independent.py"
+    ],
+    "exit_code": 0,
+    "status": "PASS",
+    "seconds": 0.5890814980000414
+  },
+  {
+    "check": "genus_one_exact_peripheral_and_fox",
+    "command": [
+      "node",
+      "check_exact_independent.mjs"
+    ],
+    "exit_code": 0,
+    "status": "PASS",
+    "seconds": 0.18467102799991153
+  }
+]

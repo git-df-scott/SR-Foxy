@@ -1,0 +1,55 @@
+{
+  "workflow_run_id": 35455048082,
+  "artifact_id": 10589240719,
+  "artifact_created_at_utc": "2026-09-19T17:29:39Z",
+  "downloaded_artifact_sha256": "41b015d6114e936a4514573042377e01a3aefa74caa4a89b7479ffd7ed26d0cc",
+  "source_commit": "042a7dfc6fe61967902e1c4f7174af5f6342862c",
+  "sqlite_integrity_check": [
+    "ok"
+  ],
+  "table_rows": {
+    "nodes": 21067,
+    "attempts": 25649,
+    "runs": 2
+  },
+  "completed_segments": 2,
+  "runs": [
+    {
+      "id": 1,
+      "phase": "common_upper",
+      "segment": 1,
+      "status": "BOUNDED_SEGMENT_COMPLETE_NO_NOMINATION",
+      "started": "2026-09-19T16:29:34Z",
+      "finished": "2026-09-19T16:59:34Z",
+      "seconds": 1800.016701387,
+      "cpu_seconds": 1789.511606257,
+      "summary": {
+        "DUPLICATE_ENDPOINT": 78510,
+        "NEW_ENDPOINT": 10305,
+        "NO_SAMPLED_BAND": 40,
+        "attempts": 88855
+      }
+    },
+    {
+      "id": 2,
+      "phase": "common_upper",
+      "segment": 2,
+      "status": "BOUNDED_SEGMENT_COMPLETE_NO_NOMINATION",
+      "started": "2026-09-19T16:59:36Z",
+      "finished": "2026-09-19T17:29:36Z",
+      "seconds": 1800.0043416449998,
+      "cpu_seconds": 1789.815350338,
+      "summary": {
+        "DUPLICATE_ENDPOINT": 67466,
+        "NEW_ENDPOINT": 10758,
+        "NO_SAMPLED_BAND": 84,
+        "attempts": 78308
+      }
+    }
+  ],
+  "measured_completed_search_seconds": 3600.021043032,
+  "measured_completed_cpu_seconds": 3579.326956595,
+  "counterexample_established": false,
+  "scope": "Saved checkpoint only, not a claim of current live status, seven-hour completion, exhaustive coverage, or global nonribbonness. Smoke tests are separate. SQLite attempts rows are a retained subset, not the reported attempt counter.",
+  "reported_attempts": 167163
+}

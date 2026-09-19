@@ -1,0 +1,34 @@
+[
+  {
+    "file": "original_archives/GST_research_2026-09-19.zip",
+    "bytes": 503142,
+    "sha256": "1129dc331d6e613633683587fa25dc8c5250dc5edc36efddd687c9ac7c3b879a",
+    "regular_members": 66,
+    "uncompressed_bytes": 8898552,
+    "crc_check": "PASS"
+  },
+  {
+    "file": "original_archives/SR_Foxy_Combined_Saved_Work_2026-09-19.zip",
+    "bytes": 2146376,
+    "sha256": "da9dcf293aff640717e5cb3755176cf82e75429165f243919f9b254778846e8f",
+    "regular_members": 134,
+    "uncompressed_bytes": 6732174,
+    "crc_check": "PASS"
+  },
+  {
+    "file": "original_archives/SR_Foxy_complete_recovered_chat_archive_2026_09_17.zip",
+    "bytes": 1187418,
+    "sha256": "7a030ec11343723e067cec60c7f897db9940c12457cb80df5906e05563b45211",
+    "regular_members": 246,
+    "uncompressed_bytes": 2403360,
+    "crc_check": "PASS"
+  },
+  {
+    "file": "original_archives/astra-seven-hour-preflight-35455048082.zip",
+    "bytes": 124608,
+    "sha256": "8074c73888963ef1f512c86bda3fe37c6b5290eed7b27b7663d5cfdb0f9b0fb3",
+    "regular_members": 13,
+    "uncompressed_bytes": 258407,
+    "crc_check": "PASS"
+  }
+]

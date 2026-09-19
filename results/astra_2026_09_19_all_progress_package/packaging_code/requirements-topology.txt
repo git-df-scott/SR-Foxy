@@ -1,0 +1,5 @@
+snappy==3.3.2
+spherogram==2.4.1
+regina==7.4.1
+knot_floer_homology==1.2.2
+sympy==1.14.0

@@ -1,0 +1,16 @@
+[
+  {
+    "path": ".github/workflows/astra-full-handoff-export-20260919.yml",
+    "commit": "def9f2192ce6e80393a45c289b77eceb1c3617a2",
+    "git_blob_sha1": "9cc44e1cfd986ca772829f9d2bb3c0d4b0ca9b68",
+    "read_back_verified": true,
+    "branch": "main"
+  },
+  {
+    "path": "results/astra_2026_09_19_complete_handoff/README.md",
+    "commit": "9e54e4f0c27118e346ff6d8188d71f0f077aee99",
+    "git_blob_sha1": "47edc0b48af3ba894b18d75c950a3b4b839029ca",
+    "read_back_verified": true,
+    "branch": "main"
+  }
+]

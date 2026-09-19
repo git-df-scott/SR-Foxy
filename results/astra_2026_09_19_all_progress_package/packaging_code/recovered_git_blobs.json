@@ -1,0 +1,20 @@
+[
+  {
+    "path": "results/astra_2026_09_19_infection_gate/REPORT.json",
+    "git_blob_sha1": "f03b3611d72728dbd1782e463d3f68bd51968f38",
+    "sha256": "6c2c7bf1f2e5c1f5581df95716cbd3dbebde14f987f9072cdb385e9feaf9990a",
+    "bytes": 703
+  },
+  {
+    "path": "results/astra_2026_09_19_infection_gate/CONTROL.json",
+    "git_blob_sha1": "b23937fd3d8f65cbacb2f386921a686140d7961d",
+    "sha256": "83fd11c5df31ed37cae34eb345c60d52f63515ec0226774e2bdf7adeefcaee4a",
+    "bytes": 1798
+  },
+  {
+    "path": "results/astra_2026_09_19_infection_gate/TARGETS.json",
+    "git_blob_sha1": "5c230b7e8b47102264a91c3827f1b6ae81fb0d3d",
+    "sha256": "f8d29220997a1e9e467b7da9f1920079e147d5a3c234a77cedf24f9842eaca98",
+    "bytes": 3557
+  }
+]

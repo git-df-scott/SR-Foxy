@@ -1,0 +1,17 @@
+{
+  "created_at_utc": "2026-09-19T17:56:49.131404+00:00",
+  "repository": "git-df-scott/SR-Foxy",
+  "source_commit": "8481d993ee7763c17a49637112a77673f91c5cb7",
+  "source_tree": "188559fee43401a811824256433aec3a79109ea4",
+  "source_file_count": 2282,
+  "reachable_commits": 311,
+  "source_export_workflow_commit": "def9f2192ce6e80393a45c289b77eceb1c3617a2",
+  "source_export_run_id": 35459378704,
+  "source_export_artifact_id": 10589831421,
+  "source_export_download_sha256": "951a5c072a36f216138a2835bbfec14f80751c435eedd296d5722663b9625766",
+  "checkpoint_artifact_id": 10589240719,
+  "scope": "One exact pinned source tree, all history reachable from that commit, recovered original research archives, saved Actions checkpoint, fresh isolated certificate replays, and a consolidated report. Not a promise to include future commits, unmerged branches, uncommitted work on other machines, or unsaved conversation/runtime state.",
+  "remote_change_this_packaging_turn": "Read-only export workflow and handoff README added directly to existing main in two ordinary commits; no remote branch created, no scientific source overwritten, no mathematical search launched.",
+  "research_attribution": "Earlier failed attempt in this chat produced no new candidate or research code. Existing Astra/Opus and GST packages retain authorship. New work in this turn is preservation, source verification and four isolated replays of existing certificate checkers.",
+  "handoff_readme_commit": "9e54e4f0c27118e346ff6d8188d71f0f077aee99"
+}

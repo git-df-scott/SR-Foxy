@@ -1,0 +1,5 @@
+export/SR-Foxy-history-8481d99.bundle is okay
+The bundle contains this ref:
+8481d993ee7763c17a49637112a77673f91c5cb7 HEAD
+The bundle records a complete history.
+The bundle uses this hash algorithm: sha1
