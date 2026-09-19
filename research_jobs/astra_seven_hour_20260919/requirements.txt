@@ -1,0 +1,5 @@
+snappy==3.3.2
+spherogram==2.4.1
+regina==7.4.1
+sympy==1.14.0
+networkx==3.6.1
