@@ -11,18 +11,18 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
         with:
           python-version: '3.13'
-      - name: Download public pinned topology wheels
+      - name: Retrieve topology distributions and build pure-Python dependencies
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p topology-wheels
-          python -m pip download --only-binary=:all: --dest topology-wheels 'snappy==3.3.2'
+          python -m pip wheel --wheel-dir topology-wheels 'snappy==3.3.2'
           (cd topology-wheels && sha256sum *.whl > SHA256SUMS)
-          printf '%s\n' 'Public Python wheels for local marked surgery calculation.' 'No repository checkout, secret access, or result mutation.' > topology-wheels/PROVENANCE.txt
-      - name: Export original distribution bytes
+          printf '%s\n' 'Public Python distributions for local marked surgery calculation.' 'PyX may be built from its public source distribution.' 'No repository checkout, secret access, or result mutation.' > topology-wheels/PROVENANCE.txt
+      - name: Export distribution bytes
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
           name: astra-boundary-topology-wheels-cp313
