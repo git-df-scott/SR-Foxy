@@ -1,0 +1,17 @@
+A: +1 on a only tets snappy 33 regina 33
+   deg-5 covers 4 [0.8s]
+      1 x Z/149319 + Z
+      1 x Z/16 + Z/16 + Z/16 + Z/16 + Z
+      1 x Z/44997 + Z
+      1 x Z/9 + Z/19917 + Z
+   group gens 4 rels 3
+B: -1 on a only tets snappy 34 regina 34
+   deg-5 covers 5 [0.8s]
+      1 x Z/12 + Z + Z + Z
+      1 x Z/16 + Z/16 + Z/16 + Z/16 + Z
+      1 x Z/2 + Z + Z + Z
+      1 x Z/6 + Z + Z
+      1 x Z/6 + Z/714 + Z
+   group gens 4 rels 3
+C: -1 on b_prime only tets snappy 200 regina 200
+D: +1 on b_prime only tets snappy 203 regina 198

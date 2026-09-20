@@ -1,0 +1,19 @@
+CALIB 6_3: 2 gens, 2 rels, lengths [26, 26], total 52 [0s]
+      relator 0 len 26: 180 survivors
+      relator 1 len 26: 180 survivors
+   total #Hom(.,A5) = 180   expected 180   [0s]
+CALIB K_1: 4 gens, 4 rels, lengths [12, 26, 26, 28], total 92 [0s]
+      relator 0 len 12: 216000 survivors
+      relator 1 len 26: 6120 survivors
+      relator 2 len 26: 660 survivors
+      relator 3 len 28: 660 survivors
+   total #Hom(.,A5) = 660   expected 660   [9s]
+CALIB D_0_1: 5 gens, 5 rels, lengths [22, 34, 38, 104, 120], total 318 [0s]
+   too many generators for the vectorised count
+CTRL meridian fills: 3 gens, 3 rels, lengths [26, 314, 338], total 678 [0s]
+      relator 0 len 26: 10800 survivors
+      relator 1 len 314: 1020 survivors
+      relator 2 len 338: 1020 survivors
+   total #Hom(.,A5) = 1020   expected 1020   [0s]
+TARGET +1 on a / -1 on b_prime: 20 gens, 22 rels, lengths [48, 148, 160, 328, 376, 390, 402, 408, 430, 928, 1912, 2086, 2178, 2178, 2725, 3194, 3564, 7663, 11720, 12242, 15328, 22362], total 90770 [0s]
+   too many generators for the vectorised count

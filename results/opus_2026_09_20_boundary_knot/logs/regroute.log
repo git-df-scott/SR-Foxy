@@ -1,0 +1,14 @@
+6_3 unfilled: gens=2 rels=1 lens=[23] abelian=Z (0.0s)
+  -> total #Hom(.,A5) = 180   (expected 180)  [0.0s]
+K_1 unfilled: gens=3 rels=2 lens=[8, 14] abelian=Z (0.0s)
+  -> total #Hom(.,A5) = 660   (expected 660)  [0.2s]
+D_0_1 unfilled: gens=4 rels=3 lens=[23, 13, 20] abelian=Z (0.0s)
+  -> total #Hom(.,A5) = 2220   (expected 2220)  [0.3s]
+AT-link meridian fills (expect 6_3=180): gens=3 rels=2 lens=[8, 9] abelian=Z (0.0s)
+  -> total #Hom(.,A5) = 180   (expected 180)  [0.2s]
+AT-link annulus twist n=1 (expect K_1=660): gens=3 rels=2 lens=[8, 13] abelian=Z (0.0s)
+  -> total #Hom(.,A5) = 660   (expected 660)  [0.2s]
+surgery link <Link: 3 comp; 200 cross> [190, 24, 186] [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+tets 244
+SURGERY meridian fills (expect R=1020): gens=3 rels=2 lens=[25, 23] abelian=Z (4.4s)
+  -> total #Hom(.,A5) = 1020   (expected 1020)  [0.0s]

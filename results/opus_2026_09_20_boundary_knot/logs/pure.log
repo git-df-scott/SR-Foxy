@@ -1,0 +1,4 @@
+frozen presentation reproduced: gens 675 meridians [1, 251, 317] writhes [0, 0, -1]
+all 675 Wirtinger relators identical to framed_fox_boundary.json
+CTRL meridian fills -> expect R = 1020: slopes a=(1, 0) b'=(1, 0) -> gens 3 rels 2 lens [23, 23] abelianisation Z [0.3s]
+   total #Hom(.,A5) = 1020   expected-if-R 1020, expected-if-D01 2220   [0.0s]

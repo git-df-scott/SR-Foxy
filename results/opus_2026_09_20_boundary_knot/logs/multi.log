@@ -1,0 +1,3 @@
+trial 1: 229 crossings -> filled 256 tets  [11s]
+trial 2: 235 crossings -> filled 227 tets  [21s]
+trial 22: 240 crossings -> filled 223 tets  [272s]

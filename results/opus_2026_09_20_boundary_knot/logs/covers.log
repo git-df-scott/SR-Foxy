@@ -1,0 +1,18 @@
+CTRL AT meridian (expect 6_3: 2): filled triangulation 6 tets, cusps 1, H1 Z
+CTRL AT meridian: #deg5 covers = 2   [0.0s]
+      1 x  Z + Z + Z
+      1 x  Z/4 + Z/4 + Z/4 + Z/4 + Z
+CTRL AT twist n=1 (expect K_1: 8): filled triangulation 12 tets, cusps 1, H1 Z
+CTRL AT twist n=1: #deg5 covers = 8   [0.0s]
+      2 x  Z + Z
+      2 x  Z + Z + Z
+      1 x  Z/2 + Z/24 + Z
+      1 x  Z/3 + Z + Z + Z
+      1 x  Z/33 + Z
+      1 x  Z/4 + Z/4 + Z/4 + Z/4 + Z
+CTRL SURG meridian (expect R: 9): filled triangulation 17 tets, cusps 1, H1 Z
+CTRL SURG meridian: #deg5 covers = 9   [0.0s]
+      6 x  Z + Z + Z + Z + Z
+      1 x  Z/4 + Z/4 + Z/4 + Z/4 + Z/4 + Z/4 + Z/4 + Z/4 + Z
+      2 x  Z/7 + Z/7 + Z + Z + Z
+TARGET +1 a / -1 b_prime: filled triangulation 249 tets, cusps 1, H1 Z

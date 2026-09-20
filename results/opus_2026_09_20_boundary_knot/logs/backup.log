@@ -1,0 +1,6 @@
+CTRL-AT-n1(expect 660) unfilled gens 3 rels 2 0.0s
+CTRL-AT-n1(expect 660) after surgery relators + Regina simplify: gens 3 rels 2 lens [8, 14]
+CTRL-AT-n1(expect 660) total #Hom(.,A5) = 660 [0.2s]
+CTRL-AT-mer(expect 180) unfilled gens 3 rels 2 0.0s
+CTRL-AT-mer(expect 180) after surgery relators + Regina simplify: gens 3 rels 2 lens [8, 9]
+CTRL-AT-mer(expect 180) total #Hom(.,A5) = 180 [0.2s]
