@@ -1,0 +1,5 @@
+orig comps [950, 316, 84]
+level -> <Link: 3 comp; 411 cross> comps [540, 214, 68] 2.5s lk [[0, 0, 0], [0, 0, 0], [0, 0, 0]] writhe -1
+basic -> <Link: 3 comp; 575 cross> comps [784, 286, 80] 0.0s lk [[0, 0, 0], [0, 0, 0], [0, 0, 0]] writhe -3
+pickup -> <Link: 3 comp; 244 cross> comps [262, 194, 32] 1.7s lk [[0, 0, 0], [0, 0, 0], [0, 0, 0]] writhe -8
+global -> <Link: 3 comp; 217 cross> comps [214, 190, 30] 14.6s lk [[0, 0, 0], [0, 0, 0], [0, 0, 0]] writhe -7

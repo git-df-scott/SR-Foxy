@@ -1,0 +1,22 @@
+CTRL AT meridian: after 1st fill 13 tets, cusps 2
+  shrunk to 13
+  after 2nd fill 6 tets, cusps 1
+  shrunk to 6
+  regina tets 6 gens 2 rels 1 lens [23] H1 Z [0.0s]
+  ==> total #Hom(.,A5) = 180    expected 180   [0.0s]
+CTRL AT twist n=1: after 1st fill 15 tets, cusps 2
+  shrunk to 15
+  after 2nd fill 15 tets, cusps 1
+  shrunk to 11
+  regina tets 11 gens 3 rels 2 lens [9, 12] H1 Z [0.0s]
+  ==> total #Hom(.,A5) = 660    expected 660   [0.2s]
+CTRL SURG meridian: after 1st fill 202 tets, cusps 2
+  shrunk to 189
+  after 2nd fill 16 tets, cusps 1
+  shrunk to 16
+  regina tets 16 gens 3 rels 2 lens [23, 25] H1 Z [0.0s]
+  ==> total #Hom(.,A5) = 1020    expected 1020   [0.3s]
+TARGET +1 a / -1 b_prime: after 1st fill 247 tets, cusps 2
+  shrunk to 236
+  after 2nd fill 241 tets, cusps 1
+  shrunk to 237

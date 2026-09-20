@@ -1,0 +1,14 @@
+CTRL AT meridian: filled tets 6
+  regina tets 6 -> 6  valid=True ideal=True [0.0s]
+  gens 2 rels 1 lens [23] H1 Z [0.0s]
+  ==> total #Hom(.,A5) = 180    expected 180   [0.0s]
+CTRL AT twist n=1: filled tets 11
+  regina tets 11 -> 11  valid=True ideal=True [0.0s]
+  gens 3 rels 2 lens [8, 14] H1 Z [0.0s]
+  ==> total #Hom(.,A5) = 660    expected 660   [0.2s]
+CTRL SURG meridian: filled tets 40
+  regina tets 40 -> 40  valid=True ideal=True [0.0s]
+  gens 3 rels 2 lens [25, 25] H1 Z [0.0s]
+  ==> total #Hom(.,A5) = 1020    expected 1020   [0.0s]
+TARGET +1 a / -1 b_prime: filled tets 238
+  regina tets 238 -> 238  valid=True ideal=True [0.1s]

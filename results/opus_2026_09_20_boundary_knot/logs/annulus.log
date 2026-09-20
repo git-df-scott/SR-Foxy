@@ -1,0 +1,27 @@
+R self-crossings: 18  total crossings: 675
+R-only undercrossings (=arcs): 18
+Wirtinger relators for R: 18
+a word length 10 [15, -17, 16, -15, 9, 6, -2, -9, 17, -14]
+b_prime word length 32 [15, -16, -16, 17, 15, -14, -17, 16, -17, 13, -11, -13, 17, 16, 16, -15, -17, -17, 13, 11, -13, 17, -16, 17, 14, -17, -2, 6, -8, 5, 16, -15]
+#Hom(pi_1(S^3-R) -> A5), meridian a fixed 3-cycle: 49 (6_3#-6_3 predicts 49) nodes 217
+A5 class1 (|C|=20): reps=49  a~b' or a~b'^-1 in all: False  distinct (cls(a),cls(b')) patterns: [(0, 0), (1, 1), (1, 2), (2, 0), (2, 3), (2, 4), (3, 2), (3, 3), (4, 2), (4, 4)]
+   *** NON-CONJUGATE WITNESS ***  count 24 first: (2, 0, 0)
+   witness assignment (arc -> A5 index): [1, 4, 24, 22, 40, 28, 15, 49, 51, 5, 4, 39, 29, 15, 37, 52, 49, 40]
+A5 class2 (|C|=15): reps=1  a~b' or a~b'^-1 in all: True  distinct (cls(a),cls(b')) patterns: [(0, 0)]
+A5 class3 (|C|=12): reps=1  a~b' or a~b'^-1 in all: True  distinct (cls(a),cls(b')) patterns: [(0, 0)]
+A5 class4 (|C|=12): reps=1  a~b' or a~b'^-1 in all: True  distinct (cls(a),cls(b')) patterns: [(0, 0)]
+S4 class1 (|C|=6): reps=1  a~b' or a~b'^-1 in all: True  distinct (cls(a),cls(b')) patterns: [(0, 0)]
+S4 class2 (|C|=8): reps=1  a~b' or a~b'^-1 in all: True  distinct (cls(a),cls(b')) patterns: [(0, 0)]
+S4 class3 (|C|=3): reps=1  a~b' or a~b'^-1 in all: True  distinct (cls(a),cls(b')) patterns: [(0, 0)]
+S4 class4 (|C|=6): reps=1  a~b' or a~b'^-1 in all: True  distinct (cls(a),cls(b')) patterns: [(0, 0)]
+A4 class1 (|C|=4): reps=1  a~b' or a~b'^-1 in all: True  distinct (cls(a),cls(b')) patterns: [(0, 0)]
+A4 class2 (|C|=4): reps=1  a~b' or a~b'^-1 in all: True  distinct (cls(a),cls(b')) patterns: [(0, 0)]
+A4 class3 (|C|=3): reps=1  a~b' or a~b'^-1 in all: True  distinct (cls(a),cls(b')) patterns: [(0, 0)]
+S5 class1 (|C|=10): reps=1  a~b' or a~b'^-1 in all: True  distinct (cls(a),cls(b')) patterns: [(0, 0)]
+S5 class2 (|C|=20): reps=49  a~b' or a~b'^-1 in all: False  distinct (cls(a),cls(b')) patterns: [(0, 0), (2, 2), (2, 3), (3, 0), (3, 6), (6, 3), (6, 6)]
+   *** NON-CONJUGATE WITNESS ***  count 24 first: (3, 0, 0)
+   witness assignment (arc -> A5 index): [3, 8, 48, 45, 81, 56, 30, 99, 103, 11, 8, 78, 59, 30, 74, 104, 99, 81]
+S5 class3 (|C|=15): reps=1  a~b' or a~b'^-1 in all: True  distinct (cls(a),cls(b')) patterns: [(0, 0)]
+S5 class4 (|C|=30): reps=1  a~b' or a~b'^-1 in all: True  distinct (cls(a),cls(b')) patterns: [(0, 0)]
+S5 class5 (|C|=20): reps=1  a~b' or a~b'^-1 in all: True  distinct (cls(a),cls(b')) patterns: [(0, 0)]
+S5 class6 (|C|=24): reps=1  a~b' or a~b'^-1 in all: True  distinct (cls(a),cls(b')) patterns: [(0, 0)]

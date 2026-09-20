@@ -1,0 +1,71 @@
+6_3 arcs 6 rels 6
+K_1 arcs 19 rels 19
+D_0_1 arcs 25 rels 25
+  A4|cls1|ord3|size4 6_3=1 (0.0s nodes=6)
+  A4|cls1|ord3|size4 K_1=1 (0.0s nodes=102)
+  A4|cls1|ord3|size4 D_0_1=1 (0.0s nodes=1370)
+A4|cls1|ord3|size4: 6_3=1 K_1=1 | 63*K1=1 63^2=1 | storedD01=1
+  A4|cls2|ord3|size4 6_3=1 (0.0s nodes=6)
+  A4|cls2|ord3|size4 K_1=1 (0.0s nodes=102)
+  A4|cls2|ord3|size4 D_0_1=1 (0.0s nodes=1370)
+A4|cls2|ord3|size4: 6_3=1 K_1=1 | 63*K1=1 63^2=1 | storedD01=1
+  A4|cls3|ord2|size3 6_3=1 (0.0s nodes=5)
+  A4|cls3|ord2|size3 K_1=1 (0.0s nodes=50)
+  A4|cls3|ord2|size3 D_0_1=1 (0.0s nodes=368)
+A4|cls3|ord2|size3: 6_3=1 K_1=1 | 63*K1=1 63^2=1 | storedD01=1
+  S4|cls1|ord2|size6 6_3=1 (0.0s nodes=8)
+  S4|cls1|ord2|size6 K_1=1 (0.0s nodes=296)
+  S4|cls1|ord2|size6 D_0_1=1 (0.1s nodes=9338)
+S4|cls1|ord2|size6: 6_3=1 K_1=1 | 63*K1=1 63^2=1 | storedD01=1
+  S4|cls2|ord3|size8 6_3=1 (0.0s nodes=10)
+  S4|cls2|ord3|size8 K_1=1 (0.0s nodes=650)
+  S4|cls2|ord3|size8 D_0_1=1 (0.3s nodes=37458)
+S4|cls2|ord3|size8: 6_3=1 K_1=1 | 63*K1=1 63^2=1 | storedD01=1
+  S4|cls3|ord2|size3 6_3=1 (0.0s nodes=5)
+  S4|cls3|ord2|size3 K_1=1 (0.0s nodes=50)
+  S4|cls3|ord2|size3 D_0_1=1 (0.0s nodes=368)
+S4|cls3|ord2|size3: 6_3=1 K_1=1 | 63*K1=1 63^2=1 | storedD01=1
+  S4|cls4|ord4|size6 6_3=1 (0.0s nodes=8)
+  S4|cls4|ord4|size6 K_1=1 (0.0s nodes=296)
+  S4|cls4|ord4|size6 D_0_1=1 (0.1s nodes=9338)
+S4|cls4|ord4|size6: 6_3=1 K_1=1 | 63*K1=1 63^2=1 | storedD01=1
+  A5|cls1|ord3|size20 6_3=7 (0.0s nodes=28)
+  A5|cls1|ord3|size20 K_1=13 (0.1s nodes=8834)
+  A5|cls1|ord3|size20 D_0_1=91 (66.5s nodes=3368772)
+A5|cls1|ord3|size20: 6_3=7 K_1=13 | 63*K1=91 63^2=49 | storedD01=91
+  A5|cls2|ord2|size15 6_3=1 (0.0s nodes=17)
+  A5|cls2|ord2|size15 K_1=9 (0.0s nodes=3850)
+  A5|cls2|ord2|size15 D_0_1=9 (12.3s nodes=813760)
+A5|cls2|ord2|size15: 6_3=1 K_1=9 | 63*K1=9 63^2=1 | storedD01=9
+  A5|cls3|ord5|size12 6_3=1 (0.0s nodes=14)
+  A5|cls3|ord5|size12 K_1=11 (0.0s nodes=2040)
+  A5|cls3|ord5|size12 D_0_1=11 (3.2s nodes=271596)
+A5|cls3|ord5|size12: 6_3=1 K_1=11 | 63*K1=11 63^2=1 | storedD01=11
+  A5|cls4|ord5|size12 6_3=1 (0.0s nodes=14)
+  A5|cls4|ord5|size12 K_1=11 (0.0s nodes=2040)
+  A5|cls4|ord5|size12 D_0_1=11 (3.3s nodes=271596)
+A5|cls4|ord5|size12: 6_3=1 K_1=11 | 63*K1=11 63^2=1 | storedD01=11
+  S5|cls1|ord2|size10 6_3=1 (0.0s nodes=12)
+  S5|cls1|ord2|size10 K_1=1 (0.0s nodes=1212)
+  S5|cls1|ord2|size10 D_0_1=1 (1.1s nodes=111122)
+S5|cls1|ord2|size10: 6_3=1 K_1=1 | 63*K1=1 63^2=1 | storedD01=1
+  S5|cls2|ord3|size20 6_3=7 (0.0s nodes=28)
+  S5|cls2|ord3|size20 K_1=13 (0.1s nodes=8834)
+  S5|cls2|ord3|size20 D_0_1=91 (66.0s nodes=3368772)
+S5|cls2|ord3|size20: 6_3=7 K_1=13 | 63*K1=91 63^2=49 | storedD01=91
+  S5|cls3|ord2|size15 6_3=1 (0.0s nodes=17)
+  S5|cls3|ord2|size15 K_1=9 (0.0s nodes=3850)
+  S5|cls3|ord2|size15 D_0_1=9 (12.3s nodes=813760)
+S5|cls3|ord2|size15: 6_3=1 K_1=9 | 63*K1=9 63^2=1 | storedD01=9
+  S5|cls4|ord4|size30 6_3=1 (0.0s nodes=32)
+  S5|cls4|ord4|size30 K_1=5 (0.5s nodes=28836)
+  S5|cls4|ord4|size30 D_0_1=5 (897.0s nodes=25138086)
+S5|cls4|ord4|size30: 6_3=1 K_1=5 | 63*K1=5 63^2=1 | storedD01=5
+  S5|cls5|ord6|size20 6_3=1 (0.0s nodes=22)
+  S5|cls5|ord6|size20 K_1=7 (0.1s nodes=8828)
+  S5|cls5|ord6|size20 D_0_1=7 (67.5s nodes=3368568)
+S5|cls5|ord6|size20: 6_3=1 K_1=7 | 63*K1=7 63^2=1 | storedD01=7
+  S5|cls6|ord5|size24 6_3=1 (0.0s nodes=26)
+  S5|cls6|ord5|size24 K_1=11 (0.2s nodes=15012)
+  S5|cls6|ord5|size24 D_0_1=11 (207.6s nodes=8309100)
+S5|cls6|ord5|size24: 6_3=1 K_1=11 | 63*K1=11 63^2=1 | storedD01=11
