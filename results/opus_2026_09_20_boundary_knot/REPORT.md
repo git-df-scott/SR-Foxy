@@ -409,7 +409,48 @@ failed (so nobody repeats it):
 | my own arc-based backtracking count with the two surgery relators as word relations | meridian control: 49 in **77 nodes**; the `±1` case must enumerate the representations of the whole 3-component link group before the long surgery words become checkable, and did not terminate |
 | `Triangulation.covers(5)` on the 219-tet target | did not finish within the session; on the 33-tet single-twist cases it finished in **0.8 s** |
 
-The common cause is a single number: `b'` is a 32-letter word in
+### 8.1 The right tool, and the exact step that blocks it
+
+Added after the first write-up. The Dunfield–Obeidin–Rudd algorithm
+(`Manifold.exterior_to_link`, arXiv:2112.03251) converts a filled triangulation
+straight back into a planar diagram, and on **both** positive controls it lands
+exactly right:
+
+| input | result | check |
+|---|---|---|
+| stored AT link filled `(2,1),(0,1)` (11 tets) | a **19-crossing knot** | degree-5 cover census = `K_1`'s exact multiset (8 covers) |
+| stored surgery link, meridian fillings (18 tets) | a **12-crossing knot** | `deconnect_sum` splits it into two 6-crossing pieces; census = `R`'s exact multiset (9 covers) |
+
+So the route is correct and it reproduces a genuine diagram of the answer,
+including an explicit 19-crossing diagram of `K_1` obtained from the annulus twist
+rather than from the stored file.
+
+On the target it fails at one identified internal step, in about 11 s:
+
+```
+Finding link for Regina_Triangulation
+    Finding moves to base triangulation of S^3...
+RuntimeError: Could not simplify to standard triangulation of S^3
+```
+
+i.e. the algorithm fills the remaining cusp with its meridian — giving a
+triangulation of `S^3` with ~219 tetrahedra — and its Pachner search cannot reduce
+that to the standard one-tetrahedron `S^3`. **This is a search failure, not a
+mathematical obstruction**, and it is now the single concrete computational
+blocker. Attempts that did not clear it: `pachner_search_tries` at 10/40/120 over
+three seeds on the saved 219-tetrahedron triangulation (19 min, all nine failed);
+Regina `intelligentSimplify` (no reduction at all — already a local minimum);
+Regina Pachner-perturbation annealing. The two controls needed only 11 and 18
+tetrahedra, so the practical target is to get the exterior well under ~80.
+
+Two further routes tried after the first write-up, both dead ends worth recording:
+a randomised-restart version of my greedy Tietze elimination reaches 14 generators
+on the target but with 858,252 letters of relator (the control collapses to 3
+generators and returns 1020 instantly); and a numpy-vectorised `#Hom(·,A_5)`
+counter, calibrated at `6_3 → 180`, `K_1 → 660`, `R → 1020`, which is ready but
+needs ≤ 5 or 6 generators to be affordable.
+
+The common cause of all of it is a single number: `b'` is a 32-letter word in
 `π_1(S^3 ∖ R)`, so any honest diagram of `R ∪ a ∪ b'` needs on the order of 200
 crossings, and every presentation- or triangulation-level route inherits that.
 The resistance of the target to simplification (219 tets and falling, versus 17
@@ -485,6 +526,13 @@ that the theorem-based unlink certificate in `auxiliary_group_certificate.json`
 supplies the discs' *existence* via Dehn's lemma but no coordinates, which is
 exactly why the question is still open.
 
+There is now also a **purely computational** path to the same answer, which any
+next session should try before the geometry: get the surgered exterior's
+triangulation under ~80 tetrahedra (Regina `simplifyExhaustive`, a longer Pachner
+anneal, or a genuinely different diagram of the 3-component link) and then call
+`Manifold.exterior_to_link`. §8.1 shows that call already returns the correct
+diagram on both controls, so only the triangulation size stands in the way.
+
 A cheap secondary obligation, worth doing first because it is nearly free: run the
 `ρ`-style test of §6 on representations of `π_1` of an **explicitly identified**
 slice-disk exterior of `R`, to see whether the four-dimensional annulus is
@@ -512,6 +560,12 @@ obstructed as well. If it is, the whole lane closes.
   crossing-label voting, unanimous).
 * `data/target_filled_219tet.tri` — the smallest filled triangulation of the
   target reached, for whoever continues.
+* `code/e2l.py`, `code/e2l_retry.py`, `code/anneal.py` — the `exterior_to_link`
+  route of §8.1, including the two controls that succeed (an explicit 19-crossing
+  diagram of `K_1` from the annulus twist, and a 12-crossing `6_3 # 6_3`).
+* `code/tietze.py`, `code/tietze3.py`, `code/tietze4.py` — my own greedy and
+  randomised Tietze elimination and the numpy-vectorised `#Hom(·,A_5)` counter,
+  with their calibrations against `6_3`, `K_1`, `D_{0,1}` and `R`.
 * `logs/` — all runs, including the failures and the timings in §8.
 
 ## Primary sources used, and how

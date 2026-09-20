@@ -1,0 +1,7 @@
+CALIB D_0_1: randomised Tietze -> 5 gens, total 242 [0s]
+   final: 5 gens, 5 rels, lengths [20, 26, 42, 76, 78]...
+   total #Hom(.,A5) = 2220   expected 2220   [230s]
+CTRL meridian fills: randomised Tietze -> 3 gens, total 102 [3s]
+   final: 3 gens, 3 rels, lengths [26, 26, 50]...
+   total #Hom(.,A5) = 1020   expected 1020   [0s]
+TARGET +1 a / -1 b_prime: randomised Tietze -> 14 gens, total 858252 [10s]

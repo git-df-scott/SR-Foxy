@@ -1,0 +1,27 @@
+CTRL AT twist (expect K_1): filled triangulation 11 tets
+CTRL SURG meridian (expect R): filled triangulation 18 tets
+   exterior_to_link ok [1s]
+CTRL K_1: <Link: 1 comp; 19 cross>  writhe -3
+   simplified: <Link: 1 comp; 19 cross>
+   PD: [(24, 34, 25, 33), (11, 34, 12, 35), (16, 29, 17, 30), (7, 28, 8, 29), (23, 12, 24, 13), (26, 0, 27, 37), (15, 7, 16, 6), (9, 0, 10, 1), (20, 3, 21, 4), (19, 15, 20, 14), (32, 13, 33, 14), (2, 5, 3, 6), (1, 31, 2, 30), (31, 23, 32, 22), (4, 21, 5, 22), (35, 10, 36, 11), (36, 26, 37, 25), (8, 18, 9, 17), (27, 18, 28, 19)]
+   deg-5 covers 8
+      2 x Z + Z
+      2 x Z + Z + Z
+      1 x Z/2 + Z/24 + Z
+      1 x Z/3 + Z + Z + Z
+      1 x Z/33 + Z
+      1 x Z/4 + Z/4 + Z/4 + Z/4 + Z
+   deconnect_sum -> [<Link: 1 comp; 19 cross>]
+   exterior_to_link ok [14s]
+CTRL R: <Link: 1 comp; 12 cross>  writhe 0
+   simplified: <Link: 1 comp; 12 cross>
+   PD: [(8, 6, 9, 5), (0, 21, 1, 22), (22, 15, 23, 16), (18, 14, 19, 13), (12, 8, 13, 7), (10, 3, 11, 4), (6, 12, 7, 11), (4, 1, 5, 2), (14, 20, 15, 19), (20, 18, 21, 17), (2, 9, 3, 10), (16, 23, 17, 0)]
+   deg-5 covers 9
+      6 x Z + Z + Z + Z + Z
+      1 x Z/4 + Z/4 + Z/4 + Z/4 + Z/4 + Z/4 + Z/4 + Z/4 + Z
+      2 x Z/7 + Z/7 + Z + Z + Z
+   deconnect_sum -> [<Link: 1 comp; 6 cross>, <Link: 1 comp; 6 cross>]
+TARGET triangulation 219 cusps 1
+Finding link for Regina_Triangulation
+    Finding moves to base triangulation of S^3...
+TARGET exterior_to_link FAILED after 11s: Could not simplify to standard triangulation of S^3
