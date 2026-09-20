@@ -67,13 +67,24 @@ having square determinants forces `det V` into exactly two classes:
 |---|---|
 | **17** | consistent with ribbon; Theorem 2 does not fire |
 | **1** | `= 17 + 16`. **Theorem 2 fires: `L_{3,1}` is slice and not ribbon** |
-| anything else | **the construction or the tool is broken** |
+| anything else | **a discrepancy to investigate** — see the caveat below |
 
 That third row is the point. The pre-registration as written treats every
 non-17 residue as a counterexample, so a mistraced diagram returning, say, 13
-would read as the headline result. Under §2 a residue of 13 is a **bug report**,
-not a counterexample. This converts the test from one that a construction error
-can fake into one that largely detects its own construction errors.
+would read as the headline result. Under §2 a residue of 13 is far more likely a
+construction or tool error than a counterexample.
+
+**But §2 is an empirical rule over 189 examples, not a theorem, and it must be
+falsified rather than assumed.** An unexpected residue is a *discrepancy to
+investigate*, not automatically a bug: it could equally be a counterexample to
+§2's mod-16 rule, which would itself be worth knowing. Treating row three as
+"bug" by reflex would convert this note from a control into a way of discarding
+inconvenient data, which is the failure mode this repository exists to avoid.
+
+A second limit: square determinant is only **one necessary consequence** of
+Fox-Milnor, not the full factorisation condition `Delta(t) = f(t) f(1/t)`. The
+189-link population was selected by the square test alone, so it contains links
+whose components fail Fox-Milnor in ways the selection did not see.
 
 It also prices the lane honestly: accidental agreement is a coin flip, not
 1-in-32. Among the 189, 134/189 = 71% satisfy the congruence anyway. So a
@@ -82,10 +93,14 @@ counterexample.
 
 ## 4. Controls
 
-`L_{1,1}`, built and verified in
-`results/opus_2026_09_19_session_L11_built`, is a known-ribbon member of this
-family: `dets [9,1]`, `det V = -23 = 9 (mod 32)`, difference 0. It sits in the
-`0` row, as a ribbon link must.
+`L_{0,1}` (built in `results/opus_2026_09_19_session_L11_built`, and
+**retracted there as a claimed `L_{1,1}`** -- it is `L10n36`, certified ribbon)
+is a known-ribbon member of this family: `dets [9,1]`, `det V = -23 = 9
+(mod 32)`, difference 0. It sits in the `0` row, as a ribbon link must.
+
+The five-hour GST campaign's reconstructions are also all consistent with §2:
+`n=1` `det V = 73 = 9 (mod 32)` against product 9; `n=2` `det V = -143 = 17`
+against 17; `n=3` `det V = 241 = 17` against 17. Difference 0 in every case.
 
 The whole `RibbonLinks` census (12,184 links, all ribbon) has difference 0 by
 construction of the test, and separately shows every component determinant there

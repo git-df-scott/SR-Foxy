@@ -1,3 +1,9 @@
+> **RETRACTED 19 September 2026.** The link built here is **`L_{0,1}`**, not
+> `L_{1,1}`. It is `L10n36`, 10 crossings (6 self + 4 inter), in the certified
+> `RibbonLinks` census. `V_0` and `V_1` are both unknots, so every check below
+> is satisfied by either member and none of them selects the index. See
+> `RETRACTION_IT_IS_L01.md`. Rung 1 of the ladder is NOT done.
+
 # `L_{1,1}` is built, and rung 1 of the GST ladder returns 9
 
 **19 September 2026. CE: NO.** `research/53` §3's calibration ladder has a first
