@@ -1,0 +1,2316 @@
+{
+  "n": 3,
+  "k": 1,
+  "input_pd": [
+    [
+      63,
+      0,
+      60,
+      1
+    ],
+    [
+      27,
+      62,
+      0,
+      63
+    ],
+    [
+      51,
+      2,
+      52,
+      1
+    ],
+    [
+      9,
+      3,
+      10,
+      2
+    ],
+    [
+      3,
+      50,
+      4,
+      49
+    ],
+    [
+      4,
+      8,
+      5,
+      7
+    ],
+    [
+      5,
+      35,
+      6,
+      34
+    ],
+    [
+      33,
+      7,
+      34,
+      6
+    ],
+    [
+      8,
+      50,
+      9,
+      51
+    ],
+    [
+      52,
+      10,
+      53,
+      11
+    ],
+    [
+      11,
+      53,
+      12,
+      54
+    ],
+    [
+      54,
+      12,
+      55,
+      13
+    ],
+    [
+      13,
+      55,
+      14,
+      56
+    ],
+    [
+      56,
+      14,
+      57,
+      15
+    ],
+    [
+      15,
+      57,
+      16,
+      58
+    ],
+    [
+      58,
+      16,
+      59,
+      17
+    ],
+    [
+      17,
+      26,
+      18,
+      27
+    ],
+    [
+      40,
+      19,
+      41,
+      18
+    ],
+    [
+      24,
+      19,
+      25,
+      20
+    ],
+    [
+      20,
+      43,
+      21,
+      42
+    ],
+    [
+      38,
+      21,
+      39,
+      22
+    ],
+    [
+      22,
+      37,
+      23,
+      38
+    ],
+    [
+      23,
+      41,
+      24,
+      42
+    ],
+    [
+      59,
+      25,
+      40,
+      26
+    ],
+    [
+      43,
+      28,
+      44,
+      39
+    ],
+    [
+      28,
+      45,
+      29,
+      44
+    ],
+    [
+      45,
+      30,
+      46,
+      29
+    ],
+    [
+      30,
+      47,
+      31,
+      46
+    ],
+    [
+      47,
+      32,
+      48,
+      31
+    ],
+    [
+      32,
+      49,
+      33,
+      48
+    ],
+    [
+      60,
+      36,
+      61,
+      35
+    ],
+    [
+      36,
+      62,
+      37,
+      61
+    ]
+  ],
+  "labels": {
+    "A": 0,
+    "I": 1,
+    "B": 2,
+    "M": 3
+  },
+  "target_pd": [
+    [
+      0,
+      15,
+      1,
+      16
+    ],
+    [
+      1,
+      72,
+      2,
+      73
+    ],
+    [
+      2,
+      46,
+      3,
+      45
+    ],
+    [
+      7,
+      18,
+      8,
+      19
+    ],
+    [
+      8,
+      29,
+      9,
+      30
+    ],
+    [
+      10,
+      75,
+      11,
+      76
+    ],
+    [
+      11,
+      43,
+      12,
+      42
+    ],
+    [
+      12,
+      58,
+      13,
+      57
+    ],
+    [
+      16,
+      5,
+      17,
+      6
+    ],
+    [
+      19,
+      30,
+      20,
+      31
+    ],
+    [
+      21,
+      76,
+      22,
+      77
+    ],
+    [
+      22,
+      42,
+      23,
+      41
+    ],
+    [
+      23,
+      57,
+      24,
+      56
+    ],
+    [
+      27,
+      6,
+      28,
+      7
+    ],
+    [
+      28,
+      17,
+      29,
+      18
+    ],
+    [
+      32,
+      77,
+      33,
+      78
+    ],
+    [
+      33,
+      41,
+      34,
+      40
+    ],
+    [
+      34,
+      56,
+      35,
+      55
+    ],
+    [
+      37,
+      68,
+      38,
+      69
+    ],
+    [
+      38,
+      50,
+      39,
+      49
+    ],
+    [
+      39,
+      54,
+      40,
+      55
+    ],
+    [
+      44,
+      4,
+      45,
+      3
+    ],
+    [
+      46,
+      14,
+      47,
+      13
+    ],
+    [
+      47,
+      25,
+      48,
+      24
+    ],
+    [
+      48,
+      36,
+      49,
+      35
+    ],
+    [
+      52,
+      84,
+      53,
+      83
+    ],
+    [
+      53,
+      91,
+      54,
+      90
+    ],
+    [
+      58,
+      43,
+      59,
+      44
+    ],
+    [
+      59,
+      75,
+      60,
+      74
+    ],
+    [
+      60,
+      10,
+      61,
+      9
+    ],
+    [
+      61,
+      21,
+      62,
+      20
+    ],
+    [
+      62,
+      32,
+      63,
+      31
+    ],
+    [
+      64,
+      91,
+      65,
+      92
+    ],
+    [
+      65,
+      84,
+      66,
+      85
+    ],
+    [
+      69,
+      36,
+      70,
+      37
+    ],
+    [
+      70,
+      25,
+      71,
+      26
+    ],
+    [
+      71,
+      14,
+      72,
+      15
+    ],
+    [
+      73,
+      4,
+      74,
+      5
+    ],
+    [
+      78,
+      64,
+      79,
+      63
+    ],
+    [
+      81,
+      66,
+      82,
+      67
+    ],
+    [
+      82,
+      52,
+      83,
+      51
+    ],
+    [
+      85,
+      81,
+      86,
+      80
+    ],
+    [
+      86,
+      94,
+      87,
+      93
+    ],
+    [
+      88,
+      67,
+      89,
+      68
+    ],
+    [
+      89,
+      51,
+      90,
+      50
+    ],
+    [
+      92,
+      80,
+      93,
+      79
+    ],
+    [
+      94,
+      88,
+      95,
+      87
+    ],
+    [
+      95,
+      26,
+      0,
+      27
+    ]
+  ],
+  "specs": [
+    {
+      "band": "000323_0_-2",
+      "faces": [
+        4,
+        20
+      ],
+      "crossed_arc": 0,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "000323_1_-2",
+      "faces": [
+        4,
+        20
+      ],
+      "crossed_arc": 0,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "000323_0_0",
+      "faces": [
+        4,
+        20
+      ],
+      "crossed_arc": 0,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "000323_1_0",
+      "faces": [
+        4,
+        20
+      ],
+      "crossed_arc": 0,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "000323_0_2",
+      "faces": [
+        4,
+        20
+      ],
+      "crossed_arc": 0,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "000323_1_2",
+      "faces": [
+        4,
+        20
+      ],
+      "crossed_arc": 0,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "780b3b_0_-2",
+      "faces": [
+        20,
+        4
+      ],
+      "crossed_arc": 0,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "780b3b_1_-2",
+      "faces": [
+        20,
+        4
+      ],
+      "crossed_arc": 0,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "780b3b_0_0",
+      "faces": [
+        20,
+        4
+      ],
+      "crossed_arc": 0,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "780b3b_1_0",
+      "faces": [
+        20,
+        4
+      ],
+      "crossed_arc": 0,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "780b3b_0_2",
+      "faces": [
+        20,
+        4
+      ],
+      "crossed_arc": 0,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "780b3b_1_2",
+      "faces": [
+        20,
+        4
+      ],
+      "crossed_arc": 0,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "780b33_0_-2",
+      "faces": [
+        20,
+        4
+      ],
+      "crossed_arc": 0,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "780b33_1_-2",
+      "faces": [
+        20,
+        4
+      ],
+      "crossed_arc": 0,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "780b33_0_0",
+      "faces": [
+        20,
+        4
+      ],
+      "crossed_arc": 0,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "780b33_1_0",
+      "faces": [
+        20,
+        4
+      ],
+      "crossed_arc": 0,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "780b33_0_2",
+      "faces": [
+        20,
+        4
+      ],
+      "crossed_arc": 0,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "780b33_1_2",
+      "faces": [
+        20,
+        4
+      ],
+      "crossed_arc": 0,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "780b2b_0_-2",
+      "faces": [
+        20,
+        4
+      ],
+      "crossed_arc": 0,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "780b2b_1_-2",
+      "faces": [
+        20,
+        4
+      ],
+      "crossed_arc": 0,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "780b2b_0_0",
+      "faces": [
+        20,
+        4
+      ],
+      "crossed_arc": 0,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "780b2b_1_0",
+      "faces": [
+        20,
+        4
+      ],
+      "crossed_arc": 0,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "780b2b_0_2",
+      "faces": [
+        20,
+        4
+      ],
+      "crossed_arc": 0,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "780b2b_1_2",
+      "faces": [
+        20,
+        4
+      ],
+      "crossed_arc": 0,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "780b0a_0_-2",
+      "faces": [
+        20,
+        4
+      ],
+      "crossed_arc": 0,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "780b0a_1_-2",
+      "faces": [
+        20,
+        4
+      ],
+      "crossed_arc": 0,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "780b0a_0_0",
+      "faces": [
+        20,
+        4
+      ],
+      "crossed_arc": 0,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "780b0a_1_0",
+      "faces": [
+        20,
+        4
+      ],
+      "crossed_arc": 0,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "780b0a_0_2",
+      "faces": [
+        20,
+        4
+      ],
+      "crossed_arc": 0,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "780b0a_1_2",
+      "faces": [
+        20,
+        4
+      ],
+      "crossed_arc": 0,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "781511_0_-2",
+      "faces": [
+        30,
+        4
+      ],
+      "crossed_arc": 7,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "781511_1_-2",
+      "faces": [
+        30,
+        4
+      ],
+      "crossed_arc": 7,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "781511_0_0",
+      "faces": [
+        30,
+        4
+      ],
+      "crossed_arc": 7,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "781511_1_0",
+      "faces": [
+        30,
+        4
+      ],
+      "crossed_arc": 7,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "781511_0_2",
+      "faces": [
+        30,
+        4
+      ],
+      "crossed_arc": 7,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "781511_1_2",
+      "faces": [
+        30,
+        4
+      ],
+      "crossed_arc": 7,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "002726_0_-2",
+      "faces": [
+        26,
+        20
+      ],
+      "crossed_arc": 10,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "002726_1_-2",
+      "faces": [
+        26,
+        20
+      ],
+      "crossed_arc": 10,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "002726_0_0",
+      "faces": [
+        26,
+        20
+      ],
+      "crossed_arc": 10,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "002726_1_0",
+      "faces": [
+        26,
+        20
+      ],
+      "crossed_arc": 10,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "002726_0_2",
+      "faces": [
+        26,
+        20
+      ],
+      "crossed_arc": 10,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "002726_1_2",
+      "faces": [
+        26,
+        20
+      ],
+      "crossed_arc": 10,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "002f2e_0_-2",
+      "faces": [
+        24,
+        20
+      ],
+      "crossed_arc": 12,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "002f2e_1_-2",
+      "faces": [
+        24,
+        20
+      ],
+      "crossed_arc": 12,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "002f2e_0_0",
+      "faces": [
+        24,
+        20
+      ],
+      "crossed_arc": 12,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "002f2e_1_0",
+      "faces": [
+        24,
+        20
+      ],
+      "crossed_arc": 12,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "002f2e_0_2",
+      "faces": [
+        24,
+        20
+      ],
+      "crossed_arc": 12,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "002f2e_1_2",
+      "faces": [
+        24,
+        20
+      ],
+      "crossed_arc": 12,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "003736_0_-2",
+      "faces": [
+        22,
+        20
+      ],
+      "crossed_arc": 14,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "003736_1_-2",
+      "faces": [
+        22,
+        20
+      ],
+      "crossed_arc": 14,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "003736_0_0",
+      "faces": [
+        22,
+        20
+      ],
+      "crossed_arc": 14,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "003736_1_0",
+      "faces": [
+        22,
+        20
+      ],
+      "crossed_arc": 14,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "003736_0_2",
+      "faces": [
+        22,
+        20
+      ],
+      "crossed_arc": 14,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "003736_1_2",
+      "faces": [
+        22,
+        20
+      ],
+      "crossed_arc": 14,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "003f3e_0_-2",
+      "faces": [
+        13,
+        20
+      ],
+      "crossed_arc": 16,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "003f3e_1_-2",
+      "faces": [
+        13,
+        20
+      ],
+      "crossed_arc": 16,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "003f3e_0_0",
+      "faces": [
+        13,
+        20
+      ],
+      "crossed_arc": 16,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "003f3e_1_0",
+      "faces": [
+        13,
+        20
+      ],
+      "crossed_arc": 16,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "003f3e_0_2",
+      "faces": [
+        13,
+        20
+      ],
+      "crossed_arc": 16,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "003f3e_1_2",
+      "faces": [
+        13,
+        20
+      ],
+      "crossed_arc": 16,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "05425e_0_-2",
+      "faces": [
+        14,
+        2
+      ],
+      "crossed_arc": 17,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "05425e_1_-2",
+      "faces": [
+        14,
+        2
+      ],
+      "crossed_arc": 17,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "05425e_0_0",
+      "faces": [
+        14,
+        2
+      ],
+      "crossed_arc": 17,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "05425e_1_0",
+      "faces": [
+        14,
+        2
+      ],
+      "crossed_arc": 17,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "05425e_0_2",
+      "faces": [
+        14,
+        2
+      ],
+      "crossed_arc": 17,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "05425e_1_2",
+      "faces": [
+        14,
+        2
+      ],
+      "crossed_arc": 17,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "05585b_0_-2",
+      "faces": [
+        16,
+        2
+      ],
+      "crossed_arc": 22,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "05585b_1_-2",
+      "faces": [
+        16,
+        2
+      ],
+      "crossed_arc": 22,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "05585b_0_0",
+      "faces": [
+        16,
+        2
+      ],
+      "crossed_arc": 22,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "05585b_1_0",
+      "faces": [
+        16,
+        2
+      ],
+      "crossed_arc": 22,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "05585b_0_2",
+      "faces": [
+        16,
+        2
+      ],
+      "crossed_arc": 22,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "05585b_1_2",
+      "faces": [
+        16,
+        2
+      ],
+      "crossed_arc": 22,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "004346_0_-2",
+      "faces": [
+        2,
+        20
+      ],
+      "crossed_arc": 26,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "004346_1_-2",
+      "faces": [
+        2,
+        20
+      ],
+      "crossed_arc": 26,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "004346_0_0",
+      "faces": [
+        2,
+        20
+      ],
+      "crossed_arc": 26,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "004346_1_0",
+      "faces": [
+        2,
+        20
+      ],
+      "crossed_arc": 26,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "004346_0_2",
+      "faces": [
+        2,
+        20
+      ],
+      "crossed_arc": 26,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "004346_1_2",
+      "faces": [
+        2,
+        20
+      ],
+      "crossed_arc": 26,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "05043b_0_-2",
+      "faces": [
+        20,
+        2
+      ],
+      "crossed_arc": 26,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "05043b_1_-2",
+      "faces": [
+        20,
+        2
+      ],
+      "crossed_arc": 26,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "05043b_0_0",
+      "faces": [
+        20,
+        2
+      ],
+      "crossed_arc": 26,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "05043b_1_0",
+      "faces": [
+        20,
+        2
+      ],
+      "crossed_arc": 26,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "05043b_0_2",
+      "faces": [
+        20,
+        2
+      ],
+      "crossed_arc": 26,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "05043b_1_2",
+      "faces": [
+        20,
+        2
+      ],
+      "crossed_arc": 26,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "050433_0_-2",
+      "faces": [
+        20,
+        2
+      ],
+      "crossed_arc": 26,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "050433_1_-2",
+      "faces": [
+        20,
+        2
+      ],
+      "crossed_arc": 26,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "050433_0_0",
+      "faces": [
+        20,
+        2
+      ],
+      "crossed_arc": 26,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "050433_1_0",
+      "faces": [
+        20,
+        2
+      ],
+      "crossed_arc": 26,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "050433_0_2",
+      "faces": [
+        20,
+        2
+      ],
+      "crossed_arc": 26,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "050433_1_2",
+      "faces": [
+        20,
+        2
+      ],
+      "crossed_arc": 26,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "05042b_0_-2",
+      "faces": [
+        20,
+        2
+      ],
+      "crossed_arc": 26,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "05042b_1_-2",
+      "faces": [
+        20,
+        2
+      ],
+      "crossed_arc": 26,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "05042b_0_0",
+      "faces": [
+        20,
+        2
+      ],
+      "crossed_arc": 26,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "05042b_1_0",
+      "faces": [
+        20,
+        2
+      ],
+      "crossed_arc": 26,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "05042b_0_2",
+      "faces": [
+        20,
+        2
+      ],
+      "crossed_arc": 26,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "05042b_1_2",
+      "faces": [
+        20,
+        2
+      ],
+      "crossed_arc": 26,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "05040a_0_-2",
+      "faces": [
+        20,
+        2
+      ],
+      "crossed_arc": 26,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "05040a_1_-2",
+      "faces": [
+        20,
+        2
+      ],
+      "crossed_arc": 26,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "05040a_0_0",
+      "faces": [
+        20,
+        2
+      ],
+      "crossed_arc": 26,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "05040a_1_0",
+      "faces": [
+        20,
+        2
+      ],
+      "crossed_arc": 26,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "05040a_0_2",
+      "faces": [
+        20,
+        2
+      ],
+      "crossed_arc": 26,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "05040a_1_2",
+      "faces": [
+        20,
+        2
+      ],
+      "crossed_arc": 26,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "7f6665_0_-2",
+      "faces": [
+        10,
+        1
+      ],
+      "crossed_arc": 28,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "7f6665_1_-2",
+      "faces": [
+        10,
+        1
+      ],
+      "crossed_arc": 28,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "7f6665_0_0",
+      "faces": [
+        10,
+        1
+      ],
+      "crossed_arc": 28,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "7f6665_1_0",
+      "faces": [
+        10,
+        1
+      ],
+      "crossed_arc": 28,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "7f6665_0_2",
+      "faces": [
+        10,
+        1
+      ],
+      "crossed_arc": 28,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "7f6665_1_2",
+      "faces": [
+        10,
+        1
+      ],
+      "crossed_arc": 28,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "7f6e6d_0_-2",
+      "faces": [
+        8,
+        1
+      ],
+      "crossed_arc": 30,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "7f6e6d_1_-2",
+      "faces": [
+        8,
+        1
+      ],
+      "crossed_arc": 30,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "7f6e6d_0_0",
+      "faces": [
+        8,
+        1
+      ],
+      "crossed_arc": 30,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "7f6e6d_1_0",
+      "faces": [
+        8,
+        1
+      ],
+      "crossed_arc": 30,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "7f6e6d_0_2",
+      "faces": [
+        8,
+        1
+      ],
+      "crossed_arc": 30,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "7f6e6d_1_2",
+      "faces": [
+        8,
+        1
+      ],
+      "crossed_arc": 30,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "7f7675_0_-2",
+      "faces": [
+        6,
+        1
+      ],
+      "crossed_arc": 32,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "7f7675_1_-2",
+      "faces": [
+        6,
+        1
+      ],
+      "crossed_arc": 32,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "7f7675_0_0",
+      "faces": [
+        6,
+        1
+      ],
+      "crossed_arc": 32,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "7f7675_1_0",
+      "faces": [
+        6,
+        1
+      ],
+      "crossed_arc": 32,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "7f7675_0_2",
+      "faces": [
+        6,
+        1
+      ],
+      "crossed_arc": 32,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "7f7675_1_2",
+      "faces": [
+        6,
+        1
+      ],
+      "crossed_arc": 32,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "787b72_0_-2",
+      "faces": [
+        1,
+        4
+      ],
+      "crossed_arc": 34,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "787b72_1_-2",
+      "faces": [
+        1,
+        4
+      ],
+      "crossed_arc": 34,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "787b72_0_0",
+      "faces": [
+        1,
+        4
+      ],
+      "crossed_arc": 34,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "787b72_1_0",
+      "faces": [
+        1,
+        4
+      ],
+      "crossed_arc": 34,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "787b72_0_2",
+      "faces": [
+        1,
+        4
+      ],
+      "crossed_arc": 34,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "787b72_1_2",
+      "faces": [
+        1,
+        4
+      ],
+      "crossed_arc": 34,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "787b6a_0_-2",
+      "faces": [
+        1,
+        4
+      ],
+      "crossed_arc": 34,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "787b6a_1_-2",
+      "faces": [
+        1,
+        4
+      ],
+      "crossed_arc": 34,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "787b6a_0_0",
+      "faces": [
+        1,
+        4
+      ],
+      "crossed_arc": 34,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "787b6a_1_0",
+      "faces": [
+        1,
+        4
+      ],
+      "crossed_arc": 34,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "787b6a_0_2",
+      "faces": [
+        1,
+        4
+      ],
+      "crossed_arc": 34,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "787b6a_1_2",
+      "faces": [
+        1,
+        4
+      ],
+      "crossed_arc": 34,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "787b62_0_-2",
+      "faces": [
+        1,
+        4
+      ],
+      "crossed_arc": 34,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "787b62_1_-2",
+      "faces": [
+        1,
+        4
+      ],
+      "crossed_arc": 34,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "787b62_0_0",
+      "faces": [
+        1,
+        4
+      ],
+      "crossed_arc": 34,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "787b62_1_0",
+      "faces": [
+        1,
+        4
+      ],
+      "crossed_arc": 34,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "787b62_0_2",
+      "faces": [
+        1,
+        4
+      ],
+      "crossed_arc": 34,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "787b62_1_2",
+      "faces": [
+        1,
+        4
+      ],
+      "crossed_arc": 34,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "7f1923_0_-2",
+      "faces": [
+        4,
+        1
+      ],
+      "crossed_arc": 34,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "7f1923_1_-2",
+      "faces": [
+        4,
+        1
+      ],
+      "crossed_arc": 34,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "7f1923_0_0",
+      "faces": [
+        4,
+        1
+      ],
+      "crossed_arc": 34,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "7f1923_1_0",
+      "faces": [
+        4,
+        1
+      ],
+      "crossed_arc": 34,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "7f1923_0_2",
+      "faces": [
+        4,
+        1
+      ],
+      "crossed_arc": 34,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "7f1923_1_2",
+      "faces": [
+        4,
+        1
+      ],
+      "crossed_arc": 34,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "055572_0_-2",
+      "faces": [
+        1,
+        2
+      ],
+      "crossed_arc": 36,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "055572_1_-2",
+      "faces": [
+        1,
+        2
+      ],
+      "crossed_arc": 36,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "055572_0_0",
+      "faces": [
+        1,
+        2
+      ],
+      "crossed_arc": 36,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "055572_1_0",
+      "faces": [
+        1,
+        2
+      ],
+      "crossed_arc": 36,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "055572_0_2",
+      "faces": [
+        1,
+        2
+      ],
+      "crossed_arc": 36,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "055572_1_2",
+      "faces": [
+        1,
+        2
+      ],
+      "crossed_arc": 36,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "05556a_0_-2",
+      "faces": [
+        1,
+        2
+      ],
+      "crossed_arc": 36,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "05556a_1_-2",
+      "faces": [
+        1,
+        2
+      ],
+      "crossed_arc": 36,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "05556a_0_0",
+      "faces": [
+        1,
+        2
+      ],
+      "crossed_arc": 36,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "05556a_1_0",
+      "faces": [
+        1,
+        2
+      ],
+      "crossed_arc": 36,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "05556a_0_2",
+      "faces": [
+        1,
+        2
+      ],
+      "crossed_arc": 36,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "05556a_1_2",
+      "faces": [
+        1,
+        2
+      ],
+      "crossed_arc": 36,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "055562_0_-2",
+      "faces": [
+        1,
+        2
+      ],
+      "crossed_arc": 36,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "055562_1_-2",
+      "faces": [
+        1,
+        2
+      ],
+      "crossed_arc": 36,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "055562_0_0",
+      "faces": [
+        1,
+        2
+      ],
+      "crossed_arc": 36,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "055562_1_0",
+      "faces": [
+        1,
+        2
+      ],
+      "crossed_arc": 36,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "055562_0_2",
+      "faces": [
+        1,
+        2
+      ],
+      "crossed_arc": 36,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "055562_1_2",
+      "faces": [
+        1,
+        2
+      ],
+      "crossed_arc": 36,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "7f7e46_0_-2",
+      "faces": [
+        2,
+        1
+      ],
+      "crossed_arc": 36,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "7f7e46_1_-2",
+      "faces": [
+        2,
+        1
+      ],
+      "crossed_arc": 36,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "7f7e46_0_0",
+      "faces": [
+        2,
+        1
+      ],
+      "crossed_arc": 36,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "7f7e46_1_0",
+      "faces": [
+        2,
+        1
+      ],
+      "crossed_arc": 36,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "7f7e46_0_2",
+      "faces": [
+        2,
+        1
+      ],
+      "crossed_arc": 36,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "7f7e46_1_2",
+      "faces": [
+        2,
+        1
+      ],
+      "crossed_arc": 36,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "7f524d_0_-2",
+      "faces": [
+        12,
+        1
+      ],
+      "crossed_arc": 38,
+      "band_over": false,
+      "twists": -2
+    },
+    {
+      "band": "7f524d_1_-2",
+      "faces": [
+        12,
+        1
+      ],
+      "crossed_arc": 38,
+      "band_over": true,
+      "twists": -2
+    },
+    {
+      "band": "7f524d_0_0",
+      "faces": [
+        12,
+        1
+      ],
+      "crossed_arc": 38,
+      "band_over": false,
+      "twists": 0
+    },
+    {
+      "band": "7f524d_1_0",
+      "faces": [
+        12,
+        1
+      ],
+      "crossed_arc": 38,
+      "band_over": true,
+      "twists": 0
+    },
+    {
+      "band": "7f524d_0_2",
+      "faces": [
+        12,
+        1
+      ],
+      "crossed_arc": 38,
+      "band_over": false,
+      "twists": 2
+    },
+    {
+      "band": "7f524d_1_2",
+      "faces": [
+        12,
+        1
+      ],
+      "crossed_arc": 38,
+      "band_over": true,
+      "twists": 2
+    },
+    {
+      "band": "020546_0_-1",
+      "faces": [
+        2,
+        3
+      ],
+      "crossed_arc": 61,
+      "band_over": false,
+      "twists": -1
+    },
+    {
+      "band": "020546_1_-1",
+      "faces": [
+        2,
+        3
+      ],
+      "crossed_arc": 61,
+      "band_over": true,
+      "twists": -1
+    },
+    {
+      "band": "020546_0_1",
+      "faces": [
+        2,
+        3
+      ],
+      "crossed_arc": 61,
+      "band_over": false,
+      "twists": 1
+    },
+    {
+      "band": "020546_1_1",
+      "faces": [
+        2,
+        3
+      ],
+      "crossed_arc": 61,
+      "band_over": true,
+      "twists": 1
+    },
+    {
+      "band": "7d7823_0_-1",
+      "faces": [
+        4,
+        3
+      ],
+      "crossed_arc": 63,
+      "band_over": false,
+      "twists": -1
+    },
+    {
+      "band": "7d7823_1_-1",
+      "faces": [
+        4,
+        3
+      ],
+      "crossed_arc": 63,
+      "band_over": true,
+      "twists": -1
+    },
+    {
+      "band": "7d7823_0_1",
+      "faces": [
+        4,
+        3
+      ],
+      "crossed_arc": 63,
+      "band_over": false,
+      "twists": 1
+    },
+    {
+      "band": "7d7823_1_1",
+      "faces": [
+        4,
+        3
+      ],
+      "crossed_arc": 63,
+      "band_over": true,
+      "twists": 1
+    }
+  ]
+}

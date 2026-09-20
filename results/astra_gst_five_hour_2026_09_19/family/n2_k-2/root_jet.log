@@ -1,0 +1,10 @@
+/private/tmp/sr-foxy-20260919-leads-venv/lib/python3.11/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+Traceback (most recent call last):
+  File "/Users/scottg/Documents/ChatGPT/SR Foxy/work/research-2026-09-16/results/astra_gst_five_hour_2026_09_19/run_root_jet_case.py", line 13, in <module>
+    start=time.monotonic();a=probe(L,prod);a.update(n=n,k=k,component_determinants=dets,component_records=component_records,seconds=time.monotonic()-start,source_identity='Two source transcriptions agree at k=1; extension in k is exploratory with the same explicit full-twist convention.')
+                             ^^^^^^^^^^^^^
+  File "/Users/scottg/Documents/ChatGPT/SR Foxy/work/research-2026-09-16/results/astra_gst_five_hour_2026_09_19/bounded_root_jet.py", line 95, in probe
+    if max_states>100000:raise RuntimeError("STATE_CAP_100000_INCONCLUSIVE")
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: STATE_CAP_100000_INCONCLUSIVE

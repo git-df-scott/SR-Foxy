@@ -1,0 +1,162 @@
+{
+  "label": "L10n57",
+  "prime": 101,
+  "root_v": 10,
+  "complete": true,
+  "missing_terms": [],
+  "partial_or_full_numerator_jet": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "terms": [
+    {
+      "a": 0,
+      "b": 2,
+      "contribution": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "a": 0,
+      "b": 3,
+      "contribution": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "contribution": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "contribution": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "contribution": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "a": 2,
+      "b": 0,
+      "contribution": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "contribution": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "a": 2,
+      "b": 2,
+      "contribution": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "contribution": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "a": 3,
+      "b": 0,
+      "contribution": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "a": 3,
+      "b": 1,
+      "contribution": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "a": 3,
+      "b": 2,
+      "contribution": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "a": 3,
+      "b": 3,
+      "contribution": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "scope": "q=-1 part ofSuzuki(3,3)only. Nonzero coefficient4 after baselinezeros obstructs; zero mod101 is inconclusive. Missing traces prevent conclusions.",
+  "habiro_baseline_pass_mod101": true,
+  "ribbon_obstructed_mod101": false
+}

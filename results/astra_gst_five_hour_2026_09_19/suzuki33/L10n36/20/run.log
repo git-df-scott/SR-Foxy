@@ -1,0 +1,3 @@
+/private/tmp/sr-foxy-20260919-leads-venv/lib/python3.11/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+{'coefficients_mod101': [0], 'crossings': 0, 'label': 'L10n36', 'a': 2, 'b': 0, 'precision': 1, 'seconds': 1.4374963939189911e-05}

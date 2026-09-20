@@ -256,7 +256,7 @@ in ar5iv full text).**
   ribbon theorem. **PARTIALLY VERIFIED.** Related and recent: *A ribbon knot which is not a symmetric
   union*, [arXiv:2606.02968] (2026) — relevant to the symmetric-union heuristic, not a ribbon obstruction.
 - Related: *On the colored Jones polynomials of ribbon links, boundary links and Brunnian links*,
-  [arXiv:1111.6408] (Habiro–Massuyeau). **PARTIALLY VERIFIED.**
+  [arXiv:1111.6408](https://arxiv.org/abs/1111.6408) (Sakie Suzuki), Banach Center Publications 100 (2014), 213–222, DOI [10.4064/bc100-0-12](https://doi.org/10.4064/bc100-0-12). **AUTHOR AND IDEAL THEOREMS VERIFIED, 2026-09-19.** Theorem 2.2 applies to ribbon and boundary links; Theorem 3.1 gives the principal cyclotomic ideal generators. This does not assert an extension to all slice links. The earlier attribution to Habiro–Massuyeau was incorrect.
 
 ### 2.5 Ribbon number / fusion number and their lower bounds
 
@@ -486,7 +486,7 @@ no obstruction to ribbonness.
 - Kawauchi, *Ribbonness on classical link*, [arXiv:2307.16483] — **claim not accepted**
 - Gilmer, *Ribbon concordance and a partial order on S-equivalence classes*, Topology Appl. 18 (1984) 313–324
 - Eisermann, *The Jones polynomial of ribbon links*, [arXiv:0802.2287], Geom. Topol. 13 (2009) 623–660
-- Habiro–Massuyeau, [arXiv:1111.6408]
+- Sakie Suzuki, *On the colored Jones polynomials of ribbon links, boundary links and Brunnian links*, [arXiv:1111.6408](https://arxiv.org/abs/1111.6408), Banach Center Publications 100 (2014), 213–222
 - Friedl–Misev–Zupan, *Bounding the ribbon numbers of knots and links*, [arXiv:2408.11618]; *Ribbon numbers of 12-crossing knots*, [arXiv:2409.12910]
 - Juhász–Miller–Zemke, *Knot cobordisms, bridge index, and torsion in Floer homology*, [arXiv:1904.02735]
 - *Ribbon knots, cabling, and handle decompositions*, [arXiv:2003.02832]

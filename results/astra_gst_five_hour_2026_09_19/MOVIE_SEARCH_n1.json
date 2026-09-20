@@ -1,0 +1,14 @@
+{
+  "n": 1,
+  "seconds": 60.00010333303362,
+  "iterations": 695003,
+  "states": [
+    1766,
+    28176
+  ],
+  "best_crossings": [
+    14,
+    14
+  ],
+  "hit": null
+}

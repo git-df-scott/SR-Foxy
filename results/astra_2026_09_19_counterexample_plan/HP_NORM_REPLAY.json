@@ -1,0 +1,36 @@
+{
+  "input": "results/HP_exact_norm_audit.json",
+  "field": "Q[z]/(z^2+z+1)",
+  "witnesses": [
+    {
+      "polynomial": 1,
+      "root": "z",
+      "exact_multiplicity": 1,
+      "self_conjugate_reciprocal_root": true,
+      "cannot_be_a_norm": true
+    },
+    {
+      "polynomial": 2,
+      "root": "-z",
+      "exact_multiplicity": 3,
+      "self_conjugate_reciprocal_root": true,
+      "cannot_be_a_norm": true
+    },
+    {
+      "polynomial": 3,
+      "root": "-z",
+      "exact_multiplicity": 3,
+      "self_conjugate_reciprocal_root": true,
+      "cannot_be_a_norm": true
+    },
+    {
+      "polynomial": 4,
+      "root": "z",
+      "exact_multiplicity": 1,
+      "self_conjugate_reciprocal_root": true,
+      "cannot_be_a_norm": true
+    }
+  ],
+  "arithmetic": "Python fractions.Fraction; exact synthetic division; no norm-test library",
+  "scope": "Independent final algebra check only. Topological representation construction remains dependent on SnapPy."
+}

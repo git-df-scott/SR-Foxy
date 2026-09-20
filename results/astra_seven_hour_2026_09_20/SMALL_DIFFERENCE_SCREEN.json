@@ -1,0 +1,3800 @@
+{
+  "status": "complete",
+  "candidate": "K7a2#-K10n4",
+  "p": 2,
+  "q": 19,
+  "rounds": [
+    {
+      "ell": 37,
+      "records": [
+        [
+          {
+            "label": "K7a2",
+            "character_scale": 1,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 37,
+            "field": "Context for fq_default in GF(37^2)[u]/(u^2 + 33*u + 2)",
+            "root": "25*u + 4",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              1
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 12*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (6*u + 31)",
+                1
+              ],
+              [
+                "x + (31*u + 18)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (6*u + 31)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (31*u + 18)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.004518124973401427,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 2,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 37,
+            "field": "Context for fq_default in GF(37^2)[u]/(u^2 + 33*u + 2)",
+            "root": "25*u + 4",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              2
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 6*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (2*u + 36)",
+                1
+              ],
+              [
+                "x + (35*u + 7)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (2*u + 36)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (35*u + 7)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0003535000141710043,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 3,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 37,
+            "field": "Context for fq_default in GF(37^2)[u]/(u^2 + 33*u + 2)",
+            "root": "25*u + 4",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              3
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 13*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (4*u + 17)",
+                1
+              ],
+              [
+                "x + (33*u + 33)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (4*u + 17)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (33*u + 33)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0003120000474154949,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 4,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 37,
+            "field": "Context for fq_default in GF(37^2)[u]/(u^2 + 33*u + 2)",
+            "root": "25*u + 4",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              4
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 36*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 10",
+                1
+              ],
+              [
+                "x + 26",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.00028354208916425705,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 5,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 37,
+            "field": "Context for fq_default in GF(37^2)[u]/(u^2 + 33*u + 2)",
+            "root": "25*u + 4",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              5
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 30*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (u + 13)",
+                1
+              ],
+              [
+                "x + (36*u + 17)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (u + 13)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (36*u + 17)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.00027849990874528885,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 6,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 37,
+            "field": "Context for fq_default in GF(37^2)[u]/(u^2 + 33*u + 2)",
+            "root": "25*u + 4",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              6
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 5*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 9",
+                1
+              ],
+              [
+                "x + 33",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.00028249993920326233,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 7,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 37,
+            "field": "Context for fq_default in GF(37^2)[u]/(u^2 + 33*u + 2)",
+            "root": "25*u + 4",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              7
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 30*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (u + 13)",
+                1
+              ],
+              [
+                "x + (36*u + 17)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (u + 13)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (36*u + 17)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.00027820910327136517,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 8,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 37,
+            "field": "Context for fq_default in GF(37^2)[u]/(u^2 + 33*u + 2)",
+            "root": "25*u + 4",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              8
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 18*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (15*u + 16)",
+                1
+              ],
+              [
+                "x + (22*u + 2)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (15*u + 16)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (22*u + 2)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0003095001447945833,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 9,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 37,
+            "field": "Context for fq_default in GF(37^2)[u]/(u^2 + 33*u + 2)",
+            "root": "25*u + 4",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              9
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 11*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (11*u + 2)",
+                1
+              ],
+              [
+                "x + (26*u + 9)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (11*u + 2)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (26*u + 9)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0002770419232547283,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          }
+        ],
+        [
+          {
+            "label": "K10n4",
+            "character_scale": 1,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 37,
+            "field": "Context for fq_default in GF(37^2)[u]/(u^2 + 33*u + 2)",
+            "root": "25*u + 4",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              17,
+              1,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 3*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (12*u + 33)",
+                1
+              ],
+              [
+                "x + (25*u + 7)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (12*u + 33)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (25*u + 7)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0006324590649455786,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 2,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 37,
+            "field": "Context for fq_default in GF(37^2)[u]/(u^2 + 33*u + 2)",
+            "root": "25*u + 4",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              15,
+              2,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 12*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (6*u + 31)",
+                1
+              ],
+              [
+                "x + (31*u + 18)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (6*u + 31)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (31*u + 18)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0003577910829335451,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 3,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 37,
+            "field": "Context for fq_default in GF(37^2)[u]/(u^2 + 33*u + 2)",
+            "root": "25*u + 4",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              13,
+              3,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 12*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (6*u + 31)",
+                1
+              ],
+              [
+                "x + (31*u + 18)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (6*u + 31)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (31*u + 18)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0003468331415206194,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 4,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 37,
+            "field": "Context for fq_default in GF(37^2)[u]/(u^2 + 33*u + 2)",
+            "root": "25*u + 4",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              11,
+              4,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 23*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 7",
+                1
+              ],
+              [
+                "x + 16",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0003261249512434006,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 5,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 37,
+            "field": "Context for fq_default in GF(37^2)[u]/(u^2 + 33*u + 2)",
+            "root": "25*u + 4",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              9,
+              5,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 11*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (11*u + 2)",
+                1
+              ],
+              [
+                "x + (26*u + 9)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (11*u + 2)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (26*u + 9)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0003289158921688795,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 6,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 37,
+            "field": "Context for fq_default in GF(37^2)[u]/(u^2 + 33*u + 2)",
+            "root": "25*u + 4",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              7,
+              6,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 5*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 9",
+                1
+              ],
+              [
+                "x + 33",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0003218750935047865,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 7,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 37,
+            "field": "Context for fq_default in GF(37^2)[u]/(u^2 + 33*u + 2)",
+            "root": "25*u + 4",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              5,
+              7,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 35*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 36",
+                2
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0003125839866697788,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 8,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 37,
+            "field": "Context for fq_default in GF(37^2)[u]/(u^2 + 33*u + 2)",
+            "root": "25*u + 4",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              3,
+              8,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 5*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 9",
+                1
+              ],
+              [
+                "x + 33",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.00031987507827579975,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 9,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 37,
+            "field": "Context for fq_default in GF(37^2)[u]/(u^2 + 33*u + 2)",
+            "root": "25*u + 4",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              1,
+              9,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 18*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (15*u + 16)",
+                1
+              ],
+              [
+                "x + (22*u + 2)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (15*u + 16)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (22*u + 2)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0003293748013675213,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          }
+        ]
+      ],
+      "previous_pair_count": 81,
+      "surviving_pairs": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          5
+        ]
+      ]
+    },
+    {
+      "ell": 113,
+      "records": [
+        [
+          {
+            "label": "K7a2",
+            "character_scale": 1,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 113,
+            "field": "Context for fq_default in GF(113^2)[u]/(u^2 + 101*u + 3)",
+            "root": "44*u + 10",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              1
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 55*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 77",
+                1
+              ],
+              [
+                "x + 91",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0007443339563906193,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 2,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 113,
+            "field": "Context for fq_default in GF(113^2)[u]/(u^2 + 101*u + 3)",
+            "root": "44*u + 10",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              2
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 9*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 16",
+                1
+              ],
+              [
+                "x + 106",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.001205541891977191,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 3,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 113,
+            "field": "Context for fq_default in GF(113^2)[u]/(u^2 + 101*u + 3)",
+            "root": "44*u + 10",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              3
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 65*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (50*u + 15)",
+                1
+              ],
+              [
+                "x + (63*u + 50)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (50*u + 15)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (63*u + 50)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0007191249169409275,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 4,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 113,
+            "field": "Context for fq_default in GF(113^2)[u]/(u^2 + 101*u + 3)",
+            "root": "44*u + 10",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              4
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 85*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 32",
+                1
+              ],
+              [
+                "x + 53",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0006788328755646944,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 5,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 113,
+            "field": "Context for fq_default in GF(113^2)[u]/(u^2 + 101*u + 3)",
+            "root": "44*u + 10",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              5
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 93*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 31",
+                1
+              ],
+              [
+                "x + 62",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0006766668520867825,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 6,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 113,
+            "field": "Context for fq_default in GF(113^2)[u]/(u^2 + 101*u + 3)",
+            "root": "44*u + 10",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              6
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 16*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 25",
+                1
+              ],
+              [
+                "x + 104",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0006721669342368841,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 7,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 113,
+            "field": "Context for fq_default in GF(113^2)[u]/(u^2 + 101*u + 3)",
+            "root": "44*u + 10",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              7
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 93*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 31",
+                1
+              ],
+              [
+                "x + 62",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0007113749161362648,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 8,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 113,
+            "field": "Context for fq_default in GF(113^2)[u]/(u^2 + 101*u + 3)",
+            "root": "44*u + 10",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              8
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 54*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 56",
+                1
+              ],
+              [
+                "x + 111",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0006755420472472906,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 9,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 113,
+            "field": "Context for fq_default in GF(113^2)[u]/(u^2 + 101*u + 3)",
+            "root": "44*u + 10",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              9
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 71*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (27*u + 43)",
+                1
+              ],
+              [
+                "x + (86*u + 28)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (27*u + 43)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (86*u + 28)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0006799998227506876,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          }
+        ],
+        [
+          {
+            "label": "K10n4",
+            "character_scale": 1,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 113,
+            "field": "Context for fq_default in GF(113^2)[u]/(u^2 + 101*u + 3)",
+            "root": "44*u + 10",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              17,
+              1,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (35*u + 73)",
+                1
+              ],
+              [
+                "x + (78*u + 41)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (35*u + 73)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (78*u + 41)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0007508329581469297,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 2,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 113,
+            "field": "Context for fq_default in GF(113^2)[u]/(u^2 + 101*u + 3)",
+            "root": "44*u + 10",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              15,
+              2,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 46*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (4*u + 112)",
+                1
+              ],
+              [
+                "x + (109*u + 47)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (4*u + 112)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (109*u + 47)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0007447500247508287,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 3,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 113,
+            "field": "Context for fq_default in GF(113^2)[u]/(u^2 + 101*u + 3)",
+            "root": "44*u + 10",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              13,
+              3,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 11*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 61",
+                1
+              ],
+              [
+                "x + 63",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.00073629105463624,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 4,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 113,
+            "field": "Context for fq_default in GF(113^2)[u]/(u^2 + 101*u + 3)",
+            "root": "44*u + 10",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              11,
+              4,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 89*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 4",
+                1
+              ],
+              [
+                "x + 85",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0007802920881658792,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 5,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 113,
+            "field": "Context for fq_default in GF(113^2)[u]/(u^2 + 101*u + 3)",
+            "root": "44*u + 10",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              9,
+              5,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 64*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (12*u + 73)",
+                1
+              ],
+              [
+                "x + (101*u + 104)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (12*u + 73)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (101*u + 104)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0007695830427110195,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 6,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 113,
+            "field": "Context for fq_default in GF(113^2)[u]/(u^2 + 101*u + 3)",
+            "root": "44*u + 10",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              7,
+              6,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 54*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 56",
+                1
+              ],
+              [
+                "x + 111",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0007407921366393566,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 7,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 113,
+            "field": "Context for fq_default in GF(113^2)[u]/(u^2 + 101*u + 3)",
+            "root": "44*u + 10",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              5,
+              7,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 97*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 9",
+                1
+              ],
+              [
+                "x + 88",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0007356670685112476,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 8,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 113,
+            "field": "Context for fq_default in GF(113^2)[u]/(u^2 + 101*u + 3)",
+            "root": "44*u + 10",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              3,
+              8,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 53*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (28*u + 28)",
+                1
+              ],
+              [
+                "x + (85*u + 25)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (28*u + 28)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (85*u + 25)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0007426668889820576,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 9,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 113,
+            "field": "Context for fq_default in GF(113^2)[u]/(u^2 + 101*u + 3)",
+            "root": "44*u + 10",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              1,
+              9,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 13*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 26",
+                1
+              ],
+              [
+                "x + 100",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0007360419258475304,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          }
+        ]
+      ],
+      "previous_pair_count": 12,
+      "surviving_pairs": [
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ]
+      ]
+    },
+    {
+      "ell": 227,
+      "records": [
+        [
+          {
+            "label": "K7a2",
+            "character_scale": 1,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 227,
+            "field": "Context for fq_default in GF(227^2)[u]/(u^2 + 220*u + 2)",
+            "root": "142*u + 105",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              1
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 130*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (84*u + 225)",
+                1
+              ],
+              [
+                "x + (143*u + 132)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (84*u + 225)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (143*u + 132)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.002741375006735325,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 2,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 227,
+            "field": "Context for fq_default in GF(227^2)[u]/(u^2 + 220*u + 2)",
+            "root": "142*u + 105",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              2
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 47*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (108*u + 213)",
+                1
+              ],
+              [
+                "x + (119*u + 61)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (108*u + 213)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (119*u + 61)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0020668329671025276,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 3,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 227,
+            "field": "Context for fq_default in GF(227^2)[u]/(u^2 + 220*u + 2)",
+            "root": "142*u + 105",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              3
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 54*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 98",
+                1
+              ],
+              [
+                "x + 183",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0020384578965604305,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 4,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 227,
+            "field": "Context for fq_default in GF(227^2)[u]/(u^2 + 220*u + 2)",
+            "root": "142*u + 105",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              4
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 120*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (22*u + 210)",
+                1
+              ],
+              [
+                "x + (205*u + 137)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (22*u + 210)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (205*u + 137)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.00204437505453825,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 5,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 227,
+            "field": "Context for fq_default in GF(227^2)[u]/(u^2 + 220*u + 2)",
+            "root": "142*u + 105",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              5
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 204*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 17",
+                1
+              ],
+              [
+                "x + 187",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.002035166835412383,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 6,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 227,
+            "field": "Context for fq_default in GF(227^2)[u]/(u^2 + 220*u + 2)",
+            "root": "142*u + 105",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              6
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 213*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 20",
+                1
+              ],
+              [
+                "x + 193",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.002039792016148567,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 7,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 227,
+            "field": "Context for fq_default in GF(227^2)[u]/(u^2 + 220*u + 2)",
+            "root": "142*u + 105",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              7
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 159*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (53*u + 121)",
+                1
+              ],
+              [
+                "x + (174*u + 38)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (53*u + 121)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (174*u + 38)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0020467499271035194,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 8,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 227,
+            "field": "Context for fq_default in GF(227^2)[u]/(u^2 + 220*u + 2)",
+            "root": "142*u + 105",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              8
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 58*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 68",
+                1
+              ],
+              [
+                "x + 217",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0020364588126540184,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 9,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 227,
+            "field": "Context for fq_default in GF(227^2)[u]/(u^2 + 220*u + 2)",
+            "root": "142*u + 105",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              9
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 126*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 154",
+                1
+              ],
+              [
+                "x + 199",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0026371250860393047,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          }
+        ],
+        [
+          {
+            "label": "K10n4",
+            "character_scale": 1,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 227,
+            "field": "Context for fq_default in GF(227^2)[u]/(u^2 + 220*u + 2)",
+            "root": "142*u + 105",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              17,
+              1,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 218*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 50",
+                1
+              ],
+              [
+                "x + 168",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.00213262508623302,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 2,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 227,
+            "field": "Context for fq_default in GF(227^2)[u]/(u^2 + 220*u + 2)",
+            "root": "142*u + 105",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              15,
+              2,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 108*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (55*u + 202)",
+                1
+              ],
+              [
+                "x + (172*u + 133)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (55*u + 202)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (172*u + 133)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0021067499183118343,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 3,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 227,
+            "field": "Context for fq_default in GF(227^2)[u]/(u^2 + 220*u + 2)",
+            "root": "142*u + 105",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              13,
+              3,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 195*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 58",
+                1
+              ],
+              [
+                "x + 137",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0021039999555796385,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 4,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 227,
+            "field": "Context for fq_default in GF(227^2)[u]/(u^2 + 220*u + 2)",
+            "root": "142*u + 105",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              11,
+              4,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 172*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 37",
+                1
+              ],
+              [
+                "x + 135",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0021003331057727337,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 5,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 227,
+            "field": "Context for fq_default in GF(227^2)[u]/(u^2 + 220*u + 2)",
+            "root": "142*u + 105",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              9,
+              5,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 15*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 42",
+                1
+              ],
+              [
+                "x + 200",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.00209829187951982,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 6,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 227,
+            "field": "Context for fq_default in GF(227^2)[u]/(u^2 + 220*u + 2)",
+            "root": "142*u + 105",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              7,
+              6,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 164*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (82*u + 22)",
+                1
+              ],
+              [
+                "x + (145*u + 142)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (82*u + 22)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (145*u + 142)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.002108457963913679,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 7,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 227,
+            "field": "Context for fq_default in GF(227^2)[u]/(u^2 + 220*u + 2)",
+            "root": "142*u + 105",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              5,
+              7,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 120*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (22*u + 210)",
+                1
+              ],
+              [
+                "x + (205*u + 137)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (22*u + 210)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (205*u + 137)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.002107584150508046,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 8,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 227,
+            "field": "Context for fq_default in GF(227^2)[u]/(u^2 + 220*u + 2)",
+            "root": "142*u + 105",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              3,
+              8,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 95*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (92*u + 66)",
+                1
+              ],
+              [
+                "x + (135*u + 29)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (92*u + 66)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (135*u + 29)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0035614159423857927,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 9,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 227,
+            "field": "Context for fq_default in GF(227^2)[u]/(u^2 + 220*u + 2)",
+            "root": "142*u + 105",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              1,
+              9,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 24*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (18*u + 176)",
+                1
+              ],
+              [
+                "x + (209*u + 75)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (18*u + 176)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (209*u + 75)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.002150790998712182,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          }
+        ]
+      ],
+      "previous_pair_count": 8,
+      "surviving_pairs": [
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          4
+        ]
+      ]
+    },
+    {
+      "ell": 379,
+      "records": [
+        [
+          {
+            "label": "K7a2",
+            "character_scale": 1,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 379,
+            "field": "Context for fq_default in GF(379^2)[u]/(u^2 + 374*u + 2)",
+            "root": "329*u + 282",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              1
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 275*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (72*u + 147)",
+                1
+              ],
+              [
+                "x + (307*u + 128)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (72*u + 147)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (307*u + 128)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.001983625115826726,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 2,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 379,
+            "field": "Context for fq_default in GF(379^2)[u]/(u^2 + 374*u + 2)",
+            "root": "329*u + 282",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              2
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 286*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 124",
+                1
+              ],
+              [
+                "x + 162",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.00038879201747477055,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 3,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 379,
+            "field": "Context for fq_default in GF(379^2)[u]/(u^2 + 374*u + 2)",
+            "root": "329*u + 282",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              3
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 216*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (15*u + 260)",
+                1
+              ],
+              [
+                "x + (364*u + 335)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (15*u + 260)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (364*u + 335)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.00035004084929823875,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 4,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 379,
+            "field": "Context for fq_default in GF(379^2)[u]/(u^2 + 374*u + 2)",
+            "root": "329*u + 282",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              4
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 244*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (85*u + 99)",
+                1
+              ],
+              [
+                "x + (294*u + 145)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (85*u + 99)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (294*u + 145)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0003480000887066126,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 5,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 379,
+            "field": "Context for fq_default in GF(379^2)[u]/(u^2 + 374*u + 2)",
+            "root": "329*u + 282",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              5
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 287*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (26*u + 268)",
+                1
+              ],
+              [
+                "x + (353*u + 19)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (26*u + 268)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (353*u + 19)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.00035454193130135536,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 6,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 379,
+            "field": "Context for fq_default in GF(379^2)[u]/(u^2 + 374*u + 2)",
+            "root": "329*u + 282",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              6
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 111*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 215",
+                1
+              ],
+              [
+                "x + 275",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.00034437491558492184,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 7,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 379,
+            "field": "Context for fq_default in GF(379^2)[u]/(u^2 + 374*u + 2)",
+            "root": "329*u + 282",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              7
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 65*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (50*u + 97)",
+                1
+              ],
+              [
+                "x + (329*u + 347)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (50*u + 97)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (329*u + 347)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.00038937502540647984,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 8,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 379,
+            "field": "Context for fq_default in GF(379^2)[u]/(u^2 + 374*u + 2)",
+            "root": "329*u + 282",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              8
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 356*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 128",
+                1
+              ],
+              [
+                "x + 228",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0003474580589681864,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K7a2",
+            "character_scale": 9,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 379,
+            "field": "Context for fq_default in GF(379^2)[u]/(u^2 + 374*u + 2)",
+            "root": "329*u + 282",
+            "generators": [
+              "a",
+              "b"
+            ],
+            "relators": [
+              "aBAABabABBBAbaBAABabbbaBAbaabABabbb"
+            ],
+            "abelianization": [
+              1,
+              0
+            ],
+            "cocycle": [
+              0,
+              9
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 31*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (105*u + 132)",
+                1
+              ],
+              [
+                "x + (274*u + 278)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (105*u + 132)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (274*u + 278)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.00034791603684425354,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          }
+        ],
+        [
+          {
+            "label": "K10n4",
+            "character_scale": 1,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 379,
+            "field": "Context for fq_default in GF(379^2)[u]/(u^2 + 374*u + 2)",
+            "root": "329*u + 282",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              17,
+              1,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 71*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 168",
+                1
+              ],
+              [
+                "x + 282",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.00043620821088552475,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 2,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 379,
+            "field": "Context for fq_default in GF(379^2)[u]/(u^2 + 374*u + 2)",
+            "root": "329*u + 282",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              15,
+              2,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 365*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (87*u + 344)",
+                1
+              ],
+              [
+                "x + (292*u + 21)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (87*u + 344)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (292*u + 21)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.00044475006870925426,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 3,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 379,
+            "field": "Context for fq_default in GF(379^2)[u]/(u^2 + 374*u + 2)",
+            "root": "329*u + 282",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              13,
+              3,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 280*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 284",
+                1
+              ],
+              [
+                "x + 375",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.000436791917309165,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 4,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 379,
+            "field": "Context for fq_default in GF(379^2)[u]/(u^2 + 374*u + 2)",
+            "root": "329*u + 282",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              11,
+              4,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 196*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (188*u + 7)",
+                1
+              ],
+              [
+                "x + (191*u + 189)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (188*u + 7)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (191*u + 189)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0004746250342577696,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 5,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 379,
+            "field": "Context for fq_default in GF(379^2)[u]/(u^2 + 374*u + 2)",
+            "root": "329*u + 282",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              9,
+              5,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 159*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 242",
+                1
+              ],
+              [
+                "x + 296",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.00041812495328485966,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 6,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 379,
+            "field": "Context for fq_default in GF(379^2)[u]/(u^2 + 374*u + 2)",
+            "root": "329*u + 282",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              7,
+              6,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 305*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (133*u + 199)",
+                1
+              ],
+              [
+                "x + (246*u + 106)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (133*u + 199)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (246*u + 106)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.00042383396066725254,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 7,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 379,
+            "field": "Context for fq_default in GF(379^2)[u]/(u^2 + 374*u + 2)",
+            "root": "329*u + 282",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              5,
+              7,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 211*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (12*u + 265)",
+                1
+              ],
+              [
+                "x + (367*u + 325)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (12*u + 265)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (367*u + 325)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0004266249015927315,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 8,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 379,
+            "field": "Context for fq_default in GF(379^2)[u]/(u^2 + 374*u + 2)",
+            "root": "329*u + 282",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              3,
+              8,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 74*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + (133*u + 273)",
+                1
+              ],
+              [
+                "x + (246*u + 180)",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": true,
+            "bad_factors": [
+              {
+                "factor": "x + (133*u + 273)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              },
+              {
+                "factor": "x + (246*u + 180)",
+                "multiplicity": 1,
+                "conjugate_multiplicity": 1
+              }
+            ],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.0004629159811884165,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          },
+          {
+            "label": "K10n4",
+            "character_scale": 9,
+            "cover_degree": 2,
+            "character_prime": 19,
+            "deck_eigenvalue": 18,
+            "reduction_prime": 379,
+            "field": "Context for fq_default in GF(379^2)[u]/(u^2 + 374*u + 2)",
+            "root": "329*u + 282",
+            "generators": [
+              "a",
+              "b",
+              "c"
+            ],
+            "relators": [
+              "acacabcbABACAbAB",
+              "acbABcaC"
+            ],
+            "abelianization": [
+              -1,
+              -3,
+              1
+            ],
+            "cocycle": [
+              1,
+              9,
+              0
+            ],
+            "cocycle_dimension": 2,
+            "reduced_twisted_polynomial": "x^2 + 210*x + 1",
+            "degree": 2,
+            "factors": [
+              [
+                "x + 240",
+                1
+              ],
+              [
+                "x + 349",
+                1
+              ]
+            ],
+            "not_norm_mod_reduction": false,
+            "bad_factors": [],
+            "representation_and_Fox_checks": true,
+            "seconds": 0.00041595916263759136,
+            "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+          }
+        ]
+      ],
+      "previous_pair_count": 2,
+      "surviving_pairs": []
+    }
+  ],
+  "remaining_pairs": [],
+  "seconds": 0.08039495814591646,
+  "scope": "Finite-field necessary norm screens. Remaining pairs need not preserve linking forms. Empty set would require good-reduction and full topology audit before a nonsliceness claim. Nonempty does not establish sliceness."
+}

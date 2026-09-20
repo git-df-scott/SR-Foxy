@@ -1,0 +1,69 @@
+{
+  "field": "Q(z), z^2+z+1=0",
+  "root": "omega=-z^2",
+  "torus_checks": [
+    {
+      "q": 3,
+      "character_phase_d": 0,
+      "numerator": "1-t^3",
+      "denominator": "t**2 - 2*t + 1",
+      "relator_verified": true,
+      "omega_numerator_order": 0,
+      "omega_denominator_order": 0
+    },
+    {
+      "q": 3,
+      "character_phase_d": 1,
+      "numerator": "1-t^3",
+      "denominator": "t**2 - t*z - t/z + 1",
+      "relator_verified": true,
+      "omega_numerator_order": 0,
+      "omega_denominator_order": 0
+    },
+    {
+      "q": 3,
+      "character_phase_d": 2,
+      "numerator": "1-t^3",
+      "denominator": "t**2 - t/z**2 - t*z**2 + 1",
+      "relator_verified": true,
+      "omega_numerator_order": 0,
+      "omega_denominator_order": 0
+    },
+    {
+      "q": 9,
+      "character_phase_d": 0,
+      "numerator": "1-t^9",
+      "denominator": "t**2 - 2*t + 1",
+      "relator_verified": true,
+      "omega_numerator_order": 0,
+      "omega_denominator_order": 0
+    },
+    {
+      "q": 9,
+      "character_phase_d": 1,
+      "numerator": "1-t^9",
+      "denominator": "t**2 - t*z - t/z + 1",
+      "relator_verified": true,
+      "omega_numerator_order": 0,
+      "omega_denominator_order": 0
+    },
+    {
+      "q": 9,
+      "character_phase_d": 2,
+      "numerator": "1-t^9",
+      "denominator": "t**2 - t/z**2 - t*z**2 + 1",
+      "relator_verified": true,
+      "omega_numerator_order": 0,
+      "omega_denominator_order": 0
+    }
+  ],
+  "companion_Delta": "t^2-t+1",
+  "companion_valuations": {
+    "unshifted": 1,
+    "shift_plus": 0,
+    "shift_minus": 1
+  },
+  "companion_discriminant_order_mod2": 1,
+  "total_discriminant_order_mod2": 1,
+  "scope": "Exact algebra verifies the formula extension at q=9. Source-backed Casson\u2013Gordon and twisted-Alexander theorems are separate inputs."
+}

@@ -1,0 +1,3 @@
+/private/tmp/sr-foxy-20260919-leads-venv/lib/python3.11/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+{'coefficients_mod101': [0, 0], 'crossings': 30, 'morse_width': 10, 'max_retained_states': 41, 'chosen_layout_index': 46, 'layout_seeds': [20260920, 20260921, 20260922, 20260923], 'layout_score': (5, 549), 'starts_tested': 120, 'scope': 'Unreduced Jones in F101[x]/x^precision atv=10+x; modularzero is inconclusive.', 'label': 'GST1', 'a': 2, 'b': 1, 'precision': 2, 'seconds': 0.04771654214709997, 'independent_full_regina_agrees': True}

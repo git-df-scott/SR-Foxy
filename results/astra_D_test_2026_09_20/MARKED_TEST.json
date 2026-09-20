@@ -1,0 +1,268 @@
+{
+  "rows": [
+    {
+      "label": "K9n4",
+      "character_scale": 1,
+      "cover_degree": 2,
+      "character_prime": 7,
+      "deck_eigenvalue": 6,
+      "reduction_prime": 13,
+      "field": "Context for fq_default in GF(13^2)[u]/(u^2 + 12*u + 2)",
+      "root": "4*u + 3",
+      "generators": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i"
+      ],
+      "relators": [
+        "HbhA",
+        "chCB",
+        "bfBC",
+        "AcaD",
+        "AiaE",
+        "IaiF",
+        "edEG",
+        "geGH"
+      ],
+      "abelianization": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cocycle": [
+        5,
+        4,
+        6,
+        4,
+        3,
+        2,
+        2,
+        1,
+        0
+      ],
+      "cocycle_dimension": 2,
+      "reduced_twisted_polynomial": "x^2 + 11*x + 1",
+      "degree": 2,
+      "factors": [
+        [
+          "x + 12",
+          2
+        ]
+      ],
+      "not_norm_mod_reduction": false,
+      "bad_factors": [],
+      "representation_and_Fox_checks": true,
+      "seconds": 0.005959083093330264,
+      "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness.",
+      "marked_linking": {
+        "goeritz": [
+          [
+            5,
+            -2,
+            0
+          ],
+          [
+            -2,
+            -1,
+            2
+          ],
+          [
+            0,
+            2,
+            -3
+          ]
+        ],
+        "white_faces": [
+          0,
+          2,
+          6,
+          9
+        ],
+        "region_colors": {
+          "0": 0,
+          "8": 5,
+          "1": 1,
+          "9": 3,
+          "10": 3,
+          "6": 1,
+          "5": 4,
+          "7": 6,
+          "2": 6,
+          "4": 3,
+          "3": 2
+        },
+        "character": [
+          6,
+          1,
+          3
+        ],
+        "dual_pairing_numerator_mod7": 6,
+        "scope": "common overall orientation sign immaterial for difference; Dehn colors normalized at white region 0"
+      }
+    },
+    {
+      "label": "K14n282",
+      "character_scale": 1,
+      "cover_degree": 2,
+      "character_prime": 7,
+      "deck_eigenvalue": 6,
+      "reduction_prime": 13,
+      "field": "Context for fq_default in GF(13^2)[u]/(u^2 + 12*u + 2)",
+      "root": "4*u + 3",
+      "generators": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i",
+        "j",
+        "k",
+        "l",
+        "m",
+        "n"
+      ],
+      "relators": [
+        "JbjA",
+        "cjCB",
+        "bfBC",
+        "AcaD",
+        "agAE",
+        "eaEF",
+        "hdHG",
+        "gmGH",
+        "JejI",
+        "IliJ",
+        "LilK",
+        "KnkL",
+        "NknM"
+      ],
+      "abelianization": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cocycle": [
+        0,
+        6,
+        1,
+        6,
+        2,
+        4,
+        5,
+        2,
+        4,
+        3,
+        6,
+        5,
+        1,
+        0
+      ],
+      "cocycle_dimension": 2,
+      "reduced_twisted_polynomial": "x^2 + 12*x + 1",
+      "degree": 2,
+      "factors": [
+        [
+          "x + 3",
+          1
+        ],
+        [
+          "x + 9",
+          1
+        ]
+      ],
+      "not_norm_mod_reduction": false,
+      "bad_factors": [],
+      "representation_and_Fox_checks": true,
+      "seconds": 0.003850041190162301,
+      "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness.",
+      "marked_linking": {
+        "goeritz": [
+          [
+            9,
+            -1,
+            -2,
+            0
+          ],
+          [
+            -1,
+            2,
+            0,
+            0
+          ],
+          [
+            -2,
+            0,
+            -1,
+            2
+          ],
+          [
+            0,
+            0,
+            2,
+            -3
+          ]
+        ],
+        "white_faces": [
+          0,
+          2,
+          10,
+          11,
+          14
+        ],
+        "region_colors": {
+          "0": 0,
+          "13": 0,
+          "8": 3,
+          "14": 3,
+          "15": 5,
+          "11": 1,
+          "9": 6,
+          "2": 6,
+          "12": 1,
+          "10": 3,
+          "3": 2,
+          "7": 4,
+          "6": 5,
+          "5": 6,
+          "4": 0,
+          "1": 1
+        },
+        "character": [
+          6,
+          3,
+          1,
+          3
+        ],
+        "dual_pairing_numerator_mod7": 3,
+        "scope": "common overall orientation sign immaterial for difference; Dehn colors normalized at white region 0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "coefficients_mod101": [
+    8,
+    0,
+    12,
+    28,
+    99,
+    8
+  ],
+  "crossings": 18,
+  "morse_width": 8,
+  "max_retained_states": 14,
+  "scope": "Mixed(2,1) requires numerator order>=6 atv=1. Nonzero fifth coefficient obstructs ribbonness once input/framing are certified; vanishing mod101 is inconclusive.",
+  "label": "L10n57",
+  "cycle": 1,
+  "numerator_jet_mod101": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    99
+  ],
+  "baseline_low_orders_vanish": true,
+  "ribbon_obstruction_mod101": true,
+  "seconds": 0.018676667008548975
+}

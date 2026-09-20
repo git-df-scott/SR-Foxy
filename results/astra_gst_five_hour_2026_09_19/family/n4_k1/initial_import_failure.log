@@ -1,0 +1,9 @@
+/private/tmp/sr-foxy-20260919-leads-venv/lib/python3.11/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+Traceback (most recent call last):
+  File "/Users/scottg/Documents/ChatGPT/SR Foxy/work/research-2026-09-16/results/astra_gst_five_hour_2026_09_19/family_case.py", line 6, in <module>
+    from sources.compdet import component_determinants
+  File "/Users/scottg/Documents/ChatGPT/SR Foxy/work/research-2026-09-16/results/astra_gst_five_hour_2026_09_19/sources/compdet.py", line 21, in <module>
+    from sagefree_jones import jones_polynomial          # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'sagefree_jones'

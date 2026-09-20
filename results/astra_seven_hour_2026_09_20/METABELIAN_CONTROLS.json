@@ -1,0 +1,146 @@
+{
+  "controls": [
+    {
+      "label": "K12n224_published",
+      "cover_degree": 3,
+      "character_prime": 7,
+      "deck_eigenvalue": 4,
+      "reduction_prime": 13,
+      "field": "Context for fq_default in GF(13^2)[u]/(u^2 + 12*u + 2)",
+      "root": "4*u + 3",
+      "generators": [
+        "a",
+        "b",
+        "c"
+      ],
+      "relators": [
+        "abaBabABAbcaCAccACB",
+        "abbacACABBAbABAbacACBababacaCABabaB"
+      ],
+      "abelianization": [
+        -1,
+        2,
+        0
+      ],
+      "cocycle": [
+        3,
+        0,
+        1
+      ],
+      "cocycle_dimension": 2,
+      "reduced_twisted_polynomial": "x^4 + (9*u + 12)*x^3 + 6*x^2 + (4*u + 8)*x + 1",
+      "degree": 4,
+      "factors": [
+        [
+          "x + (3*u + 4)",
+          1
+        ],
+        [
+          "x + (4*u + 3)",
+          1
+        ],
+        [
+          "x + (6*u + 8)",
+          1
+        ],
+        [
+          "x + (9*u + 10)",
+          1
+        ]
+      ],
+      "not_norm_mod_reduction": true,
+      "bad_factors": [
+        {
+          "factor": "x + (4*u + 3)",
+          "multiplicity": 1,
+          "conjugate_multiplicity": 1
+        },
+        {
+          "factor": "x + (9*u + 10)",
+          "multiplicity": 1,
+          "conjugate_multiplicity": 1
+        }
+      ],
+      "representation_and_Fox_checks": true,
+      "seconds": 0.008843249874189496,
+      "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness.",
+      "matches_published_polynomial_up_to_Galois_and_reversal": true
+    },
+    {
+      "label": "6_1",
+      "cover_degree": 2,
+      "character_prime": 3,
+      "deck_eigenvalue": 2,
+      "reduction_prime": 5,
+      "field": "Context for fq_default in GF(5^2)[u]/(u^2 + 4*u + 2)",
+      "root": "2*u + 1",
+      "generators": [
+        "a",
+        "b"
+      ],
+      "relators": [
+        "aaBBAbbbbbABB"
+      ],
+      "abelianization": [
+        1,
+        0
+      ],
+      "cocycle": [
+        0,
+        1
+      ],
+      "cocycle_dimension": 2,
+      "reduced_twisted_polynomial": "1",
+      "degree": 0,
+      "factors": [],
+      "not_norm_mod_reduction": false,
+      "bad_factors": [],
+      "representation_and_Fox_checks": true,
+      "seconds": 0.00022154208272695541,
+      "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+    },
+    {
+      "label": "8_8",
+      "cover_degree": 2,
+      "character_prime": 5,
+      "deck_eigenvalue": 4,
+      "reduction_prime": 19,
+      "field": "Context for fq_default in GF(19^2)[u]/(u^2 + 18*u + 2)",
+      "root": "18*u + 12",
+      "generators": [
+        "a",
+        "b"
+      ],
+      "relators": [
+        "aabABBAbaabbaBAABabbaBAABabbaabABBAbaabABBAbABBAb"
+      ],
+      "abelianization": [
+        1,
+        0
+      ],
+      "cocycle": [
+        0,
+        1
+      ],
+      "cocycle_dimension": 2,
+      "reduced_twisted_polynomial": "x^2 + 16*x + 1",
+      "degree": 2,
+      "factors": [
+        [
+          "x + 3",
+          1
+        ],
+        [
+          "x + 13",
+          1
+        ]
+      ],
+      "not_norm_mod_reduction": false,
+      "bad_factors": [],
+      "representation_and_Fox_checks": true,
+      "seconds": 0.00037958286702632904,
+      "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+    }
+  ],
+  "scope": "Two known ribbon controls plus explicit HKL Section10.6 polynomial, as recorded in SnapPy3.3.2 rep_theory.py. Finite-field arithmetic, no sliceness claim on a passing target."
+}

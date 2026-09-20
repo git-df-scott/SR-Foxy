@@ -1,0 +1,65 @@
+{
+  "n": 2,
+  "red_unlink_crossings": 0,
+  "red_unlink_components": 2,
+  "unfilled_isometries": [
+    {
+      "cusp_images": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "maps": [
+        "[[ 1  0]\n [ 0 -1]]",
+        "[[-1  0]\n [ 0  1]]",
+        "[[ 1  0]\n [ 0 -1]]",
+        "[[ 1  0]\n [ 0 -1]]"
+      ],
+      "extends_to_link": true
+    },
+    {
+      "cusp_images": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "maps": [
+        "[[-1  0]\n [ 0 -1]]",
+        "[[1 0]\n [0 1]]",
+        "[[-1  0]\n [ 0 -1]]",
+        "[[-1  0]\n [ 0 -1]]"
+      ],
+      "extends_to_link": true
+    }
+  ],
+  "filled_volumes_approx": [
+    "15.6792526732",
+    "15.679252673"
+  ],
+  "filled_isometries": [
+    {
+      "cusp_images": [
+        0,
+        1
+      ],
+      "maps": [
+        "[[-1  0]\n [ 0 -1]]",
+        "[[-1  0]\n [ 0 -1]]"
+      ],
+      "extends_to_link": true
+    },
+    {
+      "cusp_images": [
+        0,
+        1
+      ],
+      "maps": [
+        "[[ 1  0]\n [ 0 -1]]",
+        "[[ 1  0]\n [ 0 -1]]"
+      ],
+      "extends_to_link": true
+    }
+  ]
+}

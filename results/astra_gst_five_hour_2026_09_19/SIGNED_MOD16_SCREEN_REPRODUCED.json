@@ -1,0 +1,9 @@
+{
+  "population": 439,
+  "signed_difference_counts_mod16": {
+    "0": 439
+  },
+  "counterexamples": [],
+  "normalization": "The symmetrized Alexander polynomial normalized by Delta(1)=1 has Delta(-1)=1 mod4. Thus signed Jones knot determinant is +D if D=1 mod4 and -D if D=3 mod4, where D is positive determinant.",
+  "scope": "Finite census evidence, not a universal theorem."
+}

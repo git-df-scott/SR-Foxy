@@ -1,0 +1,27 @@
+[
+  {
+    "source": "results/astra_full_progress_2026_09_19/RECOVERY_LIMITS.md",
+    "blob_sha": "01987f6612b4deb84fc317fb49aca3517563db56",
+    "bytes": 3964
+  },
+  {
+    "source": "results/astra_full_progress_2026_09_19/previous_session/sr_foxy_session/band_engine/gst_inverse_bands_c4.json",
+    "blob_sha": "660a19d31f7e42d6026c15a422f9b2c5ff50a5b6",
+    "bytes": 1748113
+  },
+  {
+    "source": "results/astra_full_progress_2026_09_19/previous_session/sr_foxy_session/band_engine/parallel_edge_audit.json",
+    "blob_sha": "d9c9c4089fec7f63b689ef718b780d313d5ff4b4",
+    "bytes": 72185
+  },
+  {
+    "source": "results/astra_full_progress_2026_09_19/previous_session/sr_foxy_session/band_engine/spherogram_multiedge_bands.py",
+    "blob_sha": "97607bdf0c12c90a37ed2883650d635d1c425e0e",
+    "bytes": 2568
+  },
+  {
+    "source": "results/astra_full_progress_2026_09_19/previous_session/sr_foxy_session/gst_reconstruction/figure2_identification.json",
+    "blob_sha": "85e698fe4d6669478ba5097a0c7369b7a273840a",
+    "bytes": 21679
+  }
+]

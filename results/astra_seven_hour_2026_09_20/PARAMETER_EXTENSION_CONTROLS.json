@@ -1,0 +1,247 @@
+{
+  "complete": true,
+  "linking_form_cases": [
+    {
+      "p": 3,
+      "r": 1,
+      "s": 0,
+      "u": 1,
+      "v": 1,
+      "metabolizers": 2,
+      "without_witness": 0,
+      "first_failure": []
+    },
+    {
+      "p": 3,
+      "r": 2,
+      "s": 0,
+      "u": 1,
+      "v": 1,
+      "metabolizers": 3,
+      "without_witness": 0,
+      "first_failure": []
+    },
+    {
+      "p": 5,
+      "r": 1,
+      "s": 0,
+      "u": 1,
+      "v": 1,
+      "metabolizers": 2,
+      "without_witness": 0,
+      "first_failure": []
+    },
+    {
+      "p": 3,
+      "r": 1,
+      "s": 1,
+      "u": 1,
+      "v": 1,
+      "metabolizers": 8,
+      "without_witness": 4,
+      "first_failure": [
+        [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            2,
+            2
+          ],
+          [
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            2,
+            2,
+            2
+          ]
+        ]
+      ]
+    },
+    {
+      "p": 3,
+      "r": 2,
+      "s": 1,
+      "u": 1,
+      "v": 1,
+      "metabolizers": 14,
+      "without_witness": 0,
+      "first_failure": []
+    },
+    {
+      "p": 3,
+      "r": 2,
+      "s": 1,
+      "u": 1,
+      "v": 2,
+      "metabolizers": 14,
+      "without_witness": 0,
+      "first_failure": []
+    },
+    {
+      "p": 3,
+      "r": 2,
+      "s": 1,
+      "u": 2,
+      "v": 1,
+      "metabolizers": 14,
+      "without_witness": 0,
+      "first_failure": []
+    },
+    {
+      "p": 3,
+      "r": 2,
+      "s": 1,
+      "u": 2,
+      "v": 2,
+      "metabolizers": 14,
+      "without_witness": 0,
+      "first_failure": []
+    }
+  ],
+  "cyclotomic_roots": [
+    {
+      "p": 3,
+      "omega_turns": "5/6",
+      "valuations": [
+        1,
+        0,
+        1
+      ],
+      "parity": 1
+    },
+    {
+      "p": 5,
+      "omega_turns": "29/30",
+      "valuations": [
+        1,
+        0,
+        0
+      ],
+      "parity": 1
+    },
+    {
+      "p": 7,
+      "omega_turns": "1/42",
+      "valuations": [
+        1,
+        0,
+        0
+      ],
+      "parity": 1
+    },
+    {
+      "p": 11,
+      "omega_turns": "5/66",
+      "valuations": [
+        1,
+        0,
+        0
+      ],
+      "parity": 1
+    },
+    {
+      "p": 13,
+      "omega_turns": "7/78",
+      "valuations": [
+        1,
+        0,
+        0
+      ],
+      "parity": 1
+    },
+    {
+      "p": 17,
+      "omega_turns": "11/102",
+      "valuations": [
+        1,
+        0,
+        0
+      ],
+      "parity": 1
+    },
+    {
+      "p": 19,
+      "omega_turns": "13/114",
+      "valuations": [
+        1,
+        0,
+        0
+      ],
+      "parity": 1
+    },
+    {
+      "p": 23,
+      "omega_turns": "17/138",
+      "valuations": [
+        1,
+        0,
+        0
+      ],
+      "parity": 1
+    },
+    {
+      "p": 29,
+      "omega_turns": "23/174",
+      "valuations": [
+        1,
+        0,
+        0
+      ],
+      "parity": 1
+    },
+    {
+      "p": 31,
+      "omega_turns": "25/186",
+      "valuations": [
+        1,
+        0,
+        0
+      ],
+      "parity": 1
+    }
+  ],
+  "torus_local_unit_checks": 976,
+  "seconds": 0.20324120903387666,
+  "scope": "Small exhaustive controls, including required failure at equal valuations. General proof is in SAME_SIGN_CABLE_FILTER.md."
+}

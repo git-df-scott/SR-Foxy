@@ -1,0 +1,10 @@
+/private/tmp/sr-foxy-20260919-leads-venv/lib/python3.11/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+Traceback (most recent call last):
+  File "/Users/scottg/Documents/ChatGPT/SR Foxy/work/research-2026-09-16/results/astra_gst_five_hour_2026_09_19/suzuki33_term.py", line 11, in <module>
+    L,meta=parallel(word,[a,b]);random.seed(20260920);L.simplify('global');visible=len(L.link_components);missing=a+b-visible;meta.update(simplified_pd=L.PD_code(),unlinked_components=missing);(out/'INPUT.json').write_text(json.dumps(meta,indent=2)+'\n');Jet.order=precision;v=Jet([10,1]);delta=v+v**-1;start=time.monotonic()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/scottg/Documents/ChatGPT/SR Foxy/work/research-2026-09-16/results/astra_gst_five_hour_2026_09_19/variable_parallel.py", line 20, in parallel
+    L=snappy.Link(braid_closure=out);assert len(L.link_components)==sum(mults)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

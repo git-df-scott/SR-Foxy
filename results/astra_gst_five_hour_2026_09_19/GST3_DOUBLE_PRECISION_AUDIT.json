@@ -1,0 +1,26 @@
+{
+  "question": "Can the saved GST3 mixed traces supply the proposed exact (2,2) order-eight test?",
+  "answer": "No: both exact full AAB polynomials are missing, and the saved Taylor traces stop at order six.",
+  "formula": "N22=J22-a*(J21+J12)+b*(J20+J02)+a^2*J11-a*b*(J10+J01)+b^2; a=v+v^-1+v^3+v^-3; b=(v+v^-1)*(v^3+v^-3)",
+  "a_at_v_1": 4,
+  "a_jet_order8": [
+    4,
+    0,
+    10,
+    -10,
+    16,
+    -22,
+    29,
+    -37
+  ],
+  "required_mixed_precision": 8,
+  "available_mixed_precision": 6,
+  "implication": "The multiplier a has nonzero constant term. Unknown degrees six and seven in J21/J12 affect the two obstruction coefficients. Passing the lower mixed test does not determine these coefficients.",
+  "next_steps": [
+    "Use saved GST3 c0 Morse events and its matching TAYLOR_INPUT_PD; verify the diagram before recomputing at precision eight.",
+    "For c1, construct and save a seeded layout because its old result does not save events.",
+    "Build the four-parallel input, audit Catalan/state cost, and contract only under explicit caps.",
+    "Combine all traces at precision eight and check Habiro baseline degrees zero through five; degrees six and seven give the extra condition."
+  ],
+  "status": "Uncomputed; do not run current suzuki_double_colour.py unchanged for GST3 because stored AAB access will fail."
+}

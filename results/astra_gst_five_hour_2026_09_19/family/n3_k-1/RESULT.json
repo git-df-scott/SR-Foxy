@@ -1,0 +1,72 @@
+{
+  "n": 3,
+  "k": -1,
+  "source_status": "EXPERIMENTAL_TWO_FIGURE_SUPPORTED_FAMILY",
+  "input_crossings": 32,
+  "output_crossings": 100,
+  "components": 2,
+  "linking_matrix": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "component_determinants": [
+    9,
+    25
+  ],
+  "q_coefficients": {
+    "-45": -1,
+    "-43": 1,
+    "-39": 1,
+    "-37": -2,
+    "-33": 1,
+    "-31": 1,
+    "-29": 2,
+    "-27": -3,
+    "-25": -2,
+    "-23": 2,
+    "-21": 4,
+    "-19": -3,
+    "-17": -4,
+    "-15": -2,
+    "-13": 10,
+    "-11": -9,
+    "-9": 1,
+    "-7": 1,
+    "-5": 2,
+    "-3": -1,
+    "-1": 2,
+    "1": 2,
+    "3": -1,
+    "5": 2,
+    "7": 1,
+    "9": 1,
+    "11": -9,
+    "13": 10,
+    "15": -2,
+    "17": -4,
+    "19": -3,
+    "21": 4,
+    "23": 2,
+    "25": -2,
+    "27": -3,
+    "29": 2,
+    "31": 1,
+    "33": 1,
+    "37": -2,
+    "39": 1,
+    "43": 1,
+    "45": -1
+  },
+  "null_V": 1,
+  "det_V": 193,
+  "product_mod32": 1,
+  "det_V_mod32": 1,
+  "ribbon_gate_passes": true,
+  "scope": "Numerical construction and exact invariant of stored PD; GST source identity still requires independent certificate. Passing is not ribbon proof."
+}

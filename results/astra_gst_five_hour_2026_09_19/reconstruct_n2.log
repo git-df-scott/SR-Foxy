@@ -1,0 +1,9 @@
+/private/tmp/sr-foxy-20260919-leads-venv/lib/python3.11/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+Red sublink 0 crossings; unlinked unknot count 2
+Partial filling 18 tetrahedra Z + Z
+Meridian filled group Generators:
+   
+Relators:
+   
+{"n": 2, "source_status": "EXPERIMENTAL_SOURCE_TRANSCRIPTION", "red_unlink_reduced_crossings": 0, "red_unlink_components": 2, "pd": [[20, 44, 21, 43], [21, 31, 22, 30], [22, 63, 23, 64], [59, 24, 60, 25], [0, 24, 1, 23], [46, 26, 47, 25], [3, 12, 4, 13], [72, 32, 73, 31], [65, 28, 66, 29], [49, 10, 50, 11], [53, 7, 54, 6], [45, 35, 46, 34], [73, 62, 74, 63], [71, 45, 72, 44], [48, 57, 49, 58], [15, 41, 16, 40], [42, 14, 43, 13], [66, 11, 67, 12], [54, 19, 55, 20], [32, 61, 33, 62], [56, 69, 57, 70], [55, 37, 56, 36], [60, 75, 61, 34], [33, 75, 0, 74], [39, 53, 40, 52], [67, 50, 68, 51], [26, 48, 27, 47], [41, 5, 42, 4], [64, 1, 65, 2], [29, 3, 30, 2], [16, 51, 17, 52], [14, 5, 15, 6], [9, 68, 10, 69], [8, 17, 9, 18], [7, 39, 8, 38], [37, 19, 38, 18], [35, 71, 36, 70], [27, 58, 28, 59]], "crossings": 38, "components": 2, "linking_matrix": [[0, 0], [0, 0]], "component_determinants": [9, 9], "null_V": 1, "det_V": -143, "notes": {"jones": "1*q^-19 + -2*q^-17 + 1*q^-15 + -3*q^-9 + 4*q^-7 + -3*q^-5 + 2*q^-3 + 1*q^-1 + 1*q^1 + 2*q^3 + -3*q^5 + 4*q^7 + -3*q^9 + 1*q^15 + -2*q^17 + 1*q^19", "shift": -19, "order_of_q2_plus_1": 1, "det_V_imaginary_part": 0}, "reconstruction_seconds": 1.2146039009094238, "seed": 20260919, "all_reconstruction_checks_enabled": true, "exterior_volume_approx": "15.6792526732"}

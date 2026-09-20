@@ -1,0 +1,9 @@
+# Current handoff: checkpoint 9
+
+Read CHECKPOINT_09.md. No counterexample. Campaign ACTIVE until 04:41:43 UTC / 10:41:43 PM MDT; baseline 7%, allowance 14 additional points, stop at displayed 20%, latest 18%, same reset1790432260/61. No new allowance per wake. No local jobs running. Preserve paused GitHub35455048082 and all other explicitly paused long remote searches.
+
+GST1 Suzuki(3,3) q=-1 modular test is now COMPLETE: all13 traces combine to [0,0,0,0,0] mod101. No obstruction; not exact ideal membership or ribbon proof. Only missing23/33 traces retried from saved, diagram-signature-verified layouts;23 finished24s/58543states.33 first90s timed out, then completed170s/208009states under240s and210000-state limits. Failure and success records retained. Previous incomplete COMBINED archived. Do not rerun these completed traces.
+
+NEW prerequisite for GST3(2,2): both full AAB polynomials absent; saved mixed traces only six coefficients, but eight needed because their multiplier has constant4. Cannot zero-pad or run existing double driver unchanged. GST3_DOUBLE_PRECISION_AUDIT.json gives correction. Upgrade both mixed jets to order8 first; c0 has saved Morse events, c1 older result lacks events. Then audit four-parallel layout/cost before bounded run. All previous mixed(2,1) tests pass exactly; GST1/2(2,2) exact pass. GST3(2,2) remains uncomputed. Literal source-certified dotted-band transport is independent viable lead. No blind GST3 six-parallel run.
+
+Repo local3e4461e,remote2a07128 unchanged. research02 citation correction ours; preserve concurrent research50 and mixed_transfer. Runtime /tmp/sr-foxy-20260919-leads-venv/bin/python. Two displayed points remain before bufferstop. Final checkpoint at/before deadline or cap must pause automation. Do not close whole GST, coloured Jones or Milnor lanes based on modular zeros or projected theorem scope.

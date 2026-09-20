@@ -1,0 +1,8 @@
+{'n': 3, 'k': -1, 'exit_code': 1}
+{'n': 3, 'k': 0, 'exit_code': 1}
+{'n': 2, 'k': 2, 'exit_code': 1}
+{'n': 3, 'k': 2, 'exit_code': 1}
+{'n': 4, 'k': 1, 'exit_code': 1}
+{'n': 3, 'k': -2, 'exit_code': 1}
+{'n': 2, 'k': -2, 'exit_code': 1}
+{'n': 3, 'k': 3, 'exit_code': 1}

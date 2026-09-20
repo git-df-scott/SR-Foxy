@@ -1,0 +1,10 @@
+/private/tmp/sr-foxy-20260919-leads-venv/lib/python3.11/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+Traceback (most recent call last):
+  File "/Users/scottg/Documents/ChatGPT/SR Foxy/work/research-2026-09-16/results/astra_gst_five_hour_2026_09_19/check_suzuki_taylor.py", line 12, in <module>
+    name=sys.argv[1];ci=int(sys.argv[2]);d=p/'suzuki_mixed'/f'{name}_c{ci}';inputs=json.loads((d/'INPUT.json').read_text());polys=json.loads((d/'POLYNOMIALS.json').read_text());L=snappy.Link(inputs['full_cable']['pd']);L.simplify('global');(d/'TAYLOR_INPUT_PD.json').write_text(json.dumps(L.PD_code())+'\n');start=time.monotonic();r=probe(L)
+                                                                                                                                                                                                                                                                                                                                             ^^^^^^^^
+  File "/Users/scottg/Documents/ChatGPT/SR Foxy/work/research-2026-09-16/results/astra_gst_five_hour_2026_09_19/suzuki_taylor_jet.py", line 87, in probe
+    if max_states>20000:raise RuntimeError("STATE_CAP_20000_INCONCLUSIVE")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: STATE_CAP_20000_INCONCLUSIVE

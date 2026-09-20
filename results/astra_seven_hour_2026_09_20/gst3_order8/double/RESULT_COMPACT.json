@@ -1,0 +1,21 @@
+{
+  "coefficients_integer": [
+    16,
+    0,
+    -4576,
+    4576,
+    829880,
+    -1664336,
+    -32086288,
+    100421992
+  ],
+  "max_states": 704080,
+  "seconds": 46.876834040973336,
+  "precision": 8,
+  "last_event": 287,
+  "state_cap": 800000,
+  "time_limit_seconds": 600,
+  "memory_limit_mib": 1300,
+  "status": "complete",
+  "input_sha256": "14c2324a7320cb11089b519d132257e84f62422ab3b78c5b7afa7da69ab7ed38"
+}

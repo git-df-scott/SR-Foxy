@@ -1,0 +1,3746 @@
+{
+  "files": [
+    {
+      "path": "results/astra_2026_09_18_mixed_transfer/A_ENDPOINT.json",
+      "bytes": 79996,
+      "sha256": "d2a0a9c8414fbc2a9b52e7c39f2eddc6f4fddcbc10b649045adfae1999ec43b6"
+    },
+    {
+      "path": "results/astra_2026_09_18_mixed_transfer/CONNECTOR_AUDIT.md",
+      "bytes": 12543,
+      "sha256": "4f5795f4dd5ca0950f1efba853f4ed7de2821ecc1a89bcbf2940a5b2bfc4b268"
+    },
+    {
+      "path": "results/astra_2026_09_18_mixed_transfer/GEOMETRY.json",
+      "bytes": 17098,
+      "sha256": "b4b281dfff92fc0bf60705b9a672a38ab9b50a651a8b4d56ea6be2ef33d3629b"
+    },
+    {
+      "path": "results/astra_2026_09_18_mixed_transfer/LIMITATIONS.md",
+      "bytes": 4831,
+      "sha256": "31c527c279bf4df6437ac37784352d60d5436b309edd88897f748254cf2b404f"
+    },
+    {
+      "path": "results/astra_2026_09_18_mixed_transfer/LOCAL_MOVIE.md",
+      "bytes": 3791,
+      "sha256": "60c77bdd865d26cd321e9b0e7f45f60198a6a108f44a4c4d0d18ed247e34cae1"
+    },
+    {
+      "path": "results/astra_2026_09_18_mixed_transfer/README.md",
+      "bytes": 5500,
+      "sha256": "9a2965b665919bc633681aec55adb0dcfc753058647d6cf4c50e507b43fbdb05"
+    },
+    {
+      "path": "results/astra_2026_09_18_mixed_transfer/build_A_endpoint.py",
+      "bytes": 8380,
+      "sha256": "950f5f382cd4e3b5a19919b89ee93e7590cc84202493031bdb500e317c4deaaa"
+    },
+    {
+      "path": "results/astra_2026_09_18_mixed_transfer/build_geometry.py",
+      "bytes": 10029,
+      "sha256": "c4797e58906b6fb5de8b6ccfb0c051c47e4c73ec29bebad9dbd85a591e13f940"
+    },
+    {
+      "path": "results/astra_2026_09_18_mixed_transfer/check_A_endpoint.py",
+      "bytes": 6823,
+      "sha256": "ebe24ea0633bccc9c152440065dba4ecff75fa1fc7f4544d8ec022511481230f"
+    },
+    {
+      "path": "results/astra_2026_09_18_mixed_transfer/check_geometry.py",
+      "bytes": 6459,
+      "sha256": "0758e5d3710b0630c8ef9312a5480e666ff2d27df81c77cbca01dc6ec496a6db"
+    },
+    {
+      "path": "results/astra_2026_09_18_mixed_transfer/check_local_movie.py",
+      "bytes": 2886,
+      "sha256": "06097ec142869f3e99ea0b4f25740543d3b89d651de71e8066edcb6d5dd99228"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/CYCLIC4_WITNESSES.json",
+      "bytes": 1479,
+      "sha256": "0dd9fa81b0779189721982403173b3415cb59d4e850fac73934abb751798a59d"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/GPT_RESEARCH_CHAT_EXCERPTS.json",
+      "bytes": 14789,
+      "sha256": "6303176425768068f85ab53465bb0bbe44c453f02b73ac4aacdaa782c34c4074"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/GST_ALGEBRA_REPLAY.json",
+      "bytes": 510,
+      "sha256": "bb3bdbafe67d94f45518d29bac1ce40baa18906c0435e5ae6b5487f0a23595f1"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/HP_NORM_REPLAY.json",
+      "bytes": 968,
+      "sha256": "37036ff8ff86be7985f5990dfb9a9be929866fd30c8d6067ad18b9ee1cb18695"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/PLAN.md",
+      "bytes": 18156,
+      "sha256": "5b723572b38c23ebf5594d36e121e075d36343576f72216a0a58d5e2d0ffee35"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/REMOTE_REPORT_INDEX.json",
+      "bytes": 200928,
+      "sha256": "465b622b7705170e7d6b5ba99934020a515dcdadf9089f5b7fb50a0e1663c582"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/REMOTE_SNAPSHOT_FINAL.json",
+      "bytes": 155089,
+      "sha256": "ed7e4c136167d9f147383f8f0f1ffd69fd647dafe47e6ec3d7cf2b8cf6c11beb"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/SESSION_MANIFEST.json",
+      "bytes": 5630,
+      "sha256": "97423c898426e631d9a3d83df2f3a3810dbb98a98ec0ebf130d8a700a4ecc6d3"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/SESSION_STATUS.json",
+      "bytes": 615,
+      "sha256": "1f2885ad7c04d18f7802d0bafa606fc799f6789a9dbf704278dbcfc51b1a4341"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/SOURCES.md",
+      "bytes": 7475,
+      "sha256": "767336380f7834ccacf99d25311cf2a1e9ac49bfa3ab9919cef3b13054452ab3"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/WHITEHEAD_COMPONENT_IDENTITY.json",
+      "bytes": 8680,
+      "sha256": "b71029b3b8d2e546821ddb50ff8f9194cf39e621480f0d9b8706dd58b6e84a26"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/WHITEHEAD_COMPONENT_IDENTITY_EXHAUSTIVE.json",
+      "bytes": 8599,
+      "sha256": "a7982c06c7df0e2fff88fc6017168cce61ebbb7c551aa92f7fa5fd0a57a0a0ab"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/WHITEHEAD_IDENTITY_REPLAY.json",
+      "bytes": 9333,
+      "sha256": "48c0f3eea1c6931dcf61daa74aaca98ebb29508602a1540cbc44065931c3ff14"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/WHITEHEAD_SPLIT_MOVIE.json",
+      "bytes": 57214,
+      "sha256": "e83e81be21f5f50568bfdf52e46e95f89315b8dd49810320d03d5aecaed7ccb3"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/WHITEHEAD_SURVIVOR.json",
+      "bytes": 20340,
+      "sha256": "db4f612b098624b184095340e0ee5aa4501ed78477e23dfd0a4b31c57a3b07de"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/additional_2pct/D01_EDGE_CONTROL_INITIAL_FAILED.json",
+      "bytes": 26033,
+      "sha256": "20192bd26b1dd89629303b09ac16bfb210d9431e258bbe2fbf7c7b4cb88c56cb"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/additional_2pct/GST_COVER11_DECK.json",
+      "bytes": 1869,
+      "sha256": "a35b8187934778f9bf46b1acab086c740f6f369347b3ba4c87f1921f963d4eb5"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/additional_2pct/GST_COVER11_PADIC.json",
+      "bytes": 73584,
+      "sha256": "5c1801622b85edd991fb51bf0e1c671339e858adc379be81e6e76a1090e83128"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/additional_2pct/GST_COVER11_REGINA_CHECK.json",
+      "bytes": 731,
+      "sha256": "b69266a0c7c62dda6b669ab8d608cca425b691f6324b28cc6a45b1b9cf8a5b21"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/additional_2pct/GST_EDGE_PROBE.json",
+      "bytes": 1178,
+      "sha256": "b15135ec7d11e998afffb0d8ce6173f9e2688f9718367844ef4a853f5076c4dd"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/additional_2pct/GST_EDGE_PROBE_L4_T2.json",
+      "bytes": 1180,
+      "sha256": "e6022334c675c7fd5726cb4ebdb994d8517b00cb13722cbfc230e47146395863"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/additional_2pct/GST_NEW_EDGES.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/additional_2pct/GST_NEW_EDGES_L4_T2.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/additional_2pct/GST_SEIFERT_MATRIX.json",
+      "bytes": 39029,
+      "sha256": "ac199b252faa5947907ab88977011a09db56c0fdef795f5dc1c63a4e0a6af0c2"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/additional_2pct/RESEARCH_CHAT_EXCERPTS.json",
+      "bytes": 84991,
+      "sha256": "4e4d59c3378c6de25f16412921596e43afa35c92d6087bdabe8bfcab78f4729c"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/additional_2pct/RESULT.md",
+      "bytes": 8137,
+      "sha256": "5743555bdbe63d6e6a26a34cd11029dc8bd44ec59465512aca77b732ac0da06c"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/additional_2pct/edge_band_probe.py",
+      "bytes": 3906,
+      "sha256": "3ac33e95420026bb257c44dc951b5b4950ba985c4219f789c330c08633cd065e"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/additional_2pct/gst48.json",
+      "bytes": 1007,
+      "sha256": "cf28760f331644a4286baa2262a27a59d8c0ec6f02768e6329f236dd0559bf21"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/additional_2pct/gst_cover11.py",
+      "bytes": 1818,
+      "sha256": "5d8150c0765c0a280a480abcdb633bb51c23b72d0fea01315c2ee119946f19a7"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/additional_2pct/gst_cover11_deck.py",
+      "bytes": 1776,
+      "sha256": "fd9ee77605e9dbef3c7d88097d15d226c7512dd5a5967d20fe567ee5f626fd16"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/additional_2pct/gst_cover11_padic.py",
+      "bytes": 2402,
+      "sha256": "4eb30245ae9db4a0a97f4774b28e093e2e457bba4d2e76ec201c76ce1a8f05b8"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/additional_2pct/verify_cover11_regina.py",
+      "bytes": 859,
+      "sha256": "16216d08d7e65e6ced2b295c01e697071b748904904e545ed709b07da86db0c2"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/certify_whitehead_split.py",
+      "bytes": 2471,
+      "sha256": "8dd2b03fa6c7771e07681ae7f5724b105a400c503aeff9282c554ec35f933740"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/gst_primary/1103.1601v1-source.tar",
+      "bytes": 226403,
+      "sha256": "74916438512928f99f2969c096c9d3fb4acee2a4d65e01a2fb986d3fa7405354"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/gst_primary/1103.1601v1.pdf",
+      "bytes": 450916,
+      "sha256": "47921a77d6520d3ecbb79ce62e22244a6a21826c57bb4465cdf01e77ce40a9ec"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/gst_primary/Ln1.eps",
+      "bytes": 10972,
+      "sha256": "18ab5f13749a39c6242c3201e4d6872fbf71492512bea32a8920967a69d04214"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/gst_primary/Ln1.pdf",
+      "bytes": 5580,
+      "sha256": "303a58a44202442c76d3ec4d441507915d3f8657cc83c3807b2a2e12dd8a0b71"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/gst_primary/Ln1.png",
+      "bytes": 46482,
+      "sha256": "537bf0f22fe4e135dde181e57ddfae29f55b02659210cefe162c3c83ecae8c37"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/gst_primary/Lnk.eps",
+      "bytes": 9282,
+      "sha256": "9fc56280570b7093facc91e1442fa100bb9fe84584ad55daa199f6b55f63da54"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/gst_primary/Lnk.pdf",
+      "bytes": 5253,
+      "sha256": "cce39cc721cd5354536ed0016cfacb2e0378bd3de0c209f8e89fe58398358f4a"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/gst_primary/PROVENANCE.txt",
+      "bytes": 136,
+      "sha256": "7a666aef8ac426dcc234a31f9dbe84486beeb4275ae8a74d156ff4b3c88d1148"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/gst_primary/SHA256SUMS",
+      "bytes": 171,
+      "sha256": "774df6641b038e6c5a0aa1c4cdd12cf4798a1cbdabf294e96dc97b6e1ecd08d8"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/gst_primary/Text.tex",
+      "bytes": 115255,
+      "sha256": "9756878963d0e8bfccb8962cd899cd701253a7be558fd51b85af96bc36ea235a"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/gst_primary/sliceknot.eps",
+      "bytes": 7933,
+      "sha256": "b7fa3ea0d3d04cdd9f0a55393dc8faa27473d8b843367c47aa21c9951fd84198"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/gst_primary/sliceknot.pdf",
+      "bytes": 3492,
+      "sha256": "87729a6cb8c93998e3ff288119f04ea5f3cec7784073cb462bfc3ca2ae9f4708"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/pd_algebra.py",
+      "bytes": 4810,
+      "sha256": "5ddccc0ef84e4b0261a9a6be2408235a7cac43085e78cfe0950e9d14bed25a48"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/pd_moves.py",
+      "bytes": 1993,
+      "sha256": "15aa566c8500436973059cdc009e652966ff57551a0953455cc31cd65fd30839"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/probe_whitehead_survivor.py",
+      "bytes": 2041,
+      "sha256": "e8e5b364adb199e5e4f68c08491618dd16b508a15b3933fb79d4537dfe162c06"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/replay_gst_algebra.py",
+      "bytes": 1413,
+      "sha256": "d3f786872c36eae93d1fdd9ebbe6107494156a4b2cf3e93c4d48188e546a4b68"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/replay_whitehead_identity.py",
+      "bytes": 1666,
+      "sha256": "ec40fb6f8a30f181c00556ac07596afb334ac631ee4848f54de867a2842a03ab"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/requirements.txt",
+      "bytes": 103,
+      "sha256": "b295bfa4ac9002c57a0acdfe41fa65bca2a6311976d5b061b95203b2fa2937ac"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/verify_cyclic4.py",
+      "bytes": 5285,
+      "sha256": "fce484392e0be7c6db09a6abbcb33affed225982824bec641f1a46f6eba34bdf"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/whitehead_TARGETS.json",
+      "bytes": 3557,
+      "sha256": "f8d29220997a1e9e467b7da9f1920079e147d5a3c234a77cedf24f9842eaca98"
+    },
+    {
+      "path": "results/astra_2026_09_19_counterexample_plan/whitehead_replay.py",
+      "bytes": 17263,
+      "sha256": "f37fd54b10a8ebcc5f6f90d604e54e733cd7f33cbbd9baab60813fd9aa542035"
+    },
+    {
+      "path": "results/astra_D_test_2026_09_20/BASE_FACE_CONTROLS.json",
+      "bytes": 383,
+      "sha256": "423a911bbe572741a5b8536e167355d480baf15e88b1e64f929c1c86d0626c47"
+    },
+    {
+      "path": "results/astra_D_test_2026_09_20/CERTIFICATE.json",
+      "bytes": 2370,
+      "sha256": "739bdc419ae80d253e0ca455cebf3a02860326501378c688b0bfb9edaf3688c4"
+    },
+    {
+      "path": "results/astra_D_test_2026_09_20/EXACT_MARKED.json",
+      "bytes": 3991,
+      "sha256": "329dadd8dd499560f565b450812ce87708f0350e53b28431f18895a671b03cfb"
+    },
+    {
+      "path": "results/astra_D_test_2026_09_20/MARKED_SCALES.json",
+      "bytes": 16788,
+      "sha256": "20d8f80154a9f165d98475622859efb4a6c5fba6104cbd11a882158fdfc918db"
+    },
+    {
+      "path": "results/astra_D_test_2026_09_20/MARKED_TEST.json",
+      "bytes": 4853,
+      "sha256": "805e3155be645a5650ff367c74a8643bfe93c21eb57b53373f57560375c222a2"
+    },
+    {
+      "path": "results/astra_D_test_2026_09_20/NEW_SESSION_HANDOFF.md",
+      "bytes": 6153,
+      "sha256": "b14094796c8bfeaf37447456247d838c28a1029ca15c4383c784cd50d9be57e8"
+    },
+    {
+      "path": "results/astra_D_test_2026_09_20/RESULT.md",
+      "bytes": 7872,
+      "sha256": "639e15d5156e3b421b8d041024eb5870f8293ae671c1895011be29479257e2f4"
+    },
+    {
+      "path": "results/astra_D_test_2026_09_20/SHA256SUMS",
+      "bytes": 819,
+      "sha256": "9a569a2f7b7a58079a2fed9753811cc7a2866850863baef45a30a2d365ba10e7"
+    },
+    {
+      "path": "results/astra_D_test_2026_09_20/STATUS.json",
+      "bytes": 323,
+      "sha256": "128be81db7f815245286db9bb4ed46c11cf7aa32854ccbbd649ed3bdba296615"
+    },
+    {
+      "path": "results/astra_D_test_2026_09_20/certify.py",
+      "bytes": 2915,
+      "sha256": "a8341912ed4cbc737de930e8fc3d4907504308815d4f60552139754ac44a3ce0"
+    },
+    {
+      "path": "results/astra_D_test_2026_09_20/exact_marked.py",
+      "bytes": 1359,
+      "sha256": "6388d0f32abfef59d8ae6e1744b3ef76ca777a6df9c1e23ed9c3d66690388124"
+    },
+    {
+      "path": "results/astra_D_test_2026_09_20/marked_test.py",
+      "bytes": 2890,
+      "sha256": "0ed32fbe0fddc007ba3c773a25ce97280c0134ebf226d4e75151e40fceb6d9f6"
+    },
+    {
+      "path": "results/astra_additional_3pct_2026_09_20/CAMPAIGN.json",
+      "bytes": 580,
+      "sha256": "4d90560f38e9848944453c7b0834d387fb873cbc27a736557ba988bd6f62bbaa"
+    },
+    {
+      "path": "results/astra_additional_3pct_2026_09_20/CERTIFICATE_K11n91_K13n16.json",
+      "bytes": 42591,
+      "sha256": "f37d359e17a2d2a33e08866ee15e48216a226c3e739da54048c618a8e51ae9c0"
+    },
+    {
+      "path": "results/astra_additional_3pct_2026_09_20/CERTIFICATE_K9n4_K14n282.json",
+      "bytes": 24856,
+      "sha256": "533e10541296d1fa07fd895dfdd0602c1b0ab51970935cfd36a82ec0f786397f"
+    },
+    {
+      "path": "results/astra_additional_3pct_2026_09_20/ELEMENTARY_NORM_CERTIFICATE.json",
+      "bytes": 17865,
+      "sha256": "33d0f9b26413fbd7df8e446433c760114ca76a3cbd2291af8485b9742f234ec3"
+    },
+    {
+      "path": "results/astra_additional_3pct_2026_09_20/EXACT_FUNCTION.py",
+      "bytes": 4367,
+      "sha256": "9b3d1bef2f9e9daf33a24b97bba9e4fc81d6c06180d32ddf2b585886d088e184"
+    },
+    {
+      "path": "results/astra_additional_3pct_2026_09_20/EXACT_K11n91_K13n16.json",
+      "bytes": 4078,
+      "sha256": "7e982374513e68577ad4a3e6acdb77c5002b0ab73320d0b2c43902060d0c9a61"
+    },
+    {
+      "path": "results/astra_additional_3pct_2026_09_20/EXACT_K9n4_K14n282.json",
+      "bytes": 3168,
+      "sha256": "10675a203e2b5af7e3a28b80b3389606dc6b8a2f1d8f2d6a911ae668d4e97af8"
+    },
+    {
+      "path": "results/astra_additional_3pct_2026_09_20/EXACT_NEXT_PAIR.json",
+      "bytes": 3687,
+      "sha256": "0990726585e3482c00a2c1c147b1e2b411a84bc7f27e55ac4e1997a0e799090e"
+    },
+    {
+      "path": "results/astra_additional_3pct_2026_09_20/HANDOFF.md",
+      "bytes": 3708,
+      "sha256": "230c9f4647cb74085b8ff29b136d7031055a380db7c42f6caf999cf61365362d"
+    },
+    {
+      "path": "results/astra_additional_3pct_2026_09_20/INITIAL_AUDIT_FAILURE.json",
+      "bytes": 244,
+      "sha256": "0f645980f8af2a950aa68930b37a9fe5559079357a242f7cf61088abee6d0ae1"
+    },
+    {
+      "path": "results/astra_additional_3pct_2026_09_20/NEXT_PAIR_NORM_CERTIFICATE.json",
+      "bytes": 36680,
+      "sha256": "b109d74bf27e5ebad406cc6c2ccf7e999fb4aacaae8d33f401464bc41e6aa9d3"
+    },
+    {
+      "path": "results/astra_additional_3pct_2026_09_20/SHA256SUMS",
+      "bytes": 1703,
+      "sha256": "a3471271f31817473035b08054b08e335728d65c70f47efe31f587a678b3b1b0"
+    },
+    {
+      "path": "results/astra_additional_3pct_2026_09_20/SMALL_DIFFERENCE_AUDIT.json",
+      "bytes": 32038,
+      "sha256": "26ecbc080927f5b2ce4fa22a03874c9d391fee2d7f61bf202527300abb847307"
+    },
+    {
+      "path": "results/astra_additional_3pct_2026_09_20/SMALL_DIFFERENCE_PROOF.md",
+      "bytes": 5722,
+      "sha256": "6e131d7d4e1f2ae4df9d33274a02c5ea412229892611f0d86e6a96011a593c91"
+    },
+    {
+      "path": "results/astra_additional_3pct_2026_09_20/SURVIVOR_AUDIT.json",
+      "bytes": 21300,
+      "sha256": "2b7e65242e75201517b189b705ce567506b082fedfe9b50b94389ec9e3e35ff9"
+    },
+    {
+      "path": "results/astra_additional_3pct_2026_09_20/audit_small_difference.py",
+      "bytes": 3419,
+      "sha256": "2fa45b48de09a2385f045ef1efa65c0651e0ad743e29ddbd89ef9cf8a586ce98"
+    },
+    {
+      "path": "results/astra_additional_3pct_2026_09_20/elementary_norm_certificate.py",
+      "bytes": 2156,
+      "sha256": "eec80f35230eceedf1f39b0a47b34ad3c2c6b635e776f75c49704e612edb5a24"
+    },
+    {
+      "path": "results/astra_additional_3pct_2026_09_20/exact_pair.py",
+      "bytes": 2814,
+      "sha256": "517dcfa2215924ab9b0b01e0235cfec91d19350f6e51c858f060d97dc5a5f900"
+    },
+    {
+      "path": "results/astra_additional_3pct_2026_09_20/screen_next_pair.py",
+      "bytes": 2199,
+      "sha256": "4c4c662f4367ac2f92c2a45394aa7bf39e469339b60d4275fa84f8136fef253e"
+    },
+    {
+      "path": "results/astra_additional_3pct_2026_09_20/survivor_audit.py",
+      "bytes": 1732,
+      "sha256": "ba25bace54d2df9e88eb915fb90cc508dc0e75caaf46820a369eb928d2f37685"
+    },
+    {
+      "path": "results/astra_gst_4pm_2026_09_19/FIGURE2_REPLAY.json",
+      "bytes": 400,
+      "sha256": "504131fcd38cf224d427d695d4e47e336c86d51786e104470b09f6baebd09b11"
+    },
+    {
+      "path": "results/astra_gst_4pm_2026_09_19/HANDOFF.md",
+      "bytes": 4472,
+      "sha256": "ecb4035fb7f7efbf02a3ded5a56a422a3b0c5c480e424dee7e2ce6cffd8889b9"
+    },
+    {
+      "path": "results/astra_gst_4pm_2026_09_19/RECOVERED_PROVENANCE.json",
+      "bytes": 1037,
+      "sha256": "94b4ea22f198884a52c69bea2637102683868417ea82c08c73b0b7474da1dcfb"
+    },
+    {
+      "path": "results/astra_gst_4pm_2026_09_19/REMOTE_L11_L11_result.json",
+      "bytes": 1614,
+      "sha256": "7963af0e0c2ee62ff740d3f6e569b60275ffabbe9a45f8b3d44e9927440749bd"
+    },
+    {
+      "path": "results/astra_gst_4pm_2026_09_19/REMOTE_L11_README.md",
+      "bytes": 3262,
+      "sha256": "c63f39d2bec8337d816b572e7cf8348f5f0af691870632a6f0dab9a7911836c8"
+    },
+    {
+      "path": "results/astra_gst_4pm_2026_09_19/REMOTE_L11_RUNG2_BLOCKER.md",
+      "bytes": 3832,
+      "sha256": "c8cf6b66c38e346f85c9edf7f0b93d48c76238fe37c1ef8d2db9e50b399b5034"
+    },
+    {
+      "path": "results/astra_gst_4pm_2026_09_19/REMOTE_TREE.json",
+      "bytes": 1635461,
+      "sha256": "362a0eab5fcbe6ef008eb97e8efc3273cfebca1d22a5998470b29b3e11b28867"
+    },
+    {
+      "path": "results/astra_gst_4pm_2026_09_19/SESSION_START.json",
+      "bytes": 428,
+      "sha256": "d71963f5460e4c7160a4fce12577c59b34b532f4d27db2854e17073c18dc9ebe"
+    },
+    {
+      "path": "results/astra_gst_4pm_2026_09_19/SHA256SUMS",
+      "bytes": 1528,
+      "sha256": "320460022897c4a826becd905b833f39d123488fe86d797a3e6196e710494afe"
+    },
+    {
+      "path": "results/astra_gst_4pm_2026_09_19/USAGE_END.json",
+      "bytes": 172,
+      "sha256": "435dd7d8559745349728ea6ae0fef95ccb682c417d22c520b1455168d4d264a0"
+    },
+    {
+      "path": "results/astra_gst_4pm_2026_09_19/VISUAL.html",
+      "bytes": 867,
+      "sha256": "8f49b8407a765dc92e5a511f0332fc0f18df699aef0e47a97956538c7ddbfbe0"
+    },
+    {
+      "path": "results/astra_gst_4pm_2026_09_19/recovered/RECOVERY_LIMITS.md",
+      "bytes": 3964,
+      "sha256": "90d7d1e24aab4ad79e0f83aa65526c39e391b8b34493333bc2458970bc871092"
+    },
+    {
+      "path": "results/astra_gst_4pm_2026_09_19/recovered/figure2_identification.json",
+      "bytes": 21679,
+      "sha256": "c61d39bc681aa49313669c605e5cd1c4ab986906dd2c566ab656f4a23271abcf"
+    },
+    {
+      "path": "results/astra_gst_4pm_2026_09_19/recovered/gst_inverse_bands_c4.json",
+      "bytes": 1748113,
+      "sha256": "7e6e658a6d4764e4a3ab1af5e4439e8894479add1283d846daf95337a1640863"
+    },
+    {
+      "path": "results/astra_gst_4pm_2026_09_19/recovered/parallel_edge_audit.json",
+      "bytes": 72185,
+      "sha256": "743cc86845c4f11e025debe8c15252fefa8ed8001e873b32ace9e8c9ed0dc2ea"
+    },
+    {
+      "path": "results/astra_gst_4pm_2026_09_19/recovered/spherogram_multiedge_bands.py",
+      "bytes": 2568,
+      "sha256": "cc13c88a0c0d9aca8a8173f9622052eb530ef4930bc4b12f040d1c5d5687fafc"
+    },
+    {
+      "path": "results/astra_gst_4pm_2026_09_19/replay_figure2.py",
+      "bytes": 1483,
+      "sha256": "cd2297f542e1f86ffd68d11f45b7ffbf24ff5f184bda36ef02e17ef5b8f7295f"
+    },
+    {
+      "path": "results/astra_gst_4pm_2026_09_19/sliceknot.png",
+      "bytes": 27123,
+      "sha256": "61324f76b61685cf55cc14460f304d916c4526e09de921d33869f852277914c0"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/AUTOMATION_UPDATE.json",
+      "bytes": 2238,
+      "sha256": "0a57ebade9683511fb9e766c387bbed6c969d92283a0ccd4acae58d475f55005"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/CAMPAIGN.json",
+      "bytes": 900,
+      "sha256": "dce1a53e3d5d1a3ca66d06b00404dbc38cbca84a33822aa0f85365d9285489d5"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/CHECKPOINT_02.md",
+      "bytes": 3986,
+      "sha256": "5205e3c00ff5067339efc5f4248d31bd56c9651f201ee64ca8680ec487663bcb"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/CHECKPOINT_03.md",
+      "bytes": 10136,
+      "sha256": "37852f843c953df9abeee59a8f701c9d2ebf2e6094b910612ea8efb62feada8c"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/CHECKPOINT_04.md",
+      "bytes": 6744,
+      "sha256": "f303c2518e1a61171a698e56a8bdc4337c4a93d5508bf815f1f91fd87b57758c"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/CHECKPOINT_05.md",
+      "bytes": 7522,
+      "sha256": "eba437863d9fe22298034189e3cab537fa1720418a34bae09e4a09ab07dd70db"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/CHECKPOINT_06.md",
+      "bytes": 6753,
+      "sha256": "704f764c98a8de007f8d16ea0374bfb990f8fbe01bee9ec14bb9a65591519972"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/CHECKPOINT_07.md",
+      "bytes": 5842,
+      "sha256": "b24e2a790ec562103ddc20c3433d8d32bc65eeae3a72ff4f34efb123cea575ca"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/CHECKPOINT_08.md",
+      "bytes": 5211,
+      "sha256": "28211e82276c0394f84058220842d4ca639d5a4a9ed129b8ffd512630244fbdd"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/CHECKPOINT_09.md",
+      "bytes": 4765,
+      "sha256": "a88ca901c6e4fb77758048a35241b99400d6d622ad5f77eb7461db095a5a3e15"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/COMPONENT_JONES_CHECK.json",
+      "bytes": 1778,
+      "sha256": "a83d6b2280e0a21ff1793e93fa3316876686e785bf5198c53769249aaf7bb72a"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/FILLED_n-1.tri",
+      "bytes": 5783,
+      "sha256": "aef8cb44b75e4484c1f711df6d7601f8d5990b5187831613fc5b41c4b2edde3f"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/FILLED_n0.tri",
+      "bytes": 2544,
+      "sha256": "27c691bffd2e3bf455e50463b20cc1daf7fa928fbe94558bfdaf7eb3a36b37aa"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/FILLED_n1.tri",
+      "bytes": 4604,
+      "sha256": "c0197e2831f0649e62578a39eea73ebc9ca1413b4588d288389bf2318f60206a"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/FILLED_n101.tri",
+      "bytes": 2544,
+      "sha256": "7059aea0b6fbfb52eb5d16a624864ed6f53b0ee16bc0c6d4a58033c261f31f1b"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/FILLED_n2.tri",
+      "bytes": 5486,
+      "sha256": "94886398e7f21704468bafbd889e5d876d202becf3feee82d462d65b0d742171"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/FILLED_n3.tri",
+      "bytes": 6662,
+      "sha256": "0584d43597965ac127bd3049e42e426ec82f66c7af7854ca75f61ef02e4341c1"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/GOMPF6_n1.json",
+      "bytes": 22242,
+      "sha256": "89af8cf620fc03d434100f610c2e611c00d99f3359ca7af72352335d0facb25d"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/GOMPF6_n2.json",
+      "bytes": 24213,
+      "sha256": "94233a61ae25581a92b551850096d1bd0f16a2e877accb2cd675f96853ff570a"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/GOMPF6_n3.json",
+      "bytes": 26096,
+      "sha256": "2400fb5630250dd6d0a32880fc1b9a1f957ba2bbe898e45dd05f109fe8d2c19c"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/GST3_DOUBLE_PRECISION_AUDIT.json",
+      "bytes": 1338,
+      "sha256": "2ae873a2bf2084fee35c16efe1e2a2a9770cba4300942de37742153ee8d40498"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/HANDOFF.md",
+      "bytes": 1877,
+      "sha256": "eda59c649eabf3fa09ba7915eecaea534a6e2cce13e6b9a6f42c3cfa73a073c2"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/HANDOFF_CHECKPOINT_02_ARCHIVE.md",
+      "bytes": 8533,
+      "sha256": "e55bcb24781afb69fddb7c1e40dcbbf3cb86a0e6a8547836e59bd4be2785675b"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/HANDOFF_CHECKPOINT_03_ARCHIVE.md",
+      "bytes": 2915,
+      "sha256": "525515b2fbb914f3c7b3695347c0141a9974497039ad8b63140f50f8df420d45"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/HANDOFF_CHECKPOINT_04_ARCHIVE.md",
+      "bytes": 2343,
+      "sha256": "9b3e1e09e4be574a143313c0ff6d5cef9b5e3d90e233126358a5b8e70e328a41"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/HANDOFF_CHECKPOINT_05_ARCHIVE.md",
+      "bytes": 2244,
+      "sha256": "1e547142f3aacfc61aac07464d234e235287aafbf0eb69dce188814fde4afc46"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/HANDOFF_CHECKPOINT_06_ARCHIVE.md",
+      "bytes": 2328,
+      "sha256": "6dac6f9a6633aca35617b72af6767584a72cca9d0c5f0505666aa8e622501331"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/HANDOFF_CHECKPOINT_07_ARCHIVE.md",
+      "bytes": 2099,
+      "sha256": "cf74a10fc24555e22ae785a2bd4526aab9ade1edec9526d8d9c2e98d14ffdc13"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/HANDOFF_CHECKPOINT_08_ARCHIVE.md",
+      "bytes": 2035,
+      "sha256": "cf2dcb9c318a3076cf3d4131bb8fe3bf7fdccaa099c8ed1ae811f0f33bd8bcb1"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/HANDOFF_checkpoint01.md",
+      "bytes": 7896,
+      "sha256": "fd5f7cfbd909a63b8253c80423f94b5afeae1048f30a1fb6169823f9570d06a7"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/L11_CONTROL_COMPARISON.json",
+      "bytes": 2030,
+      "sha256": "151a2084b95817edf0629e21619629fe3c8c086c8b216ec2f57d462889a5cc0c"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/MOVIE_SEARCH_n1.json",
+      "bytes": 165,
+      "sha256": "3e6b7350ccd9758c3b97ea119fd085dbb5bfd7f28758cda5c385c5da259b6682"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/MOVIE_SEARCH_n1_rot.json",
+      "bytes": 12467,
+      "sha256": "667aacf4642c42baa2064fc246d29085a2c49c645efe7d99e4e0954861e36ea6"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/MOVIE_SEARCH_n2_rot.json",
+      "bytes": 24607,
+      "sha256": "422622e2a673c0ea3bec33467605a1ab4c9c169b3796760d14d74b2066f66d38"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/MOVIE_SEARCH_n3_rot.json",
+      "bytes": 19091,
+      "sha256": "d1d178e1f57e96656740468e171cb45009d8bfb7e7afb177366f3927171b8d83"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/PREBLOW_n-1.json",
+      "bytes": 16539,
+      "sha256": "c594ecf58b23fe9257fce2caac472dd42af25e11db0ddf53cd82111d2683a1cb"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/PREBLOW_n0.json",
+      "bytes": 14647,
+      "sha256": "565cc35d7851d66161d2363c425d5dd19a61a9d37be10da71961daa7515da711"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/PREBLOW_n1.json",
+      "bytes": 16778,
+      "sha256": "a2db12f38c744016d13b54f698a0c118c171a6cf35b04ce714838efa1b0285d9"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/PREBLOW_n1.svg",
+      "bytes": 9972,
+      "sha256": "607d8fc6b00a9c6dfb0059def6857585638179f782aa427c0400ebd207ddfc89"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/PREBLOW_n101.json",
+      "bytes": 16538,
+      "sha256": "a07183b28fadc076c56f4f0a71b71700c76d85cc461d7b675fb90d579dbcf24f"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/PREBLOW_n2.json",
+      "bytes": 18511,
+      "sha256": "4c3f3be4515e42ca78d3237976b3458adb5ceec5ad8d38d37c54c4b1b056cd07"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/PREBLOW_n3.json",
+      "bytes": 20799,
+      "sha256": "fb35fa67b81c3da8cd7befb098b12e6f6bbea43015b0f1848cda2159b4dde23f"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/RECONSTRUCTED_n-1.json",
+      "bytes": 2417,
+      "sha256": "7e48fc7cef962ab438b651841cbf2336c835b948fc1e5408fbacabae8c59e669"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/RECONSTRUCTED_n0.json",
+      "bytes": 1498,
+      "sha256": "a2e74e04e2c775001811615d7479d2f0324922252424ec1222cc38089857e4cf"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/RECONSTRUCTED_n1.json",
+      "bytes": 1920,
+      "sha256": "5bfd75ec5135f0db4d869ceb8df1dffef6c1f048b7e95014beaf2365d2d6b312"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/RECONSTRUCTED_n101.json",
+      "bytes": 1500,
+      "sha256": "7700e6c4570991cbc57252efb1c26f4e5f704687eabc21beb994067029153c2f"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/RECONSTRUCTED_n2.json",
+      "bytes": 3017,
+      "sha256": "58ecbb0faa6e6520043ae231a7caa0269f3b66b0c1f815e016abe8e0f224c119"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/RECONSTRUCTED_n3.json",
+      "bytes": 4377,
+      "sha256": "4f63d87131250b96f3f151aec492bcd4bf9d7b01895873d7a0fae0ddbaca973e"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/REGINA_JONES_CHECK.json",
+      "bytes": 6151,
+      "sha256": "6d60a2885a1670e2ecd8443887d9f116b2a873e5f4c665f5a4d26bace2b524fb"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/ROOT_JET_CONTROLS.json",
+      "bytes": 1615,
+      "sha256": "70a3a42e3d13c0fde8611d7868b1d9f8353e2fbe260158e032f7c06047d28b92"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/SELECTIVE_CABLE_CONTROLS.json",
+      "bytes": 6228,
+      "sha256": "bf419d3da597f49d9be8ad99285aa06df1f512ea1c210b663ea925b377f32480"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/SELECTIVE_CABLE_FRAMING_AUDIT.json",
+      "bytes": 2200,
+      "sha256": "b9a8f8251ab98f4a9d05b92ec057644351e618f752c46223b4fc81c9c34643e8"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/SHA256SUMS",
+      "bytes": 52238,
+      "sha256": "ff6a28789f106191b000efc38622358f97600d30d4e33c58f1812be2d646fc31"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/SIGNED_MOD16_SCREEN.json",
+      "bytes": 105,
+      "sha256": "733cb35be9efb7fc8995016626035bd0a5e618efeddd6fa8dfbe52a69a5d8ac6"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/SIGNED_MOD16_SCREEN_REPRODUCED.json",
+      "bytes": 380,
+      "sha256": "cb2aee3307feb47e37950f4b0c13840808d49352e81e0778c54d82f46acf9fc6"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/SIGNED_VIOLATOR_SLICE_SCREEN.json",
+      "bytes": 169865,
+      "sha256": "cc1f24b38a46e400a2bc19b82f7e68ff6841b9607b641670d234efa05fdcb58c"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/SOURCE_COMPARISON_n1.json",
+      "bytes": 1099,
+      "sha256": "12bc971f26485e8eb5b2451bb32c8d55e6321415cc79cfe685afcfd2698ce188"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/SOURCE_COMPARISON_n2.json",
+      "bytes": 1098,
+      "sha256": "daa137bb82a5b5b74752db29cd0941f611190b3cef2a39216f781d74f136962f"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/SOURCE_COMPARISON_n3.json",
+      "bytes": 1098,
+      "sha256": "a6f39942c84f048869f2e86380687b201dabaf5aeda698bd8a97a9e9cf1dac20"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/SOURCE_MOVIE_CERTIFICATE_n1.json",
+      "bytes": 1364,
+      "sha256": "c772b97a49566e36d92ad69fd267d96a351c3b28675b8c004cb6e674e7927e71"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/SOURCE_MOVIE_CERTIFICATE_n2.json",
+      "bytes": 1590,
+      "sha256": "cc014adade201c27cba5caa3a072b5954977ca205243ff3dbc041df34f2182a8"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/SOURCE_MOVIE_CERTIFICATE_n3.json",
+      "bytes": 1812,
+      "sha256": "a601d9bca88eec22d0677fd358cecf75b450e3a351395a4be286036fb5e2815a"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/SOURCE_REVIEW.md",
+      "bytes": 997,
+      "sha256": "801b62c1584ed580bdc6c3487fb356c49de0425b6e2a1d2f10466b97379f7af2"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/SQUARE_PAIR_ALEXANDER_CERTIFICATE.json",
+      "bytes": 4845,
+      "sha256": "7cf4bdb6ee9660a36451db9073b776a262d771feb9c463fa4bf2cd5f525432c7"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/SQUARE_PAIR_NONRIBBON_CONTROL.json",
+      "bytes": 9675,
+      "sha256": "5a517bb2d6bf1800dcadbde53b2bcb12c8b7e89b0eb50b6f1a8220f0ab77d60c"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/SUZUKI33_GST1_LAYOUT_LIMITS.json",
+      "bytes": 19658,
+      "sha256": "523c730350ec9efa8eac0462eb82a35a4bd6186d3e319133eb594b6f0f8d7cc5"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/SUZUKI_33_DESIGN.json",
+      "bytes": 5225,
+      "sha256": "df209bbccab7ac5c2d86f9e610d1b9fe9edfc719d8c7f2f6ecdb22facb129157"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/SUZUKI_DOUBLE_BATCH_STATUS.json",
+      "bytes": 437,
+      "sha256": "136c49a4f78d4beabe79128ac33fc785a5ef47de9e073c223a623e9a4da29ec5"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/SUZUKI_FIRST_COLOUR.json",
+      "bytes": 5637,
+      "sha256": "00076ec1715ec444e9d366bb113b9dda898fba9e9653dffaedc473c03092dd76"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/SUZUKI_IDEAL_TABLE.json",
+      "bytes": 1494,
+      "sha256": "5944456f28ff21cce47c869a8bf25185ccf99083f1eb5da426f34bbd6655c0bc"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/SUZUKI_INTEGER_GST3_STATUS.json",
+      "bytes": 91,
+      "sha256": "a77f6ead8a1d0a48de59e2633d20538651673688f7e1aa56657be911bba1c80a"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/SUZUKI_MIXED_BATCH_STATUS.json",
+      "bytes": 1283,
+      "sha256": "90bf509581d45f0e0fac54573ea8d915474cffd92c679bea36c10c00ec86b2c8"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/SUZUKI_MIXED_EXTRA_CONTROL_STATUS.json",
+      "bytes": 277,
+      "sha256": "8266bfce59ec0f7e28437ba788f9e41d5243ed17919c7c2ea228d6432c220509"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/SUZUKI_MIXED_SUMMARY.json",
+      "bytes": 1829,
+      "sha256": "9576d7d0dbea11fbdbc5accd6bbd35c8360d9e4d43d2926e74ff5e2117e47dbc"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/SUZUKI_TAYLOR_GST3_STATUS.json",
+      "bytes": 91,
+      "sha256": "a77f6ead8a1d0a48de59e2633d20538651673688f7e1aa56657be911bba1c80a"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/VARIABLE_PARALLEL_CONTROLS.json",
+      "bytes": 1350,
+      "sha256": "13bfea44da7bd8cb92be19a687b3af4d163cdf99d044799ecd3ad03aff07100d"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/bounded_root_jet.py",
+      "bytes": 5481,
+      "sha256": "9ea37cab2171bca1aa906d173a1aa40de3c22ca11db575b77d742e0f9d8cf43a"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/build_gompf6.py",
+      "bytes": 4503,
+      "sha256": "1c6e95b6f5961b9a42118d8a4c57ca36ce88a4e920f76df45ba9e231d4293c95"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/build_preblow.py",
+      "bytes": 6192,
+      "sha256": "c9dc3819059d9a833dcb49e0046a2714b806f8fde41c3c2ed26c900559573093"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/build_square_pair_control.py",
+      "bytes": 2797,
+      "sha256": "999ae60d202c69e7f1c4f0f9e0222ca7ae3d2ce3695e597e68aa532d7d1b08e0"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/check_regina_jones.py",
+      "bytes": 1395,
+      "sha256": "1da2f3093f27896eb42b981d539feb69b6c70dbc56c1ba73b66c9b9f54d4ccdc"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/check_root_jet_controls.py",
+      "bytes": 743,
+      "sha256": "69151758cacc6a67e2c17a81de83c733df07950825bc728b7d73742a4ac7c863"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/check_saved_morse.py",
+      "bytes": 821,
+      "sha256": "6e6d45797725d237f375eed00161e3df0f7f666f68f4491f771337feda8c7568"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/check_selective_cable_controls.py",
+      "bytes": 1029,
+      "sha256": "ea56022631530ad859359fe16b5b68d57be1962b72cf88d347c703024f19329b"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/check_square_pair_alexander.py",
+      "bytes": 1059,
+      "sha256": "d83a9de04a606489edf2f244255ebd7bf344ecf6bb1ccca44947ea8d6b0612c0"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/check_suzuki33_whitehead_full.py",
+      "bytes": 818,
+      "sha256": "92b37d5f39906e4807a84225876b3101e345c32d75c7e02ec18511831b3ff593"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/check_suzuki_taylor.py",
+      "bytes": 1731,
+      "sha256": "c0f62602bea6ddc0104b317de1d69c0c3621e857860fea3de1bfcbeeb6815f82"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/check_suzuki_taylor_all_starts.py",
+      "bytes": 1684,
+      "sha256": "e3b2fddb494e16c10cfa93a0ef4cc992d5ad213a55f0649cda16d1f529f9d666"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/check_suzuki_taylor_integer.py",
+      "bytes": 1739,
+      "sha256": "52011687eb9cf82dc741da13744c851c47368faa02de908b8077d1562c57d017"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/check_suzuki_taylor_integer_seeded.py",
+      "bytes": 1799,
+      "sha256": "6e724ed74171a356bfff8608490819cb75c4542b632b343683939c997c787745"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/check_variable_parallel.py",
+      "bytes": 678,
+      "sha256": "f616893d8531e28bd5532ef28e58d1bdc542e98e66acd447125deeddfd8aa321"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/combine_suzuki33.py",
+      "bytes": 1585,
+      "sha256": "54a820438543313da788725400a1e8ebc4622d14abc5f8e607f0fa6519db6234"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/compare_sources.py",
+      "bytes": 1314,
+      "sha256": "7e2ec17a5639f9a68a9ceea1f6f74b002e1ca0e6a38c171d5b44712a99af9db9"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/derive_suzuki_33.py",
+      "bytes": 1863,
+      "sha256": "82565cfb387ba01eee97f55d203cbc99d2cbc3c95c8722d97202ee8a337c97cf"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/BATCH_STATUS.json",
+      "bytes": 671,
+      "sha256": "03ca571f48ce91f88560c78ccbe0ac4fbac4af3845d831d71dd926a31813a1fc"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/INITIAL_IMPORT_FAILURES.json",
+      "bytes": 552,
+      "sha256": "b60c8317624698fb0bb786a0cfb5806db41df7b67116d9f2802c9fff7ff34c96"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/ROOT_JET_BATCH_STATUS.json",
+      "bytes": 323,
+      "sha256": "235aa736f751f54507d729178d2cc1d461e34874559b4c65678d1a0fa8cf2a5f"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n2_k-2/FILLED.tri",
+      "bytes": 8426,
+      "sha256": "f15c467572f743e1216065d1d8b57a4217d829ddc4e53d0508bdceca841f416a"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n2_k-2/INPUT.json",
+      "bytes": 24894,
+      "sha256": "3d6f598aa71da2a3ab27b197bf94d2add66df2ed01eccaa63c0d551a58dc55de"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n2_k-2/OUTPUT_PD.json",
+      "bytes": 3565,
+      "sha256": "7468a30a4bbabf91c6c93eadd554fac052f444b31a397784740dda2543f3e88a"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n2_k-2/initial_import_failure.log",
+      "bytes": 800,
+      "sha256": "ca0cacdf96ebb5e562450c6ca9e421b6ad3f40a9b44036be975b026091825274"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n2_k-2/root_jet.log",
+      "bytes": 1109,
+      "sha256": "c46037f054f3b1ac2eda726d7691fced956e3e96baeb060bfdf52c93987420d1"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n2_k-2/run.log",
+      "bytes": 235,
+      "sha256": "5b59e3020651d4c5faf61495253828b449d2195f1302ff5a8f223fa57b766f44"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n2_k2/FILLED.tri",
+      "bytes": 8426,
+      "sha256": "f32aa7e7a363ab161c1569a0191f3c8b87f1575bec52840ecdbb4ff7c3721cf3"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n2_k2/INPUT.json",
+      "bytes": 24893,
+      "sha256": "1595b12b09aa02489426b6b1c3d64879c3c51c2fb3fff422f6cfe307ccd1fdaf"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n2_k2/OUTPUT_PD.json",
+      "bytes": 2729,
+      "sha256": "a465d76767d24993ac9c5fe1b7e6259767dc3bba2aac379ce23c8242c5269261"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n2_k2/ROOT_JET_RESULT.json",
+      "bytes": 4798,
+      "sha256": "ff04da935d35317edf041f9b818e5f3a847f9db4557627c6dfe15d1afc8abeb8"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n2_k2/initial_import_failure.log",
+      "bytes": 800,
+      "sha256": "ca0cacdf96ebb5e562450c6ca9e421b6ad3f40a9b44036be975b026091825274"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n2_k2/root_jet.log",
+      "bytes": 267,
+      "sha256": "034da6e4b89714f8bb49b10649ec0744f7853b57ca541a10db731709238d28fb"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n2_k2/run.log",
+      "bytes": 235,
+      "sha256": "5b59e3020651d4c5faf61495253828b449d2195f1302ff5a8f223fa57b766f44"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k-1/FILLED.tri",
+      "bytes": 9014,
+      "sha256": "f31a171992894d3959d0df8d94c4e8df0085f43415fe5d2ad7ed1b0f8127a7fd"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k-1/INPUT.json",
+      "bytes": 20488,
+      "sha256": "5ef2f56ecc4c4192a9f20e2cbbc8cd1ee4dbfa6afb578877f4d341742dd3864d"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k-1/OUTPUT_PD.json",
+      "bytes": 1981,
+      "sha256": "6b31612eb0d413b182ab3e122d124e9a10916d47b114741732db258eb11107c3"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k-1/RESULT.json",
+      "bytes": 1159,
+      "sha256": "438af0679f4f4123228e7ea655c7f33bbf3908cab0088d4a7667564b633c55ad"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k-1/initial_import_failure.log",
+      "bytes": 800,
+      "sha256": "ca0cacdf96ebb5e562450c6ca9e421b6ad3f40a9b44036be975b026091825274"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k-1/run.log",
+      "bytes": 701,
+      "sha256": "00a2988019d451fcbc47530fcbccb5832773e6da673926462efac12364f6a340"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k-2/FILLED.tri",
+      "bytes": 8426,
+      "sha256": "368119502fd321d9274a0b3f4b82fd68c917fe792b791b57de1cddec743e1a4d"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k-2/INPUT.json",
+      "bytes": 26941,
+      "sha256": "7d1f4c35003f445841119aa232471c22615a3902f1ffe1b200645a73d8869ceb"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k-2/OUTPUT_PD.json",
+      "bytes": 4445,
+      "sha256": "86667de12e3542b5894c78d26934e11f39275edff304392d77cb31ddda0dbb35"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k-2/initial_import_failure.log",
+      "bytes": 800,
+      "sha256": "ca0cacdf96ebb5e562450c6ca9e421b6ad3f40a9b44036be975b026091825274"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k-2/root_jet.log",
+      "bytes": 1109,
+      "sha256": "c46037f054f3b1ac2eda726d7691fced956e3e96baeb060bfdf52c93987420d1"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k-2/run.log",
+      "bytes": 235,
+      "sha256": "5b59e3020651d4c5faf61495253828b449d2195f1302ff5a8f223fa57b766f44"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k0/FILLED.tri",
+      "bytes": 4604,
+      "sha256": "d1b5278d59a45039288633fc0a45fb24dae446a6a15ac50c832dbc1fcc27fc8b"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k0/INPUT.json",
+      "bytes": 13376,
+      "sha256": "324f08d23269242f2f7184e5c33f58d45cf85dc36fd2391a21ffd867ebff58ae"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k0/OUTPUT_PD.json",
+      "bytes": 449,
+      "sha256": "f54381eeeceb8cc6886afe5b9a42d586408a440285a5443a16048172b14fd568"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k0/RESULT.json",
+      "bytes": 765,
+      "sha256": "442b418a5f635d6326525d8f295210b262e7e440f934954721aa43ec05c92fe0"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k0/initial_import_failure.log",
+      "bytes": 800,
+      "sha256": "ca0cacdf96ebb5e562450c6ca9e421b6ad3f40a9b44036be975b026091825274"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k0/run.log",
+      "bytes": 697,
+      "sha256": "c7690b48c9a3350d5e8b45a95678f857a5bc15e94561db3d431cb24aa145c48c"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k2/FILLED.tri",
+      "bytes": 8426,
+      "sha256": "56266795b95d90aa7a4190b92f80cff52a4c718458832d80686aa17a21b741cc"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k2/INPUT.json",
+      "bytes": 26940,
+      "sha256": "2cc22d6e51e839192db03242f0af13494fd0c0ec56c069aec79ef92fc1dbcfa2"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k2/OUTPUT_PD.json",
+      "bytes": 3587,
+      "sha256": "901f9a054d4b851e0c54cabf9d5b51105db82df4f920f7f895d0871424d6396f"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k2/initial_import_failure.log",
+      "bytes": 800,
+      "sha256": "ca0cacdf96ebb5e562450c6ca9e421b6ad3f40a9b44036be975b026091825274"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k2/root_jet.log",
+      "bytes": 235,
+      "sha256": "5b59e3020651d4c5faf61495253828b449d2195f1302ff5a8f223fa57b766f44"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k2/run.log",
+      "bytes": 235,
+      "sha256": "5b59e3020651d4c5faf61495253828b449d2195f1302ff5a8f223fa57b766f44"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k3/FILLED.tri",
+      "bytes": 9308,
+      "sha256": "e6015a67b183575f2d0e99afae5a292d4c961a56e6ed6033553e6cedf3ab8a34"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k3/INPUT.json",
+      "bytes": 34834,
+      "sha256": "2ab264a81dfee93b37a18ec77f5d6d78e9fff9d642716c4aa9641a6a6121c2c0"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k3/OUTPUT_PD.json",
+      "bytes": 6601,
+      "sha256": "c71ee88e4e1067642fa522b7073e792687c342ee0d27ba76d27263c3a189e7fc"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k3/initial_import_failure.log",
+      "bytes": 800,
+      "sha256": "ca0cacdf96ebb5e562450c6ca9e421b6ad3f40a9b44036be975b026091825274"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k3/root_jet.log",
+      "bytes": 235,
+      "sha256": "5b59e3020651d4c5faf61495253828b449d2195f1302ff5a8f223fa57b766f44"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n3_k3/run.log",
+      "bytes": 235,
+      "sha256": "5b59e3020651d4c5faf61495253828b449d2195f1302ff5a8f223fa57b766f44"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n4_k1/FILLED.tri",
+      "bytes": 8720,
+      "sha256": "23080491be68a26c2fe5a35971aa8094a72d8d842f080322f8337f6ed3c7ea75"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n4_k1/INPUT.json",
+      "bytes": 22538,
+      "sha256": "94039eb7b457f4fc14bc36e2a7f9c6b0a48d6dd3eafddf1b30a252d70113fe70"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n4_k1/OUTPUT_PD.json",
+      "bytes": 1805,
+      "sha256": "6adb2e85a917770cc0cf3024125e031ac5f44054565ccbb1353bc52a8bf37162"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n4_k1/RESULT.json",
+      "bytes": 990,
+      "sha256": "2cc9f051a902dee4a46658c2ca709c7d337696fbc4351c7d154b37d7964875ec"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n4_k1/initial_import_failure.log",
+      "bytes": 800,
+      "sha256": "ca0cacdf96ebb5e562450c6ca9e421b6ad3f40a9b44036be975b026091825274"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family/n4_k1/run.log",
+      "bytes": 700,
+      "sha256": "7d607c99d8c39f44b8a9f0abe1f11a5c9ba5fe784a881e26313c858a1cf449b7"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family_batch.log",
+      "bytes": 267,
+      "sha256": "7ccafd84102c13b3209afe8fff166f69825cae3bc5812112c778e66e89ba8bdb"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family_batch_v2.log",
+      "bytes": 387,
+      "sha256": "0667e894d6ec1d6b61e94597b77f833206d4d2651f7b949fd99c7c7407e9cad9"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/family_case.py",
+      "bytes": 2963,
+      "sha256": "fd2facf5f368de77cbeeb29d42d53c2c60cb6d6bccc52dadea05265435bc9be4"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/movie_search_n1.log",
+      "bytes": 364,
+      "sha256": "af44d318aff9fd88bca2d22da2aea659f3c8d82024e10a7439ed116e6d6dee4c"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/movie_search_n1_rot.log",
+      "bytes": 344,
+      "sha256": "2237ff8024c241c8a263b8a05f6b7d8da0122d657f3aead545549dffa9625691"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/movie_search_n2_rot.log",
+      "bytes": 364,
+      "sha256": "8c041f00d79a779f793919a8b151a3e174bea27def5328e66ed8fb29038e6d04"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/movie_search_n3_rot.log",
+      "bytes": 335,
+      "sha256": "fd978b29fe4682fe7fe7c2a72a98885c03cc2ff1c01fdfaeb8347d4232d91b79"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/preblow_fusion/RESULT.json",
+      "bytes": 79694,
+      "sha256": "fd87f89cd20ae9b6770fc930ae7707d130fddc89f45731e34b79082dd2d251fd"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/preblow_fusion.log",
+      "bytes": 6984,
+      "sha256": "403f9f57b0e2895ffecbffe1d7347239ec5caa5eac411ddb17960dcea1200d3b"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/preblow_fusion_one_edge/INPUT.json",
+      "bytes": 32976,
+      "sha256": "448cf24273f74affa604a897c0d053ca18662f7108d3e28639c60647f58edf26"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/preblow_fusion_one_edge/RESULT.json",
+      "bytes": 696,
+      "sha256": "c5e520e2766d0cec90c239b678d600a192399ec777e1ec265af7b50b78cb941b"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/preblow_fusion_one_edge/ROWS.jsonl",
+      "bytes": 171996,
+      "sha256": "6a3c89ee5609eff96ddfedb92f87535315d5f97b2f5739955317a1761d0db454"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/preblow_fusion_one_edge.log",
+      "bytes": 795,
+      "sha256": "a7403ff082dff3b31a31aadc736690e038e99ad5ef39c6f16c50ecb88d09b6ba"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/probe_preblow_fusion.py",
+      "bytes": 3388,
+      "sha256": "ebd9c36e9f570a5d4ece35dd66190bb80c162c0b2585fd992838896ac6d872f2"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/probe_preblow_fusion_one_edge.py",
+      "bytes": 4158,
+      "sha256": "c68067a2bf1c131fcad825bb60ed46e14046baa6834a59e4ce0a52d1fb5f4c51"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/reconstruct.py",
+      "bytes": 1798,
+      "sha256": "12e60690cdad8a0b0ceb247ae3c3b735d2caca4fc095e0421923712d0ea722d7"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/reconstruct_n-1.log",
+      "bytes": 1493,
+      "sha256": "128628e7a620279441027777771bd358dcacf6b10e422acb48fefa0dd21d3dc4"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/reconstruct_n0.log",
+      "bytes": 1121,
+      "sha256": "19f5ca2ccba096ef15950954cc7917694f13d773d8792f8673e049319d4f3c80"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/reconstruct_n1.log",
+      "bytes": 1272,
+      "sha256": "43e3db3506d7faf9362184d6b4201eadcc4d46da18a755f9c3c13e501c01e248"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/reconstruct_n101.log",
+      "bytes": 1122,
+      "sha256": "1df2256c6fb741bf822486c89cad08891457a9bdb47b38b5aa90ae84566da4e2"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/reconstruct_n2.log",
+      "bytes": 1687,
+      "sha256": "3a2adfdb9e75697d63d58907ddc2bf0a5cf69eac03596ae18a3c17b4fe8c390a"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/reconstruct_n3.log",
+      "bytes": 2254,
+      "sha256": "fccf65297e30efe4bf1c33840746665ff8f2738d0029500679a741b5fc93aa0e"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/regina_jones.log",
+      "bytes": 529,
+      "sha256": "2c58b27a733cb6e0d433090b692914634b68f1ad509462494de8f4d2ad231786"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/replay_source_movie.py",
+      "bytes": 2726,
+      "sha256": "2cc04acedd560c77b99a575ee62b013089747b92bc2618cea07d33a439ab3306"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/retry_suzuki33_saved_layout.py",
+      "bytes": 3863,
+      "sha256": "0e3e5a7f112b93f87865da750b349032ceff0a02d3c66e2f462eb4a8fc8911fe"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/root_jet_batch.log",
+      "bytes": 225,
+      "sha256": "3adf2148c82093b19c6d0d5893611f6958ca9506d868abeed0397bd915ccde17"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/run_family_batch.py",
+      "bytes": 815,
+      "sha256": "f2df75a1cf1d8b2a5f451fc469d216eb6120a4ecdfde12b2e9e8b54e683c5e37"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/run_root_jet_batch.py",
+      "bytes": 695,
+      "sha256": "a64eff79874ae5b63a194a72cdb012f613be7f6a5832a853ba204b1b78b3dbaa"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/run_root_jet_case.py",
+      "bytes": 1231,
+      "sha256": "f035abf7b5aebcb50da5d41739e1f4a661a6c409fe2d2d1188c4d8f3ba74aa13"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/run_suzuki33.py",
+      "bytes": 689,
+      "sha256": "5952195cb07c2f5b24803edb824af294b0222f9efd418b2ba34c60f97b672e80"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/run_suzuki_double.py",
+      "bytes": 691,
+      "sha256": "8edfbbfc2a8310e71f079eecb2286cd6a0120cb9076872d092d804418609ff84"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/run_suzuki_integer_gst3.py",
+      "bytes": 579,
+      "sha256": "d4d4d878a0400df23fe68cd014e4bceee7c457c510c9d3910bfe91d3064b169d"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/run_suzuki_mixed_batch.py",
+      "bytes": 837,
+      "sha256": "efd109377098afc7cd16d321359199848f395ea5b8def63a2885a30927dad2d1"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/run_suzuki_mixed_extra_controls.py",
+      "bytes": 690,
+      "sha256": "341983f3b83cbd77c98283f31307cb2e48e3f4a4922fdab20ae7efa50b50b7ec"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/run_suzuki_taylor_gst3.py",
+      "bytes": 562,
+      "sha256": "60ccf760963994564a5df3226c824f76691660e795182883dc7141b6ed354b16"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/screen_signed_mod16.py",
+      "bytes": 914,
+      "sha256": "85e6a84df918a13e58f87d370d46a89a6848641142b87fee1b9ac0a42fa091b8"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/screen_signed_violators.py",
+      "bytes": 1478,
+      "sha256": "11c83da074660140a2cdbab6fd1e596b2937484963cc8ca7b15156ca025e9ac6"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/search_source_movie.py",
+      "bytes": 2270,
+      "sha256": "768f3e56cde31a8f4f72fe969dfe13de5dbf1fc500b32dfede81087032113d38"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/selective_cable.py",
+      "bytes": 2186,
+      "sha256": "5d879b7212c628396b45a1273fc4c97195c9853dd27451e7319881e9524d8b74"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/sources/54_theorem2_is_one_bit_in_the_L31_regime.md",
+      "bytes": 5047,
+      "sha256": "a4b2f0f41a0c7a520f9cd204d94712d81996691bd91d74b3fc4ed06eddeb60fb"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/sources/CHECKPOINT_04_SOURCE_DOWNLOADS.json",
+      "bytes": 476,
+      "sha256": "a720fd7e82287899b95a9f4ed39c888cfebd8da2355293afbf526c2c32d43471"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/sources/CHECKPOINT_06_SOURCE.json",
+      "bytes": 465,
+      "sha256": "6758c2d2f075b79ca5a770953694cae89393d0bf9017973f679f785b4dc58b63"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/sources/CHECKPOINT_07_SOURCE.json",
+      "bytes": 712,
+      "sha256": "ecc9aaaf9b4388d93187777047f66d027dbe70cc2ae4c77362bd994724666e67"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/sources/Gompffig3b.eps",
+      "bytes": 28801,
+      "sha256": "684e183d5e457d1068602a34c8009268ef22cc1ee99e377fa9f708e2f959cbac"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/sources/Gompffig3b.pdf",
+      "bytes": 6232,
+      "sha256": "eb895b7cb67e26dbab574f61b2b5ba82be94d32359e5adf9202402e951c9ae01"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/sources/Gompffig4.pdf",
+      "bytes": 7175,
+      "sha256": "696fb3038010ef324cd2fcb5512ba6a1edde1c220730a1c3a14552ae3451e70b"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/sources/Gompffig5.pdf",
+      "bytes": 4204,
+      "sha256": "bca480ba0c3d8e5d88b75d4b0823884272c0edf96bbeb030ae693ca761fde030"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/sources/L11_result.json",
+      "bytes": 1614,
+      "sha256": "7963af0e0c2ee62ff740d3f6e569b60275ffabbe9a45f8b3d44e9927440749bd"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/sources/compdet.py",
+      "bytes": 2995,
+      "sha256": "d45bb8455b5d3421abea88ed4538cb7c3fa9c6cc9b1eb63b06cf33410081406d"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/sources/example.eps",
+      "bytes": 11597,
+      "sha256": "520709b40d647d562defdf9f7d413bde85a3f8d63dd673279bf0630a0b9daed1"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/sources/example.pdf",
+      "bytes": 3787,
+      "sha256": "d5c38d569ffa5e3797d0de4d64263eb1859ad964a434941d0ffc1e9ed6d78f39"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/sources/example.png",
+      "bytes": 62512,
+      "sha256": "b85629b11e1ab7df1ac7e4a3bed7c10a8c0a9971db15a38a0431eb9d07013394"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/sources/ghmr/README.md",
+      "bytes": 13299,
+      "sha256": "1db916ecd5d4e8a2a4f252f3c0370b2376565ca562ffe8b8ae9fbfccf7ecfd9d"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/sources/ghmr/ribbon_example.ipynb",
+      "bytes": 18003,
+      "sha256": "f86bd53b14b7dd2784b1a07d789a0c0910be55812549727de2aaea4aaa4fb798"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/sources/ghmr/test_ribbon.py",
+      "bytes": 9108,
+      "sha256": "39861c76a19f392a5080a8a3cfa2f26781220a13b18f77ea5d8fa00d0d566729"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/sources/gompf6.eps",
+      "bytes": 13390,
+      "sha256": "552ab7d051520eae7500afd13228c789ab5d4e4c95663e14b8b78920ec187b29"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/sources/gompf6.pdf",
+      "bytes": 4023,
+      "sha256": "1d76018be480fd065955fc0ecb3feb926efd3fe1ced2f869761d44c4fc07144f"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/sources/gompf6.png",
+      "bytes": 69914,
+      "sha256": "4ecb0a9dd0eaa51ea0ebf8a9128b8934fd936d398d47bfd75c41a4b0533efa4f"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/sources/meilhan_suzuki_milnor_1405_3062.pdf",
+      "bytes": 438177,
+      "sha256": "4d95c1f016ddb47921aecae335ce77b09a4dc7b45966b0c2034a8c4b731287d7"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/sources/suzuki_2010.pdf",
+      "bytes": 420196,
+      "sha256": "0ee7c318ee8f11c2e2fdb1736b96424c5355cccb425a48cf5e8693b74b56c618"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/sources/suzuki_ideals_RIMS1733.pdf",
+      "bytes": 120175,
+      "sha256": "4fd965fc5d610fb3f0ae63507b2344835f3177dc52fdd0166f9628d0fe80a8ad"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/sources/teeth_rows.json",
+      "bytes": 71030,
+      "sha256": "5c7b19bc26124985fa7a0805bb55553088dd3df4fa32190219c76d877192da81"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/sources/virtual_covers_II_v2.pdf",
+      "bytes": 364636,
+      "sha256": "42e8f83dbfff33300f3ad570308a41cb22fc3def5598d422dbe71013dd33dd05"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/02/INPUT.json",
+      "bytes": 3811,
+      "sha256": "e60dbf8ffa8cfdc8581fa1026fb463d0ffe7dbd718800c243a6731cc326313bf"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/02/RESULT.json",
+      "bytes": 2127,
+      "sha256": "58cd9d138656609eaff032fe7d048228d75a1617d69845b2bddd11c9a95c7f89"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/02/run.log",
+      "bytes": 670,
+      "sha256": "de993ddfb492d0ee3edb1cef6fd88ea341cd066e5d67f8ca3a884a2104594c4e"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/03/INPUT.json",
+      "bytes": 7912,
+      "sha256": "04afb04f9d640219b01cfe1b3ce1623166d71035ac607519ea1233d2bd83c064"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/03/RESULT.json",
+      "bytes": 3878,
+      "sha256": "a2382f8c9988f9ec142a352d27f12df5c6fab4db3f2c1403df5d857295fcf39b"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/03/run.log",
+      "bytes": 637,
+      "sha256": "40043fd14c2fb9af81e69783b8974e6cfb000e07e4a25675104d941bac92fb41"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/11/INPUT.json",
+      "bytes": 3975,
+      "sha256": "9d7d7a4a3cc57d5abfa2818f260a2129f2a8a6f67fd61e458253eccea090dc57"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/11/RESULT.json",
+      "bytes": 1771,
+      "sha256": "8d921c3d2acd19f1daac219ff005a7c2930d1214ce94427b1595b375a7d6c9ce"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/11/run.log",
+      "bytes": 670,
+      "sha256": "e2be2a5b46d6e7b95ef6a03975ff53215fbe63316e81f6dcbebcdc9c59017486"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/12/INPUT.json",
+      "bytes": 8348,
+      "sha256": "9fce7ec98e6bea424d0b2b84841be66afe5f0e172dcef91c788e059fdfe98e80"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/12/RESULT.json",
+      "bytes": 3437,
+      "sha256": "e01dc90b34b7f97eab5b8e00c71577c74df248ea27e9d81025bd83318fdf4d9b"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/12/run.log",
+      "bytes": 637,
+      "sha256": "c7d01f639b6ebf784bfaca5092f127e8dc7fdf9265b14898076ad258e7ff71d0"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/13/INPUT.json",
+      "bytes": 14611,
+      "sha256": "7ef07c74895ff5d3b5784dc0838774747b8abb10c1e706b5ed28018052b46c7d"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/13/RESULT.json",
+      "bytes": 5698,
+      "sha256": "dc77c403f0c234a77551d10de4392cbd90af5825b6721e229eb0ff17a7070519"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/13/run.log",
+      "bytes": 642,
+      "sha256": "51abad1b480693b4e86cd28fed5e253ec143e44178c1cadf4397aca6b9f57e8d"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/20/INPUT.json",
+      "bytes": 3533,
+      "sha256": "f9655eefc1ac1fe12fbeb1fe9b973764a962701db8136a3a6dbe76c92a31f975"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/20/RESULT.json",
+      "bytes": 152,
+      "sha256": "9e36296d53c913171309e97a0709f9e535326fc2678101aa97eca8b71be60ca1"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/20/run.log",
+      "bytes": 363,
+      "sha256": "2cd234dfeec8e92937e6be2bcf692e2f06f981d9166620cfda8c48e26e34df53"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/21/INPUT.json",
+      "bytes": 8184,
+      "sha256": "c263e0d1b9dde1f00c99516836b5ac94fcca1b63d5314737e5ed865cce8d79f5"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/21/RESULT.json",
+      "bytes": 2405,
+      "sha256": "c9b0dc146e76aea3505baec673759caa2e324268d221730d946f110af5f8b932"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/21/run.log",
+      "bytes": 674,
+      "sha256": "a7f6a563fe7e8b6334b3659e6242ae31695fa083ec8af5ac4f551ba9bc0403d1"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/22/INPUT.json",
+      "bytes": 14643,
+      "sha256": "b128403e2f2df754859d28f8b1ddbb47906b04c749baedcd619559f5f851925a"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/22/RESULT.json",
+      "bytes": 4629,
+      "sha256": "a03868e5b91fa9b5a5dad50c90be16710a5d7698dbf4bb29740c4724d037c1d5"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/22/run.log",
+      "bytes": 641,
+      "sha256": "cdbb44cd91b98f0f8e573aafac0fca705a6c710cae0e0ce716a50bf5037976d0"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/23/INPUT.json",
+      "bytes": 22924,
+      "sha256": "720d53760e41c65c0ebae1af15a1649728bbb2d370bf16e50b93bb81ea6429e3"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/23/RESULT.json",
+      "bytes": 8109,
+      "sha256": "b5a178cf14c25a008df4f058e6ac878096b25bb105903fb27b1cfbf16a3bc1e6"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/23/RETRY_CHECKPOINT09.json",
+      "bytes": 8109,
+      "sha256": "b5a178cf14c25a008df4f058e6ac878096b25bb105903fb27b1cfbf16a3bc1e6"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/23/run.log",
+      "bytes": 974,
+      "sha256": "286e2080e194f49d44a8838be8a3f054492fb74746e9ba3f47dba5cff54df6e1"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/30/INPUT.json",
+      "bytes": 7422,
+      "sha256": "086d578351355c1068b1b2e1e6e91558836595761892b3ae292520abb992b1c9"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/30/RESULT.json",
+      "bytes": 159,
+      "sha256": "2e7b3a478b24e1bb0fe667cd0715d0a18aa77f483c49b92530f00c71ccc279f8"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/30/run.log",
+      "bytes": 366,
+      "sha256": "4f9adeebd3a9f67bd8a0e4c835184e4c0282e26f92de8f5ad4421838bde8baef"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/31/INPUT.json",
+      "bytes": 14033,
+      "sha256": "8031cba37558f7a928321211435c7e83862c08418203f3bc70f7e49b4afef7fd"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/31/RESULT.json",
+      "bytes": 2997,
+      "sha256": "761fb4ce1a655190a5a5c70b536968eeb8ee946f51a4d405a7c0f0ae1cdbd8ce"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/31/run.log",
+      "bytes": 638,
+      "sha256": "19d60219195de77e17f1e516487b5993bed62cfdd2cb8bf38cf6057385f71e2c"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/32/INPUT.json",
+      "bytes": 22538,
+      "sha256": "6735acb27f3b8d7de8000e86de5701a9dec8824245814da4d0e6c7544242979a"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/32/RESULT.json",
+      "bytes": 5834,
+      "sha256": "92e05f856693052e77818480aa41414f7a7224df7bc2f54dbc2c6c098531cd0d"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/32/run.log",
+      "bytes": 644,
+      "sha256": "09e784e5cdbd1ee7b98d06506379d377bc9c4922e7880245a4bba75e8d388fb2"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/33/INPUT.json",
+      "bytes": 32797,
+      "sha256": "7f5d99af9c8037ec7793650f62833f31efba7161d7152c1872ef927d3016664c"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/33/RESULT.json",
+      "bytes": 10215,
+      "sha256": "47be2978e5841add28fce678e5db879d3d402fc5f6b5ac6afe8c53a6c7e47731"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/33/RETRY_CHECKPOINT09.json",
+      "bytes": 1229,
+      "sha256": "99cb30bdbcbe451949ea63aa9297454ec8f98796accbd469fddee8bf66c7db36"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/33/RETRY_CHECKPOINT09_240S.json",
+      "bytes": 10215,
+      "sha256": "47be2978e5841add28fce678e5db879d3d402fc5f6b5ac6afe8c53a6c7e47731"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/33/run.log",
+      "bytes": 974,
+      "sha256": "286e2080e194f49d44a8838be8a3f054492fb74746e9ba3f47dba5cff54df6e1"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/COMBINED.json",
+      "bytes": 2077,
+      "sha256": "0b01566c66fdc63b619110c14fcf7cffc682a591949ef9ea942145100e66eadc"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/COMBINED_CHECKPOINT08.json",
+      "bytes": 1810,
+      "sha256": "d470d5e77e9714e01000f9973b279b50e6fb6c524b3449476ceac69cb6ad2a9d"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/GST1/STATUS.json",
+      "bytes": 679,
+      "sha256": "11831e6dea0a35073613a5611dbcc752a803d86bee4c0d6917df55c3f95f56eb"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/02/INPUT.json",
+      "bytes": 3673,
+      "sha256": "6b3d3675879d08d7cba0c9ff30090fd9b00c30029293dc20dcb42b5e410338a0"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/02/RESULT.json",
+      "bytes": 2129,
+      "sha256": "d7922d3b0e993c035f878cd0ffeb668ad69eb63c47e7f8f788176c488b158f81"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/02/run.log",
+      "bytes": 672,
+      "sha256": "8086879e6aaf41f57d35315afeabda99d4f639827d8c1a7049585ea4cdd3517b"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/03/INPUT.json",
+      "bytes": 7774,
+      "sha256": "3e19dace78ef1591f51c26ebfa8146719d4521830836d3832593df92a0ada18b"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/03/RESULT.json",
+      "bytes": 3791,
+      "sha256": "29f466d1a0c23a0d007198ecaa22e58b83f58b7c539c8db6393a91afe9c7360a"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/03/run.log",
+      "bytes": 638,
+      "sha256": "c5db8f118b58ff71016337b5bcc3bdcf0565213e3ae4912043f0adf59293728c"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/11/INPUT.json",
+      "bytes": 2469,
+      "sha256": "9bc984338d4dc2c9aa4a994d369f4586b4ad6ccc7bec8d0d5985cad042e63076"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/11/RESULT.json",
+      "bytes": 1325,
+      "sha256": "2ec8c3dd2d5941e4a67a9bb90079d5605cabc4702f3fbcaebd6ca82393fb8944"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/11/run.log",
+      "bytes": 670,
+      "sha256": "28721493becfa2bc98e4899aac6d04d2ccc7d89aafb2b244721b18f77c191194"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/12/INPUT.json",
+      "bytes": 5852,
+      "sha256": "2f79e8dc50ecd27fbd23788a251b3a4f1c755e184057db73d601c7a6c6261324"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/12/RESULT.json",
+      "bytes": 2583,
+      "sha256": "e3602abdc6fa194d3718eb4aef4656ecd769498079ef36bee0ad1a0e66ba55fe"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/12/run.log",
+      "bytes": 676,
+      "sha256": "fa1feb722205a99c04c31daec31201fc18f82c73eef698ecb60e7c6632c3b0dd"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/13/INPUT.json",
+      "bytes": 11073,
+      "sha256": "5c405e4ff114d36395bf74c785ffdb0db56afc251224039cf11dd25c1d085cc2"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/13/RESULT.json",
+      "bytes": 4521,
+      "sha256": "f3d231adeb522e8b774db51caa44e9ed513ffd5287367e30d523413b1af693e4"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/13/run.log",
+      "bytes": 642,
+      "sha256": "0b1d315658d9736314757d6acad51d1d3f49f6f934c8cc81c57d766acdde4e67"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/20/INPUT.json",
+      "bytes": 1491,
+      "sha256": "4cbe61126e8f0a94b47e0a8649e7bff1d4326e8c521a520f2dd120f1ed94dfb4"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/20/RESULT.json",
+      "bytes": 155,
+      "sha256": "99bb372bb44034a90df753f1fe7eb50922ed224ca9aee355335935fac7775fe4"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/20/run.log",
+      "bytes": 366,
+      "sha256": "533801cb750361bdc2d12793bacb779c1cadfdf334e50513d05bbd616fe8cd90"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/21/INPUT.json",
+      "bytes": 4162,
+      "sha256": "8b6e638625b04b952c29c745d676743235d161258674c3327d3b9165dae065a8"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/21/RESULT.json",
+      "bytes": 1598,
+      "sha256": "b605cdb07e8129564250d9d72435ea0ff41f43c3ae4ae027dabb1479ba46ea4f"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/21/run.log",
+      "bytes": 673,
+      "sha256": "2977b105da21fdfedcbe931346c2bd6cb0dc9787dce96ff8e0797ed6d652fde7"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/22/INPUT.json",
+      "bytes": 8635,
+      "sha256": "9be1aeef19efa64462f1980f95aee183eec95b86d5701b4d0f9ce7437d65c47b"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/22/RESULT.json",
+      "bytes": 3038,
+      "sha256": "5c22563fd8f72d1dc9df05b39e0a0073e438b05c1d96042e02f72d45b3e07b84"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/22/run.log",
+      "bytes": 681,
+      "sha256": "5f0478b40c7d6769e2dd62210a1077dd13fc6326401ee7038dda638505ac2916"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/23/INPUT.json",
+      "bytes": 14938,
+      "sha256": "16e8dabd5be8295b7dfbbcc62c4751b3d80fe6ecd46ac01c6001b59afd4d39a9"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/23/RESULT.json",
+      "bytes": 4979,
+      "sha256": "97def0e4faabcdad93a388a76c414be6d11f5592798470bc01d90ae7e211960c"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/23/run.log",
+      "bytes": 644,
+      "sha256": "f5819404508dd299feec952176e018bcc223a210ad1f8b7fe96f11d578637f0a"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/30/INPUT.json",
+      "bytes": 2738,
+      "sha256": "c96324ddcc8ca10c1b74f74a01f78581f773533b7d000403a8675afdab8b2809"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/30/RESULT.json",
+      "bytes": 161,
+      "sha256": "34964f48423f119a1b36ab76be79d63692c41931539172226ae965814b9b7ed2"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/30/run.log",
+      "bytes": 368,
+      "sha256": "515f8f02819e5584b848b3be410ca6413bf50e30cf0ac034400441312f0ebce7"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/31/INPUT.json",
+      "bytes": 6475,
+      "sha256": "fbd534ed29bc2fbb5ca92e355f06d154afb12e951442647f1e5f1c6d6cb4b797"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/31/RESULT.json",
+      "bytes": 1872,
+      "sha256": "19ce3469f3746b54f784623068bf94e883d4bfda65ce4c37b01ae649483f6db8"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/31/run.log",
+      "bytes": 677,
+      "sha256": "ad6650ece98f337a5930177ad0c960666a4cd39f90b299fdeb301f50449a0933"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/32/INPUT.json",
+      "bytes": 11980,
+      "sha256": "8c05dee40c475ed9c240890ec53087d85aa210de6d395060dcc6844424bab710"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/32/RESULT.json",
+      "bytes": 3451,
+      "sha256": "2d5c5451b557345675380f5d525ab215fe1ebe37f197afc3cf41c1f4152d0adc"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/32/run.log",
+      "bytes": 644,
+      "sha256": "dfd30c87434f22848c0a226e4b202e3cbbe547301a0d6935281c4eb8045381df"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/33/INPUT.json",
+      "bytes": 19339,
+      "sha256": "fb7d6e9e3a0fa765fe15266836117effc19ca28b38413ca501d46bee3349b004"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/33/RESULT.json",
+      "bytes": 5713,
+      "sha256": "cc5a15e6206763d34f1189421d04d030e009dc345c9d853ce1372345926b6c45"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/33/run.log",
+      "bytes": 648,
+      "sha256": "7c76e19683537dc1119abd2af1ac2e0585dfdd1142bd0e50fe758c929052265f"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/COMBINED.json",
+      "bytes": 2079,
+      "sha256": "e4842c578c75e8e275404aabf89d25fcbc8810eddc1236cbe2f7d5163645e0c1"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36/STATUS.json",
+      "bytes": 679,
+      "sha256": "dd1465725039f7ed7fad462a473f6451a32c4e6c52d2e8126ca2a99fc376201b"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/02/INPUT.json",
+      "bytes": 3673,
+      "sha256": "6b3d3675879d08d7cba0c9ff30090fd9b00c30029293dc20dcb42b5e410338a0"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/02/run.log",
+      "bytes": 1978,
+      "sha256": "e18c01787f14edd6eb1531df399a27ef8c10c7ee9029c343891da4db78fda7f9"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/03/INPUT.json",
+      "bytes": 7774,
+      "sha256": "3e19dace78ef1591f51c26ebfa8146719d4521830836d3832593df92a0ada18b"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/03/RESULT.json",
+      "bytes": 3814,
+      "sha256": "2538d3c19d931735331e22e363fae2262d4c0090d295c1bdfc020af465407c56"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/03/run.log",
+      "bytes": 649,
+      "sha256": "426d5711ea4eca23b322969ac76dd677608bd816ec8f56b86978aa6cc9ba712d"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/11/INPUT.json",
+      "bytes": 2469,
+      "sha256": "9bc984338d4dc2c9aa4a994d369f4586b4ad6ccc7bec8d0d5985cad042e63076"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/11/run.log",
+      "bytes": 1978,
+      "sha256": "e18c01787f14edd6eb1531df399a27ef8c10c7ee9029c343891da4db78fda7f9"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/12/INPUT.json",
+      "bytes": 5852,
+      "sha256": "2f79e8dc50ecd27fbd23788a251b3a4f1c755e184057db73d601c7a6c6261324"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/12/run.log",
+      "bytes": 1978,
+      "sha256": "e18c01787f14edd6eb1531df399a27ef8c10c7ee9029c343891da4db78fda7f9"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/13/INPUT.json",
+      "bytes": 11073,
+      "sha256": "5c405e4ff114d36395bf74c785ffdb0db56afc251224039cf11dd25c1d085cc2"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/13/RESULT.json",
+      "bytes": 4535,
+      "sha256": "7288af59099f4a316ce774470648567e3d5a524587e66839849f3727712d7320"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/13/run.log",
+      "bytes": 648,
+      "sha256": "03c824198e94352173e8be45f6d971eea552cb651c4e8e0cafaa2efe27668444"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/20/INPUT.json",
+      "bytes": 1491,
+      "sha256": "4cbe61126e8f0a94b47e0a8649e7bff1d4326e8c521a520f2dd120f1ed94dfb4"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/20/RESULT.json",
+      "bytes": 154,
+      "sha256": "93002c92da94a0bbd37b0d35862e66e2256cdbe324f3a529773a09c1b946d7b9"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/20/run.log",
+      "bytes": 365,
+      "sha256": "1eca4530631284744f13d145510273a5a861bf60b53e7cbc3ea19a9c219aa1ba"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/21/INPUT.json",
+      "bytes": 4162,
+      "sha256": "8b6e638625b04b952c29c745d676743235d161258674c3327d3b9165dae065a8"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/21/run.log",
+      "bytes": 1978,
+      "sha256": "e18c01787f14edd6eb1531df399a27ef8c10c7ee9029c343891da4db78fda7f9"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/22/INPUT.json",
+      "bytes": 8635,
+      "sha256": "9be1aeef19efa64462f1980f95aee183eec95b86d5701b4d0f9ce7437d65c47b"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/22/run.log",
+      "bytes": 1978,
+      "sha256": "e18c01787f14edd6eb1531df399a27ef8c10c7ee9029c343891da4db78fda7f9"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/23/INPUT.json",
+      "bytes": 14938,
+      "sha256": "16e8dabd5be8295b7dfbbcc62c4751b3d80fe6ecd46ac01c6001b59afd4d39a9"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/23/RESULT.json",
+      "bytes": 4986,
+      "sha256": "9d68c2e869f64a8fedb25c8e0e1a064687af1e141a86c83a1a915e5df5abfd92"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/23/run.log",
+      "bytes": 647,
+      "sha256": "cd8e61acf6eaab6de1bb040f52cf193bc82e6baf2a60b62bab60f810b558bff0"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/30/INPUT.json",
+      "bytes": 2738,
+      "sha256": "c96324ddcc8ca10c1b74f74a01f78581f773533b7d000403a8675afdab8b2809"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/30/RESULT.json",
+      "bytes": 162,
+      "sha256": "0cc9c3333fa9660a923aeaf4303472423d8c59b4088cf99ba6b20568fbe66b04"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/30/run.log",
+      "bytes": 369,
+      "sha256": "57e88f4791e6c6b0168425471fc3b73ee895398a5ee7e016f151c981777536c0"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/31/INPUT.json",
+      "bytes": 6475,
+      "sha256": "fbd534ed29bc2fbb5ca92e355f06d154afb12e951442647f1e5f1c6d6cb4b797"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/31/run.log",
+      "bytes": 1978,
+      "sha256": "e18c01787f14edd6eb1531df399a27ef8c10c7ee9029c343891da4db78fda7f9"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/32/INPUT.json",
+      "bytes": 11980,
+      "sha256": "8c05dee40c475ed9c240890ec53087d85aa210de6d395060dcc6844424bab710"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/32/RESULT.json",
+      "bytes": 3459,
+      "sha256": "48069e6109b95c74680d27386a90abb4f1f037bc094fb102b4b559ac30799c4c"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/32/run.log",
+      "bytes": 648,
+      "sha256": "222f0399b89dc475e526bca6234942e140a2c029b5aed1404189d6191ba29071"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/33/INPUT.json",
+      "bytes": 19339,
+      "sha256": "fb7d6e9e3a0fa765fe15266836117effc19ca28b38413ca501d46bee3349b004"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/33/RESULT.json",
+      "bytes": 5714,
+      "sha256": "86c551175f3a8307d535c196c8d484cd884689fa16ac5361bf25e9e54301ff90"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/33/run.log",
+      "bytes": 649,
+      "sha256": "47b75cd52765280f43fdce7049e05e76bbb2859951725e39711a15b5202fdd76"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n36_INITIAL_PRECISION_FAILURE/STATUS.json",
+      "bytes": 679,
+      "sha256": "831c6f17d60229b08d4466ea34f38201463b3f7193bae554b8acca7db6595fc2"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/02/INPUT.json",
+      "bytes": 639,
+      "sha256": "674092c94cccd030f6c105b420e23a7c60fc937775d266d579aa4ac23dfefd9c"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/02/RESULT.json",
+      "bytes": 154,
+      "sha256": "aebdb13b5def3a200a5b517490d632843e60c6f4c4540e9f9c1d7275a471d0e2"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/02/run.log",
+      "bytes": 365,
+      "sha256": "297acce3b84d2862ff86620c2327c5ddb463964ae4000ec9da3f7657d565d60f"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/03/INPUT.json",
+      "bytes": 639,
+      "sha256": "799913bc224e2f98553cf59565b3e9baf45566e68281ff04c3e6ec43fb94b786"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/03/RESULT.json",
+      "bytes": 162,
+      "sha256": "07fd3777dc5259ffaeeb5804e22f7889a81ee4da2c873cb77f163c8c8fbe8b75"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/03/initial_component_count_failure.log",
+      "bytes": 1109,
+      "sha256": "77208a2a275258a91467f2a6d06ab34e6715bb3021ec7d5adffe182021f732db"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/03/run.log",
+      "bytes": 369,
+      "sha256": "dbfeedee2a29d42188516ddfdccb86e632278d1edf7a680e383ee5f79bb1d978"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/11/INPUT.json",
+      "bytes": 2199,
+      "sha256": "50a50aef7f7beab4cf23a9b229d266111079509ca14436f6e3fddbac73da538a"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/11/RESULT.json",
+      "bytes": 1237,
+      "sha256": "c1cd289edf643efd72a1696489b6b57155742766ccbf207ad6e4d8ec8a77bdff"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/11/run.log",
+      "bytes": 668,
+      "sha256": "fcfbcbee08deb6d7e0cee3e95be1fe4314b98261542ec38a48909d5df511e77e"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/12/INPUT.json",
+      "bytes": 3148,
+      "sha256": "c65a0e0fad54abf97137b941b1bf984355a4577757c1b20791a0afc8f8990f32"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/12/RESULT.json",
+      "bytes": 1694,
+      "sha256": "1c41ab214a6770516fb7d7db838939131fbde88e4ffcae070a73c155e2300bfc"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/12/run.log",
+      "bytes": 675,
+      "sha256": "17c002b40fb54f0d249af54f14146632baa69e6e05b11a2330b8cd6b5a69e0b9"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/13/INPUT.json",
+      "bytes": 4115,
+      "sha256": "531d703ca913694894ae012be99db3e8a2d775838319145c9a7e49aff185854e"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/13/RESULT.json",
+      "bytes": 2234,
+      "sha256": "39a0a7ca9951560811ffc7e59a54aab803e9b6a09a5ccfb4dfdfb1a34d88bde1"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/13/run.log",
+      "bytes": 679,
+      "sha256": "0418d38708a59371b2f6f0f9e8aa075aafc38fb18f8c348f1c9699094a54a073"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/20/INPUT.json",
+      "bytes": 3608,
+      "sha256": "17a1c11f80ce05b509cc21ef0ec099a05a612bc278f682a797fad92f472bbb7b"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/20/RESULT.json",
+      "bytes": 154,
+      "sha256": "95a7bdd317e48e1ffa35ff9a184acfefa7498de9d8668bf3f8c178876b97ccd1"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/20/run.log",
+      "bytes": 365,
+      "sha256": "3e6895cb26ab2e9c9825ca28274500e67d7ccfdbe126b54eb0132134203ef9f5"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/21/INPUT.json",
+      "bytes": 6121,
+      "sha256": "5988980fdbb29479c99fbc00a893f799895285abcf5668007c3dc18e9646902e"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/21/RESULT.json",
+      "bytes": 2143,
+      "sha256": "d359c255be4268440238b6063fd217fee31462c63065a563eb70855e8bcce63b"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/21/run.log",
+      "bytes": 674,
+      "sha256": "e8eaf55607ee7477d2dc8c8b8087b8f3ccc55e3ad1a147a8dda6ebb294082124"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/22/INPUT.json",
+      "bytes": 8100,
+      "sha256": "9a7b91afd1d1805d31306aa4f5317ea9ccdaf1a88ba79fed21f42b4ec51dad5f"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/22/RESULT.json",
+      "bytes": 3050,
+      "sha256": "5549205f6ac6f56f423051db2c9ebc09be51c668bb1c4e419e2f587dc33dbd96"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/22/run.log",
+      "bytes": 641,
+      "sha256": "a7937c8c3a1d52008af72fc3790a25a2c1de3e998cf88b046a85da147d6c37da"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/23/INPUT.json",
+      "bytes": 10427,
+      "sha256": "acfe0683671d3bf1d3317debccc0a9298d6ffcf9686a2197c186f792cdbe3515"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/23/RESULT.json",
+      "bytes": 4137,
+      "sha256": "c9658329dc4cf08bdaa5bc4aefc7c10f01f3780938c898be1186ea2fce27376b"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/23/run.log",
+      "bytes": 645,
+      "sha256": "3a9c27c98f23ad56b8fdfe253d51d3927878546e04a3aac985fd877730319fe7"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/30/INPUT.json",
+      "bytes": 8012,
+      "sha256": "10f9e79a8fc29f15e369f9c968a422ac7f364e4df7aecdfecfbba2adbbc69e99"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/30/RESULT.json",
+      "bytes": 161,
+      "sha256": "2955bd80baa97e5c3918b9d44416d3ab7256b5eb374c04327ab54a539d42f27c"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/30/run.log",
+      "bytes": 368,
+      "sha256": "569de1dfb82db86245e4f3097de4cb6fc97af9c73e5e10c8c582d34137f4e391"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/31/INPUT.json",
+      "bytes": 11217,
+      "sha256": "5464237bb9533fdf99ac12253be4d33984e58152e275c2b6bfb4b90e329d3bb5"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/31/RESULT.json",
+      "bytes": 2372,
+      "sha256": "9b4969905c65c5dbbe3194bea64a1d6ec9df61fa4126106f9f1cec048345d479"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/31/run.log",
+      "bytes": 678,
+      "sha256": "43bb2ad560d59806d122b0bd6e00e48996653c4df4b7bf605d2ca6526d677e76"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/32/INPUT.json",
+      "bytes": 15462,
+      "sha256": "46856470c64c3062fd1d8b007ad7991126869757c0b5e0cf3bf6b84bfcd64fb2"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/32/RESULT.json",
+      "bytes": 4857,
+      "sha256": "3f2f2f4d5dd2d8f276d4065a768cb0fc8a03a442b32b5ea9cb6886927f0aa439"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/32/run.log",
+      "bytes": 646,
+      "sha256": "ca5fa5dc0ca3bb005c96cbc87b198a8746cfbb8b6b8bbc64dfc42ba576405315"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/33/INPUT.json",
+      "bytes": 18853,
+      "sha256": "fabd9d7fd21837d269731ca8f4480939bfe3c6501df14df96dd4d4360b4bc526"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/33/RESULT.json",
+      "bytes": 6388,
+      "sha256": "826151b387f9bbb86541ddbf5082cf473647364e5bc4c7bab8711c5b654d8560"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/33/run.log",
+      "bytes": 650,
+      "sha256": "6479c8b9167657f9467a6ba6be4bab8b28d9fbe5df007d85248eb744267bca2e"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/COMBINED.json",
+      "bytes": 2079,
+      "sha256": "1b6442c09886eda1b5602620b1032289cdd8055ebb525cfb97016b0907913fe4"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L10n57/STATUS.json",
+      "bytes": 679,
+      "sha256": "86d95e413138a99c21e54865cb1ba1afe437e55a88e391604ea7c5766687faf6"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/02/INPUT.json",
+      "bytes": 502,
+      "sha256": "5f0dacdefce95a885633217dcce3d9850831d3363ea61b5c0818adc4950beb1f"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/02/RESULT.json",
+      "bytes": 152,
+      "sha256": "e6ba3f032873620b4936508d1b5c346972f2bd8b463b31dee609f7c237c1dc65"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/02/run.log",
+      "bytes": 363,
+      "sha256": "f8062836a3bc37b306e22aec549903686ef72704b53ea98c4c8e285800f10607"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/03/INPUT.json",
+      "bytes": 502,
+      "sha256": "b48e0a2f16ba8bf9e5fe217923b204a2108ce2d6b68616d4c53d318198f4af8e"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/03/RESULT.json",
+      "bytes": 159,
+      "sha256": "81ab74f94a09ee0ed3e8f54dc7307103b70e16bcaf99ee02f4d555b6b400c8d7"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/03/initial_component_count_failure.log",
+      "bytes": 1109,
+      "sha256": "77208a2a275258a91467f2a6d06ab34e6715bb3021ec7d5adffe182021f732db"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/03/run.log",
+      "bytes": 366,
+      "sha256": "80a578fb68e53dce4d0e9e5117839955228685520798ab5a6f31f223e2341dc9"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/11/INPUT.json",
+      "bytes": 911,
+      "sha256": "03e7f4fbbbba02df6c2894f9accbf1f0acfff79b7b6e1b7eb5ba1d3a2b8d1ea7"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/11/RESULT.json",
+      "bytes": 924,
+      "sha256": "4490082680c4d120e6a3c54374177c5260a0d8ffe1de8a55787aa1095a51f6a3"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/11/run.log",
+      "bytes": 666,
+      "sha256": "85454e95d270278dbaaead1b46e07c3ad7601cc9963bdd970be9a36e4c24263b"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/12/INPUT.json",
+      "bytes": 1414,
+      "sha256": "dbb9c97b8eae961c8e3071daeb9cb6c32a4878817e9811b4600f6253b31d7e0f"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/12/RESULT.json",
+      "bytes": 1284,
+      "sha256": "561b00a403c8bc9ea840341996cf57259109cb913a32b0fff7c0e4700b52fcf9"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/12/run.log",
+      "bytes": 670,
+      "sha256": "8b955ddbb9375da65146deaa73d39459ba94e4e0409268203740a4164674e622"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/13/INPUT.json",
+      "bytes": 1935,
+      "sha256": "40cf5c3336b142f5c10d32f541e039d85b074a4848448ba13a1c43fc94c124f5"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/13/RESULT.json",
+      "bytes": 1559,
+      "sha256": "20197591fd4a6b077b914e5323c99be4728463918fa3bea9de52fd0d2132ee3a"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/13/run.log",
+      "bytes": 675,
+      "sha256": "1af7b95b976c2485985d41eb724241e3af1e6968cc02b247270bb679ec7c5763"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/20/INPUT.json",
+      "bytes": 729,
+      "sha256": "8f997a681e2659b70858c5f4b09fe620acccf9d3771b0b8647cabad083af9def"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/20/RESULT.json",
+      "bytes": 152,
+      "sha256": "08168561a1c65e3b106eea3f1b553024fc13078766edeca58c99b9861ec47732"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/20/run.log",
+      "bytes": 363,
+      "sha256": "ff35c15a5ff31d27b769501dff6f03e1fb0d846552670bb0210f867fb92dfd8a"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/21/INPUT.json",
+      "bytes": 1712,
+      "sha256": "6beb8fb9c13955398769413f861d85db296e29a35689f8b99b679ab1c640c5d4"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/21/RESULT.json",
+      "bytes": 1198,
+      "sha256": "cdb4a3bdc4efe180ae81dfd2126ece65b9b9d4f2e646ca9656164340a2871206"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/21/run.log",
+      "bytes": 670,
+      "sha256": "2b66583f163dde1b464f667e79ff97355d2c1aa18c4296bce0f631687601b476"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/22/INPUT.json",
+      "bytes": 2939,
+      "sha256": "8286158f32be2a064f49ed298af31b1485add311cccbe2591cf7089fc58ce297"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/22/RESULT.json",
+      "bytes": 1879,
+      "sha256": "befa2fe610b83059c4972c2d8554ce44dc2fb184e8eca7454a216a607e7b1b27"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/22/run.log",
+      "bytes": 676,
+      "sha256": "4537d306b8276936597c7fff2e7178b7b79e08cfc812e31b41a2a9585440e307"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/23/INPUT.json",
+      "bytes": 3924,
+      "sha256": "7a195d33e79a207d73f2c9f4fc96c1f0656e3c903657c87c17cf9fb9a56d52fa"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/23/RESULT.json",
+      "bytes": 2333,
+      "sha256": "c0f7a67144101cc60899f15e3fea60cdc481c04ce19d7014908e07216efd39fe"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/23/run.log",
+      "bytes": 680,
+      "sha256": "30494166427829f71d7f09c441fd63b357c69ad45fa37ed3197cc15712efcfe0"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/30/INPUT.json",
+      "bytes": 1322,
+      "sha256": "3a68dc9cf10872c1dcaef6c9e1a91b63156ee8e139b64b22ceffd569b234f11f"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/30/RESULT.json",
+      "bytes": 159,
+      "sha256": "af18dd12747e71fa37ad66c451e79b9302eef6115145f5444dd9ffa86d8fa02b"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/30/run.log",
+      "bytes": 366,
+      "sha256": "cb5c7781b75905cc85509f822d432aa5b7e28eb35c285837ea0d51839cb2b4f8"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/31/INPUT.json",
+      "bytes": 2769,
+      "sha256": "201f167f0f2a856422f8af3a15a9225742a1c93e1dec6d67713a4e2ea87a8818"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/31/RESULT.json",
+      "bytes": 1558,
+      "sha256": "2b223d7a24f6df3dfb60517acbdaf1cea8343a59c0bf333c92cda9a6863e7262"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/31/run.log",
+      "bytes": 674,
+      "sha256": "700ea16fb5da7af0607199ad034bdf845b9be2cc09fb5792707c20fbb010033d"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/32/INPUT.json",
+      "bytes": 4876,
+      "sha256": "7dc8548ba0e60b847a97c1fbc1b3c8a1c63a175ececc7a494dddbd9bc2642f72"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/32/RESULT.json",
+      "bytes": 2694,
+      "sha256": "5620784ac6753fca2089d9fc850b6509c1322df3460ad968593ba22a7da9fcf9"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/32/run.log",
+      "bytes": 681,
+      "sha256": "2ef4f3c78acb45e26bfe3a5471c1f5a8e9bf19b23fa919b1228de7dc7a49bd90"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/33/INDEPENDENT_FULL_REGINA.json",
+      "bytes": 490,
+      "sha256": "791f769433d5572db796465bc009244d2069d3dd327677219a5f58057173e61c"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/33/INPUT.json",
+      "bytes": 6385,
+      "sha256": "f04c617ff01eb6580d66c075a9221a5005b021c95b0a7cee07eea270a1f7a5eb"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/33/RESULT.json",
+      "bytes": 3334,
+      "sha256": "28087a5044818a7288f2b7eaf7357c5c2cce206e491bd16b856fbecc5eff6598"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/33/run.log",
+      "bytes": 647,
+      "sha256": "8694e1c21ca1f1fbdacea49b2afe69d58329f1d2d12d68414f6f1263345c691a"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/COMBINED.json",
+      "bytes": 2078,
+      "sha256": "95aaabb5a99e7abf5387116d5c723f0efadd2949da8f773eccc34b9fb5003c51"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/L5a1/STATUS.json",
+      "bytes": 679,
+      "sha256": "86d95e413138a99c21e54865cb1ba1afe437e55a88e391604ea7c5766687faf6"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33/REPAIRS.json",
+      "bytes": 317,
+      "sha256": "e0604c00f33bbae07ffaead5a7f505c8ba026096dfb09e2b7905dbb5fc08c30b"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33_GST1.log",
+      "bytes": 429,
+      "sha256": "0c58969f264f7ee77a7c436c8502cfb0a9ec0908a3000188130f3d3432f0c473"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33_L10n36.log",
+      "bytes": 429,
+      "sha256": "22836b933d29c477f6222601a1512b526dc9125cbcf555cbec123dd2fab3ac4a"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33_L10n36_initial_precision_failure.log",
+      "bytes": 429,
+      "sha256": "1ad377d94f6e12cd2095b5e9dd17f3def0882780f70cf469da7419c4fbb09c12"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33_L10n57.log",
+      "bytes": 429,
+      "sha256": "9a2211122c5d062f0940f0a34f1d8ee0748ba414d3bca88aea0bd46e075ebaed"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33_L5a1.log",
+      "bytes": 429,
+      "sha256": "9a2211122c5d062f0940f0a34f1d8ee0748ba414d3bca88aea0bd46e075ebaed"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki33_term.py",
+      "bytes": 1776,
+      "sha256": "7afd3f8a9f8d811ae9e1ddb102fb7be2e1008b3595c824a2cb8a108f396b6847"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_double/GST1/INPUT.json",
+      "bytes": 14632,
+      "sha256": "7780f2c2c7bc8bd60ba3f90aee311212c4cd38b19ca708b4e49ce524fa4c0621"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_double/GST1/RESULT.json",
+      "bytes": 4906,
+      "sha256": "48bf6a912ddc1dac3b8c144e78936ed75d2efdec530fd9cdfe41a170507a75b6"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_double/GST1/run.log",
+      "bytes": 862,
+      "sha256": "953c0079ce195dcbd01a992060c6a6118c176047d57039e92b503c6d9b950e5c"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_double/GST2/INPUT.json",
+      "bytes": 38316,
+      "sha256": "08d890730de8e6827bc406fcff63f37ce2b01b8fcda8b4e9c520cf10244fddeb"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_double/GST2/RESULT.json",
+      "bytes": 8914,
+      "sha256": "a1d9e2e1a9b1b6a3e69d4428e690926a244f72d8f92f7a71abcb94b5dd06fd87"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_double/GST2/run.log",
+      "bytes": 869,
+      "sha256": "37e3c2d49e2e88f0c4f4829b12e1e63d48e295af19f67fca4ba3fb83a2145578"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_double/L10n36/INPUT.json",
+      "bytes": 8626,
+      "sha256": "532f57b702816f313d7b95112174843207100b26d3526bbf96ae9385e432713e"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_double/L10n36/RESULT.json",
+      "bytes": 3314,
+      "sha256": "cdd2932af5cffbbca797d059394036301dd4637e50904dcb1a6318a29a45045d"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_double/L10n57/INPUT.json",
+      "bytes": 8091,
+      "sha256": "10bf9a5694e184359d43c293b505192eaf46f64c417c0c1f6360bc8b1d319481"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_double/L10n57/RESULT.json",
+      "bytes": 3374,
+      "sha256": "c5ddebb223f94e0176d8a1e369822b3630956c98f27a3f9b3be4da531177b7ec"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_double/L10n57/run.log",
+      "bytes": 903,
+      "sha256": "a3e7ce85b5b07ae7aa106355365cc68dc92de94fcb0978f080ee5dd566f9516f"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_double/L14n38935/INPUT.json",
+      "bytes": 8281,
+      "sha256": "3a9866da49d65a1afdf4619876fd9736d377e8584ee8e1a943d1072bb120cc5b"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_double/L14n38935/RESULT.json",
+      "bytes": 4561,
+      "sha256": "f50310e4202916c373068929137606f457c9fdabc31b17bf5b3f7df6b0d83941"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_double/L14n38935/run.log",
+      "bytes": 880,
+      "sha256": "2173b796bd8d2b61d3a7416293d15737d373cbd3edaa68bddf07c3a4a2496246"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_double/split_trefoil/INPUT.json",
+      "bytes": 2828,
+      "sha256": "3dca8320f20ce92b57f6f91a7bbbb68ba032e68bdf53d47c4664e94c02321477"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_double/split_trefoil/RESULT.json",
+      "bytes": 1976,
+      "sha256": "8c613b658692d8508649bc298ebf37acc5f831617e525c030d5e9252d016e1a1"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_double/split_trefoil/run.log",
+      "bytes": 897,
+      "sha256": "1a23a0322c38d68db8e4a18362f0f89aa1111c2c3d4f4b6c5ed9f13822b18fdd"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_double_batch.log",
+      "bytes": 339,
+      "sha256": "ecf7f8d60a9de586cd746ecc78ed5e81c9de5ef3133f9478908bafd571601030"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_double_colour.py",
+      "bytes": 3608,
+      "sha256": "8f46ee3820745af388e395784bfdad31be5aca60f29d4e4b3abd9e11ae0da4ca"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_double_control.log",
+      "bytes": 901,
+      "sha256": "840f8fb24f5bcd133c42e48cfa0d5c7b01e82db5ee5a89b8e108f70055e7011e"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_first_colour.log",
+      "bytes": 1997,
+      "sha256": "d7d944a2052244571e3db501750727205da2fe422f42a1e2b11dac64d0d185cf"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_first_colour.py",
+      "bytes": 3201,
+      "sha256": "943ec471929d9fb76f54f1389075bc41efaf3c90eb06086def8a74966f5c31c5"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_first_colour_initial_failure.log",
+      "bytes": 1558,
+      "sha256": "337b2cf6f76f54878e95de2f9ea269a1fc0c0586820bc5677a512ee0b4bed113"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_ideal_table.py",
+      "bytes": 754,
+      "sha256": "bfc28e5497883a3d9b1105e92effd0871bce0c28c40c1fe289a3654a316d3963"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_integer_gst3.log",
+      "bytes": 58,
+      "sha256": "3826a4b76fd50cd3d0f009d16e09b74f35b164ca7cd36c6abfc035476ca7006f"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_integer_seeded_gst3.log",
+      "bytes": 908,
+      "sha256": "1459fa0e6b8616b1be9605b7c80b64598d3eee92ceab9fbe472bf88142aa7fe2"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST1_c0/INPUT.json",
+      "bytes": 11494,
+      "sha256": "edc45bd2908c94c00524ad738365028c7c9f7363fc20bc92ea639c4a5fef7315"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST1_c0/POLYNOMIALS.json",
+      "bytes": 4132,
+      "sha256": "595cc7448cba8eac23221144dc1d2e40d7f43aa99630148c00208fd39117073f"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST1_c0/RESULT.json",
+      "bytes": 499,
+      "sha256": "b4ede8d1a0445c9e149fefcbadaec9ca348dc0ec4d5f7c29e4fd41cb5de46e37"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST1_c0/TAYLOR_INPUT_PD.json",
+      "bytes": 521,
+      "sha256": "b69572ae088479aa69318b8459047effdf9fc9ceccf0322e62db6d9cb2da3356"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST1_c0/TAYLOR_INTEGER_RESULT.json",
+      "bytes": 703,
+      "sha256": "d753b9e420cfd78eff60651877a9f48dd7c434f12b9296c929e793dbf63d8d5a"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST1_c0/TAYLOR_RESULT.json",
+      "bytes": 541,
+      "sha256": "84faa94db3099b89e0583e69098443a5ae8e3ae58fff9bb1e233c9bac95b5583"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST1_c0/run.log",
+      "bytes": 716,
+      "sha256": "75adb9649faf20a968d528871a92b85f381f11070ca6d72461194ff5dd53a531"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST1_c1/INPUT.json",
+      "bytes": 13324,
+      "sha256": "a537e206e0f3e7fa716444aca78240c72096105c9c7e45217cd2dbca3d806647"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST1_c1/POLYNOMIALS.json",
+      "bytes": 7132,
+      "sha256": "d32917b22bc26468a1c641c92a2b0f1411a05dd803fd06e243b47425f5bffe17"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST1_c1/RESULT.json",
+      "bytes": 644,
+      "sha256": "7be396a244c5b0bfedc3dc33e127da3939c4ef9ee547b051428eede9737843eb"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST1_c1/run.log",
+      "bytes": 861,
+      "sha256": "e5e1085457476ef6835d78af143587e727d17b022203e4c91ad3c767672a6c36"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST2_c0/INPUT.json",
+      "bytes": 36215,
+      "sha256": "c02a24f5d2d8de2596a932d2569186cb23622d1a30499c4eb9bea256ed90b122"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST2_c0/POLYNOMIALS.json",
+      "bytes": 11704,
+      "sha256": "8ac5280a0a8b631078f1843a1839cf671a61ec3532d7f6a01e022a388253f0d6"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST2_c0/RESULT.json",
+      "bytes": 671,
+      "sha256": "1a3a846884d9c636027174cdd5528b576f4912fee26eaa4fa8c7369b75d3d187"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST2_c0/run.log",
+      "bytes": 888,
+      "sha256": "8a23ca305287298d3fc708021f83c10f4a457f1ff27a9dcb41d376fb06074e68"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST2_c1/INPUT.json",
+      "bytes": 28533,
+      "sha256": "ef7a63a05fe92eecea57c35c6597f2964c6cb243c5bcae44f09b4d57ee8e1901"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST2_c1/POLYNOMIALS.json",
+      "bytes": 10702,
+      "sha256": "c25f17e0f1bf919ef5bbd8dd32a56c1a210549d35ad34f7c381bf9be6dd9733d"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST2_c1/RESULT.json",
+      "bytes": 608,
+      "sha256": "a53f74f772c20f7679cd8101bfba5ac2e625818957d302b1f6c5f1b5b1ed0edf"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST2_c1/run.log",
+      "bytes": 825,
+      "sha256": "0e20fda51e024c5d201cc2e2b2a0e690b1bd2a8d5a2e8617f1e590aeef60c289"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST3_c0/INPUT.json",
+      "bytes": 65241,
+      "sha256": "50266df33ee0186714ba0ffac1de258c977666e8c566098f66a01e4f098b6616"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST3_c0/MORSE_DIAGRAM_CHECK.json",
+      "bytes": 17017,
+      "sha256": "addcc00506ee24a55fc34ad0c12f6d6393f7413d9e0c6188387d9a1649eaea79"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST3_c0/POLYNOMIALS.json",
+      "bytes": 10531,
+      "sha256": "f831fc0ee3bd8d90c2a744808e91cd5ad03818ce678a587795534fc0e61c0f49"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST3_c0/TAYLOR_ALL_STARTS_RESULT.json",
+      "bytes": 637,
+      "sha256": "db58ad182bf1dbd0ceda28e60bce73c401fc36e3865d91627a9b1aee77f854ad"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST3_c0/TAYLOR_INPUT_PD.json",
+      "bytes": 3037,
+      "sha256": "69fc3b6a33925e08539c0c2f34972261a0417bafbe44886ddeb44a5ad6fac1a7"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST3_c0/TAYLOR_INTEGER_SEEDED_RESULT.json",
+      "bytes": 8990,
+      "sha256": "f41c2289199bf6dd7e03d91b898160a716b80cc9f897b697d3e5d0d553c55ba0"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST3_c0/integer_taylor.log",
+      "bytes": 1340,
+      "sha256": "704e818f41c9efb596581130e6e0a5ef720eaebf0feae4a1dfbcc5a8c2a4df1b"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST3_c0/run.log",
+      "bytes": 235,
+      "sha256": "5b59e3020651d4c5faf61495253828b449d2195f1302ff5a8f223fa57b766f44"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST3_c0/taylor.log",
+      "bytes": 1458,
+      "sha256": "e94d25fb7f0ea458e8f9a6b3f32d82d83819c275a7795444d382896c91a01111"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST3_c1/INPUT.json",
+      "bytes": 49785,
+      "sha256": "c024b4f19557210fa13c4404d5f36c1f9d48bf1dc32d2f899a313c2d675b9c99"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST3_c1/POLYNOMIALS.json",
+      "bytes": 7765,
+      "sha256": "28a99c9f0dc7015127990ccf8e42fb504fb1efbdacbd8d98dd90d4cd22697b73"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST3_c1/TAYLOR_INPUT_PD.json",
+      "bytes": 2509,
+      "sha256": "df6e2e103672261cf064ede5c792b32d636aac2d34778558de455d7c1b0c4a5b"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST3_c1/TAYLOR_INTEGER_RESULT.json",
+      "bytes": 710,
+      "sha256": "d131d3f3f85ceeabf483670ed1ec7e8bde61dc677fa792565af08d0782f14374"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST3_c1/TAYLOR_RESULT.json",
+      "bytes": 544,
+      "sha256": "2ee36da68a4367390d309470608c85759671e8e9eef5cc7b86e1b34e90a02863"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST3_c1/integer_taylor.log",
+      "bytes": 847,
+      "sha256": "47076db9c4a19bbaec6654cba99b898d8823e0680f09de98904f596d708a75d0"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST3_c1/run.log",
+      "bytes": 235,
+      "sha256": "5b59e3020651d4c5faf61495253828b449d2195f1302ff5a8f223fa57b766f44"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/GST3_c1/taylor.log",
+      "bytes": 699,
+      "sha256": "7b4b443698a5cd6c38a9055d4998c4009a95021c98a86091594b6b1806a6f37d"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L10n36_c0/INPUT.json",
+      "bytes": 6348,
+      "sha256": "0f85bdb010023b0071275cd1dbdf180eef0d0ba3647abd4a37969a658d5e7c9e"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L10n36_c0/POLYNOMIALS.json",
+      "bytes": 2468,
+      "sha256": "62b7dd170dd43a0d893bff8689d2eb995dab99299a4f020e1124b1e08ced1cc3"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L10n36_c0/RESULT.json",
+      "bytes": 333,
+      "sha256": "f1c96844e3a7aaea3f31eb5cdb4f7b1593cf8c18c009037a914f7bfe21482896"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L10n36_c1/INPUT.json",
+      "bytes": 10040,
+      "sha256": "0ea05c678f066b0e4a2006a104003b968b846db4c4b3b61061d7b05f33d9236d"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L10n36_c1/POLYNOMIALS.json",
+      "bytes": 5403,
+      "sha256": "5aa9aa052dd2abab27a1675429f0ac25e1304f9c538532013bf1ef7de5b266de"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L10n36_c1/RESULT.json",
+      "bytes": 493,
+      "sha256": "7bc278a86541b2243aa623fa4443ac7f99987eb59eab1741e929c0ec2b05a2d2"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L10n36_c1/run.log",
+      "bytes": 710,
+      "sha256": "bbb3d799059975c39e076da252cbfc64dde5d7010d729aa42a247eadca61c8c7"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L10n57_c0/INPUT.json",
+      "bytes": 7350,
+      "sha256": "0f2c546c76a635c7036dde126f5c0091e949caa75e71d953964e784fe9bf0d15"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L10n57_c0/POLYNOMIALS.json",
+      "bytes": 3471,
+      "sha256": "cba2b09535db674248059ef3e08c739bfe794b941e07333cdce5d3b7e30bd0c0"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L10n57_c0/RESULT.json",
+      "bytes": 476,
+      "sha256": "5ddb2694e19e609eea249466c3dbc3333ad7954c2a1b3d5ecb1580522fd4fffe"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L10n57_c0/run.log",
+      "bytes": 693,
+      "sha256": "97f27f99eefe03090a4e625938c395a0ba290e62a29b52ca34701463a54005d6"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L10n57_c1/INPUT.json",
+      "bytes": 4336,
+      "sha256": "a89675dcf8196f8a48082c1b739b4f139109b7ac92ff7dde5657124b3a8724df"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L10n57_c1/POLYNOMIALS.json",
+      "bytes": 2356,
+      "sha256": "1dcabbf590c45835b69b2d8d5ad4c30cbdbb9af9cc9fe3c4f3411d3cbe877792"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L10n57_c1/RESULT.json",
+      "bytes": 491,
+      "sha256": "66a859f0cb34c200c451b8a9274a5b28a0f48f1adbb5f7f4fd10e39489458ba7"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L10n57_c1/TAYLOR_INPUT_PD.json",
+      "bytes": 305,
+      "sha256": "fb9cc3233b555363e43966ec12dd46895d38d0492260c0d20682c3b4c40302f5"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L10n57_c1/TAYLOR_INTEGER_RESULT.json",
+      "bytes": 701,
+      "sha256": "fc110075106bc12dbf183412c2a557ef9dda58bedf261194299b4fb93d3e8613"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L10n57_c1/TAYLOR_RESULT.json",
+      "bytes": 542,
+      "sha256": "10caa7e483af9f9811104898f92c95cd982afb72a9fe0783ac7c87ad50d1aea7"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L10n57_c1/run.log",
+      "bytes": 708,
+      "sha256": "c99e487f8b40ebf056610a4f15c4e97b7c40899cea15f9728630d2d51c9a952d"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L14n38935_c0/INPUT.json",
+      "bytes": 6787,
+      "sha256": "8b58a0ba8ec8599746102ed9365e65b85cae8f51de96926faf2d92049c174580"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L14n38935_c0/POLYNOMIALS.json",
+      "bytes": 5586,
+      "sha256": "1e68d6e0f36325e65b3ffaa112b22120d0c2c01e55c833bc2f9f635c8b965e8d"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L14n38935_c0/RESULT.json",
+      "bytes": 498,
+      "sha256": "76d47028530066847a1817428494670de8b4fe5c50c8dceaa387fb7b167edcb8"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L14n38935_c0/run.log",
+      "bytes": 715,
+      "sha256": "cd181908297ca51b9c4914ed1bccf214a94af81b5def2b9eca6cf7307c1d5700"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L14n38935_c1/INPUT.json",
+      "bytes": 6799,
+      "sha256": "9e2da5697824a70552d33fc1c27ab5a31498bbead61fbac15ca7f30f6ea21721"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L14n38935_c1/POLYNOMIALS.json",
+      "bytes": 5619,
+      "sha256": "5b72c75ae78777427a5c44c340ba6ab3058983be6acc2541257f7221287ec196"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L14n38935_c1/RESULT.json",
+      "bytes": 511,
+      "sha256": "9d816aa8b439e67f035919cf77315430e62ee77394fd3bd803883cab361c120a"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L14n38935_c1/run.log",
+      "bytes": 728,
+      "sha256": "6fa62a3bba7f491003db222c3c28ac8163f4867a58adb70a2e620c001dc8388e"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L5a1_c0/INPUT.json",
+      "bytes": 2096,
+      "sha256": "3dad2783297162ea3a1c6b4b3f9a4ddda6dc169fe16c8f7d17cebd19ccdb74f1"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L5a1_c0/POLYNOMIALS.json",
+      "bytes": 1746,
+      "sha256": "78b4ea39bbf2a70a81c405dfa7278e1263e23eb6866f98a2f4cc2faf431c882a"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L5a1_c0/RESULT.json",
+      "bytes": 331,
+      "sha256": "55277e52c7d59a1b526ac4d12cb892a0fdb931b7584e0d514a8bb89fd4d7f9cd"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L5a1_c0/run.log",
+      "bytes": 548,
+      "sha256": "b16b6e465512f1741de6dd2acdc49afc61e3c1eb5a77d9564ef34fda8b2fa9cf"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L5a1_c1/INPUT.json",
+      "bytes": 1727,
+      "sha256": "089f1a4cfa1f0ba66fe2673894dd64ae58ea647220bf0044f43655227f3efcbc"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L5a1_c1/POLYNOMIALS.json",
+      "bytes": 1425,
+      "sha256": "962a2b4a4ac81ed22c13531f955fa385aae02ba168cf29950832dbf1a7e81488"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L5a1_c1/RESULT.json",
+      "bytes": 331,
+      "sha256": "e2063287268bca475ee5755c7dc315e8ba4d3683bb2dbf5a17f87ca522d34b6f"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/L5a1_c1/run.log",
+      "bytes": 548,
+      "sha256": "fcf7ecf159c91ca1f8d240b4302300e7441bbf46ec2fbcae6e414b8932b4e0f8"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/split_trefoil_c0/INPUT.json",
+      "bytes": 4503,
+      "sha256": "d36f714b036878b1b82f8c6d7c026a23b41a54fc930d48df0941a6e27c71ab1e"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/split_trefoil_c0/POLYNOMIALS.json",
+      "bytes": 3444,
+      "sha256": "53f206c848c0aad8325db4a1ebe06964bbd813b731272edd17fe9f79ba01ed15"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/split_trefoil_c0/RESULT.json",
+      "bytes": 340,
+      "sha256": "7c95645ee3c19201f926bffafb4f2e2b036338a6d625e15f2474839630067e05"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/split_trefoil_c0/run.log",
+      "bytes": 557,
+      "sha256": "4f120900d5140e7df0de4df48c2c9003caa343c17f054b8f24e680bfd8334fdc"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/split_trefoil_c1/INPUT.json",
+      "bytes": 1722,
+      "sha256": "006e950cf04ccb53920e3447a126b52afda73f48c10c20e39b6046ef9d9b5672"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/split_trefoil_c1/POLYNOMIALS.json",
+      "bytes": 1114,
+      "sha256": "27b379ffb9f3b01dcd9e6812b51879f7f6d949ada1d0d1289c1170d24ecd4c0c"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/split_trefoil_c1/RESULT.json",
+      "bytes": 340,
+      "sha256": "242a6aaad736aaabf5604e8b4a288d65191c1d86ce8401c63b0d7bd26ccfbb1b"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/split_trefoil_c1/run.log",
+      "bytes": 557,
+      "sha256": "fdb4bdf8c2e1214948ae4c54d001dc1613d00db8951cf47ff7b8234f2e93d801"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/unlink_c0/INPUT.json",
+      "bytes": 1035,
+      "sha256": "e41d092bbc0c224ee5e716d37e37f5f6bd8d90680f83dd64cbf03430867c8b21"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/unlink_c0/POLYNOMIALS.json",
+      "bytes": 503,
+      "sha256": "b7c38a48908ae88b68abdf4fa40f52731fba01cc5519a46a69036b6671b88029"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/unlink_c0/RESULT.json",
+      "bytes": 333,
+      "sha256": "741d6163be7cf55341a1a16b2b4994ed0dd84c237cb05eae383a49be90216cbd"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed/unlink_c0/run.log",
+      "bytes": 550,
+      "sha256": "daf2c3e18036acae820f4ef3905b5941c3f3439db16baf33e0dc281f97d908c8"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed_batch.log",
+      "bytes": 1004,
+      "sha256": "f098f91e3bcb018e50bd511986c79e98a819542f7ddd14abd1cf3d4020190187"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed_colour.py",
+      "bytes": 3733,
+      "sha256": "badc54de06d2cd41bda6e8c594fde5cf0bb6c2dc4f060e4b0fc6e79419b7034f"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed_extra_controls.log",
+      "bytes": 198,
+      "sha256": "33e859d35c861fe31690a95701170397a3acf5c06ccbf2611cd60ee3d2c5ce6d"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed_first.log",
+      "bytes": 550,
+      "sha256": "2647ce4880144e96169264e36a5af5886023a8bc07c0bd98623dc4b1695ea51a"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_mixed_label_failure.log",
+      "bytes": 696,
+      "sha256": "ae31b664445385e28d768374496809e7d7bbba30a111803134883eda2c286588"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_root_minus_one.py",
+      "bytes": 4788,
+      "sha256": "16f1fdde64f81a8abff4af2043591f20b285f43e0a50550644a01161d94fa67c"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_taylor_all_starts.log",
+      "bytes": 774,
+      "sha256": "c851e7238b0baca0d290ef80a43e2bac950d35bb35d82867a0e87a7ce3d342cb"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_taylor_all_starts.py",
+      "bytes": 4487,
+      "sha256": "e73e37848efa74c71ea7d2fdfc42209e1c52cd167579f851d727a2bd01702513"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_taylor_gst3.log",
+      "bytes": 58,
+      "sha256": "3826a4b76fd50cd3d0f009d16e09b74f35b164ca7cd36c6abfc035476ca7006f"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_taylor_integer.py",
+      "bytes": 4456,
+      "sha256": "f1228a25e08c36efe4cad016661831f4e197e2aa51ece33ee2c117ad672f9eb2"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_taylor_integer_seeded.py",
+      "bytes": 4721,
+      "sha256": "966553923237b427c26f62eab90742eae5690cbe2fc49345a0d10af92e157f31"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_taylor_jet.py",
+      "bytes": 4220,
+      "sha256": "55e7cf7b07077a5835944284118dcc9f3293c337510706ac57f966ef98fd820f"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/suzuki_taylor_order8.py",
+      "bytes": 4721,
+      "sha256": "7c3745712c4576e23dd408f59cae64727beeca448679cb5f3a0416d52c1089d5"
+    },
+    {
+      "path": "results/astra_gst_five_hour_2026_09_19/variable_parallel.py",
+      "bytes": 1194,
+      "sha256": "4d3b4a2ad65de9ff7e4bf490fd92a05c905cea354e801af87f349cc9fb35b48d"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/ALL_CHARACTER_SCREEN.json",
+      "bytes": 492270,
+      "sha256": "8a55c96754c56b01fedcb31720ad9639f3c7fbef9dae96521bb21f77312a8dcd"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/CABLE_COVER_AUDIT.json",
+      "bytes": 5666,
+      "sha256": "59e8c5bc998d84679cb4b764084887667410c2733f756615bec81f2bdb980ae2"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/CABLE_OBSTRUCTION.md",
+      "bytes": 6126,
+      "sha256": "3962653a0e59b8a1759fb06b66130a35703e62f001f4cff20614c35ad3f0aae4"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/CAMPAIGN.json",
+      "bytes": 1165,
+      "sha256": "17ba40dde5739ae66e1608aafac864f4e67f1883c220bcdf467ce88217c1b0e6"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/CHECKPOINT_02.md",
+      "bytes": 3472,
+      "sha256": "2c01b65313f41c2274ecf94851cbfeab168ffe110fbf2321fe0b269f42d338c0"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/CHECKPOINT_03_FINAL.md",
+      "bytes": 7125,
+      "sha256": "018206d8bbe682fbbeaf032bd8c381c4a971e812a0c3022f08e680644939515e"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/COMPACT_CONTROLS.json",
+      "bytes": 757,
+      "sha256": "783ea7997a5f917700f10418daf97c035d03f76db62601bbfcc452b15bcb0f21"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/DISCRIMINANTS.json",
+      "bytes": 1826,
+      "sha256": "325f2a3d20bebd1c20f1345ee81b3f83004acf86a720c41b5a8c243d1b96a80f"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/EXACT_SMALL_DIFFERENCE.json",
+      "bytes": 110,
+      "sha256": "470fae0242aceb25c6cff1054706cda66c24eabfd47bd01ae756eeaecc70c25a"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/EXACT_SMALL_DIFFERENCE_v2.json",
+      "bytes": 1789,
+      "sha256": "95cab74e1ae366c0cc182c6bb398f4ea49f6087634fe16673100399546579136"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/GST3_SUZUKI_22.json",
+      "bytes": 1127,
+      "sha256": "88912b77209adbfb92afa9a65e7aa79cee329c4599ba864861f521f150605fa7"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/HANDOFF.md",
+      "bytes": 1166,
+      "sha256": "dce2d0447871d7b0fcf41c74db08d052e7a3909f8dcbc96c57230849cc25704c"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/HANDOFF_CHECKPOINT02_ARCHIVE.md",
+      "bytes": 3311,
+      "sha256": "d76e662e608d9b396d89b33d928f724ab883de111771918b2c20d176f4c348fd"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/METABELIAN_CONTROLS.json",
+      "bytes": 3655,
+      "sha256": "c565d4ce5ad8351dd7fb7267751b3cc354c93184341db495e6f61a9e15f2ffc6"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/METABELIAN_PUBLISHED_CONTROL_FAILED.json",
+      "bytes": 1474,
+      "sha256": "3ae0402cb4ae6362eee0afb75edefd877f89f1bccb99f2a3a4e517ab20f8bc1a"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/METABOLIZERS.json",
+      "bytes": 31354,
+      "sha256": "cbe274b0d7d5b1dd5aa716f8499dc9f20c944bcb38522b7fbc44c875e03317c7"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/PARAMETER_EXTENSION_CONTROLS.json",
+      "bytes": 3754,
+      "sha256": "711b94d38f0305458e19e88c0b413295c87341996281793be233596e2cdd1715"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/SAME_SIGN_CABLE_FILTER.md",
+      "bytes": 6420,
+      "sha256": "4e62a314f919627e5cf17e5a2e3d0eb018505231577b4865d183f508fc83371f"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/SHA256SUMS",
+      "bytes": 5570,
+      "sha256": "cbffc754fe75ba12c0d0ddfdb8ea7b97efdee211a83dfaa0680a57d00f623738"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/SMALL_DIFFERENCE_SCREEN.json",
+      "bytes": 110642,
+      "sha256": "7551e74ec95f85fc6e97b0190f5d2e06f38e7b14027c7f63e2d4949da7be4523"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/all_character_screen.py",
+      "bytes": 2287,
+      "sha256": "26a674290fa6314077225746f09f5b9d026910b82f762c1d26994487b0e6a106"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/audit_discriminants.py",
+      "bytes": 2212,
+      "sha256": "af95670db6527f04723ccfbd22ae84e8b95423bd01586bc1397e43f9d49e28b1"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/audit_metabolizers.py",
+      "bytes": 2643,
+      "sha256": "acb04553ddc90a9bed16847354d33d90ad411b93ce8c458838cee9630816c9c2"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/audit_parameter_extension.py",
+      "bytes": 3169,
+      "sha256": "a217cfa21ee3d9f52d5510d564defe01175880e1dc54079a4e011ac93b1cf75a"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/cable_cover_audit.py",
+      "bytes": 2030,
+      "sha256": "8c39391ff277538490302fb4ccd27d23ed812e282fc86de756c1cc54a8e14f4f"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/check_compact_taylor.py",
+      "bytes": 2407,
+      "sha256": "b69880903a3ea7d2d131be37e5d1ba904fc40a320c415878a4f5695e50dc619e"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/combine_gst3.py",
+      "bytes": 1953,
+      "sha256": "e12f7c74a75360345ca38714b6ac03db40ed0e3d4331898ab1d17650030bd018"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/compact_taylor.py",
+      "bytes": 3303,
+      "sha256": "8dc512f1aa5e0c4d3c1025bd946e315f5d81d7e6108a405acfcd218e299750bd"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/exact_fox_generated.py",
+      "bytes": 4431,
+      "sha256": "da0005a58f39e7f9ce16e941b719e96472ca82f59dc39b6a6615d7e469db414d"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/exact_small_difference.py",
+      "bytes": 2547,
+      "sha256": "08b1d2049fc37089b70a8d74642b05d06d903dacf30cb3d7f65b063bd339406a"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/extend_metabelian.py",
+      "bytes": 1413,
+      "sha256": "0d87f839d9723da965fd42d7986abb57fb139179717f4d8411ddfce336a16968"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/gst3_order8/double/FAILURE.json",
+      "bytes": 17808,
+      "sha256": "67021fde9cb31094a8ae325937d38e6a2484fd51bcae41dc45ed1346577de960"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/gst3_order8/double/INPUT.json",
+      "bytes": 78767,
+      "sha256": "14c2324a7320cb11089b519d132257e84f62422ab3b78c5b7afa7da69ab7ed38"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/gst3_order8/double/LAYOUT.json",
+      "bytes": 14547,
+      "sha256": "07b8d1676e3678b295bfe67371af7efd2f0408b098ed345daa1b3dd887568f64"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/gst3_order8/double/PROGRESS_COMPACT.json",
+      "bytes": 111,
+      "sha256": "f8ba439654ba45d150cc95382bd8c0e0abcf322befbca435f2f001ff61aedae2"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/gst3_order8/double/RESULT_COMPACT.json",
+      "bytes": 413,
+      "sha256": "610d74afbf839100ad829df5edbc121f8430b87b4fde610fd9f08e43b00326dc"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/gst3_order8/mixed0/INPUT.json",
+      "bytes": 8362,
+      "sha256": "e8cd4e0fb27aad7a5b0ce317c5a514f84879d0319eb180ecd44676fa7843354c"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/gst3_order8/mixed0/LAYOUT.json",
+      "bytes": 9053,
+      "sha256": "7803e37fc70a44252f5185040ce1dbc29e3c6b854fa5d9e5a3d428894efd271d"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/gst3_order8/mixed0/RESULT.json",
+      "bytes": 11336,
+      "sha256": "fe4b653e2c1c4af13bbce1afffa973e8e7e7015ce52309b6707a83a1a1f802be"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/gst3_order8/mixed1/INPUT.json",
+      "bytes": 7018,
+      "sha256": "283ff6d02bc46c78eab66e0ed3100084a7cc6ab3633414cfdca90a51ac8a145b"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/gst3_order8/mixed1/LAYOUT.json",
+      "bytes": 7521,
+      "sha256": "5598cd1695b68360e365e7f2a877f124163e7dff473f23bb7b6a73a6bd48af5f"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/gst3_order8/mixed1/RESULT.json",
+      "bytes": 9472,
+      "sha256": "fd30d4c79c959215b5b079c35c88a879c98e7a90b6d213411b18bf244ac1526d"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/gst3_order8.py",
+      "bytes": 5251,
+      "sha256": "721010172219f4c9cdf0f9cf608a37981976600d773f57a1b5a2fbc396163e1b"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/metabelian/10_17_11_397_16.json",
+      "bytes": 1622,
+      "sha256": "c39a5ad0b321fc7e3a516c4f8f4b0844bec7e3e23749f3b68e8dd3544489b8bb"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/metabelian/10_17_11_397_273.json",
+      "bytes": 1621,
+      "sha256": "3e6f4322b973a69d0e34414eb4623c4148c6751d799bef343077771bb0849456"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/metabelian/10_17_13_1873_917.json",
+      "bytes": 1733,
+      "sha256": "ee211ac319d091450e8adf09e82548c2c57e5c532f26e8939a898b91b0d75173"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/metabelian/10_17_13_1873_96.json",
+      "bytes": 1730,
+      "sha256": "a5c5f86c58b3a0e7edaf580a1dd8d201c3b3e0531e428082c8f1d536c2e62076"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/metabelian/10_17_4_41_32_v2.json",
+      "bytes": 1419,
+      "sha256": "3b61bbc7c0f350f7b03c579dedb9beca83859bb8a8f0dc638846f99f21a79da2"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/metabelian/10_17_4_41_9_v2.json",
+      "bytes": 1419,
+      "sha256": "93604b0b508ba924834de20c72766a6d2c46ba184a201800bf0ec8a22bca000b"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/metabelian/10_17_5_41_16.json",
+      "bytes": 1424,
+      "sha256": "4def9c46077bd1b688d6d9deb0c8e2a561005854f7e43d731c837789cdf245c8"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/metabelian/10_17_5_41_18.json",
+      "bytes": 1424,
+      "sha256": "fd6c5a17afa4f1629acb6a862a52528a09418ddbc4f595a13150c241d686df7d"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/metabelian/10_17_7_29_16.json",
+      "bytes": 1511,
+      "sha256": "74ebe404fed0418472e934e1c46ffa7ebc3452ab9d2a854ea1fb49c2b0a94f5e"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/metabelian/10_17_7_29_20.json",
+      "bytes": 1513,
+      "sha256": "e03060eb4ee7e2316f5da0bfe551d096d6c39825ca71a2374eb508723924a321"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/metabelian/control_3_7_2.json",
+      "bytes": 135,
+      "sha256": "e75f62579f0bed66a411efb7924c06d93d9523f406e2aa1aec3412d05d2aac2e"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/metabelian/control_3_7_2_v2.json",
+      "bytes": 1180,
+      "sha256": "414205137a9ebf10ab4271af6a3d8ca958420db0b36226a34ae0debb643131f6"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/metabelian/control_3_7_4.json",
+      "bytes": 135,
+      "sha256": "8096c452b1e031df322aedb4524e80a696430f5ea6d17360a313736d31e27968"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/metabelian/control_3_7_4_v2.json",
+      "bytes": 1180,
+      "sha256": "16ec239609df825d6fcecbf0e3e4b282f4b6b7ee75d0edce4927383e0dba4e7a"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/metabelian_controls.py",
+      "bytes": 1820,
+      "sha256": "f57336026dff22e441266946a26bced6b20a1c889da050b4c50f1758208536ac"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/metabelian_probe.py",
+      "bytes": 7274,
+      "sha256": "61bf9f2de1531333e213f4af30d4000cf7302594f2a6b247285a7fa5384babfc"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/run_compact_gst3.py",
+      "bytes": 965,
+      "sha256": "8db156a522a16e5a5f3232186ff4077770f13f65e8bcaa40993d8df67389a5de"
+    },
+    {
+      "path": "results/astra_seven_hour_2026_09_20/test_small_difference.py",
+      "bytes": 2418,
+      "sha256": "9ced6dbce42a2e62a8c0dbd0976debf9edbda36fcd753af473c4328321dfad88"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/ABANDONED_WEAPONS_2010_2026.md",
+      "bytes": 6541,
+      "sha256": "861a6d12e791466feabf9eedaf341c3f706eae9d4108809596b83963936ccdcd"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/CANDIDATE_LEDGER.md",
+      "bytes": 6108,
+      "sha256": "ae29cd5bb9bc1f5a1f5f5d0bfa8d2f791c5bd1ae0278ce5af1584363a858b1f1"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/KDG_EXACT_AUDIT.md",
+      "bytes": 7038,
+      "sha256": "0eaabe383871a84a09898e63691b20cd46462c20af3217c4c77e9236f456f066"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/MANIFEST.md",
+      "bytes": 4314,
+      "sha256": "9d405e9e0cf122b7778046f0e47a07657bbd3c7f90f9ee84e8a017a291a7c930"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/OBSTRUCTION_MATRIX.md",
+      "bytes": 6457,
+      "sha256": "3d774dd9ed8c4c955234cb9de60dda28c6eb362cc4ed4badd5126703b4a1e953"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/PROVENANCE.json",
+      "bytes": 1780,
+      "sha256": "94deccffad65e4312953d6700148fbab2019b95bff68673ce6fa33072698bf60"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/SESSION0_BATTLEFIELD.md",
+      "bytes": 10511,
+      "sha256": "b329c3f8f3028ae1ceef6752bc4502fb8df468a1218a80ca5e61e2c7d7cb4642"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/SOURCES.md",
+      "bytes": 14145,
+      "sha256": "547a4665ca5852219fb6ceaab15a93980e073fd0ebc01389971535dace942835"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/outputs/review-2026-09-16/frontier-error-reproduction.json",
+      "bytes": 2965,
+      "sha256": "99128c8acf4b4820ea2385ae60663118c666a0a8c7c42069bb16df98c14c01f1"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/outputs/review-2026-09-16/reproduce_frontier_error.py",
+      "bytes": 2686,
+      "sha256": "71bb124c4f51e145402c35307cabdcfe7026d8c54ab225ad3734a891fa94c04c"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/outputs/review-2026-09-16/summand-s-check/AbeTagami_K_0_K_-1__6_3.txt",
+      "bytes": 102,
+      "sha256": "156127fe707025f66d297c929f3a95cbba6e0d7cef06bb433590e9fc03b01699"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/outputs/review-2026-09-16/summand-s-check/AbeTagami_K_0_K_-1__6_3_s0.log",
+      "bytes": 305,
+      "sha256": "6d42d384d0e08a88672349c0365d7114fd654b1bf91fee7302ed66759ef85803"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/outputs/review-2026-09-16/summand-s-check/AbeTagami_K_0_K_-1__6_3_s2.log",
+      "bytes": 305,
+      "sha256": "5e191659e9c46a71f2bd102eb3d553f2587d1c2d49adbbc9d40a69e291ecc4f1"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/outputs/review-2026-09-16/summand-s-check/AbeTagami_K_1.txt",
+      "bytes": 287,
+      "sha256": "033a41ce06ccea2d1f18dfd8705982b77c60b20c977f6fa798b69ea82c98ce7c"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/outputs/review-2026-09-16/summand-s-check/AbeTagami_K_1_s0.log",
+      "bytes": 275,
+      "sha256": "f68aff3b1b29cdcdd4d5538ccb189b214eb0c6fe0da97f6d8ff04ef2067dcd50"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/outputs/review-2026-09-16/summand-s-check/AbeTagami_K_1_s2.log",
+      "bytes": 275,
+      "sha256": "0ce077e14836adba376b82de67a23ab9359021c3d4c9ed80e4518d05e31b2e40"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/outputs/review-2026-09-16/summand-s-check/AbeTagami_K_2.txt",
+      "bytes": 617,
+      "sha256": "1860a78812445eabfef24680a53ef7ad016efede793453f12fd1d5b50d664914"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/outputs/review-2026-09-16/summand-s-check/AbeTagami_K_2_s0.log",
+      "bytes": 275,
+      "sha256": "75129ebf95f2eb32416d143a4fbceba90897c6ee7bbfd98ef4b4ecf5b54ea6e5"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/outputs/review-2026-09-16/summand-s-check/AbeTagami_K_2_s2.log",
+      "bytes": 275,
+      "sha256": "55c7758eaa989963fb6bff04782531ded019a4c393bbe4a96879f6962eb69a49"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/outputs/review-2026-09-16/summand-s-check/manifest.json",
+      "bytes": 4709,
+      "sha256": "4832dffea717675df7e90337c1dde9265ef4a47ad4aea9518dde166ed74abfca"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/outputs/review-2026-09-16/summand-s-check/negative_trefoil.txt",
+      "bytes": 56,
+      "sha256": "eca4ec8407a706311682510e8ae2cfbc4f8aa4705765343ab4e320da76f9fb5e"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/outputs/review-2026-09-16/summand-s-check/negative_trefoil_s0.log",
+      "bytes": 285,
+      "sha256": "2b838032b08a408a4c606daed76a4188b9e4148b06885c0e015239cb4c4d3e46"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/outputs/review-2026-09-16/summand-s-check/negative_trefoil_s2.log",
+      "bytes": 285,
+      "sha256": "6b81f588a3729acbd28ae3423c1d3240c66edf4a2c9dce60f62dc25eaa81a66c"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/outputs/review-2026-09-16/summand-s-check/positive_trefoil.txt",
+      "bytes": 56,
+      "sha256": "43169a4b605e5c264915f3eef5af430806ffb50bb560b23cbf2ea5e05bd5196a"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/outputs/review-2026-09-16/summand-s-check/positive_trefoil_s0.log",
+      "bytes": 284,
+      "sha256": "ab0d90211ec471b374c3c61c75ded4e5df2ba4392dae6b44dece2286f717b645"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/outputs/review-2026-09-16/summand-s-check/positive_trefoil_s2.log",
+      "bytes": 284,
+      "sha256": "e57619618749550b54d89fd0e235de5d6fc3c6e9d0802dbf8418c69139b1a765"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/outputs/review-2026-09-16/summand-s-check/ribbon_6_1.txt",
+      "bytes": 89,
+      "sha256": "ffc3d68ac453bfbd51c5719c642c36f4a61b33f72ca942d80e9cf21839f8c6f7"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/outputs/review-2026-09-16/summand-s-check/ribbon_6_1_s0.log",
+      "bytes": 266,
+      "sha256": "f9d957ebea13a434ab6de7896b34373be998452c3db8723de31f7a643fb87688"
+    },
+    {
+      "path": "results/parent_checkout_preserved_2026_09_20/outputs/review-2026-09-16/summand-s-check/ribbon_6_1_s2.log",
+      "bytes": 266,
+      "sha256": "b27367760e515147e1a19fd06c9b860ffa69b71cc894b36b76ad8f00f5dc9459"
+    }
+  ],
+  "count": 748,
+  "bytes": 10952968
+}

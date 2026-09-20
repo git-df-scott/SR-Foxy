@@ -1,0 +1,109 @@
+{
+  "n": 0,
+  "source_status": "EXPERIMENTAL_SOURCE_TRANSCRIPTION",
+  "red_unlink_reduced_crossings": 0,
+  "red_unlink_components": 2,
+  "pd": [
+    [
+      15,
+      4,
+      16,
+      5
+    ],
+    [
+      16,
+      3,
+      17,
+      0
+    ],
+    [
+      12,
+      8,
+      13,
+      7
+    ],
+    [
+      11,
+      3,
+      12,
+      2
+    ],
+    [
+      1,
+      11,
+      2,
+      10
+    ],
+    [
+      0,
+      17,
+      1,
+      18
+    ],
+    [
+      19,
+      14,
+      4,
+      15
+    ],
+    [
+      8,
+      14,
+      9,
+      13
+    ],
+    [
+      6,
+      10,
+      7,
+      9
+    ],
+    [
+      5,
+      18,
+      6,
+      19
+    ]
+  ],
+  "crossings": 10,
+  "components": 2,
+  "linking_matrix": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "component_determinants": [
+    1,
+    9
+  ],
+  "null_V": 1,
+  "det_V": -23,
+  "notes": {
+    "jones": "-1*q^-9 + 1*q^-7 + -1*q^-5 + 1*q^-3 + 1*q^-1 + 1*q^1 + 1*q^3 + -1*q^5 + 1*q^7 + -1*q^9",
+    "shift": -9,
+    "order_of_q2_plus_1": 1,
+    "det_V_imaginary_part": 0
+  },
+  "reconstruction_seconds": 0.47583484649658203,
+  "seed": 20260919,
+  "all_reconstruction_checks_enabled": true,
+  "exterior_volume_approx": "7.3277247534",
+  "file_tag": 0,
+  "k": 1,
+  "zero_surgery_group": {
+    "generators": [
+      "a",
+      "b"
+    ],
+    "relators": [],
+    "homology": "Z + Z",
+    "scope": "computed simplified presentation; no independent move certificate saved"
+  },
+  "det_V_mod32": 9,
+  "component_product_mod32": 9
+}

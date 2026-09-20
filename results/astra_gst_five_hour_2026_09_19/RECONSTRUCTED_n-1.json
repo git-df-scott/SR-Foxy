@@ -1,0 +1,205 @@
+{
+  "n": -1,
+  "source_status": "EXPERIMENTAL_SOURCE_TRANSCRIPTION",
+  "red_unlink_reduced_crossings": 0,
+  "red_unlink_components": 2,
+  "pd": [
+    [
+      15,
+      8,
+      16,
+      9
+    ],
+    [
+      10,
+      26,
+      11,
+      25
+    ],
+    [
+      19,
+      30,
+      20,
+      31
+    ],
+    [
+      40,
+      8,
+      41,
+      7
+    ],
+    [
+      12,
+      3,
+      13,
+      0
+    ],
+    [
+      38,
+      17,
+      39,
+      18
+    ],
+    [
+      48,
+      22,
+      49,
+      21
+    ],
+    [
+      32,
+      28,
+      33,
+      27
+    ],
+    [
+      45,
+      26,
+      46,
+      27
+    ],
+    [
+      36,
+      32,
+      37,
+      31
+    ],
+    [
+      24,
+      10,
+      25,
+      9
+    ],
+    [
+      49,
+      34,
+      50,
+      35
+    ],
+    [
+      43,
+      3,
+      44,
+      2
+    ],
+    [
+      1,
+      43,
+      2,
+      42
+    ],
+    [
+      0,
+      13,
+      1,
+      14
+    ],
+    [
+      23,
+      17,
+      24,
+      16
+    ],
+    [
+      22,
+      39,
+      23,
+      40
+    ],
+    [
+      33,
+      50,
+      34,
+      51
+    ],
+    [
+      44,
+      4,
+      45,
+      51
+    ],
+    [
+      11,
+      4,
+      12,
+      5
+    ],
+    [
+      6,
+      42,
+      7,
+      41
+    ],
+    [
+      5,
+      14,
+      6,
+      15
+    ],
+    [
+      37,
+      46,
+      38,
+      47
+    ],
+    [
+      18,
+      48,
+      19,
+      47
+    ],
+    [
+      29,
+      20,
+      30,
+      21
+    ],
+    [
+      28,
+      36,
+      29,
+      35
+    ]
+  ],
+  "crossings": 26,
+  "components": 2,
+  "linking_matrix": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "component_determinants": [
+    1,
+    25
+  ],
+  "null_V": 1,
+  "det_V": -71,
+  "notes": {
+    "jones": "1*q^-19 + -1*q^-17 + 1*q^-13 + -1*q^-11 + -2*q^-9 + 3*q^-7 + -3*q^-5 + 2*q^-3 + 1*q^-1 + 1*q^1 + 2*q^3 + -3*q^5 + 3*q^7 + -2*q^9 + -1*q^11 + 1*q^13 + -1*q^17 + 1*q^19",
+    "shift": -19,
+    "order_of_q2_plus_1": 1,
+    "det_V_imaginary_part": 0
+  },
+  "reconstruction_seconds": 1.0635437965393066,
+  "seed": 20260919,
+  "all_reconstruction_checks_enabled": true,
+  "exterior_volume_approx": "15.2640686931",
+  "file_tag": -1,
+  "k": -1,
+  "zero_surgery_group": {
+    "generators": [
+      "a",
+      "b"
+    ],
+    "relators": [],
+    "homology": "Z + Z",
+    "scope": "computed simplified presentation; no independent move certificate saved"
+  },
+  "det_V_mod32": 25,
+  "component_product_mod32": 25
+}

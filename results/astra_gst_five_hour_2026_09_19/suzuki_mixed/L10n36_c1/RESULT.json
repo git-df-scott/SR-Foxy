@@ -1,0 +1,10 @@
+{
+  "label": "L10n36",
+  "doubled_cycle": 1,
+  "selected_component": 0,
+  "habiro_baseline_pass": true,
+  "suzuki_ribbon_pass": true,
+  "coloured_J": "(v - 1)**3*(v + 1)**3*(v**2 + 1)**2*(v**4 + 1)*(v**8 + 1)*(v**2 - v + 1)*(v**2 + v + 1)*(v**4 - v**3 + v**2 - v + 1)**2*(v**4 + v**3 + v**2 + v + 1)**2/v**22",
+  "ribbon_quotient_denominator": "v**22",
+  "scope": "Exact ideal test on encoded link with calibrated framing. A pass is not ribbonness; source identification remains qualified."
+}

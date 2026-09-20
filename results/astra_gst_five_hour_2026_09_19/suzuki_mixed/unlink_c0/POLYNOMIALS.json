@@ -1,0 +1,26 @@
+{
+  "A": {
+    "simplified_pd": [],
+    "expected_components": 1,
+    "crossings": 0,
+    "polynomial": "v + 1/v"
+  },
+  "B": {
+    "simplified_pd": [],
+    "expected_components": 1,
+    "crossings": 0,
+    "polynomial": "v + 1/v"
+  },
+  "L": {
+    "simplified_pd": [],
+    "expected_components": 2,
+    "crossings": 0,
+    "polynomial": "v**2 + 2 + v**(-2)"
+  },
+  "AAB": {
+    "simplified_pd": [],
+    "expected_components": 3,
+    "crossings": 0,
+    "polynomial": "v**3 + 3*v + 3/v + v**(-3)"
+  }
+}

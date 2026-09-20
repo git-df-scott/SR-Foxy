@@ -1,0 +1,16 @@
+{
+  "precision_failure_archive": "L10n36_INITIAL_PRECISION_FAILURE",
+  "component_count_repaired_terms": [
+    [
+      "L5a1",
+      0,
+      3
+    ],
+    [
+      "L10n57",
+      0,
+      3
+    ]
+  ],
+  "final_status": "Use COMBINED.json and term RESULT.json; original STATUS.json preserves first attempt history."
+}

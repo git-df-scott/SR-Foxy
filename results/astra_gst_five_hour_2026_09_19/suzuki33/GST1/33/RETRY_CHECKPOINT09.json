@@ -1,0 +1,16 @@
+{
+  "term": "33",
+  "state_cap": 210000,
+  "time_limit_seconds": 90,
+  "saved_layout_verified": true,
+  "reflection_allowed": false,
+  "input_sha256": "7f5d99af9c8037ec7793650f62833f31efba7161d7152c1872ef927d3016664c",
+  "morse_width": 24,
+  "diagram_signature": "-cIcaabacadaeafagahaiajakalamanaoapaqarasatauavawaxayazaAacaBaCaDaEapaFaGaHaIaJaKaLaMaNaOaPaQaRaSaTaUaVaWaXaYaZa0a1aFa2a3a4a5a6a7aKa8a9a+a-aXauaabbbIcaacbdbebfbra0agbhbibjb9akblbmbnbobpbqbrbsbtbubvb+awbxbhbybHazbAbBbCbDbEbIaFbibxbGbZasaHbIbdbJbCaKbLbMbNbObPbQbRbSbTbUbVbDaWbebIbXbbbYbZb0b1b2b3bIcba4bJbWb5bqa1a6bybFb7b8a8b9b+b-bacbcccdcecfcgchc-aicGbgb6bGajckclcmcncocJa7bjbwbicYatapcXbcb4bBaqcrcsctcucvcwcxcyczcAcBcEa5bfbHbpcabCcDcEcFcGcHcIcdaqcKbVbBcoa2ajczbEboc7ajawcQbPbvciaLa8bkbvbhcWavaCcYb3bHcAaRaccqbpbbcQaIcearcLbUbAcna3akcAbDbnc6akaxcRbObuchaMa9blbubgcVawaDcZb2bGczaSadcrbobacPaIcfascMbTbzcma4alcBbCbmc5alaycSbNbtcgaNa+bmbtbfcUaxaEc0b1bFcyaTaecsbnb-bOa-4a-a-ah-a-a4h44h4h4hh4h4h44h4h4hh4h4h4h4h4h4h4h4h4h4h-----haaaaa4-aaaaaa------aaaaaa------a-a-a-a-a-a-a-a-a",
+  "precision": 5,
+  "status": "inconclusive",
+  "error": "TimeoutError('90_SECOND_LIMIT_INCONCLUSIVE')",
+  "seconds": 90.00847829179838,
+  "max_retained_states": 207945,
+  "last_event": 107
+}

@@ -1,0 +1,14 @@
+{
+  "start_utc": "2026-09-20T18:27:12Z",
+  "baseline_weekly_used_percent": 24,
+  "allowance_percentage_points": 3,
+  "buffered_stop_percent": 26,
+  "absolute_cap_percent": 27,
+  "reset_timestamp": 1790432261,
+  "status": "stopped_at_buffered_usage_limit",
+  "automation_status": "PAUSED",
+  "scope": "New explicit user authorization. Work continuously to usage stop or prior22:02:20UTC deadline. No new scheduled wakes; paused remote searches stay paused.",
+  "final_weekly_used_percent": 26,
+  "stopped_utc": "2026-09-20T18:38:26.592481+00:00",
+  "counterexample_found": false
+}

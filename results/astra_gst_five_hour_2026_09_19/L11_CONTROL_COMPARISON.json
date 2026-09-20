@@ -1,0 +1,116 @@
+[
+  {
+    "file_tag": 0,
+    "n": 0,
+    "isometries_reported": 4,
+    "meridian_preserving": [
+      {
+        "cusp_images": [
+          1,
+          0
+        ],
+        "maps": [
+          "[[-1  0]\n [ 0 -1]]",
+          "[[1 0]\n [0 1]]"
+        ],
+        "extends_to_link": true
+      },
+      {
+        "cusp_images": [
+          1,
+          0
+        ],
+        "maps": [
+          "[[-1  0]\n [ 0  1]]",
+          "[[ 1  0]\n [ 0 -1]]"
+        ],
+        "extends_to_link": true
+      },
+      {
+        "cusp_images": [
+          1,
+          0
+        ],
+        "maps": [
+          "[[ 1  0]\n [ 0 -1]]",
+          "[[-1  0]\n [ 0  1]]"
+        ],
+        "extends_to_link": true
+      },
+      {
+        "cusp_images": [
+          1,
+          0
+        ],
+        "maps": [
+          "[[1 0]\n [0 1]]",
+          "[[-1  0]\n [ 0 -1]]"
+        ],
+        "extends_to_link": true
+      }
+    ]
+  },
+  {
+    "file_tag": 1,
+    "n": 1,
+    "isometries_reported": 0,
+    "meridian_preserving": []
+  },
+  {
+    "file_tag": 2,
+    "n": 2,
+    "isometries_reported": 0,
+    "meridian_preserving": []
+  },
+  {
+    "file_tag": 101,
+    "n": -1,
+    "isometries_reported": 4,
+    "meridian_preserving": [
+      {
+        "cusp_images": [
+          1,
+          0
+        ],
+        "maps": [
+          "[[-1  0]\n [ 0  1]]",
+          "[[-1  0]\n [ 0  1]]"
+        ],
+        "extends_to_link": true
+      },
+      {
+        "cusp_images": [
+          1,
+          0
+        ],
+        "maps": [
+          "[[-1  0]\n [ 0 -1]]",
+          "[[-1  0]\n [ 0 -1]]"
+        ],
+        "extends_to_link": true
+      },
+      {
+        "cusp_images": [
+          1,
+          0
+        ],
+        "maps": [
+          "[[1 0]\n [0 1]]",
+          "[[1 0]\n [0 1]]"
+        ],
+        "extends_to_link": true
+      },
+      {
+        "cusp_images": [
+          1,
+          0
+        ],
+        "maps": [
+          "[[ 1  0]\n [ 0 -1]]",
+          "[[ 1  0]\n [ 0 -1]]"
+        ],
+        "extends_to_link": true
+      }
+    ]
+  }
+]

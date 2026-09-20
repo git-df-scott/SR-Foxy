@@ -1,0 +1,92 @@
+[
+  {
+    "label": "GST1",
+    "doubled_cycle": 0,
+    "habiro_baseline_pass": true,
+    "suzuki_ribbon_pass": true
+  },
+  {
+    "label": "GST1",
+    "doubled_cycle": 1,
+    "habiro_baseline_pass": true,
+    "suzuki_ribbon_pass": true
+  },
+  {
+    "label": "GST2",
+    "doubled_cycle": 0,
+    "habiro_baseline_pass": true,
+    "suzuki_ribbon_pass": true
+  },
+  {
+    "label": "GST2",
+    "doubled_cycle": 1,
+    "habiro_baseline_pass": true,
+    "suzuki_ribbon_pass": true
+  },
+  {
+    "label": "L10n36",
+    "doubled_cycle": 0,
+    "habiro_baseline_pass": true,
+    "suzuki_ribbon_pass": true
+  },
+  {
+    "label": "L10n36",
+    "doubled_cycle": 1,
+    "habiro_baseline_pass": true,
+    "suzuki_ribbon_pass": true
+  },
+  {
+    "label": "L10n57",
+    "doubled_cycle": 0,
+    "habiro_baseline_pass": true,
+    "suzuki_ribbon_pass": true
+  },
+  {
+    "label": "L10n57",
+    "doubled_cycle": 1,
+    "habiro_baseline_pass": true,
+    "suzuki_ribbon_pass": false
+  },
+  {
+    "label": "L14n38935",
+    "doubled_cycle": 0,
+    "habiro_baseline_pass": true,
+    "suzuki_ribbon_pass": false
+  },
+  {
+    "label": "L14n38935",
+    "doubled_cycle": 1,
+    "habiro_baseline_pass": true,
+    "suzuki_ribbon_pass": false
+  },
+  {
+    "label": "L5a1",
+    "doubled_cycle": 0,
+    "habiro_baseline_pass": true,
+    "suzuki_ribbon_pass": true
+  },
+  {
+    "label": "L5a1",
+    "doubled_cycle": 1,
+    "habiro_baseline_pass": true,
+    "suzuki_ribbon_pass": true
+  },
+  {
+    "label": "split_trefoil",
+    "doubled_cycle": 0,
+    "habiro_baseline_pass": true,
+    "suzuki_ribbon_pass": true
+  },
+  {
+    "label": "split_trefoil",
+    "doubled_cycle": 1,
+    "habiro_baseline_pass": true,
+    "suzuki_ribbon_pass": true
+  },
+  {
+    "label": "unlink",
+    "doubled_cycle": 0,
+    "habiro_baseline_pass": true,
+    "suzuki_ribbon_pass": true
+  }
+]

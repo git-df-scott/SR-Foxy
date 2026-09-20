@@ -1,0 +1,57 @@
+{
+  "label": "control",
+  "cover_degree": 3,
+  "character_prime": 7,
+  "deck_eigenvalue": 4,
+  "reduction_prime": 13,
+  "field": "Context for fq_default in GF(13^2)[u]/(u^2 + 12*u + 2)",
+  "root": "4*u + 3",
+  "generators": [
+    "a",
+    "b",
+    "c"
+  ],
+  "relators": [
+    "abAcACBcBabAbCBcBaBAbCbcaCbc",
+    "aCaBACBcABaBACaCbcabAcbCbc"
+  ],
+  "abelianization": [
+    1,
+    -1,
+    1
+  ],
+  "cocycle": [
+    3,
+    1,
+    0
+  ],
+  "cocycle_dimension": 2,
+  "reduced_twisted_polynomial": "x^4 + (2*u + 9)*x^3 + 5*x^2 + (11*u + 11)*x + 1",
+  "degree": 4,
+  "factors": [
+    [
+      "x + 1",
+      1
+    ],
+    [
+      "x^3 + (2*u + 8)*x^2 + (11*u + 10)*x + 1",
+      1
+    ]
+  ],
+  "not_norm_mod_reduction": true,
+  "bad_factors": [
+    {
+      "factor": "x + 1",
+      "multiplicity": 1,
+      "conjugate_multiplicity": 1
+    },
+    {
+      "factor": "x^3 + (2*u + 8)*x^2 + (11*u + 10)*x + 1",
+      "multiplicity": 1,
+      "conjugate_multiplicity": 1
+    }
+  ],
+  "representation_and_Fox_checks": true,
+  "seconds": 0.000729291932657361,
+  "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+}

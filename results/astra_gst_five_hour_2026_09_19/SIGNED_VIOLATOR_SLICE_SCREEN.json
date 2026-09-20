@@ -1,0 +1,9111 @@
+{
+  "population": 439,
+  "signed_violators": 159,
+  "classically_rejected": 159,
+  "survivors": [],
+  "rows": [
+    {
+      "name": "L10n56(0,0)(0,0)",
+      "det_V": 17,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 9,
+          "columns": 10,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "minor_determinant_mod_prime": 70,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L10n57(0,0)(0,0)",
+      "det_V": -15,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 9,
+          "columns": 10,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "minor_determinant_mod_prime": 78,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L11n218(0,0)(0,0)",
+      "det_V": -19,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 10,
+          "columns": 11,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "minor_determinant_mod_prime": 55,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L11n226(0,0)(0,0)",
+      "det_V": 13,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 10,
+          "columns": 11,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "minor_determinant_mod_prime": 62,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L12n544(0,0)(0,0)",
+      "det_V": -43,
+      "dets": [
+        1,
+        5
+      ],
+      "prod": 5,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 5,
+      "checks": [
+        {
+          "rank": 11,
+          "columns": 12,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "minor_determinant_mod_prime": 74,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L12n545(0,0)(0,0)",
+      "det_V": 45,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 11,
+          "columns": 12,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "minor_determinant_mod_prime": 10,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L12n564(0,0)(0,0)",
+      "det_V": 45,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 11,
+          "columns": 12,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            8,
+            9,
+            5,
+            10
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "minor_determinant_mod_prime": 83,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L12n1040(0,0)(0,0)",
+      "det_V": 21,
+      "dets": [
+        1,
+        5
+      ],
+      "prod": 5,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 5,
+      "checks": [
+        {
+          "rank": 11,
+          "columns": 12,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            5,
+            8,
+            9,
+            10
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "minor_determinant_mod_prime": 78,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L12n1095(0,0)(0,0)",
+      "det_V": -11,
+      "dets": [
+        1,
+        5
+      ],
+      "prod": 5,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 5,
+      "checks": [
+        {
+          "rank": 11,
+          "columns": 12,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "minor_determinant_mod_prime": 62,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L12n1109(0,0)(0,0)",
+      "det_V": -47,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 11,
+          "columns": 12,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "minor_determinant_mod_prime": 97,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L12n1249(0,0)(0,0)",
+      "det_V": -19,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 11,
+          "columns": 12,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "minor_determinant_mod_prime": 69,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L12n1252(0,0)(0,0)",
+      "det_V": 13,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 11,
+          "columns": 12,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "minor_determinant_mod_prime": 93,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L12n1272(0,0)(0,0)",
+      "det_V": 49,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 11,
+          "columns": 12,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "minor_determinant_mod_prime": 23,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L12n1273(0,0)(0,0)",
+      "det_V": -47,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 11,
+          "columns": 12,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "minor_determinant_mod_prime": 31,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L12n1299(0,0)(0,0)",
+      "det_V": -47,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 11,
+          "columns": 12,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            8
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "minor_determinant_mod_prime": 97,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L12n1300(0,0)(0,0)",
+      "det_V": 49,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 11,
+          "columns": 12,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            8
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "minor_determinant_mod_prime": 99,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L13n2061(0,0)(0,0)",
+      "det_V": 117,
+      "dets": [
+        1,
+        27
+      ],
+      "prod": 27,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -27,
+      "checks": [
+        {
+          "rank": 12,
+          "columns": 13,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            6,
+            10,
+            11
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_determinant_mod_prime": 92,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L13n2360(0,0)(0,0)",
+      "det_V": 117,
+      "dets": [
+        1,
+        27
+      ],
+      "prod": 27,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -27,
+      "checks": [
+        {
+          "rank": 12,
+          "columns": 13,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_determinant_mod_prime": 81,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L13n2490(0,0)(0,0)",
+      "det_V": 117,
+      "dets": [
+        1,
+        27
+      ],
+      "prod": 27,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -27,
+      "checks": [
+        {
+          "rank": 12,
+          "columns": 13,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_determinant_mod_prime": 33,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L13n2538(0,0)(0,0)",
+      "det_V": -163,
+      "dets": [
+        1,
+        45
+      ],
+      "prod": 45,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 45,
+      "checks": [
+        {
+          "rank": 12,
+          "columns": 13,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_determinant_mod_prime": 100,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L13n4518(0,0)(0,0)",
+      "det_V": -23,
+      "dets": [
+        1,
+        7
+      ],
+      "prod": 7,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -7,
+      "checks": [
+        {
+          "rank": 12,
+          "columns": 13,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            9,
+            8,
+            6,
+            10,
+            11
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_determinant_mod_prime": 55,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L13n4524(0,0)(0,0)",
+      "det_V": 9,
+      "dets": [
+        1,
+        7
+      ],
+      "prod": 7,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -7,
+      "checks": [
+        {
+          "rank": 12,
+          "columns": 13,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_determinant_mod_prime": 66,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L13n5076(0,0)(0,0)",
+      "det_V": 53,
+      "dets": [
+        1,
+        5
+      ],
+      "prod": 5,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 5,
+      "checks": [
+        {
+          "rank": 12,
+          "columns": 13,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_determinant_mod_prime": 99,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L13n5227(0,0)(0,0)",
+      "det_V": -115,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 12,
+          "columns": 13,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_determinant_mod_prime": 32,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L13n5255(0,0)(0,0)",
+      "det_V": -55,
+      "dets": [
+        1,
+        7
+      ],
+      "prod": 7,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -7,
+      "checks": [
+        {
+          "rank": 12,
+          "columns": 13,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            7,
+            9,
+            10,
+            11
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_determinant_mod_prime": 4,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L13n5314(0,0)(0,0)",
+      "det_V": -43,
+      "dets": [
+        1,
+        5
+      ],
+      "prod": 5,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 5,
+      "checks": [
+        {
+          "rank": 12,
+          "columns": 13,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_determinant_mod_prime": 64,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L13n5341(0,0)(0,0)",
+      "det_V": 81,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 12,
+          "columns": 13,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_determinant_mod_prime": 70,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L13n5365(0,0)(0,0)",
+      "det_V": 41,
+      "dets": [
+        1,
+        7
+      ],
+      "prod": 7,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -7,
+      "checks": [
+        {
+          "rank": 12,
+          "columns": 13,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_determinant_mod_prime": 64,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L13n5538(0,0)(0,0)",
+      "det_V": 117,
+      "dets": [
+        3,
+        9
+      ],
+      "prod": 27,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -27,
+      "checks": [
+        {
+          "rank": 12,
+          "columns": 13,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_determinant_mod_prime": 81,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L13n5584(0,0)(0,0)",
+      "det_V": 53,
+      "dets": [
+        1,
+        5
+      ],
+      "prod": 5,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 5,
+      "checks": [
+        {
+          "rank": 12,
+          "columns": 13,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_determinant_mod_prime": 39,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L13n5588(0,0)(0,0)",
+      "det_V": -43,
+      "dets": [
+        1,
+        5
+      ],
+      "prod": 5,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 5,
+      "checks": [
+        {
+          "rank": 12,
+          "columns": 13,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_determinant_mod_prime": 70,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L13n5630(0,0)(0,0)",
+      "det_V": -83,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 12,
+          "columns": 13,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_determinant_mod_prime": 8,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L13n5631(0,0)(0,0)",
+      "det_V": 77,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 12,
+          "columns": 13,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_determinant_mod_prime": 16,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L13n5772(0,0)(0,0)",
+      "det_V": 81,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 12,
+          "columns": 13,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            8,
+            11
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_determinant_mod_prime": 55,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L13n5773(0,0)(0,0)",
+      "det_V": -79,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 12,
+          "columns": 13,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            8,
+            11
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_determinant_mod_prime": 78,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L13n6376(0,0)(0,0)",
+      "det_V": -51,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 12,
+          "columns": 13,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_determinant_mod_prime": 78,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L13n6378(0,0)(0,0)",
+      "det_V": 45,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 12,
+          "columns": 13,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_determinant_mod_prime": 31,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L13n6435(0,0)(0,0)",
+      "det_V": 77,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 12,
+          "columns": 13,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "minor_determinant_mod_prime": 97,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n435(0,0)(0,0)",
+      "det_V": 45,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 17,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n436(0,0)(0,0)",
+      "det_V": -43,
+      "dets": [
+        1,
+        5
+      ],
+      "prod": 5,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 5,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 76,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n1619(0,0)(0,0)",
+      "det_V": -43,
+      "dets": [
+        1,
+        5
+      ],
+      "prod": 5,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 5,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 51,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n1621(0,0)(0,0)",
+      "det_V": 45,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 13,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n9268(0,0)(0,0)",
+      "det_V": -47,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 3,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n9282(0,0)(0,0)",
+      "det_V": 41,
+      "dets": [
+        1,
+        7
+      ],
+      "prod": 7,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -7,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 37,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n9390(0,0)(0,0)",
+      "det_V": -71,
+      "dets": [
+        1,
+        9
+      ],
+      "prod": 9,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 9,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 3,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n9415(0,0)(0,0)",
+      "det_V": -131,
+      "dets": [
+        1,
+        13
+      ],
+      "prod": 13,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 13,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 69,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n9416(0,0)(0,0)",
+      "det_V": 133,
+      "dets": [
+        1,
+        11
+      ],
+      "prod": 11,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -11,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 94,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n9446(0,0)(0,0)",
+      "det_V": -71,
+      "dets": [
+        1,
+        9
+      ],
+      "prod": 9,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 9,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            7,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 92,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n9752(0,0)(0,0)",
+      "det_V": 117,
+      "dets": [
+        1,
+        27
+      ],
+      "prod": 27,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -27,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 20,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n10047(0,0)(0,0)",
+      "det_V": -47,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            8,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 9,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n10048(0,0)(0,0)",
+      "det_V": 41,
+      "dets": [
+        1,
+        7
+      ],
+      "prod": 7,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -7,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            8,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 99,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n10052(0,0)(0,0)",
+      "det_V": 133,
+      "dets": [
+        1,
+        11
+      ],
+      "prod": 11,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -11,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            8,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 55,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n10053(0,0)(0,0)",
+      "det_V": -131,
+      "dets": [
+        1,
+        13
+      ],
+      "prod": 13,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 13,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            8,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 72,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n10461(0,0)(0,0)",
+      "det_V": -119,
+      "dets": [
+        1,
+        25
+      ],
+      "prod": 25,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 25,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            6,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 92,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n11214(0,0)(0,0)",
+      "det_V": -119,
+      "dets": [
+        1,
+        25
+      ],
+      "prod": 25,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 25,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 3,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n11315(0,0)(0,0)",
+      "det_V": 117,
+      "dets": [
+        1,
+        27
+      ],
+      "prod": 27,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -27,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            5,
+            8,
+            9,
+            10,
+            12,
+            11
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 9,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n11478(0,0)(0,0)",
+      "det_V": 129,
+      "dets": [
+        1,
+        15
+      ],
+      "prod": 15,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -15,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            4,
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 95,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n11479(0,0)(0,0)",
+      "det_V": -135,
+      "dets": [
+        1,
+        9
+      ],
+      "prod": 9,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 9,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            4,
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 92,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n11488(0,0)(0,0)",
+      "det_V": -135,
+      "dets": [
+        1,
+        9
+      ],
+      "prod": 9,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 9,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            4,
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 97,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n11489(0,0)(0,0)",
+      "det_V": 129,
+      "dets": [
+        1,
+        15
+      ],
+      "prod": 15,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -15,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            4,
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 95,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n11815(0,0)(0,0)",
+      "det_V": -131,
+      "dets": [
+        1,
+        13
+      ],
+      "prod": 13,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 13,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 65,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n11855(0,0)(0,0)",
+      "det_V": -131,
+      "dets": [
+        1,
+        13
+      ],
+      "prod": 13,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 13,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 69,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n12131(0,0)(0,0)",
+      "det_V": 117,
+      "dets": [
+        1,
+        27
+      ],
+      "prod": 27,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -27,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            3,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 61,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n24046(0,0)(0,0)",
+      "det_V": 69,
+      "dets": [
+        1,
+        11
+      ],
+      "prod": 11,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -11,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 5,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n24426(0,0)(0,0)",
+      "det_V": -7,
+      "dets": [
+        1,
+        9
+      ],
+      "prod": 9,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 9,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 31,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n24427(0,0)(0,0)",
+      "det_V": 25,
+      "dets": [
+        1,
+        9
+      ],
+      "prod": 9,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 9,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            9,
+            8,
+            6,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 55,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n24461(0,0)(0,0)",
+      "det_V": -67,
+      "dets": [
+        1,
+        13
+      ],
+      "prod": 13,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 13,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 24,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n24914(0,0)(0,0)",
+      "det_V": 45,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 53,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n24991(0,0)(0,0)",
+      "det_V": 61,
+      "dets": [
+        1,
+        13
+      ],
+      "prod": 13,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 13,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 85,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n24998(0,0)(0,0)",
+      "det_V": -59,
+      "dets": [
+        1,
+        11
+      ],
+      "prod": 11,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -11,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 16,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n25100(0,0)(0,0)",
+      "det_V": -43,
+      "dets": [
+        1,
+        5
+      ],
+      "prod": 5,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 5,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 23,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n25286(0,0)(0,0)",
+      "det_V": -71,
+      "dets": [
+        1,
+        9
+      ],
+      "prod": 9,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 9,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            12,
+            11
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 32,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n26105(0,0)(0,0)",
+      "det_V": 137,
+      "dets": [
+        1,
+        7
+      ],
+      "prod": 7,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -7,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 53,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n26107(0,0)(0,0)",
+      "det_V": -139,
+      "dets": [
+        1,
+        5
+      ],
+      "prod": 5,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 5,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 58,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n26149(0,0)(0,0)",
+      "det_V": 109,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 6,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n26301(0,0)(0,0)",
+      "det_V": -107,
+      "dets": [
+        1,
+        5
+      ],
+      "prod": 5,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 5,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 77,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n26700(0,0)(0,0)",
+      "det_V": -107,
+      "dets": [
+        1,
+        5
+      ],
+      "prod": 5,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 5,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 89,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n27259(0,0)(0,0)",
+      "det_V": -35,
+      "dets": [
+        1,
+        13
+      ],
+      "prod": 13,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 13,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 16,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n27263(0,0)(0,0)",
+      "det_V": 37,
+      "dets": [
+        1,
+        11
+      ],
+      "prod": 11,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -11,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 85,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n27343(0,0)(0,0)",
+      "det_V": -143,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            4,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 8,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n27915(0,0)(0,0)",
+      "det_V": -91,
+      "dets": [
+        1,
+        11
+      ],
+      "prod": 11,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -11,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            12,
+            11
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 62,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n28398(0,0)(0,0)",
+      "det_V": -119,
+      "dets": [
+        1,
+        7
+      ],
+      "prod": 7,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -7,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            4,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 76,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n29366(0,0)(0,0)",
+      "det_V": 89,
+      "dets": [
+        1,
+        9
+      ],
+      "prod": 9,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 9,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            7,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 66,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n29787(0,0)(0,0)",
+      "det_V": -115,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 19,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n29939(0,0)(0,0)",
+      "det_V": 69,
+      "dets": [
+        1,
+        11
+      ],
+      "prod": 11,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -11,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            12,
+            11
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 78,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n30020(0,0)(0,0)",
+      "det_V": -143,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 16,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n30032(0,0)(0,0)",
+      "det_V": -143,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            2,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 23,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n30054(0,0)(0,0)",
+      "det_V": -143,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            3,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 16,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n30108(0,0)(0,0)",
+      "det_V": -171,
+      "dets": [
+        1,
+        5
+      ],
+      "prod": 5,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 5,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6,
+            5,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 46,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n30180(0,0)(0,0)",
+      "det_V": -71,
+      "dets": [
+        1,
+        9
+      ],
+      "prod": 9,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 9,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 23,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n30779(0,0)(0,0)",
+      "det_V": 53,
+      "dets": [
+        1,
+        5
+      ],
+      "prod": 5,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 5,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 54,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n30780(0,0)(0,0)",
+      "det_V": -87,
+      "dets": [
+        1,
+        7
+      ],
+      "prod": 7,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -7,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 70,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n30781(0,0)(0,0)",
+      "det_V": -83,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 70,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n30782(0,0)(0,0)",
+      "det_V": 49,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 2,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n30783(0,0)(0,0)",
+      "det_V": -43,
+      "dets": [
+        1,
+        5
+      ],
+      "prod": 5,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 5,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 14,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n30784(0,0)(0,0)",
+      "det_V": 73,
+      "dets": [
+        1,
+        7
+      ],
+      "prod": 7,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -7,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 78,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n30785(0,0)(0,0)",
+      "det_V": -39,
+      "dets": [
+        1,
+        9
+      ],
+      "prod": 9,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 9,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 14,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n30786(0,0)(0,0)",
+      "det_V": 57,
+      "dets": [
+        1,
+        9
+      ],
+      "prod": 9,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 9,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 57,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n30788(0,0)(0,0)",
+      "det_V": 77,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 78,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n30789(0,0)(0,0)",
+      "det_V": -47,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 8,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n31231(0,0)(0,0)",
+      "det_V": 73,
+      "dets": [
+        1,
+        7
+      ],
+      "prod": 7,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -7,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 62,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n31232(0,0)(0,0)",
+      "det_V": -87,
+      "dets": [
+        1,
+        7
+      ],
+      "prod": 7,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -7,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 83,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n31255(0,0)(0,0)",
+      "det_V": 21,
+      "dets": [
+        1,
+        5
+      ],
+      "prod": 5,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 5,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 51,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n31264(0,0)(0,0)",
+      "det_V": -55,
+      "dets": [
+        1,
+        7
+      ],
+      "prod": 7,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -7,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 83,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n31284(0,0)(0,0)",
+      "det_V": 41,
+      "dets": [
+        1,
+        7
+      ],
+      "prod": 7,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -7,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 62,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n31288(0,0)(0,0)",
+      "det_V": -11,
+      "dets": [
+        1,
+        5
+      ],
+      "prod": 5,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 5,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 60,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n31375(0,0)(0,0)",
+      "det_V": 117,
+      "dets": [
+        1,
+        5
+      ],
+      "prod": 5,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 5,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            10
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 23,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n31376(0,0)(0,0)",
+      "det_V": -107,
+      "dets": [
+        1,
+        5
+      ],
+      "prod": 5,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 5,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 31,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n31585(0,0)(0,0)",
+      "det_V": -43,
+      "dets": [
+        1,
+        5
+      ],
+      "prod": 5,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 5,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 45,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n31593(0,0)(0,0)",
+      "det_V": 73,
+      "dets": [
+        1,
+        7
+      ],
+      "prod": 7,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -7,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 92,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n31598(0,0)(0,0)",
+      "det_V": -115,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 69,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n31599(0,0)(0,0)",
+      "det_V": 109,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 99,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n31601(0,0)(0,0)",
+      "det_V": 77,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 92,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n31605(0,0)(0,0)",
+      "det_V": 81,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 46,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n31606(0,0)(0,0)",
+      "det_V": -79,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 66,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n31608(0,0)(0,0)",
+      "det_V": -47,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            10
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 69,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n32037(0,0)(0,0)",
+      "det_V": -115,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            8,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 46,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n32038(0,0)(0,0)",
+      "det_V": 109,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            8,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 23,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n32145(0,0)(0,0)",
+      "det_V": -143,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 93,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n32388(0,0)(0,0)",
+      "det_V": 137,
+      "dets": [
+        1,
+        7
+      ],
+      "prod": 7,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -7,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6,
+            5,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 64,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n32416(0,0)(0,0)",
+      "det_V": -143,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 31,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n32465(0,0)(0,0)",
+      "det_V": -143,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 8,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n32566(0,0)(0,0)",
+      "det_V": 77,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            8
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 30,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n32567(0,0)(0,0)",
+      "det_V": -83,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            8
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 15,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n32568(0,0)(0,0)",
+      "det_V": -111,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            8
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 31,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n32569(0,0)(0,0)",
+      "det_V": 113,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            8
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 66,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n32635(0,0)(0,0)",
+      "det_V": 109,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 66,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n33194(0,0)(0,0)",
+      "det_V": -143,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 89,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n33541(0,0)(0,0)",
+      "det_V": 145,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 5,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n33870(0,0)(0,0)",
+      "det_V": -143,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            6,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 85,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n34021(0,0)(0,0)",
+      "det_V": -83,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            12,
+            9,
+            10,
+            11,
+            8
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 55,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n34422(0,0)(0,0)",
+      "det_V": 81,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 53,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n34651(0,0)(0,0)",
+      "det_V": -79,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 78,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n36150(0,0)(0,0)",
+      "det_V": -43,
+      "dets": [
+        1,
+        5
+      ],
+      "prod": 5,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 5,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 31,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n36151(0,0)(0,0)",
+      "det_V": 53,
+      "dets": [
+        1,
+        5
+      ],
+      "prod": 5,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 5,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 39,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n36691(0,0)(0,0)",
+      "det_V": -107,
+      "dets": [
+        1,
+        5
+      ],
+      "prod": 5,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 5,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            12,
+            11
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 62,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n37006(0,0)(0,0)",
+      "det_V": -143,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            9,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 62,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n37092(0,0)(0,0)",
+      "det_V": -143,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 85,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n37097(0,0)(0,0)",
+      "det_V": 109,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 16,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n37100(0,0)(0,0)",
+      "det_V": -79,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 78,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n37905(0,0)(0,0)",
+      "det_V": -147,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 16,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n37907(0,0)(0,0)",
+      "det_V": 141,
+      "dets": [
+        1,
+        3
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6,
+            2,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 37,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n38266(0,0)(0,0)",
+      "det_V": -143,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 77,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n38271(0,0)(0,0)",
+      "det_V": -143,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            9,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 32,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n38403(0,0)(0,0)",
+      "det_V": -207,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 77,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n38932(0,0)(0,0)",
+      "det_V": -71,
+      "dets": [
+        3,
+        3
+      ],
+      "prod": 9,
+      "prod_square": true,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 9,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            9,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 53,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n38934(0,0)(0,0)",
+      "det_V": -7,
+      "dets": [
+        3,
+        3
+      ],
+      "prod": 9,
+      "prod_square": true,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 9,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 74,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n38935(0,0)(0,0)",
+      "det_V": 25,
+      "dets": [
+        3,
+        3
+      ],
+      "prod": 9,
+      "prod_square": true,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 9,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 69,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n38979(0,0)(0,0)",
+      "det_V": 89,
+      "dets": [
+        3,
+        3
+      ],
+      "prod": 9,
+      "prod_square": true,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 9,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 74,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n39058(0,0)(0,0)",
+      "det_V": -71,
+      "dets": [
+        3,
+        3
+      ],
+      "prod": 9,
+      "prod_square": true,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 9,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 32,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n39091(0,0)(0,0)",
+      "det_V": 141,
+      "dets": [
+        3,
+        1
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 6,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n39222(0,0)(0,0)",
+      "det_V": -119,
+      "dets": [
+        5,
+        5
+      ],
+      "prod": 25,
+      "prod_square": true,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": 25,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 6,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n39896(0,0)(0,0)",
+      "det_V": -143,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 32,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n39970(0,0)(0,0)",
+      "det_V": -51,
+      "dets": [
+        3,
+        1
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            10
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 48,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n39971(0,0)(0,0)",
+      "det_V": 45,
+      "dets": [
+        3,
+        1
+      ],
+      "prod": 3,
+      "prod_square": false,
+      "all_comp_square": false,
+      "ok": false,
+      "signed_product": -3,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            10
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 6,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n39992(0,0)(0,0)",
+      "det_V": -143,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 93,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n39993(0,0)(0,0)",
+      "det_V": 145,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 99,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n40045(0,0)(0,0)",
+      "det_V": 81,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            9,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 39,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    },
+    {
+      "name": "L14n40047(0,0)(0,0)",
+      "det_V": 81,
+      "dets": [
+        1,
+        1
+      ],
+      "prod": 1,
+      "prod_square": true,
+      "all_comp_square": true,
+      "ok": false,
+      "signed_product": 1,
+      "checks": [
+        {
+          "rank": 13,
+          "columns": 14,
+          "minor_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "minor_determinant_mod_prime": 16,
+          "specialized_H1_dimension": 0,
+          "maximal_minor_nonzero": true,
+          "component_values": [
+            2,
+            2
+          ],
+          "prime": 101
+        }
+      ],
+      "classical_rank_obstruction_found": true
+    }
+  ],
+  "scope": "Nonzero maximal minors certify nonzero Alexander data. Deficient specializations are only unresolved, not proof of Alexander vanishing or sliceness."
+}

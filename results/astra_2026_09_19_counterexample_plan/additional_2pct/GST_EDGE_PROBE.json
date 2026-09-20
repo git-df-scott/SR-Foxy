@@ -1,0 +1,43 @@
+{
+  "controls": [
+    {
+      "knot": "3_1",
+      "old_distinct": 12,
+      "new_distinct": 12,
+      "old_included": true,
+      "all_outputs_two_components": true
+    },
+    {
+      "knot": "4_1",
+      "old_distinct": 30,
+      "new_distinct": 30,
+      "old_included": true,
+      "all_outputs_two_components": true
+    },
+    {
+      "knot": "6_1",
+      "old_distinct": 78,
+      "new_distinct": 78,
+      "old_included": true,
+      "all_outputs_two_components": true
+    },
+    {
+      "knot": "6_3",
+      "old_distinct": 74,
+      "new_distinct": 74,
+      "old_included": true,
+      "all_outputs_two_components": true
+    }
+  ],
+  "target": "literal GST48 PD, publisher-attributed GST identity",
+  "max_band_len": 3,
+  "max_twists": 1,
+  "old_distinct": 1698,
+  "edge_preserving_distinct": 1698,
+  "additional_descriptors": 0,
+  "counts": {},
+  "survivors": [],
+  "seconds": 0.2368467920459807,
+  "upstream_simple_bands_sha256": "fbf20a6339f8fec0bedf2e6269ff6b6683cf9ddd732da7ae9cbff3828f3daaf3",
+  "scope": "Finite generator experiment. Descriptors need not be distinct band isotopy classes. Passing necessities is not sliceness; no global nonribbon conclusion."
+}

@@ -1,0 +1,66 @@
+{
+  "label": "10_17",
+  "cover_degree": 4,
+  "character_prime": 41,
+  "deck_eigenvalue": 9,
+  "reduction_prime": 163,
+  "field": "Context for fq_default in GF(163^2)[u]/(u^2 + 159*u + 2)",
+  "root": "81*u + 89",
+  "generators": [
+    "a",
+    "b",
+    "c"
+  ],
+  "relators": [
+    "aBBaCCaBBaccAbbACCCAbbAccaBBaCCaBBaccAbbACCCAbbAccaBBaaccAbbACCCAbbAccaBBaCCaBBaccAbbACCCAbbAccaBBaCCaBBaccccc",
+    "aBBaCCaBBaccAbbACCCAbbAccaBBaCCaBBaccAbbAccaBBaCCaBBaccAbbACCCAbbAccaBBaCCaBBaccAbbACCCAbbAccaccAbbACCCAbbAcc"
+  ],
+  "abelianization": [
+    -2,
+    -1,
+    4
+  ],
+  "cocycle": [
+    0,
+    0,
+    1
+  ],
+  "cocycle_dimension": 2,
+  "reduced_twisted_polynomial": "x^14 + 88*x^13 + 71*x^12 + 146*x^11 + 32*x^10 + 153*x^9 + 48*x^8 + 63*x^7 + 48*x^6 + 153*x^5 + 32*x^4 + 146*x^3 + 71*x^2 + 88*x + 1",
+  "degree": 14,
+  "factors": [
+    [
+      "x + 162",
+      2
+    ],
+    [
+      "x + (29*u + 119)",
+      2
+    ],
+    [
+      "x + (51*u + 126)",
+      2
+    ],
+    [
+      "x + (53*u + 82)",
+      2
+    ],
+    [
+      "x + (110*u + 131)",
+      2
+    ],
+    [
+      "x + (112*u + 4)",
+      2
+    ],
+    [
+      "x + (134*u + 72)",
+      2
+    ]
+  ],
+  "not_norm_mod_reduction": false,
+  "bad_factors": [],
+  "representation_and_Fox_checks": true,
+  "seconds": 0.005519374972209334,
+  "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+}

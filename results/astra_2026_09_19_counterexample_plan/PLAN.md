@@ -1,0 +1,90 @@
+# Counterexample search: consolidated position and next session
+
+**19 September 2026. No Slice–Ribbon counterexample established. GST remains open.**
+
+**Additional-session update:** [RESULT.md](additional_2pct/RESULT.md) now computes H₁(Σ₁₁(GST48)) = (Z/1849)² and proves its only deck-invariant subgroup of half order is 43H. The proposed cover-homology subtask below is therefore completed. The extra-edge GST test added no descriptors in the two audited boxes; its D01 prototype failed a stronger literal-coverage control and must not be deployed unchanged.
+
+
+The precise knot objective is a knot K in S³ with (1) a smooth properly embedded disk in the standard B⁴ and (2) a proof that K bounds no ribbon disk. Both certificates must concern the same exactly identified knot. A ribbon disk has a Morse presentation with no interior maxima. A slice link with no ribbon disk system is a separate result; it does not automatically give a knot counterexample by banding its components.
+
+This session was authorized to use at most five additional percentage points of shared weekly Codex usage. The initial meter was 0%; it read 3% during preparation of this report. This is a coarse account-wide meter, not a precise attribution of tokens to this task. A one-session wakeup is scheduled for **4 PM September 19, America/Edmonton**, with a fresh five-point allowance and a stopping buffer. The cancelled GitHub movie search must remain paused.
+
+## What was actually inspected
+
+The active repository is the nested `work/research-2026-09-16` checkout. Its local HEAD is `3e4461e23fce6687293f6abef963011b37677c55`; remote main advanced repeatedly during the review. Final inspected tree: **`def9f2192ce6e80393a45c289b77eceb1c3617a2`**, 2,289 tracked files. No merge, reset, or change to another session's files was performed. New work is additive in this directory.
+
+`REMOTE_REPORT_INDEX.json` indexes 197 research Markdown reports at the earlier remote snapshot, excluding duplicate archive trees. `REMOTE_SNAPSHOT_FINAL.json` records the final complete path inventory. I read the main handoffs, candidate and obstruction reports, recent research notes, relevant scripts/results, and the archived conversation ledger/corrections; I replayed selected checks below. **An inventory is not a claim that every file, archived attachment, historical tool call, or theorem has been independently read and verified.**
+
+Direct GPT chat retrieval also covered:
+
+- **Find GST Knot Counterexample** (`6aadf976-2290-83e8-8d88-d87519b01844`): all four visible turns, including the detailed 66-file GST package accounting. Its requested four-hour follow-on never ran; the completed work was the earlier approximately 47-minute block.
+- **Find Counterexample in SR Foxy** (`6aaddf9a-69dc-83e8-9a38-c4941b920cc9`): all seven visible turns, including the band-generator omission, local construction searches, GST identification claim, Bing-tree extension, and cancellation audit. Research responses are preserved in `GPT_RESEARCH_CHAT_EXCERPTS.json`; embedded content-reference placeholders do not recover their attachments.
+- **Find Slice Ribbon Counterexample** (`6aadf95e-8c24-83e8-8182-19619ab849b6`): all four visible turns. Its initial attempt failed; subsequent publication/backup work must not be counted as new mathematics.
+- **SliceR CE Hunt Update** (`6aad9c23-c388-83e8-a556-fc50986a0d49`): recent GST-calibration discussion, not its entire mixed-topic history. Screenshot contents were not read in this pass.
+- The repository's `results/chat_archive_2026_09_17/CONVERSATION_LEDGER.md` preserves the earlier annulus, transfer, quantum, cap, correction and publication chronology. It explicitly is not a verbatim complete platform export.
+
+Some newer chat claims have no matching report located by targeted searches of the current remote Markdown tree. Treat those as **chat-reported, awaiting attachment/certificate recovery**, not newly verified results. Claude was optional; direct repo and GPT access supplied useful evidence without launching another model session.
+
+## GST: retain all the completed work
+
+There are two objects to keep distinct: the GST **two-component link** L₃,₁ and a specific **band-sum knot** B₃,₁. The stored 48-crossing Epoch PD is another precise combinatorial input whose connection to the original construction must be tracked.
+
+| Item | Evidence and present conclusion | Remaining falsification/identification check |
+|---|---|---|
+| Smooth sliceness | GST §8 supplies standard-B⁴ slice disks for its exact links; a specified boundary band sum gives a slice knot. | Certify that the literal working PD/band is that constructed object. |
+| GST48 Floer data | Saved F₂/F₃, mirror, relabeling, Euler and complex checks report genus 10, HFK rank 189, top Alexander rank 2: nonfibered. One underlying Floer implementation. | Do not apply a theorem requiring this knot to be fibered. No fresh Floer calculation here. |
+| Alexander algebra | f=t⁸−2t⁷+t⁶+t⁵−2t⁴+t³−1; Δ=f(t)f(t⁻¹), determinant 1, breadth 16. Distinct reciprocal irreducibles give exactly two rational Blanchfield metabolizers in the saved argument. | Two rational kernels are not two disks or two embedded derivatives. |
+| Prime 43 | Resultant 43², common factor t²−4t+1 modulo 43, root order 11; Sylvester Smith diagonal 1 fourteen times,43,43; order of H₁ of the 11-fold branched cover is 43⁴. **Polynomial arithmetic freshly replayed here.** | Compute the actual integral Alexander module, pairing and canonical disk inclusion, not just this factor resultant. Cover order is not its group decomposition. |
+| First-band box | 15,794 specifications: 13,269 linking exclusions; 2,463 one-variable rank exclusions; 12 multivariable exclusions; 50 exact K⊔U movies. Smaller 164 and 1,698 searches are nested levels, not extra disjoint counts. | No theorem puts every ribbon disk in this box. The 50 returns remain possible prefixes because later bands can use U. |
+| Diagram bridge | GST chat retains publisher-attribution caveat. Another GPT chat reports a 192-dart overpass-preserving match from Figure 2 trace to stored Regina B31. | Recover and replay that mapping; determine whether it connects the Epoch input, the Regina PD, and the specified primary-source band. A match between two transcriptions alone does not certify both transcriptions. |
+| L₃,₁ recovery | Existing inverse-band attempts did not certify the desired two-component link. | Recover direct link and control diagrams from the original vector source, not component determinants alone. |
+| Eisermann controls | Raw control JSONL recount: **621 unique records**, all passing, zero errors; 431 with knotted components. Residues 1:190,9:164,17:134,25:133. Older “599” report is stale. | General calibration does not validate the specific GST trace. L₁,₁ and L₂,₁ construction controls remain essential. The whole 12,184-link census has not been certified run. |
+
+Fresh source recovery: the existing GitHub source artifact contains the original TeX and EPS/PDF vectors, not only screenshots. Local `gst_primary/` contains the source tar, paper PDF, `Ln1`, `Lnk`, and `sliceknot` figures. I verified source/PDF hashes and visually inspected the rendered Ln1 figure. The n-strand spirals and TeX labels require parameter expansion and careful crossing tracing. “No readable source exists” is stale; “no certified link PD yet” remains a real blocker.
+
+## Prioritized plan, starting at 4 PM
+
+**1. Finish the GST input bridge and known-answer controls.** First recover the reported 192-dart certificate and the edge-preserving band generator from the GPT research attachments or newly pushed files; recheck remote main before rebuilding either. Extract all three relevant diagrams and track exact PD/signature identities. Trace L₁,₁, L₂,₁ and L₃,₁ with a common parameterized convention from the vector figures. Preserve crossing IDs, components, framing and band marks. Check planar rotation systems and obtain independent transcriptions. Run the known ribbon examples: their expected determinant-product residues are 9 and 17 modulo 32, respectively. Stop and repair any control failure before treating the target output as evidence.
+
+**2. Run the exact link obstruction once the identification is certified.** Apply Eisermann's normalized Jones/nullity and determinant congruence tests to L₃,₁. Its necessary determinant residue if ribbon is 17 modulo 32. Record integer arithmetic and independently verify any discrepancy with a second implementation. A violation plus the standard-B⁴ disk certificate would establish a slice nonribbon **link**. A pass is simply no obstruction. It neither proves ribbonness nor closes GST. A knot conclusion needs an additional argument for a particular band sum.
+
+**3. Test a potentially easier stable representative.** Diao–Pan–Yan's Theorem 1.1(1) gives a finite-range stable equivalence relating Lₙ to L(n+1,n;2/3), including n=3. Their theorem about stably trivial L(3,2;4/d) is a different family and does not settle the 6/7 target. GST §8 states that framed handle slides preserve slice/ribbon status; adding/removing a split zero-framed unknot also preserves existence of the relevant disk systems. Therefore a certified stably equivalent representative, or an appropriate obstructed sublink of it, could supply a link test even if the original L₃,₁ diagram is cumbersome. This is a **derived research lead**, not an executed test or new theorem. Check stabilization conventions: adding Hopf pairs is different. Obtain an explicit representative and the applicable equivalence before using it. The paper defers implementation details; ambiguous piecewise formulas must not be silently guessed.
+
+**4. Develop the GST knot's integral/peripheral kernel question.** Build the integral module and Blanchfield pairing directly from the preserved PD/Seifert data; derive the map induced by the canonical GST disk from its actual handles. Determine what integral lattices occur inside each of the two rational metabolizers at 43. Compute the 11-fold cover group and induced kernel as useful diagnostics. Before spending a large budget, state an exact condition forced by *every ribbon disk* and not by every existing slice/handle-ribbon disk. If the condition only tests one chosen disk or surface, label it that way. The point is to discover a genuine ribbon-specific obstruction, not to promote unusual arithmetic into one.
+
+**5. Use construction searches only in demonstrably new dimensions.** The chat reports `simple_bands` collapses parallel dual edges, with two choices producing component determinants {1,169} versus {13,13}. Recover and reproduce this witness and replacement. Existing GST boxes remain valid for their enumerated descriptors, but are not exhaustive over edge choices. Search additional marked edges or continuations using the split unknot only after controls and deduplication. Preserve full moves, births/deaths and orientation. A larger failed box remains inconclusive. Do not restart cancelled run 35455048082.
+
+**6. Keep the two complementary knot routes ready.** For D01 and the smaller K7a2#−K10n4 difference, the useful missing object is an explicit smooth concordance/disk, since the applicable nonribbon hypotheses were checked. For DG18nh00000601 and GST, standard-ball sliceness is available from constructions and the missing object is a global ribbon obstruction. Work on the missing half in each route. Favor an exact marked mixed-transfer/cap construction over another invariant match. Any common-upper endpoint nomination needs exact knot identification and complete movie replay; Jones/HOMFLY/HFK agreement already produced false nominations in the saved searches.
+
+Next-session deliverables are bounded: a recovered/replayed diagram certificate, a certified control/target link input and test, or a precise failed tracing/kernel step with saved data. A counterexample cannot be promised. Do not disguise failure to finish as a negative theorem.
+
+## Other lanes: what must not be forgotten or repeated
+
+| Lane | Current evidence / limitation |
+|---|---|
+| Mixed transfer / annulus | Fresh local geometry and local-movie checkers passed for the one-winding repair. Earlier free-group/collar identities were conditional; protected meridians, actual product gluing, global caps and framed Whitney data remain missing. Opposite signs on different sheet pairs are not a Whitney pair. |
+| Genus-one spatial surgery model | Remote explicit mesh and 675-crossing auxiliary surgery-link construction add real geometry. Boundary knot identification and the modifying annulus are still absent; Alexander agreement is insufficient. |
+| Common-upper searches | First-hour checkpoint: 167,163 attempts, 21,067 stored states including roots; all cross-side endpoints separated by the saved invariant audit. Fixed cyclic-cover witnesses replayed here, including eight corruption rejections. Planned seven hours did not finish. |
+| Cancellation | Later remote commit 9bc873b records 1h13m last heartbeat/201,277 attempts, but terminal SQLite is malformed. Only intact first-hour data have the full endpoint audit. Preserve damaged data; do not count last heartbeat as validated final totals. |
+| Whitehead stabilizer | Nonfibered ribbon J=Wh⁺(square knot,0) avoids the particular fibered-cable exclusion. The only unexcluded output in the recorded 8,106-band box is now identified here as the original T=D01#J plus a split unknot; see new result below. Neither the entire stabilizer nor its continuations are excluded. |
+| Fibered cable stabilizers | Existing coprimality/Agol–Ren argument excludes the specified C(p,1)(R) family. It does not exclude every fibered ribbon summand. Preserve the earlier Miyazaki correction. |
+| Hom–Park | Corrected 88-crossing displayed candidate was obstructed by advanced/direct HKL(2,3); older basic `None` was not evidence of survival. Exact norm root multiplicities replayed here. Family-wide impossibility was not established. |
+| Miyazaki cable | Stored (10₁₇)(2,1) is known nonribbon with sliceness unknown. Audit whether old basic HKL `None` means applicable inconclusive computation or a skipped case before proposing it as a survivor. Figure-eight cable family has a newer nonsliceness result. |
+| Turaev | Later report has 12 killed, 4 timeout, 4 ribbon controls, superseding “one built.” Same Seifert data do not determine Casson–Gordon invariants. Character availability alone is not an obstruction. |
+| DG / derivative obstructions | Oliveira-Smith supplies standard-B⁴ sliceness and fibered handle-ribbon structure. A two-lattice model is not all embedded derivatives on all surfaces. Homotopy-ribbon obstructions cannot rule out an object already having that structure. |
+| Involutive Floer / d | The recorded lifted-complex equivalence still has a lifting assumption. Burau/Euler agreement does not prove it. K₁ correction terms remain a useful missing calculation; a negative-definite filling by itself does not determine d without the required sharpness theorem. |
+| Zero surgery / mutation / RBG | Completed 3,486-row zero-surgery search has nine UNKNOWNs and numerical filters, not a universal exclusion. Matching HFK/volume is not certified mutation or concordance. Particular RBG boxes failed, not all such constructions. |
+| Ordinary parallels / Bing | Existing transfer results make tested ordinary-parallel and comb constructions automatic. GPT additionally reports 8,861 binary Bing-tree shapes and an inductive extension, plus 2,171 unlink/2,884 ribbon-base presentations. Recover those certificates before re-proposing arbitrary binary trees as untouched. |
+| Dunkerley named examples | Full §6 inspection: Wh⁺(trefoil,2) has s=2; Wh⁻(trefoil,2) and 15n43522 have determinant 7/Fox–Milnor failure. They are nonslice, not new candidates. Strong ribbon concordance has a different meaning from strongly homotopy ribbon. |
+
+## New calculation in this session
+
+For the pinned Whitehead-target band **`ca080502_0_-1`**, I regenerated the literal output and inspected its components. The first strict factor comparison failed because a seven-crossing factor required simplification; that failed intermediate record is retained. Regina height-one simplification reduces it to six crossings and matches the target's factor multiset with reflection prohibited. The only orientation discrepancy in the factor comparison is the 6₃ factor, which is invertible; the other two oriented factor signatures agree.
+
+More importantly, `certify_whitehead_split.py` finds and replays **two Reidemeister III moves followed by two Reidemeister II removals**, exposing one split unknot. Exact before/after data are saved in `WHITEHEAD_SPLIT_MOVIE.json`. Thus the earlier apparent survivor does not give a new simpler knot. The identity uses Spherogram/Regina and existing combinatorial R1/R2 routines, not a proof assistant. The split movie is explicit; the final factor simplification uses Regina rather than a saved elementary movie. This limitation is preserved.
+
+Reproduction: use the scratch Python environment `/tmp/sr-foxy-20260919-leads-venv/bin/python`, or install the versions recorded in `requirements.txt`. Run `certify_whitehead_split.py`, `replay_whitehead_identity.py`, and `replay_gst_algebra.py`. The original producer `probe_whitehead_survivor.py` refuses to overwrite its saved result. Original source/PDF hashes and primary-source links are in `SOURCES.md`.
+
+## Limitations and immediate next step
+
+This is a substantial reconciliation, not literally all prior conversations or an exhaustive proof audit. Repository and GPT state continue changing. The GST arithmetic and finite-band accounting do not establish global nonribbonness; link tests do not automatically settle the knot conjecture. The most valuable next experiment is the **certified GST L₁,₁/L₂,₁/L₃,₁ diagram-and-Eisermann sequence**, using recovered vector inputs and the already completed calibration, with the stable representative as a carefully checked alternative.

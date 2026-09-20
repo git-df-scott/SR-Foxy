@@ -1,0 +1,78 @@
+{
+  "numerator_coefficients_integer": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "habiro_baseline_low_orders_vanish": true,
+  "ribbon_obstructed_exact": false,
+  "criterion": "Suzuki (2,2), expansion at v=1 to order8 with q=v^2",
+  "terms": [
+    [
+      16,
+      0,
+      -4576,
+      4576,
+      829880,
+      -1664336,
+      -32086288,
+      100421992
+    ],
+    [
+      -64,
+      0,
+      13568,
+      -13568,
+      -1586944,
+      3187456,
+      -21181984,
+      55570528
+    ],
+    [
+      32,
+      0,
+      -4416,
+      4416,
+      449424,
+      -903264,
+      31691840,
+      -92815152
+    ],
+    [
+      64,
+      0,
+      -8832,
+      8832,
+      235552,
+      -479936,
+      20917760,
+      -61549024
+    ],
+    [
+      -64,
+      0,
+      4096,
+      -4096,
+      71360,
+      -138624,
+      655904,
+      -1623200
+    ],
+    [
+      16,
+      0,
+      160,
+      -160,
+      728,
+      -1296,
+      2768,
+      -5144
+    ]
+  ],
+  "scope": "Link obstruction only. GST source identification remains qualified. Passing this criterion does not prove ribbonness or resolve knot Slice-Ribbon."
+}

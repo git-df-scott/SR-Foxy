@@ -1,0 +1,27 @@
+{
+  "coefficients_mod101": [
+    8,
+    0,
+    22,
+    79,
+    37,
+    49
+  ],
+  "crossings": 30,
+  "morse_width": 10,
+  "max_retained_states": 42,
+  "scope": "Mixed(2,1) requires numerator order>=6 atv=1. Nonzero fifth coefficient obstructs ribbonness once input/framing are certified; vanishing mod101 is inconclusive.",
+  "label": "GST1",
+  "cycle": 0,
+  "numerator_jet_mod101": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "baseline_low_orders_vanish": true,
+  "ribbon_obstruction_mod101": false,
+  "seconds": 0.02840941702015698
+}

@@ -1,0 +1,4 @@
+from pathlib import Path
+import json,regina
+from suzuki_root_minus_one import Jet
+p=Path(__file__).parent;out=p/'suzuki33/L5a1/33';i=json.loads((out/'INPUT.json').read_text());r=json.loads((out/'RESULT.json').read_text());Jet.order=5;v=Jet([10,1]);delta=v+v**-1;R=regina.Link.fromPD([[e+1 for e in row] for row in i['simplified_pd']]);J=R.jones(regina.Algorithm.Treewidth);co={j:int(str(J[j]))*(-1 if j%2 else 1) for j in range(J.minExp(),J.maxExp()+1) if J[j]!=0};value=delta**(1+i['unlinked_components'])*sum((c*v**j for j,c in co.items()),Jet(0));assert list(value.d)==r['coefficients_mod101'];(out/'INDEPENDENT_FULL_REGINA.json').write_text(json.dumps({'converted_normalized_coefficients':co,'unreduced_jet_mod101':list(value.d),'agrees':True},indent=2)+'\n');print('Whitehead33 full Regina agrees with root jet')

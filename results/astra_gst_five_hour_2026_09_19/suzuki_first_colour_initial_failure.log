@@ -1,0 +1,12 @@
+/private/tmp/sr-foxy-20260919-leads-venv/lib/python3.11/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+Traceback (most recent call last):
+  File "/Users/scottg/Documents/ChatGPT/SR Foxy/work/research-2026-09-16/results/astra_gst_five_hour_2026_09_19/suzuki_first_colour.py", line 34, in <module>
+    if not C.crossings:poly=S.expand(delta**(C.unlinked_unknot_components-1));sub[str(mask)]={int(t.as_powers_dict().get(v,0)):int(t/v**t.as_powers_dict().get(v,0)) for t in S.Add.make_args(poly)}
+                                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/scottg/Documents/ChatGPT/SR Foxy/work/research-2026-09-16/results/astra_gst_five_hour_2026_09_19/suzuki_first_colour.py", line 34, in <dictcomp>
+    if not C.crossings:poly=S.expand(delta**(C.unlinked_unknot_components-1));sub[str(mask)]={int(t.as_powers_dict().get(v,0)):int(t/v**t.as_powers_dict().get(v,0)) for t in S.Add.make_args(poly)}
+                                                                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/sr-foxy-20260919-leads-venv/lib/python3.11/site-packages/sympy/core/expr.py", line 342, in __int__
+    raise TypeError("Cannot convert symbols to int")
+TypeError: Cannot convert symbols to int

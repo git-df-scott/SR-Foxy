@@ -1,0 +1,33 @@
+{
+  "coefficients_integer": [
+    8,
+    0,
+    12,
+    -780,
+    402,
+    -9688
+  ],
+  "crossings": 18,
+  "morse_width": 8,
+  "max_retained_states": 14,
+  "chosen_start_index": 1,
+  "layout_score": [
+    4,
+    152
+  ],
+  "starts_tested": 18,
+  "scope": "Exact mixed(2,1) criterion, using Habiro baseline ideal theorem for the zero-framed algebraically split input. Numerator must vanish to order6 atv=1. Source identity remains qualified; passing does not prove ribbonness.",
+  "label": "L10n57",
+  "cycle": 1,
+  "numerator_jet_integer": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    -3840
+  ],
+  "baseline_low_orders_vanish": true,
+  "ribbon_obstruction_exact": true,
+  "seconds": 0.02411329187452793
+}

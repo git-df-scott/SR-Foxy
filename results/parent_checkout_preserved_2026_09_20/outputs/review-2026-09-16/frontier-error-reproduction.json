@@ -1,0 +1,55 @@
+{
+  "status": "REPRODUCED_ERROR_AS_COMPLETED_NEGATIVE",
+  "scope": "Mocked search failure; not a topology calculation or claim that old results contain this failure.",
+  "source_sha256": "891bfcfc41b2a15cfedb8fdc3ae90aff528b534e3134e194013e2ea2192ff91b",
+  "checkpoint": {
+    "schema": "teichner-frontier-v2",
+    "knot": "MOCK_TARGET",
+    "box": {
+      "max_bands": 1,
+      "max_band_len": 4,
+      "max_twists": 2,
+      "paths": "shortest",
+      "backtrack_steps": 25,
+      "partners": [
+        "6_1"
+      ],
+      "n_diagrams": 1
+    },
+    "box_hash": "a3cebb5f262e",
+    "meaning": "Checkpointed, resumable one-band frontier for the Teichner lane.\n\nWHY ONE BAND.  The coverage argument, already in\n`scripts/teichner_one_band_frontier.py` and audited in `--audit` mode below:\n\n  Suppose S = D_{0,1} # J is ribbon by a movie lying inside the box (at most two\n  bands, each of length <= L with at most T twists).  Reversed, that movie writes\n  S as a fusion of an unlink, so EVERY intermediate link in it is itself a ribbon\n  link, hence strongly slice.  `sagefree_slice_filter` tests only NECESSARY\n  conditions for strong sliceness and KEEPS anything it cannot decide, so every\n  intermediate survives the filter.  In particular the first intermediate L_1 is a\n  filter-surviving one-band successor of S.  So if the one-band frontier of S has\n  ZERO survivors, no two-band movie exists in that box.\n\n  Status: PROVED, conditional on (a) the filter being necessary-only, which its\n  own docstring asserts and its self-test checks, and (b) the one-band enumeration\n  covering the same first-band set as the two-band search, which `--audit` tests\n  empirically rather than assuming.",
+    "completed": {
+      "MOCK_TARGET|6_1|0|a3cebb5f262e": {
+        "id": "MOCK_TARGET|6_1|0|a3cebb5f262e",
+        "J": "6_1",
+        "diagram": 0,
+        "crossings": 1,
+        "survivors": 0,
+        "unknot_endpoint_found": false,
+        "certificate_verified": false,
+        "seconds": 0.0,
+        "error": "RuntimeError: INJECTED_SEARCH_FAILURE",
+        "finished_at": "2026-09-16T23:41:28.301025Z"
+      }
+    },
+    "hits": [],
+    "started": "2026-09-16T23:41:28.302404Z",
+    "resumed_from": "2026-09-16T23:41:28.300549Z",
+    "coverage": {
+      "6_1": {
+        "diagrams_done": [
+          0
+        ],
+        "complete": true,
+        "zero_survivor_diagrams": [
+          0
+        ]
+      }
+    },
+    "elapsed_seconds": 0.0
+  },
+  "transcript": [
+    "[     0.0s] MOCK_TARGET # 6_1 diag 0: survivors=0 unknot=False verified=False (0.0s)\nCOVERAGE: {\n \"6_1\": {\n  \"diagrams_done\": [\n   0\n  ],\n  \"complete\": true,\n  \"zero_survivor_diagrams\": [\n   0\n  ]\n }\n}\nhits = 0\n",
+    "RESUMING: 1 units already complete\nskip (done): MOCK_TARGET|6_1|0|a3cebb5f262e\nCOVERAGE: {\n \"6_1\": {\n  \"diagrams_done\": [\n   0\n  ],\n  \"complete\": true,\n  \"zero_survivor_diagrams\": [\n   0\n  ]\n }\n}\nhits = 0\n"
+  ]
+}

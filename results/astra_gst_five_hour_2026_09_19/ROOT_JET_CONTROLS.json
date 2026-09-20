@@ -1,0 +1,89 @@
+[
+  {
+    "components": 2,
+    "crossings": 10,
+    "jet_mod_32": [
+      23,
+      0,
+      14,
+      0,
+      23,
+      0
+    ],
+    "morse_width": 6,
+    "max_retained_states": 5,
+    "exhaustion_starts_tested": 10,
+    "divisibility_remainder_mod_32": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "quotient_at_i_mod_32": [
+      9,
+      0
+    ],
+    "expected_mod_32": 9,
+    "ribbon_obstructed_mod_32": false,
+    "scope": "Necessary ribbon conditions only; zero residue is inconclusive.",
+    "name": "known_ribbon_L10n36"
+  },
+  {
+    "components": 2,
+    "crossings": 20,
+    "jet_mod_32": [
+      31,
+      0,
+      30,
+      0,
+      31,
+      0
+    ],
+    "morse_width": 8,
+    "max_retained_states": 14,
+    "exhaustion_starts_tested": 16,
+    "divisibility_remainder_mod_32": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "quotient_at_i_mod_32": [
+      1,
+      0
+    ],
+    "expected_mod_32": 17,
+    "ribbon_obstructed_mod_32": true,
+    "scope": "Necessary ribbon conditions only; zero residue is inconclusive.",
+    "name": "square_pair_nonribbon"
+  },
+  {
+    "components": 2,
+    "crossings": 62,
+    "jet_mod_32": [
+      15,
+      0,
+      30,
+      0,
+      15,
+      0
+    ],
+    "morse_width": 16,
+    "max_retained_states": 1038,
+    "exhaustion_starts_tested": 16,
+    "divisibility_remainder_mod_32": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "quotient_at_i_mod_32": [
+      17,
+      0
+    ],
+    "expected_mod_32": 17,
+    "ribbon_obstructed_mod_32": false,
+    "scope": "Necessary ribbon conditions only; zero residue is inconclusive.",
+    "name": "provisional_n3"
+  }
+]

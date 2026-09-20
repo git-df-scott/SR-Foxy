@@ -1,0 +1,45 @@
+{
+  "cases": [
+    {
+      "n": 3,
+      "k": -1,
+      "exit_code": 0
+    },
+    {
+      "n": 3,
+      "k": 0,
+      "exit_code": 0
+    },
+    {
+      "n": 2,
+      "k": 2,
+      "status": "TIMEOUT_120_SECONDS_NOT_A_NEGATIVE_RESULT"
+    },
+    {
+      "n": 3,
+      "k": 2,
+      "status": "TIMEOUT_120_SECONDS_NOT_A_NEGATIVE_RESULT"
+    },
+    {
+      "n": 4,
+      "k": 1,
+      "exit_code": 0
+    },
+    {
+      "n": 3,
+      "k": -2,
+      "status": "TIMEOUT_120_SECONDS_NOT_A_NEGATIVE_RESULT"
+    },
+    {
+      "n": 2,
+      "k": -2,
+      "exit_code": -9
+    },
+    {
+      "n": 3,
+      "k": 3,
+      "exit_code": -15
+    }
+  ],
+  "seconds": 456.4383576249238
+}

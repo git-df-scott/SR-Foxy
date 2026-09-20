@@ -1,0 +1,10 @@
+{
+  "url": "https://www.kurims.kyoto-u.ac.jp/preprint/file/RIMS1733.pdf",
+  "sha256": "4fd965fc5d610fb3f0ae63507b2344835f3177dc52fdd0166f9628d0fe80a8ad",
+  "checked_utc": "2026-09-20T01:57:24.949905+00:00",
+  "publication": "Sakie Suzuki, Banach Center Publications100(2014),213\u2013222, DOI10.4064/bc100-0-12",
+  "supported_claims": [
+    "Theorem2.2: ribbon and boundary link ideal condition",
+    "Theorem3.1: principal generators as cyclotomic products"
+  ]
+}

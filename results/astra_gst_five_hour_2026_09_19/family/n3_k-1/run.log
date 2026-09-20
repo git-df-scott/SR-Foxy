@@ -1,0 +1,3 @@
+/private/tmp/sr-foxy-20260919-leads-venv/lib/python3.11/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+{"n": 3, "k": -1, "source_status": "EXPERIMENTAL_TWO_FIGURE_SUPPORTED_FAMILY", "input_crossings": 32, "output_crossings": 100, "components": 2, "linking_matrix": [[0, 0], [0, 0]], "component_determinants": [9, 25], "null_V": 1, "det_V": 193, "product_mod32": 1, "det_V_mod32": 1, "ribbon_gate_passes": true, "scope": "Numerical construction and exact invariant of stored PD; GST source identity still requires independent certificate. Passing is not ribbon proof."}

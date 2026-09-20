@@ -1,0 +1,23 @@
+{
+  "start_utc": "2026-09-20T15:02:20Z",
+  "deadline_utc": "2026-09-20T22:02:20Z",
+  "start_weekly_used_percent": 19,
+  "self_imposed_allowance_percentage_points": null,
+  "stop_displayed_percent_with_buffer": 24,
+  "reset_timestamp": 1790432261,
+  "latest_weekly_used_percent": 24,
+  "status": "stopped_usage_limit",
+  "scope": "Seven-hour investigation; amended allowance five points from20%, buffered stop24%. Two spaced continuations, no routine notifications. Earlier campaign stopped.",
+  "paused_remote_run": "35455048082",
+  "next_step": "Only after new authorization: finish exact-to-modular audit for D*=K7a2#-K10n4.10_17 cable remains unexcluded. See CHECKPOINT_03_FINAL.",
+  "last_checkpoint_utc": "2026-09-20T16:53:50.042307+00:00",
+  "continuation_utc": [
+    "2026-09-20T18:30:00Z",
+    "2026-09-20T22:00:00Z"
+  ],
+  "budget_amendment_utc": "2026-09-20T15:08:08Z",
+  "amended_baseline_weekly_used_percent": 20,
+  "amended_allowance_percentage_points": 5,
+  "budget_amendment": "User explicitly authorized five additional usage points from fresh20% baseline; replaces self-imposed cap, preserves original deadline.",
+  "automation_status": "PAUSED"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "requested_test_complete",
+  "candidate": "K9n4#(-K14n282)",
+  "result": "excluded_by_marked_twisted_Alexander_obstruction",
+  "usage_start_percent": 26,
+  "last_displayed_usage_percent": 26,
+  "timestamp_utc": "2026-09-20T18:46:50.662938+00:00",
+  "automation": "remains_paused",
+  "counterexample": false
+}

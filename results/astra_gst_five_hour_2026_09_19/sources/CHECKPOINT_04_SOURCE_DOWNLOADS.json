@@ -1,0 +1,14 @@
+[
+  {
+    "file": "suzuki_2010.pdf",
+    "url": "https://msp.org/agt/2010/10-2/agt-v10-n2-p18-p.pdf",
+    "sha256": "0ee7c318ee8f11c2e2fdb1736b96424c5355cccb425a48cf5e8693b74b56c618",
+    "checked_utc": "2026-09-20T00:57:00.477324+00:00"
+  },
+  {
+    "file": "virtual_covers_II_v2.pdf",
+    "url": "https://arxiv.org/pdf/1512.02667",
+    "sha256": "42e8f83dbfff33300f3ad570308a41cb22fc3def5598d422dbe71013dd33dd05",
+    "checked_utc": "2026-09-20T00:57:01.103782+00:00"
+  }
+]

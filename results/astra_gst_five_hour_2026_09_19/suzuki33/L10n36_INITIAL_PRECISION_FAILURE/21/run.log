@@ -1,0 +1,13 @@
+/private/tmp/sr-foxy-20260919-leads-venv/lib/python3.11/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+Traceback (most recent call last):
+  File "/Users/scottg/Documents/ChatGPT/SR Foxy/work/research-2026-09-16/results/astra_gst_five_hour_2026_09_19/suzuki33_term.py", line 17, in <module>
+    R=regina.Link.fromPD([[x+1 for x in row] for row in L.PD_code()]);J=R.jones(regina.Algorithm.Treewidth);expected=delta**(missing+1)*sum((int(str(J[i]))*(-1 if i%2 else 1)*v**i for i in range(J.minExp(),J.maxExp()+1)),Jet(0));assert expected==value,'Independent full Jones mismatch';r['independent_full_regina_agrees']=True
+                                                                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/scottg/Documents/ChatGPT/SR Foxy/work/research-2026-09-16/results/astra_gst_five_hour_2026_09_19/suzuki33_term.py", line 17, in <genexpr>
+    R=regina.Link.fromPD([[x+1 for x in row] for row in L.PD_code()]);J=R.jones(regina.Algorithm.Treewidth);expected=delta**(missing+1)*sum((int(str(J[i]))*(-1 if i%2 else 1)*v**i for i in range(J.minExp(),J.maxExp()+1)),Jet(0));assert expected==value,'Independent full Jones mismatch';r['independent_full_regina_agrees']=True
+                                                                                                                                                                               ~^^~
+  File "/Users/scottg/Documents/ChatGPT/SR Foxy/work/research-2026-09-16/results/astra_gst_five_hour_2026_09_19/suzuki_root_minus_one.py", line 38, in __pow__
+    if self != Jet([10,1]):raise ValueError('Only v inverse supported')
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Only v inverse supported

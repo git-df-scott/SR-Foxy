@@ -1,0 +1,16 @@
+{
+  "start_utc": "2026-09-19T23:41:43Z",
+  "deadline_utc": "2026-09-20T04:41:43Z",
+  "start_weekly_used_percent": 7,
+  "allowance_percentage_points": 14,
+  "stop_displayed_percent_with_buffer": 20,
+  "reset_timestamp": 1790432261,
+  "remote_snapshot": "2a071282514b448da4b5f0ab44afcc3308fee562",
+  "status": "active",
+  "latest_weekly_used_percent": 18,
+  "last_checkpoint_utc": "2026-09-20T03:32:55.259796+00:00",
+  "checkpoint": 9,
+  "next_step": "GST1 root33 modular test complete no obstruction. GST3 double22 needs mixed traces upgraded from six to eight coefficients before four-parallel test; saved precision audit explains missing data. Pace remaining two points; finalize and pause by04:41:43UTC or displayed20%.",
+  "budget_amendment_utc": "2026-09-20T00:27:20Z",
+  "budget_amendment": "User added seven percentage points to existing allowance; original baseline and deadline preserved."
+}

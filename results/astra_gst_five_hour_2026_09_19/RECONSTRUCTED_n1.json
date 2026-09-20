@@ -1,0 +1,157 @@
+{
+  "n": 1,
+  "source_status": "EXPERIMENTAL_SOURCE_TRANSCRIPTION",
+  "red_unlink_reduced_crossings": 0,
+  "red_unlink_components": 2,
+  "pd": [
+    [
+      24,
+      4,
+      25,
+      3
+    ],
+    [
+      0,
+      20,
+      1,
+      19
+    ],
+    [
+      35,
+      10,
+      12,
+      11
+    ],
+    [
+      8,
+      26,
+      9,
+      25
+    ],
+    [
+      27,
+      21,
+      28,
+      20
+    ],
+    [
+      21,
+      17,
+      22,
+      16
+    ],
+    [
+      32,
+      15,
+      33,
+      16
+    ],
+    [
+      14,
+      29,
+      15,
+      30
+    ],
+    [
+      4,
+      24,
+      5,
+      23
+    ],
+    [
+      1,
+      34,
+      2,
+      35
+    ],
+    [
+      28,
+      33,
+      29,
+      34
+    ],
+    [
+      9,
+      12,
+      10,
+      13
+    ],
+    [
+      5,
+      30,
+      6,
+      31
+    ],
+    [
+      18,
+      0,
+      19,
+      11
+    ],
+    [
+      17,
+      27,
+      18,
+      26
+    ],
+    [
+      13,
+      2,
+      14,
+      3
+    ],
+    [
+      22,
+      8,
+      23,
+      7
+    ],
+    [
+      31,
+      6,
+      32,
+      7
+    ]
+  ],
+  "crossings": 18,
+  "components": 2,
+  "linking_matrix": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "component_determinants": [
+    1,
+    9
+  ],
+  "null_V": 1,
+  "det_V": 73,
+  "notes": {
+    "jones": "-1*q^-15 + 2*q^-13 + -2*q^-11 + 1*q^-9 + 1*q^-1 + 1*q^1 + 1*q^9 + -2*q^11 + 2*q^13 + -1*q^15",
+    "shift": -15,
+    "order_of_q2_plus_1": 1,
+    "det_V_imaginary_part": 0
+  },
+  "reconstruction_seconds": 1.4114749431610107,
+  "seed": 20260919,
+  "all_reconstruction_checks_enabled": true,
+  "exterior_volume_approx": "12.1390113315",
+  "file_tag": 1,
+  "k": 1,
+  "zero_surgery_group": {
+    "generators": [
+      "a",
+      "b"
+    ],
+    "relators": [],
+    "homology": "Z + Z",
+    "scope": "computed simplified presentation; no independent move certificate saved"
+  },
+  "det_V_mod32": 9,
+  "component_product_mod32": 9
+}

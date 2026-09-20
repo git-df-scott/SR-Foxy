@@ -1,0 +1,21 @@
+import sys,json,time
+from pathlib import Path
+import snappy,sympy as S
+p=Path(__file__).parent;sys.path.insert(0,str(p.resolve().parents[1]/'scripts'))
+from suzuki_taylor_all_starts import probe,Jet
+v=S.Symbol('v')
+def convert(expr):
+ out=Jet(0)
+ for term in S.Add.make_args(S.expand(expr)):
+  exp=int(term.as_powers_dict().get(v,0));coef=int(term/v**exp);out=out+coef*Jet([1,1])**exp
+ return out
+name=sys.argv[1];ci=int(sys.argv[2]);d=p/'suzuki_mixed'/f'{name}_c{ci}';inputs=json.loads((d/'INPUT.json').read_text());polys=json.loads((d/'POLYNOMIALS.json').read_text());L=snappy.Link(json.loads((d/'TAYLOR_INPUT_PD.json').read_text()));start=time.monotonic();r=probe(L)
+if 'AAB' in polys:assert r['coefficients_mod101']==list(convert(S.sympify(polys['AAB']['polynomial'])).d),'Taylor/full-Jones control mismatch'
+if 'AA' not in polys:
+ assert not inputs['selected_knot_pd']
+ polys['AA']={'polynomial':str((v+1/v)**2)}
+a={k:convert(S.sympify(polys[k]['polynomial'])) for k in ['A','B','L','AA']};z=Jet([1,1]);delta=z+z**-1;eps=z**3+z**-3
+num=Jet(r['coefficients_mod101'])-delta*a['AA']-(delta+eps)*a['L']+(delta+eps)*delta*a['A']+delta*eps*a['B']-delta*delta*eps
+r.update(label=name,cycle=ci,numerator_jet_mod101=list(num.d),baseline_low_orders_vanish=not any(num.d[:5]),ribbon_obstruction_mod101=bool(num.d[5]),seconds=time.monotonic()-start,scope='Mixed(2,1) requires numerator order>=6 atv=1. Nonzero fifth coefficient obstructs ribbonness once input/framing are certified; vanishing mod101 is inconclusive.')
+assert r['baseline_low_orders_vanish'],'Habiro baseline failed'
+(d/'TAYLOR_ALL_STARTS_RESULT.json').write_text(json.dumps(r,indent=2)+'\n');print(json.dumps(r),flush=True)

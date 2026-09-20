@@ -1,0 +1,10 @@
+{
+  "label": "unlink",
+  "doubled_cycle": 0,
+  "selected_component": 0,
+  "habiro_baseline_pass": true,
+  "suzuki_ribbon_pass": true,
+  "coloured_J": "0",
+  "ribbon_quotient_denominator": "1",
+  "scope": "Exact ideal test on encoded link with calibrated framing. A pass is not ribbonness; source identification remains qualified."
+}

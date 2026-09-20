@@ -1,0 +1,113 @@
+[
+  {
+    "name": "3_1",
+    "multiplicity": 2,
+    "legacy_braid_agrees": true,
+    "linking_matrix": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "name": "3_1",
+    "multiplicity": 3,
+    "legacy_braid_agrees": true,
+    "linking_matrix": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "name": "4_1",
+    "multiplicity": 2,
+    "legacy_braid_agrees": true,
+    "linking_matrix": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "name": "4_1",
+    "multiplicity": 3,
+    "legacy_braid_agrees": true,
+    "linking_matrix": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "name": "6_1",
+    "multiplicity": 2,
+    "legacy_braid_agrees": true,
+    "linking_matrix": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "name": "6_1",
+    "multiplicity": 3,
+    "legacy_braid_agrees": true,
+    "linking_matrix": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  }
+]

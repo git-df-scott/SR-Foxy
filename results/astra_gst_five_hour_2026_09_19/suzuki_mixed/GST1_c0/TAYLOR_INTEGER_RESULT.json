@@ -1,0 +1,33 @@
+{
+  "coefficients_integer": [
+    8,
+    0,
+    -180,
+    180,
+    -10366,
+    20552
+  ],
+  "crossings": 30,
+  "morse_width": 10,
+  "max_retained_states": 42,
+  "chosen_start_index": 29,
+  "layout_score": [
+    5,
+    642
+  ],
+  "starts_tested": 30,
+  "scope": "Exact mixed(2,1) criterion, using Habiro baseline ideal theorem for the zero-framed algebraically split input. Numerator must vanish to order6 atv=1. Source identity remains qualified; passing does not prove ribbonness.",
+  "label": "GST1",
+  "cycle": 0,
+  "numerator_jet_integer": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "baseline_low_orders_vanish": true,
+  "ribbon_obstruction_exact": false,
+  "seconds": 0.031031083082780242
+}

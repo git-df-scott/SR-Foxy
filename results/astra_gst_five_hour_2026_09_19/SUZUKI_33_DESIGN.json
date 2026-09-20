@@ -1,0 +1,142 @@
+{
+  "variable_convention": "q_Suzuki=v^2; Phi2(q)=v^2+1",
+  "P3_numerator": "-(-X*v + v**2 + 1)*(-X*v**3 + v**6 + 1)*(-X*v**5 + v**10 + 1)/v**9",
+  "P3_prefactor": "v^3/((q-1)*(q^2-1)*(q^3-1))",
+  "terms": [
+    {
+      "a": 0,
+      "b": 0,
+      "coefficient": "(v**2 + 1)**6*(v**4 - v**2 + 1)**2*(v**8 - v**6 + v**4 - v**2 + 1)**2/v**18",
+      "coefficient_Phi2_order": 6,
+      "unreduced_cable_trace": "J_00",
+      "minimum_trace_precision_to_test_order5": 0
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "coefficient": "-(v**2 + 1)**5*(v**4 - v**2 + 1)*(v**8 - v**6 + v**4 - v**2 + 1)*(v**12 - v**10 + 3*v**8 - 3*v**6 + 3*v**4 - v**2 + 1)/v**17",
+      "coefficient_Phi2_order": 5,
+      "unreduced_cable_trace": "J_01",
+      "minimum_trace_precision_to_test_order5": 0
+    },
+    {
+      "a": 0,
+      "b": 2,
+      "coefficient": "(v**2 + 1)**4*(v**2 - v + 1)*(v**2 + v + 1)*(v**4 - v**2 + 1)**2*(v**8 - v**6 + v**4 - v**2 + 1)/v**14",
+      "coefficient_Phi2_order": 4,
+      "unreduced_cable_trace": "J_02",
+      "minimum_trace_precision_to_test_order5": 1
+    },
+    {
+      "a": 0,
+      "b": 3,
+      "coefficient": "-(v**2 + 1)**3*(v**4 - v**2 + 1)*(v**8 - v**6 + v**4 - v**2 + 1)/v**9",
+      "coefficient_Phi2_order": 3,
+      "unreduced_cable_trace": "J_03",
+      "minimum_trace_precision_to_test_order5": 2
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "coefficient": "-(v**2 + 1)**5*(v**4 - v**2 + 1)*(v**8 - v**6 + v**4 - v**2 + 1)*(v**12 - v**10 + 3*v**8 - 3*v**6 + 3*v**4 - v**2 + 1)/v**17",
+      "coefficient_Phi2_order": 5,
+      "unreduced_cable_trace": "J_10",
+      "minimum_trace_precision_to_test_order5": 0
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "coefficient": "(v**2 + 1)**4*(v**12 - v**10 + 3*v**8 - 3*v**6 + 3*v**4 - v**2 + 1)**2/v**16",
+      "coefficient_Phi2_order": 4,
+      "unreduced_cable_trace": "J_11",
+      "minimum_trace_precision_to_test_order5": 1
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "coefficient": "-(v**2 + 1)**3*(v**2 - v + 1)*(v**2 + v + 1)*(v**4 - v**2 + 1)*(v**12 - v**10 + 3*v**8 - 3*v**6 + 3*v**4 - v**2 + 1)/v**13",
+      "coefficient_Phi2_order": 3,
+      "unreduced_cable_trace": "J_12",
+      "minimum_trace_precision_to_test_order5": 2
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "coefficient": "(v**2 + 1)**2*(v**12 - v**10 + 3*v**8 - 3*v**6 + 3*v**4 - v**2 + 1)/v**8",
+      "coefficient_Phi2_order": 2,
+      "unreduced_cable_trace": "J_13",
+      "minimum_trace_precision_to_test_order5": 3
+    },
+    {
+      "a": 2,
+      "b": 0,
+      "coefficient": "(v**2 + 1)**4*(v**2 - v + 1)*(v**2 + v + 1)*(v**4 - v**2 + 1)**2*(v**8 - v**6 + v**4 - v**2 + 1)/v**14",
+      "coefficient_Phi2_order": 4,
+      "unreduced_cable_trace": "J_20",
+      "minimum_trace_precision_to_test_order5": 1
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "coefficient": "-(v**2 + 1)**3*(v**2 - v + 1)*(v**2 + v + 1)*(v**4 - v**2 + 1)*(v**12 - v**10 + 3*v**8 - 3*v**6 + 3*v**4 - v**2 + 1)/v**13",
+      "coefficient_Phi2_order": 3,
+      "unreduced_cable_trace": "J_21",
+      "minimum_trace_precision_to_test_order5": 2
+    },
+    {
+      "a": 2,
+      "b": 2,
+      "coefficient": "(v**2 + 1)**2*(v**2 - v + 1)**2*(v**2 + v + 1)**2*(v**4 - v**2 + 1)**2/v**10",
+      "coefficient_Phi2_order": 2,
+      "unreduced_cable_trace": "J_22",
+      "minimum_trace_precision_to_test_order5": 3
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "coefficient": "-(v**2 + 1)*(v**2 - v + 1)*(v**2 + v + 1)*(v**4 - v**2 + 1)/v**5",
+      "coefficient_Phi2_order": 1,
+      "unreduced_cable_trace": "J_23",
+      "minimum_trace_precision_to_test_order5": 4
+    },
+    {
+      "a": 3,
+      "b": 0,
+      "coefficient": "-(v**2 + 1)**3*(v**4 - v**2 + 1)*(v**8 - v**6 + v**4 - v**2 + 1)/v**9",
+      "coefficient_Phi2_order": 3,
+      "unreduced_cable_trace": "J_30",
+      "minimum_trace_precision_to_test_order5": 2
+    },
+    {
+      "a": 3,
+      "b": 1,
+      "coefficient": "(v**2 + 1)**2*(v**12 - v**10 + 3*v**8 - 3*v**6 + 3*v**4 - v**2 + 1)/v**8",
+      "coefficient_Phi2_order": 2,
+      "unreduced_cable_trace": "J_31",
+      "minimum_trace_precision_to_test_order5": 3
+    },
+    {
+      "a": 3,
+      "b": 2,
+      "coefficient": "-(v**2 + 1)*(v**2 - v + 1)*(v**2 + v + 1)*(v**4 - v**2 + 1)/v**5",
+      "coefficient_Phi2_order": 1,
+      "unreduced_cable_trace": "J_32",
+      "minimum_trace_precision_to_test_order5": 4
+    },
+    {
+      "a": 3,
+      "b": 3,
+      "coefficient": "1",
+      "coefficient_Phi2_order": 0,
+      "unreduced_cable_trace": "J_33",
+      "minimum_trace_precision_to_test_order5": 5
+    }
+  ],
+  "denominator_Phi2_order": 2,
+  "Habiro_H3_Phi2_order": 2,
+  "extra_I3_Phi2_order": 1,
+  "required_numerator_Phi2_order": 5,
+  "criterion": "Using Habiro baseline, the q=-1 part of Suzuki(3,3) is N33 divisible by (v^2+1)^5. Full I3 also requires order3 atq=1. Passing this local test does not establish all ideal conditions.",
+  "boundary_condition": "Boundary links satisfy Suzuki ideal by theorem; use known boundary links as passing controls.",
+  "coefficient_drop": "Terms with a+b<=1 have coefficient order>=5 and contribute zero to this local test. Remaining traces need the listed precisions; no extra trace nullity is assumed."
+}

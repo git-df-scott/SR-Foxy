@@ -1,0 +1,1290 @@
+{
+  "all81_excluded": true,
+  "method": "Integer modular arithmetic and Euler criterion only; no algebra system or finite-field factorization",
+  "rounds": [
+    {
+      "ell": 37,
+      "trace_of_primitive_19th_root": 7,
+      "all_possible_traces": [
+        7,
+        8,
+        10,
+        19,
+        24,
+        25,
+        26,
+        31,
+        34
+      ],
+      "A_coefficients": [
+        13,
+        5,
+        11,
+        30,
+        36,
+        12,
+        6,
+        30,
+        18
+      ],
+      "B_coefficients": [
+        12,
+        23,
+        5,
+        5,
+        18,
+        35,
+        11,
+        12,
+        3
+      ]
+    },
+    {
+      "ell": 113,
+      "trace_of_primitive_19th_root": 7,
+      "all_possible_traces": [
+        7,
+        47,
+        60,
+        61,
+        95,
+        96,
+        98,
+        103,
+        110
+      ],
+      "A_coefficients": [
+        71,
+        55,
+        54,
+        9,
+        93,
+        65,
+        16,
+        85,
+        93
+      ],
+      "B_coefficients": [
+        54,
+        97,
+        1,
+        64,
+        53,
+        46,
+        89,
+        13,
+        11
+      ]
+    },
+    {
+      "ell": 227,
+      "trace_of_primitive_19th_root": 19,
+      "all_possible_traces": [
+        19,
+        60,
+        62,
+        69,
+        132,
+        170,
+        193,
+        210,
+        219
+      ],
+      "A_coefficients": [
+        130,
+        47,
+        54,
+        120,
+        204,
+        213,
+        159,
+        58,
+        126
+      ],
+      "B_coefficients": [
+        120,
+        15,
+        108,
+        24,
+        195,
+        172,
+        95,
+        218,
+        164
+      ]
+    },
+    {
+      "ell": 379,
+      "trace_of_primitive_19th_root": 17,
+      "all_possible_traces": [
+        17,
+        54,
+        124,
+        214,
+        261,
+        278,
+        287,
+        314,
+        345
+      ],
+      "A_coefficients": [
+        31,
+        275,
+        356,
+        286,
+        65,
+        216,
+        111,
+        244,
+        287
+      ],
+      "B_coefficients": [
+        305,
+        211,
+        71,
+        159,
+        74,
+        365,
+        196,
+        210,
+        280
+      ]
+    }
+  ],
+  "witnesses": [
+    {
+      "pair": [
+        1,
+        1
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 13,
+      "B": 12,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 13,
+      "B": 23,
+      "quadratic_discriminant_legendre": [
+        -1,
+        1
+      ]
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 13,
+      "B": 5,
+      "quadratic_discriminant_legendre": [
+        -1,
+        1
+      ]
+    },
+    {
+      "pair": [
+        1,
+        4
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 13,
+      "B": 5,
+      "quadratic_discriminant_legendre": [
+        -1,
+        1
+      ]
+    },
+    {
+      "pair": [
+        1,
+        5
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 13,
+      "B": 18,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        1,
+        6
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 13,
+      "B": 35,
+      "quadratic_discriminant_legendre": [
+        -1,
+        0
+      ]
+    },
+    {
+      "pair": [
+        1,
+        7
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 13,
+      "B": 11,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        1,
+        8
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 13,
+      "B": 12,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        1,
+        9
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 13,
+      "B": 3,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        2,
+        1
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 5,
+      "B": 12,
+      "quadratic_discriminant_legendre": [
+        1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        2,
+        2
+      ],
+      "ell": 227,
+      "w": 19,
+      "A": 47,
+      "B": 15,
+      "quadratic_discriminant_legendre": [
+        -1,
+        1
+      ]
+    },
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "ell": 113,
+      "w": 7,
+      "A": 55,
+      "B": 1,
+      "quadratic_discriminant_legendre": [
+        1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        2,
+        4
+      ],
+      "ell": 113,
+      "w": 7,
+      "A": 55,
+      "B": 64,
+      "quadratic_discriminant_legendre": [
+        1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        2,
+        5
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 5,
+      "B": 18,
+      "quadratic_discriminant_legendre": [
+        1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        2,
+        6
+      ],
+      "ell": 113,
+      "w": 7,
+      "A": 55,
+      "B": 46,
+      "quadratic_discriminant_legendre": [
+        1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        2,
+        7
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 5,
+      "B": 11,
+      "quadratic_discriminant_legendre": [
+        1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        2,
+        8
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 5,
+      "B": 12,
+      "quadratic_discriminant_legendre": [
+        1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        2,
+        9
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 5,
+      "B": 3,
+      "quadratic_discriminant_legendre": [
+        1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        3,
+        1
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 11,
+      "B": 12,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        3,
+        2
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 11,
+      "B": 23,
+      "quadratic_discriminant_legendre": [
+        -1,
+        1
+      ]
+    },
+    {
+      "pair": [
+        3,
+        3
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 11,
+      "B": 5,
+      "quadratic_discriminant_legendre": [
+        -1,
+        1
+      ]
+    },
+    {
+      "pair": [
+        3,
+        4
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 11,
+      "B": 5,
+      "quadratic_discriminant_legendre": [
+        -1,
+        1
+      ]
+    },
+    {
+      "pair": [
+        3,
+        5
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 11,
+      "B": 18,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        3,
+        6
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 11,
+      "B": 35,
+      "quadratic_discriminant_legendre": [
+        -1,
+        0
+      ]
+    },
+    {
+      "pair": [
+        3,
+        7
+      ],
+      "ell": 227,
+      "w": 19,
+      "A": 54,
+      "B": 95,
+      "quadratic_discriminant_legendre": [
+        1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        3,
+        8
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 11,
+      "B": 12,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        3,
+        9
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 11,
+      "B": 3,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        4,
+        1
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 30,
+      "B": 12,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        4,
+        2
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 30,
+      "B": 23,
+      "quadratic_discriminant_legendre": [
+        -1,
+        1
+      ]
+    },
+    {
+      "pair": [
+        4,
+        3
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 30,
+      "B": 5,
+      "quadratic_discriminant_legendre": [
+        -1,
+        1
+      ]
+    },
+    {
+      "pair": [
+        4,
+        4
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 30,
+      "B": 5,
+      "quadratic_discriminant_legendre": [
+        -1,
+        1
+      ]
+    },
+    {
+      "pair": [
+        4,
+        5
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 30,
+      "B": 18,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        4,
+        6
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 30,
+      "B": 35,
+      "quadratic_discriminant_legendre": [
+        -1,
+        0
+      ]
+    },
+    {
+      "pair": [
+        4,
+        7
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 30,
+      "B": 11,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        4,
+        8
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 30,
+      "B": 12,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        4,
+        9
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 30,
+      "B": 3,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        5,
+        1
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 36,
+      "B": 12,
+      "quadratic_discriminant_legendre": [
+        1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        5,
+        2
+      ],
+      "ell": 379,
+      "w": 17,
+      "A": 65,
+      "B": 211,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        5,
+        3
+      ],
+      "ell": 113,
+      "w": 7,
+      "A": 93,
+      "B": 1,
+      "quadratic_discriminant_legendre": [
+        1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        5,
+        4
+      ],
+      "ell": 113,
+      "w": 7,
+      "A": 93,
+      "B": 64,
+      "quadratic_discriminant_legendre": [
+        1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        5,
+        5
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 36,
+      "B": 18,
+      "quadratic_discriminant_legendre": [
+        1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        5,
+        6
+      ],
+      "ell": 113,
+      "w": 7,
+      "A": 93,
+      "B": 46,
+      "quadratic_discriminant_legendre": [
+        1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        5,
+        7
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 36,
+      "B": 11,
+      "quadratic_discriminant_legendre": [
+        1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        5,
+        8
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 36,
+      "B": 12,
+      "quadratic_discriminant_legendre": [
+        1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        5,
+        9
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 36,
+      "B": 3,
+      "quadratic_discriminant_legendre": [
+        1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        6,
+        1
+      ],
+      "ell": 113,
+      "w": 7,
+      "A": 65,
+      "B": 54,
+      "quadratic_discriminant_legendre": [
+        -1,
+        1
+      ]
+    },
+    {
+      "pair": [
+        6,
+        2
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 12,
+      "B": 23,
+      "quadratic_discriminant_legendre": [
+        -1,
+        1
+      ]
+    },
+    {
+      "pair": [
+        6,
+        3
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 12,
+      "B": 5,
+      "quadratic_discriminant_legendre": [
+        -1,
+        1
+      ]
+    },
+    {
+      "pair": [
+        6,
+        4
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 12,
+      "B": 5,
+      "quadratic_discriminant_legendre": [
+        -1,
+        1
+      ]
+    },
+    {
+      "pair": [
+        6,
+        5
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 12,
+      "B": 18,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        6,
+        6
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 12,
+      "B": 35,
+      "quadratic_discriminant_legendre": [
+        -1,
+        0
+      ]
+    },
+    {
+      "pair": [
+        6,
+        7
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 12,
+      "B": 11,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        6,
+        8
+      ],
+      "ell": 113,
+      "w": 7,
+      "A": 65,
+      "B": 13,
+      "quadratic_discriminant_legendre": [
+        -1,
+        1
+      ]
+    },
+    {
+      "pair": [
+        6,
+        9
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 12,
+      "B": 3,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        7,
+        1
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 6,
+      "B": 12,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        7,
+        2
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 6,
+      "B": 23,
+      "quadratic_discriminant_legendre": [
+        -1,
+        1
+      ]
+    },
+    {
+      "pair": [
+        7,
+        3
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 6,
+      "B": 5,
+      "quadratic_discriminant_legendre": [
+        -1,
+        1
+      ]
+    },
+    {
+      "pair": [
+        7,
+        4
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 6,
+      "B": 5,
+      "quadratic_discriminant_legendre": [
+        -1,
+        1
+      ]
+    },
+    {
+      "pair": [
+        7,
+        5
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 6,
+      "B": 18,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        7,
+        6
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 6,
+      "B": 35,
+      "quadratic_discriminant_legendre": [
+        -1,
+        0
+      ]
+    },
+    {
+      "pair": [
+        7,
+        7
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 6,
+      "B": 11,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        7,
+        8
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 6,
+      "B": 12,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        7,
+        9
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 6,
+      "B": 3,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        8,
+        1
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 30,
+      "B": 12,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        8,
+        2
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 30,
+      "B": 23,
+      "quadratic_discriminant_legendre": [
+        -1,
+        1
+      ]
+    },
+    {
+      "pair": [
+        8,
+        3
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 30,
+      "B": 5,
+      "quadratic_discriminant_legendre": [
+        -1,
+        1
+      ]
+    },
+    {
+      "pair": [
+        8,
+        4
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 30,
+      "B": 5,
+      "quadratic_discriminant_legendre": [
+        -1,
+        1
+      ]
+    },
+    {
+      "pair": [
+        8,
+        5
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 30,
+      "B": 18,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        8,
+        6
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 30,
+      "B": 35,
+      "quadratic_discriminant_legendre": [
+        -1,
+        0
+      ]
+    },
+    {
+      "pair": [
+        8,
+        7
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 30,
+      "B": 11,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        8,
+        8
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 30,
+      "B": 12,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        8,
+        9
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 30,
+      "B": 3,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        9,
+        1
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 18,
+      "B": 12,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        9,
+        2
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 18,
+      "B": 23,
+      "quadratic_discriminant_legendre": [
+        -1,
+        1
+      ]
+    },
+    {
+      "pair": [
+        9,
+        3
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 18,
+      "B": 5,
+      "quadratic_discriminant_legendre": [
+        -1,
+        1
+      ]
+    },
+    {
+      "pair": [
+        9,
+        4
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 18,
+      "B": 5,
+      "quadratic_discriminant_legendre": [
+        -1,
+        1
+      ]
+    },
+    {
+      "pair": [
+        9,
+        5
+      ],
+      "ell": 113,
+      "w": 7,
+      "A": 93,
+      "B": 53,
+      "quadratic_discriminant_legendre": [
+        1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        9,
+        6
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 18,
+      "B": 35,
+      "quadratic_discriminant_legendre": [
+        -1,
+        0
+      ]
+    },
+    {
+      "pair": [
+        9,
+        7
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 18,
+      "B": 11,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        9,
+        8
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 18,
+      "B": 12,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "pair": [
+        9,
+        9
+      ],
+      "ell": 37,
+      "w": 7,
+      "A": 18,
+      "B": 3,
+      "quadratic_discriminant_legendre": [
+        -1,
+        -1
+      ]
+    }
+  ]
+}

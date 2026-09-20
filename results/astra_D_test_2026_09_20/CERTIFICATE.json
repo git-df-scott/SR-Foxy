@@ -1,0 +1,110 @@
+{
+  "dual_pairing_coefficients": [
+    6,
+    3
+  ],
+  "all_nonzero_pairs_mod_sign": [
+    {
+      "a": 1,
+      "b": 1,
+      "dual_linking_zero": false,
+      "exact_polynomials_equal": false
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "dual_linking_zero": false,
+      "exact_polynomials_equal": true
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "dual_linking_zero": true,
+      "exact_polynomials_equal": false
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "dual_linking_zero": true,
+      "exact_polynomials_equal": false
+    },
+    {
+      "a": 2,
+      "b": 2,
+      "dual_linking_zero": false,
+      "exact_polynomials_equal": false
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "dual_linking_zero": false,
+      "exact_polynomials_equal": true
+    },
+    {
+      "a": 3,
+      "b": 1,
+      "dual_linking_zero": false,
+      "exact_polynomials_equal": true
+    },
+    {
+      "a": 3,
+      "b": 2,
+      "dual_linking_zero": true,
+      "exact_polynomials_equal": false
+    },
+    {
+      "a": 3,
+      "b": 3,
+      "dual_linking_zero": false,
+      "exact_polynomials_equal": false
+    }
+  ],
+  "isotropic_character_slopes_mod7": [
+    3,
+    4
+  ],
+  "witness": {
+    "a": 1,
+    "b_mod_sign": 3,
+    "prime": 13,
+    "first_reduced_polynomial": "t^2+11t+1",
+    "second_reduced_polynomial": "t^2+3t+1",
+    "second_discriminant": 5,
+    "second_discriminant_Legendre": -1
+  },
+  "controls": [
+    {
+      "name": "K9n4",
+      "transformation": "reordered",
+      "matched_scale": 1,
+      "expected_pairing": 6,
+      "actual_pairing": 6,
+      "polynomial": "x^2 + 11*x + 1"
+    },
+    {
+      "name": "K9n4",
+      "transformation": "mirror",
+      "matched_scale": 1,
+      "expected_pairing": 1,
+      "actual_pairing": 1,
+      "polynomial": "x^2 + 11*x + 1"
+    },
+    {
+      "name": "K14n282",
+      "transformation": "reordered",
+      "matched_scale": 1,
+      "expected_pairing": 3,
+      "actual_pairing": 3,
+      "polynomial": "x^2 + 12*x + 1"
+    },
+    {
+      "name": "K14n282",
+      "transformation": "mirror",
+      "matched_scale": 2,
+      "expected_pairing": 2,
+      "actual_pairing": 2,
+      "polynomial": "x^2 + 11*x + 1"
+    }
+  ],
+  "conclusion": "Every metabolizer has an annihilating non-norm character; D is not locally flat slice, conditional on the recorded standard linking/twisted-torsion theorem conventions."
+}

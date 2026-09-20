@@ -1,0 +1,3 @@
+/private/tmp/sr-foxy-20260919-leads-venv/lib/python3.11/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+{"label": "L14n38935", "doubled_cycle": 0, "selected_component": 1, "habiro_baseline_pass": true, "suzuki_ribbon_pass": false, "coloured_J": "-(v - 1)**2*(v + 1)**2*(v**2 + 1)*(v**4 + 1)*(v**2 - v + 1)**2*(v**2 + v + 1)**2*(v**4 - v**3 + v**2 - v + 1)*(v**4 + v**3 + v**2 + v + 1)/v**6", "ribbon_quotient_denominator": "v**6*(v - 1)*(v + 1)", "scope": "Exact ideal test on encoded link with calibrated framing. A pass is not ribbonness; source identification remains qualified."}

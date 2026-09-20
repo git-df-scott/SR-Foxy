@@ -1,0 +1,8 @@
+{
+  "status": "failed",
+  "error": "AssertionError('Fox chain identity failed')",
+  "label": "control",
+  "p": 3,
+  "q": 7,
+  "a": 2
+}

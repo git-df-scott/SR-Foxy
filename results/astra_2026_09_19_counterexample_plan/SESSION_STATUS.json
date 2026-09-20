@@ -1,0 +1,20 @@
+{
+  "status": "No counterexample; inconclusive research",
+  "usage_start_percent": 0,
+  "usage_stop_percent": 4,
+  "usage_window_minutes": 10080,
+  "allowance_percentage_points": 5,
+  "meter_scope": "shared account; integer precision",
+  "next_session": "2026-09-19 16:00 America/Edmonton",
+  "automation_id": "slice-ribbon-next-5-session-at-4-pm",
+  "remote_commit": "def9f2192ce6e80393a45c289b77eceb1c3617a2",
+  "published": false,
+  "dependencies": {
+    "snappy": "3.3.2",
+    "spherogram": "2.4.1",
+    "regina": "7.4.1",
+    "sympy": "1.14.0",
+    "knot_floer_homology": "1.2.2",
+    "networkx": "3.6.1"
+  }
+}

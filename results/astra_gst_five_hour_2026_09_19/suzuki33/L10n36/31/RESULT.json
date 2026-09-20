@@ -1,0 +1,181 @@
+{
+  "coefficients_mod101": [
+    0,
+    0,
+    0
+  ],
+  "crossings": 18,
+  "morse_width": 8,
+  "max_retained_states": 13,
+  "chosen_layout_index": 4,
+  "morse_events": [
+    [
+      "cup",
+      0,
+      1
+    ],
+    [
+      "cup",
+      0,
+      1
+    ],
+    [
+      "cross",
+      1,
+      2
+    ],
+    [
+      "cup",
+      3,
+      4
+    ],
+    [
+      "cross",
+      2,
+      3
+    ],
+    [
+      "cross",
+      2,
+      3
+    ],
+    [
+      "cross",
+      1,
+      2
+    ],
+    [
+      "cup",
+      4,
+      5
+    ],
+    [
+      "cross",
+      3,
+      4
+    ],
+    [
+      "cross",
+      5,
+      4
+    ],
+    [
+      "cap",
+      5,
+      6
+    ],
+    [
+      "cross",
+      4,
+      5
+    ],
+    [
+      "cross",
+      2,
+      3
+    ],
+    [
+      "cap",
+      3,
+      4
+    ],
+    [
+      "cup",
+      4,
+      5
+    ],
+    [
+      "cross",
+      3,
+      4
+    ],
+    [
+      "cross",
+      3,
+      2
+    ],
+    [
+      "cross",
+      2,
+      1
+    ],
+    [
+      "cup",
+      4,
+      5
+    ],
+    [
+      "cross",
+      4,
+      3
+    ],
+    [
+      "cross",
+      3,
+      2
+    ],
+    [
+      "cross",
+      6,
+      5
+    ],
+    [
+      "cross",
+      4,
+      5
+    ],
+    [
+      "cap",
+      5,
+      6
+    ],
+    [
+      "cross",
+      3,
+      4
+    ],
+    [
+      "cross",
+      3,
+      2
+    ],
+    [
+      "cap",
+      3,
+      4
+    ],
+    [
+      "cross",
+      2,
+      1
+    ],
+    [
+      "cap",
+      0,
+      1
+    ],
+    [
+      "cap",
+      0,
+      1
+    ]
+  ],
+  "layout_seeds": [
+    20260920,
+    20260921,
+    20260922,
+    20260923
+  ],
+  "layout_score": [
+    4,
+    113
+  ],
+  "starts_tested": 72,
+  "scope": "Unreduced Jones in F101[x]/x^precision atv=10+x; modularzero is inconclusive.",
+  "label": "L10n36",
+  "a": 3,
+  "b": 1,
+  "precision": 3,
+  "seconds": 0.012182208942249417,
+  "independent_full_regina_agrees": true
+}

@@ -1,0 +1,47 @@
+{
+  "scope": "Preserved earlier parent-checkout research files without replacing current main documents. These historical snapshots do not supersede newer exclusions. Third-party PDF/text caches in tmp/pdfs and Python bytecode omitted.",
+  "files": [
+    {
+      "source": "ABANDONED_WEAPONS_2010_2026.md",
+      "sha256": "861a6d12e791466feabf9eedaf341c3f706eae9d4108809596b83963936ccdcd",
+      "already_identical_on_main": false,
+      "snapshot": "ABANDONED_WEAPONS_2010_2026.md"
+    },
+    {
+      "source": "CANDIDATE_LEDGER.md",
+      "sha256": "ae29cd5bb9bc1f5a1f5f5d0bfa8d2f791c5bd1ae0278ce5af1584363a858b1f1",
+      "already_identical_on_main": false,
+      "snapshot": "CANDIDATE_LEDGER.md"
+    },
+    {
+      "source": "MANIFEST.md",
+      "sha256": "9d405e9e0cf122b7778046f0e47a07657bbd3c7f90f9ee84e8a017a291a7c930",
+      "already_identical_on_main": false,
+      "snapshot": "MANIFEST.md"
+    },
+    {
+      "source": "OBSTRUCTION_MATRIX.md",
+      "sha256": "3d774dd9ed8c4c955234cb9de60dda28c6eb362cc4ed4badd5126703b4a1e953",
+      "already_identical_on_main": false,
+      "snapshot": "OBSTRUCTION_MATRIX.md"
+    },
+    {
+      "source": "SESSION0_BATTLEFIELD.md",
+      "sha256": "b329c3f8f3028ae1ceef6752bc4502fb8df468a1218a80ca5e61e2c7d7cb4642",
+      "already_identical_on_main": false,
+      "snapshot": "SESSION0_BATTLEFIELD.md"
+    },
+    {
+      "source": "SOURCES.md",
+      "sha256": "547a4665ca5852219fb6ceaab15a93980e073fd0ebc01389971535dace942835",
+      "already_identical_on_main": false,
+      "snapshot": "SOURCES.md"
+    },
+    {
+      "source": "KDG_EXACT_AUDIT.md",
+      "sha256": "0eaabe383871a84a09898e63691b20cd46462c20af3217c4c77e9236f456f066",
+      "already_identical_on_main": false,
+      "snapshot": "KDG_EXACT_AUDIT.md"
+    }
+  ]
+}

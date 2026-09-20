@@ -1,0 +1,9 @@
+/private/tmp/sr-foxy-20260919-leads-venv/lib/python3.11/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+Red sublink 0 crossings; unlinked unknot count 2
+Partial filling 8 tetrahedra Z + Z
+Meridian filled group Generators:
+   
+Relators:
+   
+{"n": 101, "source_status": "EXPERIMENTAL_SOURCE_TRANSCRIPTION", "red_unlink_reduced_crossings": 0, "red_unlink_components": 2, "pd": [[4, 9, 5, 10], [14, 3, 15, 0], [15, 19, 16, 18], [5, 3, 6, 2], [8, 19, 9, 4], [0, 13, 1, 14], [17, 13, 18, 12], [11, 17, 12, 16], [10, 7, 11, 8], [1, 7, 2, 6]], "crossings": 10, "components": 2, "linking_matrix": [[0, 0], [0, 0]], "component_determinants": [1, 9], "null_V": 1, "det_V": -23, "notes": {"jones": "-1*q^-9 + 1*q^-7 + -1*q^-5 + 1*q^-3 + 1*q^-1 + 1*q^1 + 1*q^3 + -1*q^5 + 1*q^7 + -1*q^9", "shift": -9, "order_of_q2_plus_1": 1, "det_V_imaginary_part": 0}, "reconstruction_seconds": 0.4094867706298828, "seed": 20260919, "all_reconstruction_checks_enabled": true, "exterior_volume_approx": "7.3277247534"}

@@ -1,0 +1,237 @@
+{
+  "rows": [
+    {
+      "label": "L10n36",
+      "components": 2,
+      "sublink_polynomials": {
+        "1": {
+          "0": 1
+        },
+        "2": {
+          "0": 3,
+          "-4": 1,
+          "4": 1,
+          "-6": -1,
+          "-2": -1,
+          "2": -1,
+          "6": -1
+        },
+        "3": {
+          "1": 1,
+          "-1": 1,
+          "-7": 1,
+          "-3": 1,
+          "3": 1,
+          "7": 1,
+          "-9": -1,
+          "-5": -1,
+          "5": -1,
+          "9": -1
+        }
+      },
+      "reduced_coloured_J": "-(v - 1)**2*(v + 1)**2*(v**2 + 1)**2*(v**4 + 1)*(v**2 - v + 1)*(v**2 + v + 1)/v**8",
+      "habiro_baseline_pass": true,
+      "suzuki_ribbon_pass": true,
+      "ribbon_quotient_denominator": "v**8"
+    },
+    {
+      "label": "L5a1",
+      "components": 2,
+      "sublink_polynomials": {
+        "1": {
+          "0": 1
+        },
+        "2": {
+          "0": 1
+        },
+        "3": {
+          "3": 1,
+          "1": -1,
+          "-7": -1,
+          "-3": -1,
+          "-1": 2,
+          "-5": 2
+        }
+      },
+      "reduced_coloured_J": "(v - 1)*(v + 1)*(v**2 + 1)*(v**2 - v + 1)*(v**2 + v + 1)/v**6",
+      "habiro_baseline_pass": true,
+      "suzuki_ribbon_pass": false,
+      "ribbon_quotient_denominator": "v**6*(v - 1)*(v + 1)"
+    },
+    {
+      "label": "L6a4",
+      "components": 3,
+      "sublink_polynomials": {
+        "1": {
+          "0": 1
+        },
+        "2": {
+          "0": 1
+        },
+        "3": {
+          "1": 1,
+          "-1": 1
+        },
+        "4": {
+          "0": 1
+        },
+        "5": {
+          "1": 1,
+          "-1": 1
+        },
+        "6": {
+          "1": 1,
+          "-1": 1
+        },
+        "7": {
+          "0": 4,
+          "-6": -1,
+          "6": -1,
+          "-2": -2,
+          "2": -2,
+          "-4": 3,
+          "4": 3
+        }
+      },
+      "reduced_coloured_J": "-(v - 1)*(v + 1)*(v**2 + 1)*(v**2 - v + 1)*(v**2 + v + 1)/v**4",
+      "habiro_baseline_pass": true,
+      "suzuki_ribbon_pass": false,
+      "ribbon_quotient_denominator": "v**4*(v - 1)**2*(v + 1)**2"
+    },
+    {
+      "label": "provisional_GST_n1",
+      "components": 2,
+      "sublink_polynomials": {
+        "1": {
+          "0": 1
+        },
+        "2": {
+          "6": -1,
+          "4": 1,
+          "2": -1,
+          "0": 3,
+          "-2": -1,
+          "-4": 1,
+          "-6": -1
+        },
+        "3": {
+          "-15": -1,
+          "-13": 2,
+          "-11": -2,
+          "-9": 1,
+          "-1": 1,
+          "1": 1,
+          "9": 1,
+          "11": -2,
+          "13": 2,
+          "15": -1
+        }
+      },
+      "reduced_coloured_J": "-(v - 1)**2*(v + 1)**2*(v**2 + 1)**2*(v**4 + 1)*(v**2 - v + 1)*(v**2 + v + 1)*(v**12 + v**8 + 2*v**6 + v**4 + 1)/v**14",
+      "habiro_baseline_pass": true,
+      "suzuki_ribbon_pass": true,
+      "ribbon_quotient_denominator": "v**14"
+    },
+    {
+      "label": "provisional_GST_n2",
+      "components": 2,
+      "sublink_polynomials": {
+        "1": {
+          "6": -1,
+          "4": 1,
+          "2": -1,
+          "0": 3,
+          "-2": -1,
+          "-4": 1,
+          "-6": -1
+        },
+        "2": {
+          "6": -1,
+          "4": 1,
+          "2": -1,
+          "0": 3,
+          "-2": -1,
+          "-4": 1,
+          "-6": -1
+        },
+        "3": {
+          "-19": 1,
+          "-17": -2,
+          "-15": 1,
+          "-9": -3,
+          "-7": 4,
+          "-5": -3,
+          "-3": 2,
+          "-1": 1,
+          "1": 1,
+          "3": 2,
+          "5": -3,
+          "7": 4,
+          "9": -3,
+          "15": 1,
+          "17": -2,
+          "19": 1
+        }
+      },
+      "reduced_coloured_J": "(v - 1)**2*(v + 1)**2*(v**2 + 1)**2*(v**4 + 1)*(v**2 - v + 1)*(v**2 + v + 1)*(v**20 + v**14 + v**12 - 3*v**10 + v**8 + v**6 + 1)/v**18",
+      "habiro_baseline_pass": true,
+      "suzuki_ribbon_pass": true,
+      "ribbon_quotient_denominator": "v**18"
+    },
+    {
+      "label": "provisional_GST_n3",
+      "components": 2,
+      "sublink_polynomials": {
+        "1": {
+          "10": -1,
+          "6": -1,
+          "4": 1,
+          "0": 3,
+          "-4": 1,
+          "-6": -1,
+          "-10": -1
+        },
+        "2": {
+          "6": -1,
+          "4": 1,
+          "2": -1,
+          "0": 3,
+          "-2": -1,
+          "-4": 1,
+          "-6": -1
+        },
+        "3": {
+          "-29": 1,
+          "-27": -1,
+          "-21": 1,
+          "-19": -1,
+          "-17": -1,
+          "-15": -2,
+          "-13": 4,
+          "-11": -5,
+          "-9": 2,
+          "-5": 1,
+          "-1": 2,
+          "1": 2,
+          "5": 1,
+          "9": 2,
+          "11": -5,
+          "13": 4,
+          "15": -2,
+          "17": -1,
+          "19": -1,
+          "21": 1,
+          "27": -1,
+          "29": 1
+        }
+      },
+      "reduced_coloured_J": "(v - 1)**2*(v + 1)**2*(v**2 + 1)**2*(v**4 + 1)*(v**2 - v + 1)*(v**2 + v + 1)*(v**40 + v**38 + v**36 + 2*v**34 + 4*v**32 + 4*v**30 + 4*v**28 + 3*v**26 + 6*v**24 + 3*v**22 + v**20 + 3*v**18 + 6*v**16 + 3*v**14 + 4*v**12 + 4*v**10 + 4*v**8 + 2*v**6 + v**4 + v**2 + 1)/v**28",
+      "habiro_baseline_pass": true,
+      "suzuki_ribbon_pass": true,
+      "ribbon_quotient_denominator": "v**28"
+    }
+  ],
+  "normalization": "v is repo q; Suzuki q=v^2. Zero linking makes the oriented Jones normalization agree with the zero-framing quantum trace. Mirror convention does not affect ideal membership.",
+  "source": "Suzuki, AGT10(2010),Theorem1.5; DOI10.2140/agt.2010.10.1027",
+  "scope": "First reduced colour only. Higher colours are untested; source GST identity remains qualified."
+}

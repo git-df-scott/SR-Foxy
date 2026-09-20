@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "crossings": 48,
+  "darts": 192,
+  "edge_gluing_preserved": true,
+  "cyclic_order_preserved": true,
+  "over_under_preserved": true,
+  "corruptions_rejected": [
+    "crossing_rotation",
+    "bijection_swap"
+  ],
+  "scope": "Trace PD equals stored PD as marked planar maps. The raster gap transcription and twist handedness remain separate assumptions; no L31 identification."
+}

@@ -1,5 +1,7 @@
 # Slice–Ribbon counterexample research
 
+**20 September update:** [published local research and current handoff](RESEARCH_PROGRESS_2026_09_20.md). The marked test excludes `K9n4#(-K14n282)`; no counterexample has been established. The dated 19 September summary below is preserved as historical context.
+
 **No counterexample found.** Start with the [19 September night handoff](HANDOFF_2026_09_19_OPUS_NIGHT.md), the current state of the whole board. It supersedes the 14 September [`HANDOFF.md`](HANDOFF.md), which is kept for history. Read the retractions in its §4 before relying on anything from earlier sessions.
 
 ## Where things stand

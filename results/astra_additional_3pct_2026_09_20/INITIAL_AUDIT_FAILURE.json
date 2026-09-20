@@ -1,0 +1,3 @@
+{
+  "error": "Saved exact and modular calculations use different simplified relators for K7a2. Same-generator equality is not justified. Repair by checking full Galois orbit and perform all81 tests directly in the exact coefficient marking."
+}

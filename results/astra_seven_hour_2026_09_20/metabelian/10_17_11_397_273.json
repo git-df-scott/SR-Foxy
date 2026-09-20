@@ -1,0 +1,90 @@
+{
+  "label": "10_17",
+  "cover_degree": 11,
+  "character_prime": 397,
+  "deck_eigenvalue": 273,
+  "reduction_prime": 2381,
+  "field": "Context for fq_default in GF(2381^2)[u]/(u^2 + 2379*u + 3)",
+  "root": "582*u + 1708",
+  "generators": [
+    "a",
+    "b",
+    "c"
+  ],
+  "relators": [
+    "bCCbccBCCCBccbCCbcccbCCBccBCCbcccbCCBccBCCbcccbCCbccBCCCBcc",
+    "aaccBCCCBccbCCbccBCCCBccbCCbccBccbCCbccBCCCBccbCCbccBCCCBccbccBCCCBccbCCbccBCCCBccbCCbccBccbCCbccBCCCBccbCCbccBCCCBccbb"
+  ],
+  "abelianization": [
+    1,
+    -2,
+    4
+  ],
+  "cocycle": [
+    54,
+    1,
+    0
+  ],
+  "cocycle_dimension": 2,
+  "reduced_twisted_polynomial": "x^14 + 2*x^13 + 2191*x^12 + 1999*x^11 + 882*x^10 + 2146*x^9 + 1481*x^8 + 816*x^7 + 1481*x^6 + 2146*x^5 + 882*x^4 + 1999*x^3 + 2191*x^2 + 2*x + 1",
+  "degree": 14,
+  "factors": [
+    [
+      "x + 448",
+      1
+    ],
+    [
+      "x + 530",
+      1
+    ],
+    [
+      "x + 894",
+      1
+    ],
+    [
+      "x + 1047",
+      1
+    ],
+    [
+      "x + 1334",
+      1
+    ],
+    [
+      "x + 1487",
+      1
+    ],
+    [
+      "x + 1851",
+      1
+    ],
+    [
+      "x + 1933",
+      1
+    ],
+    [
+      "x + (797*u + 234)",
+      1
+    ],
+    [
+      "x + (797*u + 553)",
+      1
+    ],
+    [
+      "x + (1584*u + 1828)",
+      1
+    ],
+    [
+      "x + (1584*u + 2147)",
+      1
+    ],
+    [
+      "x + 1",
+      2
+    ]
+  ],
+  "not_norm_mod_reduction": false,
+  "bad_factors": [],
+  "representation_and_Fox_checks": true,
+  "seconds": 0.0188189169857651,
+  "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+}

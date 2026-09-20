@@ -1,0 +1,17 @@
+{
+  "url": "https://arxiv.org/pdf/1405.3062",
+  "sha256": "4d95c1f016ddb47921aecae335ce77b09a4dc7b45966b0c2034a8c4b731287d7",
+  "authors": [
+    "Jean-Baptiste Meilhan",
+    "Sakie Suzuki"
+  ],
+  "title": "The universal sl2 invariant and Milnor invariants",
+  "version": "arXiv1405.3062v2, 2016-10-06",
+  "checked": "2026-09-20UTC",
+  "claims_checked": [
+    "Theorem5.2 concerns projected universal invariant J^t, not all Taylor coefficients",
+    "Corollary5.4 concordance statement for projected invariant",
+    "Corollary7.6 PBW/h-order bound for string links with vanishing Milnor invariants"
+  ],
+  "not_established": "Our closed-link reduced-colour Taylor functional factoring through that projection."
+}

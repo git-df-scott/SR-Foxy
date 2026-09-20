@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "f": "t**8 - 2*t**7 + t**6 + t**5 - 2*t**4 + t**3 - 1",
+  "g": "t**8 - t**5 + 2*t**4 - t**3 - t**2 + 2*t - 1",
+  "resultant": 1849,
+  "smith_diagonal": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    43,
+    43
+  ],
+  "gcd_mod43": "t**2 - 4*t + 1",
+  "cover11_order": 3418801,
+  "scope": "Polynomial arithmetic independently rerun, not a fresh PD Alexander calculation, cover group decomposition or embedded-kernel obstruction."
+}

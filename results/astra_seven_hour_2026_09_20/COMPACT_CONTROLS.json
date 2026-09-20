@@ -1,0 +1,37 @@
+{
+  "exact_state_transition_checks": 2161,
+  "max_frontier_for_transition_checks": 10,
+  "trace_controls": [
+    {
+      "label": "GST1",
+      "agrees": true,
+      "max_states": 1430
+    },
+    {
+      "label": "GST2",
+      "agrees": true,
+      "max_states": 16796
+    },
+    {
+      "label": "L10n36",
+      "agrees": true,
+      "max_states": 126
+    },
+    {
+      "label": "L10n57",
+      "agrees": true,
+      "max_states": 132
+    },
+    {
+      "label": "GST3 mixed0",
+      "agrees": true,
+      "max_states": 16154
+    },
+    {
+      "label": "GST3 mixed1",
+      "agrees": true,
+      "max_states": 4862
+    }
+  ],
+  "scope": "Independent comparison with Spherogram operators and six saved ordinary TL contractions; all eight coefficients."
+}

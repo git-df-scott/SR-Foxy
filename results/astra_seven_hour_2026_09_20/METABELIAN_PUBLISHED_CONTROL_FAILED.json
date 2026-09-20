@@ -1,0 +1,68 @@
+{
+  "result": {
+    "label": "K12n224",
+    "cover_degree": 3,
+    "character_prime": 7,
+    "deck_eigenvalue": 4,
+    "reduction_prime": 13,
+    "field": "Context for fq_default in GF(13^2)[u]/(u^2 + 12*u + 2)",
+    "root": "4*u + 3",
+    "generators": [
+      "a",
+      "b",
+      "c"
+    ],
+    "relators": [
+      "abaBabABAbcaCAccACB",
+      "abbacACABBAbABAbacACBababacaCABabaB"
+    ],
+    "abelianization": [
+      -1,
+      2,
+      0
+    ],
+    "cocycle": [
+      3,
+      0,
+      1
+    ],
+    "cocycle_dimension": 2,
+    "reduced_twisted_polynomial": "x^4 + (9*u + 12)*x^3 + 6*x^2 + (4*u + 8)*x + 1",
+    "degree": 4,
+    "factors": [
+      [
+        "x + (3*u + 4)",
+        1
+      ],
+      [
+        "x + (4*u + 3)",
+        1
+      ],
+      [
+        "x + (6*u + 8)",
+        1
+      ],
+      [
+        "x + (9*u + 10)",
+        1
+      ]
+    ],
+    "not_norm_mod_reduction": true,
+    "bad_factors": [
+      {
+        "factor": "x + (4*u + 3)",
+        "multiplicity": 1,
+        "conjugate_multiplicity": 1
+      },
+      {
+        "factor": "x + (9*u + 10)",
+        "multiplicity": 1,
+        "conjugate_multiplicity": 1
+      }
+    ],
+    "representation_and_Fox_checks": true,
+    "seconds": 0.00799883296713233,
+    "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+  },
+  "error": "Published exact polynomial comparison mismatch; investigate sign of abelianization."
+}

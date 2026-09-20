@@ -1,0 +1,74 @@
+{
+  "label": "10_17",
+  "cover_degree": 7,
+  "character_prime": 29,
+  "deck_eigenvalue": 20,
+  "reduction_prime": 173,
+  "field": "Context for fq_default in GF(173^2)[u]/(u^2 + 169*u + 2)",
+  "root": "153*u + 92",
+  "generators": [
+    "a",
+    "b",
+    "c"
+  ],
+  "relators": [
+    "bCCbccBCCCBccbCCbcccbCCBccBCCbcccbCCBccBCCbcccbCCbccBCCCBcc",
+    "aaccBCCCBccbCCbccBCCCBccbCCbccBccbCCbccBCCCBccbCCbccBCCCBccbccBCCCBccbCCbccBCCCBccbCCbccBccbCCbccBCCCBccbCCbccBCCCBccbb"
+  ],
+  "abelianization": [
+    1,
+    -2,
+    4
+  ],
+  "cocycle": [
+    21,
+    1,
+    0
+  ],
+  "cocycle_dimension": 2,
+  "reduced_twisted_polynomial": "x^14 + 2*x^13 + 77*x^12 + 152*x^11 + 152*x^10 + 152*x^9 + 156*x^8 + 160*x^7 + 156*x^6 + 152*x^5 + 152*x^4 + 152*x^3 + 77*x^2 + 2*x + 1",
+  "degree": 14,
+  "factors": [
+    [
+      "x + (39*u + 85)",
+      1
+    ],
+    [
+      "x + (39*u + 105)",
+      1
+    ],
+    [
+      "x + (134*u + 68)",
+      1
+    ],
+    [
+      "x + (134*u + 88)",
+      1
+    ],
+    [
+      "x + 1",
+      2
+    ],
+    [
+      "x^2 + (78*u + 94)*x + 172",
+      1
+    ],
+    [
+      "x^2 + (78*u + 113)*x + 172",
+      1
+    ],
+    [
+      "x^2 + (95*u + 60)*x + 172",
+      1
+    ],
+    [
+      "x^2 + (95*u + 79)*x + 172",
+      1
+    ]
+  ],
+  "not_norm_mod_reduction": false,
+  "bad_factors": [],
+  "representation_and_Fox_checks": true,
+  "seconds": 0.0037794169038534164,
+  "scope": "Finite-field screen only; a non-norm requires a good-reduction/characteristic-zero audit before declaring nonsliceness."
+}

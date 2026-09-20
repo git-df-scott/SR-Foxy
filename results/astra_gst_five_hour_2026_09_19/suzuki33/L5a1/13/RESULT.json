@@ -1,0 +1,146 @@
+{
+  "coefficients_mod101": [
+    0,
+    0,
+    0
+  ],
+  "crossings": 13,
+  "morse_width": 8,
+  "max_retained_states": 10,
+  "chosen_layout_index": 25,
+  "morse_events": [
+    [
+      "cup",
+      0,
+      1
+    ],
+    [
+      "cup",
+      0,
+      1
+    ],
+    [
+      "cross",
+      1,
+      2
+    ],
+    [
+      "cup",
+      4,
+      5
+    ],
+    [
+      "cross",
+      3,
+      4
+    ],
+    [
+      "cross",
+      3,
+      2
+    ],
+    [
+      "cross",
+      1,
+      2
+    ],
+    [
+      "cross",
+      3,
+      2
+    ],
+    [
+      "cap",
+      3,
+      4
+    ],
+    [
+      "cup",
+      4,
+      5
+    ],
+    [
+      "cross",
+      4,
+      3
+    ],
+    [
+      "cross",
+      2,
+      3
+    ],
+    [
+      "cross",
+      2,
+      1
+    ],
+    [
+      "cup",
+      4,
+      5
+    ],
+    [
+      "cross",
+      3,
+      4
+    ],
+    [
+      "cross",
+      5,
+      4
+    ],
+    [
+      "cap",
+      5,
+      6
+    ],
+    [
+      "cross",
+      3,
+      2
+    ],
+    [
+      "cross",
+      3,
+      2
+    ],
+    [
+      "cap",
+      3,
+      4
+    ],
+    [
+      "cross",
+      2,
+      1
+    ],
+    [
+      "cap",
+      0,
+      1
+    ],
+    [
+      "cap",
+      0,
+      1
+    ]
+  ],
+  "layout_seeds": [
+    20260920,
+    20260921,
+    20260922,
+    20260923
+  ],
+  "layout_score": [
+    4,
+    61
+  ],
+  "starts_tested": 52,
+  "scope": "Unreduced Jones in F101[x]/x^precision atv=10+x; modularzero is inconclusive.",
+  "label": "L5a1",
+  "a": 1,
+  "b": 3,
+  "precision": 3,
+  "seconds": 0.008486416889354587,
+  "independent_full_regina_agrees": true
+}
